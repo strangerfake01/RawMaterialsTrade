@@ -1,5 +1,5 @@
 /* Raw Materials Trade Kft. — static, crawlable catalogue enhancement */
-const FORM_ENDPOINT = (window.RMT_FORM_CONFIG&&window.RMT_FORM_CONFIG.endpoint)||'https://muddy-voice-db90.6ymnrwgnv9.workers.dev/api/contact';
+const FORM_ENDPOINT = (window.RMT_FORM_CONFIG&&window.RMT_FORM_CONFIG.endpoint)||'/api/contact';
 function getLang(){const path=window.location.pathname.toLowerCase();const file=path.split('/').pop()||'';if(file==='hu.html'||file.startsWith('hu-')||file==='ai-profile-hu.html'||path.match(/\/hu\//))return'hu';if(file==='de-at.html'||file.startsWith('de-at-')||file==='ai-profile-de-at.html'||path.match(/\/de-at\//))return'de-at';return'en'}
 const FORM_TEXT={
   en:{gdpr:'Please acknowledge the privacy notice.',disc:'Please acknowledge the product documentation disclaimer.',sending:'Sending…',sent:'Thank you — your enquiry has been sent. We will respond within 1–2 business days.',mailto:'Your email client has been opened with a pre-filled message.',fail:'The form could not be sent. Your entries have been kept. Please try again or email',robot:'Please complete the security calculation correctly.',fast:'Please wait a few seconds before sending the form.'},
@@ -269,7 +269,7 @@ function initForm(){
   const form=document.getElementById('inquiryForm'),status=document.getElementById('formStatus');
   if(!form)return;
   const lang=getLang(),t=FORM_TEXT[lang]||FORM_TEXT.en;
-  const endpoint=FORM_ENDPOINT;
+  const endpoint='https://muddy-voice-db90.6ymnrwgnv9.workers.dev/api/contact';
   form.action=endpoint;
   form.dataset.endpoint='cloudflare-worker';
   const started=document.getElementById('formStartedAt');
@@ -301,7 +301,7 @@ function initForm(){
   async function initTurnstile(){
     if(!turnstileBox)return;
     try{
-      const response=await fetch(`${endpoint}/config`,{headers:{Accept:'application/json'},cache:'no-store',credentials:'omit'});
+      const response=await fetch(`${endpoint}/config`,{headers:{Accept:'application/json'},cache:'no-store',credentials:'same-origin'});
       const cfg=await response.json().catch(()=>null);
       if(!response.ok||!cfg||cfg.ok!==true||!cfg.siteKey)throw new Error('turnstile_config_unavailable');
       await loadScript('https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit');
@@ -333,10 +333,10 @@ function initForm(){
     try{
       const data=new FormData(form);
       data.set('submitted_at',new Date().toISOString());data.set('page_url',window.location.href);data.set('page_title',document.title||'');data.set('language',lang);data.set('form_source','rawmaterialstrade.com');
-      const response=await fetch(endpoint,{method:'POST',body:data,headers:{Accept:'application/json'},credentials:'omit'});
+      const response=await fetch(endpoint,{method:'POST',body:data,headers:{Accept:'application/json'},credentials:'same-origin'});
       const payload=await response.json().catch(()=>null);
       if(!response.ok||!payload||payload.ok!==true)throw new Error(payload?.code||payload?.message||`HTTP ${response.status}`);
-      show('success',form.dataset.successMsg||t.sent);form.reset();newMathChallenge();turnstileReady=false;
+      show('success',(payload.confirmationSent===true?form.dataset.successMsg:form.dataset.successBasicMsg)||t.sent);form.reset();newMathChallenge();turnstileReady=false;
       if(window.turnstile&&widgetId!==null)window.turnstile.reset(widgetId);
     }catch(err){
       console.error('RMT form submission failed',err);show('error',`${t.fail} office@rawmaterialstrade.com`);turnstileReady=false;
