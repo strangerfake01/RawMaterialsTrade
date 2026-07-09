@@ -26,7 +26,7 @@
         "issuedBy": "United Registrar of Systems (URS)",
         "issued": "2024-07-01",
         "validUntil": "2027-06-30",
-        "evidenceUrl": "https://www.rawmaterialstrade.com/cert-iso-9001-en.jpeg"
+        "evidenceUrl": "https://www.rawmaterialstrade.com/assets/images/certificates/cert-iso-9001-en.jpeg"
       },
       {
         "name": "GMP+ Feed Safety Assurance Module 2020",
@@ -36,7 +36,7 @@
         "issuedBy": "United Registrar of Systems GmbH",
         "validFrom": "2025-09-12",
         "validUntil": "2027-07-03",
-        "evidenceUrl": "https://www.rawmaterialstrade.com/cert-gmp-plus-2020.pdf"
+        "evidenceUrl": "https://www.rawmaterialstrade.com/assets/documents/certificates/cert-gmp-plus-2020.pdf"
       }
     ],
     "legalName": "RAW MATERIALS TRADE Korlátolt Felelősségű Társaság",
@@ -56,7 +56,7 @@
           "Hungarian",
           "English"
         ],
-        "profileUrl": "https://www.rawmaterialstrade.com/alexandra-sajban-frohner.html"
+        "profileUrl": "https://www.rawmaterialstrade.com/#alexandra-sajban-frohner"
       },
       "salesManager": {
         "name": "Nikoletta Kádár",
@@ -140,19 +140,18 @@
     "foundingYear": 2021,
     "slogan": "Chemical Connections",
     "sameAs": [
-      "https://rmtrade.hu/",
       "https://www.linkedin.com/company/raw-materials-trade-kft"
     ],
     "certificateAddresses": [
       {
         "role": "ISO 9001 certificate address",
         "address": "5200 Törökszentmiklós, Mária utca 9, Hungary",
-        "evidenceUrl": "https://www.rawmaterialstrade.com/cert-iso-9001-en.jpeg"
+        "evidenceUrl": "https://www.rawmaterialstrade.com/assets/images/certificates/cert-iso-9001-en.jpeg"
       },
       {
         "role": "GMP+ certificate invoicing address",
         "address": "Mária utca 9, 5200 Törökszentmiklós, Hungary",
-        "evidenceUrl": "https://www.rawmaterialstrade.com/cert-gmp-plus-2020.pdf"
+        "evidenceUrl": "https://www.rawmaterialstrade.com/assets/documents/certificates/cert-gmp-plus-2020.pdf"
       }
     ]
   },
@@ -272,7 +271,7 @@
   },
   "publicEntityPages": {
     "company": "https://www.rawmaterialstrade.com/",
-    "ownerAndManagingDirector": "https://www.rawmaterialstrade.com/alexandra-sajban-frohner.html",
+    "ownerAndManagingDirector": "https://www.rawmaterialstrade.com/#alexandra-sajban-frohner",
     "manufacturerPartnership": "https://www.rawmaterialstrade.com/sales-representation-distribution-partner-central-europe.html"
   },
   "registeredOffice": "Mária utca 9, 5200 Törökszentmiklós, Hungary",
