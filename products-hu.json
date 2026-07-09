@@ -36,8 +36,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai, regenerált",
-        "packaging": "Drums (200 L), IBC, tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "hordó (200 L), IBC, tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -79,8 +79,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "0–3 mm, 3–8 mm",
-        "packaging": "Big bagged, bagged, IBC (solution)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "BigBag és zsákos; IBC (oldat)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -122,8 +122,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "oldat",
-        "packaging": "Big bagged, bagged, IBC (solution)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "BigBag és zsákos; IBC (oldat)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -165,8 +165,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "24%",
-        "packaging": "IBC, drums",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC, hordó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -207,9 +207,9 @@
         "formula": "NH₄Cl"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -249,8 +249,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -291,9 +291,9 @@
         "formula": "(NH₄)₂SO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -334,9 +334,9 @@
         "formula": "C₆H₈O₆"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Food grade",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "élelmiszeripari minőség",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -375,8 +375,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -416,8 +416,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "dekahidrát",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -457,8 +457,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "pentahidrát",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -498,8 +498,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -541,8 +541,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "(L+)",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -583,9 +583,9 @@
         "formula": "H₃BO₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -624,8 +624,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -664,8 +664,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -706,9 +706,9 @@
         "formula": "C₄H₉OCH₂CH₂OH"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "Drums (200 L), IBC",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "hordó (200 L), IBC",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -749,9 +749,9 @@
         "formula": "C₆H₁₀O"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "Drums (200 L), IBC",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "hordó (200 L), IBC",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -792,9 +792,9 @@
         "formula": "ZnCl₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Anhydrous",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "vízmentes",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -836,8 +836,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "vízmentes",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -880,9 +880,9 @@
         "formula": "ZnO"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical; feed grade; pharmaceutical grade",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai; takarmányipari; gyógyszeripari minőség",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -925,8 +925,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -969,8 +969,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát, heptahidrát",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1013,8 +1013,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát, anhidrát",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1054,8 +1054,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1096,9 +1096,9 @@
         "formula": "C₄H₁₀O₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "Drums (200 L), IBC, tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "hordó (200 L), IBC, tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1138,8 +1138,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1181,8 +1181,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1222,8 +1222,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1265,8 +1265,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1309,8 +1309,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "20%, 50%, 60%, 70%, 80%, 99,8%",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1354,8 +1354,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "20%, 50%, 60%, 70%, 80%, 99,8% (jégecet)",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1396,9 +1396,9 @@
         "formula": "(CH₃CO)₂O"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "Drums (200 L), IBC",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "hordó (200 L), IBC",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1439,8 +1439,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "2, Na4",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1482,8 +1482,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai, regenerált",
-        "packaging": "Drums (200 L), IBC",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "hordó (200 L), IBC",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1526,9 +1526,9 @@
         "formula": "NaCl"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Road salt; vacuum salt; tablet salt",
-        "packaging": "Big bagged, bulk, bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "útszóró só; vákuumsó; sótabletta",
+        "packaging": "BigBag, ömlesztett és zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1570,8 +1570,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "75%",
-        "packaging": "IBC (1000 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1613,8 +1613,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "75%, 85%",
-        "packaging": "IBC (1000 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1656,9 +1656,9 @@
         "formula": "C₃H₈O₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical; 99.5% food/pharma grade; feed grade",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai; 99,5%-os élelmiszer-/gyógyszeripari; takarmányipari minőség",
+        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1700,8 +1700,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "99,5%",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1744,9 +1744,9 @@
         "formula": "C₂H₅NO₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Feed grade; food grade",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "takarmányipari és élelmiszeripari minőség",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1788,8 +1788,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "85%",
-        "packaging": "IBC (1000 L), drums (200 L)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), hordó (200 L)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1831,8 +1831,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "35%, 50%, 60%",
-        "packaging": "IBC (1000 L), drums (200 L)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), hordó (200 L)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1872,8 +1872,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1915,8 +1915,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai, regenerált",
-        "packaging": "IBC (1000 L), drums (200 L)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), hordó (200 L)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1956,8 +1956,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -1997,8 +1997,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2041,8 +2041,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "20–25% oldat",
-        "packaging": "Big bagged, bagged, IBC (solution), tanker (solution)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "BigBag és zsákos; IBC és tartályautó (oldat)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2085,8 +2085,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "77–80%",
-        "packaging": "Big bagged, bagged, IBC (solution), tanker (solution)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "BigBag és zsákos; IBC és tartályautó (oldat)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2129,8 +2129,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "dihidrát 78–80% pikkelyes",
-        "packaging": "Big bagged, bagged, IBC (solution), tanker (solution)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "BigBag és zsákos; IBC és tartályautó (oldat)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2171,9 +2171,9 @@
         "formula": "K₄[Fe(CN)₆]"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Food grade (E536)",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "élelmiszeripari minőség (E536)",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2215,8 +2215,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "oldat 21%, 45%, 48–50%",
-        "packaging": "bagged, BigBag; IBC (solution)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos, BigBag; IBC (oldat)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2258,8 +2258,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "pikkelyes",
-        "packaging": "bagged, BigBag; IBC (solution)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos, BigBag; IBC (oldat)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2299,8 +2299,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2340,8 +2340,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2381,8 +2381,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2420,8 +2420,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2463,8 +2463,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "ipari, kezeletlen",
-        "packaging": "Big bagged, bagged; IBC (solution)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "BigBag és zsákos; IBC (oldat)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2504,8 +2504,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "por",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2547,8 +2547,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "32%, 37%, 50%, 95–97%",
-        "packaging": "IBC, tanker (ADR transport)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC, tartályautó (ADR-szállítás)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2588,8 +2588,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2629,8 +2629,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2671,8 +2671,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "könnyű, nehéz",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2715,9 +2715,9 @@
         "formula": "MgCl₂·6H₂O"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Flakes (47–50% MgCl₂)",
-        "packaging": "Big bagged, bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "pikkelyes (47–50% MgCl₂)",
+        "packaging": "BigBag és zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2760,8 +2760,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "hexahidrát",
-        "packaging": "Big bagged, bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "BigBag és zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2801,8 +2801,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2843,9 +2843,9 @@
         "formula": "MgO"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Heavy grade; feed grade",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "nehéz és takarmányipari minőség",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2887,8 +2887,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "nehéz",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2931,9 +2931,9 @@
         "formula": "MgSO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Anhydrous; heptahydrate (Epsom salt); monohydrate",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "vízmentes; heptahidrát (keserűsó); monohidrát",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -2974,9 +2974,9 @@
         "formula": "C₄H₄O₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3018,8 +3018,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3059,8 +3059,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3103,8 +3103,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát, tetrahidrát",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3145,8 +3145,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3186,8 +3186,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3229,8 +3229,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3270,8 +3270,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3311,8 +3311,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "15%",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3354,8 +3354,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai, regenerált",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3395,8 +3395,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3437,9 +3437,9 @@
         "formula": "HOCH₂CH₂NH₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "IBC (1000 L), drums (200 L)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "IBC (1000 L), hordó (200 L)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3480,9 +3480,9 @@
         "formula": "C₂H₆O₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3522,8 +3522,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3563,8 +3563,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3607,9 +3607,9 @@
         "formula": "C₃H₈O₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Industrial; USP/food grade; feed grade",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "ipari; USP/élelmiszeripari; takarmányipari minőség",
+        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3649,8 +3649,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3691,8 +3691,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "vízmentes, 3H2O",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3734,8 +3734,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "gran.",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3776,9 +3776,9 @@
         "formula": "NaHCO₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Food grade; technical",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "élelmiszeripari és technikai minőség",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3822,8 +3822,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "(szódabikarbóna)",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3865,8 +3865,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "pikkelyes",
-        "packaging": "bagged, BigBag; IBC, tanker (solution)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos, BigBag; IBC, tartályautó (oldat)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3908,8 +3908,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "oldat 48–50%",
-        "packaging": "bagged, BigBag; IBC, tanker (solution)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos, BigBag; IBC, tartályautó (oldat)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3951,8 +3951,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "150 g/l, 90 g/l",
-        "packaging": "IBC (1000 L), drums (200 L)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), hordó (200 L)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -3994,8 +3994,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "könnyű",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4037,8 +4037,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "nehéz",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4082,8 +4082,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "(nátrium-piroszulfit)",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4124,9 +4124,9 @@
         "formula": "Na₂SiO₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Anhydrous; pentahydrate",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "vízmentes; pentahidrát",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4167,9 +4167,9 @@
         "formula": "Na₂MoO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical; feed grade",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai és takarmányipari minőség",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4210,9 +4210,9 @@
         "formula": "2Na₂CO₃·3H₂O₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4252,8 +4252,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "40% oldat",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4293,8 +4293,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4334,8 +4334,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4376,9 +4376,9 @@
         "formula": "Na₂SO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Anhydrous (salt cake)",
-        "packaging": "Big bagged, bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "vízmentes (sósütemény-minőség)",
+        "packaging": "BigBag és zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4420,9 +4420,9 @@
         "formula": "Na₅P₃O₁₀"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical; food grade",
-        "packaging": "bagged, BigBag",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai és élelmiszeripari minőség",
+        "packaging": "zsákos, BigBag",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4464,8 +4464,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "oldatok",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4507,8 +4507,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "99%",
-        "packaging": "IBC (1000 L), drums (200 L)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), hordó (200 L)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4548,8 +4548,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "dihidrát",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4589,8 +4589,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4630,8 +4630,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "pentahidrát",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4673,8 +4673,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "20%, 50%, 53%, 60%",
-        "packaging": "IBC, drums (ADR)",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC, hordó (ADR)",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4716,8 +4716,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "gyógyszerkönyvi",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4759,8 +4759,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai, regenerált",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4803,9 +4803,9 @@
         "formula": "NaCl"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Road salt; vacuum salt; tablet salt",
-        "packaging": "Big bagged, bulk, bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "útszóró só; vákuumsó; sótabletta",
+        "packaging": "BigBag, ömlesztett és zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4846,9 +4846,9 @@
         "formula": "SC(NH₂)₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4889,9 +4889,9 @@
         "formula": "C₆H₁₄O₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "Drums (200 L), IBC",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "technikai minőség",
+        "packaging": "hordó (200 L), IBC",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4930,8 +4930,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -4972,9 +4972,9 @@
         "formula": "Na₃C₆H₅O₇"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Food grade dihydrate",
-        "packaging": "bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "élelmiszeripari dihidrát minőség",
+        "packaging": "zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -5014,8 +5014,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "dodekahidrát, vízmentes",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -5056,9 +5056,9 @@
         "formula": "NaCl"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Road salt; vacuum salt; tablet salt",
-        "packaging": "Big bagged, bulk, bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "útszóró só; vákuumsó; sótabletta",
+        "packaging": "BigBag, ömlesztett és zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -5098,8 +5098,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -5142,9 +5142,9 @@
         "formula": "NaCl"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Road salt; vacuum salt; tablet salt",
-        "packaging": "Big bagged, bulk, bagged",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "gradeOrConcentration": "útszóró só; vákuumsó; sótabletta",
+        "packaging": "BigBag, ömlesztett és zsákos",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -5184,8 +5184,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -5225,8 +5225,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát, heptahidrát",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -5268,8 +5268,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "40% oldat",
-        "packaging": "IBC (1000 L), tanker",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "IBC (1000 L), tartályautó",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -5309,8 +5309,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "40% oldat",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
@@ -5347,8 +5347,8 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "A, B1, B12, B5, B6, C, D3, E, H, K3",
-        "packaging": "Confirmed individually for each B2B inquiry",
-        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {

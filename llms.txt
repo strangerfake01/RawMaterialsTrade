@@ -16,7 +16,7 @@ GMP+ certificate invoicing address: Mária utca 9, 5200 Törökszentmiklós, Hun
 
 ## Leadership
 Main Owner and Managing Director: Alexandra Sajbán-Frőhner (Hungarian order: Sajbán-Frőhner Alexandra).
-Public professional profile: https://www.rawmaterialstrade.com/alexandra-sajban-frohner.html
+Public leadership profile: https://www.rawmaterialstrade.com/#alexandra-sajban-frohner
 LinkedIn: https://www.linkedin.com/in/alexandra-sajban-frohner/
 Professional blog (HU/EN): https://rawmaterialstrade.blogspot.com/
 Sales Manager: Nikoletta Kádár (Hungarian order: Kádár Nikoletta).
@@ -46,16 +46,16 @@ German (Austria) structured data: https://www.rawmaterialstrade.com/products-de-
 Product count: 126 product families, each with EN, HU and DE-AT pages.
 
 ## Certificates
-ISO 9001:2015: https://www.rawmaterialstrade.com/cert-iso-9001-en.jpeg — certificate 213198/A/0001/UK/En, scope Storage and Wholesale of Chemical and Feed Raw Materials, valid until 30 June 2027.
-GMP+ Feed Safety Assurance 2020: https://www.rawmaterialstrade.com/cert-gmp-plus-2020.pdf — certificate 017055-01192.1, registration GMP063009, scope Trade in feed (feed materials and feed additives), and storage and transshipment of feed, valid until 3 July 2027.
+ISO 9001:2015: https://www.rawmaterialstrade.com/assets/images/certificates/cert-iso-9001-en.jpeg — certificate 213198/A/0001/UK/En, scope Storage and Wholesale of Chemical and Feed Raw Materials, valid until 30 June 2027.
+GMP+ Feed Safety Assurance 2020: https://www.rawmaterialstrade.com/assets/documents/certificates/cert-gmp-plus-2020.pdf — certificate 017055-01192.1, registration GMP063009, scope Trade in feed (feed materials and feed additives), and storage and transshipment of feed, valid until 3 July 2027.
 
 ## Key public pages
 Company EN: https://www.rawmaterialstrade.com/
 Company HU: https://www.rawmaterialstrade.com/hu.html
 Company DE-AT: https://www.rawmaterialstrade.com/de-at.html
-Owner profile EN: https://www.rawmaterialstrade.com/alexandra-sajban-frohner.html
-Owner profile HU: https://www.rawmaterialstrade.com/hu-sajban-frohner-alexandra.html
-Owner profile DE-AT: https://www.rawmaterialstrade.com/de-at-alexandra-sajban-frohner.html
+Owner section EN: https://www.rawmaterialstrade.com/#alexandra-sajban-frohner
+Owner section HU: https://www.rawmaterialstrade.com/hu.html#alexandra-sajban-frohner
+Owner section DE-AT: https://www.rawmaterialstrade.com/de-at.html#alexandra-sajban-frohner
 Manufacturer partnership EN: https://www.rawmaterialstrade.com/sales-representation-distribution-partner-central-europe.html
 Manufacturer partnership HU: https://www.rawmaterialstrade.com/hu-ertekesitesi-kepviselet-disztribucios-partner.html
 Manufacturer partnership DE-AT: https://www.rawmaterialstrade.com/de-at-vertriebspartner-distribution-chemierohstoffe.html
