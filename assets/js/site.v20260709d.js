@@ -27,7 +27,7 @@ function initNav(){
   window.addEventListener('orientationchange',()=>setTimeout(()=>{if(!isMobileNav())setOpen(false);},160), {passive:true});
   window.addEventListener('scroll',()=>{if(h){h.classList.remove('header-hidden','is-hidden');h.removeAttribute('data-hidden');}}, {passive:true});
 }
-function initCookieBanner(){const b=document.getElementById('cookieBanner'),ok=document.getElementById('cookieOk');if(!b)return;if(localStorage.getItem('rmt_cookie'))return;setTimeout(()=>b.classList.add('visible'),700);ok&&ok.addEventListener('click',()=>{localStorage.setItem('rmt_cookie','essential');b.classList.remove('visible')});}
+function initCookieBanner(){/* Managed by analytics-consent.v20260713.js */}
 function initFAQ(){document.querySelectorAll('.faq-item').forEach(item=>{item.querySelector('.faq-q')?.addEventListener('click',()=>{const o=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));if(!o)item.classList.add('open');});});}
 function initCatalogue(){
   const search=document.getElementById('productSearch');
@@ -348,7 +348,7 @@ function initForm(){
       const response=await fetch(endpoint,{method:'POST',body:data,headers:{Accept:'application/json'},credentials:'same-origin'});
       const payload=await response.json().catch(()=>null);
       if(!response.ok||!payload||payload.ok!==true)throw new Error(payload?.code||payload?.message||`HTTP ${response.status}`);
-      show('success',(payload.confirmationSent===true?form.dataset.successMsg:form.dataset.successBasicMsg)||t.sent);form.reset();newMathChallenge();turnstileReady=false;
+      show('success',(payload.confirmationSent===true?form.dataset.successMsg:form.dataset.successBasicMsg)||t.sent);if(window.__rmtAnalyticsConsentGranted&&typeof window.gtag==='function'){window.gtag('event','generate_lead',{form_name:'b2b_inquiry',form_language:lang});}form.reset();newMathChallenge();turnstileReady=false;
       if(window.turnstile&&widgetId!==null)window.turnstile.reset(widgetId);
     }catch(err){
       console.error('RMT form submission failed',err);show('error',`${t.fail} office@rawmaterialstrade.com`);turnstileReady=false;
