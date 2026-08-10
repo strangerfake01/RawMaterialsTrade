@@ -287,6 +287,8 @@
 <div class="contact-note">Minden termék kizárólag B2B / ipari felhasználásra. Terméktámogatási dokumentáció (SDS/TDS/CoA) a megrendelés előtt kérésre rendelkezésre áll.</div>
 </div>
 <div>
+<button aria-controls="inquiryFormPanel" aria-expanded="false" class="btn btn-primary inquiry-form-toggle" id="inquiryFormToggle" type="button">Ajánlatkérő űrlap megnyitása</button>
+<div class="inquiry-form-panel" hidden="" id="inquiryFormPanel">
 <form action="https://muddy-voice-db90.6ymnrwgnv9.workers.dev/api/contact" class="inquiry-form" data-endpoint="cloudflare-worker" data-mailto-msg="Az e-mail-kliens előre kitöltött üzenettel megnyílt." data-success-basic-msg="Köszönjük — megkeresése elküldve. 1–2 munkanapon belül válaszolunk." data-success-msg="Köszönjük — megkeresése elküldve. A megadott e-mail-címre automatikus visszaigazolást küldtünk. 1–2 munkanapon belül válaszolunk." id="inquiryForm" method="POST">
 <input aria-hidden="true" autocomplete="off" class="is-hidden" name="_honey" tabindex="-1" type="text"/>
 <div class="form-row">
@@ -340,6 +342,7 @@
 <div aria-live="polite" class="form-status" id="formStatus" role="status"></div>
 <div class="form-notice">Megkeresését Cloudflare Turnstile védi, egy védett Cloudflare Worker végpont szerveroldalon ellenőrzi, majd a Google Apps Script / Google Workspace továbbítja az office@rawmaterialstrade.com címre. Sikerüzenet csak szerveroldali visszaigazolás után jelenik meg. <a href="privacy-hu.html">Adatkezelési tájékoztató</a></div>
 </form>
+</div>
 </div>
 </div>
 </div>

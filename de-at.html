@@ -293,6 +293,8 @@
 <div class="contact-note">Alle Produkte ausschließlich für den B2B-/Industrieeinsatz. Produktdokumentation (SDS/TDS/CoA) auf Anfrage vor der Bestellung verfügbar.</div>
 </div>
 <div>
+<button aria-controls="inquiryFormPanel" aria-expanded="false" class="btn btn-primary inquiry-form-toggle" id="inquiryFormToggle" type="button">Anfrageformular öffnen</button>
+<div class="inquiry-form-panel" hidden="" id="inquiryFormPanel">
 <form action="https://muddy-voice-db90.6ymnrwgnv9.workers.dev/api/contact" class="inquiry-form" data-endpoint="cloudflare-worker" data-mailto-msg="Ihr E-Mail-Programm wurde mit einer vorausgefüllten Nachricht geöffnet." data-success-basic-msg="Vielen Dank — Ihre Anfrage wurde gesendet. Wir melden uns innerhalb von 1–2 Werktagen." data-success-msg="Vielen Dank — Ihre Anfrage wurde gesendet. Eine automatische Eingangsbestätigung wurde an die angegebene E-Mail-Adresse gesendet. Wir melden uns innerhalb von 1–2 Werktagen." id="inquiryForm" method="POST">
 <input aria-hidden="true" autocomplete="off" class="is-hidden" name="_honey" tabindex="-1" type="text"/>
 <div class="form-row">
@@ -346,6 +348,7 @@
 <div aria-live="polite" class="form-status" id="formStatus" role="status"></div>
 <div class="form-notice">Ihre Anfrage wird durch Cloudflare Turnstile geschützt, durch einen geschützten externen Cloudflare-Worker-Endpunkt serverseitig geprüft und anschließend über Google Apps Script / Google Workspace an office@rawmaterialstrade.com weitergeleitet. Eine Erfolgsmeldung erscheint erst nach Serverbestätigung. <a href="privacy-de-at.html">Datenschutzerklärung</a></div>
 </form>
+</div>
 </div>
 </div>
 </div>

@@ -293,6 +293,7 @@ function initForm(){
   const submitButton=form.querySelector('button[type="submit"]');
   let widgetId=null;
   let turnstileReady=false;
+  let turnstileStarted=false;
 
   const turnstileText={
     en:'Please complete the Cloudflare security check.',
@@ -311,6 +312,8 @@ function initForm(){
     await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.async=true;s.defer=true;s.onload=resolve;s.onerror=reject;document.head.appendChild(s);});
   }
   async function initTurnstile(){
+    if(turnstileStarted)return;
+    turnstileStarted=true;
     if(!turnstileBox)return;
     try{
       const response=await fetch(`${endpoint}/config`,{headers:{Accept:'application/json'},cache:'no-store',credentials:'omit'});
@@ -329,7 +332,18 @@ function initForm(){
   }
   newMathChallenge();
   if(submitButton)submitButton.disabled=true;
-  initTurnstile();
+  const formPanel=document.getElementById('inquiryFormPanel');
+  const formToggle=document.getElementById('inquiryFormToggle');
+  const openForm=({focus=false}={})=>{
+    if(formPanel)formPanel.hidden=false;
+    if(formToggle){formToggle.setAttribute('aria-expanded','true');formToggle.hidden=true;}
+    initTurnstile();
+    if(focus){const first=form.querySelector('input:not([type="hidden"]):not([tabindex="-1"])');if(first)requestAnimationFrame(()=>first.focus());}
+  };
+  if(formToggle)formToggle.addEventListener('click',()=>openForm({focus:true}));
+  if(location.hash==='#contact'||new URLSearchParams(location.search).has('product'))openForm();
+  document.querySelectorAll('a[href="#contact"],a[href$="#contact"]').forEach(link=>link.addEventListener('click',()=>openForm()));
+  if(!formPanel&&!formToggle)initTurnstile();
 
   form.addEventListener('submit',async e=>{
     e.preventDefault();
