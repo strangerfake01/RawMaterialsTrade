@@ -186,3 +186,71 @@ téves „Fetch failed" — ilyenkor 1–2 nap múlva érdemes újramérni.
 
 A 11. képernyőkép szerint a **goatprotective.com** is 2/3-on áll ugyanezzel az
 `llms.txt` hibával. Ott ugyanez a formátumjavítás a megoldás.
+
+---
+
+## Domain-egységesítés — www.rawmaterialstrade.com a fő domain
+
+### Ami már rendben volt
+
+Végigellenőrizve a teljes repón:
+
+| Ellenőrzés | Eredmény |
+|---|---|
+| `CNAME` | `www.rawmaterialstrade.com` |
+| `rel="canonical"` | 411/411 fájl `https://www.rawmaterialstrade.com` |
+| `sitemap.xml` `<loc>` | 399/399 `https://www.rawmaterialstrade.com` |
+| Nem-www (`https://rawmaterialstrade.com/...`) hivatkozás | **0 db** |
+| `github.io`, `netlify`, `pages.dev` maradvány | **0 db** |
+| `llms.txt` saját URL-jei | 39/39 `https://www.` |
+
+Itt tehát nem kellett javítani, és a PSI-javítócsomag sem rontott el semmit.
+
+### Amit javítottam
+
+A blog két különböző hosztnéven szerepelt ugyanazon az oldalon: a látható link
+a saját aldomainre mutatott, a strukturált adat viszont a Blogger-hosztra.
+Entitás-feloldásnál ez két külön blognak látszik, és a `sameAs` így nem
+erősíti, hanem gyengíti a cég entitását.
+
+Minden hivatkozás a fő domain családjára állítva — **12 előfordulás, 5 fájlban**:
+
+| Fájl | Hol | Előtte | Utána |
+|---|---|---|---|
+| `index.html` | JSON-LD `Blog` `@id` + `url`, `Person.sameAs` | `rawmaterialstrade.blogspot.com` | `blog.rawmaterialstrade.com` |
+| `hu.html` | ugyanaz | `rawmaterialstrade.blogspot.com` | `blog.rawmaterialstrade.com` |
+| `de-at.html` | ugyanaz | `rawmaterialstrade.blogspot.com` | `blog.rawmaterialstrade.com` |
+| `ai-company-profile.json` | `leadership.blog`, `professional_blog.url` | `rawmaterialstrade.blogspot.com` | `blog.rawmaterialstrade.com` |
+| `llms.txt` | blog-hivatkozás | `rawmaterialstrade.blogspot.com` | `blog.rawmaterialstrade.com` |
+
+Eredmény — az entitásgráf minden csomópontja a saját domainre horgonyzott:
+
+```
+Organization    https://www.rawmaterialstrade.com/#org
+WebSite         https://www.rawmaterialstrade.com/#website
+WebPage         https://www.rawmaterialstrade.com/#webpage
+BreadcrumbList  https://www.rawmaterialstrade.com/#breadcrumb
+Service         https://www.rawmaterialstrade.com/#b2b-sourcing-service
+Service         https://www.rawmaterialstrade.com/#sales-partnership-service
+Person          https://www.rawmaterialstrade.com/#alexandra-sajban-frohner
+Person          https://www.rawmaterialstrade.com/#nikoletta-kadar
+Blog            https://blog.rawmaterialstrade.com/#blog
+```
+
+Emellett javítva egy elgépelés: `ai-company-profile.json` →
+`"Main Main Owner and Managing Director"` → `"Main Owner and Managing Director"`.
+
+### Amit a repón kívül kell ellenőrizni
+
+1. **Blogger custom domain.** A `blog.rawmaterialstrade.com` csak akkor
+   működik, ha a Bloggerben be van állítva egyéni domainként
+   (Beállítások → Közzététel → Egyéni domain), és a DNS-ben van rá `CNAME`
+   rekord `ghs.google.com` célponttal. Ha nincs, a linkek 404-et adnak.
+   A Blogger ilyenkor a `.blogspot.com` címről automatikusan átirányít az
+   egyéni domainre, tehát a régi URL-ek nem vesznek el.
+2. **Nem-www átirányítás.** A `rawmaterialstrade.com` (www nélkül) 301-gyel
+   mutasson a `www.rawmaterialstrade.com`-ra. Cloudflare → Rules → Redirect
+   Rules. Ez ma feltehetően működik, de érdemes ellenőrizni, mert a repóban
+   nincs rá kényszerítés — a canonical önmagában csak jelzés, nem átirányítás.
+3. **Search Console.** Ha a `blog.rawmaterialstrade.com` új aldomain, önálló
+   propertyként érdemes felvenni.
