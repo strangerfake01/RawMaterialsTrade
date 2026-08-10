@@ -48,10 +48,10 @@
       "ownerAndManagingDirector": {
         "name": "Alexandra Sajbán-Frőhner",
         "hungarianNameOrder": "Sajbán-Frőhner Alexandra",
-        "role": "Main Owner and Managing Director",
+        "role": "Main Main Owner and Managing Director",
         "experience": "Nearly two decades in international chemical raw material trading, strategic procurement, business development and partner relationship management.",
         "linkedin": "https://www.linkedin.com/in/alexandra-sajban-frohner/",
-        "blog": "https://blog.rawmaterialstrade.com",
+        "blog": "https://rawmaterialstrade.blogspot.com",
         "blogLanguages": [
           "Hungarian",
           "English"
@@ -252,7 +252,7 @@
     }
   },
   "professional_blog": {
-    "url": "https://blog.rawmaterialstrade.com/",
+    "url": "https://rawmaterialstrade.blogspot.com/",
     "author": "Sajbán-Frőhner Alexandra",
     "languages": [
       "Hungarian",

@@ -23,17 +23,3 @@
 
 /assets/video/*
   Cache-Control: public, max-age=31536000, immutable
-
-# ---------------------------------------------------------------------------
-# FIGYELEM (2026-08-10)
-# Ez a fajl Netlify / Cloudflare Pages konvencio. A GitHub Pages FIGYELMEN
-# KIVUL HAGYJA: minden valaszra sajat, rovid Cache-Control-t kuld.
-# Ezert jelzi a PageSpeed a "Hatekony gyorsitotar-elettartam hasznalata
-# — becsult megtakaritas 299 KiB" hibat, hiaba szerepel itt az immutable.
-#
-# Megoldas: Cloudflare -> Caching -> Cache Rules
-#   Ha    URI Path starts with  /assets/
-#   Akkor Eligible for cache, Edge TTL 1 ev, Browser TTL 1 ev
-# A fajlnevek mar verziozottak (site.v20260709.min.css), igy a hosszu TTL
-# biztonsagos: uj kiadasnal uj fajlnev kerul a HTML-be.
-# ---------------------------------------------------------------------------
