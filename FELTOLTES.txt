@@ -1,3 +1,0 @@
-Csak ennek a ZIP-nek a tartalmát töltsd fel a webhely gyökérkönyvtárába.
-Tartsd meg az assets/css könyvtárstruktúrát.
-A Worker és a Google Apps Script változatlan marad.
