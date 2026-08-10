@@ -136,3 +136,14 @@ Az eredeti teljes oldalhoz képest a végleges csomag:
 - **0 eredeti fájlt töröl**.
 
 A csomag teljes weboldal, nem részleges patch: közvetlenül a teljes repó tartalmának alapjaként használható.
+
+## PageSpeed follow-up — footer contrast (v2)
+
+A subsequent mobile PageSpeed Insights run identified one remaining WCAG contrast issue in the global dark footer: the legal links (`Privacy Policy` / `Impressum` and localized equivalents) inherited `rgba(255,255,255,.40)` on `#0d1b2a`, which is below the 4.5:1 AA threshold for normal text.
+
+Fix applied site-wide:
+- added `assets/css/a11y-fixes.v2.css`;
+- footer body copy and footer links are now rendered at 82% white on the navy background (calculated contrast ≈ 11.9:1);
+- links remain visibly underlined, so link affordance does not depend on colour alone;
+- compact legal-page footer receives the same hardened contrast;
+- all HTML references were changed from `a11y-fixes.v1.css` to `a11y-fixes.v2.css` to force a fresh asset URL through browser/CDN caches.
