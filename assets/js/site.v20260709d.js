@@ -28,7 +28,7 @@ function initNav(){
   window.addEventListener('scroll',()=>{if(h){h.classList.remove('header-hidden','is-hidden');h.removeAttribute('data-hidden');}}, {passive:true});
 }
 function initCookieBanner(){/* Managed by analytics-consent.v20260713.js */}
-function initFAQ(){document.querySelectorAll('.faq-item').forEach(item=>{item.querySelector('.faq-q')?.addEventListener('click',()=>{const o=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));if(!o)item.classList.add('open');});});}
+function initFAQ(){document.querySelectorAll('.faq-item').forEach(item=>{const button=item.querySelector('.faq-q');if(!button)return;button.setAttribute('aria-expanded',item.classList.contains('open')?'true':'false');button.addEventListener('click',()=>{const o=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-q')?.setAttribute('aria-expanded','false');});if(!o){item.classList.add('open');button.setAttribute('aria-expanded','true');}});});}
 function initCatalogue(){
   const search=document.getElementById('productSearch');
   const chips=[...document.querySelectorAll('.filter-chip')];
