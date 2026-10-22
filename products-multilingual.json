@@ -8600,12 +8600,12 @@
   {
     "id": "mangan-oxid-feed",
     "source_index": 75,
-    "name_en": "Manganese dioxide",
-    "name_hu": "Mangán-oxid",
-    "name_de": "Mangan(IV)-oxid",
-    "sub_en": "Manganese dioxide",
-    "sub_hu": "Mangán-oxid",
-    "sub_de": "Mangan(IV)-oxid",
+    "name_en": "Manganese(II) oxide",
+    "name_hu": "Mangán(II)-oxid",
+    "name_de": "Mangan(II)-oxid",
+    "sub_en": "Manganese(II) oxide",
+    "sub_hu": "Mangán(II)-oxid",
+    "sub_de": "Mangan(II)-oxid",
     "category_ids": [
       "feed"
     ],
@@ -8619,27 +8619,25 @@
       "Futtermittelzusatzstoffe und Futtermittelrohstoffe"
     ],
     "primary_category": "feed",
-    "short_description_en": "Manganese dioxide is a B2B raw material listed in the Feed Additives & Feed Raw Materials portfolio. Final suitability, grade, concentration and documentation are confirmed individually for each inquiry.",
-    "short_description_hu": "Mangán-oxid — Mangán-oxid termékkör; a pontos CAS-számot és komponensazonosítást az SDS/TDS alapján kell megerősíteni. A konkrét minőség, koncentráció és dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-    "short_description_de": "Mangan(IV)-oxid ist ein B2B-Rohstoff im Bereich Futtermittelzusatzstoffe und Futtermittelrohstoffe. Endgültige Eignung, Qualität, Konzentration und Dokumentation werden je Anfrage individuell bestätigt.",
-    "what_it_is_en": "Manganese dioxide is supplied for professional B2B sourcing conversations. Use, classification, handling, transport and regulatory suitability must always be confirmed through official SDS/TDS/CoA and supplier documentation.",
-    "what_it_is_hu": "A(z) Mangán-oxid a Raw Materials Trade Kft. B2B alapanyag-portfóliójának része. A végleges alkalmasságot, besorolást, kezelést, szállítást és szabályozási megfelelést hivatalos SDS/TDS/CoA és beszállítói dokumentáció alapján kell megerősíteni.",
-    "what_it_is_de": "Mangan(IV)-oxid wird für professionelle B2B-Beschaffungsanfragen geführt. Verwendung, Einstufung, Handhabung, Transport und regulatorische Eignung sind stets anhand offizieller SDS/TDS- und Lieferantendokumentation zu bestätigen.",
+    "short_description_en": "Manganese(II) oxide (CAS 1344-43-0; MnO) is listed as a feed additive in the EU Register under specific composition and use conditions. Confirm that the offered material meets the applicable authorisation conditions and supplier documentation.",
+    "short_description_hu": "A 1344-43-0 CAS-számú mangán(II)-oxid (MnO) takarmány-adalékanyagként szerepel az EU nyilvántartásában, meghatározott összetételi és felhasználási feltételekkel. A kínált anyag megfelelőségét az adott engedélyezési feltételek és a beszállítói dokumentáció alapján kell igazolni.",
+    "short_description_de": "Mangan(II)-oxid (CAS 1344-43-0; MnO) ist im EU-Register unter bestimmten Zusammensetzungs- und Verwendungsbedingungen als Futtermittelzusatzstoff aufgeführt. Die Konformität des angebotenen Materials ist anhand der geltenden Zulassungsbedingungen und der Lieferantendokumentation zu bestätigen.",
+    "what_it_is_en": "Manganese(II) oxide, CAS 1344-43-0, has the chemical formula MnO. It is distinct from manganese dioxide (MnO₂). The EU Feed Additives Register lists this substance under defined composition and use conditions; confirm the offered material against the current authorisation and supplier documentation.",
+    "what_it_is_hu": "A mangán(II)-oxid (CAS 1344-43-0) képlete MnO; nem azonos a mangán-dioxiddal (MnO₂). Az EU takarmány-adalékanyag nyilvántartása meghatározott összetételi és felhasználási feltételekkel tartalmazza; a kínált anyagot az aktuális engedélyezési feltételek és a beszállítói dokumentáció alapján kell ellenőrizni.",
+    "what_it_is_de": "Mangan(II)-oxid (CAS 1344-43-0) hat die Formel MnO und ist nicht mit Mangandioxid (MnO₂) gleichzusetzen. Das EU-Register führt diesen Stoff mit festgelegten Zusammensetzungs- und Verwendungsbedingungen; das angebotene Material ist anhand der aktuellen Zulassungsbedingungen und Lieferantendokumentation zu prüfen.",
     "applications_en": [
-      "feed-industry use subject to supplier documentation and GMP+ scope",
-      "mineral or microelement systems where relevant"
+      "Feed-additive use only where the exact material meets the current EU authorisation conditions and the supplier documentation confirms suitability."
     ],
     "applications_hu": [
-      "Takarmányipari mikroelem, kerámia, üvegipar és oxidációs rendszerek."
+      "Takarmány-adalékanyagként kizárólag akkor használható, ha a pontos anyag megfelel az aktuális EU-engedélyezési feltételeknek, és a beszállítói dokumentáció igazolja az alkalmasságot."
     ],
     "applications_de": [
-      "Futtermittelanwendungen abhängig von Lieferantendokumentation und GMP+-Geltungsbereich",
-      "Mineral- oder Mikroelement-Systeme, sofern relevant"
+      "Als Futtermittelzusatzstoff nur verwendbar, wenn das genaue Material die aktuellen EU-Zulassungsbedingungen erfüllt und die Lieferantendokumentation die Eignung bestätigt."
     ],
     "technical_identity": {
       "cas": "1344-43-0",
-      "ec": "Confirmed upon supplier documentation",
-      "formula": "Confirmed upon supplier documentation",
+      "ec": "215-695-8",
+      "formula": "MnO",
       "form_en": "Confirmed upon supplier documentation.",
       "form_hu": "Beszállítói dokumentáció alapján pontosítandó.",
       "form_de": "Auf Basis der Lieferantendokumentation zu bestätigen.",
@@ -8647,19 +8645,19 @@
       "grade": "Confirmed upon supplier documentation",
       "packaging": "Confirmed individually for each B2B inquiry",
       "synonyms_en": [
-        "Manganese dioxide",
-        "Mangán-oxid",
-        "Mangan(IV)-oxid"
+        "Manganese(II) oxide",
+        "Manganous oxide",
+        "Manganese monoxide"
       ],
       "synonyms_hu": [
-        "Mangán-oxid",
-        "Manganese dioxide",
-        "Mangan(IV)-oxid"
+        "Mangán(II)-oxid",
+        "Manganese(II) oxide",
+        "Manganous oxide"
       ],
       "synonyms_de": [
-        "Mangan(IV)-oxid",
-        "Manganese dioxide",
-        "Mangán-oxid"
+        "Mangan(II)-oxid",
+        "Manganese(II) oxide",
+        "Manganous oxide"
       ],
       "grade_en": null,
       "grade_hu": null,
@@ -8696,16 +8694,16 @@
       "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
     },
     "wikipedia": {
-      "en": "https://en.wikipedia.org/wiki/Manganese_dioxide",
-      "hu": "https://hu.wikipedia.org/wiki/Mang%C3%A1n-dioxid",
-      "de": "https://de.wikipedia.org/wiki/Mangan(IV)-oxid"
+      "en": "https://en.wikipedia.org/wiki/Manganese%28II%29_oxide",
+      "hu": "https://en.wikipedia.org/wiki/Manganese%28II%29_oxide",
+      "de": "https://en.wikipedia.org/wiki/Manganese%28II%29_oxide"
     },
     "wiki_check": {
       "en_domain": true,
-      "hu_domain": true,
-      "de_domain": true,
-      "fallback_hu": false,
-      "fallback_de": false
+      "hu_domain": false,
+      "de_domain": false,
+      "fallback_hu": true,
+      "fallback_de": true
     }
   },
   {
