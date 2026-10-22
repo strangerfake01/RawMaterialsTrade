@@ -4063,26 +4063,26 @@
       "Lebensmittelrohstoffe"
     ],
     "primary_category": "food",
-    "short_description_en": "Sodium chloride in various grades for road de-icing, water softening and industrial applications.",
-    "short_description_hu": "Étkezési só — Élelmiszer-minőségű nátrium-klorid. A konkrét minőség, koncentráció és dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-    "short_description_de": "Streusalz (Natriumchlorid) — B2B-Rohstoff, der typischerweise in folgenden Anwendungsbereichen eingesetzt wird: Enteisung, Regeneration von Wasserenthärtern (Tablettensalz), industrielle Prozesswasserbehandlung. Konkrete Qualität und Dokumentation werden im Rahmen der Anfrage bestätigt.",
-    "what_it_is_en": "Road Salt (Sodium Chloride) is a B2B chemical raw material used in winter / de-icing contexts. Final suitability depends on grade, concentration and supplier SDS/TDS/CoA documentation. Formula: NaCl.",
-    "what_it_is_hu": "A(z) Étkezési só a Raw Materials Trade Kft. B2B alapanyag-portfóliójának része. A végleges alkalmasságot, besorolást, kezelést, szállítást és szabályozási megfelelést hivatalos SDS/TDS/CoA és beszállítói dokumentáció alapján kell megerősíteni.",
-    "what_it_is_de": "Streusalz (Natriumchlorid) ist ein B2B-Chemierohstoff für winterstreumittel / enteisung. Die endgültige Eignung hängt von Qualität, Konzentration und Lieferanten-SDS/TDS ab. Formel: NaCl.",
+    "short_description_en": "Food-grade sodium chloride for food processing, seasoning and preservation. Exact specification, packaging and supplier documentation are confirmed for each quotation.",
+    "short_description_hu": "Élelmiszer-minőségű nátrium-klorid élelmiszer-feldolgozáshoz, ízesítéshez és tartósításhoz. A pontos specifikációt, kiszerelést és beszállítói dokumentációt ajánlatkérésenként erősítjük meg.",
+    "short_description_de": "Natriumchlorid in Lebensmittelqualität für Lebensmittelverarbeitung, Würzung und Konservierung. Die genaue Spezifikation, Verpackung und Lieferantendokumentation werden für jedes Angebot bestätigt.",
+    "what_it_is_en": "Food salt is sodium chloride (NaCl) offered for food-industry enquiries. Confirm the exact food-grade specification and applicable supplier documentation for the intended use before purchase.",
+    "what_it_is_hu": "Az étkezési só nátrium-klorid (NaCl), amely élelmiszeripari ajánlatkérésre szerepel a kínálatban. Vásárlás előtt a tervezett felhasználáshoz tartozó pontos élelmiszer-minőséget és beszállítói dokumentációt kell megerősíteni.",
+    "what_it_is_de": "Speisesalz ist Natriumchlorid (NaCl) für Anfragen aus der Lebensmittelindustrie. Vor dem Kauf sind die genaue Lebensmittelqualität und die für den vorgesehenen Einsatz geltende Lieferantendokumentation zu bestätigen.",
     "applications_en": [
-      "road de-icing",
-      "water softener regeneration (tablet salt)",
-      "industrial process water treatment",
-      "food grade (vacuum salt)"
+      "food processing and seasoning",
+      "food preservation",
+      "other food applications subject to confirmed grade and supplier documentation"
     ],
     "applications_hu": [
-      "Élelmiszeripari sózás, tartósítás, technológiai íz- és ozmotikus hatás."
+      "élelmiszer-feldolgozás és ízesítés",
+      "élelmiszerek tartósítása",
+      "egyéb élelmiszeripari felhasználás a pontos minőség és beszállítói dokumentáció megerősítése szerint"
     ],
     "applications_de": [
-      "Enteisung",
-      "Regeneration von Wasserenthärtern (Tablettensalz)",
-      "industrielle Prozesswasserbehandlung",
-      "Lebensmittelqualität (Vakuumsalz)"
+      "Lebensmittelverarbeitung und Würzung",
+      "Konservierung von Lebensmitteln",
+      "weitere Lebensmittelanwendungen nach Bestätigung von Qualität und Lieferantendokumentation"
     ],
     "technical_identity": {
       "cas": "7647-14-5",
@@ -4091,36 +4091,30 @@
       "form_en": "Confirmed upon supplier documentation.",
       "form_hu": "Beszállítói dokumentáció alapján pontosítandó.",
       "form_de": "Auf Basis der Lieferantendokumentation zu bestätigen.",
-      "concentration": "Road salt; vacuum salt; tablet salt",
-      "grade": "Road salt; vacuum salt; tablet salt",
+      "concentration": "Food-grade vacuum salt",
+      "grade": "Food-grade vacuum salt",
       "packaging": "Big bagged, bulk, bagged",
       "synonyms_en": [
         "Food salt (sodium chloride)",
         "Étkezési só",
-        "Speisesalz (Natriumchlorid)",
-        "Road Salt (Sodium Chloride)",
-        "Streusalz (Natriumchlorid)"
+        "Speisesalz (Natriumchlorid)"
       ],
       "synonyms_hu": [
         "Étkezési só",
         "Food salt (sodium chloride)",
-        "Speisesalz (Natriumchlorid)",
-        "Road Salt (Sodium Chloride)",
-        "Streusalz (Natriumchlorid)"
+        "Speisesalz (Natriumchlorid)"
       ],
       "synonyms_de": [
         "Speisesalz (Natriumchlorid)",
         "Food salt (sodium chloride)",
-        "Étkezési só",
-        "Streusalz (Natriumchlorid)",
-        "Road Salt (Sodium Chloride)"
+        "Étkezési só"
       ],
-      "grade_en": "Road salt; vacuum salt; tablet salt",
-      "grade_hu": "útszóró só; vákuumsó; sótabletta",
-      "grade_de": "Streusalz; Vakuumsalz; Tablettensalz",
-      "concentration_en": "Road salt; vacuum salt; tablet salt",
-      "concentration_hu": "útszóró só; vákuumsó; sótabletta",
-      "concentration_de": "Streusalz; Vakuumsalz; Tablettensalz",
+      "grade_en": "food-grade vacuum salt",
+      "grade_hu": "élelmiszer-minőségű vákuumsó",
+      "grade_de": "Vakuumsalz in Lebensmittelqualität",
+      "concentration_en": "food-grade vacuum salt",
+      "concentration_hu": "élelmiszer-minőségű vákuumsó",
+      "concentration_de": "Vakuumsalz in Lebensmittelqualität",
       "packaging_en": "Big bagged, bulk, bagged",
       "packaging_hu": "BigBag, ömlesztett és zsákos",
       "packaging_de": "BigBag, lose Ware und Sackware"
