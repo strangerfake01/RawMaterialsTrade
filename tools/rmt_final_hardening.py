@@ -26,7 +26,7 @@ WRITE = '--write' in sys.argv
 
 def write_text_safe(path, content, *args, **kwargs):
     if WRITE:
-        write_text_safe(path, content, *args, **kwargs)
+        path.write_text(content, *args, **kwargs)
     return not WRITE
 DATE = "2026-08-10"
 
@@ -243,7 +243,7 @@ def update_german_datasets():
     md=json.loads(mp.read_text(encoding='utf-8'))
     for item in md:
         item['applications_de']=[DE_APP_TRANSLATIONS.get(a,a) for a in item.get('applications_de',[])]
-    mwrite_text_safe(p, json.dumps(md,ensure_ascii=False,indent=2)+"\n",encoding='utf-8')
+    write_text_safe(p, json.dumps(md,ensure_ascii=False,indent=2)+"\n",encoding='utf-8')
     return changed
 
 
