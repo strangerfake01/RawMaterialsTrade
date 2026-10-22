@@ -4520,10 +4520,10 @@
   {
     "id": "glicerin-99-5-food",
     "source_index": 40,
-    "name_en": "Glycerine (Glycerol) — 99,5%",
+    "name_en": "Glycerine (Glycerol) — 99.5%",
     "name_hu": "Glicerin 99,5%",
     "name_de": "Glycerin — 99,5%",
-    "sub_en": "Glycerine (Glycerol) — 99,5%",
+    "sub_en": "Glycerine (Glycerol) — 99.5%",
     "sub_hu": "Glicerin 99,5%",
     "sub_de": "Glycerin — 99,5%",
     "category_ids": [
@@ -4569,13 +4569,13 @@
       "form_en": "Confirmed upon supplier documentation.",
       "form_hu": "Beszállítói dokumentáció alapján pontosítandó.",
       "form_de": "Auf Basis der Lieferantendokumentation zu bestätigen.",
-      "concentration": "99,5%",
-      "grade": "99,5%",
+      "concentration": "99.5%",
+      "grade": "99.5%",
       "packaging": "IBC (1000 L), drums (200 L), tanker",
       "synonyms_en": [
-        "Glycerine (Glycerol) — 99,5%",
-        "Glicerin 99,5%",
-        "Glycerin — 99,5%"
+        "Glycerine (Glycerol) — 99.5%",
+        "Glicerin 99.5%",
+        "Glycerin — 99.5%"
       ],
       "synonyms_hu": [
         "Glicerin 99,5%",
