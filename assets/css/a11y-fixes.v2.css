@@ -314,3 +314,20 @@ footer[role="contentinfo"] a:focus-visible,
     color: CanvasText;
   }
 }
+
+
+/* Other dark CTA and product-hero surfaces use the same high-contrast heading rule. */
+.catalogue-contact-band h1,
+.catalogue-contact-band h2,
+.catalogue-contact-band h3,
+.catalogue-contact-band h4,
+.catalogue-contact-band h5,
+.catalogue-contact-band h6,
+.product-hero-detail .product-hero-copy h1,
+.product-hero-detail .product-hero-copy h2,
+.product-hero-detail .product-hero-copy h3,
+.product-hero-detail .product-hero-copy h4,
+.product-hero-detail .product-hero-copy h5,
+.product-hero-detail .product-hero-copy h6 {
+  color: #fff;
+}
