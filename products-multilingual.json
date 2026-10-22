@@ -12793,28 +12793,32 @@
       "Lebensmittelrohstoffe"
     ],
     "primary_category": "food",
-    "short_description_en": "Strong mineral acid. Produced by dissolving hydrogen chloride in water. Essential in metal pickling, pH adjustment and numerous chemical processes.",
-    "short_description_hu": "Sósav gyógyszerkönyvi — Hidrogén-klorid vizes oldata; erős sav. A konkrét minőség, koncentráció és dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-    "short_description_de": "Salzsäure — B2B-Rohstoff, der typischerweise in folgenden Anwendungsbereichen eingesetzt wird: Stahlbeizen und Metallverarbeitung, pH-Einstellung in der Wasseraufbereitung, Lebensmittelzusatzstoff (E507). Konkrete Qualität und Dokumentation werden im Rahmen der Anfrage bestätigt.",
-    "what_it_is_en": "Hydrochloric Acid is a B2B chemical raw material used in industrial chemicals, food industry raw materials, home care & cleaning, water treatment contexts. Final suitability depends on grade, concentration and supplier SDS/TDS/CoA documentation. Formula: HCl (aq).",
-    "what_it_is_hu": "A(z) Sósav gyógyszerkönyvi a Raw Materials Trade Kft. B2B alapanyag-portfóliójának része. A végleges alkalmasságot, besorolást, kezelést, szállítást és szabályozási megfelelést hivatalos SDS/TDS/CoA és beszállítói dokumentáció alapján kell megerősíteni.",
-    "what_it_is_de": "Salzsäure ist ein B2B-Chemierohstoff für industriechemikalien, lebensmittelrohstoffe, reinigungs- und haushaltschemie, wasseraufbereitung. Die endgültige Eignung hängt von Qualität, Konzentration und Lieferanten-SDS/TDS ab. Formel: HCl (aq).",
+    "short_description_en": "Pharmacopoeial hydrochloric acid. Food-industry use, including E507, is only considered when the exact grade, intended use and supplier documentation confirm suitability.",
+    "short_description_hu": "Gyógyszerkönyvi sósav. Élelmiszeripari, ezen belül E507-célú felhasználás csak a pontos termékminőség, a tervezett alkalmazás és a beszállítói dokumentáció alkalmasságot igazoló megerősítése esetén mérlegelhető.",
+    "short_description_de": "Pharmakopöische Salzsäure. Lebensmittelanwendungen, einschließlich E507, kommen nur infrage, wenn die genaue Qualität, der vorgesehene Einsatz und die Lieferantendokumentation die Eignung bestätigen.",
+    "what_it_is_en": "Pharmacopoeial hydrochloric acid (HCl). A pharmacopoeial designation alone does not confirm suitability for food use. Confirm the intended use and applicable grade using supplier documentation.",
+    "what_it_is_hu": "Gyógyszerkönyvi sósav (HCl). A gyógyszerkönyvi jelölés önmagában nem igazolja az élelmiszeripari alkalmasságot. A tervezett felhasználást és a megfelelő minőséget beszállítói dokumentáció alapján kell megerősíteni.",
+    "what_it_is_de": "Pharmakopöische Salzsäure (HCl). Die pharmakopöische Bezeichnung allein bestätigt keine Eignung für Lebensmittelanwendungen. Der vorgesehene Einsatz und die passende Qualität sind anhand der Lieferantendokumentation zu bestätigen.",
     "applications_en": [
       "steel pickling and metal processing",
       "pH adjustment in water treatment",
-      "food additive (E507)",
       "cleaning and descaling",
-      "chemical synthesis"
+      "chemical synthesis",
+      "food-industry use, including E507, only if the exact grade, intended use and supplier documentation confirm suitability"
     ],
     "applications_hu": [
-      "pH-beállítás, fémfelület-kezelés, vízkezelés, regenerálás és élelmiszeripari alkalmazás gyógyszerkönyvi minőség esetén."
+      "fémfelület-kezelés",
+      "pH-beállítás és vízkezelés",
+      "tisztítás és vízkőtelenítés",
+      "vegyipari szintézis",
+      "élelmiszeripari, ezen belül E507-célú felhasználás kizárólag a pontos minőség, tervezett alkalmazás és beszállítói dokumentáció megerősítése esetén"
     ],
     "applications_de": [
       "Stahlbeizen und Metallverarbeitung",
       "pH-Einstellung in der Wasseraufbereitung",
-      "Lebensmittelzusatzstoff (E507)",
       "Reinigung und Entkalkung",
-      "chemische Synthese"
+      "chemische Synthese",
+      "Lebensmittelanwendungen einschließlich E507 nur nach Bestätigung der genauen Qualität, des vorgesehenen Einsatzes und der Lieferantendokumentation"
     ],
     "technical_identity": {
       "cas": "7647-01-0",
