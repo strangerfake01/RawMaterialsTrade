@@ -14,6 +14,7 @@ Designed to be idempotent. It applies the 2026-08-10 post-PSI improvements:
 from __future__ import annotations
 
 from pathlib import Path
+import sys
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 import json, re, html
@@ -21,6 +22,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 ROOT = Path(__file__).resolve().parents[1]
+WRITE = '--write' in sys.argv
+
+def write_text_safe(path, content, *args, **kwargs):
+    if WRITE:
+        path.write_text(content, *args, **kwargs)
+    return not WRITE
 DATE = "2026-08-10"
 
 DE_APP_TRANSLATIONS = {
@@ -230,13 +237,13 @@ def update_german_datasets():
             new.append(b)
         item['applications']=new
     d['schemaVersion']=DATE
-    p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+"\n",encoding='utf-8')
+    write_text_safe(p, json.dumps(d,ensure_ascii=False,indent=2)+"\n",encoding='utf-8')
 
     mp=ROOT/'products-multilingual.json'
     md=json.loads(mp.read_text(encoding='utf-8'))
     for item in md:
         item['applications_de']=[DE_APP_TRANSLATIONS.get(a,a) for a in item.get('applications_de',[])]
-    mp.write_text(json.dumps(md,ensure_ascii=False,indent=2)+"\n",encoding='utf-8')
+    write_text_safe(p, json.dumps(md,ensure_ascii=False,indent=2)+"\n",encoding='utf-8')
     return changed
 
 
@@ -249,7 +256,7 @@ def load_products():
         # localize the business model instead of keeping English in HU/DE machine datasets
         if lang=='hu': d['publisher']['businessModel']='Ajánlatkérés-alapú B2B vegyipari alapanyag-beszerzés és gyártói/disztribúciós partnerség'
         elif lang=='de-at': d['publisher']['businessModel']='Angebotsbasierte B2B-Rohstoffbeschaffung sowie Hersteller- und Vertriebspartnerschaften'
-        p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+"\n",encoding='utf-8')
+        write_text_safe(p, json.dumps(d,ensure_ascii=False,indent=2)+"\n",encoding='utf-8')
         out[lang]={x['id']:x for x in d['products']}
     return out
 
@@ -563,7 +570,7 @@ def update_product_page(path, p, lang, primary, related_ids, all_products):
         }[lang]
 
     update_schema(soup,p,lang,lead,all_products)
-    path.write_text(str(soup),encoding='utf-8')
+    write_text_safe(path, str(soup),encoding='utf-8')
 
 
 def update_homepages():
@@ -626,14 +633,14 @@ def update_homepages():
             sc.string=json.dumps(d,ensure_ascii=False,separators=(',',':'))
             # First schema block contains organization/webpage.
             break
-        path.write_text(str(soup),encoding='utf-8')
+        write_text_safe(path, str(soup),encoding='utf-8')
 
 
 def update_sitemap():
     p=ROOT/'sitemap.xml'
     txt=p.read_text(encoding='utf-8')
     txt=re.sub(r'<lastmod>\d{4}-\d{2}-\d{2}</lastmod>',f'<lastmod>{DATE}</lastmod>',txt)
-    p.write_text(txt,encoding='utf-8')
+    write_text_safe(p, txt,encoding='utf-8')
 
 
 def main():
@@ -655,3 +662,5 @@ def main():
     print(f'translated German application values: {translated}')
 
 if __name__=='__main__': main()
+
+print('hardening mode:', 'write' if WRITE else 'dry-run (use --write to modify files)')

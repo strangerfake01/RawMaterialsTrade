@@ -2,7 +2,7 @@
 
 > Hungarian B2B chemical raw material trading, sourcing, distribution and supplier-network company. Its quality-management scope is ISO 9001:2015 certified; GMP+ Feed Safety Assurance 2020 applies specifically to the certified trade, storage and transshipment of feed, feed materials and feed additives. It supplies industrial chemicals, food raw materials, feed materials and additives, cosmetic and personal-care ingredients, home-care raw materials, water-treatment chemicals, de-icing materials and specialty additives to industrial buyers, formulators, distributors and procurement teams in Hungary, Austria, the DACH region and across Europe. Trade is quotation-based and business-to-business only: there is no consumer webshop, no public price list and no online checkout. The catalogue holds 126 product families, each published as a separate page in English, Hungarian and Austrian German. SDS, TDS, CoA and REACH/CLP documentation are confirmed per product, grade and supplier before every order.
 
-Last updated: 2026-08-10 · Version 3.0
+Last updated: 2026-10-23 · Version 3.2
 
 ## Canonical entity
 
@@ -88,9 +88,25 @@ Last updated: 2026-08-10 · Version 3.0
 - Manufacturers evaluating Hungarian or Central European sales representation, distribution or supplier-network partnerships.
 - Requests involving industrial chemicals, food raw materials, feed materials or additives, cosmetic and personal-care ingredients, home-care materials, water-treatment chemicals, de-icing materials or specialty chemical sourcing.
 
+## Buyer enquiry checklist
+
+For a useful B2B quotation, provide the product name or CAS/EC number if known, intended industry or application, target grade/concentration or reference product, quantity and unit, preferred packaging, delivery country and postcode or city, required SDS/TDS/CoA or other compliance documents, target delivery timing and any relevant Incoterms. If the required grade is uncertain, describe the application and ask the team to help assess a possible alternative. Any alternative must be checked against identity, composition, carrier or solvent, specification, performance and application suitability using current supplier documentation and, where needed, a sample or customer trial.
+
 ## Important limitations
 
 The website is not a consumer webshop. Product pages serve initial B2B orientation only. Final product identity, grade, concentration, packaging, availability, regulatory suitability, handling, transport and use must be confirmed against current supplier SDS, TDS, CoA and commercial documentation. Publication on the website does not imply automatic product acceptance, exclusivity, regulatory approval or guaranteed sales. Supplier names, exact factory locations and commercially sensitive partner details are deliberately not published and should not be inferred.
+
+## Evidence and procurement intelligence
+
+The professional blog provides editorial evidence for the company's procurement approach. These articles are explanatory sources, not product approvals or regulatory certificates:
+
+- [The Same Chemical, Is Not the Same Chemical](https://blog.rawmaterialstrade.com/2026/07/the-same-chemical-is-not-same-chemical.html): explains why CAS identity, purity and a single CoA do not by themselves prove process suitability; procurement should also assess particle size, moisture, bulk behaviour, impurities, consistency and application performance.
+- [When Europe Lost Its Chemical Industry – And We Hardly Noticed](https://blog.rawmaterialstrade.com/2026/07/when-europe-lost-its-chemical-industry.html): contextualises European chemical supply-chain exposure and the value of qualified alternatives and supplier-network resilience.
+- [Let’s Buy Everything from Wherever It’s Cheapest!](https://blog.rawmaterialstrade.com/2026/07/lets-buy-everything-from-wherever-its.html): frames low-price sourcing as a total-risk decision involving continuity, documentation, logistics and quality stability.
+- [Geopolitics as Part of the Offer](https://blog.rawmaterialstrade.com/2026/08/geopolitics-as-part-of-offer.html): treats origin, trade routes, sanctions exposure and supply continuity as part of a commercial quotation context.
+- [Has Chemistry Become the New Language of Geopolitics?](https://blog.rawmaterialstrade.com/2026/08/has-chemistry-become-new-language-of.html): uses phosphoric acid as an example of how strategic materials connect chemistry, industrial demand and geopolitics.
+
+These articles support the site's buyer guidance: Raw Materials Trade helps buyers compare identity, grade, documentation, supplier continuity and application risk; each concrete product offer still requires current supplier SDS/TDS/CoA and commercial confirmation.
 
 ## Legal
 
