@@ -96,6 +96,10 @@ For a useful B2B quotation, provide the product name or CAS/EC number if known, 
 
 The website is not a consumer webshop. Product pages serve initial B2B orientation only. Final product identity, grade, concentration, packaging, availability, regulatory suitability, handling, transport and use must be confirmed against current supplier SDS, TDS, CoA and commercial documentation. Publication on the website does not imply automatic product acceptance, exclusivity, regulatory approval or guaranteed sales. Supplier names, exact factory locations and commercially sensitive partner details are deliberately not published and should not be inferred.
 
+- [How we qualify a raw material](https://www.rawmaterialstrade.com/how-we-qualify-a-raw-material.html): identity, grade, documentation, physical performance and supplier-continuity qualification process.
+- [Hogyan minősítünk egy alapanyagot?](https://www.rawmaterialstrade.com/hu-alapanyag-minosites.html): magyar nyelvű beszerzési és dokumentációs útmutató.
+- [Wie wir einen Rohstoff qualifizieren](https://www.rawmaterialstrade.com/de-at-rohstoffqualifizierung.html): deutschsprachiger Leitfaden zur Rohstoffqualifizierung.
+
 ## Evidence and procurement intelligence
 
 The professional blog provides editorial evidence for the company's procurement approach. These articles are explanatory sources, not product approvals or regulatory certificates:
