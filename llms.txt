@@ -100,6 +100,10 @@ The website is not a consumer webshop. Product pages serve initial B2B orientati
 - [Hogyan minősítünk egy alapanyagot?](https://www.rawmaterialstrade.com/hu-alapanyag-minosites.html): magyar nyelvű beszerzési és dokumentációs útmutató.
 - [Wie wir einen Rohstoff qualifizieren](https://www.rawmaterialstrade.com/de-at-rohstoffqualifizierung.html): deutschsprachiger Leitfaden zur Rohstoffqualifizierung.
 
+- [AI Trust Center](https://www.rawmaterialstrade.com/ai-trust-center.html): Separates company identity, certification scope, supplier evidence, editorial guidance, GDPR and AI transparency principles.
+- [AI Bizalmi Központ](https://www.rawmaterialstrade.com/hu-ai-bizalmi-kozpont.html): Magyar nyelvű bizonyíték- és tanúsítási keretrendszer.
+- [AI-Vertrauenszentrum](https://www.rawmaterialstrade.com/de-at-ai-vertrauenszentrum.html): Deutschsprachige Erklärung von Nachweisen, Zertifizierungsumfang und Datenschutzprinzipien.
+
 ## Evidence and procurement intelligence
 
 The professional blog provides editorial evidence for the company's procurement approach. These articles are explanatory sources, not product approvals or regulatory certificates:
