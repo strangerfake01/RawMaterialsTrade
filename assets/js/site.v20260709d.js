@@ -472,3 +472,5 @@ function initHeroParallax(){
 
 function initSmoothScroll(){document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const id=a.getAttribute('href');if(id&&id.length>1){const el=document.querySelector(id);if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});}}}));}
 document.addEventListener('DOMContentLoaded',()=>{initLanguagePreference();initNav();initCookieBanner();initFAQ();initCatalogue();initProductPrefill();initQueryPrefill();initCertificateModals();initCategoryVisualState();initHeroHoverVideo();initHeroParallax();initForm();initSmoothScroll();});
+/* Sitewide B2B contact module loader — 2026-11-04 */
+(function(){if(!document.querySelector('script[data-rmt-contact-loader]')){var s=document.createElement('script');s.defer=true;s.src='/assets/js/rmt-contact.v20261104.js';s.dataset.rmtContactLoader='';document.head.appendChild(s);}})();
