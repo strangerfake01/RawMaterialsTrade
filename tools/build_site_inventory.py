@@ -198,13 +198,15 @@ def inventory(output: Path):
                     schema_types.extend(typ if isinstance(typ, list) else [typ])
 
         noindex = "noindex" in page._meta_robots.lower()
-        excluded_by_policy = noindex and canonical not in sitemap
+        source_url = "https://www.rawmaterialstrade.com/" if path.name == "en.html" else f"https://www.rawmaterialstrade.com/{path.name}"
+        source_in_sitemap = source_url in sitemap
+        excluded_by_policy = noindex and not source_in_sitemap
         checks = {
             "title_status": "verified" if page.title or noindex else "missing",
             "description_status": "verified" if page.description or noindex else "missing",
             "h1_status": "verified" if noindex or (page.h1_count == 1 and page.h1) else "needs-confirmation" if page.h1_count > 1 else "missing",
             "canonical_status": "verified" if canonical else "missing",
-            "sitemap_status": "verified" if (canonical in sitemap and not noindex) or excluded_by_policy else "needs-confirmation" if noindex and canonical in sitemap else "missing",
+            "sitemap_status": "verified" if (source_in_sitemap and canonical in sitemap and not noindex) or excluded_by_policy else "needs-confirmation" if noindex and source_in_sitemap else "missing",
             "hreflang_status": "verified" if (noindex and not alternate and excluded_by_policy) or (alternate and "x-default" in alternate and reciprocal) else "needs-confirmation" if alternate else "missing",
             "jsonld_status": "verified" if noindex or (page.jsonld and len(parsed_json) == len(page.jsonld)) else "missing" if not page.jsonld else "needs-confirmation",
             "cas_status": "needs-confirmation" if cas else "missing",
@@ -217,6 +219,7 @@ def inventory(output: Path):
 
         records.append({
             "url": canonical,
+            "source_url": source_url,
             "file": path.name,
             "language": page.lang,
             "category": category_for(path),
