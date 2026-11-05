@@ -156,6 +156,16 @@ def inventory(output: Path):
     duplicate_locs = len(sitemap) != sum(1 for node in ET.parse(sitemap_path).getroot().iter() if local_name(node.tag) == "url")
     if duplicate_locs:
         raise SystemExit("FAIL: duplicate or empty sitemap URL entries")
+    missing_targets = []
+    for loc in sitemap:
+        url_path = urlparse(loc).path
+        target = ROOT / (url_path.strip("/") or "index.html")
+        if url_path.endswith("/"):
+            target = target / "index.html"
+        if not target.is_file():
+            missing_targets.append(loc)
+    if missing_targets:
+        raise SystemExit(f"FAIL: sitemap URLs do not map to repository files: {missing_targets}")
 
     records = []
     invalid_jsonld = []
@@ -186,9 +196,12 @@ def inventory(output: Path):
                 reciprocal = False
                 break
 
-        cas = sorted(set(CAS_RE.findall(page.text)))
-        ec = sorted(set(EC_RE.findall(page.text)))
-        docs = sorted(set(DOC_RE.findall(page.text)), key=str.lower)
+        is_product = category_for(path) == "product"
+        cas = sorted(set(CAS_RE.findall(page.text))) if is_product else []
+        ec = sorted(set(EC_RE.findall(page.text))) if is_product else []
+        docs = sorted(set(DOC_RE.findall(page.text)), key=str.lower) if is_product else []
+        current_language = page.lang.lower()
+        self_hreflang = alternate.get(current_language) == canonical
         schema_types = []
         for block in parsed_json:
             objects = block if isinstance(block, list) else [block]
@@ -205,9 +218,9 @@ def inventory(output: Path):
             "title_status": "verified" if page.title or noindex else "missing",
             "description_status": "verified" if page.description or noindex else "missing",
             "h1_status": "verified" if noindex or (page.h1_count == 1 and page.h1) else "needs-confirmation" if page.h1_count > 1 else "missing",
-            "canonical_status": "verified" if canonical else "missing",
+            "canonical_status": "verified" if canonical and (noindex or canonical == source_url) else "missing",
             "sitemap_status": "verified" if (source_in_sitemap and canonical in sitemap and not noindex) or excluded_by_policy else "needs-confirmation" if noindex and source_in_sitemap else "missing",
-            "hreflang_status": "verified" if (noindex and not alternate and excluded_by_policy) or (alternate and "x-default" in alternate and reciprocal) else "needs-confirmation" if alternate else "missing",
+            "hreflang_status": "verified" if (noindex and not alternate and excluded_by_policy) or (alternate and "x-default" in alternate and self_hreflang and reciprocal) else "needs-confirmation" if alternate else "missing",
             "jsonld_status": "verified" if noindex or (page.jsonld and len(parsed_json) == len(page.jsonld)) else "missing" if not page.jsonld else "needs-confirmation",
             "cas_status": "needs-confirmation" if cas else "missing",
             "ec_status": "needs-confirmation" if ec else "missing",
@@ -254,6 +267,10 @@ def inventory(output: Path):
         "scope": "repository source only; not a live-site verification",
         "html_pages": len(html_files),
         "sitemap_urls": len(sitemap),
+        "sitemap_targets_missing": len(missing_targets),
+        "product_pages": sum(1 for path in html_files if category_for(path) == "product"),
+        "product_pages_missing_cas": [row["file"] for row in records if row["category"] == "product" and row["cas_status"] == "missing"],
+        "product_pages_missing_ec": [row["file"] for row in records if row["category"] == "product" and row["ec_status"] == "missing"],
         "intentionally_excluded_noindex_pages": sum(1 for row in records if row["indexing_policy"] == "noindex-excluded"),
         "duplicate_or_empty_sitemap_entries": False,
         "invalid_jsonld_blocks": invalid_jsonld,
@@ -271,8 +288,11 @@ def inventory(output: Path):
     (output / "site-inventory-summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if invalid_jsonld:
         raise SystemExit(f"FAIL: {len(invalid_jsonld)} invalid JSON-LD block(s); see audit output")
-    print(f"Inventory: {len(html_files)} HTML pages; {len(sitemap)} sitemap URLs")
+    print(f"Inventory: {len(html_files)} HTML pages; {len(sitemap)} sitemap URLs; {summary['product_pages']} product pages")
     print(f"Non-verified fields: {dict(missing)}")
+    print(f"Product pages missing CAS: {summary['product_pages_missing_cas']}")
+    print(f"Product pages missing EC: {summary['product_pages_missing_ec']}")
+    print(f"Intentionally excluded noindex pages: {summary['intentionally_excluded_noindex_pages']}")
     for key, files in review_pages.items():
         print(f"Review {key}: {', '.join(files)}")
     print(f"Written: {output / 'site-inventory.csv'} and site-inventory-summary.json")
