@@ -198,7 +198,7 @@ def inventory(output: Path):
                     schema_types.extend(typ if isinstance(typ, list) else [typ])
 
         noindex = "noindex" in page._meta_robots.lower()
-        source_url = "https://www.rawmaterialstrade.com/" if path.name == "en.html" else f"https://www.rawmaterialstrade.com/{path.name}"
+        source_url = "https://www.rawmaterialstrade.com/" if path.name == "index.html" else f"https://www.rawmaterialstrade.com/{path.name}"
         source_in_sitemap = source_url in sitemap
         excluded_by_policy = noindex and not source_in_sitemap
         checks = {
