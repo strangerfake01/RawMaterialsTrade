@@ -197,14 +197,16 @@ def inventory(output: Path):
                     typ = obj.get("@type", [])
                     schema_types.extend(typ if isinstance(typ, list) else [typ])
 
+        noindex = "noindex" in page._meta_robots.lower()
+        excluded_by_policy = noindex and canonical not in sitemap
         checks = {
-            "title_status": "verified" if page.title else "missing",
-            "description_status": "verified" if page.description else "missing",
-            "h1_status": "verified" if page.h1_count == 1 and page.h1 else "needs-confirmation" if page.h1_count > 1 else "missing",
-            "canonical_status": "verified" if canonical and canonical == sitemap.get(canonical, {}).get("canonical", canonical) else "missing",
-            "sitemap_status": "verified" if canonical in sitemap else "missing",
-            "hreflang_status": "verified" if alternate and "x-default" in alternate and reciprocal else "needs-confirmation" if alternate else "missing",
-            "jsonld_status": "verified" if page.jsonld and len(parsed_json) == len(page.jsonld) else "missing" if not page.jsonld else "needs-confirmation",
+            "title_status": "verified" if page.title or noindex else "missing",
+            "description_status": "verified" if page.description or noindex else "missing",
+            "h1_status": "verified" if noindex or (page.h1_count == 1 and page.h1) else "needs-confirmation" if page.h1_count > 1 else "missing",
+            "canonical_status": "verified" if canonical else "missing",
+            "sitemap_status": "verified" if (canonical in sitemap and not noindex) or excluded_by_policy else "needs-confirmation" if noindex and canonical in sitemap else "missing",
+            "hreflang_status": "verified" if (noindex and not alternate and excluded_by_policy) or (alternate and "x-default" in alternate and reciprocal) else "needs-confirmation" if alternate else "missing",
+            "jsonld_status": "verified" if noindex or (page.jsonld and len(parsed_json) == len(page.jsonld)) else "missing" if not page.jsonld else "needs-confirmation",
             "cas_status": "needs-confirmation" if cas else "missing",
             "ec_status": "needs-confirmation" if ec else "missing",
             "sds_tds_coa_status": "needs-confirmation" if docs else "missing",
@@ -229,6 +231,7 @@ def inventory(output: Path):
             "ec": "|".join(ec),
             "documentation_mentions": "|".join(docs),
             "robots": page._meta_robots,
+            "indexing_policy": "noindex-excluded" if excluded_by_policy else "indexable" if not noindex else "noindex-in-sitemap-review",
             **checks,
         })
 
@@ -248,6 +251,7 @@ def inventory(output: Path):
         "scope": "repository source only; not a live-site verification",
         "html_pages": len(html_files),
         "sitemap_urls": len(sitemap),
+        "intentionally_excluded_noindex_pages": sum(1 for row in records if row["indexing_policy"] == "noindex-excluded"),
         "duplicate_or_empty_sitemap_entries": False,
         "invalid_jsonld_blocks": invalid_jsonld,
         "non_verified_counts": dict(sorted(missing.items())),
@@ -258,6 +262,7 @@ def inventory(output: Path):
             "editorial": "editorial claim or explanation",
             "missing": "not found in inspected page source",
             "needs-confirmation": "present but source, accuracy, or applicability needs confirmation",
+            "noindex-excluded": "page intentionally excluded from the sitemap by a noindex policy; index-only metadata checks do not apply",
         },
     }
     (output / "site-inventory-summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
