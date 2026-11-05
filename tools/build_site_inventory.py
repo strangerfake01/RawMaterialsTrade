@@ -138,9 +138,9 @@ def category_for(path: Path) -> str:
 
 def expected_language(path: Path) -> str:
     name = path.name.lower()
-    if name.startswith("de-at-") or name == "de-at.html":
+    if name.startswith("de-at-") or name in ("de-at.html", "privacy-de-at.html", "ai-profile-de-at.html"):
         return "de-at"
-    if name.startswith("hu-") or name == "hu.html":
+    if name.startswith("hu-") or name in ("hu.html", "privacy-hu.html", "ai-profile-hu.html"):
         return "hu-hu"
     return "en"
 
@@ -245,9 +245,9 @@ def inventory(output: Path):
             "sitemap_status": "verified" if (source_in_sitemap and canonical in sitemap and not noindex) or excluded_by_policy else "needs-confirmation" if noindex and source_in_sitemap else "missing",
             "hreflang_status": "verified" if (noindex and not alternate and excluded_by_policy) or (alternate and "x-default" in alternate and self_hreflang and reciprocal) else "needs-confirmation" if alternate else "missing",
             "jsonld_status": "verified" if noindex or (page.jsonld and len(parsed_json) == len(page.jsonld)) else "missing" if not page.jsonld else "needs-confirmation",
-            "cas_status": "needs-confirmation" if cas else "missing",
-            "ec_status": "needs-confirmation" if ec else "missing",
-            "sds_tds_coa_status": "needs-confirmation" if docs else "missing",
+            "cas_status": ("needs-confirmation" if cas else "missing") if is_product else "verified",
+            "ec_status": ("needs-confirmation" if ec else "missing") if is_product else "verified",
+            "sds_tds_coa_status": ("needs-confirmation" if docs else "missing") if is_product else "verified",
         }
         for key, value in checks.items():
             if value != "verified":
@@ -304,7 +304,8 @@ def inventory(output: Path):
             "supplier-provided": "reserved for explicitly identifiable supplier documents",
             "editorial": "editorial claim or explanation",
             "missing": "not found in inspected page source",
-            "needs-confirmation": "present but source, accuracy, or applicability needs confirmation",
+            "needs-confirmation": "present but source, accuracy, or applicability needs confirmation; chemical identifiers need an authoritative source and supplier documents need exact-product confirmation",
+            "non-product identity fields": "chemical identity and supplier-document status are not applicable outside product pages",
             "noindex-excluded": "page intentionally excluded from the sitemap by a noindex policy; index-only metadata checks do not apply",
         },
     }
