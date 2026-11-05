@@ -238,6 +238,12 @@ def inventory(output: Path):
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(records)
+    review_keys = ("sitemap_status", "hreflang_status", "description_status", "h1_status", "jsonld_status")
+    review_pages = {
+        key: [row["file"] for row in records if row[key] != "verified"]
+        for key in review_keys
+        if any(row[key] != "verified" for row in records)
+    }
     summary = {
         "scope": "repository source only; not a live-site verification",
         "html_pages": len(html_files),
@@ -245,6 +251,7 @@ def inventory(output: Path):
         "duplicate_or_empty_sitemap_entries": False,
         "invalid_jsonld_blocks": invalid_jsonld,
         "non_verified_counts": dict(sorted(missing.items())),
+        "review_pages": review_pages,
         "status_legend": {
             "verified": "present and structurally verified in repository source",
             "supplier-provided": "reserved for explicitly identifiable supplier documents",
@@ -258,6 +265,8 @@ def inventory(output: Path):
         raise SystemExit(f"FAIL: {len(invalid_jsonld)} invalid JSON-LD block(s); see audit output")
     print(f"Inventory: {len(html_files)} HTML pages; {len(sitemap)} sitemap URLs")
     print(f"Non-verified fields: {dict(missing)}")
+    for key, files in review_pages.items():
+        print(f"Review {key}: {', '.join(files)}")
     print(f"Written: {output / 'site-inventory.csv'} and site-inventory-summary.json")
 
 
