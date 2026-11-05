@@ -127,6 +127,15 @@ def category_for(path: Path) -> str:
     return "other"
 
 
+def expected_language(path: Path) -> str:
+    name = path.name.lower()
+    if name.startswith("de-at-") or name == "de-at.html":
+        return "de-at"
+    if name.startswith("hu-") or name == "hu.html":
+        return "hu-hu"
+    return "en"
+
+
 def read_sitemap(path: Path):
     root = ET.parse(path).getroot()
     entries = {}
@@ -218,6 +227,7 @@ def inventory(output: Path):
         source_in_sitemap = source_url in sitemap
         excluded_by_policy = noindex and not source_in_sitemap
         checks = {
+            "language_status": "verified" if page.lang.lower() == expected_language(path) else "needs-confirmation",
             "title_status": "verified" if page.title or noindex else "missing",
             "description_status": "verified" if page.description or noindex else "missing",
             "h1_status": "verified" if noindex or (page.h1_count == 1 and page.h1) else "needs-confirmation" if page.h1_count > 1 else "missing",
@@ -293,6 +303,7 @@ def inventory(output: Path):
         raise SystemExit(f"FAIL: {len(invalid_jsonld)} invalid JSON-LD block(s); see audit output")
     print(f"Inventory: {len(html_files)} HTML pages; {len(sitemap)} sitemap URLs; {summary['product_pages']} product pages")
     print(f"Non-verified fields: {dict(missing)}")
+    print(f"Language attribute review: {review_pages.get('language_status', [])}")
     print(f"Product pages missing CAS: {summary['product_pages_missing_cas']}")
     print(f"Product pages missing EC: {summary['product_pages_missing_ec']}")
     print(f"Intentionally excluded noindex pages: {summary['intentionally_excluded_noindex_pages']}")
