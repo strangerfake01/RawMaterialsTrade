@@ -33,6 +33,9 @@ class PageParser(HTMLParser):
         self.title_parts = []
         self.h1_parts = []
         self.h1_count = 0
+        self.title_count = 0
+        self.description_count = 0
+        self.canonical_count = 0
         self.description = ""
         self.lang = ""
         self.canonical = ""
@@ -56,6 +59,7 @@ class PageParser(HTMLParser):
         if tag == "html":
             self.lang = a.get("lang", "")
         elif tag == "title":
+            self.title_count += 1
             self._capture = "title"
         elif tag == "h1":
             self.h1_count += 1
@@ -63,12 +67,14 @@ class PageParser(HTMLParser):
         elif tag == "meta":
             name = a.get("name", "").lower()
             if name == "description":
+                self.description_count += 1
                 self.description = a.get("content", "")
             elif name == "robots":
                 self._meta_robots = a.get("content", "")
         elif tag == "link":
             rel = a.get("rel", "").lower().split()
             if "canonical" in rel:
+                self.canonical_count += 1
                 self.canonical = a.get("href", "")
             if "alternate" in rel and a.get("hreflang"):
                 self.hreflang[a["hreflang"].lower()] = a.get("href", "")
@@ -274,12 +280,12 @@ def inventory(output: Path):
         excluded_by_policy = noindex and not source_in_sitemap
         checks = {
             "language_status": "verified" if page.lang.lower() == expected_language(path) else "needs-confirmation",
-            "title_status": "verified" if page.title or noindex else "missing",
-            "description_status": "verified" if page.description or noindex else "missing",
+            "title_status": "verified" if noindex or (page.title_count == 1 and page.title) else "needs-confirmation" if page.title_count > 1 else "missing", 
+            "description_status": "verified" if noindex or (page.description_count == 1 and page.description) else "needs-confirmation" if page.description_count > 1 else "missing", 
             "h1_status": "verified" if noindex or (page.h1_count == 1 and page.h1) else "needs-confirmation" if page.h1_count > 1 else "missing",
-            "canonical_status": "verified" if canonical and (noindex or canonical == source_url) else "missing",
+            "canonical_status": "verified" if canonical and page.canonical_count == 1 and (noindex or canonical == source_url) else "needs-confirmation" if page.canonical_count > 1 else "missing",
             "sitemap_status": "verified" if (source_in_sitemap and canonical in sitemap and not noindex) or excluded_by_policy else "needs-confirmation" if noindex and source_in_sitemap else "missing",
-            "hreflang_status": "verified" if (noindex and not alternate and excluded_by_policy) or (alternate and "x-default" in alternate and self_hreflang and reciprocal) else "needs-confirmation" if alternate else "missing",
+            "hreflang_status": "verified" if (noindex and not alternate and not page.hreflang and excluded_by_policy) or (alternate and "x-default" in alternate and self_hreflang and reciprocal and page.hreflang == alternate) else "needs-confirmation" if alternate or page.hreflang else "missing",
             "jsonld_status": "verified" if noindex or (page.jsonld and len(parsed_json) == len(page.jsonld)) else "missing" if not page.jsonld else "needs-confirmation",
             "date_sync_status": date_sync_status,
             "image_alt_status": "needs-confirmation" if page.img_missing_alt and not noindex else "verified",
@@ -315,6 +321,10 @@ def inventory(output: Path):
             "sitemap_lastmod": sitemap_lastmod,
             "date_modified_values": "|".join(sorted(set(date_modified_values))),
             "hreflang_count": len(alternate),
+            "html_hreflang_count": len(page.hreflang),
+            "title_count": page.title_count,
+            "description_count": page.description_count,
+            "canonical_count": page.canonical_count,
             "jsonld_types": "|".join(sorted(set(t for t in schema_types if t))),
             "cas": "|".join(cas),
             "ec": "|".join(ec),
@@ -372,7 +382,9 @@ def inventory(output: Path):
         "intentionally_excluded_noindex_pages": sum(1 for row in records if row["indexing_policy"] == "noindex-excluded"),
         "duplicate_or_empty_sitemap_entries": False,
         "invalid_jsonld_blocks": invalid_jsonld,
-        "non_verified_counts": dict(sorted(missing.items())),
+        "duplicate_titles": sorted({row["title"] for row in records if row["title"] and sum(1 for other in records if other["indexing_policy"] == "indexable" and other["title"] == row["title"]) > 1}),
+        "duplicate_descriptions": sorted({row["description"] for row in records if row["description"] and sum(1 for other in records if other["indexing_policy"] == "indexable" and other["description"] == row["description"]) > 1}),
+        "non_verified_counts": dict(sorted(missing.items())), 
         "review_pages": review_pages,
         "status_legend": {
             "verified": "present and structurally verified in repository source",
