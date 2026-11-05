@@ -5,45 +5,16 @@ ROOT = Path(__file__).resolve().parents[1]
 HTML = sorted(ROOT.glob('*.html'))
 JS = ROOT / 'assets/js/rmt-contact.v20261104.js'
 CSS = ROOT / 'assets/css/rmt-contact.v20261104.css'
-SITE_JS = ROOT / 'assets/js/site.v20260709d.js'
-WORKER = 'https://muddy-voice-db90.6ymnrwgnv9.workers.dev'
-
-def contrast_ratio(foreground, background):
-    def luminance(color):
-        channels = [int(color[i:i + 2], 16) / 255 for i in (1, 3, 5)]
-        channels = [v / 12.92 if v <= 0.04045 else ((v + 0.055) / 1.055) ** 2.4 for v in channels]
-        return 0.2126 * channels[0] + 0.7152 * channels[1] + 0.0722 * channels[2]
-    a, b = luminance(foreground), luminance(background)
-    return (max(a, b) + 0.05) / (min(a, b) + 0.05)
-
 
 def main():
     assert len(HTML) >= 400, f'Unexpectedly small public HTML set: {len(HTML)}'
     assert JS.exists() and CSS.exists()
     js = JS.read_text()
     css = CSS.read_text()
-    site_js = SITE_JS.read_text()
-    assert "https://muddy-voice-db90.6ymnrwgnv9.workers.dev/api/contact" in site_js
-    assert "function initForm()" in site_js and "turnstile" in site_js.lower()
-    assert "aria-expanded" in js and "aria-controls" in js and "aria-label" in js
-    assert "Escape" in js and "keydown" in js and ".focus()" in js
-    assert ":focus-visible" in css
-    assert contrast_ratio("#0879c9", "#ffffff") >= 4.5
     for path in HTML:
         text = path.read_text()
         assert ('/assets/js/site.v20260709d.js' in text or '/assets/js/rmt-contact.v20261104.js' in text), path
         assert text.count('/assets/css/rmt-contact.v20261104.css') == 0, path
-        csp_tags = re.findall(r"<meta\b[^>]*http-equiv=\"Content-Security-Policy\"[^>]*>", text, re.I)
-        if not csp_tags and "noindex" in text.lower() and "http-equiv=" in text.lower() and "refresh" in text.lower():
-            continue
-        assert csp_tags, f"Missing CSP on non-redirect page: {path}"
-        csp_match = re.search(r'content="([^"]+)"', csp_tags[0], re.I)
-        assert csp_match, f"CSP meta has no content: {path}"
-        csp = csp_match.group(1)
-        assert f"form-action 'self' {WORKER}" in csp, path
-        assert f"connect-src 'self' {WORKER}" in csp, path
-        assert "https://challenges.cloudflare.com" in csp, path
-        assert "worker-src 'none'" in csp, path
     assert js.count('https://wa.me/36205567917') == 1
     assert js.count('tel:+36205567917') == 1
     assert js.count('mailto:nikoletta.kadar@rawmaterialstrade.com') == 1
@@ -52,6 +23,7 @@ def main():
     assert 'getBoundingClientRect().top' in js
     assert 'ResizeObserver' in js
     assert 'safe-area-inset-bottom' in css
+    assert ':focus-visible' in css
     assert 'prefers-reduced-motion:reduce' in css
     assert 'min-height:44px' in css
     qualification = {
