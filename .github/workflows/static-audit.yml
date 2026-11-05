@@ -26,3 +26,11 @@ jobs:
         run: node --check assets/js/rmt-contact.v20261104.js
       - name: Run static regression checks
         run: python tests/test_rmt_contact.py
+      - name: Build machine-readable page inventory
+        run: python tools/build_site_inventory.py --output audit-output
+      - name: Upload audit inventory
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-materials-trade-site-inventory
+          path: audit-output/
+          if-no-files-found: error
