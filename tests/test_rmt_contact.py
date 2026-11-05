@@ -34,6 +34,11 @@ def main():
         products = [p for p in HTML if p.name.startswith(prefix) and 'product-hero-detail' in p.read_text()]
         assert len(products) == 126, (prefix, len(products))
         assert all(href in p.read_text() for p in products), prefix
+        ec_label = {"en-": "EC / EINECS number", "hu-": "EK / EINECS-szám", "de-at-": "EG / EINECS-Nummer"}[prefix]
+        for product in products:
+            body = product.read_text()
+            assert re.search(r"<dt[^>]*>CAS[^<]*</dt>\s*<dd[^>]*>[^<]+</dd>", body, re.I)
+            assert f"<dt>{ec_label}</dt><dd>" in body
     category_trust = {
         'en-industrial-chemicals.html': 'ai-trust-center.html',
         'en-deicing-materials.html': 'ai-trust-center.html',

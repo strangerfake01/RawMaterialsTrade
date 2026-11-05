@@ -10,6 +10,7 @@ import argparse
 import csv
 import json
 import re
+import html as html_lib
 import sys
 import xml.etree.ElementTree as ET
 from collections import Counter
@@ -18,8 +19,6 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-CAS_RE = re.compile(r"\bCAS\s*(?:No\.?|number)?\s*[:#]?\s*(\d{2,7}-\d{2}-\d)\b", re.I)
-EC_RE = re.compile(r"\bEC\s*(?:No\.?|number)?\s*[:#]?\s*(\d{3}-\d{3}-\d)\b", re.I)
 DOC_RE = re.compile(r"\b(SDS|TDS|CoA|certificate of analysis|safety data sheet|technical data sheet)\b", re.I)
 
 
@@ -108,6 +107,16 @@ class PageParser(HTMLParser):
     @property
     def h1(self):
         return " ".join("".join(self.h1_parts).split())
+
+
+def definition_values(source: str, label_pattern: str):
+    values = []
+    for label, value in re.findall(r"<dt[^>]*>(.*?)</dt>\s*<dd[^>]*>(.*?)</dd>", source, re.I | re.S):
+        clean_label = html_lib.unescape(re.sub(r"<[^>]+>", " ", label))
+        clean_value = html_lib.unescape(re.sub(r"<[^>]+>", " ", value)).strip()
+        if re.search(label_pattern, clean_label, re.I) and clean_value:
+            values.append(clean_value)
+    return sorted(set(values))
 
 
 def category_for(path: Path) -> str:
@@ -209,8 +218,9 @@ def inventory(output: Path):
                 break
 
         is_product = category_for(path) == "product"
-        cas = sorted(set(CAS_RE.findall(page.text))) if is_product else []
-        ec = sorted(set(EC_RE.findall(page.text))) if is_product else []
+        source_html = path.read_text(encoding="utf-8")
+        cas = definition_values(source_html, r"\bCAS\b") if is_product else []
+        ec = definition_values(source_html, r"\b(?:EC|EG|EINECS|EK)\b") if is_product else []
         docs = sorted(set(DOC_RE.findall(page.text)), key=str.lower) if is_product else []
         current_language = page.lang.lower()
         self_hreflang = alternate.get(current_language) == canonical
