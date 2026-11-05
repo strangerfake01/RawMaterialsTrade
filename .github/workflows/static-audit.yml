@@ -1,0 +1,28 @@
+name: Static site checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - fix/dark-surface-text-contrast
+      - feat/sitewide-nikoletta-contact
+
+permissions:
+  contents: read
+
+jobs:
+  static-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check contact script syntax
+        run: node --check assets/js/rmt-contact.v20261104.js
+      - name: Run static regression checks
+        run: python tests/test_rmt_contact.py

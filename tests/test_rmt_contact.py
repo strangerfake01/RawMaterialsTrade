@@ -18,7 +18,10 @@ def main():
     assert js.count('https://wa.me/36205567917') == 1
     assert js.count('tel:+36205567917') == 1
     assert js.count('mailto:nikoletta.kadar@rawmaterialstrade.com') == 1
-    assert 'IntersectionObserver' in js
+    assert 'window.addEventListener(\'scroll\',scheduleFooterOffset' in js
+    assert 'window.addEventListener(\'resize\',scheduleFooterOffset' in js
+    assert 'getBoundingClientRect().top' in js
+    assert 'ResizeObserver' in js
     assert 'safe-area-inset-bottom' in css
     assert 'prefers-reduced-motion:reduce' in css
     assert 'min-height:44px' in css
@@ -49,7 +52,7 @@ def main():
     assert 'Menschliche Verantwortung' in (ROOT / 'de-at-ai-vertrauenszentrum.html').read_text()
     print(f'PASS: {len(HTML)} HTML pages include one shared contact CSS/JS reference')
     print('PASS: WhatsApp, phone and email destinations are centralized and exact')
-    print('PASS: footer observer, safe-area, keyboard focus and reduced-motion hooks present')
+    print('PASS: scroll/resize footer offset, safe-area, keyboard focus and reduced-motion hooks present')
     print('PASS: 126 EN/HU/DE product pages per language link to the matching qualification page')
     print('PASS: industrial and winter-service category pages link to the matching AI Trust Center')
     print('PASS: qualification boundaries and human AI-Trust accountability are present in all three languages')
