@@ -159,9 +159,12 @@ def inventory(output: Path):
     missing_targets = []
     for loc in sitemap:
         url_path = urlparse(loc).path
-        target = ROOT / (url_path.strip("/") or "index.html")
-        if url_path.endswith("/"):
-            target = target / "index.html"
+        if url_path in ("", "/"):
+            target = ROOT / "index.html"
+        elif url_path.endswith("/"):
+            target = ROOT / url_path.strip("/") / "index.html"
+        else:
+            target = ROOT / url_path.lstrip("/")
         if not target.is_file():
             missing_targets.append(loc)
     if missing_targets:
