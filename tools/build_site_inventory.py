@@ -14,6 +14,7 @@ import html as html_lib
 import sys
 import xml.etree.ElementTree as ET
 from collections import Counter
+from datetime import date
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
@@ -42,10 +43,16 @@ class PageParser(HTMLParser):
         self._script_parts = []
         self._text_parts = []
         self._meta_robots = ""
+        self.img_count = 0
+        self.img_missing_alt = 0
 
     def handle_starttag(self, tag, attrs):
         a = {k.lower(): (v or "") for k, v in attrs}
         tag = tag.lower()
+        if tag == "img":
+            self.img_count += 1
+            if "alt" not in a:
+                self.img_missing_alt += 1
         if tag == "html":
             self.lang = a.get("lang", "")
         elif tag == "title":
@@ -170,6 +177,8 @@ def read_sitemap(path: Path):
 def inventory(output: Path):
     sitemap_path = ROOT / "sitemap.xml"
     sitemap = read_sitemap(sitemap_path)
+    catalogue_rows = json.loads((ROOT / "products-multilingual.json").read_text(encoding="utf-8"))
+    catalogue = {item["id"]: item for item in catalogue_rows}
     html_files = sorted(ROOT.glob("*.html"))
     duplicate_locs = len(sitemap) != sum(1 for node in ET.parse(sitemap_path).getroot().iter() if local_name(node.tag) == "url")
     if duplicate_locs:
@@ -187,6 +196,9 @@ def inventory(output: Path):
             missing_targets.append(loc)
     if missing_targets:
         raise SystemExit(f"FAIL: sitemap URLs do not map to repository files: {missing_targets}")
+    invalid_lastmods = [loc for loc, entry in sitemap.items() if not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", entry["lastmod"])]
+    if invalid_lastmods:
+        raise SystemExit(f"FAIL: sitemap entries without ISO lastmod: {invalid_lastmods}")
 
     records = []
     invalid_jsonld = []
@@ -219,9 +231,18 @@ def inventory(output: Path):
 
         is_product = category_for(path) == "product"
         source_html = path.read_text(encoding="utf-8")
+        data_language = "en" if path.name.startswith("en-") else "hu" if path.name.startswith("hu-") else "de"
+        product_id = re.sub(r"^(?:en-|hu-|de-at-)", "", path.stem) if is_product else ""
+        product_record = catalogue.get(product_id) if is_product else None
+        identity = product_record.get("technical_identity", {}) if product_record else {}
+        procurement = product_record.get("procurement", {}) if product_record else {}
+        document_claims = product_record.get("documentation", {}) if product_record else {}
         cas = definition_values(source_html, r"\bCAS\b") if is_product else []
         ec = definition_values(source_html, r"\b(?:EC|EG|EINECS|EK)\b") if is_product else []
         docs = sorted(set(DOC_RE.findall(page.text)), key=str.lower) if is_product else []
+        doc_file_links = re.findall(r"""href=["']([^"']+\.(?:pdf|docx|xlsx)(?:\?[^"']*)?)["']""", source_html, re.I)
+        cas_catalogue_match = bool(identity.get("cas") and identity.get("cas") in cas)
+        ec_catalogue_match = bool(identity.get("ec") and identity.get("ec") in ec)
         current_language = page.lang.lower()
         self_hreflang = alternate.get(current_language) == canonical
         schema_types = []
@@ -233,6 +254,21 @@ def inventory(output: Path):
                     schema_types.extend(typ if isinstance(typ, list) else [typ])
 
         noindex = "noindex" in page._meta_robots.lower()
+        date_modified_values = []
+        def collect_date_modified(value):
+            if isinstance(value, dict):
+                if value.get("dateModified"):
+                    date_modified_values.append(str(value["dateModified"]))
+                for child in value.values():
+                    collect_date_modified(child)
+            elif isinstance(value, list):
+                for child in value:
+                    collect_date_modified(child)
+        for block in parsed_json:
+            collect_date_modified(block)
+        sitemap_lastmod = sitemap_entry.get("lastmod", "")
+        date_sync_status = "verified" if not sitemap_entry and noindex else "verified" if sitemap_lastmod and date_modified_values and all(x == sitemap_lastmod for x in date_modified_values) else "needs-confirmation" if sitemap_entry else "missing"
+
         source_url = "https://www.rawmaterialstrade.com/" if path.name == "index.html" else f"https://www.rawmaterialstrade.com/{path.name}"
         source_in_sitemap = source_url in sitemap
         excluded_by_policy = noindex and not source_in_sitemap
@@ -245,9 +281,22 @@ def inventory(output: Path):
             "sitemap_status": "verified" if (source_in_sitemap and canonical in sitemap and not noindex) or excluded_by_policy else "needs-confirmation" if noindex and source_in_sitemap else "missing",
             "hreflang_status": "verified" if (noindex and not alternate and excluded_by_policy) or (alternate and "x-default" in alternate and self_hreflang and reciprocal) else "needs-confirmation" if alternate else "missing",
             "jsonld_status": "verified" if noindex or (page.jsonld and len(parsed_json) == len(page.jsonld)) else "missing" if not page.jsonld else "needs-confirmation",
+            "date_sync_status": date_sync_status,
+            "image_alt_status": "needs-confirmation" if page.img_missing_alt and not noindex else "verified",
             "cas_status": ("needs-confirmation" if cas else "missing") if is_product else "verified",
             "ec_status": ("needs-confirmation" if ec else "missing") if is_product else "verified",
+            "cas_source_status": "needs-confirmation" if is_product and identity.get("cas") else "missing" if is_product else "verified",
+            "ec_source_status": "needs-confirmation" if is_product and identity.get("ec") else "missing" if is_product else "verified",
+            "identity_catalogue_match_status": "verified" if is_product and cas_catalogue_match and ec_catalogue_match else "needs-confirmation" if is_product and product_record else "missing" if is_product else "verified",
+            "supplier_document_status": "needs-confirmation" if is_product and document_claims else "missing" if is_product else "verified",
             "sds_tds_coa_status": ("needs-confirmation" if docs else "missing") if is_product else "verified",
+            "formula_status": "needs-confirmation" if is_product and identity.get("formula") else "missing" if is_product else "verified",
+            "grade_status": "needs-confirmation" if is_product and identity.get(f"grade_{data_language}") else "missing" if is_product else "verified",
+            "intended_use_status": "needs-confirmation" if is_product and product_record and product_record.get(f"applications_{data_language}") else "missing" if is_product else "verified",
+            "packaging_status": "needs-confirmation" if is_product and procurement.get(f"packaging_{data_language}") else "missing" if is_product else "verified",
+            "delivery_status": "needs-confirmation" if is_product and procurement.get(f"delivery_region_{data_language}") else "missing" if is_product else "verified",
+            "moq_status": "needs-confirmation" if is_product and procurement.get("moq") else "missing" if is_product else "verified",
+            "lead_time_status": "needs-confirmation" if is_product and procurement.get("lead_time") else "missing" if is_product else "verified",
         }
         for key, value in checks.items():
             if value != "verified":
@@ -263,12 +312,32 @@ def inventory(output: Path):
             "title": page.title,
             "description": page.description,
             "canonical": canonical,
-            "sitemap_lastmod": sitemap_entry.get("lastmod", ""),
+            "sitemap_lastmod": sitemap_lastmod,
+            "date_modified_values": "|".join(sorted(set(date_modified_values))),
             "hreflang_count": len(alternate),
             "jsonld_types": "|".join(sorted(set(t for t in schema_types if t))),
             "cas": "|".join(cas),
             "ec": "|".join(ec),
+            "cas_catalogue": identity.get("cas", ""),
+            "ec_catalogue": identity.get("ec", ""),
+            "cas_catalogue_match": cas_catalogue_match if is_product else "",
+            "ec_catalogue_match": ec_catalogue_match if is_product else "",
+            "identity_source_status": "needs-confirmation" if is_product else "",
+            "background_reference_urls": "|".join((product_record.get("wikipedia", {}) or {}).values()) if product_record else "",
+            "product_name": product_record.get(f"name_{data_language}", "") if product_record else "",
+            "product_formula": identity.get("formula", ""),
+            "grade": identity.get(f"grade_{data_language}", identity.get("grade", "")) if product_record else "",
+            "intended_use": " | ".join(product_record.get(f"applications_{data_language}", [])) if product_record and isinstance(product_record.get(f"applications_{data_language}", []), list) else (product_record.get(f"applications_{data_language}", "") if product_record else ""),
+            "packaging": procurement.get(f"packaging_{data_language}", ""),
+            "delivery_region": procurement.get(f"delivery_region_{data_language}", ""),
+            "availability_note": procurement.get(f"availability_note_{data_language}", ""),
+            "sds_claim": document_claims.get(f"sds_status_{data_language}", ""),
+            "tds_claim": document_claims.get(f"tds_status_{data_language}", ""),
+            "coa_claim": document_claims.get(f"coa_status_{data_language}", ""),
+            "document_file_link_count": len(doc_file_links),
             "documentation_mentions": "|".join(docs),
+            "image_count": page.img_count,
+            "images_missing_alt": page.img_missing_alt,
             "robots": page._meta_robots,
             "indexing_policy": "noindex-excluded" if excluded_by_policy else "indexable" if not noindex else "noindex-in-sitemap-review",
             **checks,
@@ -280,7 +349,7 @@ def inventory(output: Path):
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(records)
-    review_keys = ("sitemap_status", "hreflang_status", "description_status", "h1_status", "jsonld_status")
+    review_keys = ("language_status", "title_status", "description_status", "h1_status", "canonical_status", "sitemap_status", "hreflang_status", "jsonld_status", "date_sync_status", "image_alt_status")
     review_pages = {
         key: [row["file"] for row in records if row[key] != "verified"]
         for key in review_keys
@@ -294,6 +363,12 @@ def inventory(output: Path):
         "product_pages": sum(1 for path in html_files if category_for(path) == "product"),
         "product_pages_missing_cas": [row["file"] for row in records if row["category"] == "product" and row["cas_status"] == "missing"],
         "product_pages_missing_ec": [row["file"] for row in records if row["category"] == "product" and row["ec_status"] == "missing"],
+        "product_pages_without_catalogue_entry": [row["file"] for row in records if row["category"] == "product" and row["identity_catalogue_match_status"] == "missing"],
+        "product_pages_needing_authoritative_CAS_EC_sources": sum(1 for row in records if row["category"] == "product" and row["identity_source_status"] == "needs-confirmation"),
+        "product_pages_needing_supplier_document_confirmation": sum(1 for row in records if row["category"] == "product" and row["supplier_document_status"] == "needs-confirmation"),
+        "product_pages_without_attached_document_links": sum(1 for row in records if row["category"] == "product" and row["document_file_link_count"] == 0),
+        "indexable_pages_with_date_sync_review": [row["file"] for row in records if row["indexing_policy"] == "indexable" and row["date_sync_status"] != "verified"],
+        "pages_with_images_missing_alt": [row["file"] for row in records if row["images_missing_alt"] > 0],
         "intentionally_excluded_noindex_pages": sum(1 for row in records if row["indexing_policy"] == "noindex-excluded"),
         "duplicate_or_empty_sitemap_entries": False,
         "invalid_jsonld_blocks": invalid_jsonld,
@@ -312,12 +387,26 @@ def inventory(output: Path):
     (output / "site-inventory-summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if invalid_jsonld:
         raise SystemExit(f"FAIL: {len(invalid_jsonld)} invalid JSON-LD block(s); see audit output")
+    critical_keys = ("language_status", "title_status", "description_status", "h1_status", "canonical_status", "sitemap_status", "hreflang_status", "jsonld_status")
+    critical_failures = [
+        f"{row['file']}:{key}={row[key]}"
+        for row in records if row["indexing_policy"] == "indexable"
+        for key in critical_keys if row[key] != "verified"
+    ]
+    if critical_failures:
+        raise SystemExit("FAIL: indexable page technical checks: " + ", ".join(critical_failures[:100]))
     print(f"Inventory: {len(html_files)} HTML pages; {len(sitemap)} sitemap URLs; {summary['product_pages']} product pages")
     print(f"Non-verified fields: {dict(missing)}")
     print(f"Language attribute review: {review_pages.get('language_status', [])}")
     print(f"Product pages missing CAS: {summary['product_pages_missing_cas']}")
     print(f"Product pages missing EC: {summary['product_pages_missing_ec']}")
     print(f"Intentionally excluded noindex pages: {summary['intentionally_excluded_noindex_pages']}")
+    print(f"Pages with image alt review: {len(summary['pages_with_images_missing_alt'])}")
+    print(f"Product records missing: {len(summary['product_pages_without_catalogue_entry'])}")
+    print(f"Product pages needing authoritative identifier sources: {summary['product_pages_needing_authoritative_CAS_EC_sources']}")
+    print(f"Product pages needing supplier document confirmation: {summary['product_pages_needing_supplier_document_confirmation']}")
+    print(f"Product pages without attached document links: {summary['product_pages_without_attached_document_links']}")
+    print(f"Indexable date sync review: {summary['indexable_pages_with_date_sync_review']}")
     for key, files in review_pages.items():
         print(f"Review {key}: {', '.join(files)}")
     print(f"Written: {output / 'site-inventory.csv'} and site-inventory-summary.json")
