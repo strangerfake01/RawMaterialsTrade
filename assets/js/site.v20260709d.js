@@ -470,5 +470,65 @@ function initHeroParallax(){
   window.addEventListener('resize', request, {passive:true});
 }
 
+
+function initFloatingContact(){
+  if(document.querySelector('.rmt-contact-fab'))return;
+  const lang=getLang();
+  const copy={
+    en:{open:'Contact options',email:'Email Nikoletta',call:'Call Nikoletta'},
+    hu:{open:'Kapcsolatfelvétel',email:'E-mail Nikolettának',call:'Nikoletta hívása'},
+    'de-at':{open:'Kontaktmöglichkeiten',email:'E-Mail an Nikoletta',call:'Nikoletta anrufen'}
+  }[lang]||{open:'Contact options',email:'Email Nikoletta',call:'Call Nikoletta'};
+  const root=document.createElement('div');
+  root.className='rmt-contact-fab';
+  const trigger=document.createElement('button');
+  trigger.type='button';
+  trigger.className='rmt-contact-trigger';
+  trigger.textContent=copy.open;
+  trigger.setAttribute('aria-expanded','false');
+  trigger.setAttribute('aria-controls','rmt-contact-options');
+  const panel=document.createElement('div');
+  panel.id='rmt-contact-options';
+  panel.className='rmt-contact-options';
+  panel.hidden=true;
+  const links=[
+    {text:copy.email,href:'mailto:nikoletta.kadar@rawmaterialstrade.com'},
+    {text:copy.call,href:'tel:+36205567917'}
+  ];
+  links.forEach(item=>{
+    const a=document.createElement('a');
+    a.href=item.href;
+    a.textContent=item.text;
+    panel.appendChild(a);
+  });
+  const close=()=>{
+    panel.hidden=true;
+    trigger.setAttribute('aria-expanded','false');
+  };
+  trigger.addEventListener('click',()=>{
+    const opening=panel.hidden;
+    panel.hidden=!opening;
+    trigger.setAttribute('aria-expanded',String(opening));
+  });
+  document.addEventListener('pointerdown',event=>{if(!root.contains(event.target))close();});
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!panel.hidden){close();trigger.focus();}});
+  root.append(panel,trigger);
+  document.body.appendChild(root);
+  const footer=document.querySelector('footer');
+  const cookie=document.getElementById('cookieBanner');
+  const updateVisibility=()=>{
+    const footerVisible=footer&&footer.getBoundingClientRect().top<window.innerHeight;
+    const cookieVisible=cookie&&getComputedStyle(cookie).display!=='none'&&cookie.getBoundingClientRect().height>0&&cookie.getBoundingClientRect().bottom>0&&cookie.getBoundingClientRect().top<window.innerHeight;
+    root.hidden=Boolean(footerVisible||cookieVisible);
+    if(root.hidden)close();
+  };
+  window.addEventListener('scroll',updateVisibility,{passive:true});
+  window.addEventListener('resize',updateVisibility,{passive:true});
+  if(cookie&&typeof MutationObserver!=='undefined'){
+    new MutationObserver(updateVisibility).observe(cookie,{attributes:true,attributeFilter:['class','style','hidden']});
+  }
+  updateVisibility();
+}
+
 function initSmoothScroll(){document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const id=a.getAttribute('href');if(id&&id.length>1){const el=document.querySelector(id);if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});}}}));}
-document.addEventListener('DOMContentLoaded',()=>{initLanguagePreference();initNav();initCookieBanner();initFAQ();initCatalogue();initProductPrefill();initQueryPrefill();initCertificateModals();initCategoryVisualState();initHeroHoverVideo();initHeroParallax();initForm();initSmoothScroll();});
+document.addEventListener('DOMContentLoaded',()=>{initLanguagePreference();initNav();initCookieBanner();initFAQ();initCatalogue();initProductPrefill();initQueryPrefill();initCertificateModals();initCategoryVisualState();initHeroHoverVideo();initHeroParallax();initForm();initSmoothScroll();initFloatingContact();});
