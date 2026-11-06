@@ -512,7 +512,8 @@ function initFloatingContact(){
   });
   document.addEventListener('pointerdown',event=>{if(!root.contains(event.target))close();});
   document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!panel.hidden){close();trigger.focus();}});
-  root.append(panel,trigger);
+  // Keep keyboard tab order logical: trigger first, then the revealed links.
+  root.append(trigger,panel);
   document.body.appendChild(root);
   const footer=document.querySelector('footer');
   const cookie=document.getElementById('cookieBanner');
