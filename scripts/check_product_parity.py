@@ -44,6 +44,19 @@ def main():
     products = json.loads((ROOT / "products-multilingual.json").read_text(encoding="utf-8"))
     failures = []
     checked = 0
+    seen_ids = set()
+    for product in products:
+        product_id = product.get("id")
+        if not isinstance(product_id, str) or not product_id:
+            failures.append("catalogue: product without valid id")
+            continue
+        if product_id in seen_ids:
+            failures.append(f"catalogue: duplicate id {product_id}")
+        seen_ids.add(product_id)
+        for prefix in LANGS:
+            route = ROOT / f"{prefix}-{product_id}.html"
+            if not route.is_file():
+                failures.append(f"{route.name}: missing catalogue product route")
     for product in products:
         procurement = product.get("procurement") or {}
         if not procurement.get("buyer_guidance_en"):
@@ -82,6 +95,7 @@ def main():
             except (ValueError, TypeError, AttributeError) as exc:
                 failures.append(f"{path.name}: invalid JSON-LD ({exc})")
             checked += 1
+    print(f"Checked {len(seen_ids)} catalogue product IDs for three-language route coverage.")
     print(f"Checked {checked} language pages with detailed procurement guidance.")
     if failures:
         for failure in failures:
