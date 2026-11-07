@@ -54,12 +54,12 @@ for loc in locations:
         errors.append(f"Missing local page: {loc} => {candidate.relative_to(ROOT)}")
         continue
     source = candidate.read_text(encoding="utf-8")
-    canonicals = re.findall(r'<link\\b(?=[^>]*rel=["\\\']canonical["\\\'])[^>]*href=["\\\']([^"\\\']+)', source, re.I)
+    canonicals = re.findall(r'<link[^>]+rel="canonical"[^>]+href="([^"]+)"', source, re.I)
     if len(canonicals) != 1 or canonicals[0] != loc:
         errors.append(f"Canonical mismatch: {loc}: {canonicals}")
-    if len(re.findall(r'<h1\\b', source, re.I)) != 1:
+    if len(re.findall(r'<h1[ >]', source, re.I)) != 1:
         errors.append(f"H1 count mismatch: {loc}")
-    scripts = re.findall(r'<script\\b[^>]*type=["\\\']application/ld\\+json["\\\'][^>]*>(.*?)</script>', source, re.I | re.S)
+    scripts = re.findall(r'<script[^>]+type="application/ld\\+json"[^>]*>(.*?)</script>', source, re.I | re.S)
     for i, payload in enumerate(scripts):
         try:
             json.loads(payload)
