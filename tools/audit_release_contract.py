@@ -46,6 +46,9 @@ for loc in locations:
     for lang, href in alts.items():
         if href not in known:
             errors.append(f"Alternate not in sitemap: {loc} [{lang}] {href}")
+    for lang, href in alts.items():
+        if href in alternates and alternates[href] != alts:
+            errors.append(f"Non-reciprocal hreflang cluster: {loc} -> {href}")
     relative = unquote(urlparse(loc).path).lstrip("/")
     candidate = ROOT / (relative or "index.html")
     if relative.endswith("/"):
