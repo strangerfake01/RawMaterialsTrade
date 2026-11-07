@@ -76,6 +76,21 @@ for loc in locations:
             errors.append(f"Invalid JSON-LD: {loc} block {i}: {exc}")
     if not scripts:
         warnings.append(f"No JSON-LD: {loc}")
+# Static inquiry-form contract: no external requests or test submissions.
+expected_endpoint = "https://muddy-voice-db90.6ymnrwgnv9.workers.dev/api/contact"
+for homepage in ("index.html", "hu.html", "de-at.html"):
+    page = (ROOT / homepage).read_text(encoding="utf-8")
+    forms = re.findall(r'<form\\b[^>]*class="[^"]*inquiry-form[^"]*"[^>]*>', page, re.I)
+    if len(forms) != 1 or f'action="{expected_endpoint}"' not in forms[0]:
+        errors.append(f"Inquiry form endpoint mismatch: {homepage}")
+    if 'id="turnstileContainer"' not in page:
+        errors.append(f"Missing Turnstile container: {homepage}")
+    if '/assets/js/site.v20260709d.js' not in page:
+        errors.append(f"Missing shared inquiry script: {homepage}")
+script = (ROOT / "assets/js/site.v20260709d.js").read_text(encoding="utf-8")
+for required_fragment in (expected_endpoint, "/config", "turnstile.render", "turnstileReady"):
+    if required_fragment not in script:
+        errors.append(f"Inquiry script contract missing: {required_fragment}")
 print(f"Audited {len(locations)} sitemap URLs; errors={len(errors)} warnings={len(warnings)}")
 for issue in errors[:100]:
     print("ERROR:", issue)
