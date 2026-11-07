@@ -80,7 +80,7 @@ for loc in locations:
 expected_endpoint = "https://muddy-voice-db90.6ymnrwgnv9.workers.dev/api/contact"
 for homepage in ("index.html", "hu.html", "de-at.html"):
     page = (ROOT / homepage).read_text(encoding="utf-8")
-    forms = re.findall(r'<form\\b[^>]*class="[^"]*inquiry-form[^"]*"[^>]*>', page, re.I)
+    forms = re.findall(r'<form\b[^>]*class="[^"]*inquiry-form[^"]*"[^>]*>', page, re.I)
     if len(forms) != 1 or f'action="{expected_endpoint}"' not in forms[0]:
         errors.append(f"Inquiry form endpoint mismatch: {homepage}")
     if 'id="turnstileContainer"' not in page:
