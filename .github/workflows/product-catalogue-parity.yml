@@ -1,0 +1,31 @@
+name: Product catalogue parity
+
+on:
+  pull_request:
+    paths:
+      - 'products-multilingual.json'
+      - '*.html'
+      - 'scripts/check_product_parity.py'
+      - '.github/workflows/product-catalogue-parity.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'products-multilingual.json'
+      - '*.html'
+      - 'scripts/check_product_parity.py'
+      - '.github/workflows/product-catalogue-parity.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  parity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify catalogue and published product-page parity
+        run: python3 scripts/check_product_parity.py
