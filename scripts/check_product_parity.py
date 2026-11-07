@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Fail when published priority-product pages drift from catalogue procurement data.
+"""Fail when published product pages drift from catalogue and SEO data.
 
 Run from repository root: python3 scripts/check_product_parity.py
-No third-party dependencies. Checks only products with editorial buyer guidance.
+No third-party dependencies. Checks all product routes and detailed guidance.
 """
 import html
 import json
@@ -20,20 +20,25 @@ class PageParser(HTMLParser):
         self.text_parts = []
         self.schema_parts = []
         self.in_schema = False
+        self.hidden_depth = 0
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag in ("script", "style", "template", "noscript"):
+            self.hidden_depth += 1
         if tag == "script" and attrs.get("type") == "application/ld+json":
             self.in_schema = True
 
     def handle_endtag(self, tag):
         if tag == "script":
             self.in_schema = False
+        if tag in ("script", "style", "template", "noscript"):
+            self.hidden_depth = max(0, self.hidden_depth - 1)
 
     def handle_data(self, data):
         if self.in_schema:
             self.schema_parts.append(data)
-        else:
+        elif self.hidden_depth == 0:
             self.text_parts.append(data)
 
 
