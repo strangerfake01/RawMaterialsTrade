@@ -585,7 +585,13 @@
       "packaging_de": "Sackware, BigBag",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_en": "Confirm the required industrial grade, assay, moisture and insoluble-matter limits against the intended process. Do not assume that a technical grade meets food, feed or pharmaceutical requirements.",
+      "rfq_guidance_en": "State required tonnes, bag or BigBag configuration, destination and requested delivery date. Ask for the offered grade's SDS/TDS and batch analysis where available; confirm availability and lead time in the quotation.",
+      "buyer_guidance_hu": "Egyeztesse az ipari minőséget, a hatóanyag-tartalmat, a nedvesség- és oldhatatlananyag-határértékeket a tervezett felhasználáshoz. A technikai minőség nem tekinthető automatikusan élelmiszer-, takarmány- vagy gyógyszeripari megfelelőségűnek.",
+      "rfq_guidance_hu": "Adja meg a tonnamennyiséget, a zsákos vagy BigBag kiszerelést, a szállítási címet és a kívánt időpontot. Kérje az ajánlott minőség SDS/TDS dokumentumait és az elérhető tételanalízist; a készletet és a határidőt ajánlatban kell megerősíteni.",
+      "buyer_guidance_de": "Industriequalität, Gehalt sowie Grenzwerte für Feuchtigkeit und unlösliche Bestandteile für den vorgesehenen Prozess festlegen. Technische Qualität ist nicht automatisch für Lebensmittel-, Futtermittel- oder Pharmaanwendungen geeignet.",
+      "rfq_guidance_de": "Tonnage, Sack- oder BigBag-Gebinde, Lieferort und Wunschtermin nennen. SDS/TDS und gegebenenfalls Chargenanalyse der angebotenen Qualität anfordern; Verfügbarkeit und Lieferzeit im Angebot bestätigen lassen."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Ammonium_chloride",
@@ -813,7 +819,13 @@
       "packaging_de": "Sackware, BigBag",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_en": "Specify the industrial grade and intended application, including required nitrogen/sulphur assay, particle form, moisture and insoluble-matter limits where relevant. Suitability for fertiliser or feed uses must be verified separately rather than inferred from the name.",
+      "rfq_guidance_en": "Provide quantity, bag or BigBag preference, delivery destination and date. Request the relevant SDS/TDS and available batch documentation for the actual offered grade; packaging and lead time require confirmation.",
+      "buyer_guidance_hu": "Adja meg az ipari minőséget és a felhasználást, szükség esetén a nitrogén- és kéntartalom, szemcseforma, nedvesség és oldhatatlan anyagok elvárt értékeivel. A műtrágya- vagy takarmánycélú alkalmasságot külön igazolni kell.",
+      "rfq_guidance_hu": "Az ajánlatkérésben szerepeljen a mennyiség, a zsákos vagy BigBag kiszerelés, a célállomás és a szállítási időpont. Kérje a konkrét ajánlott minőség SDS/TDS és elérhető tételdokumentumait; a kiszerelés és az átfutás visszaigazolást igényel.",
+      "buyer_guidance_de": "Industriequalität und Verwendungszweck einschließlich erforderlicher Stickstoff-/Schwefelgehalte, Körnung, Feuchtigkeit und unlöslicher Bestandteile festlegen. Eignung für Dünge- oder Futtermittelzwecke muss gesondert geprüft werden.",
+      "rfq_guidance_de": "Menge, Sack- oder BigBag-Präferenz, Lieferort und Termin angeben. SDS/TDS und verfügbare Chargennachweise für die tatsächlich angebotene Qualität anfordern; Gebinde und Lieferzeit sind zu bestätigen."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Ammonium_sulfate",
@@ -928,7 +940,13 @@
       "packaging_de": "Sackware",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_en": "Specify the intended food application and required food-grade specification, including assay and relevant impurity limits. Food-grade status, applicable regulatory compliance and any allergen or origin declarations must be evidenced for the offered supplier and batch.",
+      "rfq_guidance_en": "Provide quantity, bagged packaging requirement, delivery location and date. Request current food-grade TDS/specification, applicable safety information, and supplier/batch documentation or CoA where available; do not assume certification or stock without confirmation.",
+      "buyer_guidance_hu": "Adja meg az élelmiszeripari felhasználást, a szükséges tisztaságot és a releváns szennyezőanyag-határértékeket. Az élelmiszeripari megfelelőséget, a vonatkozó előírások teljesítését, valamint az allergén- vagy eredetnyilatkozatokat a konkrét beszállítóra és tételre kell igazolni.",
+      "rfq_guidance_hu": "Adja meg a mennyiséget, a zsákos kiszerelési igényt, a szállítási címet és időpontot. Kérje az aktuális élelmiszeripari specifikációt/TDS-t, a szükséges biztonsági információkat és az elérhető beszállítói vagy tételspecifikus CoA dokumentumokat; tanúsítvány és készlet nem feltételezhető.",
+      "buyer_guidance_de": "Lebensmittelanwendung, erforderlichen Gehalt und relevante Verunreinigungsgrenzen angeben. Lebensmittelkonformität, anwendbare Vorschriften sowie Allergen- oder Herkunftserklärungen müssen für den konkreten Lieferanten und die Charge belegt werden.",
+      "rfq_guidance_de": "Menge, gewünschte Sackverpackung, Lieferort und Termin angeben. Aktuelle Lebensmittelspezifikation/TDS, erforderliche Sicherheitsinformationen und verfügbare Lieferanten- oder Chargennachweise beziehungsweise CoA anfordern; Zertifizierung und Bestand nicht voraussetzen."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Vitamin_C",
