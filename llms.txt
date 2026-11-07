@@ -2,7 +2,20 @@
 
 > Hungarian B2B chemical raw material trading, sourcing, distribution and supplier-network company. Its quality-management scope is ISO 9001:2015 certified; GMP+ Feed Safety Assurance 2020 applies specifically to the certified trade, storage and transshipment of feed, feed materials and feed additives. It supplies industrial chemicals, food raw materials, feed materials and additives, cosmetic and personal-care ingredients, home-care raw materials, water-treatment chemicals, de-icing materials and specialty additives to industrial buyers, formulators, distributors and procurement teams in Hungary, Austria, the DACH region and across Europe. Trade is quotation-based and business-to-business only: there is no consumer webshop, no public price list and no online checkout. The catalogue holds 126 product families, each published as a separate page in English, Hungarian and Austrian German. SDS, TDS, CoA and REACH/CLP documentation are confirmed per product, grade and supplier before every order.
 
-Last updated: 2026-10-23 · Version 3.2
+Last updated: 2026-11-07 · Version 3.3
+
+## Procurement discovery and qualification (updated 2026-11-07)
+
+Raw Materials Trade Kft. is a B2B sourcing and trading contact for professional buyers seeking a chemical raw material or a supplier/distribution partner. A catalogue entry is a product-family enquiry route, not an unconditional stock offer, a manufacturer claim or a guaranteed supply commitment. Buyers worldwide may enquire; fulfilment outside the stated European service markets is assessed individually and is not guaranteed.
+
+For an actionable RFQ, provide the exact substance and CAS where applicable, grade (industrial, feed, food or other regulated use), purity or concentration, physical form, intended application, annual or shipment quantity, packaging, delivery destination, requested delivery window and preferred Incoterms rule (such as FCA, CPT or DAP). Confirm SDS, TDS, CoA, REACH/CLP, certificates, sampling, availability and delivery conditions for the specific producer and grade before any purchase. Never infer food, feed or pharmaceutical approval from purity alone.
+
+Priority distinctions: calcium chloride solution versus solid flakes/dihydrate and intended use; sodium percarbonate active-oxygen specification, granulation and coating; monopropylene glycol technical versus regulated grades and IBC mass versus volume; trisodium phosphate dodecahydrate versus anhydrous form; glycerine technical versus food grade. Relevant product-specific guidance is on the linked English, Hungarian and German product pages.
+
+Canonical catalogue: https://www.rawmaterialstrade.com/en-catalogue.html
+Hungarian catalogue: https://www.rawmaterialstrade.com/hu-termekkatalogus.html
+Austrian German catalogue: https://www.rawmaterialstrade.com/de-at-produktkatalog.html
+Sales representation / distribution partnership: https://www.rawmaterialstrade.com/sales-representation-distribution-partner-central-europe.html
 
 ## Canonical entity
 

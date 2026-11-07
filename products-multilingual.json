@@ -4496,7 +4496,13 @@
       "packaging_de": "IBC (1000 L), Fässer (200 L), Tankwagen",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_hu": "A technikai, takarmány-, élelmiszer- és gyógyszeripari minőséget külön kell meghatározni. A 99,5%-os tisztaság önmagában nem igazolja az élelmiszer- vagy gyógyszeripari megfelelőséget.",
+      "buyer_guidance_en": "Specify technical, feed, food or pharmaceutical grade separately. Purity of 99.5% alone does not establish food or pharmaceutical compliance.",
+      "buyer_guidance_de": "Technische, Futtermittel-, Lebensmittel- und Pharmaqualität getrennt angeben. 99,5 % Reinheit allein belegt keine Lebensmittel- oder Pharmakonformität.",
+      "rfq_guidance_hu": "Az ajánlatkérésben adja meg a minőséget/koncentrációt, mennyiséget, kiszerelést, szállítási címet, kívánt határidőt és Incoterms-feltételt (például FCA, CPT vagy DAP). Készlet, átfutás, minta és SDS/TDS/CoA dokumentáció csak egyedi visszaigazolással.",
+      "rfq_guidance_en": "For a quotation, specify grade/concentration, quantity, packaging, delivery address, requested date and Incoterms rule (e.g. FCA, CPT or DAP). Stock, lead time, samples and SDS/TDS/CoA are subject to individual confirmation.",
+      "rfq_guidance_de": "Für ein Angebot bitte Qualität/Konzentration, Menge, Verpackung, Lieferadresse, Wunschtermin und Incoterms-Klausel (z. B. FCA, CPT oder DAP) angeben. Bestand, Lieferzeit, Muster und SDS/TDS/CoA nur nach individueller Bestätigung."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Glycerol",
@@ -4613,7 +4619,13 @@
       "packaging_de": "IBC (1000 L), Fässer (200 L), Tankwagen",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_hu": "A 99,5%-os koncentráció mellett a kívánt felhasználási minőséget és annak dokumentációját is meg kell erősíteni; a koncentráció önmagában nem minőségi tanúsítás.",
+      "buyer_guidance_en": "Alongside 99.5% concentration, confirm the intended application grade and supporting documentation; concentration alone is not grade certification.",
+      "buyer_guidance_de": "Neben 99,5 % Konzentration müssen Anwendungsqualität und Nachweise bestätigt werden; die Konzentration allein ist kein Qualitätsnachweis.",
+      "rfq_guidance_hu": "Az ajánlatkérésben adja meg a minőséget/koncentrációt, mennyiséget, kiszerelést, szállítási címet, kívánt határidőt és Incoterms-feltételt (például FCA, CPT vagy DAP). Készlet, átfutás, minta és SDS/TDS/CoA dokumentáció csak egyedi visszaigazolással.",
+      "rfq_guidance_en": "For a quotation, specify grade/concentration, quantity, packaging, delivery address, requested date and Incoterms rule (e.g. FCA, CPT or DAP). Stock, lead time, samples and SDS/TDS/CoA are subject to individual confirmation.",
+      "rfq_guidance_de": "Für ein Angebot bitte Qualität/Konzentration, Menge, Verpackung, Lieferadresse, Wunschtermin und Incoterms-Klausel (z. B. FCA, CPT oder DAP) angeben. Bestand, Lieferzeit, Muster und SDS/TDS/CoA nur nach individueller Bestätigung."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Glycerol",
@@ -5664,7 +5676,13 @@
       "packaging_de": "BigBag und Sackware; IBC und Tankwagen (Lösung)",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_hu": "A 77–80%-os terméknél külön pontosítandó a hidrátforma, a pikkelyes (flakes) vagy más szemcseforma, valamint a felhasználáshoz szükséges minőség. A 25 kg-os zsák igényként megadható; tényleges elérhetősége visszaigazolást igényel.",
+      "buyer_guidance_en": "For 77–80% calcium chloride, specify hydrate form, flakes or other particle form, and required application grade. A 25 kg bag can be requested; availability requires confirmation.",
+      "buyer_guidance_de": "Bei Calciumchlorid 77–80 % sind Hydratform, Flocken- oder andere Körnung und benötigte Qualität anzugeben. 25-kg-Säcke können angefragt werden; Verfügbarkeit nur nach Bestätigung.",
+      "rfq_guidance_hu": "Az ajánlatkérésben adja meg a minőséget/koncentrációt, mennyiséget, kiszerelést, szállítási címet, kívánt határidőt és Incoterms-feltételt (például FCA, CPT vagy DAP). Készlet, átfutás, minta és SDS/TDS/CoA dokumentáció csak egyedi visszaigazolással.",
+      "rfq_guidance_en": "For a quotation, specify grade/concentration, quantity, packaging, delivery address, requested date and Incoterms rule (e.g. FCA, CPT or DAP). Stock, lead time, samples and SDS/TDS/CoA are subject to individual confirmation.",
+      "rfq_guidance_de": "Für ein Angebot bitte Qualität/Konzentration, Menge, Verpackung, Lieferadresse, Wunschtermin und Incoterms-Klausel (z. B. FCA, CPT oder DAP) angeben. Bestand, Lieferzeit, Muster und SDS/TDS/CoA nur nach individueller Bestätigung."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Calcium_chloride",
@@ -5783,7 +5801,13 @@
       "packaging_de": "BigBag und Sackware; IBC und Tankwagen (Lösung)",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_hu": "Dihidrát, 78–80%, pikkelyes forma: az ajánlatkérésben külön jelezze a jégmentesítési/road felhasználást, a kívánt zsákméretet és a mintakérést.",
+      "buyer_guidance_en": "Dihydrate, 78–80%, flakes: indicate de-icing/road application, requested bag size and whether a sample is required.",
+      "buyer_guidance_de": "Dihydrat, 78–80 %, Flocken: Enteisungs-/Straßenanwendung, gewünschte Sackgröße und Musterbedarf bitte angeben.",
+      "rfq_guidance_hu": "Az ajánlatkérésben adja meg a minőséget/koncentrációt, mennyiséget, kiszerelést, szállítási címet, kívánt határidőt és Incoterms-feltételt (például FCA, CPT vagy DAP). Készlet, átfutás, minta és SDS/TDS/CoA dokumentáció csak egyedi visszaigazolással.",
+      "rfq_guidance_en": "For a quotation, specify grade/concentration, quantity, packaging, delivery address, requested date and Incoterms rule (e.g. FCA, CPT or DAP). Stock, lead time, samples and SDS/TDS/CoA are subject to individual confirmation.",
+      "rfq_guidance_de": "Für ein Angebot bitte Qualität/Konzentration, Menge, Verpackung, Lieferadresse, Wunschtermin und Incoterms-Klausel (z. B. FCA, CPT oder DAP) angeben. Bestand, Lieferzeit, Muster und SDS/TDS/CoA nur nach individueller Bestätigung."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Calcium_chloride",
@@ -9849,7 +9873,13 @@
       "packaging_de": "IBC (1000 L), Fässer (200 L), Tankwagen",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_hu": "A 99,5%-os technikai minőség külön kérhető; ne keverjük össze az USP/élelmiszeripari minőséggel. Az 1050 kg/IBC tömegalapú ajánlati egység, az 1000 L/IBC térfogatalapú megadás: nem tekinthetők automatikusan egyenértékűnek. A töltettömeg és sűrűség beszállítói megerősítést igényel.",
+      "buyer_guidance_en": "Technical grade 99.5% may be requested separately from USP/food grade. 1050 kg/IBC is mass-based, while 1000 L/IBC is volume-based; these are not automatically equivalent. Confirm fill mass and density with the supplier.",
+      "buyer_guidance_de": "Technische Qualität 99,5 % ist getrennt von USP-/Lebensmittelqualität anzufragen. 1050 kg/IBC bezeichnet Masse, 1000 L/IBC Volumen; beides ist nicht automatisch gleichzusetzen. Füllmasse und Dichte sind zu bestätigen.",
+      "rfq_guidance_hu": "Az ajánlatkérésben adja meg a minőséget/koncentrációt, mennyiséget, kiszerelést, szállítási címet, kívánt határidőt és Incoterms-feltételt (például FCA, CPT vagy DAP). Készlet, átfutás, minta és SDS/TDS/CoA dokumentáció csak egyedi visszaigazolással.",
+      "rfq_guidance_en": "For a quotation, specify grade/concentration, quantity, packaging, delivery address, requested date and Incoterms rule (e.g. FCA, CPT or DAP). Stock, lead time, samples and SDS/TDS/CoA are subject to individual confirmation.",
+      "rfq_guidance_de": "Für ein Angebot bitte Qualität/Konzentration, Menge, Verpackung, Lieferadresse, Wunschtermin und Incoterms-Klausel (z. B. FCA, CPT oder DAP) angeben. Bestand, Lieferzeit, Muster und SDS/TDS/CoA nur nach individueller Bestätigung."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Propylene_glycol",
@@ -11491,7 +11521,13 @@
       "packaging_de": "Sackware, BigBag",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_hu": "A műszaki minőség mellett kérjük megadni az elvárt aktívoxigén-tartalmat, szemcseformát, bevonat igényét és a csomagolási egységet; a pontos specifikációt a beszállítói TDS/CoA igazolja.",
+      "buyer_guidance_en": "Specify required active oxygen content, granulation, coating preference and pack size; confirm specification against supplier TDS/CoA.",
+      "buyer_guidance_de": "Bitte Aktivsauerstoffgehalt, Körnung, Beschichtung und Gebindegröße angeben; die Spezifikation ist anhand Lieferanten-TDS/CoA zu bestätigen.",
+      "rfq_guidance_hu": "Az ajánlatkérésben adja meg a minőséget/koncentrációt, mennyiséget, kiszerelést, szállítási címet, kívánt határidőt és Incoterms-feltételt (például FCA, CPT vagy DAP). Készlet, átfutás, minta és SDS/TDS/CoA dokumentáció csak egyedi visszaigazolással.",
+      "rfq_guidance_en": "For a quotation, specify grade/concentration, quantity, packaging, delivery address, requested date and Incoterms rule (e.g. FCA, CPT or DAP). Stock, lead time, samples and SDS/TDS/CoA are subject to individual confirmation.",
+      "rfq_guidance_de": "Für ein Angebot bitte Qualität/Konzentration, Menge, Verpackung, Lieferadresse, Wunschtermin und Incoterms-Klausel (z. B. FCA, CPT oder DAP) angeben. Bestand, Lieferzeit, Muster und SDS/TDS/CoA nur nach individueller Bestätigung."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Sodium_percarbonate",
@@ -13695,7 +13731,13 @@
       "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_hu": "Dodekahidrát és vízmentes trinátrium-foszfát nem felcserélhető ajánlati változat. Kérjük a hidrátformát és a technikai minőséget külön megadni; a specifikációt és a CAS-azonosítást a megfelelő változat dokumentumaival kell ellenőrizni.",
+      "buyer_guidance_en": "Trisodium phosphate dodecahydrate and anhydrous grades are distinct purchasing variants, not interchangeable. Specify hydrate form and technical grade; verify specification and CAS identity against variant-specific documentation.",
+      "buyer_guidance_de": "Trinatriumphosphat-Dodecahydrat und wasserfreie Ware sind unterschiedliche Beschaffungsvarianten. Hydratform und technische Qualität angeben; Spezifikation und CAS anhand variantenspezifischer Dokumente prüfen.",
+      "rfq_guidance_hu": "Az ajánlatkérésben adja meg a minőséget/koncentrációt, mennyiséget, kiszerelést, szállítási címet, kívánt határidőt és Incoterms-feltételt (például FCA, CPT vagy DAP). Készlet, átfutás, minta és SDS/TDS/CoA dokumentáció csak egyedi visszaigazolással.",
+      "rfq_guidance_en": "For a quotation, specify grade/concentration, quantity, packaging, delivery address, requested date and Incoterms rule (e.g. FCA, CPT or DAP). Stock, lead time, samples and SDS/TDS/CoA are subject to individual confirmation.",
+      "rfq_guidance_de": "Für ein Angebot bitte Qualität/Konzentration, Menge, Verpackung, Lieferadresse, Wunschtermin und Incoterms-Klausel (z. B. FCA, CPT oder DAP) angeben. Bestand, Lieferzeit, Muster und SDS/TDS/CoA nur nach individueller Bestätigung."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Trisodium_phosphate",
