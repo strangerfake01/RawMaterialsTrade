@@ -229,3 +229,136 @@ footer[role="contentinfo"] a:focus-visible,
 .inquiry-form-panel[hidden] {
   display: none !important;
 }
+
+
+/* --------------------------------------------------------------------------
+   10. Dark-surface heading and muted-copy contrast
+   Fixes dark default heading color on dark translucent panels and sections.
+   Text remains white on dark surfaces; light cards retain their dark text.
+   -------------------------------------------------------------------------- */
+.bg-navy h1,
+.bg-navy h2,
+.bg-navy h3,
+.bg-navy h4,
+.bg-navy h5,
+.bg-navy h6,
+.hero h2,
+.hero h3,
+.hero h4,
+.hero h5,
+.hero h6,
+.quality-section h1,
+.quality-section h3,
+.quality-section h4,
+.quality-section h5,
+.quality-section h6,
+.strategic-section h1,
+.strategic-section h2,
+.strategic-section h3,
+.strategic-section h4,
+.strategic-section h5,
+.strategic-section h6,
+.dach-section h1,
+.dach-section h2,
+.dach-section h3,
+.dach-section h4,
+.dach-section h5,
+.dach-section h6 {
+  color: #fff;
+}
+
+.strategic-section .section-label,
+.dach-section .section-label {
+  color: #fff;
+}
+
+.legal-footer .legal-footer-inner,
+.legal-footer .legal-footer-link {
+  color: rgba(255, 255, 255, .82);
+}
+
+.legal-footer .legal-footer-link:hover,
+.legal-footer .legal-footer-link:focus-visible {
+  color: #fff;
+}
+
+@media (forced-colors: active) {
+  .bg-navy h1,
+  .bg-navy h2,
+  .bg-navy h3,
+  .bg-navy h4,
+  .bg-navy h5,
+  .bg-navy h6,
+  .hero h2,
+  .hero h3,
+  .hero h4,
+  .hero h5,
+  .hero h6,
+  .quality-section h1,
+  .quality-section h3,
+  .quality-section h4,
+  .quality-section h5,
+  .quality-section h6,
+  .strategic-section h1,
+  .strategic-section h2,
+  .strategic-section h3,
+  .strategic-section h4,
+  .strategic-section h5,
+  .strategic-section h6,
+  .dach-section h1,
+  .dach-section h2,
+  .dach-section h3,
+  .dach-section h4,
+  .dach-section h5,
+  .dach-section h6 {
+    color: CanvasText;
+  }
+}
+
+
+/* Other dark CTA and product-hero surfaces use the same high-contrast heading rule. */
+.catalogue-contact-band h1,
+.catalogue-contact-band h2,
+.catalogue-contact-band h3,
+.catalogue-contact-band h4,
+.catalogue-contact-band h5,
+.catalogue-contact-band h6,
+.product-hero-detail .product-hero-copy h1,
+.product-hero-detail .product-hero-copy h2,
+.product-hero-detail .product-hero-copy h3,
+.product-hero-detail .product-hero-copy h4,
+.product-hero-detail .product-hero-copy h5,
+.product-hero-detail .product-hero-copy h6 {
+  color: #fff;
+}
+
+
+/* Keep product and catalogue dark-surface headings legible in forced-colors mode. */
+@media (forced-colors: active) {
+  .catalogue-contact-band h1,
+  .catalogue-contact-band h2,
+  .catalogue-contact-band h3,
+  .catalogue-contact-band h4,
+  .catalogue-contact-band h5,
+  .catalogue-contact-band h6,
+  .product-hero-detail .product-hero-copy h1,
+  .product-hero-detail .product-hero-copy h2,
+  .product-hero-detail .product-hero-copy h3,
+  .product-hero-detail .product-hero-copy h4,
+  .product-hero-detail .product-hero-copy h5,
+  .product-hero-detail .product-hero-copy h6 {
+    color: CanvasText;
+  }
+}
+
+
+/* Shared multilingual contact control: hidden near footer and active cookie consent. */
+.rmt-contact-fab{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(20px,env(safe-area-inset-bottom));z-index:80;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.rmt-contact-fab[hidden],.rmt-contact-options[hidden]{display:none!important}
+.rmt-contact-trigger{order:2;min-height:48px;min-width:48px;border:1px solid #fff;border-radius:999px;padding:12px 20px;background:#142b3e;color:#fff;font:inherit;font-weight:600;cursor:pointer;box-shadow:0 3px 16px rgba(0,0,0,.2)}
+ .rmt-contact-options{order:1;max-width:min(300px,calc(100vw - 32px));padding:8px;border:1px solid #c5ccd3;border-radius:12px;background:#fff;box-shadow:0 8px 28px rgba(0,0,0,.18)}
+.rmt-contact-options a{display:block;min-height:44px;padding:12px;color:#142b3e;text-decoration:none;border-radius:6px}
+.rmt-contact-options a:hover,.rmt-contact-options a:focus-visible{background:#edf2f6;text-decoration:underline}
+.rmt-contact-trigger:focus-visible,.rmt-contact-options a:focus-visible{outline:3px solid #f3b84a;outline-offset:3px}
+@media(max-width:600px){.rmt-contact-fab{right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom))}.rmt-contact-trigger{padding:10px 14px}}
+@media print{.rmt-contact-fab{display:none!important}}

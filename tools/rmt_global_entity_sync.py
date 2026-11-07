@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 from pathlib import Path
+import sys
 from bs4 import BeautifulSoup
 import json,re
 ROOT=Path(__file__).resolve().parents[1]
+WRITE='--write' in sys.argv
 DATE='2026-08-10'
 WEBSITE_ID='https://www.rawmaterialstrade.com/#website'
 ORG_ID='https://www.rawmaterialstrade.com/#org'
@@ -84,4 +86,4 @@ for path in ROOT.glob('*.html'):
         break
     if touched:
         path.write_text(str(soup),encoding='utf8'); changed+=1
-print('schema-synchronised HTML:',changed,'JSON-LD blocks:',blocks)
+print('schema-synchronised HTML:',changed,'JSON-LD blocks:',blocks,'mode:', 'write' if WRITE else 'dry-run (use --write to modify files)')

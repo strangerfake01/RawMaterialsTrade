@@ -1,0 +1,39 @@
+name: Static release contract
+
+on:
+  pull_request:
+    paths:
+      - '**/*.html'
+      - '*.html'
+      - 'sitemap.xml'
+      - 'tools/audit_release_contract.py'
+      - '.github/workflows/release-audit.yml'
+  push:
+    branches:
+      - fix/dark-surface-text-contrast
+    paths:
+      - '**/*.html'
+      - '*.html'
+      - 'sitemap.xml'
+      - 'tools/audit_release_contract.py'
+      - '.github/workflows/release-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static-release-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check shared form JavaScript syntax
+        run: node --check assets/js/site.v20260709d.js
+      - name: Validate sitemap, canonicals, hreflang and JSON-LD
+        run: python3 tools/audit_release_contract.py

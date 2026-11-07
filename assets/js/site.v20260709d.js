@@ -2,9 +2,9 @@
 const FORM_ENDPOINT = (window.RMT_FORM_CONFIG&&window.RMT_FORM_CONFIG.endpoint)||'https://muddy-voice-db90.6ymnrwgnv9.workers.dev/api/contact';
 function getLang(){const path=window.location.pathname.toLowerCase();const file=path.split('/').pop()||'';if(file==='hu.html'||file.startsWith('hu-')||file==='ai-profile-hu.html'||path.match(/\/hu\//))return'hu';if(file==='de-at.html'||file.startsWith('de-at-')||file==='ai-profile-de-at.html'||path.match(/\/de-at\//))return'de-at';return'en'}
 const FORM_TEXT={
-  en:{gdpr:'Please acknowledge the privacy notice.',disc:'Please acknowledge the product documentation disclaimer.',sending:'Sending…',sent:'Thank you — your enquiry has been sent. We will respond within 1–2 business days.',mailto:'Your email client has been opened with a pre-filled message.',fail:'The form could not be sent. Your entries have been kept. Please try again or email',robot:'Please complete the security calculation correctly.',fast:'Please wait a few seconds before sending the form.'},
-  hu:{gdpr:'Kérjük, erősítse meg az adatkezelési tájékoztató tudomásulvételét.',disc:'Kérjük, vegye tudomásul a termékdokumentációs nyilatkozatot.',sending:'Küldés…',sent:'Köszönjük — megkeresése elküldve. 1–2 munkanapon belül válaszolunk.',mailto:'Az e-mail-kliens előre kitöltött üzenettel megnyílt.',fail:'Az űrlapot nem sikerült elküldeni. A megadott adatok megmaradtak. Próbálja újra, vagy írjon e-mailt:',robot:'Kérjük, adja meg helyesen a biztonsági számítás eredményét.',fast:'Kérjük, várjon néhány másodpercet az űrlap elküldése előtt.'},
-  'de-at':{gdpr:'Bitte bestätigen Sie, dass Sie die Datenschutzerklärung zur Kenntnis genommen haben.',disc:'Bitte bestätigen Sie den Produktdokumentations-Hinweis.',sending:'Wird gesendet…',sent:'Vielen Dank — Ihre Anfrage wurde gesendet. Wir melden uns innerhalb von 1–2 Werktagen.',mailto:'Ihr E-Mail-Programm wurde mit einer vorausgefüllten Nachricht geöffnet.',fail:'Das Formular konnte nicht gesendet werden. Ihre Eingaben bleiben erhalten. Bitte versuchen Sie es erneut oder schreiben Sie an',robot:'Bitte lösen Sie die Sicherheitsrechnung korrekt.',fast:'Bitte warten Sie einige Sekunden, bevor Sie das Formular senden.'}
+  en:{gdpr:'Please acknowledge the privacy notice.',disc:'Please acknowledge the product documentation disclaimer.',sending:'Sending…',sent:'Thank you — your enquiry has been sent.',mailto:'Your email client has been opened with a pre-filled message.',fail:'The form could not be sent. Your entries have been kept. Please try again or email',robot:'Please complete the security calculation correctly.',fast:'Please wait a few seconds before sending the form.'},
+  hu:{gdpr:'Kérjük, erősítse meg az adatkezelési tájékoztató tudomásulvételét.',disc:'Kérjük, vegye tudomásul a termékdokumentációs nyilatkozatot.',sending:'Küldés…',sent:'Köszönjük — megkeresése elküldve.',mailto:'Az e-mail-kliens előre kitöltött üzenettel megnyílt.',fail:'Az űrlapot nem sikerült elküldeni. A megadott adatok megmaradtak. Próbálja újra, vagy írjon e-mailt:',robot:'Kérjük, adja meg helyesen a biztonsági számítás eredményét.',fast:'Kérjük, várjon néhány másodpercet az űrlap elküldése előtt.'},
+  'de-at':{gdpr:'Bitte bestätigen Sie, dass Sie die Datenschutzerklärung zur Kenntnis genommen haben.',disc:'Bitte bestätigen Sie den Produktdokumentations-Hinweis.',sending:'Wird gesendet…',sent:'Vielen Dank — Ihre Anfrage wurde gesendet.',mailto:'Ihr E-Mail-Programm wurde mit einer vorausgefüllten Nachricht geöffnet.',fail:'Das Formular konnte nicht gesendet werden. Ihre Eingaben bleiben erhalten. Bitte versuchen Sie es erneut oder schreiben Sie an',robot:'Bitte lösen Sie die Sicherheitsrechnung korrekt.',fast:'Bitte warten Sie einige Sekunden, bevor Sie das Formular senden.'}
 };
 function initNav(){
   const t=document.getElementById('navToggle');
@@ -28,7 +28,7 @@ function initNav(){
   window.addEventListener('scroll',()=>{if(h){h.classList.remove('header-hidden','is-hidden');h.removeAttribute('data-hidden');}}, {passive:true});
 }
 function initCookieBanner(){/* Managed by analytics-consent.v20260713.js */}
-function initFAQ(){document.querySelectorAll('.faq-item').forEach(item=>{item.querySelector('.faq-q')?.addEventListener('click',()=>{const o=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));if(!o)item.classList.add('open');});});}
+function initFAQ(){document.querySelectorAll('.faq-item').forEach(item=>{const button=item.querySelector('.faq-q');if(!button)return;button.setAttribute('aria-expanded',item.classList.contains('open')?'true':'false');button.addEventListener('click',()=>{const o=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-q')?.setAttribute('aria-expanded','false');});if(!o){item.classList.add('open');button.setAttribute('aria-expanded','true');}});});}
 function initCatalogue(){
   const search=document.getElementById('productSearch');
   const chips=[...document.querySelectorAll('.filter-chip')];
@@ -470,5 +470,66 @@ function initHeroParallax(){
   window.addEventListener('resize', request, {passive:true});
 }
 
+
+function initFloatingContact(){
+  if(document.querySelector('.rmt-contact-fab'))return;
+  const lang=getLang();
+  const copy={
+    en:{open:'Contact options',email:'Email Nikoletta',call:'Call Nikoletta'},
+    hu:{open:'Kapcsolatfelvétel',email:'E-mail Nikolettának',call:'Nikoletta hívása'},
+    'de-at':{open:'Kontaktmöglichkeiten',email:'E-Mail an Nikoletta',call:'Nikoletta anrufen'}
+  }[lang]||{open:'Contact options',email:'Email Nikoletta',call:'Call Nikoletta'};
+  const root=document.createElement('div');
+  root.className='rmt-contact-fab';
+  const trigger=document.createElement('button');
+  trigger.type='button';
+  trigger.className='rmt-contact-trigger';
+  trigger.textContent=copy.open;
+  trigger.setAttribute('aria-expanded','false');
+  trigger.setAttribute('aria-controls','rmt-contact-options');
+  const panel=document.createElement('div');
+  panel.id='rmt-contact-options';
+  panel.className='rmt-contact-options';
+  panel.hidden=true;
+  const links=[
+    {text:copy.email,href:'mailto:nikoletta.kadar@rawmaterialstrade.com'},
+    {text:copy.call,href:'tel:+36205567917'}
+  ];
+  links.forEach(item=>{
+    const a=document.createElement('a');
+    a.href=item.href;
+    a.textContent=item.text;
+    panel.appendChild(a);
+  });
+  const close=()=>{
+    panel.hidden=true;
+    trigger.setAttribute('aria-expanded','false');
+  };
+  trigger.addEventListener('click',()=>{
+    const opening=panel.hidden;
+    panel.hidden=!opening;
+    trigger.setAttribute('aria-expanded',String(opening));
+  });
+  document.addEventListener('pointerdown',event=>{if(!root.contains(event.target))close();});
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!panel.hidden){close();trigger.focus();}});
+  // Keep keyboard tab order logical: trigger first, then the revealed links.
+  root.append(trigger,panel);
+  document.body.appendChild(root);
+  const footer=document.querySelector('footer');
+  const cookie=document.getElementById('cookieBanner');
+  const updateVisibility=()=>{
+    const footerVisible=footer&&footer.getBoundingClientRect().top<window.innerHeight;
+    const cookieVisible=cookie&&getComputedStyle(cookie).display!=='none'&&cookie.getBoundingClientRect().height>0&&cookie.getBoundingClientRect().bottom>0&&cookie.getBoundingClientRect().top<window.innerHeight;
+    root.hidden=Boolean(footerVisible||cookieVisible);
+    if(root.hidden)close();
+  };
+  window.addEventListener('scroll',updateVisibility,{passive:true});
+  window.addEventListener('resize',updateVisibility,{passive:true});
+  if(cookie&&typeof MutationObserver!=='undefined'){
+    new MutationObserver(updateVisibility).observe(cookie,{attributes:true,attributeFilter:['class','style','hidden']});
+  }
+  updateVisibility();
+}
+
 function initSmoothScroll(){document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const id=a.getAttribute('href');if(id&&id.length>1){const el=document.querySelector(id);if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});}}}));}
-document.addEventListener('DOMContentLoaded',()=>{initLanguagePreference();initNav();initCookieBanner();initFAQ();initCatalogue();initProductPrefill();initQueryPrefill();initCertificateModals();initCategoryVisualState();initHeroHoverVideo();initHeroParallax();initForm();initSmoothScroll();});
+document.addEventListener('DOMContentLoaded',()=>{initLanguagePreference();initNav();initCookieBanner();initFAQ();initCatalogue();initProductPrefill();initQueryPrefill();initCertificateModals();initCategoryVisualState();initHeroHoverVideo();initHeroParallax();initForm();initSmoothScroll();initFloatingContact();});
