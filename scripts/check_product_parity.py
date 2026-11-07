@@ -70,6 +70,35 @@ def main():
                 sibling_url = f"https://www.rawmaterialstrade.com/{sibling}-{product_id}.html"
                 if not re.search(r'<link\b(?=[^>]*\brel=[\x22\x27]alternate[\x22\x27])(?=[^>]*\bhreflang=[\x22\x27]' + re.escape(hreflang) + r'[\x22\x27])(?=[^>]*\bhref=[\x22\x27]' + re.escape(sibling_url) + r'[\x22\x27])[^>]*>', page, re.I):
                     failures.append(f"{route.name}: missing {hreflang} alternate")
+    # Validate machine-readable product identity for every language route.
+    for product in products:
+        product_id = product.get("id")
+        if not isinstance(product_id, str) or not product_id:
+            continue
+        for prefix in LANGS:
+            route = ROOT / f"{prefix}-{product_id}.html"
+            if not route.is_file():
+                continue
+            parser = PageParser()
+            parser.feed(route.read_text(encoding="utf-8"))
+            expected_url = f"https://www.rawmaterialstrade.com/{route.name}"
+            entities = []
+            for raw in parser.schema_parts:
+                try:
+                    graph = json.loads(raw)
+                    if isinstance(graph, dict):
+                        nodes = graph.get("@graph", [graph])
+                        if isinstance(nodes, list):
+                            entities.extend(node for node in nodes if isinstance(node, dict))
+                except (ValueError, TypeError):
+                    failures.append(f"{route.name}: invalid JSON-LD")
+            for entity_type, suffix in (("WebPage", "#webpage"), ("material", "#material")):
+                if not any(
+                    (entity.get("@type") in ("ChemicalSubstance", "DefinedTerm") if entity_type == "material" else entity.get("@type") == entity_type)
+                    and entity.get("@id") == expected_url + suffix
+                    for entity in entities
+                ):
+                    failures.append(f"{route.name}: missing or mismatched {entity_type} identity")
     for product in products:
         procurement = product.get("procurement") or {}
         if not procurement.get("buyer_guidance_en"):
