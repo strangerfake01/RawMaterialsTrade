@@ -33,5 +33,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Check shared form JavaScript syntax
+        run: node --check assets/js/site.v20260709d.js
       - name: Validate sitemap, canonicals, hreflang and JSON-LD
         run: python3 tools/audit_release_contract.py
