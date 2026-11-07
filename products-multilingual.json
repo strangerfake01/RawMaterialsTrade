@@ -103,7 +103,13 @@
       "packaging_de": "Fässer (200 L), IBC, Tankwagen",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_en": "Specify whether technical or regenerated acetone is acceptable, required purity, water content and any residue or colour limits. Regenerated material is not interchangeable with virgin solvent without specification approval.",
+      "rfq_guidance_en": "Request quantity, packaging (drums, IBC or bulk), destination and delivery window. Confirm batch-specific CoA, SDS, origin and suitability before contracting.",
+      "buyer_guidance_hu": "Adja meg, hogy technikai vagy regenerált aceton elfogadható-e, valamint az elvárt tisztaságot, víztartalmat és maradékanyag- vagy színhatárértékeket. A regenerált oldószer nem helyettesíti automatikusan a primer minőséget.",
+      "rfq_guidance_hu": "Az ajánlatkérés tartalmazza a mennyiséget, a kiszerelést (hordó, IBC vagy ömlesztett), a célállomást és a szállítási időszakot. A tételspecifikus CoA, SDS és alkalmasság külön ellenőrzendő.",
+      "buyer_guidance_de": "Geben Sie an, ob technisches oder regeneriertes Aceton zulässig ist, einschließlich Reinheit, Wassergehalt und Grenzwerten für Rückstände oder Farbe. Regeneriertes Lösemittel ersetzt Neuware nicht ohne Freigabe der Spezifikation.",
+      "rfq_guidance_de": "Für die Anfrage Menge, Gebinde (Fass, IBC oder lose), Lieferort und Zeitfenster nennen. Chargenbezogenes CoA, SDS und Eignung sind vor dem Kauf zu prüfen."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Acetone",
@@ -208,17 +214,23 @@
       "coa_status_de": "Analysezertifikat nach Hersteller-/Lieferantenverfügbarkeit."
     },
     "procurement": {
-      "packaging": "Big bagged, bagged, IBC (solution)",
+      "packaging": "Bags or big bags; confirm per offer",
       "delivery_region": "Hungary, Austria, DACH and Europe",
       "availability_note_en": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry.",
       "availability_note_hu": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre.",
       "availability_note_de": "Verfügbarkeit, Verpackung, Lieferbedingungen und Lieferzeiten werden für jede B2B-Anfrage individuell bestätigt.",
-      "packaging_en": "Big bagged, bagged, IBC (solution)",
-      "packaging_hu": "BigBag és zsákos; IBC (oldat)",
-      "packaging_de": "BigBag und Sackware; IBC (Lösung)",
+      "packaging_en": "Bags or big bags; confirm per offer",
+      "packaging_hu": "Zsák vagy BigBag; ajánlatonként egyeztetendő",
+      "packaging_de": "Sackware oder BigBag; je Angebot bestätigen",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_en": "Specify solid aluminium sulphate and the required particle-size fraction (0–3 mm or 3–8 mm); do not substitute liquid solution without approval. Confirm relevant assay and insoluble-matter limits against the intended process.",
+      "rfq_guidance_en": "Request the chosen fraction, tonnes, bag or big-bag configuration, delivery address and timing. Obtain the applicable TDS/SDS and batch documentation for the offered grade.",
+      "buyer_guidance_hu": "Szilárd alumínium-szulfát esetén adja meg a kívánt szemcsefrakciót (0–3 mm vagy 3–8 mm); az oldat nem automatikus helyettesítő. Az alkalmazáshoz szükséges hatóanyag- és oldhatatlananyag-határértékeket egyeztesse.",
+      "rfq_guidance_hu": "Adja meg a frakciót, a tonnamennyiséget, a zsákos vagy BigBag kiszerelést, a szállítási címet és időpontot. Kérje az ajánlott minőség TDS/SDS és tételdokumentumait.",
+      "buyer_guidance_de": "Bei festem Aluminiumsulfat die Körnung (0–3 mm oder 3–8 mm) angeben; eine Lösung ist kein automatischer Ersatz. Gehalt und Grenzwerte für unlösliche Bestandteile anwendungsspezifisch prüfen.",
+      "rfq_guidance_de": "Für die Anfrage Körnung, Tonnage, Sack- oder BigBag-Verpackung, Lieferadresse und Termin nennen. TDS/SDS und Chargennachweise für die angebotene Qualität anfordern."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Aluminium_sulfate",
@@ -325,17 +337,23 @@
       "coa_status_de": "Analysezertifikat nach Hersteller-/Lieferantenverfügbarkeit."
     },
     "procurement": {
-      "packaging": "Big bagged, bagged, IBC (solution)",
+      "packaging": "Liquid-compatible IBC or bulk; confirm per offer",
       "delivery_region": "Hungary, Austria, DACH and Europe",
       "availability_note_en": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry.",
       "availability_note_hu": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre.",
       "availability_note_de": "Verfügbarkeit, Verpackung, Lieferbedingungen und Lieferzeiten werden für jede B2B-Anfrage individuell bestätigt.",
-      "packaging_en": "Big bagged, bagged, IBC (solution)",
-      "packaging_hu": "BigBag és zsákos; IBC (oldat)",
-      "packaging_de": "BigBag und Sackware; IBC (Lösung)",
+      "packaging_en": "Liquid-compatible IBC or bulk; confirm per offer",
+      "packaging_hu": "Folyadékhoz megfelelő IBC vagy tartályos szállítás; egyeztetendő",
+      "packaging_de": "Flüssigkeitsgeeigneter IBC oder Tanklieferung; je Angebot bestätigen",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_en": "Specify liquid aluminium sulphate, target concentration and the analytical basis used to express it; solid granules are not directly interchangeable. Confirm density and application-specific quality parameters with the supplier.",
+      "rfq_guidance_en": "Request required volume or mass, suitable liquid packaging or bulk delivery, destination and delivery date. Confirm tank/IBC compatibility, TDS/SDS and batch-specific analysis.",
+      "buyer_guidance_hu": "Folyékony alumínium-szulfát esetén adja meg a kívánt koncentrációt és annak mérési alapját; a szilárd granulátum nem közvetlen helyettesítő. A sűrűséget és a felhasználási minőségi paramétereket külön egyeztesse.",
+      "rfq_guidance_hu": "Adja meg a szükséges térfogatot vagy tömeget, a folyadékhoz megfelelő kiszerelést vagy tartályos szállítást, a célállomást és időpontot. Ellenőrizze a tartály/IBC kompatibilitását és a TDS/SDS dokumentumokat.",
+      "buyer_guidance_de": "Für flüssiges Aluminiumsulfat Zielkonzentration und deren analytische Bezugsbasis angeben; feste Körnung ist kein direkter Ersatz. Dichte und anwendungsspezifische Qualitätsparameter mit dem Lieferanten abstimmen.",
+      "rfq_guidance_de": "Benötigte Masse oder Menge, geeignete Flüssigkeitsgebinde oder Tanklieferung, Lieferort und Termin angeben. Tank-/IBC-Eignung sowie TDS/SDS und Chargenanalyse bestätigen lassen."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Aluminium_sulfate",
