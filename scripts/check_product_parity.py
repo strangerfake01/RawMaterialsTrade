@@ -6,6 +6,7 @@ No third-party dependencies. Checks only products with editorial buyer guidance.
 """
 import html
 import json
+import re
 from pathlib import Path
 from html.parser import HTMLParser
 
@@ -57,6 +58,18 @@ def main():
             route = ROOT / f"{prefix}-{product_id}.html"
             if not route.is_file():
                 failures.append(f"{route.name}: missing catalogue product route")
+                continue
+            page = route.read_text(encoding="utf-8")
+            expected_lang = {"en": "en", "hu": "hu", "de-at": "de-AT"}[prefix]
+            if not re.search(r'<html\\s+lang=["\\\']' + re.escape(expected_lang) + r'["\\\']', page, re.I):
+                failures.append(f"{route.name}: wrong html lang")
+            expected_url = f"https://www.rawmaterialstrade.com/{route.name}"
+            if not re.search(r'<link\\b(?=[^>]*\\brel=["\\\']canonical["\\\'])(?=[^>]*\\bhref=["\\\']' + re.escape(expected_url) + r'["\\\'])[^>]*>', page, re.I):
+                failures.append(f"{route.name}: missing or wrong canonical")
+            for sibling, hreflang in (("en", "en"), ("hu", "hu-HU"), ("de-at", "de-AT"), ("en", "x-default")):
+                sibling_url = f"https://www.rawmaterialstrade.com/{sibling}-{product_id}.html"
+                if not re.search(r'<link\\b(?=[^>]*\\brel=["\\\']alternate["\\\'])(?=[^>]*\\bhreflang=["\\\']' + re.escape(hreflang) + r'["\\\'])(?=[^>]*\\bhref=["\\\']' + re.escape(sibling_url) + r'["\\\'])[^>]*>', page, re.I):
+                    failures.append(f"{route.name}: missing {hreflang} alternate")
     for product in products:
         procurement = product.get("procurement") or {}
         if not procurement.get("buyer_guidance_en"):
