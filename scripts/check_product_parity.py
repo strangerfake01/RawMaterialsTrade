@@ -60,7 +60,7 @@ def main():
                 failures.append(f"{route.name}: missing catalogue product route")
                 continue
             page = route.read_text(encoding="utf-8")
-            expected_lang = {"en": "en", "hu": "hu", "de-at": "de-AT"}[prefix]
+            expected_lang = {"en": "en", "hu": "hu-HU", "de-at": "de-AT"}[prefix]
             if not re.search(r'<html\s+lang=[\x22\x27]' + re.escape(expected_lang) + r'[\x22\x27]', page, re.I):
                 failures.append(f"{route.name}: wrong html lang")
             expected_url = f"https://www.rawmaterialstrade.com/{route.name}"
