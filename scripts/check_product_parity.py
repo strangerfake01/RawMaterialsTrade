@@ -92,9 +92,9 @@ def main():
                             entities.extend(node for node in nodes if isinstance(node, dict))
                 except (ValueError, TypeError):
                     failures.append(f"{route.name}: invalid JSON-LD")
-            for entity_type, suffix in (("WebPage", "#webpage"), ("ChemicalSubstance", "#material")):
+            for entity_type, suffix in (("WebPage", "#webpage"), ("material", "#material")):
                 if not any(
-                    entity.get("@type") == entity_type
+                    (entity.get("@type") in ("ChemicalSubstance", "DefinedTerm") if entity_type == "material" else entity.get("@type") == entity_type)
                     and entity.get("@id") == expected_url + suffix
                     for entity in entities
                 ):
