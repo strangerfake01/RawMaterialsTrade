@@ -1,0 +1,94 @@
+#!/usr/bin/env python3
+"""Fail when published priority-product pages drift from catalogue procurement data.
+
+Run from repository root: python3 scripts/check_product_parity.py
+No third-party dependencies. Checks only products with editorial buyer guidance.
+"""
+import html
+import json
+from pathlib import Path
+from html.parser import HTMLParser
+
+ROOT = Path(__file__).resolve().parents[1]
+LANGS = {"en": "en", "hu": "hu", "de-at": "de"}
+
+
+class PageParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.text_parts = []
+        self.schema_parts = []
+        self.in_schema = False
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "script" and attrs.get("type") == "application/ld+json":
+            self.in_schema = True
+
+    def handle_endtag(self, tag):
+        if tag == "script":
+            self.in_schema = False
+
+    def handle_data(self, data):
+        if self.in_schema:
+            self.schema_parts.append(data)
+        else:
+            self.text_parts.append(data)
+
+
+def norm(value):
+    return " ".join(html.unescape(str(value)).split())
+
+
+def main():
+    products = json.loads((ROOT / "products-multilingual.json").read_text(encoding="utf-8"))
+    failures = []
+    checked = 0
+    for product in products:
+        procurement = product.get("procurement") or {}
+        if not procurement.get("buyer_guidance_en"):
+            continue
+        for prefix, lang in LANGS.items():
+            path = ROOT / (prefix + "-" + product["id"] + ".html")
+            if not path.is_file():
+                failures.append(f"{path.name}: missing HTML")
+                continue
+            source = path.read_text(encoding="utf-8")
+            parser = PageParser()
+            parser.feed(source)
+            visible = norm(" ".join(parser.text_parts))
+            for key in ("buyer_guidance_", "rfq_guidance_", "packaging_"):
+                expected = procurement.get(key + lang)
+                if not expected:
+                    failures.append(f"{path.name}: missing catalogue {key + lang}")
+                elif norm(expected) not in visible:
+                    failures.append(f"{path.name}: visible {key + lang} differs from catalogue")
+            if "product-procurement-guidance" not in source:
+                failures.append(f"{path.name}: missing procurement accordion")
+            try:
+                graphs = [json.loads(item) for item in parser.schema_parts]
+                entities = []
+                for graph in graphs:
+                    entities.extend(graph.get("@graph", [graph]))
+                chemicals = [e for e in entities if e.get("@type") == "ChemicalSubstance"]
+                services = [e for e in entities if e.get("@type") == "Service"]
+                if not chemicals or not services:
+                    failures.append(f"{path.name}: missing ChemicalSubstance or Service")
+                elif not any(
+                    service.get("about", {}).get("@id") == chemical.get("@id")
+                    for service in services for chemical in chemicals
+                ):
+                    failures.append(f"{path.name}: disconnected Service / ChemicalSubstance")
+            except (ValueError, TypeError, AttributeError) as exc:
+                failures.append(f"{path.name}: invalid JSON-LD ({exc})")
+            checked += 1
+    print(f"Checked {checked} language pages with detailed procurement guidance.")
+    if failures:
+        for failure in failures:
+            print("FAIL:", failure)
+        raise SystemExit(1)
+    print("PASS: catalogue, visible copy, accordion and entity relationships agree.")
+
+
+if __name__ == "__main__":
+    main()
