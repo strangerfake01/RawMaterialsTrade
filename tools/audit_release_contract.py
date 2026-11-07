@@ -57,18 +57,18 @@ for loc in locations:
         errors.append(f"Missing local page: {loc} => {candidate.relative_to(ROOT)}")
         continue
     source = candidate.read_text(encoding="utf-8")
-    canonical_tags = re.findall(r'<link\\b[^>]*>', source, re.I)
+    canonical_tags = re.findall(r'<link\b[^>]*>', source, re.I)
     canonicals = []
     for tag in canonical_tags:
-        rel = re.search(r'\\brel=["\\x27]([^"\\x27]+)', tag, re.I)
-        href = re.search(r'\\bhref=["\\x27]([^"\\x27]+)', tag, re.I)
+        rel = re.search(r'\brel=["\x27]([^"\x27]+)', tag, re.I)
+        href = re.search(r'\bhref=["\x27]([^"\x27]+)', tag, re.I)
         if rel and "canonical" in rel.group(1).lower().split():
             canonicals.append(href.group(1) if href else "")
     if len(canonicals) != 1 or canonicals[0] != loc:
         errors.append(f"Canonical mismatch: {loc}: {canonicals}")
     if len(re.findall(r'<h1[ >]', source, re.I)) != 1:
         errors.append(f"H1 count mismatch: {loc}")
-    scripts = re.findall(r'<script\\b[^>]*type=["\\x27]application/ld\\+json["\\x27][^>]*>(.*?)</script>', source, re.I | re.S)
+    scripts = re.findall(r'<script\b[^>]*type=["\x27]application/ld\+json["\x27][^>]*>(.*?)</script>', source, re.I | re.S)
     for i, payload in enumerate(scripts):
         try:
             json.loads(payload)
