@@ -124,6 +124,9 @@ form_only_families = {
     "kalium-ferrocianid-food",
     "kalium-hidroxid-pikkelyes-industrial",
     "karbamid-ipari-kezeletlen-industrial",
+    "kenpor-industrial",
+    "magnezium-karbonat-konnyu-nehez-industrial",
+    "magnezium-szulfat-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
