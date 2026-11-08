@@ -97,6 +97,9 @@ form_only_families = {
     "natrium-molibdat-feed",
     "natrium-perkarbonat-industrial",
     "sosav-technikai-regeneralt-industrial",
+    "natrium-tripolifoszfat-industrial",
+    "sosav-gyogyszerkonyvi-food",
+    "utszoro-so-deicing",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
