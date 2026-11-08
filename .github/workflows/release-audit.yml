@@ -28,3 +28,5 @@ jobs:
         run: python3 tools/audit_static_assets.py
       - name: Validate sitemap, canonicals, hreflang, JSON-LD and product content
         run: python3 tools/audit_release_contract.py
+      - name: Reject unverified chemical identity source claims
+        run: python3 tools/audit_chemical_source_integrity.py
