@@ -118,6 +118,9 @@ form_only_families = {
     "dietilen-glikol-industrial",
     "ecetsavanhidrid-industrial",
     "edta-na2-na4-industrial",
+    "etkezesi-so-food",
+    "glicin-industrial",
+    "izopropil-alkohol-technikai-regeneralt-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
