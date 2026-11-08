@@ -4625,7 +4625,7 @@
       "form_de": "Auf Basis der Lieferantendokumentation zu bestätigen.",
       "concentration": "99.5%",
       "grade": "99.5%",
-      "packaging": "IBC, drums or bulk transport, subject to supplier confirmation",
+      "packaging": "IBC (1000 L), drums (200 L), tanker",
       "synonyms_en": [
         "Glycerine (Glycerol) — 99.5%",
         "Glicerin 99,5%",
@@ -4647,9 +4647,9 @@
       "concentration_en": "99.5%",
       "concentration_hu": "99,5%",
       "concentration_de": "99,5%",
-      "packaging_en": "IBC, drums or bulk transport, subject to supplier confirmation",
-      "packaging_hu": "IBC, hordó vagy ömlesztett szállítás, beszállítói visszaigazolás szerint",
-      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung"
+      "packaging_en": "IBC (1000 L), drums (200 L), tanker",
+      "packaging_hu": "IBC (1000 L), hordó (200 L), tartályautó",
+      "packaging_de": "IBC (1000 L), Fässer (200 L), Tankwagen"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -4663,14 +4663,14 @@
       "coa_status_de": "Analysezertifikat nach Hersteller-/Lieferantenverfügbarkeit."
     },
     "procurement": {
-      "packaging": "IBC, drums or bulk transport, subject to supplier confirmation",
+      "packaging": "IBC (1000 L), drums (200 L), tanker",
       "delivery_region": "Hungary, Austria, DACH and Europe",
       "availability_note_en": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry.",
       "availability_note_hu": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre.",
       "availability_note_de": "Verfügbarkeit, Verpackung, Lieferbedingungen und Lieferzeiten werden für jede B2B-Anfrage individuell bestätigt.",
-      "packaging_en": "IBC, drums or bulk transport, subject to supplier confirmation",
-      "packaging_hu": "IBC, hordó vagy ömlesztett szállítás, beszállítói visszaigazolás szerint",
-      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung",
+      "packaging_en": "IBC (1000 L), drums (200 L), tanker",
+      "packaging_hu": "IBC (1000 L), hordó (200 L), tartályautó",
+      "packaging_de": "IBC (1000 L), Fässer (200 L), Tankwagen",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
       "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
@@ -9879,7 +9879,7 @@
       "form_de": "Auf Basis der Lieferantendokumentation zu bestätigen.",
       "concentration": "Industrial; USP/food grade; feed grade",
       "grade": "Industrial; USP/food grade; feed grade",
-      "packaging": "IBC, drums or bulk transport, subject to supplier confirmation",
+      "packaging": "IBC (1000 L), drums (200 L), tanker",
       "synonyms_en": [
         "Propylene Glycol (MPG)",
         "Monopropilénglikol",
@@ -9901,9 +9901,9 @@
       "concentration_en": "Industrial; USP/food grade; feed grade",
       "concentration_hu": "ipari; USP/élelmiszeripari; takarmányipari minőség",
       "concentration_de": "Industrie-, USP-/Lebensmittel- und Futtermittelqualität",
-      "packaging_en": "IBC, drums or bulk transport, subject to supplier confirmation",
-      "packaging_hu": "IBC, hordó vagy ömlesztett szállítás, beszállítói visszaigazolás szerint",
-      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung"
+      "packaging_en": "IBC (1000 L), drums (200 L), tanker",
+      "packaging_hu": "IBC (1000 L), hordó (200 L), tartályautó",
+      "packaging_de": "IBC (1000 L), Fässer (200 L), Tankwagen"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -9917,14 +9917,14 @@
       "coa_status_de": "Analysezertifikat nach Hersteller-/Lieferantenverfügbarkeit."
     },
     "procurement": {
-      "packaging": "IBC, drums or bulk transport, subject to supplier confirmation",
+      "packaging": "IBC (1000 L), drums (200 L), tanker",
       "delivery_region": "Hungary, Austria, DACH and Europe",
       "availability_note_en": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry.",
       "availability_note_hu": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre.",
       "availability_note_de": "Verfügbarkeit, Verpackung, Lieferbedingungen und Lieferzeiten werden für jede B2B-Anfrage individuell bestätigt.",
-      "packaging_en": "IBC, drums or bulk transport, subject to supplier confirmation",
-      "packaging_hu": "IBC, hordó vagy ömlesztett szállítás, beszállítói visszaigazolás szerint",
-      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung",
+      "packaging_en": "IBC (1000 L), drums (200 L), tanker",
+      "packaging_hu": "IBC (1000 L), hordó (200 L), tartályautó",
+      "packaging_de": "IBC (1000 L), Fässer (200 L), Tankwagen",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
       "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
