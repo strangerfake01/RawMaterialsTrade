@@ -130,6 +130,9 @@ form_only_families = {
     "maleinsav-industrial",
     "mangan-ii-szulfat-monohidrat-industrial",
     "mangan-szulfat-monohidrat-feed",
+    "monoetanolamin-industrial",
+    "monoetilen-glikol-industrial",
+    "monopropilenglikol-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
