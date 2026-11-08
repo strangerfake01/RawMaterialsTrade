@@ -29,7 +29,7 @@ for product in products:
     if " / " in cas:
         if ident.get("cas_identifier_status") != "multiple_candidates_unverified" or ident.get("cas_candidate_identifiers") != cas.split(" / "):
             raise SystemExit(f"{product['id']}: multiple CAS candidates must be separately recorded as unverified")
-    elif not re.fullmatch(r"\\d{2,7}-\\d{2}-\\d", cas):
+    elif not re.fullmatch(r"\d{2,7}-\d{2}-\d", cas):
         if ident.get("cas_identifier_status") != "supplier_identity_required" or ident.get("cas_candidate_identifiers") != []:
             raise SystemExit(f"{product['id']}: CAS placeholder must not be interpreted as an identifier")
     if "supplier documentation" in form.lower() or "to be confirmed" in form.lower():
