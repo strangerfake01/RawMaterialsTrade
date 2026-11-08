@@ -106,6 +106,9 @@ form_only_families = {
     "aluminium-szulfat-oldat-industrial",
     "ammonium-klorid-industrial",
     "ammonium-szulfat-industrial",
+    "aszkorbinsav-food",
+    "borax-pentahidrat-industrial",
+    "borkosav-l-food",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
