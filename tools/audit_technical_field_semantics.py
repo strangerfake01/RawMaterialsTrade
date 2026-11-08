@@ -92,6 +92,8 @@ form_only_families = {
     "rez-klorid-dihidrat-industrial",
     "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
     "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
+    "vas-ii-szulfat-monohidrat-feed",
+    "trinatrium-citrat-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
