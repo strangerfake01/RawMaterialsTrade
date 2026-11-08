@@ -6673,6 +6673,8 @@
     ],
     "technical_identity": {
       "cas": "Product-specific — confirm exact CAS/component identity from SDS/TDS",
+      "cas_identifier_status": "supplier_identity_required",
+      "cas_candidate_identifiers": [],
       "ec": "Confirmed upon supplier documentation",
       "formula": "Confirmed upon supplier documentation",
       "form_en": "Confirmed upon supplier documentation.",
@@ -8693,6 +8695,8 @@
     ],
     "technical_identity": {
       "cas": "7773-01-5 / 13446-34-9",
+      "cas_identifier_status": "multiple_candidates_unverified",
+      "cas_candidate_identifiers": ["7773-01-5","13446-34-9"],
       "ec": "Confirmed upon supplier documentation",
       "formula": "Confirmed upon supplier documentation",
       "form_en": "Confirmed upon supplier documentation.",
@@ -13637,6 +13641,8 @@
     ],
     "technical_identity": {
       "cas": "Product type-specific — confirm exact CAS/component identity from SDS/TDS",
+      "cas_identifier_status": "supplier_identity_required",
+      "cas_candidate_identifiers": [],
       "ec": "Confirmed upon supplier documentation",
       "formula": "Confirmed upon supplier documentation",
       "form_en": "Confirmed upon supplier documentation.",
