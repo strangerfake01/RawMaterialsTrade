@@ -14,7 +14,7 @@ products = json.loads((ROOT / "products-multilingual.json").read_text(encoding="
 LANGS = {"en": "en-", "hu": "hu-", "de": "de-at-"}
 CHECKS = {
     "blanket_sds": re.compile(r"(?i)(?:SDS always|SDS stets|mindig SDS|stets SDS|immer SDS)"),
-    "fixed_packaging_orientation": re.compile(r"(?i)(?:preferred packaging currently listed|orientierende verpackung laut katalog|orientációs kiszerelés a katalógusban|packaging preference \\(catalogue orientation:)"),
+    "fixed_packaging_orientation": re.compile(r"(?i)(?:preferred packaging currently listed|orientierende verpackung laut katalog|orientációs kiszerelés a katalógusban|packaging preference [(]catalogue orientation:)"),
     "grade_as_concentration": re.compile(r"(?i)(?:target concentration or purity where relevant: currently listed orientation|célkoncentráció vagy tisztaság, ha releváns: katalógus-orientáció|zielkonzentration oder reinheit, falls relevant: katalogorientierung)"),
     "unqualified_document_promise": re.compile(r"(?i)(?:SDS, TDS, certificates of analysis and compliance documents available on request|SDS, TDS, analízis-tanúsítványok és megfelelőségi dokumentumok kérésre rendelkezésre állnak)"),
 }
