@@ -1,0 +1,2780 @@
+{
+  "schemaVersion": "1.0",
+  "baseCommit": "51fad6f121de388d22e87724432000b434b64903",
+  "generated": "2026-11-08",
+  "note": "Identifiers come from the repository catalogue. Wikipedia/Wikidata links require human confirmation before sameAs use.",
+  "entities": [
+    {
+      "id": "aceton-technikai-regeneralt-industrial",
+      "name_en": "Acetone — technical, regenerated",
+      "cas": "67-64-1",
+      "ec": "200-662-2",
+      "formula": "(CH₃)₂CO",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Acetone",
+        "hu": "https://hu.wikipedia.org/wiki/Aceton",
+        "de": "https://de.wikipedia.org/wiki/Aceton"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "aluminium-szulfat-03-mm-38-mm-industrial",
+      "name_en": "Aluminium Sulphate — 0–3 mm, 3–8 mm",
+      "cas": "10043-01-3",
+      "ec": "233-135-0",
+      "formula": "Al₂(SO₄)₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Aluminium_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/Alum%C3%ADnium-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Aluminiumsulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "aluminium-szulfat-oldat-industrial",
+      "name_en": "Aluminium Sulphate — solution",
+      "cas": "10043-01-3",
+      "ec": "233-135-0",
+      "formula": "Al₂(SO₄)₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Aluminium_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/Alum%C3%ADnium-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Aluminiumsulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "ammonia-oldat-24-industrial",
+      "name_en": "Ammonia Solution — 24%",
+      "cas": "1336-21-6",
+      "ec": "215-647-6",
+      "formula": "NH₃ (aq)",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Ammonia_solution",
+        "hu": "https://hu.wikipedia.org/wiki/Ammónia",
+        "de": "https://de.wikipedia.org/wiki/Ammoniak"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "ammonium-klorid-industrial",
+      "name_en": "Ammonium Chloride",
+      "cas": "12125-02-9",
+      "ec": "235-186-4",
+      "formula": "NH₄Cl",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Ammonium_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-klorid",
+        "de": "https://de.wikipedia.org/wiki/Ammoniumchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "ammonium-nitrat-industrial",
+      "name_en": "Ammonium nitrate",
+      "cas": "6484-52-2",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Ammonium_nitrate",
+        "hu": "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-nitr%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Ammoniumnitrat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "ammonium-szulfat-industrial",
+      "name_en": "Ammonium Sulphate",
+      "cas": "7783-20-2",
+      "ec": "231-984-1",
+      "formula": "(NH₄)₂SO₄",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Ammonium_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Ammoniumsulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "aszkorbinsav-food",
+      "name_en": "Ascorbic Acid (Vitamin C)",
+      "cas": "50-81-7",
+      "ec": "200-066-2",
+      "formula": "C₆H₈O₆",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Vitamin_C",
+        "hu": "https://hu.wikipedia.org/wiki/Aszkorbinsav",
+        "de": "https://de.wikipedia.org/wiki/Ascorbins%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "bentonit-industrial",
+      "name_en": "Bentonite",
+      "cas": "1302-78-9",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Bentonite",
+        "hu": "https://hu.wikipedia.org/wiki/Bentonit",
+        "de": "https://de.wikipedia.org/wiki/Bentonit"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "borax-dekahidrat-industrial",
+      "name_en": "Borax — decahydrate",
+      "cas": "1303-96-4",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Borax",
+        "hu": "https://hu.wikipedia.org/wiki/B%C3%B3rax",
+        "de": "https://de.wikipedia.org/wiki/Borax"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "borax-pentahidrat-industrial",
+      "name_en": "Borax — pentahydrate",
+      "cas": "12179-04-3",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Borax",
+        "hu": "https://hu.wikipedia.org/wiki/B%C3%B3rax",
+        "de": "https://de.wikipedia.org/wiki/Borax"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "borken-food",
+      "name_en": "Potassium metabisulfite",
+      "cas": "16731-55-8",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Potassium_metabisulfite",
+        "hu": "https://hu.wikipedia.org/wiki/K%C3%A1lium-metabiszulfit",
+        "de": "https://de.wikipedia.org/wiki/Kaliummetabisulfit"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "borkosav-l-food",
+      "name_en": "Tartaric Acid — L+",
+      "cas": "87-69-4",
+      "ec": "201-766-0",
+      "formula": "C₄H₆O₆",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Tartaric_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Bork%C5%91sav",
+        "de": "https://de.wikipedia.org/wiki/Weins%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "borsav-industrial",
+      "name_en": "Boric Acid",
+      "cas": "10043-35-3",
+      "ec": "233-139-2",
+      "formula": "H₃BO₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Boric_acid",
+        "hu": "https://hu.wikipedia.org/wiki/B%C3%B3rsav",
+        "de": "https://de.wikipedia.org/wiki/Bors%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "butanol-industrial",
+      "name_en": "1-Butanol",
+      "cas": "71-36-3",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/1-Butanol",
+        "hu": "https://hu.wikipedia.org/wiki/Butanol",
+        "de": "https://de.wikipedia.org/wiki/1-Butanol"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "butil-diglikol-industrial",
+      "name_en": "2-(2-Butoxyethoxy)ethanol",
+      "cas": "112-34-5",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/2-%282-Butoxyethoxy%29ethanol",
+        "hu": "https://hu.wikipedia.org/wiki/2-(2-butoxietoxi)etanol",
+        "de": "https://de.wikipedia.org/wiki/2-(2-Butoxyethoxy)ethanol"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "butil-glikol-industrial",
+      "name_en": "Butyl Glycol (2-Butoxyethanol)",
+      "cas": "111-76-2",
+      "ec": "203-905-0",
+      "formula": "C₄H₉OCH₂CH₂OH",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/2-Butoxyethanol",
+        "hu": "https://hu.wikipedia.org/wiki/2-butoxi-etanol",
+        "de": "https://de.wikipedia.org/wiki/2-Butoxyethanol"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "ciklohexanon-industrial",
+      "name_en": "Cyclohexanone",
+      "cas": "108-94-1",
+      "ec": "203-631-1",
+      "formula": "C₆H₁₀O",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Cyclohexanone",
+        "hu": "https://hu.wikipedia.org/wiki/Ciklohexanon",
+        "de": "https://de.wikipedia.org/wiki/Cyclohexanon"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "cink-klorid-feed",
+      "name_en": "Zinc Chloride",
+      "cas": "7646-85-7",
+      "ec": "231-592-0",
+      "formula": "ZnCl₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Zinc_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/Cink-klorid",
+        "de": "https://de.wikipedia.org/wiki/Zinkchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "cink-klorid-vizmentes-industrial",
+      "name_en": "Zinc Chloride — anhydrous",
+      "cas": "7646-85-7",
+      "ec": "231-592-0",
+      "formula": "ZnCl₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Zinc_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/Cink-klorid",
+        "de": "https://de.wikipedia.org/wiki/Zinkchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "cink-oxid-industrial",
+      "name_en": "Zinc Oxide",
+      "cas": "1314-13-2",
+      "ec": "215-222-5",
+      "formula": "ZnO",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Zinc_oxide",
+        "hu": "https://hu.wikipedia.org/wiki/Cink-oxid",
+        "de": "https://de.wikipedia.org/wiki/Zinkoxid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "cink-szulfat-monohidrat-feed",
+      "name_en": "Zinc Sulphate — monohydrate",
+      "cas": "7446-19-7 / 7446-20-0",
+      "ec": "231-793-3",
+      "formula": "ZnSO₄",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Zinc_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/Cink-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Zinksulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "cink-szulfat-monohidrat-heptahidrat-industrial",
+      "name_en": "Zinc Sulphate — monohydrate, heptahydrate",
+      "cas": "7446-19-7 / 7446-20-0",
+      "ec": "231-793-3",
+      "formula": "ZnSO₄",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Zinc_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/Cink-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Zinksulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "citromsav-monohidrat-anhidrat-food",
+      "name_en": "Citric Acid — monohydrate, anhydrous",
+      "cas": "77-92-9 / 5949-29-1",
+      "ec": "201-069-1",
+      "formula": "C₆H₈O₇",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Citric_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Citromsav",
+        "de": "https://de.wikipedia.org/wiki/Citronens%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "diammonium-hidrogenfoszfat-industrial",
+      "name_en": "Diammonium phosphate",
+      "cas": "7783-28-0",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Diammonium_phosphate",
+        "hu": "https://hu.wikipedia.org/wiki/Diamm%C3%B3nium-foszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Diammoniumhydrogenphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "dietilen-glikol-industrial",
+      "name_en": "Diethylene Glycol",
+      "cas": "111-46-6",
+      "ec": "203-872-2",
+      "formula": "C₄H₁₀O₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Diethylene_glycol",
+        "hu": "https://hu.wikipedia.org/wiki/Dietil%C3%A9n-glikol",
+        "de": "https://de.wikipedia.org/wiki/Diethylenglykol"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "dikalium-hidrogen-foszfat-food",
+      "name_en": "Dipotassium phosphate",
+      "cas": "7758-11-4",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Dipotassium_phosphate",
+        "hu": "https://hu.wikipedia.org/wiki/Dik%C3%A1lium-hidrog%C3%A9n-foszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Dikaliumhydrogenphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "dinatrium-pirofoszfat-food",
+      "name_en": "Disodium pyrophosphate — food industry context",
+      "cas": "7758-16-9",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Disodium_pyrophosphate",
+        "hu": "https://hu.wikipedia.org/wiki/Din%C3%A1trium-pirofoszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Dinatriumdihydrogendiphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "dinatriumfoszfat-industrial",
+      "name_en": "Disodium phosphate",
+      "cas": "7558-79-4",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Disodium_phosphate",
+        "hu": "https://hu.wikipedia.org/wiki/Din%C3%A1trium-hidrog%C3%A9n-foszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Dinatriumhydrogenphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "dinatriumpirofoszfat-industrial",
+      "name_en": "Disodium pyrophosphate — technical context",
+      "cas": "7758-16-9",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Disodium_pyrophosphate",
+        "hu": "https://hu.wikipedia.org/wiki/Din%C3%A1trium-pirofoszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Dinatriumdihydrogendiphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "ecetsav-20-50-60-70-80-99-8-industrial",
+      "name_en": "Acetic Acid — 20%, 50%, 60%, 70%, 80%, 99.8%",
+      "cas": "64-19-7",
+      "ec": "200-580-7",
+      "formula": "CH₃COOH",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Acetic_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Ecetsav",
+        "de": "https://de.wikipedia.org/wiki/Essigs%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
+      "name_en": "Acetic Acid — 20%, 50%, 60%, 70%, 80%, 99.8% (glacial acetic acid)",
+      "cas": "64-19-7",
+      "ec": "200-580-7",
+      "formula": "CH₃COOH",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Acetic_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Ecetsav",
+        "de": "https://de.wikipedia.org/wiki/Essigs%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "ecetsavanhidrid-industrial",
+      "name_en": "Acetic Anhydride",
+      "cas": "108-24-7",
+      "ec": "203-564-8",
+      "formula": "(CH₃CO)₂O",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Acetic_anhydride",
+        "hu": "https://hu.wikipedia.org/wiki/Ecetsav-anhidrid",
+        "de": "https://de.wikipedia.org/wiki/Essigs%C3%A4ureanhydrid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "edta-na2-na4-industrial",
+      "name_en": "EDTA — disodium (Na₂) / tetrasodium (Na₄)",
+      "cas": "6381-92-6 / 64-02-8",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Ethylenediaminetetraacetic_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Etil%C3%A9n-diamin-tetraecetsav",
+        "de": "https://de.wikipedia.org/wiki/Ethylendiamintetraessigs%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "etil-acetat-technikai-regeneralt-industrial",
+      "name_en": "Ethyl Acetate — technical, regenerated",
+      "cas": "141-78-6",
+      "ec": "205-500-4",
+      "formula": "CH₃COOC₂H₅",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Ethyl_acetate",
+        "hu": "https://hu.wikipedia.org/wiki/Etil-acet%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Ethylacetat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "etkezesi-so-food",
+      "name_en": "Food salt (sodium chloride)",
+      "cas": "7647-14-5",
+      "ec": "231-598-3",
+      "formula": "NaCl",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
+        "de": "https://de.wikipedia.org/wiki/Natriumchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "foszforsav-75-industrial",
+      "name_en": "Phosphoric Acid — 75%",
+      "cas": "7664-38-2",
+      "ec": "231-633-2",
+      "formula": "H₃PO₄",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Phosphoric_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Foszforsav",
+        "de": "https://de.wikipedia.org/wiki/Phosphors%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "foszforsav-75-85-food",
+      "name_en": "Phosphoric Acid — 75%, 85%",
+      "cas": "7664-38-2",
+      "ec": "231-633-2",
+      "formula": "H₃PO₄",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Phosphoric_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Foszforsav",
+        "de": "https://de.wikipedia.org/wiki/Phosphors%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "glicerin-industrial",
+      "name_en": "Glycerine (Glycerol)",
+      "cas": "56-81-5",
+      "ec": "200-289-5",
+      "formula": "C₃H₈O₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Glycerol",
+        "hu": "https://hu.wikipedia.org/wiki/Glicerin",
+        "de": "https://de.wikipedia.org/wiki/Glycerin"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "glicerin-99-5-food",
+      "name_en": "Glycerine (Glycerol) — 99.5%",
+      "cas": "56-81-5",
+      "ec": "200-289-5",
+      "formula": "C₃H₈O₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Glycerol",
+        "hu": "https://hu.wikipedia.org/wiki/Glicerin",
+        "de": "https://de.wikipedia.org/wiki/Glycerin"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "glicin-industrial",
+      "name_en": "Glycine",
+      "cas": "56-40-6",
+      "ec": "200-272-2",
+      "formula": "C₂H₅NO₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Glycine",
+        "hu": "https://hu.wikipedia.org/wiki/Glicin",
+        "de": "https://de.wikipedia.org/wiki/Glycin"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "hangyasav-85-industrial",
+      "name_en": "Formic Acid — 85%",
+      "cas": "64-18-6",
+      "ec": "200-579-1",
+      "formula": "HCOOH",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Formic_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Hangyasav",
+        "de": "https://de.wikipedia.org/wiki/Ameisens%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "hidrogen-peroxid-35-50-60-industrial",
+      "name_en": "Hydrogen Peroxide — 35%, 50%, 60%",
+      "cas": "7722-84-1",
+      "ec": "231-765-0",
+      "formula": "H₂O₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Hydrogen_peroxide",
+        "hu": "https://hu.wikipedia.org/wiki/Hidrog%C3%A9n-peroxid",
+        "de": "https://de.wikipedia.org/wiki/Wasserstoffperoxid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "ioncserelt-viz-industrial",
+      "name_en": "Deionized water",
+      "cas": "7732-18-5",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Purified_water",
+        "hu": "https://hu.wikipedia.org/wiki/Tiszt%C3%ADtott_v%C3%ADz",
+        "de": "https://de.wikipedia.org/wiki/Gereinigtes_Wasser"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "izopropil-alkohol-technikai-regeneralt-industrial",
+      "name_en": "Isopropyl Alcohol (IPA) — technical, regenerated",
+      "cas": "67-63-0",
+      "ec": "200-661-7",
+      "formula": "C₃H₇OH",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Isopropyl_alcohol",
+        "hu": "https://hu.wikipedia.org/wiki/Izopropanol",
+        "de": "https://de.wikipedia.org/wiki/Propan-2-ol"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalcium-jodat-feed",
+      "name_en": "Calcium iodate",
+      "cas": "7789-80-2",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Calcium_iodate",
+        "hu": "https://hu.wikipedia.org/wiki/Kalcium-jod%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Calciumiodat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalcium-karbonat-food",
+      "name_en": "Calcium carbonate",
+      "cas": "471-34-1",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Calcium_carbonate",
+        "hu": "https://hu.wikipedia.org/wiki/Kalcium-karbon%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Calciumcarbonat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalcium-klorid-2025-oldat-deicing",
+      "name_en": "Calcium Chloride — 20–25% solution",
+      "cas": "10043-52-4 / 10035-04-8",
+      "ec": "233-140-8",
+      "formula": "CaCl₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Calcium_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/Kalcium-klorid",
+        "de": "https://de.wikipedia.org/wiki/Calciumchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalcium-klorid-7780-food",
+      "name_en": "Calcium Chloride — 77–80%",
+      "cas": "10043-52-4 / 10035-04-8",
+      "ec": "233-140-8",
+      "formula": "CaCl₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Calcium_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/Kalcium-klorid",
+        "de": "https://de.wikipedia.org/wiki/Calciumchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
+      "name_en": "Calcium Chloride — dihydrate 78–80% flakes",
+      "cas": "10043-52-4 / 10035-04-8",
+      "ec": "233-140-8",
+      "formula": "CaCl₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Calcium_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/Kalcium-klorid",
+        "de": "https://de.wikipedia.org/wiki/Calciumchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalium-ferrocianid-food",
+      "name_en": "Potassium Ferrocyanide",
+      "cas": "13943-58-3",
+      "ec": "237-722-2",
+      "formula": "K₄[Fe(CN)₆]",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Potassium_ferrocyanide",
+        "hu": "https://hu.wikipedia.org/wiki/K%C3%A1lium-ferrocianid",
+        "de": "https://de.wikipedia.org/wiki/Kaliumhexacyanoferrat(II)"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalium-hidroxid-oldat-21-45-4850-industrial",
+      "name_en": "Potassium Hydroxide — solution 21%, 45%, 48–50%",
+      "cas": "1310-58-3",
+      "ec": "215-181-3",
+      "formula": "KOH",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Potassium_hydroxide",
+        "hu": "https://hu.wikipedia.org/wiki/K%C3%A1lium-hidroxid",
+        "de": "https://de.wikipedia.org/wiki/Kaliumhydroxid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalium-hidroxid-pikkelyes-industrial",
+      "name_en": "Potassium Hydroxide — flakes",
+      "cas": "1310-58-3",
+      "ec": "215-181-3",
+      "formula": "KOH",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Potassium_hydroxide",
+        "hu": "https://hu.wikipedia.org/wiki/K%C3%A1lium-hidroxid",
+        "de": "https://de.wikipedia.org/wiki/Kaliumhydroxid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalium-jodat-feed",
+      "name_en": "Potassium iodate",
+      "cas": "7758-05-6",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Potassium_iodate",
+        "hu": "https://hu.wikipedia.org/wiki/K%C3%A1lium-jod%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Kaliumiodat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalium-jodid-feed",
+      "name_en": "Potassium iodide",
+      "cas": "7681-11-0",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Potassium_iodide",
+        "hu": "https://hu.wikipedia.org/wiki/K%C3%A1lium-jodid",
+        "de": "https://de.wikipedia.org/wiki/Kaliumiodid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalium-karbonat-industrial",
+      "name_en": "Potassium carbonate",
+      "cas": "584-08-7",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Potassium_carbonate",
+        "hu": "https://hu.wikipedia.org/wiki/K%C3%A1lium-karbon%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Kaliumcarbonat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kalium-tripolifoszfat-food",
+      "name_en": "Potassium tripolyphosphate",
+      "cas": "Product-specific — confirm exact CAS/component identity from SDS/TDS",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Triphosphate",
+        "hu": "https://hu.wikipedia.org/wiki/Trifoszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Triphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "karbamid-ipari-kezeletlen-industrial",
+      "name_en": "Urea — industrial, untreated",
+      "cas": "57-13-6",
+      "ec": "200-315-5",
+      "formula": "CO(NH₂)₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Urea",
+        "hu": "https://hu.wikipedia.org/wiki/Karbamid",
+        "de": "https://de.wikipedia.org/wiki/Harnstoff"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kenpor-industrial",
+      "name_en": "Sulfur — powder",
+      "cas": "7704-34-9",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sulfur",
+        "hu": "https://hu.wikipedia.org/wiki/K%C3%A9n",
+        "de": "https://de.wikipedia.org/wiki/Schwefel"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kensav-32-37-50-9597-industrial",
+      "name_en": "Sulphuric Acid — 32%, 37%, 50%, 95–97%",
+      "cas": "7664-93-9",
+      "ec": "231-639-5",
+      "formula": "H₂SO₄",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sulfuric_acid",
+        "hu": "https://hu.wikipedia.org/wiki/K%C3%A9nsav",
+        "de": "https://de.wikipedia.org/wiki/Schwefels%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "klormesz-industrial",
+      "name_en": "Calcium hypochlorite",
+      "cas": "7778-54-3",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Calcium_hypochlorite",
+        "hu": "https://hu.wikipedia.org/wiki/Kalcium-hipoklorit",
+        "de": "https://de.wikipedia.org/wiki/Calciumhypochlorit"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "kobalt-karbonat-feed",
+      "name_en": "Cobalt(II) carbonate",
+      "cas": "513-79-1",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Cobalt%28II%29_carbonate",
+        "hu": "https://hu.wikipedia.org/wiki/Kobalt(II)-karbon%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Cobalt(II)-carbonat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "magnezium-karbonat-konnyu-nehez-industrial",
+      "name_en": "Magnesium carbonate — light, dense",
+      "cas": "546-93-0",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Magnesium_carbonate",
+        "hu": "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-karbon%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Magnesiumcarbonat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "magnezium-klorid-food",
+      "name_en": "Magnesium chloride",
+      "cas": "7791-18-6",
+      "ec": "232-094-6",
+      "formula": "MgCl₂·6H₂O",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Magnesium_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-klorid",
+        "de": "https://de.wikipedia.org/wiki/Magnesiumchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "magnezium-klorid-hexahidrat-industrial",
+      "name_en": "Magnesium chloride hexahydrate",
+      "cas": "7791-18-6",
+      "ec": "232-094-6",
+      "formula": "MgCl₂·6H₂O",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Magnesium_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-klorid",
+        "de": "https://de.wikipedia.org/wiki/Magnesiumchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "magnezium-nitrat-industrial",
+      "name_en": "Magnesium nitrate",
+      "cas": "10377-60-3",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Magnesium_nitrate",
+        "hu": "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-nitr%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Magnesiumnitrat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "magnezium-oxid-feed",
+      "name_en": "Magnesium Oxide",
+      "cas": "1309-48-4",
+      "ec": "215-171-9",
+      "formula": "MgO",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Magnesium_oxide",
+        "hu": "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-oxid",
+        "de": "https://de.wikipedia.org/wiki/Magnesiumoxid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "magnezium-oxid-nehez-industrial",
+      "name_en": "Magnesium Oxide — dense",
+      "cas": "1309-48-4",
+      "ec": "215-171-9",
+      "formula": "MgO",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Magnesium_oxide",
+        "hu": "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-oxid",
+        "de": "https://de.wikipedia.org/wiki/Magnesiumoxid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "magnezium-szulfat-industrial",
+      "name_en": "Magnesium Sulphate",
+      "cas": "7487-88-9",
+      "ec": "231-298-2",
+      "formula": "MgSO₄",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Magnesium_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Magnesiumsulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "maleinsav-industrial",
+      "name_en": "Maleic Acid",
+      "cas": "110-16-7",
+      "ec": "203-742-5",
+      "formula": "C₄H₄O₄",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Maleic_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Maleins%C3%A1v",
+        "de": "https://de.wikipedia.org/wiki/Maleins%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "mangan-ii-szulfat-monohidrat-industrial",
+      "name_en": "Manganese(II) sulfate monohydrate — technical context",
+      "cas": "10034-96-5",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Manganese%28II%29_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Mangan(II)-sulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "mangan-karbonat-industrial",
+      "name_en": "Manganese(II) carbonate",
+      "cas": "598-62-9",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Manganese%28II%29_carbonate",
+        "hu": "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-karbon%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Mangan(II)-carbonat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "mangan-klorid-monohidrat-tetrahidrat-industrial",
+      "name_en": "Manganese(II) chloride — monohydrate, tetrahydrate",
+      "cas": "7773-01-5 / 13446-34-9",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Manganese%28II%29_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-klorid",
+        "de": "https://de.wikipedia.org/wiki/Mangan(II)-chlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "mangan-klorid-tetrahidrat-feed",
+      "name_en": "Manganese(II) chloride",
+      "cas": "7773-01-5 / 13446-34-9",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Manganese%28II%29_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-klorid",
+        "de": "https://de.wikipedia.org/wiki/Mangan(II)-chlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "mangan-oxid-feed",
+      "name_en": "Manganese(II) oxide",
+      "cas": "1344-43-0",
+      "ec": "215-695-8",
+      "formula": "MnO",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Manganese%28II%29_oxide",
+        "hu": "https://en.wikipedia.org/wiki/Manganese%28II%29_oxide",
+        "de": "https://en.wikipedia.org/wiki/Manganese%28II%29_oxide"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": false,
+        "de_domain": false,
+        "fallback_hu": true,
+        "fallback_de": true
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "mangan-szulfat-monohidrat-feed",
+      "name_en": "Manganese(II) sulfate monohydrate — feed context",
+      "cas": "10034-96-5",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Manganese%28II%29_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Mangan(II)-sulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "meszhidrat-industrial",
+      "name_en": "Calcium hydroxide",
+      "cas": "1305-62-0",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Calcium_hydroxide",
+        "hu": "https://hu.wikipedia.org/wiki/Kalcium-hidroxid",
+        "de": "https://de.wikipedia.org/wiki/Calciumhydroxid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "meszhidrat-15-industrial",
+      "name_en": "Calcium hydroxide — 15%",
+      "cas": "1305-62-0",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Calcium_hydroxide",
+        "hu": "https://hu.wikipedia.org/wiki/Kalcium-hidroxid",
+        "de": "https://de.wikipedia.org/wiki/Calciumhydroxid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "metanol-technikai-regeneralt-industrial",
+      "name_en": "Methanol — technical, regenerated",
+      "cas": "67-56-1",
+      "ec": "200-659-6",
+      "formula": "CH₃OH",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Methanol",
+        "hu": "https://hu.wikipedia.org/wiki/Metanol",
+        "de": "https://de.wikipedia.org/wiki/Methanol"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "monoammonium-foszfat-industrial",
+      "name_en": "Ammonium dihydrogen phosphate",
+      "cas": "7722-76-1",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Ammonium_dihydrogen_phosphate",
+        "hu": "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-dihidrog%C3%A9n-foszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Ammoniumdihydrogenphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "monoetanolamin-industrial",
+      "name_en": "Monoethanolamine (MEA)",
+      "cas": "141-43-5",
+      "ec": "205-483-3",
+      "formula": "HOCH₂CH₂NH₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Ethanolamine",
+        "hu": "https://hu.wikipedia.org/wiki/Etanol-amin",
+        "de": "https://de.wikipedia.org/wiki/Ethanolamin"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "monoetilen-glikol-industrial",
+      "name_en": "Monoethylene Glycol (MEG)",
+      "cas": "107-21-1",
+      "ec": "203-473-3",
+      "formula": "C₂H₆O₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Ethylene_glycol",
+        "hu": "https://hu.wikipedia.org/wiki/Etil%C3%A9n-glikol",
+        "de": "https://de.wikipedia.org/wiki/Ethan-1,2-diol"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "monokalium-foszfat-industrial",
+      "name_en": "Monopotassium phosphate",
+      "cas": "7778-77-0",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Monopotassium_phosphate",
+        "hu": "https://hu.wikipedia.org/wiki/K%C3%A1lium-dihidrog%C3%A9n-foszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Kaliumdihydrogenphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "mononatrium-foszfat-industrial",
+      "name_en": "Monosodium phosphate",
+      "cas": "7558-80-7",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Monosodium_phosphate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-dihidrog%C3%A9n-foszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Natriumdihydrogenphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "monopropilenglikol-industrial",
+      "name_en": "Propylene Glycol (MPG)",
+      "cas": "57-55-6",
+      "ec": "200-338-0",
+      "formula": "C₃H₈O₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Propylene_glycol",
+        "hu": "https://hu.wikipedia.org/wiki/Propil%C3%A9n-glikol",
+        "de": "https://de.wikipedia.org/wiki/Propylenglykol"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "na-hexametafoszfat-industrial",
+      "name_en": "Sodium hexametaphosphate",
+      "cas": "10124-56-8",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_hexametaphosphate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-hexametafoszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Natriumhexametaphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-acetat-vizmentes-3h2o-industrial",
+      "name_en": "Sodium acetate — anhydrous, 3H₂O",
+      "cas": "127-09-3 / 6131-90-4",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_acetate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-acet%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Natriumacetat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-benzoat-gran-food",
+      "name_en": "Sodium Benzoate — granular",
+      "cas": "532-32-1",
+      "ec": "208-534-8",
+      "formula": "C₇H₅NaO₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_benzoate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-benzoát",
+        "de": "https://de.wikipedia.org/wiki/Natriumbenzoat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-hidrogen-karbonat-industrial",
+      "name_en": "Sodium Bicarbonate",
+      "cas": "144-55-8",
+      "ec": "205-633-8",
+      "formula": "NaHCO₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_bicarbonate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidrogén-karbonát",
+        "de": "https://de.wikipedia.org/wiki/Natriumhydrogencarbonat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-hidrogen-karbonat-szodabikarbona-food",
+      "name_en": "Sodium Bicarbonate — baking soda",
+      "cas": "144-55-8",
+      "ec": "205-633-8",
+      "formula": "NaHCO₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_bicarbonate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidrogén-karbonát",
+        "de": "https://de.wikipedia.org/wiki/Natriumhydrogencarbonat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
+      "name_en": "Sodium Hydroxide (Caustic Soda) — flakes",
+      "cas": "1310-73-2",
+      "ec": "215-185-5",
+      "formula": "NaOH",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_hydroxide",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidroxid",
+        "de": "https://de.wikipedia.org/wiki/Natriumhydroxid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-hidroxid-oldat-4850-industrial",
+      "name_en": "Sodium Hydroxide (Caustic Soda) — solution 48–50%",
+      "cas": "1310-73-2",
+      "ec": "215-185-5",
+      "formula": "NaOH",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_hydroxide",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidroxid",
+        "de": "https://de.wikipedia.org/wiki/Natriumhydroxid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
+      "name_en": "Sodium Hypochlorite — 150 g/l, 90 g/l",
+      "cas": "7681-52-9",
+      "ec": "231-668-3",
+      "formula": "NaOCl",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_hypochlorite",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-hipoklorit",
+        "de": "https://de.wikipedia.org/wiki/Natriumhypochlorit"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-karbonat-konnyu-industrial",
+      "name_en": "Sodium Carbonate — light",
+      "cas": "497-19-8",
+      "ec": "207-838-8",
+      "formula": "Na₂CO₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_carbonate",
+        "hu": "https://hu.wikipedia.org/wiki/Nátriumkarbonát",
+        "de": "https://de.wikipedia.org/wiki/Natriumcarbonat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-karbonat-nehez-industrial",
+      "name_en": "Sodium Carbonate — dense",
+      "cas": "497-19-8",
+      "ec": "207-838-8",
+      "formula": "Na₂CO₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_carbonate",
+        "hu": "https://hu.wikipedia.org/wiki/Nátriumkarbonát",
+        "de": "https://de.wikipedia.org/wiki/Natriumcarbonat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
+      "name_en": "Sodium Metabisulphite — sodium pyrosulfite",
+      "cas": "7681-57-4",
+      "ec": "231-673-0",
+      "formula": "Na₂S₂O₅",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_metabisulfite",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-metabiszulfit",
+        "de": "https://de.wikipedia.org/wiki/Natriumdisulfit"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-metaszilikat-industrial",
+      "name_en": "Sodium Metasilicate",
+      "cas": "6834-92-0",
+      "ec": "229-912-9",
+      "formula": "Na₂SiO₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_metasilicate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-metaszilik%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Natriummetasilicat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-molibdat-feed",
+      "name_en": "Sodium Molybdate",
+      "cas": "7631-95-0",
+      "ec": "233-267-9",
+      "formula": "Na₂MoO₄",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_molybdate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-molibd%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Natriummolybdat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-perkarbonat-industrial",
+      "name_en": "Sodium Percarbonate",
+      "cas": "15630-89-4",
+      "ec": "239-707-6",
+      "formula": "2Na₂CO₃·3H₂O₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_percarbonate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-perkarbon%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Natriumpercarbonat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-permanganat-40-oldat-industrial",
+      "name_en": "Sodium permanganate — 40% solution",
+      "cas": "10101-50-5",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_permanganate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-permangan%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Natriumpermanganat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-perszulfat-industrial",
+      "name_en": "Sodium persulfate",
+      "cas": "7775-27-1",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_persulfate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-perszulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Natriumpersulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-szelenit-feed",
+      "name_en": "Sodium selenite",
+      "cas": "10102-18-8",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_selenite",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-szelenit",
+        "de": "https://de.wikipedia.org/wiki/Natriumselenit"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-szulfat-industrial",
+      "name_en": "Sodium Sulphate",
+      "cas": "7757-82-6",
+      "ec": "231-820-9",
+      "formula": "Na₂SO₄",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Natriumsulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natrium-tripolifoszfat-industrial",
+      "name_en": "Sodium Tripolyphosphate (STPP)",
+      "cas": "7758-29-4",
+      "ec": "231-838-7",
+      "formula": "Na₅P₃O₁₀",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_triphosphate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-tripolifoszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Natriumtriphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "natronvizuveg-oldatok-industrial",
+      "name_en": "Sodium Silicate — solutions",
+      "cas": "1344-09-8",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_silicate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-szilik%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Natriumsilicat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "propionsav-99-feed",
+      "name_en": "Propionic Acid — 99%",
+      "cas": "79-09-4",
+      "ec": "201-176-3",
+      "formula": "C₃H₆O₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Propionic_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Propions%C3%A1v",
+        "de": "https://de.wikipedia.org/wiki/Propions%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "rez-klorid-dihidrat-industrial",
+      "name_en": "Copper(II) chloride — dihydrate",
+      "cas": "10125-13-0",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Copper%28II%29_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/R%C3%A9z(II)-klorid",
+        "de": "https://de.wikipedia.org/wiki/Kupfer(II)-chlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "rez-szulfat-feed",
+      "name_en": "Copper(II) sulfate",
+      "cas": "7758-99-8",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Copper%28II%29_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/R%C3%A9z(II)-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Kupfer(II)-sulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "rez-szulfat-pentahidrat-industrial",
+      "name_en": "Copper(II) sulfate — pentahydrate",
+      "cas": "7758-99-8",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Copper%28II%29_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/R%C3%A9z(II)-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Kupfer(II)-sulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "saletromsav-20-50-53-60-industrial",
+      "name_en": "Nitric Acid — 20%, 50%, 53%, 60%",
+      "cas": "7697-37-2",
+      "ec": "231-714-2",
+      "formula": "HNO₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Nitric_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Sal%C3%A9tromsav",
+        "de": "https://de.wikipedia.org/wiki/Salpeter%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "sosav-gyogyszerkonyvi-food",
+      "name_en": "Hydrochloric Acid — pharmacopoeial",
+      "cas": "7647-01-0",
+      "ec": "231-595-7",
+      "formula": "HCl (aq)",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Hydrochloric_acid",
+        "hu": "https://hu.wikipedia.org/wiki/S%C3%B3sav",
+        "de": "https://de.wikipedia.org/wiki/Salzs%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "sosav-technikai-regeneralt-industrial",
+      "name_en": "Hydrochloric Acid — technical, regenerated",
+      "cas": "7647-01-0",
+      "ec": "231-595-7",
+      "formula": "HCl (aq)",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Hydrochloric_acid",
+        "hu": "https://hu.wikipedia.org/wiki/S%C3%B3sav",
+        "de": "https://de.wikipedia.org/wiki/Salzs%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "sotabletta-industrial",
+      "name_en": "Salt tablets (sodium chloride)",
+      "cas": "7647-14-5",
+      "ec": "231-598-3",
+      "formula": "NaCl",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
+        "de": "https://de.wikipedia.org/wiki/Natriumchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "tiokarbamid-industrial",
+      "name_en": "Thiourea",
+      "cas": "62-56-6",
+      "ec": "200-543-5",
+      "formula": "SC(NH₂)₂",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Thiourea",
+        "hu": "https://hu.wikipedia.org/wiki/Tiokarbamid",
+        "de": "https://de.wikipedia.org/wiki/Thioharnstoff"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "trietilen-glikol-industrial",
+      "name_en": "Triethylene Glycol (TEG)",
+      "cas": "112-27-6",
+      "ec": "203-953-2",
+      "formula": "C₆H₁₄O₄",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Triethylene_glycol",
+        "hu": "https://hu.wikipedia.org/wiki/Trietil%C3%A9n-glikol",
+        "de": "https://de.wikipedia.org/wiki/Triethylenglykol"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "trilon-industrial",
+      "name_en": "EDTA",
+      "cas": "Product type-specific — confirm exact CAS/component identity from SDS/TDS",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Ethylenediaminetetraacetic_acid",
+        "hu": "https://hu.wikipedia.org/wiki/Etil%C3%A9n-diamin-tetraecetsav",
+        "de": "https://de.wikipedia.org/wiki/Ethylendiamintetraessigs%C3%A4ure"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "trinatrium-citrat-industrial",
+      "name_en": "Trisodium Citrate",
+      "cas": "68-04-2",
+      "ec": "200-675-3",
+      "formula": "Na₃C₆H₅O₇",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Trisodium_citrate",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-citr%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Trinatriumcitrat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
+      "name_en": "Trisodium phosphate — dodecahydrate, anhydrous",
+      "cas": "7601-54-9",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Trisodium_phosphate",
+        "hu": "https://hu.wikipedia.org/wiki/Trin%C3%A1trium-foszf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Trinatriumphosphat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "utszoro-so-deicing",
+      "name_en": "Road salt (sodium chloride)",
+      "cas": "7647-14-5",
+      "ec": "231-598-3",
+      "formula": "NaCl",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
+        "de": "https://de.wikipedia.org/wiki/Natriumchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "utszoro-zeolit-deicing",
+      "name_en": "Zeolite",
+      "cas": "1318-02-1",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Zeolite",
+        "hu": "https://hu.wikipedia.org/wiki/Zeolit",
+        "de": "https://de.wikipedia.org/wiki/Zeolith"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "vakuum-so-industrial",
+      "name_en": "Vacuum salt (sodium chloride)",
+      "cas": "7647-14-5",
+      "ec": "231-598-3",
+      "formula": "NaCl",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Sodium_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
+        "de": "https://de.wikipedia.org/wiki/Natriumchlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "vas-ii-szulfat-monohidrat-feed",
+      "name_en": "Iron(II) sulfate — monohydrate",
+      "cas": "7720-78-7",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Iron%28II%29_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/Vas(II)-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Eisen(II)-sulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
+      "name_en": "Iron(II) sulfate — monohydrate, heptahydrate",
+      "cas": "7720-78-7",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Iron%28II%29_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/Vas(II)-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Eisen(II)-sulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "vas-iii-klorid-40-oldat-industrial",
+      "name_en": "Ferric Chloride (Iron(III) Chloride) — 40% solution",
+      "cas": "7705-08-0",
+      "ec": "231-729-4",
+      "formula": "FeCl₃",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Iron%28III%29_chloride",
+        "hu": "https://hu.wikipedia.org/wiki/Vas(III)-klorid",
+        "de": "https://de.wikipedia.org/wiki/Eisen(III)-chlorid"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "vas-iii-szulfat-40-oldat-industrial",
+      "name_en": "Iron(III) sulfate — 40% solution",
+      "cas": "10028-22-5",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Iron%28III%29_sulfate",
+        "hu": "https://hu.wikipedia.org/wiki/Vas(III)-szulf%C3%A1t",
+        "de": "https://de.wikipedia.org/wiki/Eisen(III)-sulfat"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed",
+      "name_en": "Vitamin — A, B1, B12, B5, B6, C, D3, E, H, K3",
+      "cas": "Composition-dependent — confirm exact CAS/component identity from SDS/TDS",
+      "ec": "Confirmed upon supplier documentation",
+      "formula": "Confirmed upon supplier documentation",
+      "wikipedia": {
+        "en": "https://en.wikipedia.org/wiki/Vitamin",
+        "hu": "https://hu.wikipedia.org/wiki/Vitamin",
+        "de": "https://de.wikipedia.org/wiki/Vitamin"
+      },
+      "wiki_check": {
+        "en_domain": true,
+        "hu_domain": true,
+        "de_domain": true,
+        "fallback_hu": false,
+        "fallback_de": false
+      },
+      "sameAs_status": "needs-confirmation",
+      "provenance": "repository-catalogue",
+      "accessed": "2026-11-08"
+    }
+  ]
+}

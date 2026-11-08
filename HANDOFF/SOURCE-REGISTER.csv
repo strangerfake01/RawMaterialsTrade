@@ -1,0 +1,7 @@
+claim_class,example,source,status,notes
+catalogue_identity,CAS/EC/formula on product pages,products-multilingual.json + page JSON-LD,verified-in-repo,Not newly scraped from ECHA in this package
+documentation_guidance,SDS/TDS/CoA wording,existing page/documentation fields,editorial,On-request language retained
+buyer_supplier_pathways,dual path CTAs,existing contact + partnership URLs,editorial,No new backend
+qualification_process,qualify page links,existing knowledge pages,verified-in-repo,
+certification_scope,ISO/GMP+ limits,existing certificates / AI Trust,verified-in-repo,Scope not expanded
+wikipedia_wikidata,entity-registry.json,repository wikipedia fields,needs-confirmation,Do not treat as sameAs until reviewed
