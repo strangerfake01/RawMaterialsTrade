@@ -1056,7 +1056,13 @@
       "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_en": "Specify the intended industrial process and required bentonite properties, such as swelling capacity, particle size, moisture and mineral composition. Performance varies by source and grade; request a representative specification before confirming suitability.",
+      "rfq_guidance_en": "Include required quantity, packaging preference, destination and delivery window. Request the offered grade's TDS/SDS and any available batch analysis; origin, stock and transport terms must be confirmed in the quotation.",
+      "buyer_guidance_hu": "Adja meg az ipari felhasználást és az elvárt bentonittulajdonságokat, például a duzzadóképességet, szemcseméretet, nedvességet és ásványi összetételt. A tulajdonságok lelőhelyenként és minőségenként eltérhetnek; kérjen konkrét specifikációt.",
+      "rfq_guidance_hu": "Adja meg a mennyiséget, a kívánt kiszerelést, a szállítási címet és időszakot. Kérje az ajánlott minőség TDS/SDS dokumentumait és az elérhető tételanalízist; az eredetet, készletet és szállítási feltételeket az ajánlatban kell megerősíteni.",
+      "buyer_guidance_de": "Industrielle Anwendung und benötigte Bentonit-Eigenschaften wie Quellvermögen, Korngröße, Feuchtigkeit und mineralische Zusammensetzung festlegen. Die Eigenschaften variieren je nach Herkunft und Qualität; vor der Eignungsbewertung die konkrete Spezifikation anfordern.",
+      "rfq_guidance_de": "Menge, Verpackungswunsch, Lieferort und Lieferfenster angeben. TDS/SDS und gegebenenfalls Chargenanalyse der angebotenen Qualität anfordern; Herkunft, Bestand und Transportbedingungen im Angebot bestätigen lassen."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Bentonite",
@@ -1512,7 +1518,13 @@
       "packaging_de": "Sackware",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_en": "Specify the intended food application and confirm that the offered tartaric acid is the required L(+) form. Request the applicable food-grade specification, assay and impurity limits; regulatory suitability must be established for the actual supplier and batch.",
+      "rfq_guidance_en": "Provide required quantity, bagged-packaging preference, destination and delivery date. Request the current food specification/TDS and available CoA or batch documents; availability, certification and lead time require written confirmation.",
+      "buyer_guidance_hu": "Adja meg az élelmiszeripari felhasználást, és ellenőrizze, hogy a felajánlott borkősav valóban az előírt L(+) forma. Kérje az élelmiszeripari specifikációt, a tisztaságot és a szennyezőanyag-határértékeket; a megfelelőséget a konkrét beszállítóra és tételre kell igazolni.",
+      "rfq_guidance_hu": "Adja meg a mennyiséget, a zsákos kiszerelési igényt, a szállítási címet és időpontot. Kérje az aktuális élelmiszeripari TDS/specifikációt és az elérhető CoA vagy tételdokumentumokat; készlet, tanúsítás és szállítási idő írásos visszaigazolást igényel.",
+      "buyer_guidance_de": "Lebensmittelanwendung nennen und sicherstellen, dass die angebotene Weinsäure der geforderten L(+)-Form entspricht. Lebensmittelspezifikation, Gehalt und Verunreinigungsgrenzen anfordern; Konformität muss für Lieferant und Charge belegt werden.",
+      "rfq_guidance_de": "Menge, Sackverpackung, Lieferort und Wunschtermin angeben. Aktuelle Lebensmittelspezifikation/TDS und verfügbare CoA- oder Chargenunterlagen anfordern; Bestand, Zertifizierung und Lieferzeit schriftlich bestätigen lassen."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/Tartaric_acid",
@@ -1962,7 +1974,13 @@
       "packaging_de": "Fässer (200 L), IBC",
       "delivery_region_en": "Hungary, Austria, DACH and Europe",
       "delivery_region_hu": "Magyarország, Ausztria, a DACH-régió és Európa",
-      "delivery_region_de": "Ungarn, Österreich, DACH und Europa"
+      "delivery_region_de": "Ungarn, Österreich, DACH und Europa",
+      "buyer_guidance_en": "Define the technical-grade 2-butoxyethanol specification, required purity, water content and intended industrial use. Review current SDS handling and transport requirements for the offered grade; do not infer suitability from the product name alone.",
+      "rfq_guidance_en": "State quantity, preferred 200 L drums or IBC, delivery address and timing. Request supplier TDS/SDS and available batch analysis; confirm packaging, transport classification, stock and lead time in the offer.",
+      "buyer_guidance_hu": "Adja meg a technikai minőségű 2-butoxietanol elvárt tisztaságát, víztartalmát és ipari felhasználását. Ellenőrizze az ajánlott minőség aktuális SDS dokumentumában szereplő kezelési és szállítási követelményeket; az alkalmasság a névből nem következik automatikusan.",
+      "rfq_guidance_hu": "Az ajánlatkérés tartalmazza a mennyiséget, a 200 literes hordó vagy IBC igényt, a szállítási címet és időpontot. Kérje a TDS/SDS és elérhető tételanalízist; a kiszerelést, szállítási besorolást, készletet és átfutást az ajánlatban kell pontosítani.",
+      "buyer_guidance_de": "Technische Qualität von 2-Butoxyethanol, erforderliche Reinheit, Wassergehalt und industrielle Anwendung festlegen. Handhabungs- und Transportanforderungen im aktuellen SDS der angebotenen Qualität prüfen; Eignung nicht allein aus der Bezeichnung ableiten.",
+      "rfq_guidance_de": "Menge, gewünschte 200-Liter-Fässer oder IBC, Lieferadresse und Termin angeben. TDS/SDS und verfügbare Chargenanalyse anfordern; Gebinde, Transporteinstufung, Bestand und Lieferzeit im Angebot bestätigen lassen."
     },
     "wikipedia": {
       "en": "https://en.wikipedia.org/wiki/2-Butoxyethanol",
