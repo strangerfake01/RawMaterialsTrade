@@ -127,6 +127,9 @@ form_only_families = {
     "kenpor-industrial",
     "magnezium-karbonat-konnyu-nehez-industrial",
     "magnezium-szulfat-industrial",
+    "maleinsav-industrial",
+    "mangan-ii-szulfat-monohidrat-industrial",
+    "mangan-szulfat-monohidrat-feed",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
