@@ -44,6 +44,20 @@ for e in entities:
                     "verified_material_form", "reviewed_by", "reviewed_on")
         if any(not str(evidence.get(k) or "").strip() for k in required):
             errors.append(f"{pid}: identity approval lacks provenance")
+# Shared substance concepts are candidates, not evidence that distinct commercial grades are identical.
+qid_to_products = {}
+for entity in entities:
+    qid = entity.get("wikidata_qid")
+    if qid:
+        qid_to_products.setdefault(qid, []).append(entity["id"])
+shared_concepts = {qid: product_ids for qid, product_ids in qid_to_products.items()
+                   if len(product_ids) > 1}
+print("Unique Wikidata candidates:", len(qid_to_products))
+print("Shared Wikidata concepts:", len(shared_concepts),
+      "covering", sum(len(product_ids) for product_ids in shared_concepts.values()),
+      "product families")
+for qid, product_ids in sorted(shared_concepts.items()):
+    print("REVIEW shared substance concept:", qid, "|", ", ".join(product_ids))
 print("Entity registry coverage:", len(entities), "families")
 print("Wikidata candidates:", counts["wikidata_candidate"])
 for lang in language_domains:
