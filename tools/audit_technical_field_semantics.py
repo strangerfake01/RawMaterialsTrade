@@ -80,6 +80,9 @@ form_only_families = {
     "magnezium-oxid-nehez-industrial",
     "metanol-technikai-regeneralt-industrial",
     "natrium-benzoat-gran-food",
+    "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
+    "natrium-karbonat-konnyu-industrial",
+    "natrium-karbonat-nehez-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
