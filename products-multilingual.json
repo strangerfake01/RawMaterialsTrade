@@ -2662,7 +2662,7 @@
     "technical_identity": {
       "cas": "7446-19-7 / 7446-20-0",
       "ec": "231-793-3",
-      "formula": "ZnSO₄",
+      "formula": "Monohydrate: ZnSO₄·H₂O; heptahydrate: ZnSO₄·7H₂O",
       "form_en": "Confirmed upon supplier documentation.",
       "form_hu": "Beszállítói dokumentáció alapján pontosítandó.",
       "form_de": "Auf Basis der Lieferantendokumentation zu bestätigen.",
@@ -5861,7 +5861,7 @@
     "technical_identity": {
       "cas": "10043-52-4 / 10035-04-8",
       "ec": "233-140-8",
-      "formula": "CaCl₂",
+      "formula": "CaCl₂·2H₂O",
       "form_en": "Confirmed upon supplier documentation.",
       "form_hu": "Beszállítói dokumentáció alapján pontosítandó.",
       "form_de": "Auf Basis der Lieferantendokumentation zu bestätigen.",
