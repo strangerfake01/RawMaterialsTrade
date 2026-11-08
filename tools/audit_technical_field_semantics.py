@@ -109,6 +109,9 @@ form_only_families = {
     "aszkorbinsav-food",
     "borax-pentahidrat-industrial",
     "borkosav-l-food",
+    "borsav-industrial",
+    "butil-glikol-industrial",
+    "ciklohexanon-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
