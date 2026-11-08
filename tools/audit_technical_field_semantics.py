@@ -70,6 +70,8 @@ form_only_families = {
     "cink-szulfat-monohidrat-feed",
     "cink-szulfat-monohidrat-heptahidrat-industrial",
     "citromsav-monohidrat-anhidrat-food",
+    "aceton-technikai-regeneralt-industrial",
+    "aluminium-szulfat-03-mm-38-mm-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
