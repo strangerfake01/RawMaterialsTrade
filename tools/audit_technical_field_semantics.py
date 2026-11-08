@@ -112,6 +112,9 @@ form_only_families = {
     "borsav-industrial",
     "butil-glikol-industrial",
     "ciklohexanon-industrial",
+    "cink-klorid-feed",
+    "cink-klorid-vizmentes-industrial",
+    "cink-oxid-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
