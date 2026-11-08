@@ -94,6 +94,9 @@ form_only_families = {
     "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
     "vas-ii-szulfat-monohidrat-feed",
     "trinatrium-citrat-industrial",
+    "natrium-molibdat-feed",
+    "natrium-perkarbonat-industrial",
+    "sosav-technikai-regeneralt-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
