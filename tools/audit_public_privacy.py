@@ -28,6 +28,8 @@ for rel in filter(None, paths):
     except UnicodeError:
         continue
     for label, pattern in high_risk.items():
+        if rel == "tools/audit_public_privacy.py":
+            continue  # Avoid treating detection signatures as leaked content.
         if pattern.search(data):
             issues.append((rel, label))
     for found in email.findall(data):
