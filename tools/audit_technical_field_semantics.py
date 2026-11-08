@@ -86,6 +86,9 @@ form_only_families = {
     "natrium-acetat-vizmentes-3h2o-industrial",
     "mangan-klorid-monohidrat-tetrahidrat-industrial",
     "natrium-metaszilikat-industrial",
+    "natrium-szulfat-industrial",
+    "natronvizuveg-oldatok-industrial",
+    "sotabletta-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
