@@ -138,6 +138,8 @@ form_only_families = {
     "monoetilen-glikol-industrial",
     "monopropilenglikol-industrial",
 }
+if len(form_only_families) != 70:
+    raise SystemExit(f"Expected 70 reviewed nonquantitative product families, found {len(form_only_families)}")
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
     "hu": "<dt>Minőség / koncentráció</dt>",
@@ -180,5 +182,5 @@ for pid in set(hydrate_formulas) | form_only_families:
             if expected not in html:
                 raise SystemExit(f"{lang}-{pid}: corrected hydrate formula missing from HTML")
         if pid in form_only_families and old_form_labels[lang] in html:
-            raise SystemExit(f"{lang}-{pid}: hydrate form still mislabeled as concentration")
+            raise SystemExit(f"{lang}-{pid}: nonquantitative grade/form still mislabeled as concentration")
 print("Hydrate formula and form-label regression checks: passed")
