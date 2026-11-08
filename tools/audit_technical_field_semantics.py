@@ -115,6 +115,9 @@ form_only_families = {
     "cink-klorid-feed",
     "cink-klorid-vizmentes-industrial",
     "cink-oxid-industrial",
+    "dietilen-glikol-industrial",
+    "ecetsavanhidrid-industrial",
+    "edta-na2-na4-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
