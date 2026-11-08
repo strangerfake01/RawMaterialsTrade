@@ -19,12 +19,12 @@
   },
   {
     "product_id": "aceton-technikai-regeneralt-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=67-64-1",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "aluminium-szulfat-03-mm-38-mm-industrial",
@@ -46,12 +46,12 @@
   },
   {
     "product_id": "aluminium-szulfat-03-mm-38-mm-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-01-3",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "aluminium-szulfat-oldat-industrial",
@@ -73,12 +73,12 @@
   },
   {
     "product_id": "aluminium-szulfat-oldat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-01-3",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "ammonia-oldat-24-industrial",
@@ -100,12 +100,12 @@
   },
   {
     "product_id": "ammonia-oldat-24-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1336-21-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "ammonium-klorid-industrial",
@@ -127,12 +127,12 @@
   },
   {
     "product_id": "ammonium-klorid-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=12125-02-9",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "ammonium-nitrat-industrial",
@@ -154,12 +154,12 @@
   },
   {
     "product_id": "ammonium-nitrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=6484-52-2",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "ammonium-szulfat-industrial",
@@ -181,12 +181,12 @@
   },
   {
     "product_id": "ammonium-szulfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7783-20-2",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "aszkorbinsav-food",
@@ -208,12 +208,12 @@
   },
   {
     "product_id": "aszkorbinsav-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=50-81-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "borax-dekahidrat-industrial",
@@ -235,12 +235,12 @@
   },
   {
     "product_id": "borax-dekahidrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1303-96-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "borax-pentahidrat-industrial",
@@ -262,12 +262,12 @@
   },
   {
     "product_id": "borax-pentahidrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=12179-04-3",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "borken-food",
@@ -289,12 +289,12 @@
   },
   {
     "product_id": "borken-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=16731-55-8",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "borsav-industrial",
@@ -316,12 +316,12 @@
   },
   {
     "product_id": "borsav-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-35-3",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "butanol-industrial",
@@ -343,12 +343,12 @@
   },
   {
     "product_id": "butanol-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=71-36-3",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "butil-diglikol-industrial",
@@ -370,12 +370,12 @@
   },
   {
     "product_id": "butil-diglikol-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=112-34-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "ciklohexanon-industrial",
@@ -397,12 +397,12 @@
   },
   {
     "product_id": "ciklohexanon-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=108-94-1",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "cink-klorid-feed",
@@ -424,12 +424,12 @@
   },
   {
     "product_id": "cink-klorid-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7646-85-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "cink-klorid-vizmentes-industrial",
@@ -451,12 +451,12 @@
   },
   {
     "product_id": "cink-klorid-vizmentes-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7646-85-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "cink-oxid-industrial",
@@ -478,12 +478,12 @@
   },
   {
     "product_id": "cink-oxid-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1314-13-2",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "cink-szulfat-monohidrat-feed",
@@ -505,12 +505,12 @@
   },
   {
     "product_id": "cink-szulfat-monohidrat-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7446-19-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "cink-szulfat-monohidrat-heptahidrat-industrial",
@@ -532,12 +532,12 @@
   },
   {
     "product_id": "cink-szulfat-monohidrat-heptahidrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7446-19-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "citromsav-monohidrat-anhidrat-food",
@@ -559,12 +559,12 @@
   },
   {
     "product_id": "citromsav-monohidrat-anhidrat-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=77-92-9",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "diammonium-hidrogenfoszfat-industrial",
@@ -586,12 +586,12 @@
   },
   {
     "product_id": "diammonium-hidrogenfoszfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7783-28-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "dietilen-glikol-industrial",
@@ -613,12 +613,12 @@
   },
   {
     "product_id": "dietilen-glikol-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=111-46-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "dikalium-hidrogen-foszfat-food",
@@ -640,12 +640,12 @@
   },
   {
     "product_id": "dikalium-hidrogen-foszfat-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-11-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "dinatrium-pirofoszfat-food",
@@ -667,12 +667,12 @@
   },
   {
     "product_id": "dinatrium-pirofoszfat-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-16-9",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "dinatriumfoszfat-industrial",
@@ -694,12 +694,12 @@
   },
   {
     "product_id": "dinatriumfoszfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7558-79-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "dinatriumpirofoszfat-industrial",
@@ -721,12 +721,12 @@
   },
   {
     "product_id": "dinatriumpirofoszfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-16-9",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "ecetsav-20-50-60-70-80-99-8-industrial",
@@ -748,12 +748,12 @@
   },
   {
     "product_id": "ecetsav-20-50-60-70-80-99-8-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=64-19-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
@@ -775,12 +775,12 @@
   },
   {
     "product_id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=64-19-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "ecetsavanhidrid-industrial",
@@ -802,12 +802,12 @@
   },
   {
     "product_id": "ecetsavanhidrid-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=108-24-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "edta-na2-na4-industrial",
@@ -829,12 +829,12 @@
   },
   {
     "product_id": "edta-na2-na4-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=6381-92-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "etil-acetat-technikai-regeneralt-industrial",
@@ -856,12 +856,12 @@
   },
   {
     "product_id": "etil-acetat-technikai-regeneralt-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=141-78-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "etkezesi-so-food",
@@ -883,12 +883,12 @@
   },
   {
     "product_id": "etkezesi-so-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-14-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "foszforsav-75-85-food",
@@ -910,12 +910,12 @@
   },
   {
     "product_id": "foszforsav-75-85-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7664-38-2",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "foszforsav-75-industrial",
@@ -937,12 +937,12 @@
   },
   {
     "product_id": "foszforsav-75-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7664-38-2",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "glicerin-99-5-food",
@@ -964,12 +964,12 @@
   },
   {
     "product_id": "glicerin-99-5-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=56-81-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "glicerin-industrial",
@@ -991,12 +991,12 @@
   },
   {
     "product_id": "glicerin-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=56-81-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "glicin-industrial",
@@ -1018,12 +1018,12 @@
   },
   {
     "product_id": "glicin-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=56-40-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "hangyasav-85-industrial",
@@ -1045,12 +1045,12 @@
   },
   {
     "product_id": "hangyasav-85-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=64-18-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "hidrogen-peroxid-35-50-60-industrial",
@@ -1072,12 +1072,12 @@
   },
   {
     "product_id": "hidrogen-peroxid-35-50-60-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7722-84-1",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "ioncserelt-viz-industrial",
@@ -1099,12 +1099,12 @@
   },
   {
     "product_id": "ioncserelt-viz-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7732-18-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "izopropil-alkohol-technikai-regeneralt-industrial",
@@ -1126,12 +1126,12 @@
   },
   {
     "product_id": "izopropil-alkohol-technikai-regeneralt-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=67-63-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kalcium-jodat-feed",
@@ -1153,12 +1153,12 @@
   },
   {
     "product_id": "kalcium-jodat-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7789-80-2",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kalcium-karbonat-food",
@@ -1180,12 +1180,12 @@
   },
   {
     "product_id": "kalcium-karbonat-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=471-34-1",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kalcium-klorid-2025-oldat-deicing",
@@ -1207,12 +1207,12 @@
   },
   {
     "product_id": "kalcium-klorid-2025-oldat-deicing",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-52-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kalcium-klorid-7780-food",
@@ -1234,12 +1234,12 @@
   },
   {
     "product_id": "kalcium-klorid-7780-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-52-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
@@ -1261,12 +1261,12 @@
   },
   {
     "product_id": "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-52-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kalium-ferrocianid-food",
@@ -1288,12 +1288,12 @@
   },
   {
     "product_id": "kalium-ferrocianid-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=13943-58-3",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kalium-hidroxid-oldat-21-45-4850-industrial",
@@ -1315,12 +1315,12 @@
   },
   {
     "product_id": "kalium-hidroxid-oldat-21-45-4850-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1310-58-3",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kalium-hidroxid-pikkelyes-industrial",
@@ -1342,12 +1342,12 @@
   },
   {
     "product_id": "kalium-hidroxid-pikkelyes-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1310-58-3",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kalium-jodat-feed",
@@ -1369,12 +1369,12 @@
   },
   {
     "product_id": "kalium-jodat-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-05-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kalium-jodid-feed",
@@ -1396,12 +1396,12 @@
   },
   {
     "product_id": "kalium-jodid-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7681-11-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kalium-karbonat-industrial",
@@ -1423,12 +1423,12 @@
   },
   {
     "product_id": "kalium-karbonat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=584-08-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "karbamid-ipari-kezeletlen-industrial",
@@ -1450,12 +1450,12 @@
   },
   {
     "product_id": "karbamid-ipari-kezeletlen-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=57-13-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kenpor-industrial",
@@ -1477,12 +1477,12 @@
   },
   {
     "product_id": "kenpor-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7704-34-9",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kensav-32-37-50-9597-industrial",
@@ -1504,12 +1504,12 @@
   },
   {
     "product_id": "kensav-32-37-50-9597-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7664-93-9",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "klormesz-industrial",
@@ -1531,12 +1531,12 @@
   },
   {
     "product_id": "klormesz-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7778-54-3",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "kobalt-karbonat-feed",
@@ -1558,12 +1558,12 @@
   },
   {
     "product_id": "kobalt-karbonat-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=513-79-1",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "magnezium-karbonat-konnyu-nehez-industrial",
@@ -1585,12 +1585,12 @@
   },
   {
     "product_id": "magnezium-karbonat-konnyu-nehez-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=546-93-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "magnezium-klorid-food",
@@ -1612,12 +1612,12 @@
   },
   {
     "product_id": "magnezium-klorid-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7791-18-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "magnezium-klorid-hexahidrat-industrial",
@@ -1639,12 +1639,12 @@
   },
   {
     "product_id": "magnezium-klorid-hexahidrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7791-18-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "magnezium-nitrat-industrial",
@@ -1666,12 +1666,12 @@
   },
   {
     "product_id": "magnezium-nitrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10377-60-3",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "magnezium-oxid-feed",
@@ -1693,12 +1693,12 @@
   },
   {
     "product_id": "magnezium-oxid-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1309-48-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "magnezium-oxid-nehez-industrial",
@@ -1720,12 +1720,12 @@
   },
   {
     "product_id": "magnezium-oxid-nehez-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1309-48-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "magnezium-szulfat-industrial",
@@ -1747,12 +1747,12 @@
   },
   {
     "product_id": "magnezium-szulfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7487-88-9",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "maleinsav-industrial",
@@ -1774,12 +1774,12 @@
   },
   {
     "product_id": "maleinsav-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=110-16-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "mangan-ii-szulfat-monohidrat-industrial",
@@ -1801,12 +1801,12 @@
   },
   {
     "product_id": "mangan-ii-szulfat-monohidrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10034-96-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "mangan-karbonat-industrial",
@@ -1828,12 +1828,12 @@
   },
   {
     "product_id": "mangan-karbonat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=598-62-9",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "mangan-klorid-monohidrat-tetrahidrat-industrial",
@@ -1855,12 +1855,12 @@
   },
   {
     "product_id": "mangan-klorid-monohidrat-tetrahidrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7773-01-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "mangan-klorid-tetrahidrat-feed",
@@ -1882,12 +1882,12 @@
   },
   {
     "product_id": "mangan-klorid-tetrahidrat-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7773-01-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "mangan-oxid-feed",
@@ -1909,12 +1909,12 @@
   },
   {
     "product_id": "mangan-oxid-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1344-43-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "mangan-szulfat-monohidrat-feed",
@@ -1936,12 +1936,12 @@
   },
   {
     "product_id": "mangan-szulfat-monohidrat-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10034-96-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "meszhidrat-15-industrial",
@@ -1963,12 +1963,12 @@
   },
   {
     "product_id": "meszhidrat-15-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1305-62-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "meszhidrat-industrial",
@@ -1990,12 +1990,12 @@
   },
   {
     "product_id": "meszhidrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1305-62-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "metanol-technikai-regeneralt-industrial",
@@ -2017,12 +2017,12 @@
   },
   {
     "product_id": "metanol-technikai-regeneralt-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=67-56-1",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "monoammonium-foszfat-industrial",
@@ -2044,12 +2044,12 @@
   },
   {
     "product_id": "monoammonium-foszfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7722-76-1",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "monoetanolamin-industrial",
@@ -2071,12 +2071,12 @@
   },
   {
     "product_id": "monoetanolamin-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=141-43-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "monoetilen-glikol-industrial",
@@ -2098,12 +2098,12 @@
   },
   {
     "product_id": "monoetilen-glikol-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=107-21-1",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "monokalium-foszfat-industrial",
@@ -2125,12 +2125,12 @@
   },
   {
     "product_id": "monokalium-foszfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7778-77-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "mononatrium-foszfat-industrial",
@@ -2152,12 +2152,12 @@
   },
   {
     "product_id": "mononatrium-foszfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7558-80-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "monopropilenglikol-industrial",
@@ -2179,12 +2179,12 @@
   },
   {
     "product_id": "monopropilenglikol-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=57-55-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "na-hexametafoszfat-industrial",
@@ -2206,12 +2206,12 @@
   },
   {
     "product_id": "na-hexametafoszfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10124-56-8",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-acetat-vizmentes-3h2o-industrial",
@@ -2233,12 +2233,12 @@
   },
   {
     "product_id": "natrium-acetat-vizmentes-3h2o-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=127-09-3",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-benzoat-gran-food",
@@ -2260,12 +2260,12 @@
   },
   {
     "product_id": "natrium-benzoat-gran-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=532-32-1",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-hidrogen-karbonat-industrial",
@@ -2287,12 +2287,12 @@
   },
   {
     "product_id": "natrium-hidrogen-karbonat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=144-55-8",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-hidrogen-karbonat-szodabikarbona-food",
@@ -2314,12 +2314,12 @@
   },
   {
     "product_id": "natrium-hidrogen-karbonat-szodabikarbona-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=144-55-8",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
@@ -2341,12 +2341,12 @@
   },
   {
     "product_id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1310-73-2",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-hidroxid-oldat-4850-industrial",
@@ -2368,12 +2368,12 @@
   },
   {
     "product_id": "natrium-hidroxid-oldat-4850-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1310-73-2",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
@@ -2395,12 +2395,12 @@
   },
   {
     "product_id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7681-52-9",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-karbonat-konnyu-industrial",
@@ -2422,12 +2422,12 @@
   },
   {
     "product_id": "natrium-karbonat-konnyu-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=497-19-8",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-karbonat-nehez-industrial",
@@ -2449,12 +2449,12 @@
   },
   {
     "product_id": "natrium-karbonat-nehez-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=497-19-8",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
@@ -2476,12 +2476,12 @@
   },
   {
     "product_id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7681-57-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-metaszilikat-industrial",
@@ -2503,12 +2503,12 @@
   },
   {
     "product_id": "natrium-metaszilikat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=6834-92-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-molibdat-feed",
@@ -2530,12 +2530,12 @@
   },
   {
     "product_id": "natrium-molibdat-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7631-95-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-perkarbonat-industrial",
@@ -2557,12 +2557,12 @@
   },
   {
     "product_id": "natrium-perkarbonat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=15630-89-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-permanganat-40-oldat-industrial",
@@ -2584,12 +2584,12 @@
   },
   {
     "product_id": "natrium-permanganat-40-oldat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10101-50-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-perszulfat-industrial",
@@ -2611,12 +2611,12 @@
   },
   {
     "product_id": "natrium-perszulfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7775-27-1",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-szelenit-feed",
@@ -2638,12 +2638,12 @@
   },
   {
     "product_id": "natrium-szelenit-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10102-18-8",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-szulfat-industrial",
@@ -2665,12 +2665,12 @@
   },
   {
     "product_id": "natrium-szulfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7757-82-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natrium-tripolifoszfat-industrial",
@@ -2692,12 +2692,12 @@
   },
   {
     "product_id": "natrium-tripolifoszfat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-29-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "natronvizuveg-oldatok-industrial",
@@ -2719,12 +2719,12 @@
   },
   {
     "product_id": "natronvizuveg-oldatok-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1344-09-8",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "propionsav-99-feed",
@@ -2746,12 +2746,12 @@
   },
   {
     "product_id": "propionsav-99-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=79-09-4",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "rez-klorid-dihidrat-industrial",
@@ -2773,12 +2773,12 @@
   },
   {
     "product_id": "rez-klorid-dihidrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10125-13-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "rez-szulfat-feed",
@@ -2800,12 +2800,12 @@
   },
   {
     "product_id": "rez-szulfat-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-99-8",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "rez-szulfat-pentahidrat-industrial",
@@ -2827,12 +2827,12 @@
   },
   {
     "product_id": "rez-szulfat-pentahidrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-99-8",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "saletromsav-20-50-53-60-industrial",
@@ -2854,12 +2854,12 @@
   },
   {
     "product_id": "saletromsav-20-50-53-60-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7697-37-2",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "sosav-gyogyszerkonyvi-food",
@@ -2881,12 +2881,12 @@
   },
   {
     "product_id": "sosav-gyogyszerkonyvi-food",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-01-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "sosav-technikai-regeneralt-industrial",
@@ -2908,12 +2908,12 @@
   },
   {
     "product_id": "sosav-technikai-regeneralt-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-01-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "sotabletta-industrial",
@@ -2935,12 +2935,12 @@
   },
   {
     "product_id": "sotabletta-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-14-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "tiokarbamid-industrial",
@@ -2962,12 +2962,12 @@
   },
   {
     "product_id": "tiokarbamid-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=62-56-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "trietilen-glikol-industrial",
@@ -2989,12 +2989,12 @@
   },
   {
     "product_id": "trietilen-glikol-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=112-27-6",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "trinatrium-citrat-industrial",
@@ -3016,12 +3016,12 @@
   },
   {
     "product_id": "trinatrium-citrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=68-04-2",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
@@ -3043,12 +3043,12 @@
   },
   {
     "product_id": "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7601-54-9",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "utszoro-so-deicing",
@@ -3070,12 +3070,12 @@
   },
   {
     "product_id": "utszoro-so-deicing",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-14-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "utszoro-zeolit-deicing",
@@ -3097,12 +3097,12 @@
   },
   {
     "product_id": "utszoro-zeolit-deicing",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1318-02-1",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "vakuum-so-industrial",
@@ -3124,12 +3124,12 @@
   },
   {
     "product_id": "vakuum-so-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-14-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "vas-ii-szulfat-monohidrat-feed",
@@ -3151,12 +3151,12 @@
   },
   {
     "product_id": "vas-ii-szulfat-monohidrat-feed",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7720-78-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
@@ -3178,12 +3178,12 @@
   },
   {
     "product_id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7720-78-7",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "vas-iii-klorid-40-oldat-industrial",
@@ -3205,12 +3205,12 @@
   },
   {
     "product_id": "vas-iii-klorid-40-oldat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7705-08-0",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
   },
   {
     "product_id": "vas-iii-szulfat-40-oldat-industrial",
@@ -3232,11 +3232,92 @@
   },
   {
     "product_id": "vas-iii-szulfat-40-oldat-industrial",
-    "claim": "ECHA substance information entry point",
+    "claim": "ECHA substance search entry (identity lookup only)",
     "source_type": "ECHA",
     "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10028-22-5",
     "accessed": "2026-11-08",
-    "evidence_status": "editorial-link",
-    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH registration, CLP classification or commercial compliance; confirm via selected SDS."
+  },
+  {
+    "product_id": "bentonit-industrial",
+    "claim": "CAS 1302-78-9 chemical/mineral identity lookup",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/#query=1302-78-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "rejected-mismatch",
+    "notes": "PubChem CAS xref for 1302-78-9 returned unrelated organic CID; do not use as bentonite identity evidence."
+  },
+  {
+    "product_id": "bentonit-industrial",
+    "claim": "Wikidata entity candidate for CAS 1302-78-9",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q27273576",
+    "accessed": "2026-11-08",
+    "evidence_status": "needs-confirmation",
+    "notes": "Clay mineral product family; CAS match does not prove commercial grade identity for sameAs."
+  },
+  {
+    "product_id": "bentonit-industrial",
+    "claim": "ECHA substance search entry (identity lookup only)",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1302-78-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH/CLP compliance; confirm via selected SDS."
+  },
+  {
+    "product_id": "borkosav-l-food",
+    "claim": "CAS 87-69-4 chemical/mineral identity lookup",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/875",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C4H6O6"
+  },
+  {
+    "product_id": "borkosav-l-food",
+    "claim": "Wikidata entity candidate for CAS 87-69-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q18226455",
+    "accessed": "2026-11-08",
+    "evidence_status": "needs-confirmation",
+    "notes": "L(+) stereochemistry must be confirmed vs generic tartaric acid Wikipedia entity before sameAs."
+  },
+  {
+    "product_id": "borkosav-l-food",
+    "claim": "ECHA substance search entry (identity lookup only)",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=87-69-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH/CLP compliance; confirm via selected SDS."
+  },
+  {
+    "product_id": "butil-glikol-industrial",
+    "claim": "CAS 111-76-2 chemical/mineral identity lookup",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8133",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C6H14O2"
+  },
+  {
+    "product_id": "butil-glikol-industrial",
+    "claim": "Wikidata entity candidate for CAS 111-76-2",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q421557",
+    "accessed": "2026-11-08",
+    "evidence_status": "needs-confirmation",
+    "notes": "CAS may match 2-butoxyethanol; withhold sameAs until human confirmation of offered grade identity."
+  },
+  {
+    "product_id": "butil-glikol-industrial",
+    "claim": "ECHA substance search entry (identity lookup only)",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=111-76-2",
+    "accessed": "2026-11-08",
+    "evidence_status": "identity-link-only",
+    "notes": "Does not prove REACH/CLP compliance; confirm via selected SDS."
   }
 ]

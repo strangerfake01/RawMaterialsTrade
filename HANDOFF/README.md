@@ -1,31 +1,20 @@
-# Raw Materials Trade — Product Master Remediation v2
+# Raw Materials Trade — Final Completion v3
 
-**Package:** `RawMaterialsTrade_PRODUCT_MASTER_REMEDIATION_v2.zip`  
-**Base commit audited:** `68d378ea18917742d91076d14e595c0968ec0406` (`main`)  
+**Package:** `RawMaterialsTrade_FINAL_COMPLETION_v3.zip`  
+**Base (V2) commit:** `65d878ff84701e1e2847e645016e94cf8ad7eecb`  
 **Generated:** 2026-11-08 (Europe/Vienna)
 
-## What changed in v2 vs prior package
-- Replaced generic FAQ boilerplate with **product-specific** FAQs (hydrate/concentration/food/feed/solution/regenerated where relevant).
-- Added **procurement checkpoints** per product using catalogue identity + PubChem/Wikidata evidence where available.
-- Built **product-level SOURCE-REGISTER.csv** (PubChem, Wikidata, ECHA entry points) with access dates.
-- Validated Wikidata QIDs by CAS; `sameAs` remains needs-confirmation unless Wikipedia URL heuristically matches label.
-- Cache-busted floating contact assets: `site.v20261108.js` + `a11y-fixes.v3.css` (permanent FAB visibility; matched cookie/contact tokens).
-- Restored/extended `tools/audit_release_contract.py` on this package (missing from audited main tree before this ZIP).
+## Scope
+Close remaining V2 gaps only:
+- Integrate open PR #13 (bentonite, L(+) tartaric acid, butyl glycol) into the V2 intelligence system without losing PR13 procurement guidance.
+- Harden evidence language (ECHA identity-only; no invented compliance).
+- Tighten Wikidata `sameAs` policy for form-ambiguous materials.
+- Extend `tools/audit_release_contract.py` with content-quality checks.
+- Browser-verify contact FAB across required viewports.
 
 ## Counts
-- Families: 126
-- Language product pages: 378
-- Enriched in v2 (FAQ+checkpoints): 369
-- Reserved for open PR #13: 9
+- Families: **126**
+- Language product pages: **378** (all with FAQ + checkpoints + dual-path)
+- PR #13 pages integrated: **9**
 
-## Cloudflare configuration unchanged
-Worker / form-action / Turnstile / contact endpoint not redesigned.
-
-## Import
-```bash
-git checkout 68d378ea18917742d91076d14e595c0968ec0406
-git checkout -b content/product-master-remediation-v2-20261108
-unzip -o RawMaterialsTrade_PRODUCT_MASTER_REMEDIATION_v2.zip
-python3 tools/audit_release_contract.py
-```
-Do not merge/deploy without separate approval. Resolve PR #13 before touching those nine pages.
+See `FINAL-ACCEPTANCE.md` for acceptance evidence.

@@ -1,127 +1,127 @@
-product_id,name_en,three_language_files,technical_identity_status,source_verification_status,documentation_guidance_status,buyer_journey_status,supplier_journey_status,schema_status,internal_linking_status,accessibility_status,outstanding_issues
-aceton-technikai-regeneralt-industrial,"Acetone — technical, regenerated",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-aluminium-szulfat-03-mm-38-mm-industrial,"Aluminium Sulphate — 0–3 mm, 3–8 mm",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-aluminium-szulfat-oldat-industrial,Aluminium Sulphate — solution,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-ammonia-oldat-24-industrial,Ammonia Solution — 24%,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-ammonium-klorid-industrial,Ammonium Chloride,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-ammonium-nitrat-industrial,Ammonium nitrate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-ammonium-szulfat-industrial,Ammonium Sulphate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-aszkorbinsav-food,Ascorbic Acid (Vitamin C),ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-bentonit-industrial,Bentonite,ok,cas:needs-confirmation;pubchem:missing;wikidata:missing,pending-pr13,present,skipped-pr13,skipped-pr13,skipped-pr13,skipped-pr13,a11y-v3-tokens,Pending PR #13
-borax-dekahidrat-industrial,Borax — decahydrate,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-borax-pentahidrat-industrial,Borax — pentahydrate,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-borken-food,Potassium metabisulfite,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-borkosav-l-food,Tartaric Acid — L+,ok,cas:needs-confirmation;pubchem:missing;wikidata:missing,pending-pr13,present,skipped-pr13,skipped-pr13,skipped-pr13,skipped-pr13,a11y-v3-tokens,Pending PR #13
-borsav-industrial,Boric Acid,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-butanol-industrial,1-Butanol,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-butil-diglikol-industrial,2-(2-Butoxyethoxy)ethanol,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-butil-glikol-industrial,Butyl Glycol (2-Butoxyethanol),ok,cas:needs-confirmation;pubchem:missing;wikidata:missing,pending-pr13,present,skipped-pr13,skipped-pr13,skipped-pr13,skipped-pr13,a11y-v3-tokens,Pending PR #13
-ciklohexanon-industrial,Cyclohexanone,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-cink-klorid-feed,Zinc Chloride,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-cink-klorid-vizmentes-industrial,Zinc Chloride — anhydrous,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-cink-oxid-industrial,Zinc Oxide,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-cink-szulfat-monohidrat-feed,Zinc Sulphate — monohydrate,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-cink-szulfat-monohidrat-heptahidrat-industrial,"Zinc Sulphate — monohydrate, heptahydrate",ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-citromsav-monohidrat-anhidrat-food,"Citric Acid — monohydrate, anhydrous",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-diammonium-hidrogenfoszfat-industrial,Diammonium phosphate,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-dietilen-glikol-industrial,Diethylene Glycol,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-dikalium-hidrogen-foszfat-food,Dipotassium phosphate,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-dinatrium-pirofoszfat-food,Disodium pyrophosphate — food industry context,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-dinatriumfoszfat-industrial,Disodium phosphate,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-dinatriumpirofoszfat-industrial,Disodium pyrophosphate — technical context,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-ecetsav-20-50-60-70-80-99-8-industrial,"Acetic Acid — 20%, 50%, 60%, 70%, 80%, 99.8%",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-ecetsav-20-50-60-70-80-99-8-jegecet-food,"Acetic Acid — 20%, 50%, 60%, 70%, 80%, 99.8% (glacial acetic acid)",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-ecetsavanhidrid-industrial,Acetic Anhydride,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-edta-na2-na4-industrial,EDTA — disodium (Na₂) / tetrasodium (Na₄),ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-etil-acetat-technikai-regeneralt-industrial,"Ethyl Acetate — technical, regenerated",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-etkezesi-so-food,Food salt (sodium chloride),ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-foszforsav-75-industrial,Phosphoric Acid — 75%,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-foszforsav-75-85-food,"Phosphoric Acid — 75%, 85%",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-glicerin-industrial,Glycerine (Glycerol),ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-glicerin-99-5-food,Glycerine (Glycerol) — 99.5%,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-glicin-industrial,Glycine,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-hangyasav-85-industrial,Formic Acid — 85%,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-hidrogen-peroxid-35-50-60-industrial,"Hydrogen Peroxide — 35%, 50%, 60%",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-ioncserelt-viz-industrial,Deionized water,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-izopropil-alkohol-technikai-regeneralt-industrial,"Isopropyl Alcohol (IPA) — technical, regenerated",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kalcium-jodat-feed,Calcium iodate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kalcium-karbonat-food,Calcium carbonate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kalcium-klorid-2025-oldat-deicing,Calcium Chloride — 20–25% solution,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kalcium-klorid-7780-food,Calcium Chloride — 77–80%,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kalcium-klorid-dihidrat-7880-pikkelyes-deicing,Calcium Chloride — dihydrate 78–80% flakes,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kalium-ferrocianid-food,Potassium Ferrocyanide,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-kalium-hidroxid-oldat-21-45-4850-industrial,"Potassium Hydroxide — solution 21%, 45%, 48–50%",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kalium-hidroxid-pikkelyes-industrial,Potassium Hydroxide — flakes,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kalium-jodat-feed,Potassium iodate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kalium-jodid-feed,Potassium iodide,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kalium-karbonat-industrial,Potassium carbonate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kalium-tripolifoszfat-food,Potassium tripolyphosphate,ok,cas:needs-confirmation;pubchem:missing;wikidata:missing,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-karbamid-ipari-kezeletlen-industrial,"Urea — industrial, untreated",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kenpor-industrial,Sulfur — powder,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kensav-32-37-50-9597-industrial,"Sulphuric Acid — 32%, 37%, 50%, 95–97%",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-klormesz-industrial,Calcium hypochlorite,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-kobalt-karbonat-feed,Cobalt(II) carbonate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-magnezium-karbonat-konnyu-nehez-industrial,"Magnesium carbonate — light, dense",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-magnezium-klorid-food,Magnesium chloride,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-magnezium-klorid-hexahidrat-industrial,Magnesium chloride hexahydrate,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-magnezium-nitrat-industrial,Magnesium nitrate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-magnezium-oxid-feed,Magnesium Oxide,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-magnezium-oxid-nehez-industrial,Magnesium Oxide — dense,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-magnezium-szulfat-industrial,Magnesium Sulphate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-maleinsav-industrial,Maleic Acid,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-mangan-ii-szulfat-monohidrat-industrial,Manganese(II) sulfate monohydrate — technical context,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-mangan-karbonat-industrial,Manganese(II) carbonate,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-mangan-klorid-monohidrat-tetrahidrat-industrial,"Manganese(II) chloride — monohydrate, tetrahydrate",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-mangan-klorid-tetrahidrat-feed,Manganese(II) chloride,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-mangan-oxid-feed,Manganese(II) oxide,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-mangan-szulfat-monohidrat-feed,Manganese(II) sulfate monohydrate — feed context,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-meszhidrat-industrial,Calcium hydroxide,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-meszhidrat-15-industrial,Calcium hydroxide — 15%,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-metanol-technikai-regeneralt-industrial,"Methanol — technical, regenerated",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-monoammonium-foszfat-industrial,Ammonium dihydrogen phosphate,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-monoetanolamin-industrial,Monoethanolamine (MEA),ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-monoetilen-glikol-industrial,Monoethylene Glycol (MEG),ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-monokalium-foszfat-industrial,Monopotassium phosphate,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-mononatrium-foszfat-industrial,Monosodium phosphate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-monopropilenglikol-industrial,Propylene Glycol (MPG),ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-na-hexametafoszfat-industrial,Sodium hexametaphosphate,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-natrium-acetat-vizmentes-3h2o-industrial,"Sodium acetate — anhydrous, 3H₂O",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-benzoat-gran-food,Sodium Benzoate — granular,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-hidrogen-karbonat-industrial,Sodium Bicarbonate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-hidrogen-karbonat-szodabikarbona-food,Sodium Bicarbonate — baking soda,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-hidroxid-mikrogyongy-pikkelyes-industrial,Sodium Hydroxide (Caustic Soda) — flakes,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-hidroxid-oldat-4850-industrial,Sodium Hydroxide (Caustic Soda) — solution 48–50%,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-hipoklorit-150-g-l-90-g-l-industrial,"Sodium Hypochlorite — 150 g/l, 90 g/l",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-karbonat-konnyu-industrial,Sodium Carbonate — light,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-karbonat-nehez-industrial,Sodium Carbonate — dense,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-metabiszulfit-natrium-piroszulfit-industrial,Sodium Metabisulphite — sodium pyrosulfite,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-metaszilikat-industrial,Sodium Metasilicate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-molibdat-feed,Sodium Molybdate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-perkarbonat-industrial,Sodium Percarbonate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-permanganat-40-oldat-industrial,Sodium permanganate — 40% solution,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-perszulfat-industrial,Sodium persulfate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-szelenit-feed,Sodium selenite,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-szulfat-industrial,Sodium Sulphate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-natrium-tripolifoszfat-industrial,Sodium Tripolyphosphate (STPP),ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-natronvizuveg-oldatok-industrial,Sodium Silicate — solutions,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-propionsav-99-feed,Propionic Acid — 99%,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-rez-klorid-dihidrat-industrial,Copper(II) chloride — dihydrate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-rez-szulfat-feed,Copper(II) sulfate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-rez-szulfat-pentahidrat-industrial,Copper(II) sulfate — pentahydrate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-saletromsav-20-50-53-60-industrial,"Nitric Acid — 20%, 50%, 53%, 60%",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-sosav-gyogyszerkonyvi-food,Hydrochloric Acid — pharmacopoeial,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-sosav-technikai-regeneralt-industrial,"Hydrochloric Acid — technical, regenerated",ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-sotabletta-industrial,Salt tablets (sodium chloride),ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-tiokarbamid-industrial,Thiourea,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-trietilen-glikol-industrial,Triethylene Glycol (TEG),ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-trilon-industrial,EDTA,ok,cas:needs-confirmation;pubchem:missing;wikidata:missing,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-trinatrium-citrat-industrial,Trisodium Citrate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-trinatrium-foszfat-dodekahidrat-vizmentes-industrial,"Trisodium phosphate — dodecahydrate, anhydrous",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-utszoro-so-deicing,Road salt (sodium chloride),ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-utszoro-zeolit-deicing,Zeolite,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-vakuum-so-industrial,Vacuum salt (sodium chloride),ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-vas-ii-szulfat-monohidrat-feed,Iron(II) sulfate — monohydrate,ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-vas-ii-szulfat-monohidrat-heptahidrat-industrial,"Iron(II) sulfate — monohydrate, heptahydrate",ok,cas:needs-confirmation;pubchem:verified;wikidata:verified,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,
-vas-iii-klorid-40-oldat-industrial,Ferric Chloride (Iron(III) Chloride) — 40% solution,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-vas-iii-szulfat-40-oldat-industrial,Iron(III) sulfate — 40% solution,ok,cas:needs-confirmation;pubchem:verified;wikidata:needs-confirmation,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
-vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed,"Vitamin — A, B1, B12, B5, B6, C, D3, E, H, K3",ok,cas:needs-confirmation;pubchem:missing;wikidata:missing,product-level-register,present,complete,complete,FAQPage-product-specific,qualify+checkpoints,a11y-v3-tokens,sameAs needs human review
+product_id,name_en,three_language_files,product_specific_faq,checkpoints,dual_path,pr13_guidance,sameAs_status,source_register,outstanding_issues
+aceton-technikai-regeneralt-industrial,"Acetone — technical, regenerated",ok,yes,yes,yes,yes,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+aluminium-szulfat-03-mm-38-mm-industrial,"Aluminium Sulphate — 0–3 mm, 3–8 mm",ok,yes,yes,yes,yes,verified,yes,
+aluminium-szulfat-oldat-industrial,Aluminium Sulphate — solution,ok,yes,yes,yes,yes,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+ammonia-oldat-24-industrial,Ammonia Solution — 24%,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+ammonium-klorid-industrial,Ammonium Chloride,ok,yes,yes,yes,yes,verified,yes,
+ammonium-nitrat-industrial,Ammonium nitrate,ok,yes,yes,yes,n/a,verified,yes,
+ammonium-szulfat-industrial,Ammonium Sulphate,ok,yes,yes,yes,yes,verified,yes,
+aszkorbinsav-food,Ascorbic Acid (Vitamin C),ok,yes,yes,yes,yes,verified,yes,
+bentonit-industrial,Bentonite,ok,yes,yes,yes,yes,needs-confirmation,yes,Mineral clay product family; CAS/Wikidata/Wikipedia are orientation only — not commercial grade sameAs.
+borax-dekahidrat-industrial,Borax — decahydrate,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+borax-pentahidrat-industrial,Borax — pentahydrate,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+borken-food,Potassium metabisulfite,ok,yes,yes,yes,n/a,verified,yes,
+borkosav-l-food,Tartaric Acid — L+,ok,yes,yes,yes,yes,needs-confirmation,yes,Wikidata Q18226455 is L-tartaric acid candidate; withhold machine sameAs until offer stereochemistry confirmed.
+borsav-industrial,Boric Acid,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+butanol-industrial,1-Butanol,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+butil-diglikol-industrial,2-(2-Butoxyethoxy)ethanol,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+butil-glikol-industrial,Butyl Glycol (2-Butoxyethanol),ok,yes,yes,yes,yes,needs-confirmation,yes,"Strong CAS/Wikidata/PubChem alignment for 2-butoxyethanol, but commercial grade still needs SDS confirmation before sameAs."
+ciklohexanon-industrial,Cyclohexanone,ok,yes,yes,yes,n/a,verified,yes,
+cink-klorid-feed,Zinc Chloride,ok,yes,yes,yes,n/a,verified,yes,
+cink-klorid-vizmentes-industrial,Zinc Chloride — anhydrous,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+cink-oxid-industrial,Zinc Oxide,ok,yes,yes,yes,n/a,verified,yes,
+cink-szulfat-monohidrat-feed,Zinc Sulphate — monohydrate,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+cink-szulfat-monohidrat-heptahidrat-industrial,"Zinc Sulphate — monohydrate, heptahydrate",ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+citromsav-monohidrat-anhidrat-food,"Citric Acid — monohydrate, anhydrous",ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+diammonium-hidrogenfoszfat-industrial,Diammonium phosphate,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+dietilen-glikol-industrial,Diethylene Glycol,ok,yes,yes,yes,n/a,verified,yes,
+dikalium-hidrogen-foszfat-food,Dipotassium phosphate,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+dinatrium-pirofoszfat-food,Disodium pyrophosphate — food industry context,ok,yes,yes,yes,n/a,verified,yes,
+dinatriumfoszfat-industrial,Disodium phosphate,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+dinatriumpirofoszfat-industrial,Disodium pyrophosphate — technical context,ok,yes,yes,yes,n/a,verified,yes,
+ecetsav-20-50-60-70-80-99-8-industrial,"Acetic Acid — 20%, 50%, 60%, 70%, 80%, 99.8%",ok,yes,yes,yes,n/a,verified,yes,
+ecetsav-20-50-60-70-80-99-8-jegecet-food,"Acetic Acid — 20%, 50%, 60%, 70%, 80%, 99.8% (glacial acetic acid)",ok,yes,yes,yes,n/a,verified,yes,
+ecetsavanhidrid-industrial,Acetic Anhydride,ok,yes,yes,yes,n/a,verified,yes,
+edta-na2-na4-industrial,EDTA — disodium (Na₂) / tetrasodium (Na₄),ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+etil-acetat-technikai-regeneralt-industrial,"Ethyl Acetate — technical, regenerated",ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+etkezesi-so-food,Food salt (sodium chloride),ok,yes,yes,yes,n/a,verified,yes,
+foszforsav-75-industrial,Phosphoric Acid — 75%,ok,yes,yes,yes,n/a,verified,yes,
+foszforsav-75-85-food,"Phosphoric Acid — 75%, 85%",ok,yes,yes,yes,n/a,verified,yes,
+glicerin-industrial,Glycerine (Glycerol),ok,yes,yes,yes,yes,verified,yes,
+glicerin-99-5-food,Glycerine (Glycerol) — 99.5%,ok,yes,yes,yes,yes,verified,yes,
+glicin-industrial,Glycine,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+hangyasav-85-industrial,Formic Acid — 85%,ok,yes,yes,yes,n/a,verified,yes,
+hidrogen-peroxid-35-50-60-industrial,"Hydrogen Peroxide — 35%, 50%, 60%",ok,yes,yes,yes,n/a,verified,yes,
+ioncserelt-viz-industrial,Deionized water,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+izopropil-alkohol-technikai-regeneralt-industrial,"Isopropyl Alcohol (IPA) — technical, regenerated",ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+kalcium-jodat-feed,Calcium iodate,ok,yes,yes,yes,n/a,verified,yes,
+kalcium-karbonat-food,Calcium carbonate,ok,yes,yes,yes,n/a,verified,yes,
+kalcium-klorid-2025-oldat-deicing,Calcium Chloride — 20–25% solution,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+kalcium-klorid-7780-food,Calcium Chloride — 77–80%,ok,yes,yes,yes,yes,verified,yes,
+kalcium-klorid-dihidrat-7880-pikkelyes-deicing,Calcium Chloride — dihydrate 78–80% flakes,ok,yes,yes,yes,yes,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+kalium-ferrocianid-food,Potassium Ferrocyanide,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+kalium-hidroxid-oldat-21-45-4850-industrial,"Potassium Hydroxide — solution 21%, 45%, 48–50%",ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+kalium-hidroxid-pikkelyes-industrial,Potassium Hydroxide — flakes,ok,yes,yes,yes,n/a,verified,yes,
+kalium-jodat-feed,Potassium iodate,ok,yes,yes,yes,n/a,verified,yes,
+kalium-jodid-feed,Potassium iodide,ok,yes,yes,yes,n/a,verified,yes,
+kalium-karbonat-industrial,Potassium carbonate,ok,yes,yes,yes,n/a,verified,yes,
+kalium-tripolifoszfat-food,Potassium tripolyphosphate,ok,yes,yes,yes,n/a,missing,yes,
+karbamid-ipari-kezeletlen-industrial,"Urea — industrial, untreated",ok,yes,yes,yes,n/a,verified,yes,
+kenpor-industrial,Sulfur — powder,ok,yes,yes,yes,n/a,verified,yes,
+kensav-32-37-50-9597-industrial,"Sulphuric Acid — 32%, 37%, 50%, 95–97%",ok,yes,yes,yes,n/a,verified,yes,
+klormesz-industrial,Calcium hypochlorite,ok,yes,yes,yes,n/a,verified,yes,
+kobalt-karbonat-feed,Cobalt(II) carbonate,ok,yes,yes,yes,n/a,verified,yes,
+magnezium-karbonat-konnyu-nehez-industrial,"Magnesium carbonate — light, dense",ok,yes,yes,yes,n/a,verified,yes,
+magnezium-klorid-food,Magnesium chloride,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+magnezium-klorid-hexahidrat-industrial,Magnesium chloride hexahydrate,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+magnezium-nitrat-industrial,Magnesium nitrate,ok,yes,yes,yes,n/a,verified,yes,
+magnezium-oxid-feed,Magnesium Oxide,ok,yes,yes,yes,n/a,verified,yes,
+magnezium-oxid-nehez-industrial,Magnesium Oxide — dense,ok,yes,yes,yes,n/a,verified,yes,
+magnezium-szulfat-industrial,Magnesium Sulphate,ok,yes,yes,yes,n/a,verified,yes,
+maleinsav-industrial,Maleic Acid,ok,yes,yes,yes,n/a,verified,yes,
+mangan-ii-szulfat-monohidrat-industrial,Manganese(II) sulfate monohydrate — technical context,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+mangan-karbonat-industrial,Manganese(II) carbonate,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+mangan-klorid-monohidrat-tetrahidrat-industrial,"Manganese(II) chloride — monohydrate, tetrahydrate",ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+mangan-klorid-tetrahidrat-feed,Manganese(II) chloride,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+mangan-oxid-feed,Manganese(II) oxide,ok,yes,yes,yes,n/a,verified,yes,
+mangan-szulfat-monohidrat-feed,Manganese(II) sulfate monohydrate — feed context,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+meszhidrat-industrial,Calcium hydroxide,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+meszhidrat-15-industrial,Calcium hydroxide — 15%,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+metanol-technikai-regeneralt-industrial,"Methanol — technical, regenerated",ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+monoammonium-foszfat-industrial,Ammonium dihydrogen phosphate,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+monoetanolamin-industrial,Monoethanolamine (MEA),ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+monoetilen-glikol-industrial,Monoethylene Glycol (MEG),ok,yes,yes,yes,n/a,verified,yes,
+monokalium-foszfat-industrial,Monopotassium phosphate,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+mononatrium-foszfat-industrial,Monosodium phosphate,ok,yes,yes,yes,n/a,verified,yes,
+monopropilenglikol-industrial,Propylene Glycol (MPG),ok,yes,yes,yes,yes,verified,yes,
+na-hexametafoszfat-industrial,Sodium hexametaphosphate,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+natrium-acetat-vizmentes-3h2o-industrial,"Sodium acetate — anhydrous, 3H₂O",ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+natrium-benzoat-gran-food,Sodium Benzoate — granular,ok,yes,yes,yes,n/a,verified,yes,
+natrium-hidrogen-karbonat-industrial,Sodium Bicarbonate,ok,yes,yes,yes,n/a,verified,yes,
+natrium-hidrogen-karbonat-szodabikarbona-food,Sodium Bicarbonate — baking soda,ok,yes,yes,yes,n/a,verified,yes,
+natrium-hidroxid-mikrogyongy-pikkelyes-industrial,Sodium Hydroxide (Caustic Soda) — flakes,ok,yes,yes,yes,n/a,verified,yes,
+natrium-hidroxid-oldat-4850-industrial,Sodium Hydroxide (Caustic Soda) — solution 48–50%,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+natrium-hipoklorit-150-g-l-90-g-l-industrial,"Sodium Hypochlorite — 150 g/l, 90 g/l",ok,yes,yes,yes,n/a,verified,yes,
+natrium-karbonat-konnyu-industrial,Sodium Carbonate — light,ok,yes,yes,yes,n/a,verified,yes,
+natrium-karbonat-nehez-industrial,Sodium Carbonate — dense,ok,yes,yes,yes,n/a,verified,yes,
+natrium-metabiszulfit-natrium-piroszulfit-industrial,Sodium Metabisulphite — sodium pyrosulfite,ok,yes,yes,yes,n/a,verified,yes,
+natrium-metaszilikat-industrial,Sodium Metasilicate,ok,yes,yes,yes,n/a,verified,yes,
+natrium-molibdat-feed,Sodium Molybdate,ok,yes,yes,yes,n/a,verified,yes,
+natrium-perkarbonat-industrial,Sodium Percarbonate,ok,yes,yes,yes,yes,verified,yes,
+natrium-permanganat-40-oldat-industrial,Sodium permanganate — 40% solution,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+natrium-perszulfat-industrial,Sodium persulfate,ok,yes,yes,yes,n/a,verified,yes,
+natrium-szelenit-feed,Sodium selenite,ok,yes,yes,yes,n/a,verified,yes,
+natrium-szulfat-industrial,Sodium Sulphate,ok,yes,yes,yes,n/a,verified,yes,
+natrium-tripolifoszfat-industrial,Sodium Tripolyphosphate (STPP),ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+natronvizuveg-oldatok-industrial,Sodium Silicate — solutions,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+propionsav-99-feed,Propionic Acid — 99%,ok,yes,yes,yes,n/a,verified,yes,
+rez-klorid-dihidrat-industrial,Copper(II) chloride — dihydrate,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+rez-szulfat-feed,Copper(II) sulfate,ok,yes,yes,yes,n/a,verified,yes,
+rez-szulfat-pentahidrat-industrial,Copper(II) sulfate — pentahydrate,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+saletromsav-20-50-53-60-industrial,"Nitric Acid — 20%, 50%, 53%, 60%",ok,yes,yes,yes,n/a,verified,yes,
+sosav-gyogyszerkonyvi-food,Hydrochloric Acid — pharmacopoeial,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+sosav-technikai-regeneralt-industrial,"Hydrochloric Acid — technical, regenerated",ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+sotabletta-industrial,Salt tablets (sodium chloride),ok,yes,yes,yes,n/a,verified,yes,
+tiokarbamid-industrial,Thiourea,ok,yes,yes,yes,n/a,verified,yes,
+trietilen-glikol-industrial,Triethylene Glycol (TEG),ok,yes,yes,yes,n/a,verified,yes,
+trilon-industrial,EDTA,ok,yes,yes,yes,n/a,missing,yes,
+trinatrium-citrat-industrial,Trisodium Citrate,ok,yes,yes,yes,n/a,verified,yes,
+trinatrium-foszfat-dodekahidrat-vizmentes-industrial,"Trisodium phosphate — dodecahydrate, anhydrous",ok,yes,yes,yes,yes,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+utszoro-so-deicing,Road salt (sodium chloride),ok,yes,yes,yes,n/a,verified,yes,
+utszoro-zeolit-deicing,Zeolite,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+vakuum-so-industrial,Vacuum salt (sodium chloride),ok,yes,yes,yes,n/a,verified,yes,
+vas-ii-szulfat-monohidrat-feed,Iron(II) sulfate — monohydrate,ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+vas-ii-szulfat-monohidrat-heptahidrat-industrial,"Iron(II) sulfate — monohydrate, heptahydrate",ok,yes,yes,yes,n/a,needs-confirmation,yes,CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.
+vas-iii-klorid-40-oldat-industrial,Ferric Chloride (Iron(III) Chloride) — 40% solution,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+vas-iii-szulfat-40-oldat-industrial,Iron(III) sulfate — 40% solution,ok,yes,yes,yes,n/a,needs-confirmation,yes,Needs human confirmation before sameAs use.
+vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed,"Vitamin — A, B1, B12, B5, B6, C, D3, E, H, K3",ok,yes,yes,yes,n/a,missing,yes,

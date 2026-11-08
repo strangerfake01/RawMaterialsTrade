@@ -1,16 +1,18 @@
-# Changelog v2 — 2026-11-08
+# Changelog v3 — 2026-11-08
 
-## Content intelligence
-- Product-specific FAQs for 369 language pages (PR #13 pages skipped).
-- Procurement checkpoints sections with CAS/form/concentration/regulated-use guidance without inventing specs.
-- entity-registry.json v2 with PubChem CID + Wikidata QID where CAS matched.
+## PR #13 integration
+- Merged bentonite / L(+) tartaric acid / butyl glycol EN/HU/DE pages and procurement JSON guidance.
+- Added qualification note, dual-path, product-specific checkpoints/FAQs + FAQPage JSON-LD without duplicating PR13 guidance blocks.
+- Bumped those pages to `site.v20261108.js` / `a11y-fixes.v3.css`.
 
-## Evidence
-- SOURCE-REGISTER.csv expanded to product-level PubChem/Wikidata/ECHA rows.
+## Evidence & entity policy
+- SOURCE-REGISTER: ECHA rows marked identity-link-only (not REACH/CLP proof).
+- Rejected false PubChem hit for bentonite mineral CAS.
+- Downgraded form-ambiguous `sameAs_status=verified` entries (solutions/regenerated/anhydrous/hydrate) to needs-confirmation.
+- Added bentonite, tartaric, butyl glycol to entity-registry.json.
 
-## UX
-- New cache-busted JS/CSS versions to force clients off stale FAB hide logic.
-- Shared floating control tokens; dark-surface note/lead contrast rules; dual-path/checkpoint styles.
+## Audit
+- Release audit now requires 378 pages / 126 families, FAQ uniqueness, FAQ schema↔visible parity, dual-path presence, and rejects unsafe verified sameAs for form-ambiguous IDs.
 
-## Tests
-- tools/audit_release_contract.py restored/extended and executed (PASS).
+## Visual
+- Local browser QA across 375/390/768/1024/1440 with screenshots in HANDOFF/visual/.
