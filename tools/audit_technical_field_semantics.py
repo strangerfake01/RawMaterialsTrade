@@ -21,7 +21,8 @@ for product in products:
     form = str(ident.get("form_en") or "").strip()
     # A grade or particle size is not, by itself, a measured chemical concentration.
     looks_quantitative = bool(re.search(r"\d+(?:[.,]\d+)?\s*(?:%|wt%|w/w|g/l|mg/l|mol/l|ppm|ppb)(?![A-Za-z])", concentration, re.I))
-    if concentration and not looks_quantitative:
+    is_supplier_placeholder = concentration.casefold() in {"confirmed upon supplier documentation", "to be confirmed"}
+    if concentration and not looks_quantitative and not is_supplier_placeholder:
         review.append((product["id"], concentration, grade))
         if ident.get("concentration_semantics") != "grade_or_form_descriptor_not_numeric" or ident.get("concentration_value_verified") is not False:
             raise SystemExit(f"{product['id']}: nonnumeric concentration must be explicitly marked as a grade/form descriptor")
@@ -32,7 +33,7 @@ for product in products:
     elif not re.fullmatch(r"\d{2,7}-\d{2}-\d", cas):
         if ident.get("cas_identifier_status") != "supplier_identity_required" or ident.get("cas_candidate_identifiers") != []:
             raise SystemExit(f"{product['id']}: CAS placeholder must not be interpreted as an identifier")
-    if "supplier documentation" in form.lower() or "to be confirmed" in form.lower():
+    if is_supplier_placeholder or "supplier documentation" in form.lower() or "to be confirmed" in form.lower():
         placeholders.append(product["id"])
 print("Technical-field semantics: %d families" % len(products))
 print("Concentration fields without quantitative concentration units (manual review):", len(review))
