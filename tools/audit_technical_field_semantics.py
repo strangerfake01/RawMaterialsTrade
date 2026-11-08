@@ -59,3 +59,40 @@ if len({p["id"] for p in products}) != len(products):
 if not review:
     print("No semantic concentration candidates found; no data changes needed")
 # A review inventory is deliberately non-blocking; it cannot establish actual specifications.
+
+# Regression guard for verified hydrate formula corrections and nonnumeric form labels.
+hydrate_formulas = {
+    "cink-szulfat-monohidrat-feed": "ZnSO₄·H₂O",
+    "cink-szulfat-monohidrat-heptahidrat-industrial": "ZnSO₄·H₂O; heptahydrate: ZnSO₄·7H₂O",
+    "kalcium-klorid-dihidrat-7880-pikkelyes-deicing": "CaCl₂·2H₂O",
+}
+form_only_families = {
+    "cink-szulfat-monohidrat-feed",
+    "cink-szulfat-monohidrat-heptahidrat-industrial",
+    "citromsav-monohidrat-anhidrat-food",
+}
+old_form_labels = {
+    "en": "<dt>Grade / concentration</dt>",
+    "hu": "<dt>Minőség / koncentráció</dt>",
+    "de-at": "<dt>Qualität / Konzentration</dt>",
+}
+by_id = {product["id"]: product for product in products}
+for pid, expected in hydrate_formulas.items():
+    actual = str(by_id[pid]["technical_identity"].get("formula", ""))
+    if expected not in actual:
+        raise SystemExit(f"{pid}: corrected hydrate formula missing from catalogue")
+for pid in set(hydrate_formulas) | form_only_families:
+    for lang in ("en", "hu", "de-at"):
+        html = (ROOT / f"{lang}-{pid}.html").read_text(encoding="utf-8")
+        if pid in hydrate_formulas:
+            if lang == "hu" and pid == "cink-szulfat-monohidrat-heptahidrat-industrial":
+                expected = "ZnSO₄·H₂O; heptahidrát: ZnSO₄·7H₂O"
+            elif lang == "de-at" and pid == "cink-szulfat-monohidrat-heptahidrat-industrial":
+                expected = "ZnSO₄·H₂O; Heptahydrat: ZnSO₄·7H₂O"
+            else:
+                expected = hydrate_formulas[pid]
+            if expected not in html:
+                raise SystemExit(f"{lang}-{pid}: corrected hydrate formula missing from HTML")
+        if pid in form_only_families and old_form_labels[lang] in html:
+            raise SystemExit(f"{lang}-{pid}: hydrate form still mislabeled as concentration")
+print("Hydrate formula and form-label regression checks: passed")
