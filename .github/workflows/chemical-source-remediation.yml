@@ -4,6 +4,7 @@ on:
     branches: [fix/chemical-source-integrity-20261108]
     paths:
       - 'tools/remediate_chemical_sources.py'
+      - 'tools/remove_unverified_sameas.py'
 
 permissions:
   contents: write
@@ -19,8 +20,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Withdraw unverified source claims
-        run: python3 tools/remediate_chemical_sources.py
+      - name: Remove unapproved ChemicalSubstance sameAs
+        run: python3 tools/remove_unverified_sameas.py
       - name: Re-run V3 release audit
         run: python3 tools/audit_release_contract.py
       - name: Re-run static asset audit
@@ -40,8 +41,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- '*.html' 'entity-registry.json' 'HANDOFF/SOURCE-REGISTER.csv' 'HANDOFF/CHEMISTRY-SOURCE-REMEDIATION.md'
+          git add -- '*.html' 'HANDOFF/SAMEAS-REMEDIATION.md'
           if ! git diff --cached --quiet; then
-            git commit -m 'fix: withdraw unverified PubChem claims across multilingual catalogue'
+            git commit -m 'fix: withhold unverified ChemicalSubstance sameAs links'
             git push origin HEAD:fix/chemical-source-integrity-20261108
           fi
