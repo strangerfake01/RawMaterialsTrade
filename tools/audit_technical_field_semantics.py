@@ -100,6 +100,9 @@ form_only_families = {
     "natrium-tripolifoszfat-industrial",
     "sosav-gyogyszerkonyvi-food",
     "utszoro-so-deicing",
+    "vakuum-so-industrial",
+    "tiokarbamid-industrial",
+    "trietilen-glikol-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
