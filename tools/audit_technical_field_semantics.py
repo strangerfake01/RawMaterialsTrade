@@ -75,6 +75,7 @@ form_only_families = {
     "rez-szulfat-pentahidrat-industrial",
     "aceton-technikai-regeneralt-industrial",
     "aluminium-szulfat-03-mm-38-mm-industrial",
+    "etil-acetat-technikai-regeneralt-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
