@@ -23,6 +23,15 @@ for product in products:
     looks_quantitative = bool(re.search(r"\d+(?:[.,]\d+)?\s*(?:%|wt%|w/w|g/l|mg/l|mol/l|ppm|ppb)(?![A-Za-z])", concentration, re.I))
     if concentration and not looks_quantitative:
         review.append((product["id"], concentration, grade))
+        if ident.get("concentration_semantics") != "grade_or_form_descriptor_not_numeric" or ident.get("concentration_value_verified") is not False:
+            raise SystemExit(f"{product['id']}: nonnumeric concentration must be explicitly marked as a grade/form descriptor")
+    cas = str(ident.get("cas") or "")
+    if " / " in cas:
+        if ident.get("cas_identifier_status") != "multiple_candidates_unverified" or ident.get("cas_candidate_identifiers") != cas.split(" / "):
+            raise SystemExit(f"{product['id']}: multiple CAS candidates must be separately recorded as unverified")
+    elif not re.fullmatch(r"\\d{2,7}-\\d{2}-\\d", cas):
+        if ident.get("cas_identifier_status") != "supplier_identity_required" or ident.get("cas_candidate_identifiers") != []:
+            raise SystemExit(f"{product['id']}: CAS placeholder must not be interpreted as an identifier")
     if "supplier documentation" in form.lower() or "to be confirmed" in form.lower():
         placeholders.append(product["id"])
 print("Technical-field semantics: %d families" % len(products))
