@@ -103,6 +103,9 @@ form_only_families = {
     "vakuum-so-industrial",
     "tiokarbamid-industrial",
     "trietilen-glikol-industrial",
+    "aluminium-szulfat-oldat-industrial",
+    "ammonium-klorid-industrial",
+    "ammonium-szulfat-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
