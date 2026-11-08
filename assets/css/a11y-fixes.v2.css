@@ -352,13 +352,16 @@ footer[role="contentinfo"] a:focus-visible,
 }
 
 
-/* Shared multilingual contact control: hidden near footer and active cookie consent. */
-.rmt-contact-fab{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(20px,env(safe-area-inset-bottom));z-index:80;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+/* Persistent multilingual contact control, compact like the cookie settings action. */
+.rmt-contact-fab{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:1000;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
 .rmt-contact-fab[hidden],.rmt-contact-options[hidden]{display:none!important}
-.rmt-contact-trigger{order:2;min-height:48px;min-width:48px;border:1px solid #fff;border-radius:999px;padding:12px 20px;background:#142b3e;color:#fff;font:inherit;font-weight:600;cursor:pointer;box-shadow:0 3px 16px rgba(0,0,0,.2)}
+.rmt-contact-trigger{order:2;min-height:44px;min-width:44px;border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:.5rem .8rem;font-size:.74rem;line-height:1.2;background:#142b3e;color:#fff;font:inherit;font-weight:600;cursor:pointer;box-shadow:0 8px 22px rgba(0,0,0,.18)}
  .rmt-contact-options{order:1;max-width:min(300px,calc(100vw - 32px));padding:8px;border:1px solid #c5ccd3;border-radius:12px;background:#fff;box-shadow:0 8px 28px rgba(0,0,0,.18)}
 .rmt-contact-options a{display:block;min-height:44px;padding:12px;color:#142b3e;text-decoration:none;border-radius:6px}
 .rmt-contact-options a:hover,.rmt-contact-options a:focus-visible{background:#edf2f6;text-decoration:underline}
 .rmt-contact-trigger:focus-visible,.rmt-contact-options a:focus-visible{outline:3px solid #f3b84a;outline-offset:3px}
-@media(max-width:600px){.rmt-contact-fab{right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom))}.rmt-contact-trigger{padding:10px 14px}}
+@media(max-width:600px){.rmt-contact-fab{right:max(12px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom))}.rmt-contact-trigger{padding:.5rem .8rem;font-size:.74rem}}
 @media print{.rmt-contact-fab{display:none!important}}
+
+/* Keep the About section background continuous across its full mobile height. */
+#about{background:#f8fafc}

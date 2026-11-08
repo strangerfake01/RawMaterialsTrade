@@ -515,20 +515,8 @@ function initFloatingContact(){
   // Keep keyboard tab order logical: trigger first, then the revealed links.
   root.append(trigger,panel);
   document.body.appendChild(root);
-  const footer=document.querySelector('footer');
-  const cookie=document.getElementById('cookieBanner');
-  const updateVisibility=()=>{
-    const footerVisible=footer&&footer.getBoundingClientRect().top<window.innerHeight;
-    const cookieVisible=cookie&&getComputedStyle(cookie).display!=='none'&&cookie.getBoundingClientRect().height>0&&cookie.getBoundingClientRect().bottom>0&&cookie.getBoundingClientRect().top<window.innerHeight;
-    root.hidden=Boolean(footerVisible||cookieVisible);
-    if(root.hidden)close();
-  };
-  window.addEventListener('scroll',updateVisibility,{passive:true});
-  window.addEventListener('resize',updateVisibility,{passive:true});
-  if(cookie&&typeof MutationObserver!=='undefined'){
-    new MutationObserver(updateVisibility).observe(cookie,{attributes:true,attributeFilter:['class','style','hidden']});
-  }
-  updateVisibility();
+  // The contact action remains available while scrolling, at the footer and during consent.
+  // The expanded panel still closes on outside interaction or Escape.
 }
 
 function initSmoothScroll(){document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const id=a.getAttribute('href');if(id&&id.length>1){const el=document.querySelector(id);if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});}}}));}
