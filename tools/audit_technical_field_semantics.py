@@ -143,6 +143,25 @@ old_form_labels = {
     "hu": "<dt>Minőség / koncentráció</dt>",
     "de-at": "<dt>Qualität / Konzentration</dt>",
 }
+# Final-batch positive assertions: ensure both product-detail blocks retain a meaningful label.
+final_batch = {
+    "natrium-hidrogen-karbonat-industrial",
+    "natrium-hidrogen-karbonat-szodabikarbona-food",
+    "natrium-metabiszulfit-natrium-piroszulfit-industrial",
+    "vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed",
+}
+designation_labels = {
+    "en": "<dt>Grade / product designation</dt>",
+    "hu": "<dt>Minőség / termékmegnevezés</dt>",
+    "de-at": "<dt>Qualität / Produktbezeichnung</dt>",
+}
+for pid in final_batch:
+    for lang, expected_label in designation_labels.items():
+        page = (ROOT / f"{lang}-{pid}.html").read_text(encoding="utf-8")
+        if page.count(expected_label) != 2:
+            raise SystemExit(f"{lang}-{pid}: expected designation label in both product-detail blocks")
+print("Final four families: 12 localized pages / 24 positive label assertions passed")
+
 by_id = {product["id"]: product for product in products}
 for pid, expected in hydrate_formulas.items():
     actual = str(by_id[pid]["technical_identity"].get("formula", ""))
