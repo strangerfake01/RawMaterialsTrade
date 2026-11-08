@@ -397,7 +397,7 @@ function initCertificateModals(){
   const bodyEl=overlay.querySelector('.cert-modal-body');
   const closeBtn=overlay.querySelector('.cert-modal-close');
   const close=()=>{overlay.classList.remove('open');bodyEl.innerHTML='';};
-  const open=(src,title,alt)=>{titleEl.textContent=title||'';bodyEl.innerHTML='';const img=document.createElement('img');img.src=src;img.alt=alt||title||'Certificate';bodyEl.appendChild(img);overlay.classList.add('open');};
+  const open=(src,title,alt)=>{titleEl.textContent=title||'';bodyEl.innerHTML='';if(/\.pdf($|\?)/i.test(src)){const frame=document.createElement('iframe');frame.src=src;frame.title=alt||title||'Certificate';frame.style.width='100%';frame.style.minHeight='70vh';frame.style.border='0';bodyEl.appendChild(frame);}else{const img=document.createElement('img');img.src=src;img.alt=alt||title||'Certificate';bodyEl.appendChild(img);}overlay.classList.add('open');};
   triggers.forEach(btn=>btn.addEventListener('click',e=>{e.preventDefault();open(btn.getAttribute('data-cert-src')||'',btn.getAttribute('data-cert-title')||btn.textContent.trim(),btn.getAttribute('data-cert-alt')||btn.getAttribute('data-cert-title')||'Certificate');}));
   closeBtn.addEventListener('click',close);
   overlay.addEventListener('click',e=>{if(e.target===overlay)close();});

@@ -30,3 +30,15 @@ jobs:
         run: python3 tools/audit_release_contract.py
       - name: Reject unverified chemical identity source claims
         run: python3 tools/audit_chemical_source_integrity.py
+      - name: Check all same-origin anchor targets and certificates
+        run: python3 tools/audit_internal_links.py
+      - name: Check transparent evidence-based product-depth inventory
+        run: python3 tools/audit_product_evidence_depth.py --check
+      - name: Check multilingual AI-facing claims against catalogue evidence
+        run: python3 tools/audit_ai_claim_contract.py
+      - name: Prevent unreviewed chemical identity claims in 378 product schemas
+        run: python3 tools/audit_public_chemical_identity.py
+      - name: Enforce batch-specific CoA caveats on 378 multilingual pages
+        run: python3 tools/audit_supplier_coa_status.py
+      - name: Inventory ambiguous technical concentration and form fields
+        run: python3 tools/audit_technical_field_semantics.py
