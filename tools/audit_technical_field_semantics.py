@@ -6,7 +6,6 @@ Non-numeric values are candidates for manual review, not automatically false:
 """
 import json
 import re
-from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,6 +13,14 @@ products = json.loads((ROOT / "products-multilingual.json").read_text(encoding="
 assert len(products) == 126
 review = []
 placeholders = []
+cas_checked = 0
+
+def valid_cas_checksum(value):
+    match = re.fullmatch(r"(\d{2,7})-(\d{2})-(\d)", value)
+    if not match:
+        return False
+    digits = match.group(1) + match.group(2)
+    return sum((index + 1) * int(digit) for index, digit in enumerate(reversed(digits))) % 10 == int(match.group(3))
 for product in products:
     ident = product.get("technical_identity") or {}
     concentration = str(ident.get("concentration_en") or ident.get("concentration") or "").strip()
@@ -27,15 +34,22 @@ for product in products:
         if ident.get("concentration_semantics") != "grade_or_form_descriptor_not_numeric" or ident.get("concentration_value_verified") is not False:
             raise SystemExit(f"{product['id']}: nonnumeric concentration must be explicitly marked as a grade/form descriptor")
     cas = str(ident.get("cas") or "")
+    cas_candidates = ident.get("cas_candidate_identifiers") or []
+    for candidate in (cas_candidates if cas_candidates else ([cas] if re.fullmatch(r"\d{2,7}-\d{2}-\d", cas) else [])):
+        cas_checked += 1
+        if not valid_cas_checksum(candidate):
+            raise SystemExit(f"{product['id']}: CAS checksum or format invalid: {candidate}")
     if " / " in cas:
         if ident.get("cas_identifier_status") != "multiple_candidates_unverified" or ident.get("cas_candidate_identifiers") != cas.split(" / "):
             raise SystemExit(f"{product['id']}: multiple CAS candidates must be separately recorded as unverified")
     elif not re.fullmatch(r"\d{2,7}-\d{2}-\d", cas):
         if ident.get("cas_identifier_status") != "supplier_identity_required" or ident.get("cas_candidate_identifiers") != []:
             raise SystemExit(f"{product['id']}: CAS placeholder must not be interpreted as an identifier")
+    if ident.get("cas_identifier_status") and not (" / " in cas or not re.fullmatch(r"\d{2,7}-\d{2}-\d", cas)):
+        raise SystemExit(f"{product['id']}: stale CAS uncertainty flag on a single numeric identifier")
     if is_supplier_placeholder or "supplier documentation" in form.lower() or "to be confirmed" in form.lower():
         placeholders.append(product["id"])
-print("Technical-field semantics: %d families" % len(products))
+print("Technical-field semantics: %d families; CAS checksums verified: %d" % (len(products), cas_checked))
 print("Concentration fields without quantitative concentration units (manual review):", len(review))
 print("Form fields with supplier-confirmation placeholders:", len(placeholders))
 for pid, value, grade in review[:25]:
