@@ -17,6 +17,7 @@ CHECKS = {
     "fixed_packaging_orientation": re.compile(r"(?i)(?:preferred packaging currently listed|orientierende verpackung laut katalog|orientációs kiszerelés a katalógusban|packaging preference [(]catalogue orientation:)"),
     "grade_as_concentration": re.compile(r"(?i)(?:target concentration or purity where relevant: currently listed orientation|célkoncentráció vagy tisztaság, ha releváns: katalógus-orientáció|zielkonzentration oder reinheit, falls relevant: katalogorientierung)"),
     "unqualified_document_promise": re.compile(r"(?i)(?:SDS, TDS, certificates of analysis and compliance documents available on request|SDS, TDS, analízis-tanúsítványok és megfelelőségi dokumentumok kérésre rendelkezésre állnak)"),
+    "supplier_documents_assumed": re.compile(r"(?i)(?:supplier (?:SDS|TDS|CoA) (?:is|are) (?:available|verified)|beszállítói (?:SDS|TDS|CoA) (?:rendelkezésre áll|igazolt)|Lieferanten-(?:SDS|TDS|CoA) (?:ist|sind) (?:verfügbar|bestätigt))"),
 }
 counts = {k: 0 for k in CHECKS}
 examples = {k: [] for k in CHECKS}
@@ -39,4 +40,5 @@ for label, count in counts.items():
 if missing:
     print("ERROR missing product pages:", ", ".join(missing[:10]))
     sys.exit(1)
+print("NOTE: claim matches are review candidates, not independent evidence of falsehood or compliance.")
 # Report-only until each product's provenance is established; do not silently invent replacement values.
