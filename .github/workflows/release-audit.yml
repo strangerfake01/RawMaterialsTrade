@@ -42,5 +42,7 @@ jobs:
         run: python3 tools/audit_public_chemical_identity.py
       - name: Enforce batch-specific CoA caveats on 378 multilingual pages
         run: python3 tools/audit_supplier_coa_status.py
+      - name: Inventory unsupported packaging, concentration and document promises
+        run: python3 tools/audit_public_product_claims.py
       - name: Inventory ambiguous technical concentration and form fields
         run: python3 tools/audit_technical_field_semantics.py
