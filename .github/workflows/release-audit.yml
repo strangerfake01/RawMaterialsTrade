@@ -2,21 +2,8 @@ name: Static release contract
 
 on:
   pull_request:
-    paths:
-      - '**/*.html'
-      - '*.html'
-      - 'sitemap.xml'
-      - 'tools/audit_release_contract.py'
-      - '.github/workflows/release-audit.yml'
   push:
-    branches:
-      - fix/dark-surface-text-contrast
-    paths:
-      - '**/*.html'
-      - '*.html'
-      - 'sitemap.xml'
-      - 'tools/audit_release_contract.py'
-      - '.github/workflows/release-audit.yml'
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -33,7 +20,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check shared form JavaScript syntax
-        run: node --check assets/js/site.v20260709d.js
-      - name: Validate sitemap, canonicals, hreflang and JSON-LD
+      - name: Check shared JavaScript syntax
+        run: |
+          node --check assets/js/site.v20261108.js
+          node --check assets/js/analytics-consent.v20260713.js
+      - name: Check local CSS, JS, images and media
+        run: python3 tools/audit_static_assets.py
+      - name: Validate sitemap, canonicals, hreflang, JSON-LD and product content
         run: python3 tools/audit_release_contract.py
