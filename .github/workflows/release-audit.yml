@@ -38,6 +38,8 @@ jobs:
         run: python3 tools/audit_product_evidence_depth.py --check
       - name: Check multilingual AI-facing claims against catalogue evidence
         run: python3 tools/audit_ai_claim_contract.py
+      - name: Audit Wikidata and multilingual Wikipedia candidate coverage
+        run: python3 tools/audit_wikidata_wikipedia_coverage.py
       - name: Prevent unreviewed chemical identity claims in 378 product schemas
         run: python3 tools/audit_public_chemical_identity.py
       - name: Enforce batch-specific CoA caveats on 378 multilingual pages
