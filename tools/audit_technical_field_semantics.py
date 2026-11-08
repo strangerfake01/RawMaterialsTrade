@@ -83,6 +83,9 @@ form_only_families = {
     "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
     "natrium-karbonat-konnyu-industrial",
     "natrium-karbonat-nehez-industrial",
+    "natrium-acetat-vizmentes-3h2o-industrial",
+    "mangan-klorid-monohidrat-tetrahidrat-industrial",
+    "natrium-metaszilikat-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
