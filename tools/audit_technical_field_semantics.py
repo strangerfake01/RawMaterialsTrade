@@ -89,6 +89,9 @@ form_only_families = {
     "natrium-szulfat-industrial",
     "natronvizuveg-oldatok-industrial",
     "sotabletta-industrial",
+    "rez-klorid-dihidrat-industrial",
+    "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
+    "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
