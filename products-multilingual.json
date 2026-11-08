@@ -79,7 +79,9 @@
       "concentration_de": "technisch, regeneriert",
       "packaging_en": "Drums (200 L), IBC, tanker",
       "packaging_hu": "hordó (200 L), IBC, tartályautó",
-      "packaging_de": "Fässer (200 L), IBC, Tankwagen"
+      "packaging_de": "Fässer (200 L), IBC, Tankwagen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -200,7 +202,9 @@
       "concentration_de": "0–3 mm, 3–8 mm",
       "packaging_en": "Big bagged, bagged, IBC (solution)",
       "packaging_hu": "BigBag és zsákos; IBC (oldat)",
-      "packaging_de": "BigBag und Sackware; IBC (Lösung)"
+      "packaging_de": "BigBag und Sackware; IBC (Lösung)",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -323,7 +327,9 @@
       "concentration_de": "Lösung",
       "packaging_en": "Big bagged, bagged, IBC (solution)",
       "packaging_hu": "BigBag és zsákos; IBC (oldat)",
-      "packaging_de": "BigBag und Sackware; IBC (Lösung)"
+      "packaging_de": "BigBag und Sackware; IBC (Lösung)",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -561,7 +567,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -795,7 +803,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -916,7 +926,9 @@
       "concentration_de": "Lebensmittelqualität",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -1153,7 +1165,9 @@
       "concentration_de": "Dekahydrat",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -1268,7 +1282,9 @@
       "concentration_de": "Pentahydrat",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -1494,7 +1510,9 @@
       "concentration_de": "(L+)",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -1615,7 +1633,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -1950,7 +1970,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "Drums (200 L), IBC",
       "packaging_hu": "hordó (200 L), IBC",
-      "packaging_de": "Fässer (200 L), IBC"
+      "packaging_de": "Fässer (200 L), IBC",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -2069,7 +2091,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "Drums (200 L), IBC",
       "packaging_hu": "hordó (200 L), IBC",
-      "packaging_de": "Fässer (200 L), IBC"
+      "packaging_de": "Fässer (200 L), IBC",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -2184,7 +2208,9 @@
       "concentration_de": "wasserfrei",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -2301,7 +2327,9 @@
       "concentration_de": "wasserfrei",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -2426,7 +2454,9 @@
       "concentration_de": "technische, Futtermittel- und Pharmaqualität",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -2543,7 +2573,11 @@
       "concentration_de": "Monohydrat",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric",
+      "cas_identifier_status": "multiple_candidates_unverified",
+      "cas_candidate_identifiers": ["7446-19-7","7446-20-0"]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -2660,7 +2694,11 @@
       "concentration_de": "Monohydrat, Heptahydrat",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric",
+      "cas_identifier_status": "multiple_candidates_unverified",
+      "cas_candidate_identifiers": ["7446-19-7","7446-20-0"]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -2777,7 +2815,11 @@
       "concentration_de": "Monohydrat, wasserfrei",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric",
+      "cas_identifier_status": "multiple_candidates_unverified",
+      "cas_candidate_identifiers": ["77-92-9","5949-29-1"]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -3005,7 +3047,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "Drums (200 L), IBC, tanker",
       "packaging_hu": "hordó (200 L), IBC, tartályautó",
-      "packaging_de": "Fässer (200 L), IBC, Tankwagen"
+      "packaging_de": "Fässer (200 L), IBC, Tankwagen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -3824,7 +3868,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "Drums (200 L), IBC",
       "packaging_hu": "hordó (200 L), IBC",
-      "packaging_de": "Fässer (200 L), IBC"
+      "packaging_de": "Fässer (200 L), IBC",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -3937,7 +3983,11 @@
       "concentration_de": "Dinatrium (Na₂) / Tetranatrium (Na₄)",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric",
+      "cas_identifier_status": "multiple_candidates_unverified",
+      "cas_candidate_identifiers": ["6381-92-6","64-02-8"]
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -4056,7 +4106,9 @@
       "concentration_de": "technisch, regeneriert",
       "packaging_en": "Drums (200 L), IBC",
       "packaging_hu": "hordó (200 L), IBC",
-      "packaging_de": "Fässer (200 L), IBC"
+      "packaging_de": "Fässer (200 L), IBC",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -4171,7 +4223,9 @@
       "concentration_de": "Vakuumsalz in Lebensmittelqualität",
       "packaging_en": "Big bagged, bulk, bagged",
       "packaging_hu": "BigBag, ömlesztett és zsákos",
-      "packaging_de": "BigBag, lose Ware und Sackware"
+      "packaging_de": "BigBag, lose Ware und Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -4778,7 +4832,9 @@
       "concentration_de": "Futtermittel- und Lebensmittelqualität",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -5248,7 +5304,9 @@
       "concentration_de": "technisch, regeneriert",
       "packaging_en": "IBC (1000 L), drums (200 L)",
       "packaging_hu": "IBC (1000 L), hordó (200 L)",
-      "packaging_de": "IBC (1000 L), Fässer (200 L)"
+      "packaging_de": "IBC (1000 L), Fässer (200 L)",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -5589,7 +5647,9 @@
       "concentration_de": "20–25%ige Lösung",
       "packaging_en": "Big bagged, bagged, IBC (solution), tanker (solution)",
       "packaging_hu": "BigBag és zsákos; IBC és tartályautó (oldat)",
-      "packaging_de": "BigBag und Sackware; IBC und Tankwagen (Lösung)"
+      "packaging_de": "BigBag und Sackware; IBC und Tankwagen (Lösung)",
+      "cas_identifier_status": "multiple_candidates_unverified",
+      "cas_candidate_identifiers": ["10043-52-4","10035-04-8"]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -5706,7 +5766,9 @@
       "concentration_de": "77–80%",
       "packaging_en": "Big bagged, bagged, IBC (solution), tanker (solution)",
       "packaging_hu": "BigBag és zsákos; IBC és tartályautó (oldat)",
-      "packaging_de": "BigBag und Sackware; IBC und Tankwagen (Lösung)"
+      "packaging_de": "BigBag und Sackware; IBC und Tankwagen (Lösung)",
+      "cas_identifier_status": "multiple_candidates_unverified",
+      "cas_candidate_identifiers": ["10043-52-4","10035-04-8"]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -5831,7 +5893,9 @@
       "concentration_de": "Dihydrat, 78–80 %, flockig",
       "packaging_en": "Big bagged, bagged, IBC (solution), tanker (solution)",
       "packaging_hu": "BigBag és zsákos; IBC és tartályautó (oldat)",
-      "packaging_de": "BigBag und Sackware; IBC und Tankwagen (Lösung)"
+      "packaging_de": "BigBag und Sackware; IBC und Tankwagen (Lösung)",
+      "cas_identifier_status": "multiple_candidates_unverified",
+      "cas_candidate_identifiers": ["10043-52-4","10035-04-8"]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -5952,7 +6016,9 @@
       "concentration_de": "Lebensmittelqualität (E536)",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -6190,7 +6256,9 @@
       "concentration_de": "Flocken",
       "packaging_en": "bagged, BigBag; IBC (solution)",
       "packaging_hu": "zsákos, BigBag; IBC (oldat)",
-      "packaging_de": "Sackware, BigBag; IBC (Lösung)"
+      "packaging_de": "Sackware, BigBag; IBC (Lösung)",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -6761,7 +6829,9 @@
       "concentration_de": "industriell, unbehandelt",
       "packaging_en": "Big bagged, bagged; IBC (solution)",
       "packaging_hu": "BigBag és zsákos; IBC (oldat)",
-      "packaging_de": "BigBag und Sackware; IBC (Lösung)"
+      "packaging_de": "BigBag und Sackware; IBC (Lösung)",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -6874,7 +6944,9 @@
       "concentration_de": "Pulver",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -7338,7 +7410,9 @@
       "concentration_de": "leicht, schwer",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -7585,7 +7659,9 @@
       "concentration_de": "Hexahydrat",
       "packaging_en": "Big bagged, bagged",
       "packaging_hu": "BigBag és zsákos",
-      "packaging_de": "BigBag und Sackware"
+      "packaging_de": "BigBag und Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -7813,7 +7889,9 @@
       "concentration_de": "schwere und Futtermittelqualität",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -7930,7 +8008,9 @@
       "concentration_de": "schwer",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -8055,7 +8135,9 @@
       "concentration_de": "wasserfrei; Heptahydrat (Bittersalz); Monohydrat",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -8170,7 +8252,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -8291,7 +8375,9 @@
       "concentration_de": "Monohydrat",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -8523,7 +8609,11 @@
       "concentration_de": "Monohydrat, Tetrahydrat",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric",
+      "cas_identifier_status": "multiple_candidates_unverified",
+      "cas_candidate_identifiers": ["7773-01-5","13446-34-9"]
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -8864,7 +8954,9 @@
       "concentration_de": "Monohydrat",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -9209,7 +9301,9 @@
       "concentration_de": "technisch, regeneriert",
       "packaging_en": "IBC, drums or bulk transport, subject to supplier confirmation",
       "packaging_hu": "IBC, hordó vagy ömlesztett szállítás, beszállítói visszaigazolás szerint",
-      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung"
+      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -9437,7 +9531,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "IBC (1000 L), drums (200 L)",
       "packaging_hu": "IBC (1000 L), hordó (200 L)",
-      "packaging_de": "IBC (1000 L), Fässer (200 L)"
+      "packaging_de": "IBC (1000 L), Fässer (200 L)",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -9552,7 +9648,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "IBC, drums or bulk transport, subject to supplier confirmation",
       "packaging_hu": "IBC, hordó vagy ömlesztett szállítás, beszállítói visszaigazolás szerint",
-      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung"
+      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -9903,7 +10001,9 @@
       "concentration_de": "Industrie-, USP-/Lebensmittel- und Futtermittelqualität",
       "packaging_en": "IBC (1000 L), drums (200 L), tanker",
       "packaging_hu": "IBC (1000 L), hordó (200 L), tartályautó",
-      "packaging_de": "IBC (1000 L), Fässer (200 L), Tankwagen"
+      "packaging_de": "IBC (1000 L), Fässer (200 L), Tankwagen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -10137,7 +10237,11 @@
       "concentration_de": "wasserfrei, Trihydrat",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric",
+      "cas_identifier_status": "multiple_candidates_unverified",
+      "cas_candidate_identifiers": ["127-09-3","6131-90-4"]
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -10250,7 +10354,9 @@
       "concentration_de": "granuliert",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -10367,7 +10473,9 @@
       "concentration_de": "Lebensmittel- und technische Qualität",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -10490,7 +10598,9 @@
       "concentration_de": "(Natron)",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -10609,7 +10719,9 @@
       "concentration_de": "Flocken",
       "packaging_en": "bagged, BigBag; IBC, tanker (solution)",
       "packaging_hu": "zsákos, BigBag; IBC, tartályautó (oldat)",
-      "packaging_de": "Sackware, BigBag; IBC, Tankwagen (Lösung)"
+      "packaging_de": "Sackware, BigBag; IBC, Tankwagen (Lösung)",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -10962,7 +11074,9 @@
       "concentration_de": "leicht",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -11081,7 +11195,9 @@
       "concentration_de": "schwer",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -11204,7 +11320,9 @@
       "concentration_de": "(Natriumpyrosulfit)",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -11319,7 +11437,9 @@
       "concentration_de": "wasserfrei; Pentahydrat",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -11436,7 +11556,9 @@
       "concentration_de": "technische und Futtermittelqualität",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -11551,7 +11673,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -12011,7 +12135,9 @@
       "concentration_de": "wasserfrei (Salt-Cake / Industriequalität)",
       "packaging_en": "Big bagged, bagged",
       "packaging_hu": "BigBag és zsákos",
-      "packaging_de": "BigBag und Sackware"
+      "packaging_de": "BigBag und Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -12130,7 +12256,9 @@
       "concentration_de": "technische und Lebensmittelqualität",
       "packaging_en": "bagged, BigBag",
       "packaging_hu": "zsákos, BigBag",
-      "packaging_de": "Sackware, BigBag"
+      "packaging_de": "Sackware, BigBag",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -12249,7 +12377,9 @@
       "concentration_de": "Lösungen",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -12479,7 +12609,9 @@
       "concentration_de": "Dihydrat",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -12705,7 +12837,9 @@
       "concentration_de": "Pentahydrat",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -12941,7 +13075,9 @@
       "concentration_de": "Pharmakopöe-Qualität",
       "packaging_en": "IBC, drums or bulk transport, subject to supplier confirmation",
       "packaging_hu": "IBC, hordó vagy ömlesztett szállítás, beszállítói visszaigazolás szerint",
-      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung"
+      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -13060,7 +13196,9 @@
       "concentration_de": "technisch, regeneriert",
       "packaging_en": "IBC, drums or bulk transport, subject to supplier confirmation",
       "packaging_hu": "IBC, hordó vagy ömlesztett szállítás, beszállítói visszaigazolás szerint",
-      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung"
+      "packaging_de": "IBC, Fässer oder lose Lieferung, jeweils vorbehaltlich Lieferantenbestätigung",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -13181,7 +13319,9 @@
       "concentration_de": "Streusalz; Vakuumsalz; Tablettensalz",
       "packaging_en": "Big bagged, bulk, bagged",
       "packaging_hu": "BigBag, ömlesztett és zsákos",
-      "packaging_de": "BigBag, lose Ware und Sackware"
+      "packaging_de": "BigBag, lose Ware und Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -13296,7 +13436,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -13411,7 +13553,9 @@
       "concentration_de": "technische Qualität",
       "packaging_en": "Drums (200 L), IBC",
       "packaging_hu": "hordó (200 L), IBC",
-      "packaging_de": "Fässer (200 L), IBC"
+      "packaging_de": "Fässer (200 L), IBC",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -13640,7 +13784,9 @@
       "concentration_de": "Dihydrat in Lebensmittelqualität",
       "packaging_en": "bagged",
       "packaging_hu": "zsákos",
-      "packaging_de": "Sackware"
+      "packaging_de": "Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -13761,7 +13907,9 @@
       "concentration_de": "Dodekahydrat, wasserfrei",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -13885,7 +14033,9 @@
       "concentration_de": "Streusalz; Vakuumsalz; Tablettensalz",
       "packaging_en": "Big bagged, bulk, bagged",
       "packaging_hu": "BigBag, ömlesztett és zsákos",
-      "packaging_de": "BigBag, lose Ware und Sackware"
+      "packaging_de": "BigBag, lose Ware und Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -14117,7 +14267,9 @@
       "concentration_de": "Streusalz; Vakuumsalz; Tablettensalz",
       "packaging_en": "Big bagged, bulk, bagged",
       "packaging_hu": "BigBag, ömlesztett és zsákos",
-      "packaging_de": "BigBag, lose Ware und Sackware"
+      "packaging_de": "BigBag, lose Ware und Sackware",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -14230,7 +14382,9 @@
       "concentration_de": "Monohydrat",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -14345,7 +14499,9 @@
       "concentration_de": "Monohydrat, Heptahydrat",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric"
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -14685,7 +14841,11 @@
       "concentration_de": "A, B1, B12, B5, B6, C, D3, E, H, K3",
       "packaging_en": "Confirmed individually for each B2B inquiry",
       "packaging_hu": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
-      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen"
+      "packaging_de": "Für jede B2B-Anfrage individuell zu bestätigen",
+      "concentration_value_verified": false,
+      "concentration_semantics": "grade_or_form_descriptor_not_numeric",
+      "cas_identifier_status": "supplier_identity_required",
+      "cas_candidate_identifiers": []
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
