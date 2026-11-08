@@ -121,6 +121,9 @@ form_only_families = {
     "etkezesi-so-food",
     "glicin-industrial",
     "izopropil-alkohol-technikai-regeneralt-industrial",
+    "kalium-ferrocianid-food",
+    "kalium-hidroxid-pikkelyes-industrial",
+    "karbamid-ipari-kezeletlen-industrial",
 }
 old_form_labels = {
     "en": "<dt>Grade / concentration</dt>",
