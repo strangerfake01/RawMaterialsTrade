@@ -1,0 +1,3242 @@
+[
+  {
+    "product_id": "aceton-technikai-regeneralt-industrial",
+    "claim": "CAS 67-64-1 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/180",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C3H6O; catalogue formula=(CH₃)₂CO"
+  },
+  {
+    "product_id": "aceton-technikai-regeneralt-industrial",
+    "claim": "Wikidata entity for CAS 67-64-1",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q49546",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=acetone; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "aceton-technikai-regeneralt-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=67-64-1",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "aluminium-szulfat-03-mm-38-mm-industrial",
+    "claim": "CAS 10043-01-3 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24850",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Al2O12S3; catalogue formula=Al₂(SO₄)₃"
+  },
+  {
+    "product_id": "aluminium-szulfat-03-mm-38-mm-industrial",
+    "claim": "Wikidata entity for CAS 10043-01-3",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q421857",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=aluminium sulfate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "aluminium-szulfat-03-mm-38-mm-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-01-3",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "aluminium-szulfat-oldat-industrial",
+    "claim": "CAS 10043-01-3 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24850",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Al2O12S3; catalogue formula=Al₂(SO₄)₃"
+  },
+  {
+    "product_id": "aluminium-szulfat-oldat-industrial",
+    "claim": "Wikidata entity for CAS 10043-01-3",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q421857",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=aluminium sulfate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "aluminium-szulfat-oldat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-01-3",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "ammonia-oldat-24-industrial",
+    "claim": "CAS 1336-21-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/222",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H3N; catalogue formula=NH₃ (aq)"
+  },
+  {
+    "product_id": "ammonia-oldat-24-industrial",
+    "claim": "Wikidata entity for CAS 1336-21-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q421888",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=ammonia solution; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "ammonia-oldat-24-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1336-21-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "ammonium-klorid-industrial",
+    "claim": "CAS 12125-02-9 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/25423",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=ClH2N; catalogue formula=NH₄Cl"
+  },
+  {
+    "product_id": "ammonium-klorid-industrial",
+    "claim": "Wikidata entity for CAS 12125-02-9",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q188543",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=ammonium chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "ammonium-klorid-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=12125-02-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "ammonium-nitrat-industrial",
+    "claim": "CAS 6484-52-2 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/22985",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H4N2O3; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "ammonium-nitrat-industrial",
+    "claim": "Wikidata entity for CAS 6484-52-2",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q182329",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=ammonium nitrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "ammonium-nitrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=6484-52-2",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "ammonium-szulfat-industrial",
+    "claim": "CAS 7783-20-2 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/783",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H2; catalogue formula=(NH₄)₂SO₄"
+  },
+  {
+    "product_id": "ammonium-szulfat-industrial",
+    "claim": "Wikidata entity for CAS 7783-20-2",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q191831",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=ammonium sulfate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "ammonium-szulfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7783-20-2",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "aszkorbinsav-food",
+    "claim": "CAS 50-81-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/190531",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C10H15F2N5S; catalogue formula=C₆H₈O₆"
+  },
+  {
+    "product_id": "aszkorbinsav-food",
+    "claim": "Wikidata entity for CAS 50-81-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q199678",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=vitamin C; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "aszkorbinsav-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=50-81-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "borax-dekahidrat-industrial",
+    "claim": "CAS 1303-96-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/159383",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=BNa3O3; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "borax-dekahidrat-industrial",
+    "claim": "Wikidata entity for CAS 1303-96-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q21060906",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium tetraborate octahydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "borax-dekahidrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1303-96-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "borax-pentahidrat-industrial",
+    "claim": "CAS 12179-04-3 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/57347062",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=B4H10Na10O17-2; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "borax-pentahidrat-industrial",
+    "claim": "Wikidata entity for CAS 12179-04-3",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q21060907",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium tetraborate pentahydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "borax-pentahidrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=12179-04-3",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "borken-food",
+    "claim": "CAS 16731-55-8 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/28019",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=K2O5S2; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "borken-food",
+    "claim": "Wikidata entity for CAS 16731-55-8",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q417881",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=potassium metabisulfite; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "borken-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=16731-55-8",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "borsav-industrial",
+    "claim": "CAS 10043-35-3 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7628",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=BH3O3; catalogue formula=H₃BO₃"
+  },
+  {
+    "product_id": "borsav-industrial",
+    "claim": "Wikidata entity for CAS 10043-35-3",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q187045",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=orthoboric acid; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "borsav-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-35-3",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "butanol-industrial",
+    "claim": "CAS 71-36-3 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/263",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C4H10O; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "butanol-industrial",
+    "claim": "Wikidata entity for CAS 71-36-3",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q16391",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=butan-1-ol; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "butanol-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=71-36-3",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "butil-diglikol-industrial",
+    "claim": "CAS 112-34-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8177",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C8H18O3; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "butil-diglikol-industrial",
+    "claim": "Wikidata entity for CAS 112-34-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q1018210",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=diethylene glycol monobutyl ether; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "butil-diglikol-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=112-34-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "ciklohexanon-industrial",
+    "claim": "CAS 108-94-1 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7966",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C6H12O; catalogue formula=C₆H₁₀O"
+  },
+  {
+    "product_id": "ciklohexanon-industrial",
+    "claim": "Wikidata entity for CAS 108-94-1",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q409178",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=cyclohexanone; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "ciklohexanon-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=108-94-1",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "cink-klorid-feed",
+    "claim": "CAS 7646-85-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5727",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Cl2Zn; catalogue formula=ZnCl₂"
+  },
+  {
+    "product_id": "cink-klorid-feed",
+    "claim": "Wikidata entity for CAS 7646-85-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q204714",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=zinc chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "cink-klorid-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7646-85-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "cink-klorid-vizmentes-industrial",
+    "claim": "CAS 7646-85-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5727",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Cl2Zn; catalogue formula=ZnCl₂"
+  },
+  {
+    "product_id": "cink-klorid-vizmentes-industrial",
+    "claim": "Wikidata entity for CAS 7646-85-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q204714",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=zinc chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "cink-klorid-vizmentes-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7646-85-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "cink-oxid-industrial",
+    "claim": "CAS 1314-13-2 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14806",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=OZn; catalogue formula=ZnO"
+  },
+  {
+    "product_id": "cink-oxid-industrial",
+    "claim": "Wikidata entity for CAS 1314-13-2",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q190077",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=zinc oxide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "cink-oxid-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1314-13-2",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "cink-szulfat-monohidrat-feed",
+    "claim": "CAS 7446-19-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24424",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=O4SZn; catalogue formula=ZnSO₄"
+  },
+  {
+    "product_id": "cink-szulfat-monohidrat-feed",
+    "claim": "Wikidata entity for CAS 7446-19-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q27286751",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=zinc sulfate monohydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "cink-szulfat-monohidrat-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7446-19-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "cink-szulfat-monohidrat-heptahidrat-industrial",
+    "claim": "CAS 7446-19-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24424",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=O4SZn; catalogue formula=ZnSO₄"
+  },
+  {
+    "product_id": "cink-szulfat-monohidrat-heptahidrat-industrial",
+    "claim": "Wikidata entity for CAS 7446-19-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q27286751",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=zinc sulfate monohydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "cink-szulfat-monohidrat-heptahidrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7446-19-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "citromsav-monohidrat-anhidrat-food",
+    "claim": "CAS 77-92-9 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/311",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C6H8O7; catalogue formula=C₆H₈O₇"
+  },
+  {
+    "product_id": "citromsav-monohidrat-anhidrat-food",
+    "claim": "Wikidata entity for CAS 77-92-9",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q159683",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=citric acid; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "citromsav-monohidrat-anhidrat-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=77-92-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "diammonium-hidrogenfoszfat-industrial",
+    "claim": "CAS 7783-28-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24540",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H9N2O4P; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "diammonium-hidrogenfoszfat-industrial",
+    "claim": "Wikidata entity for CAS 7783-28-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q418889",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=dibasic ammonium phosphate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "diammonium-hidrogenfoszfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7783-28-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "dietilen-glikol-industrial",
+    "claim": "CAS 111-46-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8117",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C4H10O3; catalogue formula=C₄H₁₀O₃"
+  },
+  {
+    "product_id": "dietilen-glikol-industrial",
+    "claim": "Wikidata entity for CAS 111-46-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q421902",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=diethylene glycol; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "dietilen-glikol-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=111-46-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "dikalium-hidrogen-foszfat-food",
+    "claim": "CAS 7758-11-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24450",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=HK2O4P; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "dikalium-hidrogen-foszfat-food",
+    "claim": "Wikidata entity for CAS 7758-11-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q403721",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=dibasic potassium phosphate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "dikalium-hidrogen-foszfat-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-11-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "dinatrium-pirofoszfat-food",
+    "claim": "CAS 7758-16-9 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24451",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H2Na2O7P2; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "dinatrium-pirofoszfat-food",
+    "claim": "Wikidata entity for CAS 7758-16-9",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q418498",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=disodium pyrophosphate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "dinatrium-pirofoszfat-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-16-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "dinatriumfoszfat-industrial",
+    "claim": "CAS 7558-79-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24203",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=HNa2O4P; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "dinatriumfoszfat-industrial",
+    "claim": "Wikidata entity for CAS 7558-79-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q418448",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=dibasic sodium phosphate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "dinatriumfoszfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7558-79-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "dinatriumpirofoszfat-industrial",
+    "claim": "CAS 7758-16-9 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24451",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H2Na2O7P2; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "dinatriumpirofoszfat-industrial",
+    "claim": "Wikidata entity for CAS 7758-16-9",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q418498",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=disodium pyrophosphate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "dinatriumpirofoszfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-16-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "ecetsav-20-50-60-70-80-99-8-industrial",
+    "claim": "CAS 64-19-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/175",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C2H3O2-; catalogue formula=CH₃COOH"
+  },
+  {
+    "product_id": "ecetsav-20-50-60-70-80-99-8-industrial",
+    "claim": "Wikidata entity for CAS 64-19-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q47512",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=acetic acid; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "ecetsav-20-50-60-70-80-99-8-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=64-19-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
+    "claim": "CAS 64-19-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/175",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C2H3O2-; catalogue formula=CH₃COOH"
+  },
+  {
+    "product_id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
+    "claim": "Wikidata entity for CAS 64-19-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q47512",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=acetic acid; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=64-19-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "ecetsavanhidrid-industrial",
+    "claim": "CAS 108-24-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7918",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C4H6O3; catalogue formula=(CH₃CO)₂O"
+  },
+  {
+    "product_id": "ecetsavanhidrid-industrial",
+    "claim": "Wikidata entity for CAS 108-24-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q407775",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=acetic anhydride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "ecetsavanhidrid-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=108-24-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "edta-na2-na4-industrial",
+    "claim": "CAS 6381-92-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6049",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C10H16N2O8; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "edta-na2-na4-industrial",
+    "claim": "Wikidata entity for CAS 6381-92-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q27133406",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=EDTA disodium salt dihydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "edta-na2-na4-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=6381-92-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "etil-acetat-technikai-regeneralt-industrial",
+    "claim": "CAS 141-78-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8857",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C4H8O2; catalogue formula=CH₃COOC₂H₅"
+  },
+  {
+    "product_id": "etil-acetat-technikai-regeneralt-industrial",
+    "claim": "Wikidata entity for CAS 141-78-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q407153",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=ethyl acetate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "etil-acetat-technikai-regeneralt-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=141-78-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "etkezesi-so-food",
+    "claim": "CAS 7647-14-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=ClNa; catalogue formula=NaCl"
+  },
+  {
+    "product_id": "etkezesi-so-food",
+    "claim": "Wikidata entity for CAS 7647-14-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q2314",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "etkezesi-so-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-14-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "foszforsav-75-85-food",
+    "claim": "CAS 7664-38-2 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1004",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H3O4P; catalogue formula=H₃PO₄"
+  },
+  {
+    "product_id": "foszforsav-75-85-food",
+    "claim": "Wikidata entity for CAS 7664-38-2",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q184782",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=phosphoric acid; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "foszforsav-75-85-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7664-38-2",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "foszforsav-75-industrial",
+    "claim": "CAS 7664-38-2 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1004",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H3O4P; catalogue formula=H₃PO₄"
+  },
+  {
+    "product_id": "foszforsav-75-industrial",
+    "claim": "Wikidata entity for CAS 7664-38-2",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q184782",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=phosphoric acid; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "foszforsav-75-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7664-38-2",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "glicerin-99-5-food",
+    "claim": "CAS 56-81-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C3H8O3; catalogue formula=C₃H₈O₃"
+  },
+  {
+    "product_id": "glicerin-99-5-food",
+    "claim": "Wikidata entity for CAS 56-81-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q132501",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=glycerol; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "glicerin-99-5-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=56-81-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "glicerin-industrial",
+    "claim": "CAS 56-81-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C3H8O3; catalogue formula=C₃H₈O₃"
+  },
+  {
+    "product_id": "glicerin-industrial",
+    "claim": "Wikidata entity for CAS 56-81-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q132501",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=glycerol; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "glicerin-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=56-81-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "glicin-industrial",
+    "claim": "CAS 56-40-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/750",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C2H5NO2; catalogue formula=C₂H₅NO₂"
+  },
+  {
+    "product_id": "glicin-industrial",
+    "claim": "Wikidata entity for CAS 56-40-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q106345678",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=glycine zwitterion; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "glicin-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=56-40-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "hangyasav-85-industrial",
+    "claim": "CAS 64-18-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/283",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CHO2-; catalogue formula=HCOOH"
+  },
+  {
+    "product_id": "hangyasav-85-industrial",
+    "claim": "Wikidata entity for CAS 64-18-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q161233",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=formic acid; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "hangyasav-85-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=64-18-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "hidrogen-peroxid-35-50-60-industrial",
+    "claim": "CAS 7722-84-1 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/784",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H2O2; catalogue formula=H₂O₂"
+  },
+  {
+    "product_id": "hidrogen-peroxid-35-50-60-industrial",
+    "claim": "Wikidata entity for CAS 7722-84-1",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q171877",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=hydrogen peroxide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "hidrogen-peroxid-35-50-60-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7722-84-1",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "ioncserelt-viz-industrial",
+    "claim": "CAS 7732-18-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H2O; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "ioncserelt-viz-industrial",
+    "claim": "Wikidata entity for CAS 7732-18-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q274959",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=distilled water; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "ioncserelt-viz-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7732-18-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "izopropil-alkohol-technikai-regeneralt-industrial",
+    "claim": "CAS 67-63-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3776",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C3H8O; catalogue formula=C₃H₇OH"
+  },
+  {
+    "product_id": "izopropil-alkohol-technikai-regeneralt-industrial",
+    "claim": "Wikidata entity for CAS 67-63-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q16392",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=isopropyl alcohol; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "izopropil-alkohol-technikai-regeneralt-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=67-63-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kalcium-jodat-feed",
+    "claim": "CAS 7789-80-2 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24619",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CaI2O6; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "kalcium-jodat-feed",
+    "claim": "Wikidata entity for CAS 7789-80-2",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q2185998",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=calcium iodate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kalcium-jodat-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7789-80-2",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kalcium-karbonat-food",
+    "claim": "CAS 471-34-1 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10112",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CCaO3; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "kalcium-karbonat-food",
+    "claim": "Wikidata entity for CAS 471-34-1",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q23767",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=calcium carbonate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kalcium-karbonat-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=471-34-1",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kalcium-klorid-2025-oldat-deicing",
+    "claim": "CAS 10043-52-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/271",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Ca+2; catalogue formula=CaCl₂"
+  },
+  {
+    "product_id": "kalcium-klorid-2025-oldat-deicing",
+    "claim": "Wikidata entity for CAS 10043-52-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q208451",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=calcium chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kalcium-klorid-2025-oldat-deicing",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-52-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kalcium-klorid-7780-food",
+    "claim": "CAS 10043-52-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/271",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Ca+2; catalogue formula=CaCl₂"
+  },
+  {
+    "product_id": "kalcium-klorid-7780-food",
+    "claim": "Wikidata entity for CAS 10043-52-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q208451",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=calcium chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kalcium-klorid-7780-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-52-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
+    "claim": "CAS 10043-52-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/271",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Ca+2; catalogue formula=CaCl₂"
+  },
+  {
+    "product_id": "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
+    "claim": "Wikidata entity for CAS 10043-52-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q208451",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=calcium chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10043-52-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kalium-ferrocianid-food",
+    "claim": "CAS 13943-58-3 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/26250",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C6FeK3N6; catalogue formula=K₄[Fe(CN)₆]"
+  },
+  {
+    "product_id": "kalium-ferrocianid-food",
+    "claim": "Wikidata entity for CAS 13943-58-3",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q422017",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=potassium hexacyanidoferrate(II); sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kalium-ferrocianid-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=13943-58-3",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kalium-hidroxid-oldat-21-45-4850-industrial",
+    "claim": "CAS 1310-58-3 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14797",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=HKO; catalogue formula=KOH"
+  },
+  {
+    "product_id": "kalium-hidroxid-oldat-21-45-4850-industrial",
+    "claim": "Wikidata entity for CAS 1310-58-3",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q132298",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=potassium hydroxide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kalium-hidroxid-oldat-21-45-4850-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1310-58-3",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kalium-hidroxid-pikkelyes-industrial",
+    "claim": "CAS 1310-58-3 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14797",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=HKO; catalogue formula=KOH"
+  },
+  {
+    "product_id": "kalium-hidroxid-pikkelyes-industrial",
+    "claim": "Wikidata entity for CAS 1310-58-3",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q132298",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=potassium hydroxide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kalium-hidroxid-pikkelyes-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1310-58-3",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kalium-jodat-feed",
+    "claim": "CAS 7758-05-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/81757",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C7H7NO2; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "kalium-jodat-feed",
+    "claim": "Wikidata entity for CAS 7758-05-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q414599",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=potassium iodate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kalium-jodat-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-05-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kalium-jodid-feed",
+    "claim": "CAS 7681-11-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/4875",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=IK; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "kalium-jodid-feed",
+    "claim": "Wikidata entity for CAS 7681-11-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q121874",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=potassium iodide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kalium-jodid-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7681-11-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kalium-karbonat-industrial",
+    "claim": "CAS 584-08-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11430",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CK2O3; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "kalium-karbonat-industrial",
+    "claim": "Wikidata entity for CAS 584-08-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q379885",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=potassium carbonate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kalium-karbonat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=584-08-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "karbamid-ipari-kezeletlen-industrial",
+    "claim": "CAS 57-13-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1176",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CH4N2O; catalogue formula=CO(NH₂)₂"
+  },
+  {
+    "product_id": "karbamid-ipari-kezeletlen-industrial",
+    "claim": "Wikidata entity for CAS 57-13-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q48318",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=urea; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "karbamid-ipari-kezeletlen-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=57-13-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kenpor-industrial",
+    "claim": "CAS 7704-34-9 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/402",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H2S; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "kenpor-industrial",
+    "claim": "Wikidata entity for CAS 7704-34-9",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q682",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sulfur; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kenpor-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7704-34-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kensav-32-37-50-9597-industrial",
+    "claim": "CAS 7664-93-9 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1118",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H2O4S; catalogue formula=H₂SO₄"
+  },
+  {
+    "product_id": "kensav-32-37-50-9597-industrial",
+    "claim": "Wikidata entity for CAS 7664-93-9",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q4118",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sulfuric acid; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kensav-32-37-50-9597-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7664-93-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "klormesz-industrial",
+    "claim": "CAS 7778-54-3 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24504",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CaCl2O2; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "klormesz-industrial",
+    "claim": "Wikidata entity for CAS 7778-54-3",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q407300",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=calcium hypochlorite; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "klormesz-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7778-54-3",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "kobalt-karbonat-feed",
+    "claim": "CAS 513-79-1 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10565",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CCoO3; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "kobalt-karbonat-feed",
+    "claim": "Wikidata entity for CAS 513-79-1",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q419804",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=cobalt(II) carbonate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "kobalt-karbonat-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=513-79-1",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "magnezium-karbonat-konnyu-nehez-industrial",
+    "claim": "CAS 546-93-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11029",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CMgO3; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "magnezium-karbonat-konnyu-nehez-industrial",
+    "claim": "Wikidata entity for CAS 546-93-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q407931",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=magnesium carbonate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "magnezium-karbonat-konnyu-nehez-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=546-93-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "magnezium-klorid-food",
+    "claim": "CAS 7791-18-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/888",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Mg+2; catalogue formula=MgCl₂·6H₂O"
+  },
+  {
+    "product_id": "magnezium-klorid-food",
+    "claim": "Wikidata entity for CAS 7791-18-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q19364448",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=magnesium chloride hexahydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "magnezium-klorid-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7791-18-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "magnezium-klorid-hexahidrat-industrial",
+    "claim": "CAS 7791-18-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/888",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Mg+2; catalogue formula=MgCl₂·6H₂O"
+  },
+  {
+    "product_id": "magnezium-klorid-hexahidrat-industrial",
+    "claim": "Wikidata entity for CAS 7791-18-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q19364448",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=magnesium chloride hexahydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "magnezium-klorid-hexahidrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7791-18-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "magnezium-nitrat-industrial",
+    "claim": "CAS 10377-60-3 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/25212",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=MgN2O6; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "magnezium-nitrat-industrial",
+    "claim": "Wikidata entity for CAS 10377-60-3",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q411014",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=magnesium nitrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "magnezium-nitrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10377-60-3",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "magnezium-oxid-feed",
+    "claim": "CAS 1309-48-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14792",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=MgO; catalogue formula=MgO"
+  },
+  {
+    "product_id": "magnezium-oxid-feed",
+    "claim": "Wikidata entity for CAS 1309-48-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q214769",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=magnesium oxide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "magnezium-oxid-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1309-48-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "magnezium-oxid-nehez-industrial",
+    "claim": "CAS 1309-48-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14792",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=MgO; catalogue formula=MgO"
+  },
+  {
+    "product_id": "magnezium-oxid-nehez-industrial",
+    "claim": "Wikidata entity for CAS 1309-48-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q214769",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=magnesium oxide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "magnezium-oxid-nehez-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1309-48-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "magnezium-szulfat-industrial",
+    "claim": "CAS 7487-88-9 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1639",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C2H4N4; catalogue formula=MgSO₄"
+  },
+  {
+    "product_id": "magnezium-szulfat-industrial",
+    "claim": "Wikidata entity for CAS 7487-88-9",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q288266",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=magnesium sulfate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "magnezium-szulfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7487-88-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "maleinsav-industrial",
+    "claim": "CAS 110-16-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/723",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C4H4O4; catalogue formula=C₄H₄O₄"
+  },
+  {
+    "product_id": "maleinsav-industrial",
+    "claim": "Wikidata entity for CAS 110-16-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q42038",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=maleic acid; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "maleinsav-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=110-16-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "mangan-ii-szulfat-monohidrat-industrial",
+    "claim": "CAS 10034-96-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24580",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=MnO4S; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "mangan-ii-szulfat-monohidrat-industrial",
+    "claim": "Wikidata entity for CAS 10034-96-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q12447682",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=manganese(II) sulfate monohydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "mangan-ii-szulfat-monohidrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10034-96-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "mangan-karbonat-industrial",
+    "claim": "CAS 598-62-9 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11726",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CMnO3; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "mangan-karbonat-industrial",
+    "claim": "Wikidata entity for CAS 598-62-9",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q414659",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=manganese carbonate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "mangan-karbonat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=598-62-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "mangan-klorid-monohidrat-tetrahidrat-industrial",
+    "claim": "CAS 7773-01-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24480",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Cl2Mn; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "mangan-klorid-monohidrat-tetrahidrat-industrial",
+    "claim": "Wikidata entity for CAS 7773-01-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q421071",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=manganese(II) chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "mangan-klorid-monohidrat-tetrahidrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7773-01-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "mangan-klorid-tetrahidrat-feed",
+    "claim": "CAS 7773-01-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24480",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Cl2Mn; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "mangan-klorid-tetrahidrat-feed",
+    "claim": "Wikidata entity for CAS 7773-01-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q421071",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=manganese(II) chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "mangan-klorid-tetrahidrat-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7773-01-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "mangan-oxid-feed",
+    "claim": "CAS 1344-43-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14940",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=MnO; catalogue formula=MnO"
+  },
+  {
+    "product_id": "mangan-oxid-feed",
+    "claim": "Wikidata entity for CAS 1344-43-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q414669",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=manganese(II) oxide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "mangan-oxid-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1344-43-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "mangan-szulfat-monohidrat-feed",
+    "claim": "CAS 10034-96-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24580",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=MnO4S; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "mangan-szulfat-monohidrat-feed",
+    "claim": "Wikidata entity for CAS 10034-96-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q12447682",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=manganese(II) sulfate monohydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "mangan-szulfat-monohidrat-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10034-96-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "meszhidrat-15-industrial",
+    "claim": "CAS 1305-62-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14777",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CaH2O2; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "meszhidrat-15-industrial",
+    "claim": "Wikidata entity for CAS 1305-62-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q182849",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=calcium hydroxide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "meszhidrat-15-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1305-62-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "meszhidrat-industrial",
+    "claim": "CAS 1305-62-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14777",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CaH2O2; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "meszhidrat-industrial",
+    "claim": "Wikidata entity for CAS 1305-62-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q182849",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=calcium hydroxide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "meszhidrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1305-62-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "metanol-technikai-regeneralt-industrial",
+    "claim": "CAS 67-56-1 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/887",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CH4O; catalogue formula=CH₃OH"
+  },
+  {
+    "product_id": "metanol-technikai-regeneralt-industrial",
+    "claim": "Wikidata entity for CAS 67-56-1",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q14982",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=methanol; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "metanol-technikai-regeneralt-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=67-56-1",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "monoammonium-foszfat-industrial",
+    "claim": "CAS 7722-76-1 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24402",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H6NO4P; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "monoammonium-foszfat-industrial",
+    "claim": "Wikidata entity for CAS 7722-76-1",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q419087",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=monobasic ammonium phosphate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "monoammonium-foszfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7722-76-1",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "monoetanolamin-industrial",
+    "claim": "CAS 141-43-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/700",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C2H7NO; catalogue formula=HOCH₂CH₂NH₂"
+  },
+  {
+    "product_id": "monoetanolamin-industrial",
+    "claim": "Wikidata entity for CAS 141-43-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q410387",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=monoethanolamine; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "monoetanolamin-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=141-43-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "monoetilen-glikol-industrial",
+    "claim": "CAS 107-21-1 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/174",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C2H6O2; catalogue formula=C₂H₆O₂"
+  },
+  {
+    "product_id": "monoetilen-glikol-industrial",
+    "claim": "Wikidata entity for CAS 107-21-1",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q194207",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=ethylene glycol; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "monoetilen-glikol-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=107-21-1",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "monokalium-foszfat-industrial",
+    "claim": "CAS 7778-77-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24506",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H2KO4P; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "monokalium-foszfat-industrial",
+    "claim": "Wikidata entity for CAS 7778-77-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q415049",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=monobasic potassium phosphate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "monokalium-foszfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7778-77-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "mononatrium-foszfat-industrial",
+    "claim": "CAS 7558-80-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24204",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=H2NaO4P; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "mononatrium-foszfat-industrial",
+    "claim": "Wikidata entity for CAS 7558-80-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q415877",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=monosodium phosphate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "mononatrium-foszfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7558-80-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "monopropilenglikol-industrial",
+    "claim": "CAS 57-55-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1030",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C3H8O2; catalogue formula=C₃H₈O₂"
+  },
+  {
+    "product_id": "monopropilenglikol-industrial",
+    "claim": "Wikidata entity for CAS 57-55-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q161495",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=(RS)-propylene glycol; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "monopropilenglikol-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=57-55-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "na-hexametafoszfat-industrial",
+    "claim": "CAS 10124-56-8 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24968",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Na6O18P6; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "na-hexametafoszfat-industrial",
+    "claim": "Wikidata entity for CAS 10124-56-8",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q3116769",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=hexasodium hexametaphosphate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "na-hexametafoszfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10124-56-8",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-acetat-vizmentes-3h2o-industrial",
+    "claim": "CAS 127-09-3 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/517045",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C2H3NaO2; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "natrium-acetat-vizmentes-3h2o-industrial",
+    "claim": "Wikidata entity for CAS 127-09-3",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q339940",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium acetate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-acetat-vizmentes-3h2o-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=127-09-3",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-benzoat-gran-food",
+    "claim": "CAS 532-32-1 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/242",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C7H5O2-; catalogue formula=C₇H₅NaO₂"
+  },
+  {
+    "product_id": "natrium-benzoat-gran-food",
+    "claim": "Wikidata entity for CAS 532-32-1",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q423971",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium benzoate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-benzoat-gran-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=532-32-1",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-hidrogen-karbonat-industrial",
+    "claim": "CAS 144-55-8 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/767",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CH2O3; catalogue formula=NaHCO₃"
+  },
+  {
+    "product_id": "natrium-hidrogen-karbonat-industrial",
+    "claim": "Wikidata entity for CAS 144-55-8",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q179731",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium bicarbonate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-hidrogen-karbonat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=144-55-8",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-hidrogen-karbonat-szodabikarbona-food",
+    "claim": "CAS 144-55-8 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/767",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CH2O3; catalogue formula=NaHCO₃"
+  },
+  {
+    "product_id": "natrium-hidrogen-karbonat-szodabikarbona-food",
+    "claim": "Wikidata entity for CAS 144-55-8",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q179731",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium bicarbonate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-hidrogen-karbonat-szodabikarbona-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=144-55-8",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
+    "claim": "CAS 1310-73-2 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7303",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C3H4O3; catalogue formula=NaOH"
+  },
+  {
+    "product_id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
+    "claim": "Wikidata entity for CAS 1310-73-2",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q102769",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium hydroxide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1310-73-2",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-hidroxid-oldat-4850-industrial",
+    "claim": "CAS 1310-73-2 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7303",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C3H4O3; catalogue formula=NaOH"
+  },
+  {
+    "product_id": "natrium-hidroxid-oldat-4850-industrial",
+    "claim": "Wikidata entity for CAS 1310-73-2",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q102769",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium hydroxide; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-hidroxid-oldat-4850-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1310-73-2",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
+    "claim": "CAS 7681-52-9 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23665760",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=ClNaO; catalogue formula=NaOCl"
+  },
+  {
+    "product_id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
+    "claim": "Wikidata entity for CAS 7681-52-9",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q407204",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium hypochlorite; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7681-52-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-karbonat-konnyu-industrial",
+    "claim": "CAS 497-19-8 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10340",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CNa2O3; catalogue formula=Na₂CO₃"
+  },
+  {
+    "product_id": "natrium-karbonat-konnyu-industrial",
+    "claim": "Wikidata entity for CAS 497-19-8",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q190227",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium carbonate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-karbonat-konnyu-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=497-19-8",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-karbonat-nehez-industrial",
+    "claim": "CAS 497-19-8 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10340",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CNa2O3; catalogue formula=Na₂CO₃"
+  },
+  {
+    "product_id": "natrium-karbonat-nehez-industrial",
+    "claim": "Wikidata entity for CAS 497-19-8",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q190227",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium carbonate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-karbonat-nehez-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=497-19-8",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
+    "claim": "CAS 7681-57-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24346",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Na2O5S2; catalogue formula=Na₂S₂O₅"
+  },
+  {
+    "product_id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
+    "claim": "Wikidata entity for CAS 7681-57-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q284549",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium metabisulfite; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7681-57-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-metaszilikat-industrial",
+    "claim": "CAS 6834-92-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23266",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Na2O3Si; catalogue formula=Na₂SiO₃"
+  },
+  {
+    "product_id": "natrium-metaszilikat-industrial",
+    "claim": "Wikidata entity for CAS 6834-92-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q425397",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium metasilicate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-metaszilikat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=6834-92-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-molibdat-feed",
+    "claim": "CAS 7631-95-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/61424",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=MoNa2O4; catalogue formula=Na₂MoO₄"
+  },
+  {
+    "product_id": "natrium-molibdat-feed",
+    "claim": "Wikidata entity for CAS 7631-95-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q414518",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium molybdate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-molibdat-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7631-95-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-perkarbonat-industrial",
+    "claim": "CAS 15630-89-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/159762",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C2H6Na4O12; catalogue formula=2Na₂CO₃·3H₂O₂"
+  },
+  {
+    "product_id": "natrium-perkarbonat-industrial",
+    "claim": "Wikidata entity for CAS 15630-89-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q420070",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium percarbonate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-perkarbonat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=15630-89-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-permanganat-40-oldat-industrial",
+    "claim": "CAS 10101-50-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23673458",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=MnNaO4; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "natrium-permanganat-40-oldat-industrial",
+    "claim": "Wikidata entity for CAS 10101-50-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q411145",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium permanganate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-permanganat-40-oldat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10101-50-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-perszulfat-industrial",
+    "claim": "CAS 7775-27-1 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/62655",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Na2O8S2; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "natrium-perszulfat-industrial",
+    "claim": "Wikidata entity for CAS 7775-27-1",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q419438",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium persulfate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-perszulfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7775-27-1",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-szelenit-feed",
+    "claim": "CAS 10102-18-8 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24934",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Na2O3Se; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "natrium-szelenit-feed",
+    "claim": "Wikidata entity for CAS 10102-18-8",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q414626",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium selenite; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-szelenit-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10102-18-8",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-szulfat-industrial",
+    "claim": "CAS 7757-82-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24436",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Na2O4S; catalogue formula=Na₂SO₄"
+  },
+  {
+    "product_id": "natrium-szulfat-industrial",
+    "claim": "Wikidata entity for CAS 7757-82-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q211737",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium sulfate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-szulfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7757-82-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natrium-tripolifoszfat-industrial",
+    "claim": "CAS 7758-29-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24455",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Na5O10P3; catalogue formula=Na₅P₃O₁₀"
+  },
+  {
+    "product_id": "natrium-tripolifoszfat-industrial",
+    "claim": "Wikidata entity for CAS 7758-29-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q29145",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium tripolyphosphate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natrium-tripolifoszfat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-29-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "natronvizuveg-oldatok-industrial",
+    "claim": "CAS 1344-09-8 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23266",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Na2O3Si; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "natronvizuveg-oldatok-industrial",
+    "claim": "Wikidata entity for CAS 1344-09-8",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q72508125",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=Sodium silicate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "natronvizuveg-oldatok-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1344-09-8",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "propionsav-99-feed",
+    "claim": "CAS 79-09-4 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1032",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C3H6O2; catalogue formula=C₃H₆O₂"
+  },
+  {
+    "product_id": "propionsav-99-feed",
+    "claim": "Wikidata entity for CAS 79-09-4",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q422956",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=propionic acid; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "propionsav-99-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=79-09-4",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "rez-klorid-dihidrat-industrial",
+    "claim": "CAS 10125-13-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7360",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C5H10O2; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "rez-klorid-dihidrat-industrial",
+    "claim": "Wikidata entity for CAS 10125-13-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q27159078",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=copper(II) chloride dihydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "rez-klorid-dihidrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10125-13-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "rez-szulfat-feed",
+    "claim": "CAS 7758-99-8 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24462",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CuO4S; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "rez-szulfat-feed",
+    "claim": "Wikidata entity for CAS 7758-99-8",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q6135414",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=copper(II) sulfate pentahydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "rez-szulfat-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-99-8",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "rez-szulfat-pentahidrat-industrial",
+    "claim": "CAS 7758-99-8 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24462",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CuO4S; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "rez-szulfat-pentahidrat-industrial",
+    "claim": "Wikidata entity for CAS 7758-99-8",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q6135414",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=copper(II) sulfate pentahydrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "rez-szulfat-pentahidrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7758-99-8",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "saletromsav-20-50-53-60-industrial",
+    "claim": "CAS 7697-37-2 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/943",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=NO3-; catalogue formula=HNO₃"
+  },
+  {
+    "product_id": "saletromsav-20-50-53-60-industrial",
+    "claim": "Wikidata entity for CAS 7697-37-2",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q83320",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=nitric acid; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "saletromsav-20-50-53-60-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7697-37-2",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "sosav-gyogyszerkonyvi-food",
+    "claim": "CAS 7647-01-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/312",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Cl-; catalogue formula=HCl (aq)"
+  },
+  {
+    "product_id": "sosav-gyogyszerkonyvi-food",
+    "claim": "Wikidata entity for CAS 7647-01-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q211086",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=hydrogen chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "sosav-gyogyszerkonyvi-food",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-01-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "sosav-technikai-regeneralt-industrial",
+    "claim": "CAS 7647-01-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/312",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Cl-; catalogue formula=HCl (aq)"
+  },
+  {
+    "product_id": "sosav-technikai-regeneralt-industrial",
+    "claim": "Wikidata entity for CAS 7647-01-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q211086",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=hydrogen chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "sosav-technikai-regeneralt-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-01-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "sotabletta-industrial",
+    "claim": "CAS 7647-14-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=ClNa; catalogue formula=NaCl"
+  },
+  {
+    "product_id": "sotabletta-industrial",
+    "claim": "Wikidata entity for CAS 7647-14-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q2314",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "sotabletta-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-14-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "tiokarbamid-industrial",
+    "claim": "CAS 62-56-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/2723790",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=CH4N2S; catalogue formula=SC(NH₂)₂"
+  },
+  {
+    "product_id": "tiokarbamid-industrial",
+    "claim": "Wikidata entity for CAS 62-56-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q528995",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=thiourea; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "tiokarbamid-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=62-56-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "trietilen-glikol-industrial",
+    "claim": "CAS 112-27-6 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8172",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C6H14O4; catalogue formula=C₆H₁₄O₄"
+  },
+  {
+    "product_id": "trietilen-glikol-industrial",
+    "claim": "Wikidata entity for CAS 112-27-6",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q420630",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=triethylene glycol; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "trietilen-glikol-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=112-27-6",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "trinatrium-citrat-industrial",
+    "claim": "CAS 68-04-2 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6224",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=C6H5Na3O7; catalogue formula=Na₃C₆H₅O₇"
+  },
+  {
+    "product_id": "trinatrium-citrat-industrial",
+    "claim": "Wikidata entity for CAS 68-04-2",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q409728",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=trisodium citrate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "trinatrium-citrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=68-04-2",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
+    "claim": "CAS 7601-54-9 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24243",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Na3O4P; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
+    "claim": "Wikidata entity for CAS 7601-54-9",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q409501",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=trisodium phosphate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7601-54-9",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "utszoro-so-deicing",
+    "claim": "CAS 7647-14-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=ClNa; catalogue formula=NaCl"
+  },
+  {
+    "product_id": "utszoro-so-deicing",
+    "claim": "Wikidata entity for CAS 7647-14-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q2314",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "utszoro-so-deicing",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-14-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "utszoro-zeolit-deicing",
+    "claim": "CAS 1318-02-1 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/9942228",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Al2O5Si; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "utszoro-zeolit-deicing",
+    "claim": "Wikidata entity for CAS 1318-02-1",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q191323",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=Zeolite A; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "utszoro-zeolit-deicing",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=1318-02-1",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "vakuum-so-industrial",
+    "claim": "CAS 7647-14-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=ClNa; catalogue formula=NaCl"
+  },
+  {
+    "product_id": "vakuum-so-industrial",
+    "claim": "Wikidata entity for CAS 7647-14-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q2314",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=sodium chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "vakuum-so-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7647-14-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "vas-ii-szulfat-monohidrat-feed",
+    "claim": "CAS 7720-78-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24393",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=FeO4S; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "vas-ii-szulfat-monohidrat-feed",
+    "claim": "Wikidata entity for CAS 7720-78-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q214863",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=iron(II) sulfate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "vas-ii-szulfat-monohidrat-feed",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7720-78-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
+    "claim": "CAS 7720-78-7 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24393",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=FeO4S; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
+    "claim": "Wikidata entity for CAS 7720-78-7",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q214863",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=iron(II) sulfate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7720-78-7",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "vas-iii-klorid-40-oldat-industrial",
+    "claim": "CAS 7705-08-0 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24380",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Cl3Fe; catalogue formula=FeCl₃"
+  },
+  {
+    "product_id": "vas-iii-klorid-40-oldat-industrial",
+    "claim": "Wikidata entity for CAS 7705-08-0",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q399771",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=ferric chloride; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "vas-iii-klorid-40-oldat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=7705-08-0",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  },
+  {
+    "product_id": "vas-iii-szulfat-40-oldat-industrial",
+    "claim": "CAS 10028-22-5 chemical identity",
+    "source_type": "PubChem",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24826",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "PubChem formula=Fe2O12S3; catalogue formula=Confirmed upon supplier documentation"
+  },
+  {
+    "product_id": "vas-iii-szulfat-40-oldat-industrial",
+    "claim": "Wikidata entity for CAS 10028-22-5",
+    "source_type": "Wikidata",
+    "source_url": "https://www.wikidata.org/wiki/Q409021",
+    "accessed": "2026-11-08",
+    "evidence_status": "verified",
+    "notes": "label=ferric sulfate; sameAs only after human review of hydrate/solution context"
+  },
+  {
+    "product_id": "vas-iii-szulfat-40-oldat-industrial",
+    "claim": "ECHA substance information entry point",
+    "source_type": "ECHA",
+    "source_url": "https://echa.europa.eu/search-for-chemicals?p_p_id=echarevsubstance_WAR_echarevsubstanceportlet&_echarevsubstance_WAR_echarevsubstanceportlet_searchKeyword=10028-22-5",
+    "accessed": "2026-11-08",
+    "evidence_status": "editorial-link",
+    "notes": "Search entry by CAS; CLP/REACH details confirmed per selected SDS"
+  }
+]

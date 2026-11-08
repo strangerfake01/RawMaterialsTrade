@@ -1,42 +1,31 @@
-# Raw Materials Trade — Product Master Remediation Handoff
+# Raw Materials Trade — Product Master Remediation v2
 
-**Package:** `RawMaterialsTrade_PRODUCT_MASTER_REMEDIATION_2026-11.zip`  
-**Base commit (GitHub `main`):** `51fad6f121de388d22e87724432000b434b64903`  
-**Generated:** 2026-11-08 (Europe/Vienna)  
-**Operator action:** extract at repository root, review, open PR, do **not** merge/deploy without approval.
+**Package:** `RawMaterialsTrade_PRODUCT_MASTER_REMEDIATION_v2.zip`  
+**Base commit audited:** `68d378ea18917742d91076d14e595c0968ec0406` (`main`)  
+**Generated:** 2026-11-08 (Europe/Vienna)
 
-## What this package is
+## What changed in v2 vs prior package
+- Replaced generic FAQ boilerplate with **product-specific** FAQs (hydrate/concentration/food/feed/solution/regenerated where relevant).
+- Added **procurement checkpoints** per product using catalogue identity + PubChem/Wikidata evidence where available.
+- Built **product-level SOURCE-REGISTER.csv** (PubChem, Wikidata, ECHA entry points) with access dates.
+- Validated Wikidata QIDs by CAS; `sameAs` remains needs-confirmation unless Wikipedia URL heuristically matches label.
+- Cache-busted floating contact assets: `site.v20261108.js` + `a11y-fixes.v3.css` (permanent FAB visibility; matched cookie/contact tokens).
+- Restored/extended `tools/audit_release_contract.py` on this package (missing from audited main tree before this ZIP).
 
-A static-site remediation for catalogue discoverability, buyer/supplier pathways, floating contact reliability, and multilingual evidence links. It is safe to extract over a clean checkout of `main` at the base SHA above.
-
-## What this package is not
-
-- Not a full ECHA/EUR-Lex first-principles rewrite of every substance monograph.
-- Not a claim that every product is certified, in stock, or approved for every use.
-- Not a Cloudflare / form-backend / Turnstile / DNS change.
-- Not a merge of open **PR #13** (bentonite, L(+)-tartaric acid, butyl glycol). Those nine HTML files were intentionally left untouched.
-
-## Import instructions
-
-```bash
-git clone https://github.com/strangerfake01/RawMaterialsTrade.git
-cd RawMaterialsTrade
-git checkout main
-git checkout -b content/product-master-remediation-20261108
-# optional integrity check
-git rev-parse HEAD   # expect 51fad6f… or later main; re-diff if main moved
-unzip -o /path/to/RawMaterialsTrade_PRODUCT_MASTER_REMEDIATION_2026-11.zip
-python3 tools/audit_release_contract.py
-# review HANDOFF/*, then commit + open PR
-```
+## Counts
+- Families: 126
+- Language product pages: 378
+- Enriched in v2 (FAQ+checkpoints): 369
+- Reserved for open PR #13: 9
 
 ## Cloudflare configuration unchanged
+Worker / form-action / Turnstile / contact endpoint not redesigned.
 
-Worker URL, CSP / `form-action`, Turnstile, and contact endpoint strings were not redesigned. Form submit logic remains the existing shared script.
-
-## Completed product count
-
-- Catalogue families in repo: **126**
-- Language product pages: **378**
-- Pages enriched in this package (dual path + FAQ + qualify note): **369**
-- Reserved pending PR #13 (skipped): **9**
+## Import
+```bash
+git checkout 68d378ea18917742d91076d14e595c0968ec0406
+git checkout -b content/product-master-remediation-v2-20261108
+unzip -o RawMaterialsTrade_PRODUCT_MASTER_REMEDIATION_v2.zip
+python3 tools/audit_release_contract.py
+```
+Do not merge/deploy without separate approval. Resolve PR #13 before touching those nine pages.

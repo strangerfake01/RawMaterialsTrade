@@ -1,16 +1,17 @@
-# Visual QA — manual checklist
+# Visual QA
 
-After uploading to a preview branch, verify:
+Viewports targeted: 375 / 390 / 768 / 1024 / 1440.
 
-Viewports: 375, 390, 768, 1024, 1440.
+Local server: http://127.0.0.1:8765/
 
-Pages: homepage EN/HU/DE; one industrial, food, feed, de-icing product per language; catalogue; AI Trust.
+Screenshots (artifacts):
+- visual_qa_home_contact_top.png
+- visual_qa_home_contact_footer.png
+- visual_qa_product_contact_footer.png
+- visual_qa_mobile_product_contact.png
 
-Checks:
-1. Contact FAB remains visible at bottom-right while scrolling into footer.
-2. Cookie settings control remains bottom-left; matching height/padding with contact.
-3. Neither control overlaps essential content; Escape closes contact panel.
-4. Dark hero headings and qualification notes remain light-on-dark.
-5. Dual-path cards readable; FAQ accordions expand/collapse.
-6. No horizontal overflow on long chemical names.
-7. Background sections continue behind content (no clipped band).
+Checklist:
+1. Contact FAB visible bottom-right at top and after scrolling to footer.
+2. Cookie control bottom-left; matched height/padding with contact.
+3. Product checkpoints/FAQ readable; no dark-on-dark on hero notes.
+4. No horizontal overflow on long names at 390px.

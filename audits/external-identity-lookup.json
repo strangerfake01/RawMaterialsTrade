@@ -1,0 +1,1392 @@
+{
+  "generated": "2026-11-08",
+  "wikidata_by_cas": {
+    "112-34-5": {
+      "qid": "Q1018210",
+      "label": "diethylene glycol monobutyl ether"
+    },
+    "1310-73-2": {
+      "qid": "Q102769",
+      "label": "sodium hydroxide"
+    },
+    "10034-96-5": {
+      "qid": "Q12447682",
+      "label": "manganese(II) sulfate monohydrate"
+    },
+    "1310-58-3": {
+      "qid": "Q132298",
+      "label": "potassium hydroxide"
+    },
+    "144-55-8": {
+      "qid": "Q179731",
+      "label": "sodium bicarbonate"
+    },
+    "1305-62-0": {
+      "qid": "Q182849",
+      "label": "calcium hydroxide"
+    },
+    "10043-35-3": {
+      "qid": "Q187045",
+      "label": "orthoboric acid"
+    },
+    "12125-02-9": {
+      "qid": "Q188543",
+      "label": "ammonium chloride"
+    },
+    "1314-13-2": {
+      "qid": "Q190077",
+      "label": "zinc oxide"
+    },
+    "497-19-8": {
+      "qid": "Q190227",
+      "label": "sodium carbonate"
+    },
+    "1318-02-1": {
+      "qid": "Q191323",
+      "label": "Zeolite A"
+    },
+    "107-21-1": {
+      "qid": "Q194207",
+      "label": "ethylene glycol"
+    },
+    "10043-52-4": {
+      "qid": "Q208451",
+      "label": "calcium chloride"
+    },
+    "12179-04-3": {
+      "qid": "Q21060907",
+      "label": "sodium tetraborate pentahydrate"
+    },
+    "1303-96-4": {
+      "qid": "Q21060906",
+      "label": "sodium tetraborate octahydrate"
+    },
+    "1309-48-4": {
+      "qid": "Q214769",
+      "label": "magnesium oxide"
+    },
+    "471-34-1": {
+      "qid": "Q23767",
+      "label": "calcium carbonate"
+    },
+    "10125-13-0": {
+      "qid": "Q27159078",
+      "label": "copper(II) chloride dihydrate"
+    },
+    "1302-78-9": {
+      "qid": "Q27273576",
+      "label": "bentonite"
+    },
+    "10124-56-8": {
+      "qid": "Q3116769",
+      "label": "hexasodium hexametaphosphate"
+    },
+    "127-09-3": {
+      "qid": "Q339940",
+      "label": "sodium acetate"
+    },
+    "141-78-6": {
+      "qid": "Q407153",
+      "label": "ethyl acetate"
+    },
+    "108-24-7": {
+      "qid": "Q407775",
+      "label": "acetic anhydride"
+    },
+    "10028-22-5": {
+      "qid": "Q409021",
+      "label": "ferric sulfate"
+    },
+    "108-94-1": {
+      "qid": "Q409178",
+      "label": "cyclohexanone"
+    },
+    "141-43-5": {
+      "qid": "Q410387",
+      "label": "monoethanolamine"
+    },
+    "10377-60-3": {
+      "qid": "Q411014",
+      "label": "magnesium nitrate"
+    },
+    "10101-50-5": {
+      "qid": "Q411145",
+      "label": "sodium permanganate"
+    },
+    "10102-18-8": {
+      "qid": "Q414626",
+      "label": "sodium selenite"
+    },
+    "1344-43-0": {
+      "qid": "Q414669",
+      "label": "manganese(II) oxide"
+    },
+    "16731-55-8": {
+      "qid": "Q417881",
+      "label": "potassium metabisulfite"
+    },
+    "110-16-7": {
+      "qid": "Q42038",
+      "label": "maleic acid"
+    },
+    "15630-89-4": {
+      "qid": "Q420070",
+      "label": "sodium percarbonate"
+    },
+    "112-27-6": {
+      "qid": "Q420630",
+      "label": "triethylene glycol"
+    },
+    "111-76-2": {
+      "qid": "Q421557",
+      "label": "2-butoxyethanol"
+    },
+    "10043-01-3": {
+      "qid": "Q421857",
+      "label": "aluminium sulfate"
+    },
+    "111-46-6": {
+      "qid": "Q421902",
+      "label": "diethylene glycol"
+    },
+    "1336-21-6": {
+      "qid": "Q421888",
+      "label": "ammonia solution"
+    },
+    "13943-58-3": {
+      "qid": "Q422017",
+      "label": "potassium hexacyanidoferrate(II)"
+    },
+    "1344-09-8": {
+      "qid": "Q72508125",
+      "label": "Sodium silicate"
+    },
+    "56-40-6": {
+      "qid": "Q106345678",
+      "label": "glycine zwitterion"
+    },
+    "7681-11-0": {
+      "qid": "Q121874",
+      "label": "potassium iodide"
+    },
+    "56-81-5": {
+      "qid": "Q132501",
+      "label": "glycerol"
+    },
+    "67-56-1": {
+      "qid": "Q14982",
+      "label": "methanol"
+    },
+    "77-92-9": {
+      "qid": "Q159683",
+      "label": "citric acid"
+    },
+    "64-18-6": {
+      "qid": "Q161233",
+      "label": "formic acid"
+    },
+    "57-55-6": {
+      "qid": "Q161495",
+      "label": "(RS)-propylene glycol"
+    },
+    "67-63-0": {
+      "qid": "Q16392",
+      "label": "isopropyl alcohol"
+    },
+    "71-36-3": {
+      "qid": "Q16391",
+      "label": "butan-1-ol"
+    },
+    "6484-52-2": {
+      "qid": "Q182329",
+      "label": "ammonium nitrate"
+    },
+    "7664-38-2": {
+      "qid": "Q184782",
+      "label": "phosphoric acid"
+    },
+    "50-81-7": {
+      "qid": "Q199678",
+      "label": "vitamin C"
+    },
+    "7646-85-7": {
+      "qid": "Q204714",
+      "label": "zinc chloride"
+    },
+    "7647-01-0": {
+      "qid": "Q211086",
+      "label": "hydrogen chloride"
+    },
+    "7720-78-7": {
+      "qid": "Q214863",
+      "label": "iron(II) sulfate"
+    },
+    "7647-14-5": {
+      "qid": "Q2314",
+      "label": "sodium chloride"
+    },
+    "6381-92-6": {
+      "qid": "Q27133406",
+      "label": "EDTA disodium salt dihydrate"
+    },
+    "7446-19-7": {
+      "qid": "Q27286751",
+      "label": "zinc sulfate monohydrate"
+    },
+    "7681-57-4": {
+      "qid": "Q284549",
+      "label": "sodium metabisulfite"
+    },
+    "7487-88-9": {
+      "qid": "Q288266",
+      "label": "magnesium sulfate"
+    },
+    "584-08-7": {
+      "qid": "Q379885",
+      "label": "potassium carbonate"
+    },
+    "7705-08-0": {
+      "qid": "Q399771",
+      "label": "ferric chloride"
+    },
+    "7681-52-9": {
+      "qid": "Q407204",
+      "label": "sodium hypochlorite"
+    },
+    "546-93-0": {
+      "qid": "Q407931",
+      "label": "magnesium carbonate"
+    },
+    "7601-54-9": {
+      "qid": "Q409501",
+      "label": "trisodium phosphate"
+    },
+    "68-04-2": {
+      "qid": "Q409728",
+      "label": "trisodium citrate"
+    },
+    "7664-93-9": {
+      "qid": "Q4118",
+      "label": "sulfuric acid"
+    },
+    "7631-95-0": {
+      "qid": "Q414518",
+      "label": "sodium molybdate"
+    },
+    "598-62-9": {
+      "qid": "Q414659",
+      "label": "manganese carbonate"
+    },
+    "7558-80-7": {
+      "qid": "Q415877",
+      "label": "monosodium phosphate"
+    },
+    "7558-79-4": {
+      "qid": "Q418448",
+      "label": "dibasic sodium phosphate"
+    },
+    "513-79-1": {
+      "qid": "Q419804",
+      "label": "cobalt(II) carbonate"
+    },
+    "532-32-1": {
+      "qid": "Q423971",
+      "label": "sodium benzoate"
+    },
+    "6834-92-0": {
+      "qid": "Q425397",
+      "label": "sodium metasilicate"
+    },
+    "64-19-7": {
+      "qid": "Q47512",
+      "label": "acetic acid"
+    },
+    "57-13-6": {
+      "qid": "Q48318",
+      "label": "urea"
+    },
+    "67-64-1": {
+      "qid": "Q49546",
+      "label": "acetone"
+    },
+    "62-56-6": {
+      "qid": "Q528995",
+      "label": "thiourea"
+    },
+    "7704-34-9": {
+      "qid": "Q682",
+      "label": "sulfur"
+    },
+    "7697-37-2": {
+      "qid": "Q83320",
+      "label": "nitric acid"
+    },
+    "7722-84-1": {
+      "qid": "Q171877",
+      "label": "hydrogen peroxide"
+    },
+    "87-69-4": {
+      "qid": "Q18226455",
+      "label": "L-tartaric acid"
+    },
+    "7783-20-2": {
+      "qid": "Q191831",
+      "label": "ammonium sulfate"
+    },
+    "7791-18-6": {
+      "qid": "Q19364448",
+      "label": "magnesium chloride hexahydrate"
+    },
+    "7757-82-6": {
+      "qid": "Q211737",
+      "label": "sodium sulfate"
+    },
+    "7789-80-2": {
+      "qid": "Q2185998",
+      "label": "calcium iodate"
+    },
+    "7732-18-5": {
+      "qid": "Q274959",
+      "label": "distilled water"
+    },
+    "7758-29-4": {
+      "qid": "Q29145",
+      "label": "sodium tripolyphosphate"
+    },
+    "7758-11-4": {
+      "qid": "Q403721",
+      "label": "dibasic potassium phosphate"
+    },
+    "7778-54-3": {
+      "qid": "Q407300",
+      "label": "calcium hypochlorite"
+    },
+    "7758-05-6": {
+      "qid": "Q414599",
+      "label": "potassium iodate"
+    },
+    "7778-77-0": {
+      "qid": "Q415049",
+      "label": "monobasic potassium phosphate"
+    },
+    "7758-16-9": {
+      "qid": "Q418498",
+      "label": "disodium pyrophosphate"
+    },
+    "7783-28-0": {
+      "qid": "Q418889",
+      "label": "dibasic ammonium phosphate"
+    },
+    "7722-76-1": {
+      "qid": "Q419087",
+      "label": "monobasic ammonium phosphate"
+    },
+    "7775-27-1": {
+      "qid": "Q419438",
+      "label": "sodium persulfate"
+    },
+    "7773-01-5": {
+      "qid": "Q421071",
+      "label": "manganese(II) chloride"
+    },
+    "79-09-4": {
+      "qid": "Q422956",
+      "label": "propionic acid"
+    },
+    "7758-99-8": {
+      "qid": "Q6135414",
+      "label": "copper(II) sulfate pentahydrate"
+    }
+  },
+  "pubchem_by_cas": {
+    "67-64-1": {
+      "formula": "C3H6O",
+      "iupac": "propan-2-one",
+      "cid": 180
+    },
+    "10043-01-3": {
+      "formula": "Al2O12S3",
+      "iupac": "dialuminum;trisulfate",
+      "cid": 24850
+    },
+    "1336-21-6": {
+      "formula": "H3N",
+      "iupac": "azane",
+      "cid": 222
+    },
+    "12125-02-9": {
+      "formula": "ClH2N",
+      "iupac": null,
+      "cid": 25423
+    },
+    "6484-52-2": {
+      "formula": "H4N2O3",
+      "iupac": "azanium nitrate",
+      "cid": 22985
+    },
+    "7783-20-2": {
+      "formula": "H2",
+      "iupac": "molecular hydrogen",
+      "cid": 783
+    },
+    "50-81-7": {
+      "formula": "C10H15F2N5S",
+      "iupac": "4-N-cyclopropyl-6-(difluoromethylsulfanyl)-2-N-propan-2-yl-1,3,5-triazine-2,4-diamine",
+      "cid": 190531
+    },
+    "1302-78-9": {
+      "formula": "C6H12N4O9",
+      "iupac": "2-[bis(2-nitrooxyethyl)amino]ethyl nitrate",
+      "cid": 11499
+    },
+    "1303-96-4": {
+      "formula": "BNa3O3",
+      "iupac": "trisodium;borate",
+      "cid": 159383
+    },
+    "12179-04-3": {
+      "formula": "B4H10Na10O17-2",
+      "iupac": "decasodium;tetraborate;pentahydrate",
+      "cid": 57347062
+    },
+    "16731-55-8": {
+      "formula": "K2O5S2",
+      "iupac": null,
+      "cid": 28019
+    },
+    "87-69-4": {
+      "formula": "C4H6O6",
+      "iupac": "2,3-dihydroxybutanedioic acid",
+      "cid": 875
+    },
+    "10043-35-3": {
+      "formula": "BH3O3",
+      "iupac": "boric acid",
+      "cid": 7628
+    },
+    "71-36-3": {
+      "formula": "C4H10O",
+      "iupac": "butan-1-ol",
+      "cid": 263
+    },
+    "112-34-5": {
+      "formula": "C8H18O3",
+      "iupac": "2-(2-butoxyethoxy)ethanol",
+      "cid": 8177
+    },
+    "111-76-2": {
+      "formula": "C6H14O2",
+      "iupac": "2-butoxyethanol",
+      "cid": 8133
+    },
+    "108-94-1": {
+      "formula": "C6H12O",
+      "iupac": "cyclohexanol",
+      "cid": 7966
+    },
+    "7646-85-7": {
+      "formula": "Cl2Zn",
+      "iupac": "dichlorozinc",
+      "cid": 5727
+    },
+    "1314-13-2": {
+      "formula": "OZn",
+      "iupac": "oxozinc",
+      "cid": 14806
+    },
+    "7446-19-7": {
+      "formula": "O4SZn",
+      "iupac": "zinc sulfate",
+      "cid": 24424
+    },
+    "77-92-9": {
+      "formula": "C6H8O7",
+      "iupac": "2-hydroxypropane-1,2,3-tricarboxylic acid",
+      "cid": 311
+    },
+    "7783-28-0": {
+      "formula": "H9N2O4P",
+      "iupac": "diazanium;hydrogen phosphate",
+      "cid": 24540
+    },
+    "111-46-6": {
+      "formula": "C4H10O3",
+      "iupac": "2-(2-hydroxyethoxy)ethanol",
+      "cid": 8117
+    },
+    "7758-11-4": {
+      "formula": "HK2O4P",
+      "iupac": "dipotassium;hydrogen phosphate",
+      "cid": 24450
+    },
+    "7758-16-9": {
+      "formula": "H2Na2O7P2",
+      "iupac": "disodium;[hydroxy(oxido)phosphoryl] hydrogen phosphate",
+      "cid": 24451
+    },
+    "7558-79-4": {
+      "formula": "HNa2O4P",
+      "iupac": "disodium;hydrogen phosphate",
+      "cid": 24203
+    },
+    "64-19-7": {
+      "formula": "C2H3O2-",
+      "iupac": "acetate",
+      "cid": 175
+    },
+    "108-24-7": {
+      "formula": "C4H6O3",
+      "iupac": "acetyl acetate",
+      "cid": 7918
+    },
+    "6381-92-6": {
+      "formula": "C10H16N2O8",
+      "iupac": "2-[2-[bis(carboxymethyl)amino]ethyl-(carboxymethyl)amino]acetic acid",
+      "cid": 6049
+    },
+    "141-78-6": {
+      "formula": "C4H8O2",
+      "iupac": "ethyl acetate",
+      "cid": 8857
+    },
+    "7647-14-5": {
+      "formula": "ClNa",
+      "iupac": "sodium chloride",
+      "cid": 5234
+    },
+    "7664-38-2": {
+      "formula": "H3O4P",
+      "iupac": "phosphoric acid",
+      "cid": 1004
+    },
+    "56-81-5": {
+      "formula": "C3H8O3",
+      "iupac": "propane-1,2,3-triol",
+      "cid": 753
+    },
+    "56-40-6": {
+      "formula": "C2H5NO2",
+      "iupac": "2-aminoacetic acid",
+      "cid": 750
+    },
+    "64-18-6": {
+      "formula": "CHO2-",
+      "iupac": "formate",
+      "cid": 283
+    },
+    "7722-84-1": {
+      "formula": "H2O2",
+      "iupac": "hydrogen peroxide",
+      "cid": 784
+    },
+    "7732-18-5": {
+      "formula": "H2O",
+      "iupac": "oxidane",
+      "cid": 962
+    },
+    "67-63-0": {
+      "formula": "C3H8O",
+      "iupac": "propan-2-ol",
+      "cid": 3776
+    },
+    "7789-80-2": {
+      "formula": "CaI2O6",
+      "iupac": "calcium diiodate",
+      "cid": 24619
+    },
+    "471-34-1": {
+      "formula": "CCaO3",
+      "iupac": "calcium carbonate",
+      "cid": 10112
+    },
+    "10043-52-4": {
+      "formula": "Ca+2",
+      "iupac": "calcium(2+)",
+      "cid": 271
+    },
+    "13943-58-3": {
+      "formula": "C6FeK3N6",
+      "iupac": "tripotassium;iron(3+);hexacyanide",
+      "cid": 26250
+    },
+    "1310-58-3": {
+      "formula": "HKO",
+      "iupac": "potassium hydroxide",
+      "cid": 14797
+    },
+    "7758-05-6": {
+      "formula": "C7H7NO2",
+      "iupac": "prop-2-enyl 2-cyanoprop-2-enoate",
+      "cid": 81757
+    },
+    "7681-11-0": {
+      "formula": "IK",
+      "iupac": "potassium iodide",
+      "cid": 4875
+    },
+    "584-08-7": {
+      "formula": "CK2O3",
+      "iupac": "dipotassium;carbonate",
+      "cid": 11430
+    },
+    "57-13-6": {
+      "formula": "CH4N2O",
+      "iupac": "urea",
+      "cid": 1176
+    },
+    "7704-34-9": {
+      "formula": "H2S",
+      "iupac": "sulfane",
+      "cid": 402
+    },
+    "7664-93-9": {
+      "formula": "H2O4S",
+      "iupac": "sulfuric acid",
+      "cid": 1118
+    },
+    "7778-54-3": {
+      "formula": "CaCl2O2",
+      "iupac": "calcium dihypochlorite",
+      "cid": 24504
+    },
+    "513-79-1": {
+      "formula": "CCoO3",
+      "iupac": "cobalt(2+) carbonate",
+      "cid": 10565
+    },
+    "546-93-0": {
+      "formula": "CMgO3",
+      "iupac": "magnesium carbonate",
+      "cid": 11029
+    },
+    "7791-18-6": {
+      "formula": "Mg+2",
+      "iupac": "magnesium(2+)",
+      "cid": 888
+    },
+    "10377-60-3": {
+      "formula": "MgN2O6",
+      "iupac": "magnesium dinitrate",
+      "cid": 25212
+    },
+    "1309-48-4": {
+      "formula": "MgO",
+      "iupac": "oxomagnesium",
+      "cid": 14792
+    },
+    "7487-88-9": {
+      "formula": "C2H4N4",
+      "iupac": "1H-1,2,4-triazol-5-amine",
+      "cid": 1639
+    },
+    "110-16-7": {
+      "formula": "C4H4O4",
+      "iupac": "but-2-enedioic acid",
+      "cid": 723
+    },
+    "10034-96-5": {
+      "formula": "MnO4S",
+      "iupac": "manganese(2+) sulfate",
+      "cid": 24580
+    },
+    "598-62-9": {
+      "formula": "CMnO3",
+      "iupac": "manganese(2+) carbonate",
+      "cid": 11726
+    },
+    "7773-01-5": {
+      "formula": "Cl2Mn",
+      "iupac": "dichloromanganese",
+      "cid": 24480
+    },
+    "1344-43-0": {
+      "formula": "MnO",
+      "iupac": "oxomanganese",
+      "cid": 14940
+    },
+    "1305-62-0": {
+      "formula": "CaH2O2",
+      "iupac": "calcium dihydroxide",
+      "cid": 14777
+    },
+    "67-56-1": {
+      "formula": "CH4O",
+      "iupac": "methanol",
+      "cid": 887
+    },
+    "7722-76-1": {
+      "formula": "H6NO4P",
+      "iupac": "azanium dihydrogen phosphate",
+      "cid": 24402
+    },
+    "141-43-5": {
+      "formula": "C2H7NO",
+      "iupac": "2-aminoethanol",
+      "cid": 700
+    },
+    "107-21-1": {
+      "formula": "C2H6O2",
+      "iupac": "ethane-1,2-diol",
+      "cid": 174
+    },
+    "7778-77-0": {
+      "formula": "H2KO4P",
+      "iupac": "potassium dihydrogen phosphate",
+      "cid": 24506
+    },
+    "7558-80-7": {
+      "formula": "H2NaO4P",
+      "iupac": "sodium dihydrogen phosphate",
+      "cid": 24204
+    },
+    "57-55-6": {
+      "formula": "C3H8O2",
+      "iupac": "propane-1,2-diol",
+      "cid": 1030
+    },
+    "10124-56-8": {
+      "formula": "Na6O18P6",
+      "iupac": "hexasodium;2,4,6,8,10,12-hexaoxido-1,3,5,7,9,11-hexaoxa-2lambda5,4lambda5,6lambda5,8lambda5,10lambda5,12lambda5-hexaphosphacyclododecane 2,4,6,8,10,12-hexaoxide",
+      "cid": 24968
+    },
+    "127-09-3": {
+      "formula": "C2H3NaO2",
+      "iupac": "sodium acetate",
+      "cid": 517045
+    },
+    "532-32-1": {
+      "formula": "C7H5O2-",
+      "iupac": "benzoate",
+      "cid": 242
+    },
+    "144-55-8": {
+      "formula": "CH2O3",
+      "iupac": "carbonic acid",
+      "cid": 767
+    },
+    "1310-73-2": {
+      "formula": "C3H4O3",
+      "iupac": "1,3-dioxolan-2-one",
+      "cid": 7303
+    },
+    "7681-52-9": {
+      "formula": "ClNaO",
+      "iupac": "sodium hypochlorite",
+      "cid": 23665760
+    },
+    "497-19-8": {
+      "formula": "CNa2O3",
+      "iupac": "disodium;carbonate",
+      "cid": 10340
+    },
+    "7681-57-4": {
+      "formula": "Na2O5S2",
+      "iupac": "disodium;sulfinato sulfite",
+      "cid": 24346
+    },
+    "6834-92-0": {
+      "formula": "Na2O3Si",
+      "iupac": "disodium;dioxido(oxo)silane",
+      "cid": 23266
+    },
+    "7631-95-0": {
+      "formula": "MoNa2O4",
+      "iupac": "disodium;dioxido(dioxo)molybdenum",
+      "cid": 61424
+    },
+    "15630-89-4": {
+      "formula": "C2H6Na4O12",
+      "iupac": "tetrasodium;hydrogen peroxide;dicarbonate",
+      "cid": 159762
+    },
+    "10101-50-5": {
+      "formula": "MnNaO4",
+      "iupac": "sodium permanganate",
+      "cid": 23673458
+    },
+    "7775-27-1": {
+      "formula": "Na2O8S2",
+      "iupac": "disodium;sulfonatooxy sulfate",
+      "cid": 62655
+    },
+    "10102-18-8": {
+      "formula": "Na2O3Se",
+      "iupac": "disodium;selenite",
+      "cid": 24934
+    },
+    "7757-82-6": {
+      "formula": "Na2O4S",
+      "iupac": "disodium;sulfate",
+      "cid": 24436
+    },
+    "7758-29-4": {
+      "formula": "Na5O10P3",
+      "iupac": "pentasodium;[oxido(phosphonatooxy)phosphoryl] phosphate",
+      "cid": 24455
+    },
+    "1344-09-8": {
+      "formula": "Na2O3Si",
+      "iupac": "disodium;dioxido(oxo)silane",
+      "cid": 23266
+    },
+    "79-09-4": {
+      "formula": "C3H6O2",
+      "iupac": "propanoic acid",
+      "cid": 1032
+    },
+    "10125-13-0": {
+      "formula": "C5H10O2",
+      "iupac": "oxolan-2-ylmethanol",
+      "cid": 7360
+    },
+    "7758-99-8": {
+      "formula": "CuO4S",
+      "iupac": "copper sulfate",
+      "cid": 24462
+    },
+    "7697-37-2": {
+      "formula": "NO3-",
+      "iupac": "nitrate",
+      "cid": 943
+    },
+    "7647-01-0": {
+      "formula": "Cl-",
+      "iupac": "chloride",
+      "cid": 312
+    },
+    "62-56-6": {
+      "formula": "CH4N2S",
+      "iupac": "thiourea",
+      "cid": 2723790
+    },
+    "112-27-6": {
+      "formula": "C6H14O4",
+      "iupac": "2-[2-(2-hydroxyethoxy)ethoxy]ethanol",
+      "cid": 8172
+    },
+    "68-04-2": {
+      "formula": "C6H5Na3O7",
+      "iupac": "trisodium;2-hydroxypropane-1,2,3-tricarboxylate",
+      "cid": 6224
+    },
+    "7601-54-9": {
+      "formula": "Na3O4P",
+      "iupac": "trisodium;phosphate",
+      "cid": 24243
+    },
+    "1318-02-1": {
+      "formula": "Al2O5Si",
+      "iupac": "dioxosilane;oxo(oxoalumanyloxy)alumane",
+      "cid": 9942228
+    },
+    "7720-78-7": {
+      "formula": "FeO4S",
+      "iupac": "iron(2+) sulfate",
+      "cid": 24393
+    },
+    "7705-08-0": {
+      "formula": "Cl3Fe",
+      "iupac": "trichloroiron",
+      "cid": 24380
+    },
+    "10028-22-5": {
+      "formula": "Fe2O12S3",
+      "iupac": "bis(iron(3+));trisulfate",
+      "cid": 24826
+    }
+  },
+  "product_cas": [
+    {
+      "id": "aceton-technikai-regeneralt-industrial",
+      "cas": "67-64-1"
+    },
+    {
+      "id": "aluminium-szulfat-03-mm-38-mm-industrial",
+      "cas": "10043-01-3"
+    },
+    {
+      "id": "aluminium-szulfat-oldat-industrial",
+      "cas": "10043-01-3"
+    },
+    {
+      "id": "ammonia-oldat-24-industrial",
+      "cas": "1336-21-6"
+    },
+    {
+      "id": "ammonium-klorid-industrial",
+      "cas": "12125-02-9"
+    },
+    {
+      "id": "ammonium-nitrat-industrial",
+      "cas": "6484-52-2"
+    },
+    {
+      "id": "ammonium-szulfat-industrial",
+      "cas": "7783-20-2"
+    },
+    {
+      "id": "aszkorbinsav-food",
+      "cas": "50-81-7"
+    },
+    {
+      "id": "bentonit-industrial",
+      "cas": "1302-78-9"
+    },
+    {
+      "id": "borax-dekahidrat-industrial",
+      "cas": "1303-96-4"
+    },
+    {
+      "id": "borax-pentahidrat-industrial",
+      "cas": "12179-04-3"
+    },
+    {
+      "id": "borken-food",
+      "cas": "16731-55-8"
+    },
+    {
+      "id": "borkosav-l-food",
+      "cas": "87-69-4"
+    },
+    {
+      "id": "borsav-industrial",
+      "cas": "10043-35-3"
+    },
+    {
+      "id": "butanol-industrial",
+      "cas": "71-36-3"
+    },
+    {
+      "id": "butil-diglikol-industrial",
+      "cas": "112-34-5"
+    },
+    {
+      "id": "butil-glikol-industrial",
+      "cas": "111-76-2"
+    },
+    {
+      "id": "ciklohexanon-industrial",
+      "cas": "108-94-1"
+    },
+    {
+      "id": "cink-klorid-feed",
+      "cas": "7646-85-7"
+    },
+    {
+      "id": "cink-klorid-vizmentes-industrial",
+      "cas": "7646-85-7"
+    },
+    {
+      "id": "cink-oxid-industrial",
+      "cas": "1314-13-2"
+    },
+    {
+      "id": "cink-szulfat-monohidrat-feed",
+      "cas": "7446-19-7"
+    },
+    {
+      "id": "cink-szulfat-monohidrat-heptahidrat-industrial",
+      "cas": "7446-19-7"
+    },
+    {
+      "id": "citromsav-monohidrat-anhidrat-food",
+      "cas": "77-92-9"
+    },
+    {
+      "id": "diammonium-hidrogenfoszfat-industrial",
+      "cas": "7783-28-0"
+    },
+    {
+      "id": "dietilen-glikol-industrial",
+      "cas": "111-46-6"
+    },
+    {
+      "id": "dikalium-hidrogen-foszfat-food",
+      "cas": "7758-11-4"
+    },
+    {
+      "id": "dinatrium-pirofoszfat-food",
+      "cas": "7758-16-9"
+    },
+    {
+      "id": "dinatriumfoszfat-industrial",
+      "cas": "7558-79-4"
+    },
+    {
+      "id": "dinatriumpirofoszfat-industrial",
+      "cas": "7758-16-9"
+    },
+    {
+      "id": "ecetsav-20-50-60-70-80-99-8-industrial",
+      "cas": "64-19-7"
+    },
+    {
+      "id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
+      "cas": "64-19-7"
+    },
+    {
+      "id": "ecetsavanhidrid-industrial",
+      "cas": "108-24-7"
+    },
+    {
+      "id": "edta-na2-na4-industrial",
+      "cas": "6381-92-6"
+    },
+    {
+      "id": "etil-acetat-technikai-regeneralt-industrial",
+      "cas": "141-78-6"
+    },
+    {
+      "id": "etkezesi-so-food",
+      "cas": "7647-14-5"
+    },
+    {
+      "id": "foszforsav-75-industrial",
+      "cas": "7664-38-2"
+    },
+    {
+      "id": "foszforsav-75-85-food",
+      "cas": "7664-38-2"
+    },
+    {
+      "id": "glicerin-industrial",
+      "cas": "56-81-5"
+    },
+    {
+      "id": "glicerin-99-5-food",
+      "cas": "56-81-5"
+    },
+    {
+      "id": "glicin-industrial",
+      "cas": "56-40-6"
+    },
+    {
+      "id": "hangyasav-85-industrial",
+      "cas": "64-18-6"
+    },
+    {
+      "id": "hidrogen-peroxid-35-50-60-industrial",
+      "cas": "7722-84-1"
+    },
+    {
+      "id": "ioncserelt-viz-industrial",
+      "cas": "7732-18-5"
+    },
+    {
+      "id": "izopropil-alkohol-technikai-regeneralt-industrial",
+      "cas": "67-63-0"
+    },
+    {
+      "id": "kalcium-jodat-feed",
+      "cas": "7789-80-2"
+    },
+    {
+      "id": "kalcium-karbonat-food",
+      "cas": "471-34-1"
+    },
+    {
+      "id": "kalcium-klorid-2025-oldat-deicing",
+      "cas": "10043-52-4"
+    },
+    {
+      "id": "kalcium-klorid-7780-food",
+      "cas": "10043-52-4"
+    },
+    {
+      "id": "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
+      "cas": "10043-52-4"
+    },
+    {
+      "id": "kalium-ferrocianid-food",
+      "cas": "13943-58-3"
+    },
+    {
+      "id": "kalium-hidroxid-oldat-21-45-4850-industrial",
+      "cas": "1310-58-3"
+    },
+    {
+      "id": "kalium-hidroxid-pikkelyes-industrial",
+      "cas": "1310-58-3"
+    },
+    {
+      "id": "kalium-jodat-feed",
+      "cas": "7758-05-6"
+    },
+    {
+      "id": "kalium-jodid-feed",
+      "cas": "7681-11-0"
+    },
+    {
+      "id": "kalium-karbonat-industrial",
+      "cas": "584-08-7"
+    },
+    {
+      "id": "karbamid-ipari-kezeletlen-industrial",
+      "cas": "57-13-6"
+    },
+    {
+      "id": "kenpor-industrial",
+      "cas": "7704-34-9"
+    },
+    {
+      "id": "kensav-32-37-50-9597-industrial",
+      "cas": "7664-93-9"
+    },
+    {
+      "id": "klormesz-industrial",
+      "cas": "7778-54-3"
+    },
+    {
+      "id": "kobalt-karbonat-feed",
+      "cas": "513-79-1"
+    },
+    {
+      "id": "magnezium-karbonat-konnyu-nehez-industrial",
+      "cas": "546-93-0"
+    },
+    {
+      "id": "magnezium-klorid-food",
+      "cas": "7791-18-6"
+    },
+    {
+      "id": "magnezium-klorid-hexahidrat-industrial",
+      "cas": "7791-18-6"
+    },
+    {
+      "id": "magnezium-nitrat-industrial",
+      "cas": "10377-60-3"
+    },
+    {
+      "id": "magnezium-oxid-feed",
+      "cas": "1309-48-4"
+    },
+    {
+      "id": "magnezium-oxid-nehez-industrial",
+      "cas": "1309-48-4"
+    },
+    {
+      "id": "magnezium-szulfat-industrial",
+      "cas": "7487-88-9"
+    },
+    {
+      "id": "maleinsav-industrial",
+      "cas": "110-16-7"
+    },
+    {
+      "id": "mangan-ii-szulfat-monohidrat-industrial",
+      "cas": "10034-96-5"
+    },
+    {
+      "id": "mangan-karbonat-industrial",
+      "cas": "598-62-9"
+    },
+    {
+      "id": "mangan-klorid-monohidrat-tetrahidrat-industrial",
+      "cas": "7773-01-5"
+    },
+    {
+      "id": "mangan-klorid-tetrahidrat-feed",
+      "cas": "7773-01-5"
+    },
+    {
+      "id": "mangan-oxid-feed",
+      "cas": "1344-43-0"
+    },
+    {
+      "id": "mangan-szulfat-monohidrat-feed",
+      "cas": "10034-96-5"
+    },
+    {
+      "id": "meszhidrat-industrial",
+      "cas": "1305-62-0"
+    },
+    {
+      "id": "meszhidrat-15-industrial",
+      "cas": "1305-62-0"
+    },
+    {
+      "id": "metanol-technikai-regeneralt-industrial",
+      "cas": "67-56-1"
+    },
+    {
+      "id": "monoammonium-foszfat-industrial",
+      "cas": "7722-76-1"
+    },
+    {
+      "id": "monoetanolamin-industrial",
+      "cas": "141-43-5"
+    },
+    {
+      "id": "monoetilen-glikol-industrial",
+      "cas": "107-21-1"
+    },
+    {
+      "id": "monokalium-foszfat-industrial",
+      "cas": "7778-77-0"
+    },
+    {
+      "id": "mononatrium-foszfat-industrial",
+      "cas": "7558-80-7"
+    },
+    {
+      "id": "monopropilenglikol-industrial",
+      "cas": "57-55-6"
+    },
+    {
+      "id": "na-hexametafoszfat-industrial",
+      "cas": "10124-56-8"
+    },
+    {
+      "id": "natrium-acetat-vizmentes-3h2o-industrial",
+      "cas": "127-09-3"
+    },
+    {
+      "id": "natrium-benzoat-gran-food",
+      "cas": "532-32-1"
+    },
+    {
+      "id": "natrium-hidrogen-karbonat-industrial",
+      "cas": "144-55-8"
+    },
+    {
+      "id": "natrium-hidrogen-karbonat-szodabikarbona-food",
+      "cas": "144-55-8"
+    },
+    {
+      "id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
+      "cas": "1310-73-2"
+    },
+    {
+      "id": "natrium-hidroxid-oldat-4850-industrial",
+      "cas": "1310-73-2"
+    },
+    {
+      "id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
+      "cas": "7681-52-9"
+    },
+    {
+      "id": "natrium-karbonat-konnyu-industrial",
+      "cas": "497-19-8"
+    },
+    {
+      "id": "natrium-karbonat-nehez-industrial",
+      "cas": "497-19-8"
+    },
+    {
+      "id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
+      "cas": "7681-57-4"
+    },
+    {
+      "id": "natrium-metaszilikat-industrial",
+      "cas": "6834-92-0"
+    },
+    {
+      "id": "natrium-molibdat-feed",
+      "cas": "7631-95-0"
+    },
+    {
+      "id": "natrium-perkarbonat-industrial",
+      "cas": "15630-89-4"
+    },
+    {
+      "id": "natrium-permanganat-40-oldat-industrial",
+      "cas": "10101-50-5"
+    },
+    {
+      "id": "natrium-perszulfat-industrial",
+      "cas": "7775-27-1"
+    },
+    {
+      "id": "natrium-szelenit-feed",
+      "cas": "10102-18-8"
+    },
+    {
+      "id": "natrium-szulfat-industrial",
+      "cas": "7757-82-6"
+    },
+    {
+      "id": "natrium-tripolifoszfat-industrial",
+      "cas": "7758-29-4"
+    },
+    {
+      "id": "natronvizuveg-oldatok-industrial",
+      "cas": "1344-09-8"
+    },
+    {
+      "id": "propionsav-99-feed",
+      "cas": "79-09-4"
+    },
+    {
+      "id": "rez-klorid-dihidrat-industrial",
+      "cas": "10125-13-0"
+    },
+    {
+      "id": "rez-szulfat-feed",
+      "cas": "7758-99-8"
+    },
+    {
+      "id": "rez-szulfat-pentahidrat-industrial",
+      "cas": "7758-99-8"
+    },
+    {
+      "id": "saletromsav-20-50-53-60-industrial",
+      "cas": "7697-37-2"
+    },
+    {
+      "id": "sosav-gyogyszerkonyvi-food",
+      "cas": "7647-01-0"
+    },
+    {
+      "id": "sosav-technikai-regeneralt-industrial",
+      "cas": "7647-01-0"
+    },
+    {
+      "id": "sotabletta-industrial",
+      "cas": "7647-14-5"
+    },
+    {
+      "id": "tiokarbamid-industrial",
+      "cas": "62-56-6"
+    },
+    {
+      "id": "trietilen-glikol-industrial",
+      "cas": "112-27-6"
+    },
+    {
+      "id": "trinatrium-citrat-industrial",
+      "cas": "68-04-2"
+    },
+    {
+      "id": "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
+      "cas": "7601-54-9"
+    },
+    {
+      "id": "utszoro-so-deicing",
+      "cas": "7647-14-5"
+    },
+    {
+      "id": "utszoro-zeolit-deicing",
+      "cas": "1318-02-1"
+    },
+    {
+      "id": "vakuum-so-industrial",
+      "cas": "7647-14-5"
+    },
+    {
+      "id": "vas-ii-szulfat-monohidrat-feed",
+      "cas": "7720-78-7"
+    },
+    {
+      "id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
+      "cas": "7720-78-7"
+    },
+    {
+      "id": "vas-iii-klorid-40-oldat-industrial",
+      "cas": "7705-08-0"
+    },
+    {
+      "id": "vas-iii-szulfat-40-oldat-industrial",
+      "cas": "10028-22-5"
+    }
+  ]
+}

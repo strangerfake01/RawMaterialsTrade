@@ -515,6 +515,8 @@ function initFloatingContact(){
   // Keep keyboard tab order logical: trigger first, then the revealed links.
   root.append(trigger,panel);
   document.body.appendChild(root);
+  root.hidden=false;
+  // Permanent visibility: do not hide on footer or cookie banner.
   // The contact action remains available while scrolling, at the footer and during consent.
   // The expanded panel still closes on outside interaction or Escape.
 }
