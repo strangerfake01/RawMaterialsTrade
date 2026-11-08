@@ -10,9 +10,13 @@
       "wikidata_label": "acetone",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Acetone",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 180,
-      "pubchem_formula": "C3H6O",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 180,
+      "pubchem_candidate_formula": "C3H6O",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "aluminium-szulfat-03-mm-38-mm-industrial",
@@ -21,9 +25,13 @@
       "wikidata_label": "aluminium sulfate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Aluminium_sulfate",
       "sameAs_status": "verified",
-      "pubchem_cid": 24850,
-      "pubchem_formula": "Al2O12S3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 24850,
+      "pubchem_candidate_formula": "Al2O12S3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "aluminium-szulfat-oldat-industrial",
@@ -32,9 +40,13 @@
       "wikidata_label": "aluminium sulfate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Aluminium_sulfate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24850,
-      "pubchem_formula": "Al2O12S3",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 24850,
+      "pubchem_candidate_formula": "Al2O12S3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "ammonia-oldat-24-industrial",
@@ -43,9 +55,13 @@
       "wikidata_label": "ammonia solution",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Ammonia_solution",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 222,
-      "pubchem_formula": "H3N",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 222,
+      "pubchem_candidate_formula": "H3N",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "ammonium-klorid-industrial",
@@ -54,9 +70,13 @@
       "wikidata_label": "ammonium chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Ammonium_chloride",
       "sameAs_status": "verified",
-      "pubchem_cid": 25423,
-      "pubchem_formula": "ClH2N",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 25423,
+      "pubchem_candidate_formula": "ClH2N",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "ammonium-nitrat-industrial",
@@ -65,9 +85,13 @@
       "wikidata_label": "ammonium nitrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Ammonium_nitrate",
       "sameAs_status": "verified",
-      "pubchem_cid": 22985,
-      "pubchem_formula": "H4N2O3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 22985,
+      "pubchem_candidate_formula": "H4N2O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "ammonium-szulfat-industrial",
@@ -76,9 +100,13 @@
       "wikidata_label": "ammonium sulfate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Ammonium_sulfate",
       "sameAs_status": "verified",
-      "pubchem_cid": 783,
-      "pubchem_formula": "H2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 783,
+      "pubchem_candidate_formula": "H2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "aszkorbinsav-food",
@@ -87,9 +115,13 @@
       "wikidata_label": "vitamin C",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Vitamin_C",
       "sameAs_status": "verified",
-      "pubchem_cid": 190531,
-      "pubchem_formula": "C10H15F2N5S",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 190531,
+      "pubchem_candidate_formula": "C10H15F2N5S",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "bentonit-industrial",
@@ -110,9 +142,13 @@
       "wikidata_label": "sodium tetraborate octahydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Borax",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 159383,
-      "pubchem_formula": "BNa3O3",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 159383,
+      "pubchem_candidate_formula": "BNa3O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "borax-pentahidrat-industrial",
@@ -121,9 +157,13 @@
       "wikidata_label": "sodium tetraborate pentahydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Borax",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 57347062,
-      "pubchem_formula": "B4H10Na10O17-2",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 57347062,
+      "pubchem_candidate_formula": "B4H10Na10O17-2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "borken-food",
@@ -132,9 +172,13 @@
       "wikidata_label": "potassium metabisulfite",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Potassium_metabisulfite",
       "sameAs_status": "verified",
-      "pubchem_cid": 28019,
-      "pubchem_formula": "K2O5S2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 28019,
+      "pubchem_candidate_formula": "K2O5S2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "borkosav-l-food",
@@ -144,8 +188,12 @@
       "wikipedia_en": "https://en.wikipedia.org/wiki/Tartaric_acid",
       "sameAs_status": "needs-confirmation",
       "sameAs_reason": "Wikidata Q18226455 is L-tartaric acid candidate; withhold machine sameAs until offer stereochemistry confirmed.",
-      "pubchem_cid": 875,
-      "pubchem_formula": "C4H6O6"
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "pubchem_candidate_cid": 875,
+      "pubchem_candidate_formula": "C4H6O6",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "borsav-industrial",
@@ -154,9 +202,13 @@
       "wikidata_label": "orthoboric acid",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Boric_acid",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 7628,
-      "pubchem_formula": "BH3O3",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 7628,
+      "pubchem_candidate_formula": "BH3O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "butanol-industrial",
@@ -165,9 +217,13 @@
       "wikidata_label": "butan-1-ol",
       "wikipedia_en": "https://en.wikipedia.org/wiki/1-Butanol",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 263,
-      "pubchem_formula": "C4H10O",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 263,
+      "pubchem_candidate_formula": "C4H10O",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "butil-diglikol-industrial",
@@ -176,9 +232,13 @@
       "wikidata_label": "diethylene glycol monobutyl ether",
       "wikipedia_en": "https://en.wikipedia.org/wiki/2-%282-Butoxyethoxy%29ethanol",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 8177,
-      "pubchem_formula": "C8H18O3",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 8177,
+      "pubchem_candidate_formula": "C8H18O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "butil-glikol-industrial",
@@ -188,8 +248,12 @@
       "wikipedia_en": "https://en.wikipedia.org/wiki/2-Butoxyethanol",
       "sameAs_status": "needs-confirmation",
       "sameAs_reason": "Strong CAS/Wikidata/PubChem alignment for 2-butoxyethanol, but commercial grade still needs SDS confirmation before sameAs.",
-      "pubchem_cid": 8133,
-      "pubchem_formula": "C6H14O2"
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "pubchem_candidate_cid": 8133,
+      "pubchem_candidate_formula": "C6H14O2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "ciklohexanon-industrial",
@@ -198,9 +262,13 @@
       "wikidata_label": "cyclohexanone",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Cyclohexanone",
       "sameAs_status": "verified",
-      "pubchem_cid": 7966,
-      "pubchem_formula": "C6H12O",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 7966,
+      "pubchem_candidate_formula": "C6H12O",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "cink-klorid-feed",
@@ -209,9 +277,13 @@
       "wikidata_label": "zinc chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Zinc_chloride",
       "sameAs_status": "verified",
-      "pubchem_cid": 5727,
-      "pubchem_formula": "Cl2Zn",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 5727,
+      "pubchem_candidate_formula": "Cl2Zn",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "cink-klorid-vizmentes-industrial",
@@ -220,9 +292,13 @@
       "wikidata_label": "zinc chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Zinc_chloride",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 5727,
-      "pubchem_formula": "Cl2Zn",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 5727,
+      "pubchem_candidate_formula": "Cl2Zn",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "cink-oxid-industrial",
@@ -231,9 +307,13 @@
       "wikidata_label": "zinc oxide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Zinc_oxide",
       "sameAs_status": "verified",
-      "pubchem_cid": 14806,
-      "pubchem_formula": "OZn",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 14806,
+      "pubchem_candidate_formula": "OZn",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "cink-szulfat-monohidrat-feed",
@@ -242,9 +322,13 @@
       "wikidata_label": "zinc sulfate monohydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Zinc_sulfate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24424,
-      "pubchem_formula": "O4SZn",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 24424,
+      "pubchem_candidate_formula": "O4SZn",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "cink-szulfat-monohidrat-heptahidrat-industrial",
@@ -253,9 +337,13 @@
       "wikidata_label": "zinc sulfate monohydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Zinc_sulfate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24424,
-      "pubchem_formula": "O4SZn",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 24424,
+      "pubchem_candidate_formula": "O4SZn",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "citromsav-monohidrat-anhidrat-food",
@@ -264,9 +352,13 @@
       "wikidata_label": "citric acid",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Citric_acid",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 311,
-      "pubchem_formula": "C6H8O7",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 311,
+      "pubchem_candidate_formula": "C6H8O7",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "diammonium-hidrogenfoszfat-industrial",
@@ -275,9 +367,13 @@
       "wikidata_label": "dibasic ammonium phosphate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Diammonium_phosphate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24540,
-      "pubchem_formula": "H9N2O4P",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 24540,
+      "pubchem_candidate_formula": "H9N2O4P",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "dietilen-glikol-industrial",
@@ -286,9 +382,13 @@
       "wikidata_label": "diethylene glycol",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Diethylene_glycol",
       "sameAs_status": "verified",
-      "pubchem_cid": 8117,
-      "pubchem_formula": "C4H10O3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 8117,
+      "pubchem_candidate_formula": "C4H10O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "dikalium-hidrogen-foszfat-food",
@@ -297,9 +397,13 @@
       "wikidata_label": "dibasic potassium phosphate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Dipotassium_phosphate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24450,
-      "pubchem_formula": "HK2O4P",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 24450,
+      "pubchem_candidate_formula": "HK2O4P",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "dinatrium-pirofoszfat-food",
@@ -308,9 +412,13 @@
       "wikidata_label": "disodium pyrophosphate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Disodium_pyrophosphate",
       "sameAs_status": "verified",
-      "pubchem_cid": 24451,
-      "pubchem_formula": "H2Na2O7P2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 24451,
+      "pubchem_candidate_formula": "H2Na2O7P2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "dinatriumfoszfat-industrial",
@@ -319,9 +427,13 @@
       "wikidata_label": "dibasic sodium phosphate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Disodium_phosphate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24203,
-      "pubchem_formula": "HNa2O4P",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 24203,
+      "pubchem_candidate_formula": "HNa2O4P",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "dinatriumpirofoszfat-industrial",
@@ -330,9 +442,13 @@
       "wikidata_label": "disodium pyrophosphate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Disodium_pyrophosphate",
       "sameAs_status": "verified",
-      "pubchem_cid": 24451,
-      "pubchem_formula": "H2Na2O7P2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 24451,
+      "pubchem_candidate_formula": "H2Na2O7P2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "ecetsav-20-50-60-70-80-99-8-industrial",
@@ -341,9 +457,13 @@
       "wikidata_label": "acetic acid",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Acetic_acid",
       "sameAs_status": "verified",
-      "pubchem_cid": 175,
-      "pubchem_formula": "C2H3O2-",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 175,
+      "pubchem_candidate_formula": "C2H3O2-",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
@@ -352,9 +472,13 @@
       "wikidata_label": "acetic acid",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Acetic_acid",
       "sameAs_status": "verified",
-      "pubchem_cid": 175,
-      "pubchem_formula": "C2H3O2-",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 175,
+      "pubchem_candidate_formula": "C2H3O2-",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "ecetsavanhidrid-industrial",
@@ -363,9 +487,13 @@
       "wikidata_label": "acetic anhydride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Acetic_anhydride",
       "sameAs_status": "verified",
-      "pubchem_cid": 7918,
-      "pubchem_formula": "C4H6O3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 7918,
+      "pubchem_candidate_formula": "C4H6O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "edta-na2-na4-industrial",
@@ -374,9 +502,13 @@
       "wikidata_label": "EDTA disodium salt dihydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Ethylenediaminetetraacetic_acid",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 6049,
-      "pubchem_formula": "C10H16N2O8",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 6049,
+      "pubchem_candidate_formula": "C10H16N2O8",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "etil-acetat-technikai-regeneralt-industrial",
@@ -385,9 +517,13 @@
       "wikidata_label": "ethyl acetate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Ethyl_acetate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 8857,
-      "pubchem_formula": "C4H8O2",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 8857,
+      "pubchem_candidate_formula": "C4H8O2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "etkezesi-so-food",
@@ -396,9 +532,13 @@
       "wikidata_label": "sodium chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_chloride",
       "sameAs_status": "verified",
-      "pubchem_cid": 5234,
-      "pubchem_formula": "ClNa",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 5234,
+      "pubchem_candidate_formula": "ClNa",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "foszforsav-75-85-food",
@@ -407,9 +547,13 @@
       "wikidata_label": "phosphoric acid",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Phosphoric_acid",
       "sameAs_status": "verified",
-      "pubchem_cid": 1004,
-      "pubchem_formula": "H3O4P",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 1004,
+      "pubchem_candidate_formula": "H3O4P",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "foszforsav-75-industrial",
@@ -418,9 +562,13 @@
       "wikidata_label": "phosphoric acid",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Phosphoric_acid",
       "sameAs_status": "verified",
-      "pubchem_cid": 1004,
-      "pubchem_formula": "H3O4P",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 1004,
+      "pubchem_candidate_formula": "H3O4P",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "glicerin-99-5-food",
@@ -429,9 +577,13 @@
       "wikidata_label": "glycerol",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Glycerol",
       "sameAs_status": "verified",
-      "pubchem_cid": 753,
-      "pubchem_formula": "C3H8O3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 753,
+      "pubchem_candidate_formula": "C3H8O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "glicerin-industrial",
@@ -440,9 +592,13 @@
       "wikidata_label": "glycerol",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Glycerol",
       "sameAs_status": "verified",
-      "pubchem_cid": 753,
-      "pubchem_formula": "C3H8O3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 753,
+      "pubchem_candidate_formula": "C3H8O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "glicin-industrial",
@@ -451,9 +607,13 @@
       "wikidata_label": "glycine zwitterion",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Glycine",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 750,
-      "pubchem_formula": "C2H5NO2",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 750,
+      "pubchem_candidate_formula": "C2H5NO2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "hangyasav-85-industrial",
@@ -462,9 +622,13 @@
       "wikidata_label": "formic acid",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Formic_acid",
       "sameAs_status": "verified",
-      "pubchem_cid": 283,
-      "pubchem_formula": "CHO2-",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 283,
+      "pubchem_candidate_formula": "CHO2-",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "hidrogen-peroxid-35-50-60-industrial",
@@ -473,9 +637,13 @@
       "wikidata_label": "hydrogen peroxide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Hydrogen_peroxide",
       "sameAs_status": "verified",
-      "pubchem_cid": 784,
-      "pubchem_formula": "H2O2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 784,
+      "pubchem_candidate_formula": "H2O2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "ioncserelt-viz-industrial",
@@ -484,9 +652,13 @@
       "wikidata_label": "distilled water",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Purified_water",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 962,
-      "pubchem_formula": "H2O",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 962,
+      "pubchem_candidate_formula": "H2O",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "izopropil-alkohol-technikai-regeneralt-industrial",
@@ -495,9 +667,13 @@
       "wikidata_label": "isopropyl alcohol",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Isopropyl_alcohol",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 3776,
-      "pubchem_formula": "C3H8O",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 3776,
+      "pubchem_candidate_formula": "C3H8O",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kalcium-jodat-feed",
@@ -506,9 +682,13 @@
       "wikidata_label": "calcium iodate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Calcium_iodate",
       "sameAs_status": "verified",
-      "pubchem_cid": 24619,
-      "pubchem_formula": "CaI2O6",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 24619,
+      "pubchem_candidate_formula": "CaI2O6",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kalcium-karbonat-food",
@@ -517,9 +697,13 @@
       "wikidata_label": "calcium carbonate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Calcium_carbonate",
       "sameAs_status": "verified",
-      "pubchem_cid": 10112,
-      "pubchem_formula": "CCaO3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 10112,
+      "pubchem_candidate_formula": "CCaO3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kalcium-klorid-2025-oldat-deicing",
@@ -528,9 +712,13 @@
       "wikidata_label": "calcium chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Calcium_chloride",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 271,
-      "pubchem_formula": "Ca+2",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 271,
+      "pubchem_candidate_formula": "Ca+2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kalcium-klorid-7780-food",
@@ -539,9 +727,13 @@
       "wikidata_label": "calcium chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Calcium_chloride",
       "sameAs_status": "verified",
-      "pubchem_cid": 271,
-      "pubchem_formula": "Ca+2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 271,
+      "pubchem_candidate_formula": "Ca+2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
@@ -550,9 +742,13 @@
       "wikidata_label": "calcium chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Calcium_chloride",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 271,
-      "pubchem_formula": "Ca+2",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 271,
+      "pubchem_candidate_formula": "Ca+2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kalium-ferrocianid-food",
@@ -561,9 +757,13 @@
       "wikidata_label": "potassium hexacyanidoferrate(II)",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Potassium_ferrocyanide",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 26250,
-      "pubchem_formula": "C6FeK3N6",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 26250,
+      "pubchem_candidate_formula": "C6FeK3N6",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kalium-hidroxid-oldat-21-45-4850-industrial",
@@ -572,9 +772,13 @@
       "wikidata_label": "potassium hydroxide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Potassium_hydroxide",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 14797,
-      "pubchem_formula": "HKO",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 14797,
+      "pubchem_candidate_formula": "HKO",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kalium-hidroxid-pikkelyes-industrial",
@@ -583,9 +787,13 @@
       "wikidata_label": "potassium hydroxide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Potassium_hydroxide",
       "sameAs_status": "verified",
-      "pubchem_cid": 14797,
-      "pubchem_formula": "HKO",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 14797,
+      "pubchem_candidate_formula": "HKO",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kalium-jodat-feed",
@@ -594,9 +802,13 @@
       "wikidata_label": "potassium iodate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Potassium_iodate",
       "sameAs_status": "verified",
-      "pubchem_cid": 81757,
-      "pubchem_formula": "C7H7NO2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 81757,
+      "pubchem_candidate_formula": "C7H7NO2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kalium-jodid-feed",
@@ -605,9 +817,13 @@
       "wikidata_label": "potassium iodide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Potassium_iodide",
       "sameAs_status": "verified",
-      "pubchem_cid": 4875,
-      "pubchem_formula": "IK",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 4875,
+      "pubchem_candidate_formula": "IK",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kalium-karbonat-industrial",
@@ -616,9 +832,13 @@
       "wikidata_label": "potassium carbonate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Potassium_carbonate",
       "sameAs_status": "verified",
-      "pubchem_cid": 11430,
-      "pubchem_formula": "CK2O3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 11430,
+      "pubchem_candidate_formula": "CK2O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "karbamid-ipari-kezeletlen-industrial",
@@ -627,9 +847,13 @@
       "wikidata_label": "urea",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Urea",
       "sameAs_status": "verified",
-      "pubchem_cid": 1176,
-      "pubchem_formula": "CH4N2O",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 1176,
+      "pubchem_candidate_formula": "CH4N2O",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kenpor-industrial",
@@ -638,9 +862,13 @@
       "wikidata_label": "sulfur",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sulfur",
       "sameAs_status": "verified",
-      "pubchem_cid": 402,
-      "pubchem_formula": "H2S",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 402,
+      "pubchem_candidate_formula": "H2S",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kensav-32-37-50-9597-industrial",
@@ -649,9 +877,13 @@
       "wikidata_label": "sulfuric acid",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sulfuric_acid",
       "sameAs_status": "verified",
-      "pubchem_cid": 1118,
-      "pubchem_formula": "H2O4S",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 1118,
+      "pubchem_candidate_formula": "H2O4S",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "klormesz-industrial",
@@ -660,9 +892,13 @@
       "wikidata_label": "calcium hypochlorite",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Calcium_hypochlorite",
       "sameAs_status": "verified",
-      "pubchem_cid": 24504,
-      "pubchem_formula": "CaCl2O2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 24504,
+      "pubchem_candidate_formula": "CaCl2O2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "kobalt-karbonat-feed",
@@ -671,9 +907,13 @@
       "wikidata_label": "cobalt(II) carbonate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Cobalt%28II%29_carbonate",
       "sameAs_status": "verified",
-      "pubchem_cid": 10565,
-      "pubchem_formula": "CCoO3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 10565,
+      "pubchem_candidate_formula": "CCoO3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "magnezium-karbonat-konnyu-nehez-industrial",
@@ -682,9 +922,13 @@
       "wikidata_label": "magnesium carbonate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Magnesium_carbonate",
       "sameAs_status": "verified",
-      "pubchem_cid": 11029,
-      "pubchem_formula": "CMgO3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 11029,
+      "pubchem_candidate_formula": "CMgO3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "magnezium-klorid-food",
@@ -693,9 +937,13 @@
       "wikidata_label": "magnesium chloride hexahydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Magnesium_chloride",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 888,
-      "pubchem_formula": "Mg+2",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 888,
+      "pubchem_candidate_formula": "Mg+2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "magnezium-klorid-hexahidrat-industrial",
@@ -704,9 +952,13 @@
       "wikidata_label": "magnesium chloride hexahydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Magnesium_chloride",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 888,
-      "pubchem_formula": "Mg+2",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 888,
+      "pubchem_candidate_formula": "Mg+2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "magnezium-nitrat-industrial",
@@ -715,9 +967,13 @@
       "wikidata_label": "magnesium nitrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Magnesium_nitrate",
       "sameAs_status": "verified",
-      "pubchem_cid": 25212,
-      "pubchem_formula": "MgN2O6",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 25212,
+      "pubchem_candidate_formula": "MgN2O6",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "magnezium-oxid-feed",
@@ -726,9 +982,13 @@
       "wikidata_label": "magnesium oxide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Magnesium_oxide",
       "sameAs_status": "verified",
-      "pubchem_cid": 14792,
-      "pubchem_formula": "MgO",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 14792,
+      "pubchem_candidate_formula": "MgO",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "magnezium-oxid-nehez-industrial",
@@ -737,9 +997,13 @@
       "wikidata_label": "magnesium oxide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Magnesium_oxide",
       "sameAs_status": "verified",
-      "pubchem_cid": 14792,
-      "pubchem_formula": "MgO",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 14792,
+      "pubchem_candidate_formula": "MgO",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "magnezium-szulfat-industrial",
@@ -748,9 +1012,13 @@
       "wikidata_label": "magnesium sulfate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Magnesium_sulfate",
       "sameAs_status": "verified",
-      "pubchem_cid": 1639,
-      "pubchem_formula": "C2H4N4",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 1639,
+      "pubchem_candidate_formula": "C2H4N4",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "maleinsav-industrial",
@@ -759,9 +1027,13 @@
       "wikidata_label": "maleic acid",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Maleic_acid",
       "sameAs_status": "verified",
-      "pubchem_cid": 723,
-      "pubchem_formula": "C4H4O4",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 723,
+      "pubchem_candidate_formula": "C4H4O4",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "mangan-ii-szulfat-monohidrat-industrial",
@@ -770,9 +1042,13 @@
       "wikidata_label": "manganese(II) sulfate monohydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Manganese%28II%29_sulfate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24580,
-      "pubchem_formula": "MnO4S",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 24580,
+      "pubchem_candidate_formula": "MnO4S",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "mangan-karbonat-industrial",
@@ -781,9 +1057,13 @@
       "wikidata_label": "manganese carbonate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Manganese%28II%29_carbonate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 11726,
-      "pubchem_formula": "CMnO3",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 11726,
+      "pubchem_candidate_formula": "CMnO3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "mangan-klorid-monohidrat-tetrahidrat-industrial",
@@ -792,9 +1072,13 @@
       "wikidata_label": "manganese(II) chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Manganese%28II%29_chloride",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24480,
-      "pubchem_formula": "Cl2Mn",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 24480,
+      "pubchem_candidate_formula": "Cl2Mn",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "mangan-klorid-tetrahidrat-feed",
@@ -803,9 +1087,13 @@
       "wikidata_label": "manganese(II) chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Manganese%28II%29_chloride",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24480,
-      "pubchem_formula": "Cl2Mn",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 24480,
+      "pubchem_candidate_formula": "Cl2Mn",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "mangan-oxid-feed",
@@ -814,9 +1102,13 @@
       "wikidata_label": "manganese(II) oxide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Manganese%28II%29_oxide",
       "sameAs_status": "verified",
-      "pubchem_cid": 14940,
-      "pubchem_formula": "MnO",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 14940,
+      "pubchem_candidate_formula": "MnO",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "mangan-szulfat-monohidrat-feed",
@@ -825,9 +1117,13 @@
       "wikidata_label": "manganese(II) sulfate monohydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Manganese%28II%29_sulfate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24580,
-      "pubchem_formula": "MnO4S",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 24580,
+      "pubchem_candidate_formula": "MnO4S",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "meszhidrat-15-industrial",
@@ -836,9 +1132,13 @@
       "wikidata_label": "calcium hydroxide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Calcium_hydroxide",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 14777,
-      "pubchem_formula": "CaH2O2",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 14777,
+      "pubchem_candidate_formula": "CaH2O2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "meszhidrat-industrial",
@@ -847,9 +1147,13 @@
       "wikidata_label": "calcium hydroxide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Calcium_hydroxide",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 14777,
-      "pubchem_formula": "CaH2O2",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 14777,
+      "pubchem_candidate_formula": "CaH2O2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "metanol-technikai-regeneralt-industrial",
@@ -858,9 +1162,13 @@
       "wikidata_label": "methanol",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Methanol",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 887,
-      "pubchem_formula": "CH4O",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 887,
+      "pubchem_candidate_formula": "CH4O",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "monoammonium-foszfat-industrial",
@@ -869,9 +1177,13 @@
       "wikidata_label": "monobasic ammonium phosphate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Ammonium_dihydrogen_phosphate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24402,
-      "pubchem_formula": "H6NO4P",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 24402,
+      "pubchem_candidate_formula": "H6NO4P",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "monoetanolamin-industrial",
@@ -880,9 +1192,13 @@
       "wikidata_label": "monoethanolamine",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Ethanolamine",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 700,
-      "pubchem_formula": "C2H7NO",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 700,
+      "pubchem_candidate_formula": "C2H7NO",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "monoetilen-glikol-industrial",
@@ -891,9 +1207,13 @@
       "wikidata_label": "ethylene glycol",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Ethylene_glycol",
       "sameAs_status": "verified",
-      "pubchem_cid": 174,
-      "pubchem_formula": "C2H6O2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 174,
+      "pubchem_candidate_formula": "C2H6O2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "monokalium-foszfat-industrial",
@@ -902,9 +1222,13 @@
       "wikidata_label": "monobasic potassium phosphate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Monopotassium_phosphate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24506,
-      "pubchem_formula": "H2KO4P",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 24506,
+      "pubchem_candidate_formula": "H2KO4P",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "mononatrium-foszfat-industrial",
@@ -913,9 +1237,13 @@
       "wikidata_label": "monosodium phosphate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Monosodium_phosphate",
       "sameAs_status": "verified",
-      "pubchem_cid": 24204,
-      "pubchem_formula": "H2NaO4P",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 24204,
+      "pubchem_candidate_formula": "H2NaO4P",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "monopropilenglikol-industrial",
@@ -924,9 +1252,13 @@
       "wikidata_label": "(RS)-propylene glycol",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Propylene_glycol",
       "sameAs_status": "verified",
-      "pubchem_cid": 1030,
-      "pubchem_formula": "C3H8O2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 1030,
+      "pubchem_candidate_formula": "C3H8O2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "na-hexametafoszfat-industrial",
@@ -935,9 +1267,13 @@
       "wikidata_label": "hexasodium hexametaphosphate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_hexametaphosphate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24968,
-      "pubchem_formula": "Na6O18P6",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 24968,
+      "pubchem_candidate_formula": "Na6O18P6",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-acetat-vizmentes-3h2o-industrial",
@@ -946,9 +1282,13 @@
       "wikidata_label": "sodium acetate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_acetate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 517045,
-      "pubchem_formula": "C2H3NaO2",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 517045,
+      "pubchem_candidate_formula": "C2H3NaO2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-benzoat-gran-food",
@@ -957,9 +1297,13 @@
       "wikidata_label": "sodium benzoate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_benzoate",
       "sameAs_status": "verified",
-      "pubchem_cid": 242,
-      "pubchem_formula": "C7H5O2-",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 242,
+      "pubchem_candidate_formula": "C7H5O2-",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-hidrogen-karbonat-industrial",
@@ -968,9 +1312,13 @@
       "wikidata_label": "sodium bicarbonate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_bicarbonate",
       "sameAs_status": "verified",
-      "pubchem_cid": 767,
-      "pubchem_formula": "CH2O3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 767,
+      "pubchem_candidate_formula": "CH2O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-hidrogen-karbonat-szodabikarbona-food",
@@ -979,9 +1327,13 @@
       "wikidata_label": "sodium bicarbonate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_bicarbonate",
       "sameAs_status": "verified",
-      "pubchem_cid": 767,
-      "pubchem_formula": "CH2O3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 767,
+      "pubchem_candidate_formula": "CH2O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
@@ -990,9 +1342,13 @@
       "wikidata_label": "sodium hydroxide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_hydroxide",
       "sameAs_status": "verified",
-      "pubchem_cid": 7303,
-      "pubchem_formula": "C3H4O3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 7303,
+      "pubchem_candidate_formula": "C3H4O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-hidroxid-oldat-4850-industrial",
@@ -1001,9 +1357,13 @@
       "wikidata_label": "sodium hydroxide",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_hydroxide",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 7303,
-      "pubchem_formula": "C3H4O3",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 7303,
+      "pubchem_candidate_formula": "C3H4O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
@@ -1012,9 +1372,13 @@
       "wikidata_label": "sodium hypochlorite",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_hypochlorite",
       "sameAs_status": "verified",
-      "pubchem_cid": 23665760,
-      "pubchem_formula": "ClNaO",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 23665760,
+      "pubchem_candidate_formula": "ClNaO",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-karbonat-konnyu-industrial",
@@ -1023,9 +1387,13 @@
       "wikidata_label": "sodium carbonate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_carbonate",
       "sameAs_status": "verified",
-      "pubchem_cid": 10340,
-      "pubchem_formula": "CNa2O3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 10340,
+      "pubchem_candidate_formula": "CNa2O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-karbonat-nehez-industrial",
@@ -1034,9 +1402,13 @@
       "wikidata_label": "sodium carbonate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_carbonate",
       "sameAs_status": "verified",
-      "pubchem_cid": 10340,
-      "pubchem_formula": "CNa2O3",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 10340,
+      "pubchem_candidate_formula": "CNa2O3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
@@ -1045,9 +1417,13 @@
       "wikidata_label": "sodium metabisulfite",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_metabisulfite",
       "sameAs_status": "verified",
-      "pubchem_cid": 24346,
-      "pubchem_formula": "Na2O5S2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 24346,
+      "pubchem_candidate_formula": "Na2O5S2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-metaszilikat-industrial",
@@ -1056,9 +1432,13 @@
       "wikidata_label": "sodium metasilicate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_metasilicate",
       "sameAs_status": "verified",
-      "pubchem_cid": 23266,
-      "pubchem_formula": "Na2O3Si",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 23266,
+      "pubchem_candidate_formula": "Na2O3Si",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-molibdat-feed",
@@ -1067,9 +1447,13 @@
       "wikidata_label": "sodium molybdate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_molybdate",
       "sameAs_status": "verified",
-      "pubchem_cid": 61424,
-      "pubchem_formula": "MoNa2O4",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 61424,
+      "pubchem_candidate_formula": "MoNa2O4",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-perkarbonat-industrial",
@@ -1078,9 +1462,13 @@
       "wikidata_label": "sodium percarbonate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_percarbonate",
       "sameAs_status": "verified",
-      "pubchem_cid": 159762,
-      "pubchem_formula": "C2H6Na4O12",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 159762,
+      "pubchem_candidate_formula": "C2H6Na4O12",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-permanganat-40-oldat-industrial",
@@ -1089,9 +1477,13 @@
       "wikidata_label": "sodium permanganate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_permanganate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 23673458,
-      "pubchem_formula": "MnNaO4",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 23673458,
+      "pubchem_candidate_formula": "MnNaO4",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-perszulfat-industrial",
@@ -1100,9 +1492,13 @@
       "wikidata_label": "sodium persulfate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_persulfate",
       "sameAs_status": "verified",
-      "pubchem_cid": 62655,
-      "pubchem_formula": "Na2O8S2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 62655,
+      "pubchem_candidate_formula": "Na2O8S2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-szelenit-feed",
@@ -1111,9 +1507,13 @@
       "wikidata_label": "sodium selenite",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_selenite",
       "sameAs_status": "verified",
-      "pubchem_cid": 24934,
-      "pubchem_formula": "Na2O3Se",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 24934,
+      "pubchem_candidate_formula": "Na2O3Se",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-szulfat-industrial",
@@ -1122,9 +1522,13 @@
       "wikidata_label": "sodium sulfate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_sulfate",
       "sameAs_status": "verified",
-      "pubchem_cid": 24436,
-      "pubchem_formula": "Na2O4S",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 24436,
+      "pubchem_candidate_formula": "Na2O4S",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natrium-tripolifoszfat-industrial",
@@ -1133,9 +1537,13 @@
       "wikidata_label": "sodium tripolyphosphate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_triphosphate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24455,
-      "pubchem_formula": "Na5O10P3",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 24455,
+      "pubchem_candidate_formula": "Na5O10P3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "natronvizuveg-oldatok-industrial",
@@ -1144,9 +1552,13 @@
       "wikidata_label": "Sodium silicate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_silicate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 23266,
-      "pubchem_formula": "Na2O3Si",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 23266,
+      "pubchem_candidate_formula": "Na2O3Si",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "propionsav-99-feed",
@@ -1155,9 +1567,13 @@
       "wikidata_label": "propionic acid",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Propionic_acid",
       "sameAs_status": "verified",
-      "pubchem_cid": 1032,
-      "pubchem_formula": "C3H6O2",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 1032,
+      "pubchem_candidate_formula": "C3H6O2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "rez-klorid-dihidrat-industrial",
@@ -1166,9 +1582,13 @@
       "wikidata_label": "copper(II) chloride dihydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Copper%28II%29_chloride",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 7360,
-      "pubchem_formula": "C5H10O2",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 7360,
+      "pubchem_candidate_formula": "C5H10O2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "rez-szulfat-feed",
@@ -1177,9 +1597,13 @@
       "wikidata_label": "copper(II) sulfate pentahydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Copper%28II%29_sulfate",
       "sameAs_status": "verified",
-      "pubchem_cid": 24462,
-      "pubchem_formula": "CuO4S",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 24462,
+      "pubchem_candidate_formula": "CuO4S",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "rez-szulfat-pentahidrat-industrial",
@@ -1188,9 +1612,13 @@
       "wikidata_label": "copper(II) sulfate pentahydrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Copper%28II%29_sulfate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24462,
-      "pubchem_formula": "CuO4S",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 24462,
+      "pubchem_candidate_formula": "CuO4S",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "saletromsav-20-50-53-60-industrial",
@@ -1199,9 +1627,13 @@
       "wikidata_label": "nitric acid",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Nitric_acid",
       "sameAs_status": "verified",
-      "pubchem_cid": 943,
-      "pubchem_formula": "NO3-",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 943,
+      "pubchem_candidate_formula": "NO3-",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "sosav-gyogyszerkonyvi-food",
@@ -1210,9 +1642,13 @@
       "wikidata_label": "hydrogen chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Hydrochloric_acid",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 312,
-      "pubchem_formula": "Cl-",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 312,
+      "pubchem_candidate_formula": "Cl-",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "sosav-technikai-regeneralt-industrial",
@@ -1221,9 +1657,13 @@
       "wikidata_label": "hydrogen chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Hydrochloric_acid",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 312,
-      "pubchem_formula": "Cl-",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 312,
+      "pubchem_candidate_formula": "Cl-",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "sotabletta-industrial",
@@ -1232,9 +1672,13 @@
       "wikidata_label": "sodium chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_chloride",
       "sameAs_status": "verified",
-      "pubchem_cid": 5234,
-      "pubchem_formula": "ClNa",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 5234,
+      "pubchem_candidate_formula": "ClNa",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "tiokarbamid-industrial",
@@ -1243,9 +1687,13 @@
       "wikidata_label": "thiourea",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Thiourea",
       "sameAs_status": "verified",
-      "pubchem_cid": 2723790,
-      "pubchem_formula": "CH4N2S",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 2723790,
+      "pubchem_candidate_formula": "CH4N2S",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "trietilen-glikol-industrial",
@@ -1254,9 +1702,13 @@
       "wikidata_label": "triethylene glycol",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Triethylene_glycol",
       "sameAs_status": "verified",
-      "pubchem_cid": 8172,
-      "pubchem_formula": "C6H14O4",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 8172,
+      "pubchem_candidate_formula": "C6H14O4",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "trinatrium-citrat-industrial",
@@ -1265,9 +1717,13 @@
       "wikidata_label": "trisodium citrate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Trisodium_citrate",
       "sameAs_status": "verified",
-      "pubchem_cid": 6224,
-      "pubchem_formula": "C6H5Na3O7",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 6224,
+      "pubchem_candidate_formula": "C6H5Na3O7",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
@@ -1276,9 +1732,13 @@
       "wikidata_label": "trisodium phosphate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Trisodium_phosphate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24243,
-      "pubchem_formula": "Na3O4P",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 24243,
+      "pubchem_candidate_formula": "Na3O4P",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "utszoro-so-deicing",
@@ -1287,9 +1747,13 @@
       "wikidata_label": "sodium chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_chloride",
       "sameAs_status": "verified",
-      "pubchem_cid": 5234,
-      "pubchem_formula": "ClNa",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 5234,
+      "pubchem_candidate_formula": "ClNa",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "utszoro-zeolit-deicing",
@@ -1298,9 +1762,13 @@
       "wikidata_label": "Zeolite A",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Zeolite",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 9942228,
-      "pubchem_formula": "Al2O5Si",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 9942228,
+      "pubchem_candidate_formula": "Al2O5Si",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "vakuum-so-industrial",
@@ -1309,9 +1777,13 @@
       "wikidata_label": "sodium chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Sodium_chloride",
       "sameAs_status": "verified",
-      "pubchem_cid": 5234,
-      "pubchem_formula": "ClNa",
-      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS matched Wikidata label heuristically aligned with Wikipedia EN URL; still review before promoting machine sameAs.",
+      "pubchem_candidate_cid": 5234,
+      "pubchem_candidate_formula": "ClNa",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "vas-ii-szulfat-monohidrat-feed",
@@ -1320,9 +1792,13 @@
       "wikidata_label": "iron(II) sulfate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Iron%28II%29_sulfate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24393,
-      "pubchem_formula": "FeO4S",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 24393,
+      "pubchem_candidate_formula": "FeO4S",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
@@ -1331,9 +1807,13 @@
       "wikidata_label": "iron(II) sulfate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Iron%28II%29_sulfate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24393,
-      "pubchem_formula": "FeO4S",
-      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
+      "pubchem_candidate_cid": 24393,
+      "pubchem_candidate_formula": "FeO4S",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "vas-iii-klorid-40-oldat-industrial",
@@ -1342,9 +1822,13 @@
       "wikidata_label": "ferric chloride",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Iron%28III%29_chloride",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24380,
-      "pubchem_formula": "Cl3Fe",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 24380,
+      "pubchem_candidate_formula": "Cl3Fe",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
       "id": "vas-iii-szulfat-40-oldat-industrial",
@@ -1353,9 +1837,13 @@
       "wikidata_label": "ferric sulfate",
       "wikipedia_en": "https://en.wikipedia.org/wiki/Iron%28III%29_sulfate",
       "sameAs_status": "needs-confirmation",
-      "pubchem_cid": 24826,
-      "pubchem_formula": "Fe2O12S3",
-      "sameAs_reason": "Needs human confirmation before sameAs use."
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "Needs human confirmation before sameAs use.",
+      "pubchem_candidate_cid": 24826,
+      "pubchem_candidate_formula": "Fe2O12S3",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     }
   ],
   "sameAs_policy": "sameAs only when substance form is unambiguous and human-confirmed; CAS alone is insufficient for solutions, hydrates, mixtures and regenerated grades."
