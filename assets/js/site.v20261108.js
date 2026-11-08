@@ -475,10 +475,10 @@ function initFloatingContact(){
   if(document.querySelector('.rmt-contact-fab'))return;
   const lang=getLang();
   const copy={
-    en:{open:'Contact options',email:'Email Nikoletta',call:'Call Nikoletta'},
-    hu:{open:'Kapcsolatfelvétel',email:'E-mail Nikolettának',call:'Nikoletta hívása'},
-    'de-at':{open:'Kontaktmöglichkeiten',email:'E-Mail an Nikoletta',call:'Nikoletta anrufen'}
-  }[lang]||{open:'Contact options',email:'Email Nikoletta',call:'Call Nikoletta'};
+    en:{open:'Business enquiries',email:'Request a quotation by email',call:'Speak with our sales team',whatsapp:'WhatsApp business enquiry'},
+    hu:{open:'Üzleti kapcsolatfelvétel',email:'Ajánlatkérés e-mailben',call:'Telefonos egyeztetés',whatsapp:'Üzleti megkeresés WhatsAppon'},
+    'de-at':{open:'Geschäftsanfragen',email:'Angebot per E-Mail anfordern',call:'Direkt mit dem Vertrieb sprechen',whatsapp:'Geschäftsanfrage per WhatsApp'}
+  }[lang]||{open:'Business enquiries',email:'Request a quotation by email',call:'Speak with our sales team',whatsapp:'WhatsApp business enquiry'};
   const root=document.createElement('div');
   root.className='rmt-contact-fab';
   const trigger=document.createElement('button');
@@ -493,12 +493,14 @@ function initFloatingContact(){
   panel.hidden=true;
   const links=[
     {text:copy.email,href:'mailto:nikoletta.kadar@rawmaterialstrade.com'},
-    {text:copy.call,href:'tel:+36205567917'}
+    {text:copy.call,href:'tel:+36205567917'},
+    {text:copy.whatsapp,href:'https://wa.me/36205567917',external:true}
   ];
   links.forEach(item=>{
     const a=document.createElement('a');
     a.href=item.href;
     a.textContent=item.text;
+    if(item.external){a.target='_blank';a.rel='noopener noreferrer';}
     panel.appendChild(a);
   });
   const close=()=>{
