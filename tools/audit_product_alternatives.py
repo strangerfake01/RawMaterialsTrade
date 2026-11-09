@@ -27,6 +27,8 @@ PAIRS = (
     ("rez-szulfat-feed", "rez-szulfat-pentahidrat-industrial"),
     ("cink-klorid-feed", "cink-klorid-vizmentes-industrial"),
     ("mangan-klorid-tetrahidrat-feed", "mangan-klorid-monohidrat-tetrahidrat-industrial"),
+    ("magnezium-klorid-food", "magnezium-klorid-hexahidrat-industrial"),
+    ("meszhidrat-industrial", "meszhidrat-15-industrial"),
 )
 errors = []
 checked = 0
