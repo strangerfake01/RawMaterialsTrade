@@ -34,3 +34,16 @@ Six detailed emails reviewed (non-exhaustive). Sales workflow observed:
 
 ## Initial implementation assessment
 EN sample product pages checked: sodium carbonate light, sodium percarbonate, trisodium phosphate. These include buyer/supplier pathways and CoA/Incoterms/MOQ/lead-time terminology. Presence of terms is NOT evidence that real-world sales solutions are fully implemented. Current finding: PARTIAL; deeper full-site and full-mailbox audit pending.
+
+## Implementation batch — 2026-11-09
+
+Expanded correspondence sample: October 16–November 6, including detailed packaging negotiation, specification-led MPG sourcing, urgent trisodium phosphate sourcing, and supplier quality/compliance document request. This remains a sample, not a full-mailbox audit.
+
+- [x] Ion-exchanged water EN/HU/DE-AT: dedicated packaging/consumption/storage request guidance. No universal shelf-life claim; supplier-specific evidence required.
+- [x] Monopropylene glycol EN/HU/DE-AT: detailed specification comparison request, TDS and batch CoA verification.
+- [x] Trisodium phosphate EN/HU/DE-AT: urgent sourcing intake and hydrate-form clarification; no stock or delivery promise.
+- [ ] Extend conditional supplier documentation checklist to food/feed applications; do not imply all parameters apply to every chemical.
+- [ ] Review all remaining correspondence and compare homepage, sourcing pages, contact flow and 126 families.
+- [ ] Verify visual accessibility and mobile presentation of the new product-sales-guidance sections.
+
+Privacy: no customer names, negotiated prices or specific correspondence are included in public product pages.
