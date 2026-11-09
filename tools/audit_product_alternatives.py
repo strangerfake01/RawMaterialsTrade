@@ -12,6 +12,8 @@ PAIRS = (
     ("kalcium-klorid-dihidrat-7880-pikkelyes-deicing", "kalcium-klorid-2025-oldat-deicing"),
     ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"),
     ("natrium-hidrogen-karbonat-industrial", "natrium-hidrogen-karbonat-szodabikarbona-food"),
+    ("aluminium-szulfat-03-mm-38-mm-industrial", "aluminium-szulfat-oldat-industrial"),
+    ("kalium-hidroxid-pikkelyes-industrial", "kalium-hidroxid-oldat-21-45-4850-industrial"),
 )
 errors = []
 checked = 0
