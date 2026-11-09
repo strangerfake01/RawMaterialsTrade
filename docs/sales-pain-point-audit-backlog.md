@@ -1,0 +1,36 @@
+# P0 — Sales pain-point audit: Nikoletta Kádár
+
+Status: IN PROGRESS. Scope: sales correspondence in the connected Raw Materials Trade mailbox, mapped to EN/HU/DE-AT website content and buyer journey. Do not publish customer names, correspondence, negotiated prices, contact details, confidential delivery data, or individual terms.
+
+## First evidence-based sample (2026-11-03 to 2026-11-06)
+
+Six detailed emails reviewed (non-exhaustive). Sales workflow observed:
+1. Compare supplier/grade variants of the same chemical with different pallet quantities and packaging. Website: grade/alternative pathways exist; supplier-variant decision support not fully verified.
+2. Communicate actual availability, collection windows, Incoterms and payment terms. Website: generic procurement fields exist, but no verified real-time stock or fixed terms. Do not imply guaranteed stock or prices.
+3. Source urgent quantities and communicate uncertain arrival/collection dates. Website: generic lead-time fields exist; dedicated urgent RFQ pathway needs assessment.
+4. Obtain and forward batch-specific CoA for sodium percarbonate. Website: CoA mentioned; clear document request/availability workflow needs verification.
+5. Search for non-catalogue chemicals or unavailable items. Website: general sourcing route exists; explicit non-catalogue sourcing request should be evaluated.
+6. Prevent lost deals caused by slow supplier response or uncertain delivery. Website: verify expectation-setting, response process, and non-binding ETA language.
+
+## Required audit matrix for every meaningful sales conversation
+- Date/time window; anonymized conversation reference (internal only)
+- Buyer/supplier type and request category
+- Pain point and precise question asked
+- Sales solution actually offered (not hypothetical)
+- Product/CAS/grade/concentration/packaging/quantity/logistics/documentation attributes
+- Website destination: exact EN/HU/DE-AT URLs and existing relevant text
+- Status: implemented / partial / absent / requires business decision
+- Proposed change, owner, priority, evidence, and QA result
+
+## Work plan
+- [ ] Audit representative inbound and outbound conversations across time periods, not only recent sent mail; deduplicate threads.
+- [ ] Classify recurring buyer pain points: specification, alternative grade/supplier, MOQ, packaging, availability, urgency, Incoterms, freight, CoA/SDS/TDS, payment, non-catalogue sourcing, claim handling.
+- [ ] Classify supplier pain points and procurement responses separately.
+- [ ] Compare each verified sales solution to homepage, sourcing pages, all 126 product families × 3 languages, and RFQ pathway.
+- [ ] Implement missing generic process explanations and safe decision aids without exposing individual customer information or commercial secrets.
+- [ ] Avoid publishing unsupported stock, delivery promises, prices, supplier names or fixed payment terms.
+- [ ] Validate translations, internal links, schema claims, mobile UX and release CI; check production only after approved merge.
+- [ ] Maintain evidence-based gap register and completion report with exact URLs and commit references.
+
+## Initial implementation assessment
+EN sample product pages checked: sodium carbonate light, sodium percarbonate, trisodium phosphate. These include buyer/supplier pathways and CoA/Incoterms/MOQ/lead-time terminology. Presence of terms is NOT evidence that real-world sales solutions are fully implemented. Current finding: PARTIAL; deeper full-site and full-mailbox audit pending.
