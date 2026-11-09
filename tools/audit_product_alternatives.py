@@ -16,6 +16,8 @@ PAIRS = (
     ("kalium-hidroxid-pikkelyes-industrial", "kalium-hidroxid-oldat-21-45-4850-industrial"),
     ("glicerin-industrial", "glicerin-99-5-food"),
     ("magnezium-oxid-feed", "magnezium-oxid-nehez-industrial"),
+    ("natrium-hidroxid-mikrogyongy-pikkelyes-industrial", "natrium-hidroxid-oldat-4850-industrial"),
+    ("monoammonium-foszfat-industrial", "diammonium-hidrogenfoszfat-industrial"),
 )
 errors = []
 checked = 0
