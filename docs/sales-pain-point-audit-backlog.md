@@ -83,3 +83,13 @@ Catalogue checked: 126 product families, 34 food/feed-labelled families. The cal
 - [x] Zinc sulfate monohydrate feed EN/HU/DE-AT: specify species/intended use, Zn assay, monohydrate form, impurity limits, lot CoA and applicable feed regulatory evidence. Industrial-grade equivalence explicitly disclaimed.
 - [ ] Verify applicability of this pattern to remaining feed-labelled families one by one; do not mechanically copy product-specific regulatory language.
 - [ ] Complete responsive visual QA and review branch CI before merge.
+
+## Feed-labelled catalogue verification — 2026-11-09
+
+Catalogue source has 126 families; 21 carry a feed category (some also industrial/food). This is a classification, not proof of regulatory approval. Prior guidance for zinc sulfate monohydrate remains in place.
+
+- [x] Sodium selenite EN/HU/DE-AT: target species, selenium assay, chemical form, market authorization, use levels, labeling, supplier CoA.
+- [x] Copper sulfate EN/HU/DE-AT: copper assay, exact hydrate, impurity limits, feed authorization/restrictions, lot CoA.
+- [ ] Review remaining feed-labelled families, including vitamin mixtures, for product-specific authorization, specifications and naming accuracy; do not imply universal feed eligibility.
+- [ ] Obtain current supplier technical evidence before asserting approvals or exact numerical limits.
+- [ ] Responsive visual QA and latest CI checks pending; merge/deployment not authorized by this documentation update.
