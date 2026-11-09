@@ -50,6 +50,18 @@ for entity in entities:
     qid = entity.get("wikidata_qid")
     if qid:
         qid_to_products.setdefault(qid, []).append(entity["id"])
+# Registry integrity: one candidate QID must not point to contradictory EN articles.
+qid_to_english_urls = {}
+for entity in entities:
+    qid = entity.get("wikidata_qid")
+    english_url = entity.get("wikipedia_en")
+    if bool(qid) != bool(english_url):
+        errors.append(f"{entity['id']}: Wikidata and EN Wikipedia candidate presence differs")
+    if qid and english_url:
+        qid_to_english_urls.setdefault(qid, set()).add(english_url)
+for qid, urls in qid_to_english_urls.items():
+    if len(urls) != 1:
+        errors.append(f"{qid}: conflicting EN Wikipedia URLs for shared Wikidata concept")
 shared_concepts = {qid: product_ids for qid, product_ids in qid_to_products.items()
                    if len(product_ids) > 1}
 print("Unique Wikidata candidates:", len(qid_to_products))
