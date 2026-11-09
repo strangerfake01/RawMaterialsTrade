@@ -23,6 +23,8 @@ PAIRS = (
     ("dinatrium-pirofoszfat-food", "dinatriumpirofoszfat-industrial"),
     ("foszforsav-75-industrial", "foszforsav-75-85-food"),
     ("ecetsav-20-50-60-70-80-99-8-industrial", "ecetsav-20-50-60-70-80-99-8-jegecet-food"),
+    ("mangan-szulfat-monohidrat-feed", "mangan-ii-szulfat-monohidrat-industrial"),
+    ("rez-szulfat-feed", "rez-szulfat-pentahidrat-industrial"),
 )
 errors = []
 checked = 0
