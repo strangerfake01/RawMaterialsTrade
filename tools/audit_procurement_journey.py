@@ -59,7 +59,7 @@ for filename, (lang, headings, terms) in PAGES.items():
     parser = JourneyParser()
     parser.feed(html)
     # Capture complete section, independent of parser nesting state.
-    section = re.search(r'<section\\b[^>]*id="procurement-journey"[^>]*>(.*?)</section>', html, re.S)
+    section = re.search(r'<section\b[^>]*id="procurement-journey"[^>]*>(.*?)</section>', html, re.S)
     content = re.sub(r"<[^>]+>", " ", section.group(1)) if section else ""
     content = " ".join(content.split())
     if parser.section_count != 1:
