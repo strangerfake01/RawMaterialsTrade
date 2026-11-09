@@ -42,6 +42,17 @@ for e in entities:
                     or not unquote(parsed.path[len("/wiki/"):]).strip()
                     or parsed.query or parsed.fragment or parsed.username or parsed.password):
                 errors.append(f"{pid}: malformed or noncanonical {lang} Wikipedia article URL")
+    # Automated PubChem CID/formula candidates are not verified product identities.
+    # Never allow them to become approved registry data without provenance.
+    if e.get("pubchem_status") != "verified":
+        if e.get("pubchem_cid") is not None or e.get("pubchem_formula") is not None:
+            errors.append(f"{pid}: unverified PubChem candidate promoted to approved field")
+    else:
+        evidence = e.get("pubchem_verification_evidence") or {}
+        required_pubchem = ("primary_source_url", "verified_cas",
+                            "verified_material_form", "reviewed_by", "reviewed_on")
+        if any(not str(evidence.get(k) or "").strip() for k in required_pubchem):
+            errors.append(f"{pid}: verified PubChem identity lacks provenance")
     if e.get("sameAs_status") == "verified":
         counts["identity_approved"] += 1
         evidence = e.get("identity_verification_evidence") or {}
