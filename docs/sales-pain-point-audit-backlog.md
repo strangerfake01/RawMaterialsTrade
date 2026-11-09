@@ -115,3 +115,10 @@ Catalogue source has 126 families; 21 carry a feed category (some also industria
 - [x] Potassium iodide EN/HU/DE-AT: distinguish from iodate; verify supplier grade, permitted use, labeling and authorization rather than assuming interchangeability.
 - [ ] Review remaining feed-labelled families with distinct chemical forms or species-specific limits.
 - [ ] Verify responsive rendering and final CI before merge; no publication implied.
+
+## Feed trace-element continuation — 2026-11-09
+
+- [x] Manganese sulfate monohydrate EN/HU/DE-AT: manganese assay, hydrate form, impurity limits, batch CoA and feed-use evidence.
+- [x] Iron(II) sulfate monohydrate EN/HU/DE-AT: elemental iron assay, chemical/hydration identity, relevant impurity and oxidation criteria, batch CoA and feed-use evidence.
+- [ ] Continue product-specific review of remaining feed-labelled families, prioritizing substances with narrow use conditions.
+- [ ] Confirm responsive rendering and latest CI before merging or publishing.
