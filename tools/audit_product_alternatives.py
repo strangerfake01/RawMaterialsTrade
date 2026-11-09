@@ -21,6 +21,7 @@ PAIRS = (
     ("kalcium-klorid-7780-food", "kalcium-klorid-dihidrat-7880-pikkelyes-deicing"),
     ("cink-szulfat-monohidrat-feed", "cink-szulfat-monohidrat-heptahidrat-industrial"),
     ("dinatrium-pirofoszfat-food", "dinatriumpirofoszfat-industrial"),
+    ("foszforsav-75-industrial", "foszforsav-75-85-food"),
 )
 errors = []
 checked = 0
