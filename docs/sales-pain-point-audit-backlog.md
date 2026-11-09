@@ -47,3 +47,13 @@ Expanded correspondence sample: October 16–November 6, including detailed pack
 - [ ] Verify visual accessibility and mobile presentation of the new product-sales-guidance sections.
 
 Privacy: no customer names, negotiated prices or specific correspondence are included in public product pages.
+
+## Implementation batch — batch-specific CoA (2026-11-09)
+
+Additional October correspondence reviewed: specific lot/batch CoA requests, sodium bicarbonate for animal feed, and supplier distinction between generic SDS/TDS and order-specific CoA. Supplier certificates may be expired or pending renewal; never imply certification without current evidence.
+
+- [x] Sodium bicarbonate (food-labelled catalogue page), EN/HU/DE-AT: explain lot number, intended use, actual grade and batch-specific CoA; do not infer feed approval from food catalogue category.
+- [x] Sodium percarbonate EN/HU/DE-AT: explain CoA requests for delivered batches, test parameters and deadlines.
+- [ ] Extend evidence-based documentation workflow to other food/feed product families where correspondence supports the need.
+- [ ] Verify actual RFQ form captures batch number, document type and intended use where relevant (form testing remains deferred per project decision).
+- [ ] Complete visual QA and CI for this batch.
