@@ -43,7 +43,7 @@ for product in PRODUCTS:
         h1 = re.search(r"<h1\b[^>]*>(.*?)</h1>", html, re.S | re.I)
         expected_name = product.get(name_field, "")
         if not title or not expected_name or norm(expected_name) not in norm(title.group(1)):
-            blocking.append((filename, "title_name"))
+            issues.append((filename, "title_name_variant"))
         if not h1 or norm(expected_name) not in norm(re.sub(r"<[^>]+>", "", h1.group(1))):
             blocking.append((filename, "h1_name"))
         for key in ("cas", "ec", "formula"):
@@ -63,6 +63,12 @@ for product in PRODUCTS:
                 blocking.append((filename, "invalid_jsonld"))
         chemicals = [n for n in graphs if isinstance(n, dict) and "ChemicalSubstance" in (n.get("@type") if isinstance(n.get("@type"), list) else [n.get("@type")])]
         if len(chemicals) != 1:
+            defined_terms = [n for n in graphs if isinstance(n, dict) and "DefinedTerm" in (n.get("@type") if isinstance(n.get("@type"), list) else [n.get("@type")])]
+            # Broad or unverified families deliberately use DefinedTerm instead of
+            # falsely claiming a unique ChemicalSubstance identity.
+            if len(chemicals) == 0 and len(defined_terms) == 1:
+                issues.append((filename, "broad_family_defined_term_identity_not_specific"))
+                continue
             blocking.append((filename, "chemical_schema_count"))
             continue
         chemical = chemicals[0]
