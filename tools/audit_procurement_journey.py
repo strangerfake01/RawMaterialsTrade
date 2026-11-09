@@ -58,7 +58,10 @@ for filename, (lang, headings, terms) in PAGES.items():
         errors.append(f"{filename}: unexpected HTML language")
     parser = JourneyParser()
     parser.feed(html)
-    content = " ".join(" ".join(parser.parts).split())
+    # Capture complete section, independent of parser nesting state.
+    section = re.search(r'<section\\b[^>]*id="procurement-journey"[^>]*>(.*?)</section>', html, re.S)
+    content = re.sub(r"<[^>]+>", " ", section.group(1)) if section else ""
+    content = " ".join(content.split())
     if parser.section_count != 1:
         errors.append(f"{filename}: expected one procurement journey, found {parser.section_count}")
     if parser.headings != headings:
