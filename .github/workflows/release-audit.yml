@@ -42,6 +42,8 @@ jobs:
         run: python3 tools/audit_procurement_journey.py
       - name: Check buyer and supplier paths across 378 product pages
         run: python3 tools/audit_product_procurement_paths.py
+      - name: Audit chemical search landing-page identities across 378 URLs
+        run: python3 tools/audit_chemical_search_landing.py
       - name: Audit Wikidata and multilingual Wikipedia candidate coverage
         run: python3 tools/audit_wikidata_wikipedia_coverage.py
       - name: Prevent unreviewed chemical identity claims in 378 product schemas
