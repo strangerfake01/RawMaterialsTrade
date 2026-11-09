@@ -251,6 +251,22 @@ function buildPrefillMessage(lang, product, docs){
   if(lang==='de-at') return `Anfrage zum Produkt: ${product}${hasDocs ? '\nBenötigte Dokumentation: '+docs : ''}`;
   return `Inquiry regarding product: ${product}${hasDocs ? '\nRequested documentation: '+docs : ''}`;
 }
+function initProductBuyerJourney(){
+  // Reuse the existing product-specific RFQ link: it already carries the
+  // verified product label and selected documentation intent in the URL.
+  // Do not synthesize identity, CAS or stock claims from the page heading.
+  const section=document.querySelector('.product-dual-path');
+  if(!section)return;
+  const buyer=section.querySelector('.dual-path-card a[href]');
+  const existing=[...document.querySelectorAll('a[href*="product="][href*="#contact"]')]
+    .find(link=>{try{return new URL(link.href,location.href).searchParams.has('product');}catch(_){return false;}});
+  if(!buyer||!existing)return;
+  const url=new URL(existing.href,location.href);
+  // Keep the buyer CTA as a quotation, not a document-only or availability request.
+  const lang=getLang();
+  url.searchParams.set('docs',lang==='hu'?'ajánlat':lang==='de-at'?'Angebot':'quotation');
+  buyer.href=url.pathname+url.search+url.hash;
+}
 function initProductPrefill(){document.querySelectorAll('.product-prefill').forEach(a=>a.addEventListener('click',()=>{const p=a.dataset.product||'';const d=a.dataset.docs||'';setTimeout(()=>{const product=document.getElementById('product');const docs=document.getElementById('docs');const msg=document.getElementById('message');const lang=getLang();if(product&&p)product.value=p;if(docs&&d)setDocsValue(docs,d);if(msg&&!msg.value&&p){msg.value=buildPrefillMessage(lang,p,d);}},60);}));}
 function initLanguagePreference(){
   document.querySelectorAll('.lang-switcher a[lang]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('rmtLangSelected',a.getAttribute('lang')||'en')}catch(_){}}));
@@ -524,4 +540,4 @@ function initFloatingContact(){
 }
 
 function initSmoothScroll(){document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const id=a.getAttribute('href');if(id&&id.length>1){const el=document.querySelector(id);if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});}}}));}
-document.addEventListener('DOMContentLoaded',()=>{initLanguagePreference();initNav();initCookieBanner();initFAQ();initCatalogue();initProductPrefill();initQueryPrefill();initCertificateModals();initCategoryVisualState();initHeroHoverVideo();initHeroParallax();initForm();initSmoothScroll();initFloatingContact();});
+document.addEventListener('DOMContentLoaded',()=>{initLanguagePreference();initNav();initCookieBanner();initFAQ();initCatalogue();initProductBuyerJourney();initProductPrefill();initQueryPrefill();initCertificateModals();initCategoryVisualState();initHeroHoverVideo();initHeroParallax();initForm();initSmoothScroll();initFloatingContact();});
