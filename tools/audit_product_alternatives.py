@@ -33,15 +33,18 @@ for first, second in PAIRS:
                 errors.append(f"{name}: source or target missing")
                 continue
             html = path.read_text(encoding="utf-8")
-            section = re.search(r'<section class="product-alternative"[^>]*>(.*?)</section>', html, re.S)
-            if not section:
+            sections = re.findall(r'<section class="product-alternative"[^>]*>(.*?)</section>', html, re.S)
+            if not sections:
                 errors.append(f"{name}: no conditional alternative section")
                 continue
-            if f'href="{target}"' not in section.group(1):
+            matching = [section for section in sections if f'href="{target}"' in section]
+            if not matching:
                 errors.append(f"{name}: wrong localized alternative link")
-            if not re.search(r"<h2>.+?</h2>", section.group(1), re.S):
+                continue
+            section = matching[0]
+            if not re.search(r"<h2>.+?</h2>", section, re.S):
                 errors.append(f"{name}: missing alternative heading")
-            if not re.search(r"<p>.+?</p>", section.group(1), re.S):
+            if not re.search(r"<p>.+?</p>", section, re.S):
                 errors.append(f"{name}: missing technical explanation")
             checked += 1
 print(f"Checked {checked} alternative sections across {len(PAIRS)} pairs x 3 languages")
