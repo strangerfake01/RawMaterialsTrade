@@ -25,6 +25,8 @@ PAIRS = (
     ("ecetsav-20-50-60-70-80-99-8-industrial", "ecetsav-20-50-60-70-80-99-8-jegecet-food"),
     ("mangan-szulfat-monohidrat-feed", "mangan-ii-szulfat-monohidrat-industrial"),
     ("rez-szulfat-feed", "rez-szulfat-pentahidrat-industrial"),
+    ("cink-klorid-feed", "cink-klorid-vizmentes-industrial"),
+    ("mangan-klorid-tetrahidrat-feed", "mangan-klorid-monohidrat-tetrahidrat-industrial"),
 )
 errors = []
 checked = 0
