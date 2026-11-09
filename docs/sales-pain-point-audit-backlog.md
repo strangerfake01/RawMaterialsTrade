@@ -93,3 +93,10 @@ Catalogue source has 126 families; 21 carry a feed category (some also industria
 - [ ] Review remaining feed-labelled families, including vitamin mixtures, for product-specific authorization, specifications and naming accuracy; do not imply universal feed eligibility.
 - [ ] Obtain current supplier technical evidence before asserting approvals or exact numerical limits.
 - [ ] Responsive visual QA and latest CI checks pending; merge/deployment not authorized by this documentation update.
+
+## Feed portfolio refinement — vitamins and iodine (2026-11-09)
+
+- [x] Grouped vitamin portfolio EN/HU/DE-AT: distinguish individual vitamins and chemical forms, potency units, carrier/formulation, species, supplier lot CoA, stability and market-specific feed authorization. Do not imply a standard blend.
+- [x] Calcium iodate EN/HU/DE-AT: iodine assay, exact grade/hydrate, species, impurity limits, lot CoA and applicable feed authorization/labeling.
+- [ ] Remaining feed categories require product-by-product review; verify authoritative supplier evidence before numeric specification or regulatory claims.
+- [ ] Validate responsive layout and CI for this batch before merging.
