@@ -29,7 +29,8 @@ class JourneyParser(HTMLParser):
             self.depth = 1
             return
         if self.depth:
-            self.depth += 1
+            if tag not in ("br", "hr", "img", "input", "meta", "link", "source", "wbr", "area"):
+                self.depth += 1
             if tag == "h3":
                 self.in_h3 = True
                 self.h3_parts = []
@@ -53,7 +54,7 @@ class JourneyParser(HTMLParser):
 errors = []
 for filename, (lang, headings, terms) in PAGES.items():
     html = (ROOT / filename).read_text(encoding="utf-8")
-    if not re.search(r'<html\\s+lang="' + re.escape(lang) + r'"', html):
+    if not re.search(r'<html\s+lang="' + re.escape(lang) + r'"', html):
         errors.append(f"{filename}: unexpected HTML language")
     parser = JourneyParser()
     parser.feed(html)
