@@ -67,3 +67,13 @@ Further sales evidence reviewed: industrial salt-tablet RFQ for water softening 
 - [ ] Locate the exact calcium sulfate catalogue family and grade before changing it; do not invent a product slug or equate industrial grade with food grade.
 - [ ] For food-grade orders, assess conditional remaining shelf-life at delivery and batch documentation. Do not state a universal two-thirds requirement: it was a customer-specific contractual requirement.
 - [ ] Verify latest CI and responsive rendering for all newly inserted guidance sections.
+
+## Implementation batch — food receiving and shelf-life (2026-11-09)
+
+Catalogue checked: 126 product families, 34 food/feed-labelled families. The calcium sulfate food-grade item mentioned in sales correspondence is NOT present as a matching product family in the current products-multilingual.json; flag as catalogue gap, do not silently substitute calcium carbonate.
+
+- [x] Citric acid monohydrate/anhydrous food EN/HU/DE-AT: conditional remaining shelf-life at delivery, form, batch CoA and storage verification.
+- [x] Calcium carbonate food EN/HU/DE-AT: receiving specification, contaminant limits, food-use evidence and customer-defined shelf-life.
+- [ ] Catalogue decision: whether to add calcium sulfate food grade as a new, documented family (requires verified supplier grade, CAS, regulatory evidence and technical sheet).
+- [ ] Check remaining 32 food/feed families for relevant sales documentation needs and language parity.
+- [ ] CI and visual QA for new guidance; do not merge until verified.
