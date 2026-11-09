@@ -57,3 +57,13 @@ Additional October correspondence reviewed: specific lot/batch CoA requests, sod
 - [ ] Extend evidence-based documentation workflow to other food/feed product families where correspondence supports the need.
 - [ ] Verify actual RFQ form captures batch number, document type and intended use where relevant (form testing remains deferred per project decision).
 - [ ] Complete visual QA and CI for this batch.
+
+## Implementation batch — industrial salt and bulk sodium bicarbonate (2026-11-09)
+
+Further sales evidence reviewed: industrial salt-tablet RFQ for water softening with quality certificate and FCA/DAP comparison; bulk sodium bicarbonate delivery planning with unloading slot and order/transport references; food-grade calcium sulfate procurement with delivered terms, batch CoA and remaining shelf-life constraints.
+
+- [x] Salt tablets industrial EN/HU/DE-AT: intended application, specification, tonnage, packaging, FCA/DAP and certificate checklist.
+- [x] Sodium bicarbonate industrial EN/HU/DE-AT: bulk/big-bag delivery, Incoterms, time-slot and unloading requirements.
+- [ ] Locate the exact calcium sulfate catalogue family and grade before changing it; do not invent a product slug or equate industrial grade with food grade.
+- [ ] For food-grade orders, assess conditional remaining shelf-life at delivery and batch documentation. Do not state a universal two-thirds requirement: it was a customer-specific contractual requirement.
+- [ ] Verify latest CI and responsive rendering for all newly inserted guidance sections.
