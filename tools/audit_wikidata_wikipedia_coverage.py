@@ -8,6 +8,7 @@ import json
 import re
 from collections import Counter
 from pathlib import Path
+from urllib.parse import urlsplit, unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 products = json.loads((ROOT / "products-multilingual.json").read_text(encoding="utf-8"))
@@ -35,8 +36,12 @@ for e in entities:
         value = e.get("wikipedia_" + lang)
         if value:
             counts["wikipedia_" + lang + "_recorded"] += 1
-            if not value.startswith("https://" + domain + "/wiki/"):
-                errors.append(f"{pid}: unexpected {lang} Wikipedia URL")
+            parsed = urlsplit(value)
+            if (parsed.scheme != "https" or parsed.netloc != domain
+                    or not parsed.path.startswith("/wiki/")
+                    or not unquote(parsed.path[len("/wiki/"):]).strip()
+                    or parsed.query or parsed.fragment or parsed.username or parsed.password):
+                errors.append(f"{pid}: malformed or noncanonical {lang} Wikipedia article URL")
     if e.get("sameAs_status") == "verified":
         counts["identity_approved"] += 1
         evidence = e.get("identity_verification_evidence") or {}
