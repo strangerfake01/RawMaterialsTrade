@@ -100,3 +100,11 @@ Catalogue source has 126 families; 21 carry a feed category (some also industria
 - [x] Calcium iodate EN/HU/DE-AT: iodine assay, exact grade/hydrate, species, impurity limits, lot CoA and applicable feed authorization/labeling.
 - [ ] Remaining feed categories require product-by-product review; verify authoritative supplier evidence before numeric specification or regulatory claims.
 - [ ] Validate responsive layout and CI for this batch before merging.
+
+## Feed-labelled catalogue verification — vitamins and iodine (2026-11-09)
+
+- [x] Vitamin portfolio (A, B1, B12, B5, B6, C, D3, E, H, K3) EN/HU/DE-AT: explicitly a sourcing grouping, not a single standardized product or interchangeable formulation; require exact vitamin, chemical form, activity units, carrier, species, batch CoA and product-specific regulatory evidence.
+- [x] Calcium iodate feed EN/HU/DE-AT: iodine assay, hydration state, species, impurity limits, batch CoA and applicable feed authorization.
+- [ ] Evaluate whether the vitamin portfolio should be split into distinct product families with verified supplier evidence; avoid creating unsupported CAS, grades or regulatory claims.
+- [ ] Review remaining feed-labelled families for chemical identity and feed-specific regulatory distinctions.
+- [ ] Re-run CI and mobile/desktop visual QA before considering merge.
