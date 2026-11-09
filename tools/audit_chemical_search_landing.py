@@ -11,7 +11,7 @@ from html import unescape
 ROOT = Path(__file__).resolve().parents[1]
 PRODUCTS = json.loads((ROOT / "products-multilingual.json").read_text(encoding="utf-8"))
 LANGS = {"en": ("en-", "name_en"), "hu": ("hu-", "name_hu"), "de": ("de-at-", "name_de")}
-SCHEMA = re.compile(r'<script[^>]*type="application/ld\\+json"[^>]*>(.*?)</script>', re.I | re.S)
+SCHEMA = re.compile(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', re.I | re.S)
 issues = []
 stats = {"pages": 0, "cas_visible": 0, "ec_visible": 0, "formula_visible": 0, "cas_schema": 0, "ec_schema": 0, "formula_schema": 0}
 
@@ -25,7 +25,7 @@ def nodes(value):
             yield from nodes(v)
 
 def norm(value):
-    return re.sub(r"\\s+", "", unescape(str(value))).casefold()
+    return re.sub(r"\s+", "", unescape(str(value))).casefold()
 
 for product in PRODUCTS:
     ident = product.get("technical_identity") or {}
@@ -37,9 +37,9 @@ for product in PRODUCTS:
             continue
         stats["pages"] += 1
         html = path.read_text(encoding="utf-8")
-        plain = unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<script\\b.*?</script>|<style\\b.*?</style>", "", html, flags=re.S | re.I)))
+        plain = unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<script\b.*?</script>|<style\b.*?</style>", "", html, flags=re.S | re.I)))
         title = re.search(r"<title>(.*?)</title>", html, re.S | re.I)
-        h1 = re.search(r"<h1\\b[^>]*>(.*?)</h1>", html, re.S | re.I)
+        h1 = re.search(r"<h1\b[^>]*>(.*?)</h1>", html, re.S | re.I)
         expected_name = product.get(name_field, "")
         if not title or not expected_name or norm(expected_name) not in norm(title.group(1)):
             issues.append((filename, "title_name"))
