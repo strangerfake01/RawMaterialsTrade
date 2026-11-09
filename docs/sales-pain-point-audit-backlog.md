@@ -77,3 +77,9 @@ Catalogue checked: 126 product families, 34 food/feed-labelled families. The cal
 - [ ] Catalogue decision: whether to add calcium sulfate food grade as a new, documented family (requires verified supplier grade, CAS, regulatory evidence and technical sheet).
 - [ ] Check remaining 32 food/feed families for relevant sales documentation needs and language parity.
 - [ ] CI and visual QA for new guidance; do not merge until verified.
+
+## Implementation batch — feed-grade trace element (2026-11-09)
+
+- [x] Zinc sulfate monohydrate feed EN/HU/DE-AT: specify species/intended use, Zn assay, monohydrate form, impurity limits, lot CoA and applicable feed regulatory evidence. Industrial-grade equivalence explicitly disclaimed.
+- [ ] Verify applicability of this pattern to remaining feed-labelled families one by one; do not mechanically copy product-specific regulatory language.
+- [ ] Complete responsive visual QA and review branch CI before merge.
