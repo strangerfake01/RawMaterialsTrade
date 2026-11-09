@@ -49,6 +49,25 @@ for product in products:
         raise SystemExit(f"{product['id']}: stale CAS uncertainty flag on a single numeric identifier")
     if is_supplier_placeholder or "supplier documentation" in form.lower() or "to be confirmed" in form.lower():
         placeholders.append(product["id"])
+# Report actual identity coverage, excluding supplier-confirmation placeholders.
+def is_concrete(value):
+    value = str(value or "").strip()
+    if not value:
+        return False
+    lower = value.casefold()
+    return not any(term in lower for term in (
+        "confirmed upon", "to be confirmed", "supplier documentation",
+        "beszállítói dokumentáció", "lieferantendokumentation",
+        "product-specific", "composition-dependent", "exact cas",
+        "sds/tds", "megerősítendő", "pontosítandó"
+    ))
+identity_coverage = {
+    "formula": sum(is_concrete(p.get("technical_identity", {}).get("formula")) for p in products),
+    "ec": sum(is_concrete(p.get("technical_identity", {}).get("ec")) for p in products),
+    "cas_single": sum(bool(re.fullmatch(r"\\d{2,7}-\\d{2}-\\d",
+                        str(p.get("technical_identity", {}).get("cas") or ""))) for p in products),
+}
+print("Concrete identity-field coverage (not externally verified):", identity_coverage)
 print("Technical-field semantics: %d families; CAS checksums verified: %d" % (len(products), cas_checked))
 print("Concentration fields without quantitative concentration units (manual review):", len(review))
 print("Form fields with supplier-confirmation placeholders:", len(placeholders))
