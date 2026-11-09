@@ -71,7 +71,7 @@ for filename, (lang, headings, terms) in PAGES.items():
     for term in terms:
         if term not in content:
             errors.append(f"{filename}: missing purchasing term {term}")
-    if not any(term in content.casefold() for term in ("regular", "rendszeres", "regelmäßig")):
+    if not any(term.casefold() in content.casefold() for term in ("regular", "rendszeres", "regelmäßig")):
         errors.append(f"{filename}: recurring supply is not explained")
     print(f"{filename}: {len(parser.headings)} steps, contact CTA={parser.contact_cta}, procurement terms checked")
 
