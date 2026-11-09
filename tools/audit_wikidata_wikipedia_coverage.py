@@ -86,6 +86,22 @@ print("Shared Wikidata concepts:", len(shared_concepts),
       "product families")
 for qid, product_ids in sorted(shared_concepts.items()):
     print("REVIEW shared substance concept:", qid, "|", ", ".join(product_ids))
+# Candidate coverage is report-only: do not infer chemical correctness from populated fields.
+candidate_cids = {}
+for entity in entities:
+    cid = entity.get("pubchem_candidate_cid")
+    formula = entity.get("pubchem_candidate_formula")
+    if cid is not None:
+        if type(cid) is not int or cid <= 0:
+            errors.append(f"{entity['id']}: invalid PubChem candidate CID")
+        else:
+            candidate_cids.setdefault(cid, []).append(entity["id"])
+    if formula is not None and (not isinstance(formula, str) or not formula.strip()):
+        errors.append(f"{entity['id']}: invalid PubChem candidate formula")
+print("PubChem candidate CIDs:", sum(bool(e.get("pubchem_candidate_cid")) for e in entities))
+print("Unique PubChem candidate CIDs:", len(candidate_cids))
+print("PubChem candidate formulas:", sum(bool(e.get("pubchem_candidate_formula")) for e in entities))
+print("NOTE: candidate CID/formula presence is not independent identity verification.")
 print("Entity registry coverage:", len(entities), "families")
 print("Wikidata candidates:", counts["wikidata_candidate"])
 for lang in language_domains:
