@@ -108,3 +108,10 @@ Catalogue source has 126 families; 21 carry a feed category (some also industria
 - [ ] Evaluate whether the vitamin portfolio should be split into distinct product families with verified supplier evidence; avoid creating unsupported CAS, grades or regulatory claims.
 - [ ] Review remaining feed-labelled families for chemical identity and feed-specific regulatory distinctions.
 - [ ] Re-run CI and mobile/desktop visual QA before considering merge.
+
+## Feed iodine sources — 2026-11-09
+
+- [x] Potassium iodate EN/HU/DE-AT: distinguish from iodide; specify iodine assay, target species, impurity limits, lot CoA and market-specific authorization.
+- [x] Potassium iodide EN/HU/DE-AT: distinguish from iodate; verify supplier grade, permitted use, labeling and authorization rather than assuming interchangeability.
+- [ ] Review remaining feed-labelled families with distinct chemical forms or species-specific limits.
+- [ ] Verify responsive rendering and final CI before merge; no publication implied.
