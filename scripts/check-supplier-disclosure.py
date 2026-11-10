@@ -103,11 +103,16 @@ def main():
             hits.append((rel, "unreadable_text_file"))
             continue
         checked += 1
-        # This one tracked regression module contains three deliberately synthetic
-        # positive fixtures. Scan its file type and binary signature above, but
-        # do not treat the literal synthetic examples as real disclosures.
+        # Ignore only the three exact synthetic positive fixtures in the test
+        # module; any additional text or newly inserted disclosure is still scanned.
         if rel == "scripts/test-supplier-disclosure.py":
-            continue
+            synthetic_lines = (
+                '"private_share_link": "internal https://drive.google.com/file/d/SYNTHETIC123/view",',
+                '''"embedded_credentials": 'access_token = "SYNTHETIC_SECRET_123456"',''',
+                '"supplier_contact_email": "supplier contact: test.supplier@example.invalid",',
+            )
+            data = "\\n".join(line for line in data.splitlines()
+                             if line.strip() not in synthetic_lines)
         for label, pattern in PATTERNS.items():
             if pattern.search(data):
                 hits.append((rel, label))
