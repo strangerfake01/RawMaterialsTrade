@@ -67,6 +67,8 @@ def main():
             except (KeyError, TypeError, ValueError):
                 errors.append(f"record {index}: invalid evidence verification date")
         if record.get("status") == "approved":
+            if isinstance(evidence, list) and not any(isinstance(item, dict) and item.get("document_type") in {"TDS", "CoA", "manufacturer"} for item in evidence):
+                errors.append(f"record {index}: approved without product-specific technical evidence (TDS, CoA or manufacturer)")
             try:
                 approval_date = date.fromisoformat(record["review_date"])
             except (KeyError, TypeError, ValueError):
