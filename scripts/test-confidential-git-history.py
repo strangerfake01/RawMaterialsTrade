@@ -31,7 +31,7 @@ class HistoryAuditTests(TestCase):
         path = "synthetic/confidential-vendor-contract.pdf"
         code, log = self.run_case([b"false\n", b"abc123\n", (path + "\0").encode()])
         self.assertEqual(code, 1)
-        self.assertIn("1 restricted paths", log)
+        self.assertIn("1 restricted path(s)", log)
         self.assertNotIn(path, log)
         self.assertNotIn("vendor", log)
 
