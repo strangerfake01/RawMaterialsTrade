@@ -46,6 +46,10 @@ def main():
     assert check([{**base, "status": "approved", "reviewer": "Test reviewer", "review_date": "2026-11-09"}]) != 0, "Evidence checked after approval must fail"
     assert check([{**base, "status": "approved", "reviewer": "Test reviewer", "review_date": "2026-11-10"}]) == 0, "Evidence checked on approval date must pass"
     assert check([{**base, "status": "approved", "reviewer": "Test reviewer", "review_date": "2026-11-10", "evidence": [{**base["evidence"][0], "document_type": "other"}]}]) != 0, "Generic evidence alone must not approve a substitution"
+    approved = {**base, "status": "approved", "reviewer": "Test reviewer", "review_date": "2026-11-10"}
+    assert check([{**approved, "application": "all applications"}]) != 0, "Unrestricted application must fail"
+    assert check([{**approved, "limitations": "no limitations"}]) != 0, "Unqualified limitations must fail"
+    assert check([{**approved, "technical_basis": "TBD"}]) != 0, "Placeholder technical basis must fail"
     print("PASS: substitution registry positive and negative regression fixtures")
     return 0
 
