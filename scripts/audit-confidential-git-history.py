@@ -18,7 +18,13 @@ def git(*args):
 def main():
     # All fetched refs are scanned. GitHub Actions checkout is shallow by default,
     # so a dedicated history-audit job must fetch-depth: 0.
+    if git("rev-parse", "--is-shallow-repository").decode().strip() != "false":
+        print("FAIL: Git history is shallow; full history review is not possible")
+        return 1
     commits = git("rev-list", "--all").decode().splitlines()
+    if not commits:
+        print("FAIL: no reachable commits available for history review")
+        return 1
     findings = {}
     for commit in commits:
         paths = git("ls-tree", "-r", "-z", "--name-only", commit).decode("utf-8", "replace").split("\0")
