@@ -52,6 +52,8 @@ def main():
     assert check([{**approved, "technical_basis": "TBD"}]) != 0, "Placeholder technical basis must fail"
     assert check([{**base, "evidence": [{**base["evidence"][0], "reference": "TBD"}]}]) != 0, "Placeholder evidence reference must fail"
     assert check([{**base, "evidence": [{**base["evidence"][0], "reference": "pending"}]}]) != 0, "Pending evidence reference must fail"
+    assert check([{**approved, "evidence": [{**base["evidence"][0], "reference": "TDS"}]}]) != 0, "Generic TDS reference must not support approval"
+    assert check([{**approved, "evidence": [{**base["evidence"][0], "reference": "supplier-document-2026-11-10"}]}]) == 0, "Traceable document identifier should pass structural validation"
     print("PASS: substitution registry positive and negative regression fixtures")
     return 0
 
