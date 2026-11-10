@@ -54,6 +54,10 @@ def main():
         print("ERROR: MnO formula mismatch in catalogue")
         return 1
     failures = []
+    catalogue_ids = [item.get("id") for item in catalogue]
+    if len(catalogue_ids) != len(set(catalogue_ids)):
+        failures.append("Duplicate product IDs in multilingual catalogue")
+    product_ids = set(catalogue_ids)
     checked = 0
     related_links = 0
     pages = 0
@@ -76,6 +80,8 @@ def main():
                     failures.append(f"{page.name}: related link crosses language or is not a local HTML product: {href!r}")
                 elif not (ROOT / href).is_file():
                     failures.append(f"{page.name}: related product target missing: {href!r}")
+                elif href[len(lang) + 1:-5] not in product_ids:
+                    failures.append(f"{page.name}: related product target absent from catalogue: {href!r}")
                 if not label:
                     failures.append(f"{page.name}: empty related-product label for {href!r}")
                 if href == f"{lang}-mangan-oxid-feed.html":
