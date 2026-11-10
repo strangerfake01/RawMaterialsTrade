@@ -2,25 +2,6 @@ name: Product identity regression
 
 on:
   pull_request:
-    paths:
-      - 'products-multilingual.json'
-      - 'en-*.html'
-      - 'hu-*.html'
-      - 'de-at-*.html'
-      - 'scripts/check-related-product-identity.py'
-      - 'scripts/check-product-substitutions.py'
-      - 'scripts/test-product-substitutions.py'
-      - 'scripts/report-same-cas-grade-review.py'
-      - 'scripts/build-same-cas-review-queue.py'
-      - 'reports/same-cas-review-queue.csv'
-      - 'scripts/check-same-cas-review-priorities.py'
-      - 'scripts/check-public-substitution-confidentiality.py'
-      - 'scripts/check-supplier-disclosure.py'
-      - 'scripts/test-supplier-disclosure.py'
-      - 'docs/same-cas-review-priorities-2026-11-10.md'
-      - 'product-substitutions.json'
-      - 'schemas/product-substitution.schema.json'
-      - '.github/workflows/product-identity.yml'
   workflow_dispatch:
 
 permissions:
