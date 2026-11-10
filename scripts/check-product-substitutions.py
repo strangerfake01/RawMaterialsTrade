@@ -67,6 +67,10 @@ def main():
             except (KeyError, TypeError, ValueError):
                 errors.append(f"record {index}: invalid evidence verification date")
         if record.get("status") == "approved":
+            for field in ("application", "technical_basis", "limitations"):
+                value = record.get(field)
+                if isinstance(value, str) and value.strip().lower() in {"n/a", "na", "none", "unknown", "tbd", "not applicable", "no limitations", "unrestricted", "any application", "all applications"}:
+                    errors.append(f"record {index}: approved with non-specific {field}")
             if isinstance(evidence, list) and not any(isinstance(item, dict) and item.get("document_type") in {"TDS", "CoA", "manufacturer"} for item in evidence):
                 errors.append(f"record {index}: approved without product-specific technical evidence (TDS, CoA or manufacturer)")
             try:
