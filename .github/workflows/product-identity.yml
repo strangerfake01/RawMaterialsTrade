@@ -12,6 +12,7 @@ on:
       - 'scripts/test-product-substitutions.py'
       - 'scripts/report-same-cas-grade-review.py'
       - 'scripts/build-same-cas-review-queue.py'
+      - 'reports/same-cas-review-queue.csv'
       - 'product-substitutions.json'
       - 'schemas/product-substitution.schema.json'
       - '.github/workflows/product-identity.yml'
@@ -36,5 +37,7 @@ jobs:
         run: python3 scripts/report-same-cas-grade-review.py
       - name: Build same-CAS review queue and verify deterministic pair count
         run: |
+          cp reports/same-cas-review-queue.csv /tmp/same-cas-review-queue-committed.csv
           python3 scripts/build-same-cas-review-queue.py
+          cmp /tmp/same-cas-review-queue-committed.csv reports/same-cas-review-queue.csv
           python3 -c "import csv; from pathlib import Path; p=Path('reports/same-cas-review-queue.csv'); rows=list(csv.DictReader(p.open(encoding='utf-8', newline=''))); assert len(rows)==23, f'Expected 23 review pairs, got {len(rows)}'; assert all(r['review_status']=='not_assessed' for r in rows); print('PASS: 23 unassessed review pairs')"
