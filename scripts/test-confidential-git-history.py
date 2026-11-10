@@ -35,6 +35,12 @@ class HistoryAuditTests(TestCase):
         self.assertNotIn(path, log)
         self.assertNotIn("vendor", log)
 
+    def test_deleted_historical_document_still_blocks(self):
+        # The document is absent from HEAD but remains in historical changed paths.
+        code, log = self.run_case([b"false\n", b"abc123\n", b"archive/old-contract.docx\0README.md\0"])
+        self.assertEqual(code, 1)
+        self.assertNotIn("old-contract", log)
+
     def test_safe_history_passes(self):
         code, log = self.run_case([b"false\n", b"abc123\n", b"README.md\0"])
         self.assertEqual(code, 0)
