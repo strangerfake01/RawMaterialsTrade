@@ -16,6 +16,7 @@ on:
       - 'scripts/check-same-cas-review-priorities.py'
       - 'scripts/check-public-substitution-confidentiality.py'
       - 'scripts/check-supplier-disclosure.py'
+      - 'scripts/test-supplier-disclosure.py'
       - 'docs/same-cas-review-priorities-2026-11-10.md'
       - 'product-substitutions.json'
       - 'schemas/product-substitution.schema.json'
@@ -33,6 +34,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify linked product chemical identity (EN/HU/DE)
         run: python3 scripts/check-related-product-identity.py
+      - name: Test supplier disclosure detection with synthetic fixtures
+        run: python3 scripts/test-supplier-disclosure.py
       - name: Screen tracked text files for supplier disclosure patterns
         run: python3 scripts/check-supplier-disclosure.py
       - name: Block confidential substitution evidence in public repository
