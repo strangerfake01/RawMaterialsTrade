@@ -50,6 +50,8 @@ def main():
     assert check([{**approved, "application": "all applications"}]) != 0, "Unrestricted application must fail"
     assert check([{**approved, "limitations": "no limitations"}]) != 0, "Unqualified limitations must fail"
     assert check([{**approved, "technical_basis": "TBD"}]) != 0, "Placeholder technical basis must fail"
+    assert check([{**base, "evidence": [{**base["evidence"][0], "reference": "TBD"}]}]) != 0, "Placeholder evidence reference must fail"
+    assert check([{**base, "evidence": [{**base["evidence"][0], "reference": "pending"}]}]) != 0, "Pending evidence reference must fail"
     print("PASS: substitution registry positive and negative regression fixtures")
     return 0
 
