@@ -70,6 +70,12 @@ def main():
             except (KeyError, TypeError, ValueError):
                 errors.append(f"record {index}: invalid evidence verification date")
         if record.get("status") == "approved":
+            if isinstance(evidence, list):
+                for item in evidence:
+                    if isinstance(item, dict):
+                        ref = item.get("reference")
+                        if isinstance(ref, str) and (len(ref.strip()) < 12 or ref.strip().lower() in {"sds", "tds", "coa", "manufacturer document", "supplier document"}):
+                            errors.append(f"record {index}: approved with non-traceable evidence reference")
             for field in ("application", "technical_basis", "limitations"):
                 value = record.get(field)
                 if isinstance(value, str) and value.strip().lower() in {"n/a", "na", "none", "unknown", "tbd", "not applicable", "no limitations", "unrestricted", "any application", "all applications"}:
