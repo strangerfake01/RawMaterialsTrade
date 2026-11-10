@@ -15,12 +15,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify linked product chemical identity (EN/HU/DE)
         run: python3 scripts/check-related-product-identity.py
-      - name: Test supplier disclosure detection with synthetic fixtures
-        run: python3 scripts/test-supplier-disclosure.py
-      - name: Screen tracked text files for supplier disclosure patterns
-        run: python3 scripts/check-supplier-disclosure.py
-      - name: Block confidential substitution evidence in public repository
-        run: python3 scripts/check-public-substitution-confidentiality.py
       - name: Verify evidence-backed substitution registry
         run: python3 scripts/check-product-substitutions.py
       - name: Verify substitution validator rejects unsupported claims
@@ -34,3 +28,14 @@ jobs:
           cmp /tmp/same-cas-review-queue-committed.csv reports/same-cas-review-queue.csv
           python3 scripts/check-same-cas-review-priorities.py
           python3 -c "import csv; from pathlib import Path; p=Path('reports/same-cas-review-queue.csv'); rows=list(csv.DictReader(p.open(encoding='utf-8', newline=''))); assert all(r['review_status']=='not_assessed' for r in rows), 'Unreviewed candidates must remain not_assessed'; print(f'PASS: {len(rows)} unassessed review pairs')"
+  supplier-confidentiality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test supplier disclosure detection with synthetic fixtures
+        run: python3 scripts/test-supplier-disclosure.py
+      - name: Screen tracked text files for supplier disclosure patterns
+        run: python3 scripts/check-supplier-disclosure.py
+      - name: Block confidential substitution evidence in public repository
+        run: python3 scripts/check-public-substitution-confidentiality.py
