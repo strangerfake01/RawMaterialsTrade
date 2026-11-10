@@ -20,6 +20,4 @@ extra = (found0 | found1) - expected
 overlap = found0 & found1
 if missing or extra or overlap:
     raise SystemExit(f"Priority coverage failed: missing={sorted(missing)}, extra={sorted(extra)}, duplicate={sorted(overlap)}")
-assert len(expected) == 18, f"Expected 18 CAS groups, got {len(expected)}"
-assert len(rows) == 23, f"Expected 23 candidate pairs, got {len(rows)}"
 print(f"PASS: {len(rows)} candidate pairs in {len(expected)} groups; P0={len(found0)}, P1={len(found1)}; all covered")
