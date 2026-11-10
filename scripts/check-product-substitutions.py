@@ -61,14 +61,18 @@ def main():
                 errors.append(f"record {index}: invalid evidence item")
                 continue
             try:
-                date.fromisoformat(item["verification_date"])
+                verified = date.fromisoformat(item["verification_date"])
+                if verified > date.today():
+                    errors.append(f"record {index}: evidence verification date is in the future")
             except (KeyError, TypeError, ValueError):
                 errors.append(f"record {index}: invalid evidence verification date")
         if record.get("status") == "approved":
             if not isinstance(record.get("reviewer"), str) or not record["reviewer"].strip():
                 errors.append(f"record {index}: approved without reviewer")
             try:
-                date.fromisoformat(record["review_date"])
+                reviewed = date.fromisoformat(record["review_date"])
+                if reviewed > date.today():
+                    errors.append(f"record {index}: review date is in the future")
             except (KeyError, TypeError, ValueError):
                 errors.append(f"record {index}: approved without valid review date")
     print(f"Substitution registry: {len(records)} records, {sum(r.get('status') == 'approved' for r in records if isinstance(r, dict))} approved")
