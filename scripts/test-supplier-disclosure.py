@@ -26,6 +26,19 @@ class SupplierDisclosureTests(unittest.TestCase):
                 p = pathlib.Path(filename)
                 self.assertTrue(p.suffix.lower() in module.RESTRICTED_EXT or p.name.lower() in module.RESTRICTED_FILENAMES)
 
+    def test_disguised_binary_files_are_detected(self):
+        examples = {
+            "pdf": b"%PDF-1.7",
+            "zip_office_archive": bytes.fromhex("504b0304") + b"test",
+            "legacy_office_archive": bytes.fromhex("d0cf11e0a1b11ae1"),
+            "rar_archive": bytes.fromhex("526172211a07"),
+            "7z_archive": bytes.fromhex("377abcaf271c"),
+        }
+        for expected, data in examples.items():
+            with self.subTest(expected=expected):
+                self.assertEqual(module.restricted_magic(data), expected)
+        self.assertIsNone(module.restricted_magic(b"ordinary text"))
+
     def test_public_ordinary_files_not_blocked_by_extension(self):
         for filename in ("index.html", "styles.css", "catalog.json", "product.js"):
             p = pathlib.Path(filename)
