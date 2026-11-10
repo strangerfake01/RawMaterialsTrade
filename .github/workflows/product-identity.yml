@@ -33,6 +33,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      - name: Test historical confidentiality audit with synthetic fixtures
+        run: python3 scripts/test-confidential-git-history.py
       - name: Test supplier disclosure detection with synthetic fixtures
         run: python3 scripts/test-supplier-disclosure.py
       - name: Screen tracked text files for supplier disclosure patterns
