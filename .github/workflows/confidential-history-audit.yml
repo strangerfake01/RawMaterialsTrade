@@ -14,5 +14,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
       - name: Audit reachable Git history without printing file contents
         run: python3 scripts/audit-confidential-git-history.py
