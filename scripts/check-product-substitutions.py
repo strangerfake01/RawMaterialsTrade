@@ -67,6 +67,19 @@ def main():
             except (KeyError, TypeError, ValueError):
                 errors.append(f"record {index}: invalid evidence verification date")
         if record.get("status") == "approved":
+            try:
+                approval_date = date.fromisoformat(record["review_date"])
+            except (KeyError, TypeError, ValueError):
+                approval_date = None
+            if approval_date is not None and isinstance(evidence, list):
+                for item in evidence:
+                    if not isinstance(item, dict):
+                        continue
+                    try:
+                        if date.fromisoformat(item["verification_date"]) > approval_date:
+                            errors.append(f"record {index}: evidence verified after approval date")
+                    except (KeyError, TypeError, ValueError):
+                        pass
             if not isinstance(record.get("reviewer"), str) or not record["reviewer"].strip():
                 errors.append(f"record {index}: approved without reviewer")
             try:
