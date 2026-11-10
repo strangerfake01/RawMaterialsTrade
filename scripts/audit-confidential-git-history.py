@@ -35,7 +35,14 @@ def main():
         p = Path(rel)
         if p.suffix.lower() in BLOCKED or p.name.lower() in NAMES:
             findings.add(rel)
+    known_company_certificate_paths = {
+        "cert-gmp-plus-2020.pdf",
+        "assets/documents/certificates/cert-gmp-plus-2020.pdf",
+    }
+    known = findings & known_company_certificate_paths
+    unknown = findings - known_company_certificate_paths
     print(f"History inventory: {len(commits)} reachable commits; {len(findings)} restricted path(s) found")
+    print(f"Historical path classification: {len(known)} known company certificate path(s), {len(unknown)} other restricted path(s)")
     if findings:
         print("HISTORY REVIEW REQUIRED: restricted paths exist; names, identifiers and content withheld")
     if findings:
