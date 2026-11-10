@@ -103,6 +103,11 @@ def main():
             hits.append((rel, "unreadable_text_file"))
             continue
         checked += 1
+        # This one tracked regression module contains three deliberately synthetic
+        # positive fixtures. Scan its file type and binary signature above, but
+        # do not treat the literal synthetic examples as real disclosures.
+        if rel == "scripts/test-supplier-disclosure.py":
+            continue
         for label, pattern in PATTERNS.items():
             if pattern.search(data):
                 hits.append((rel, label))
