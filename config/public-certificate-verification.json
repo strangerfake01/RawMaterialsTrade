@@ -1,0 +1,8 @@
+{
+  "path": "assets/documents/certificates/cert-gmp-plus-2020.pdf",
+  "sha256": "19b8e0b1bc01e3cda662a4f96d3e9a0541bc770dda928d76cf03cb6e061b5241",
+  "verified_at": "2026-11-10",
+  "method": "local_pypdf_text_markers_only",
+  "publication_allowlist_eligible": true,
+  "notes": "Cursor-provided local verification; actual repository blob hash must be confirmed by CI before release."
+}
