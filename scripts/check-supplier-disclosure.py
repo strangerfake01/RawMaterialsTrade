@@ -18,6 +18,17 @@ PATTERNS = {
 EXCLUDE = {".git", "node_modules", "dist"}
 RESTRICTED_EXT = {".pdf", ".doc", ".docx", ".xls", ".xlsx", ".zip", ".7z", ".rar", ".eml", ".msg", ".p12", ".pfx", ".pem", ".key", ".p7b", ".p7m", ".p7s", ".pkcs12"}
 RESTRICTED_FILENAMES = {".env", ".env.local", ".env.production", ".npmrc", ".pypirc", "id_rsa", "id_ed25519"}
+RESTRICTED_MAGIC = {
+    "pdf": (b"%PDF-",),
+    "zip_office_archive": (b"PK\\x03\\x04", b"PK\\x05\\x06", b"PK\\x07\\x08"),
+    "legacy_office_archive": (bytes.fromhex("d0cf11e0a1b11ae1"),),
+    "rar_archive": (b"Rar!\\x1a\\x07",),
+    "7z_archive": (bytes.fromhex("377abcaf271c"),),
+}
+
+def restricted_magic(data):
+    return next((kind for kind, signatures in RESTRICTED_MAGIC.items() if any(data.startswith(signature) for signature in signatures)), None)
+
 def main():
     paths = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode("utf-8").split("\0")
     hits = []
@@ -29,6 +40,16 @@ def main():
         p = Path(rel)
         if p.suffix.lower() in RESTRICTED_EXT or p.name.lower() in RESTRICTED_FILENAMES:
             blocked.append(rel)
+            continue
+        try:
+            with (ROOT / p).open("rb") as handle:
+                header = handle.read(16)
+        except OSError:
+            hits.append((rel, "unreadable_tracked_file"))
+            continue
+        signature = restricted_magic(header)
+        if signature:
+            hits.append((rel, f"restricted_binary_signature_{signature}"))
             continue
         if p.suffix.lower() not in EXT or any(part in EXCLUDE for part in p.parts):
             continue
