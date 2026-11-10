@@ -50,7 +50,7 @@ def main():
                 })
     OUT.parent.mkdir(exist_ok=True)
     with OUT.open("w", encoding="utf-8", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=FIELDS, quoting=csv.QUOTE_ALL)
+        writer = csv.DictWriter(stream, fieldnames=FIELDS, quoting=csv.QUOTE_ALL, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     print(f"Created {OUT.relative_to(ROOT)}: {len(rows)} candidate pairs, all not_assessed")
