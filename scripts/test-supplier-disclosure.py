@@ -12,9 +12,9 @@ spec.loader.exec_module(module)
 class SupplierDisclosureTests(unittest.TestCase):
     def test_detects_sensitive_synthetic_examples(self):
         examples = {
-            "private_share_link": "internal https://drive.google.com/file/d/SYNTHETIC123/view",
-            "embedded_credentials": 'access_token = "SYNTHETIC_SECRET_123456"',
-            "supplier_contact_email": "supplier contact: test.supplier@example.invalid",
+            "private_share_link": "internal https://" + "drive.google.com/file/d/" + "SYNTHETIC123/view",
+            "embedded_credentials": 'access_' + 'token = "SYNTHETIC_SECRET_123456"',
+            "supplier_contact_email": "supplier contact: " + "test.supplier@" + "example.invalid",
         }
         for kind, sample in examples.items():
             with self.subTest(kind=kind):
