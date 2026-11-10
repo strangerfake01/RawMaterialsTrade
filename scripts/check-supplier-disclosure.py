@@ -103,16 +103,6 @@ def main():
             hits.append((rel, "unreadable_text_file"))
             continue
         checked += 1
-        # Ignore only the three exact synthetic positive fixtures in the test
-        # module; any additional text or newly inserted disclosure is still scanned.
-        if rel == "scripts/test-supplier-disclosure.py":
-            synthetic_lines = (
-                '"private_share_link": "internal https://drive.google.com/file/d/SYNTHETIC123/view",',
-                '''"embedded_credentials": 'access_token = "SYNTHETIC_SECRET_123456"',''',
-                '"supplier_contact_email": "supplier contact: test.supplier@example.invalid",',
-            )
-            data = "\n".join(line for line in data.splitlines()
-                             if line.strip() not in synthetic_lines)
         for label, pattern in PATTERNS.items():
             if pattern.search(data):
                 hits.append((rel, label))
