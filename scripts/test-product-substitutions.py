@@ -45,6 +45,7 @@ def main():
     assert check([{**base, "status": "approved", "reviewer": "Test reviewer", "review_date": "2999-01-01"}]) != 0, "Future approval must fail"
     assert check([{**base, "status": "approved", "reviewer": "Test reviewer", "review_date": "2026-11-09"}]) != 0, "Evidence checked after approval must fail"
     assert check([{**base, "status": "approved", "reviewer": "Test reviewer", "review_date": "2026-11-10"}]) == 0, "Evidence checked on approval date must pass"
+    assert check([{**base, "status": "approved", "reviewer": "Test reviewer", "review_date": "2026-11-10", "evidence": [{**base["evidence"][0], "document_type": "other"}]}]) != 0, "Generic evidence alone must not approve a substitution"
     print("PASS: substitution registry positive and negative regression fixtures")
     return 0
 
