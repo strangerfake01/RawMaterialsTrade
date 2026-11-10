@@ -4,6 +4,8 @@
 This is a review aid, not a guarantee that no supplier can be inferred.
 No scanned content is printed to CI logs.
 """
+import hashlib
+import json
 import re
 import subprocess
 from pathlib import Path
@@ -26,20 +28,59 @@ RESTRICTED_MAGIC = {
     "7z_archive": (bytes.fromhex("377abcaf271c"),),
 }
 
+ALLOWLIST_PATH = ROOT / "config" / "public-certificate-allowlist.txt"
+CERTIFICATE_PATH = "assets/documents/certificates/cert-gmp-plus-2020.pdf"
+
+def load_allowlist():
+    if not ALLOWLIST_PATH.is_file():
+        return set()
+    allowed = set()
+    for raw in ALLOWLIST_PATH.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line != CERTIFICATE_PATH:
+            raise SystemExit("ALLOWLIST ERROR: unexpected entry; only exact company certificate is permitted")
+        allowed.add(line)
+    return allowed
+
+def allowlisted_certificate_hash_ok(rel):
+    if rel != CERTIFICATE_PATH:
+        return False
+    pin = ROOT / "config" / "public-certificate-verification.json"
+    if not pin.is_file():
+        return False
+    try:
+        meta = json.loads(pin.read_text(encoding="utf-8"))
+        expected = meta.get("sha256")
+        target = ROOT / rel
+        if (meta.get("path") != rel or meta.get("publication_allowlist_eligible") is not True
+            or not isinstance(expected, str) or not re.fullmatch(r"[0-9a-f]{64}", expected)
+            or not target.is_file() or target.is_symlink()):
+            return False
+        return hashlib.sha256(target.read_bytes()).hexdigest() == expected
+    except (OSError, ValueError, TypeError):
+        return False
+
 def restricted_magic(data):
     return next((kind for kind, signatures in RESTRICTED_MAGIC.items() if any(data.startswith(signature) for signature in signatures)), None)
 
 def main():
+    allowlist = load_allowlist()
     paths = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode("utf-8").split("\0")
     hits = []
     checked = 0
     blocked = []
+    allowlisted_restricted = []
     for rel in paths:
         if not rel:
             continue
         p = Path(rel)
         if p.suffix.lower() in RESTRICTED_EXT or p.name.lower() in RESTRICTED_FILENAMES:
-            blocked.append(rel)
+            if rel in allowlist and allowlisted_certificate_hash_ok(rel):
+                allowlisted_restricted.append(rel)
+            else:
+                blocked.append(rel)
             continue
         try:
             with (ROOT / p).open("rb") as handle:
@@ -49,7 +90,10 @@ def main():
             continue
         signature = restricted_magic(header)
         if signature:
-            hits.append((rel, f"restricted_binary_signature_{signature}"))
+            if rel in allowlist and allowlisted_certificate_hash_ok(rel):
+                allowlisted_restricted.append(rel)
+            else:
+                hits.append((rel, f"restricted_binary_signature_{signature}"))
             continue
         if p.suffix.lower() not in EXT or any(part in EXCLUDE for part in p.parts):
             continue
