@@ -66,11 +66,18 @@ def main():
         lang_pages = 0
         lang_links = 0
         lang_mno = 0
+        product_pages = 0
+        extra_pages = []
         if mno.get("name_" + ("de" if lang == "de-at" else lang)) != name:
             failures.append(f"Catalogue name mismatch for {lang}")
         for page in ROOT.glob(f"{lang}-*.html"):
             pages += 1
             lang_pages += 1
+            page_id = page.name[len(lang) + 1:-5]
+            if page_id in product_ids:
+                product_pages += 1
+            else:
+                extra_pages.append(page.name)
             parser = RelatedLinkParser()
             parser.feed(page.read_text(encoding="utf-8"))
             for href, label in parser.labels:
@@ -89,7 +96,9 @@ def main():
                     lang_mno += 1
                     if name.casefold() not in label.casefold():
                         failures.append(f"{page.name}: MnO link labelled {label!r}; expected {name!r}")
-        language_counts[lang] = (lang_pages, lang_links, lang_mno)
+        language_counts[lang] = (lang_pages, product_pages, extra_pages, lang_links, lang_mno)
+        if product_pages != len(product_ids):
+            failures.append(f"{lang}: expected {len(product_ids)} catalogue product pages, found {product_pages}")
         if lang_pages == 0:
             failures.append(f"No localized HTML files found for {lang}")
         if lang_links == 0:
@@ -99,8 +108,10 @@ def main():
     if checked == 0:
         failures.append("No MnO related-product links found; check generator output and link parsing")
     print(f"Related-product integrity: {related_links} links across {pages} localized HTML files; MnO identity: {checked} links")
-    for lang, (count_pages, count_links, count_mno) in language_counts.items():
-        print(f"  {lang}: {count_pages} pages, {count_links} related links, {count_mno} MnO links")
+    for lang, (count_pages, count_products, extras, count_links, count_mno) in language_counts.items():
+        print(f"  {lang}: {count_products} catalogue product pages, {len(extras)} other HTML pages, {count_links} related links, {count_mno} MnO links")
+        if extras:
+            print(f"    Non-catalogue HTML: {', '.join(extras)}")
     for failure in failures:
         print("ERROR:", failure)
     return 1 if failures else 0
