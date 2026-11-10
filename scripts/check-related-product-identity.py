@@ -57,15 +57,21 @@ def main():
     checked = 0
     related_links = 0
     pages = 0
+    language_counts = {}
     for lang, name in EXPECTED.items():
+        lang_pages = 0
+        lang_links = 0
+        lang_mno = 0
         if mno.get("name_" + ("de" if lang == "de-at" else lang)) != name:
             failures.append(f"Catalogue name mismatch for {lang}")
         for page in ROOT.glob(f"{lang}-*.html"):
             pages += 1
+            lang_pages += 1
             parser = RelatedLinkParser()
             parser.feed(page.read_text(encoding="utf-8"))
             for href, label in parser.labels:
                 related_links += 1
+                lang_links += 1
                 if not href.startswith(f"{lang}-") or not href.endswith(".html"):
                     failures.append(f"{page.name}: related link crosses language or is not a local HTML product: {href!r}")
                 elif not (ROOT / href).is_file():
@@ -74,13 +80,21 @@ def main():
                     failures.append(f"{page.name}: empty related-product label for {href!r}")
                 if href == f"{lang}-mangan-oxid-feed.html":
                     checked += 1
+                    lang_mno += 1
                     if name.casefold() not in label.casefold():
                         failures.append(f"{page.name}: MnO link labelled {label!r}; expected {name!r}")
-    if pages == 0:
-        failures.append("No localized HTML files found")
+        language_counts[lang] = (lang_pages, lang_links, lang_mno)
+        if lang_pages == 0:
+            failures.append(f"No localized HTML files found for {lang}")
+        if lang_links == 0:
+            failures.append(f"No related-product links found for {lang}")
+        if lang_mno == 0:
+            failures.append(f"No MnO related-product links found for {lang}")
     if checked == 0:
         failures.append("No MnO related-product links found; check generator output and link parsing")
     print(f"Related-product integrity: {related_links} links across {pages} localized HTML files; MnO identity: {checked} links")
+    for lang, (count_pages, count_links, count_mno) in language_counts.items():
+        print(f"  {lang}: {count_pages} pages, {count_links} related links, {count_mno} MnO links")
     for failure in failures:
         print("ERROR:", failure)
     return 1 if failures else 0
