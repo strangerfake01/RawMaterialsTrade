@@ -26,3 +26,10 @@ Do not place PDF contents, certificate holder names, document IDs, internal sour
 - Public HTML, JSON-LD and asset references checked for broken links or source disclosure.
 - CI green without broadening supplier exposure.
 - PR #22 remains draft and unmerged until the review is complete.
+
+
+## 2026-11-10 — scoped publication approval and integration
+
+The company owner confirmed permission to publish the company GMP+ certificate. A single exact-path SHA-256 pin is now configured for `assets/documents/certificates/cert-gmp-plus-2020.pdf`; the verification metadata originated from Cursor's local review. The CI must verify that the repository PDF bytes match the pinned hash before the document can pass. No other PDF or supplier document is authorized.
+
+**Still required before release:** remove the duplicate root-level `cert-gmp-plus-2020.pdf` from the current branch, confirm any references are updated, and verify all required CI checks pass. The historical audit and any Git history rewrite are separate actions; history rewriting has not been authorized. The 23 same-CAS candidates remain `not_assessed`.
