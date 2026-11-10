@@ -17,6 +17,11 @@ def main():
     catalogue = json.loads((ROOT / "products-multilingual.json").read_text(encoding="utf-8"))
     ids = {p["id"] for p in catalogue}
     records = json.loads((ROOT / "product-substitutions.json").read_text(encoding="utf-8"))
+    schema = json.loads((ROOT / "schemas/product-substitution.schema.json").read_text(encoding="utf-8"))
+    allowed = set(schema["properties"])
+    required = set(schema["required"])
+    evidence_allowed = set(schema["properties"]["evidence"]["items"]["properties"])
+    evidence_required = set(schema["properties"]["evidence"]["items"]["required"])
     errors = []
     if not isinstance(records, list):
         print("ERROR: substitution registry must be a list")
@@ -26,6 +31,10 @@ def main():
         if not isinstance(record, dict):
             errors.append(f"record {index}: expected object")
             continue
+        for key in set(record) - allowed:
+            errors.append(f"record {index}: unsupported field {key}")
+        for key in required - set(record):
+            errors.append(f"record {index}: missing required field {key}")
         src, dst = record.get("source_product_id"), record.get("candidate_product_id")
         key = (src, dst, record.get("application"))
         if key in seen:
@@ -43,6 +52,11 @@ def main():
             errors.append(f"record {index}: missing evidence")
             continue
         for item in evidence:
+            if isinstance(item, dict):
+                for key in set(item) - evidence_allowed:
+                    errors.append(f"record {index}: unsupported evidence field {key}")
+                for key in evidence_required - set(item):
+                    errors.append(f"record {index}: missing evidence field {key}")
             if not isinstance(item, dict) or item.get("document_type") not in TYPES or not isinstance(item.get("reference"), str) or not item["reference"].strip():
                 errors.append(f"record {index}: invalid evidence item")
                 continue
