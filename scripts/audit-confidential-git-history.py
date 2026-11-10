@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Report potentially sensitive files across reachable Git history.
 
-Print paths and commit IDs only, never blob content. This is a review gate:
+Print only aggregate counts and opaque path digests, never paths or blob content. This is a review gate:
 historical exposure cannot be undone by removing the current file.
 """
+import hashlib
 import subprocess
 from pathlib import Path
 
@@ -28,8 +29,9 @@ def main():
             if p.suffix.lower() in BLOCKED or p.name.lower() in NAMES:
                 findings.setdefault(rel, commit)
     print(f"History inventory: {len(commits)} commits inspected; {len(findings)} restricted paths found")
-    for path, commit in sorted(findings.items()):
-        print(f"HISTORY REVIEW REQUIRED: {path} (example commit {commit[:12]}; content withheld)")
+    for path in sorted(findings):
+        opaque_id = hashlib.sha256(path.encode("utf-8")).hexdigest()[:16]
+        print(f"HISTORY REVIEW REQUIRED: path digest {opaque_id} (path and content withheld)")
     if findings:
         print("Review all flagged paths in a restricted environment; do not interpret this as confirmed disclosure.")
         return 1
