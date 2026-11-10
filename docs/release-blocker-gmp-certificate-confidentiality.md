@@ -1,6 +1,6 @@
 # Release blocker: GMP+ PDF provenance and supplier confidentiality
 
-Status: **OPEN — do not bypass the supplier-disclosure CI gate.**
+Status: **SECURITY GATE PASSED (2026-11-10) — broader release review remains open.**
 
 The Product identity regression run for commit `59a8694c` failed on the restricted-document check. The following tracked files triggered it:
 
@@ -33,3 +33,14 @@ Do not place PDF contents, certificate holder names, document IDs, internal sour
 The company owner confirmed permission to publish the company GMP+ certificate. A single exact-path SHA-256 pin is now configured for `assets/documents/certificates/cert-gmp-plus-2020.pdf`; the verification metadata originated from Cursor's local review. The CI must verify that the repository PDF bytes match the pinned hash before the document can pass. No other PDF or supplier document is authorized.
 
 **Still required before release:** remove the duplicate root-level `cert-gmp-plus-2020.pdf` from the current branch, confirm any references are updated, and verify all required CI checks pass. The historical audit and any Git history rewrite are separate actions; history rewriting has not been authorized. The 23 same-CAS candidates remain `not_assessed`.
+
+
+## 2026-11-10 — verified resolution
+
+- Duplicate root-level GMP+ PDF removed from the integration branch.
+- Supplier-disclosure scanner and synthetic regression tests pass without blanket exceptions.
+- Confidential Git history audit passes: 1,287 reachable commits, two known company-certificate paths, zero other restricted paths, one distinct historical certificate blob matching the approved SHA-256.
+- Product identity regression, product catalogue parity, static release contract, and history audit all passed on commit `696f0de252b794cff1b0f7700733c512799e1eca`.
+- The historical paths remain in Git history; no rewrite has been performed or authorized.
+- PR #22 is ready for review, not merged or deployed. PR #20 overlaps certificate assets and must be reconciled before merge.
+- Passing integrity checks does not independently certify the GMP+ certificate's scope, validity, or regulatory claims. The owner approved publication of the company certificate; issuer and validity review remains a distinct factual check.
