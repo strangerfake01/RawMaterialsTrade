@@ -26,6 +26,30 @@ class SupplierDisclosureTests(unittest.TestCase):
                 p = pathlib.Path(filename)
                 self.assertTrue(p.suffix.lower() in module.RESTRICTED_EXT or p.name.lower() in module.RESTRICTED_FILENAMES)
 
+    def test_certificate_hash_pin_fails_closed(self):
+        import hashlib
+        import json
+        import tempfile
+        from unittest import mock
+        rel = module.CERTIFICATE_PATH
+        with tempfile.TemporaryDirectory() as tmp:
+            root = pathlib.Path(tmp)
+            target = root / rel
+            target.parent.mkdir(parents=True)
+            target.write_bytes(b"synthetic company certificate")
+            pin = root / "config" / "public-certificate-verification.json"
+            pin.parent.mkdir()
+            meta = {"path": rel, "sha256": hashlib.sha256(target.read_bytes()).hexdigest(), "publication_allowlist_eligible": True}
+            with mock.patch.object(module, "ROOT", root):
+                self.assertFalse(module.allowlisted_certificate_hash_ok(rel))
+                pin.write_text(json.dumps(meta), encoding="utf-8")
+                self.assertTrue(module.allowlisted_certificate_hash_ok(rel))
+                self.assertFalse(module.allowlisted_certificate_hash_ok("other.pdf"))
+                target.write_bytes(b"tampered")
+                self.assertFalse(module.allowlisted_certificate_hash_ok(rel))
+                pin.write_text("{broken", encoding="utf-8")
+                self.assertFalse(module.allowlisted_certificate_hash_ok(rel))
+
     def test_disguised_binary_files_are_detected(self):
         examples = {
             "pdf": b"%PDF-1.7",
