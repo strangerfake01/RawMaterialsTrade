@@ -55,6 +55,7 @@ def main():
         return 1
     failures = []
     checked = 0
+    related_links = 0
     pages = 0
     for lang, name in EXPECTED.items():
         if mno.get("name_" + ("de" if lang == "de-at" else lang)) != name:
@@ -64,6 +65,13 @@ def main():
             parser = RelatedLinkParser()
             parser.feed(page.read_text(encoding="utf-8"))
             for href, label in parser.labels:
+                related_links += 1
+                if not href.startswith(f"{lang}-") or not href.endswith(".html"):
+                    failures.append(f"{page.name}: related link crosses language or is not a local HTML product: {href!r}")
+                elif not (ROOT / href).is_file():
+                    failures.append(f"{page.name}: related product target missing: {href!r}")
+                if not label:
+                    failures.append(f"{page.name}: empty related-product label for {href!r}")
                 if href == f"{lang}-mangan-oxid-feed.html":
                     checked += 1
                     if name.casefold() not in label.casefold():
@@ -72,7 +80,7 @@ def main():
         failures.append("No localized HTML files found")
     if checked == 0:
         failures.append("No MnO related-product links found; check generator output and link parsing")
-    print(f"Related-product MnO identity: {checked} links across {pages} localized HTML files")
+    print(f"Related-product integrity: {related_links} links across {pages} localized HTML files; MnO identity: {checked} links")
     for failure in failures:
         print("ERROR:", failure)
     return 1 if failures else 0
