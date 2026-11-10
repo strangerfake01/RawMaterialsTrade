@@ -26,3 +26,11 @@
 
 ## Handling
 Keep confidential supplier documents and customer specifications in an access-controlled business system. The public GitHub repository must contain only non-confidential references and approved public claims; do not commit supplier CoAs, contracts, private emails or customer information.
+
+### Reference convention
+
+- Record an opaque, non-sensitive evidence ID (for example `DOC-2026-000123`) and verification date in the substitution registry. This ID is a lookup key, **not proof** that a document exists or supports the claim.
+- Keep the mapping from evidence ID to actual supplier file, document version, batch and access permissions exclusively in the restricted evidence register.
+- Never include supplier names, personal email addresses, private cloud share links, credentials, confidential pricing or customer specifications in public evidence references.
+- Before approval, a qualified reviewer must open the restricted source document and verify that the exact grade, batch/specification, intended application and limitations match the substitution claim.
+- The automated validator checks structure and chronology only; it cannot verify a document's authenticity, completeness or regulatory suitability.
