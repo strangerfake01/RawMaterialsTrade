@@ -9,14 +9,15 @@ import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EXT = {".html", ".json", ".jsonld", ".csv", ".md", ".txt", ".xml", ".yml", ".yaml"}
+EXT = {".html", ".htm", ".json", ".jsonld", ".csv", ".md", ".txt", ".xml", ".yml", ".yaml", ".js", ".mjs", ".cjs", ".ts", ".tsx", ".jsx", ".css", ".svg", ".py", ".sh", ".env", ".toml", ".ini", ".properties"}
 PATTERNS = {
     "private_share_link": re.compile(r"https?://[^\s\"'<>]*(?:drive\.google\.com/file/d/|dropbox\.com/s/|sharepoint\.com/:|onedrive\.live\.com/)", re.I),
     "embedded_credentials": re.compile(r"(?i)(?:api[_-]?key|secret[_-]?key|access[_-]?token|password)\s*[:=]\s*[\"'][^\"']{12,}[\"']"),
     "supplier_contact_email": re.compile(r"(?i)(?:supplier|manufacturer|vendor|besz[aá]ll[ií]t[oó]|gy[aá]rt[oó])[^\n]{0,70}[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"),
 }
 EXCLUDE = {".git", "node_modules", "dist"}
-RESTRICTED_EXT = {".pdf", ".doc", ".docx", ".xls", ".xlsx", ".zip", ".7z", ".rar", ".eml", ".msg", ".p12", ".pfx", ".pem", ".key"}
+RESTRICTED_EXT = {".pdf", ".doc", ".docx", ".xls", ".xlsx", ".zip", ".7z", ".rar", ".eml", ".msg", ".p12", ".pfx", ".pem", ".key", ".p7b", ".p7m", ".p7s", ".pkcs12"}
+RESTRICTED_FILENAMES = {".env", ".env.local", ".env.production", ".npmrc", ".pypirc", "id_rsa", "id_ed25519"}
 def main():
     paths = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode("utf-8").split("\0")
     hits = []
@@ -26,7 +27,7 @@ def main():
         if not rel:
             continue
         p = Path(rel)
-        if p.suffix.lower() in RESTRICTED_EXT:
+        if p.suffix.lower() in RESTRICTED_EXT or p.name.lower() in RESTRICTED_FILENAMES:
             blocked.append(rel)
             continue
         if p.suffix.lower() not in EXT or any(part in EXCLUDE for part in p.parts):
@@ -34,6 +35,7 @@ def main():
         try:
             data = (ROOT / p).read_text(encoding="utf-8")
         except (OSError, UnicodeError):
+            hits.append((rel, "unreadable_text_file"))
             continue
         checked += 1
         for label, pattern in PATTERNS.items():
