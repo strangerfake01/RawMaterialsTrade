@@ -29,8 +29,8 @@ Keep confidential supplier documents and customer specifications in an access-co
 
 ### Reference convention
 
-- Record an opaque, non-sensitive evidence ID (for example `DOC-2026-000123`) and verification date in the substitution registry. This ID is a lookup key, **not proof** that a document exists or supports the claim.
-- Keep the mapping from evidence ID to actual supplier file, document version, batch and access permissions exclusively in the restricted evidence register.
-- Never include supplier names, personal email addresses, private cloud share links, credentials, confidential pricing or customer specifications in public evidence references.
+- Do not publish supplier-specific evidence IDs, even opaque IDs, unless independently reviewed as non-linkable. Prefer a public-facing generic verification statement; keep document identifiers and their mapping in a restricted internal evidence register. The existing public substitution registry must not contain supplier names, manufacturer codes, document IDs or other traceable sourcing metadata.
+- Keep the evidence IDs, actual supplier files, document versions, batches, source identifiers and access permissions exclusively in the restricted evidence register.
+- Never include supplier names, manufacturer names or product codes, personal email addresses, private cloud share links, credentials, confidential pricing, customer specifications, distinctive document numbers or sourcing-identifying metadata in public evidence references. Avoid combinations of apparently harmless details that could identify a supplier.
 - Before approval, a qualified reviewer must open the restricted source document and verify that the exact grade, batch/specification, intended application and limitations match the substitution claim.
 - The automated validator checks structure and chronology only; it cannot verify a document's authenticity, completeness or regulatory suitability.
