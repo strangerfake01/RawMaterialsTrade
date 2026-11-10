@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence-backed raw material substitution relationship",
+  "description": "Separate potential substitutions from related-product links. An approved relationship requires traceable technical evidence and application-specific limitations.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["source_product_id", "candidate_product_id", "application", "status", "technical_basis", "limitations", "evidence"],
+  "properties": {
+    "source_product_id": {"type": "string", "minLength": 1},
+    "candidate_product_id": {"type": "string", "minLength": 1},
+    "application": {"type": "string", "minLength": 1},
+    "status": {"enum": ["research", "requires_validation", "approved", "rejected"]},
+    "technical_basis": {"type": "string", "minLength": 1},
+    "limitations": {"type": "string", "minLength": 1},
+    "evidence": {"type": "array", "minItems": 1, "items": {"type": "object", "additionalProperties": false, "required": ["document_type", "reference", "verification_date"], "properties": {"document_type": {"enum": ["SDS", "TDS", "CoA", "regulatory", "manufacturer", "other"]}, "reference": {"type": "string", "minLength": 1}, "verification_date": {"type": "string", "format": "date"}}}},
+    "reviewer": {"type": "string"},
+    "review_date": {"type": "string", "format": "date"}
+  },
+  "allOf": [{"if": {"properties": {"status": {"const": "approved"}}}, "then": {"required": ["reviewer", "review_date"]}}]
+}
