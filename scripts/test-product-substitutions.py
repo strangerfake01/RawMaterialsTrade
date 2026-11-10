@@ -41,6 +41,8 @@ def main():
     assert check([{**base, "candidate_product_id": "a"}]) != 0, "Self-substitution must fail"
     assert check([{**base, "invented_claim": "approved"}]) != 0, "Unknown schema fields must fail"
     assert check([{**base, "evidence": [{**base["evidence"][0], "unverified": True}]}]) != 0, "Unknown evidence fields must fail"
+    assert check([{**base, "evidence": [{**base["evidence"][0], "verification_date": "2999-01-01"}]}]) != 0, "Future evidence verification must fail"
+    assert check([{**base, "status": "approved", "reviewer": "Test reviewer", "review_date": "2999-01-01"}]) != 0, "Future approval must fail"
     print("PASS: substitution registry positive and negative regression fixtures")
     return 0
 
