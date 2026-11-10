@@ -24,8 +24,8 @@ def main():
     if not commits:
         print("FAIL: no reachable commits available for history review")
         return 1
-    # Enumerate changed paths once rather than re-reading every tree in every commit.
-    # Root commits, additions, renames and deletions are covered by git log --all.
+    # Include all changed paths from fetched refs, including deleted and renamed files.
+    # NUL delimiters preserve filenames containing whitespace or newlines.
     changed = git("log", "--all", "--pretty=format:", "--name-only", "-z").decode("utf-8", "replace").split("\0")
     findings = set()
     for rel in changed:
@@ -35,13 +35,13 @@ def main():
         p = Path(rel)
         if p.suffix.lower() in BLOCKED or p.name.lower() in NAMES:
             findings.add(rel)
-    print(f"History inventory: {len(commits)} commits inspected; {len(findings)} restricted paths found")
+    print(f"History inventory: {len(commits)} reachable commits; {len(findings)} restricted path(s) found")
     if findings:
         print("HISTORY REVIEW REQUIRED: restricted paths exist; names, identifiers and content withheld")
     if findings:
         print("Review all flagged paths in a restricted environment; do not interpret this as confirmed disclosure.")
         return 1
-    print("PASS: no restricted paths found in fetched Git history; content-level historical audit still required")
+    print("PASS: no restricted extensions or names in fetched reachable Git history; unreferenced objects, other clones, and blob contents are not covered")
     return 0
 
 if __name__ == "__main__":
