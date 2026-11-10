@@ -16,6 +16,8 @@ spec.loader.exec_module(module)
 def check(registry):
     with tempfile.TemporaryDirectory() as folder:
         root = Path(folder)
+        (root / "schemas").mkdir()
+        (root / "schemas/product-substitution.schema.json").write_text((SCRIPT.parent.parent / "schemas/product-substitution.schema.json").read_text(encoding="utf-8"), encoding="utf-8")
         (root / "products-multilingual.json").write_text(json.dumps([{"id": "a"}, {"id": "b"}]), encoding="utf-8")
         (root / "product-substitutions.json").write_text(json.dumps(registry), encoding="utf-8")
         with patch.object(module, "ROOT", root), contextlib.redirect_stdout(io.StringIO()):
@@ -37,6 +39,8 @@ def main():
     assert check([{**base, "status": "approved"}]) != 0, "Unreviewed approval must fail"
     assert check([{**base, "evidence": []}]) != 0, "Missing evidence must fail"
     assert check([{**base, "candidate_product_id": "a"}]) != 0, "Self-substitution must fail"
+    assert check([{**base, "invented_claim": "approved"}]) != 0, "Unknown schema fields must fail"
+    assert check([{**base, "evidence": [{**base["evidence"][0], "unverified": True}]}]) != 0, "Unknown evidence fields must fail"
     print("PASS: substitution registry positive and negative regression fixtures")
     return 0
 
