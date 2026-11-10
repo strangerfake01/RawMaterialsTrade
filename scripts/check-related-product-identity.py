@@ -70,6 +70,8 @@ def main():
                         failures.append(f"{page.name}: MnO link labelled {label!r}; expected {name!r}")
     if pages == 0:
         failures.append("No localized HTML files found")
+    if checked == 0:
+        failures.append("No MnO related-product links found; check generator output and link parsing")
     print(f"Related-product MnO identity: {checked} links across {pages} localized HTML files")
     for failure in failures:
         print("ERROR:", failure)
