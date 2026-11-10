@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Report potentially sensitive files across reachable Git history.
 
-Print only aggregate counts and opaque path digests, never paths or blob content. This is a review gate:
+Print aggregate counts only, never paths, identifiers or blob content. This is a review gate:
 historical exposure cannot be undone by removing the current file.
 """
 import subprocess
@@ -24,15 +24,17 @@ def main():
     if not commits:
         print("FAIL: no reachable commits available for history review")
         return 1
-    findings = {}
-    for commit in commits:
-        paths = git("ls-tree", "-r", "-z", "--name-only", commit).decode("utf-8", "replace").split("\0")
-        for rel in paths:
-            if not rel:
-                continue
-            p = Path(rel)
-            if p.suffix.lower() in BLOCKED or p.name.lower() in NAMES:
-                findings.setdefault(rel, commit)
+    # Enumerate changed paths once rather than re-reading every tree in every commit.
+    # Root commits, additions, renames and deletions are covered by git log --all.
+    changed = git("log", "--all", "--pretty=format:", "--name-only", "-z").decode("utf-8", "replace").split("\\0")
+    findings = set()
+    for rel in changed:
+        rel = rel.strip("\\n")
+        if not rel:
+            continue
+        p = Path(rel)
+        if p.suffix.lower() in BLOCKED or p.name.lower() in NAMES:
+            findings.add(rel)
     print(f"History inventory: {len(commits)} commits inspected; {len(findings)} restricted paths found")
     if findings:
         print("HISTORY REVIEW REQUIRED: restricted paths exist; names, identifiers and content withheld")
