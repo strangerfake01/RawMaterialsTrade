@@ -26,6 +26,13 @@ class SupplierDisclosureTests(unittest.TestCase):
                 p = pathlib.Path(filename)
                 self.assertTrue(p.suffix.lower() in module.RESTRICTED_EXT or p.name.lower() in module.RESTRICTED_FILENAMES)
 
+    def test_path_digest_is_stable_and_does_not_expose_path(self):
+        path = "private/supplier-identity.pdf"
+        digest = module.opaque_path_id(path)
+        self.assertEqual(len(digest), 16)
+        self.assertNotIn("supplier", digest)
+        self.assertEqual(digest, module.opaque_path_id(path))
+
     def test_disguised_binary_files_are_detected(self):
         examples = {
             "pdf": b"%PDF-1.7",
