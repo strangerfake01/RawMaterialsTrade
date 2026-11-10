@@ -4,6 +4,7 @@
 This is a review aid, not a guarantee that no supplier can be inferred.
 No scanned content is printed to CI logs.
 """
+import hashlib
 import re
 import subprocess
 from pathlib import Path
@@ -28,6 +29,9 @@ RESTRICTED_MAGIC = {
 
 def restricted_magic(data):
     return next((kind for kind, signatures in RESTRICTED_MAGIC.items() if any(data.startswith(signature) for signature in signatures)), None)
+
+def opaque_path_id(path):
+    return hashlib.sha256(path.encode("utf-8")).hexdigest()[:16]
 
 def main():
     paths = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode("utf-8").split("\0")
@@ -65,10 +69,10 @@ def main():
     print(f"Supplier disclosure screening: {checked} tracked text files checked")
     if blocked:
         for rel in blocked:
-            print(f"REVIEW REQUIRED: restricted file type in public repository: {rel}")
+            print(f"REVIEW REQUIRED: restricted file type; path digest {opaque_path_id(rel)}")
     if hits:
         for rel, label in hits:
-            print(f"REVIEW REQUIRED: {rel}: {label} (matching content suppressed)")
+            print(f"REVIEW REQUIRED: path digest {opaque_path_id(rel)}: {label} (path and matching content suppressed)")
     if blocked or hits:
         return 1
     print("PASS: no restricted document types or high-confidence disclosure patterns detected; manual and historical review still required")
