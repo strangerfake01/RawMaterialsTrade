@@ -122,3 +122,11 @@ Catalogue source has 126 families; 21 carry a feed category (some also industria
 - [x] Iron(II) sulfate monohydrate EN/HU/DE-AT: elemental iron assay, chemical/hydration identity, relevant impurity and oxidation criteria, batch CoA and feed-use evidence.
 - [ ] Continue product-specific review of remaining feed-labelled families, prioritizing substances with narrow use conditions.
 - [ ] Confirm responsive rendering and latest CI before merging or publishing.
+
+## Feed continuation — cobalt, molybdate, magnesium oxide (2026-11-10)
+
+- [x] Cobalt(II) carbonate EN/HU/DE-AT: no automatic feed eligibility; verify market-specific authorization, species, permitted use, labeling and batch CoA before any claim.
+- [x] Sodium molybdate EN/HU/DE-AT: exact form, molybdenum assay, market-specific authorization and documentation verification.
+- [x] Magnesium oxide feed EN/HU/DE-AT: MgO/Mg assay, particle size or reactivity where applicable, impurities, batch CoA and feed-use evidence.
+- [ ] Review remaining feed catalogue entries and identify which need evidence-based edits rather than generic copy.
+- [ ] Confirm current branch CI and mobile/desktop visual rendering; no merge/deployment has been verified.
