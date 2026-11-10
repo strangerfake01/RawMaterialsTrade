@@ -26,10 +26,10 @@ def main():
         return 1
     # Enumerate changed paths once rather than re-reading every tree in every commit.
     # Root commits, additions, renames and deletions are covered by git log --all.
-    changed = git("log", "--all", "--pretty=format:", "--name-only", "-z").decode("utf-8", "replace").split("\\0")
+    changed = git("log", "--all", "--pretty=format:", "--name-only", "-z").decode("utf-8", "replace").split("\0")
     findings = set()
     for rel in changed:
-        rel = rel.strip("\\n")
+        rel = rel.strip("\n")
         if not rel:
             continue
         p = Path(rel)
