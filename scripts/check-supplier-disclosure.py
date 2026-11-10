@@ -20,9 +20,9 @@ RESTRICTED_EXT = {".pdf", ".doc", ".docx", ".xls", ".xlsx", ".zip", ".7z", ".rar
 RESTRICTED_FILENAMES = {".env", ".env.local", ".env.production", ".npmrc", ".pypirc", "id_rsa", "id_ed25519"}
 RESTRICTED_MAGIC = {
     "pdf": (b"%PDF-",),
-    "zip_office_archive": (b"PK\\x03\\x04", b"PK\\x05\\x06", b"PK\\x07\\x08"),
+    "zip_office_archive": (bytes.fromhex("504b0304"), bytes.fromhex("504b0506"), bytes.fromhex("504b0708")),
     "legacy_office_archive": (bytes.fromhex("d0cf11e0a1b11ae1"),),
-    "rar_archive": (b"Rar!\\x1a\\x07",),
+    "rar_archive": (bytes.fromhex("526172211a07"),),
     "7z_archive": (bytes.fromhex("377abcaf271c"),),
 }
 
