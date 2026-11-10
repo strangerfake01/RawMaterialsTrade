@@ -60,6 +60,9 @@ def main():
             if not isinstance(item, dict) or item.get("document_type") not in TYPES or not isinstance(item.get("reference"), str) or not item["reference"].strip():
                 errors.append(f"record {index}: invalid evidence item")
                 continue
+            reference = item.get("reference", "")
+            if isinstance(reference, str) and reference.strip().lower() in {"tbd", "todo", "n/a", "na", "none", "unknown", "pending", "placeholder", "test", "example"}:
+                errors.append(f"record {index}: placeholder evidence reference")
             try:
                 verified = date.fromisoformat(item["verification_date"])
                 if verified > date.today():
