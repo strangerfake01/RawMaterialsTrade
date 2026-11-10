@@ -64,7 +64,7 @@ def is_concrete(value):
 identity_coverage = {
     "formula": sum(is_concrete(p.get("technical_identity", {}).get("formula")) for p in products),
     "ec": sum(is_concrete(p.get("technical_identity", {}).get("ec")) for p in products),
-    "cas_single": sum(bool(re.fullmatch(r"\\d{2,7}-\\d{2}-\\d",
+    "cas_single": sum(bool(re.fullmatch(r"\d{2,7}-\d{2}-\d",
                         str(p.get("technical_identity", {}).get("cas") or ""))) for p in products),
 }
 print("Concrete identity-field coverage (not externally verified):", identity_coverage)
