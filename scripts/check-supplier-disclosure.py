@@ -16,14 +16,19 @@ PATTERNS = {
     "supplier_contact_email": re.compile(r"(?i)(?:supplier|manufacturer|vendor|besz[aá]ll[ií]t[oó]|gy[aá]rt[oó])[^\n]{0,70}[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"),
 }
 EXCLUDE = {".git", "node_modules", "dist"}
+RESTRICTED_EXT = {".pdf", ".doc", ".docx", ".xls", ".xlsx", ".zip", ".7z", ".rar", ".eml", ".msg", ".p12", ".pfx", ".pem", ".key"}
 def main():
     paths = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode("utf-8").split("\0")
     hits = []
     checked = 0
+    blocked = []
     for rel in paths:
         if not rel:
             continue
         p = Path(rel)
+        if p.suffix.lower() in RESTRICTED_EXT:
+            blocked.append(rel)
+            continue
         if p.suffix.lower() not in EXT or any(part in EXCLUDE for part in p.parts):
             continue
         try:
@@ -35,11 +40,15 @@ def main():
             if pattern.search(data):
                 hits.append((rel, label))
     print(f"Supplier disclosure screening: {checked} tracked text files checked")
+    if blocked:
+        for rel in blocked:
+            print(f"REVIEW REQUIRED: restricted file type in public repository: {rel}")
     if hits:
         for rel, label in hits:
             print(f"REVIEW REQUIRED: {rel}: {label} (matching content suppressed)")
+    if blocked or hits:
         return 1
-    print("PASS: no high-confidence disclosure patterns detected; manual and historical review still required")
+    print("PASS: no restricted document types or high-confidence disclosure patterns detected; manual and historical review still required")
     return 0
 if __name__ == "__main__":
     raise SystemExit(main())
