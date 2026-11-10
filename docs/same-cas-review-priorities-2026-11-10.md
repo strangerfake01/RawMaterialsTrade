@@ -1,6 +1,6 @@
 # Same-CAS substitution review priorities — 2026-11-10
 
-**Scope:** 23 candidate pairs across 18 CAS groups. These are screening priorities, not verified substitutions. Do not interpret a higher priority as evidence of technical compatibility.
+**Scope:** 23 candidate pairs across 18 CAS groups. Each CSV row is an unordered screening pair, not a directed substitution recommendation. A potential replacement from product A to B does not establish the reverse replacement from B to A. These are screening priorities, not verified substitutions. Do not interpret a higher priority as evidence of technical compatibility.
 
 ## P0 — regulated-grade or high-consequence differences
 
@@ -37,7 +37,7 @@ Review first where the catalogue mixes food, feed, pharmaceutical and technical 
 2. Assign one technical reviewer and a sales/procurement owner per pair, recording confidential correspondence outside the public repo.
 3. Request current SDS/TDS, representative CoA, grade and intended-use evidence using `docs/supplier-substitution-evidence-request.md`.
 4. Resolve the application-specific comparison, safety and regulatory gates.
-5. Only after qualified approval, add a traceable relationship to `product-substitutions.json`; the CI validator will reject missing evidence or review metadata.
+5. Only after qualified approval, add a **directed, application-specific** relationship to `product-substitutions.json`; the CI validator will reject missing evidence or review metadata. Review the reverse direction separately if relevant; never infer reciprocal approval from a single record.
 6. Do not create public-facing substitution language for unassessed or incomplete pairs.
 
 **Current state:** all 23 candidate pairs remain unassessed; no supplier-specific evidence or customer validation has been independently verified.
