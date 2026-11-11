@@ -12,6 +12,8 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 products = json.loads((ROOT / "products-multilingual.json").read_text(encoding="utf-8"))
 LANGS = {"en": "en-", "hu": "hu-", "de": "de-at-"}
+REGULATED_APPLICATION = re.compile(r'(?i)(?:pharmaceutical|pharmacopoeial|pharmazeut|gyógyszer|takarmány|feed additive|food[- ]grade|lebensmittel|E\\s*\\d{3})')
+REGULATORY_CAVEAT = re.compile(r'(?i)(?:final suitability|regulatory suitability|supplier (?:SDS|TDS|CoA)|végleges (?:alkalmasság|felhasználás|megfelelőség)|beszállítói (?:dokumentáció|SDS|TDS|CoA)|endgültige (?:Eignung|Verwendung)|regulatorische Eignung|Lieferantendokumentation|Konkrete Qualität und Dokumentation)')
 CHECKS = {
     "blanket_sds": re.compile(r"(?i)(?:SDS always|SDS stets|mindig SDS|stets SDS|immer SDS)"),
     "fixed_packaging_orientation": re.compile(r"(?i)(?:preferred packaging currently listed|orientierende verpackung laut katalog|orientációs kiszerelés a katalógusban|packaging preference [(]catalogue orientation:)"),
@@ -21,6 +23,8 @@ CHECKS = {
 }
 counts = {k: 0 for k in CHECKS}
 examples = {k: [] for k in CHECKS}
+regulated_without_caveat = 0
+regulated_examples = []
 missing = []
 for product in products:
     for lang, prefix in LANGS.items():
@@ -34,9 +38,14 @@ for product in products:
                 counts[label] += 1
                 if len(examples[label]) < 6:
                     examples[label].append(page.name)
+        if REGULATED_APPLICATION.search(html) and not REGULATORY_CAVEAT.search(html):
+            regulated_without_caveat += 1
+            if len(regulated_examples) < 10:
+                regulated_examples.append(page.name)
 print("Public product claim inventory:", len(products), "families;", sum(1 for p in products for lang in LANGS if (ROOT / (LANGS[lang] + p["id"] + ".html")).exists()), "language pages")
 for label, count in counts.items():
     print("REVIEW", label, count, "pages; examples:", ", ".join(examples[label]))
+print("REVIEW regulated_application_without_caveat", regulated_without_caveat, "pages; examples:", ", ".join(regulated_examples))
 if missing:
     print("ERROR missing product pages:", ", ".join(missing[:10]))
     sys.exit(1)
