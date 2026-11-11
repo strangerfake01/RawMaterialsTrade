@@ -9,12 +9,13 @@ ROOT = Path(__file__).resolve().parents[1]
 paths = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode().split("\0")
 text_suffixes = {".html", ".json", ".jsonld", ".js", ".css", ".md", ".txt", ".csv", ".xml", ".yml", ".yaml", ".py", ".svg"}
 high_risk = {
-    "email-derived handoff or policy": re.compile(r"ENQUIRY-FIRST-EMAIL-EVIDENCE-REMEDIATION|procurement-information-policy\\.json|Reviewed real office@rawmaterialstrade\\.com threads", re.I),
-    "private email header": re.compile(r"(?m)^(?:From|To|Cc|Bcc|Feladó|Címzett|Másolatot kap):\\s+[^\\n]{0,180}@", re.I),
-    "embedded email correspondence": re.compile(r"(?m)^[- ]{0,4}(?:Original Message|Forwarded message|Eredeti üzenet|Továbbított üzenet)\\b", re.I),
-    "credentials": re.compile(r"(?i)(?:api[_-]?key|client[_-]?secret|access[_-]?token|password)\\s*[:=]\\s*['\\\"][A-Za-z0-9_./+=-]{18,}['\\\"]"),
+    "email-derived handoff or policy": re.compile(r"ENQUIRY-FIRST-EMAIL-EVIDENCE-REMEDIATION|procurement-information-policy\.json|Reviewed real office@rawmaterialstrade\.com threads", re.I),
+    "private email header": re.compile(r"(?m)^(?:From|To|Cc|Bcc|Feladó|Címzett|Másolatot kap):\s+[^\n]{0,180}@", re.I),
+    "embedded email correspondence": re.compile(r"(?m)^[- ]{0,4}(?:Original Message|Forwarded message|Eredeti üzenet|Továbbított üzenet)\b", re.I),
+    "credentials": re.compile(r"(?i)(?:api[_-]?key|client[_-]?secret|access[_-]?token|password)\s*[:=]\s*['\"][A-Za-z0-9_./+=-]{18,}['\"]"),
 }
-email = re.compile(r"(?<![\\w.+-])[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}(?![\\w.-])", re.I)
+email = re.compile(r"(?<![\w.+-])[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}(?![\w.-])", re.I)
+
 public_domains = {"rawmaterialstrade.com"}
 issues = []
 emails = set()
