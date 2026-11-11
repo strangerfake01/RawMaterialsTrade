@@ -2577,7 +2577,10 @@
       "concentration_value_verified": false,
       "concentration_semantics": "grade_or_form_descriptor_not_numeric",
       "cas_identifier_status": "multiple_candidates_unverified",
-      "cas_candidate_identifiers": ["7446-19-7","7446-20-0"]
+      "cas_candidate_identifiers": [
+        "7446-19-7",
+        "7446-20-0"
+      ]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -2698,7 +2701,10 @@
       "concentration_value_verified": false,
       "concentration_semantics": "grade_or_form_descriptor_not_numeric",
       "cas_identifier_status": "multiple_candidates_unverified",
-      "cas_candidate_identifiers": ["7446-19-7","7446-20-0"]
+      "cas_candidate_identifiers": [
+        "7446-19-7",
+        "7446-20-0"
+      ]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -2762,9 +2768,9 @@
     "short_description_en": "Natural tricarboxylic acid. Widely used as acidulant and preservative in food and beverage, and as descaler in cleaning formulations.",
     "short_description_hu": "Citromsav monohidrát, anhidrát — Gyenge szerves sav; monohidrát vagy vízmentes formában. A konkrét minőség, koncentráció és dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
     "short_description_de": "Citronensäure — B2B-Rohstoff, der typischerweise in folgenden Anwendungsbereichen eingesetzt wird: Säuerungsmittel in Lebensmitteln und Getränken (E330), Entkalkung und Reinigung, pH-Einstellung in Kosmetik. Konkrete Qualität und Dokumentation werden im Rahmen der Anfrage bestätigt.",
-    "what_it_is_en": "Citric Acid is a B2B chemical raw material used in food industry raw materials, home care & cleaning, industrial chemicals contexts. Final suitability depends on grade, concentration and supplier SDS/TDS/CoA documentation. Formula: C₆H₈O₇.",
+    "what_it_is_en": "Citric Acid is a B2B chemical raw material used in food industry raw materials, home care & cleaning, industrial chemicals contexts. Final suitability depends on grade, concentration and supplier SDS/TDS/CoA documentation. Anhydrous formula: C₆H₈O₇; monohydrate formula: C₆H₈O₇·H₂O.",
     "what_it_is_hu": "A(z) Citromsav monohidrát, anhidrát a Raw Materials Trade Kft. B2B alapanyag-portfóliójának része. A végleges alkalmasságot, besorolást, kezelést, szállítást és szabályozási megfelelést hivatalos SDS/TDS/CoA és beszállítói dokumentáció alapján kell megerősíteni.",
-    "what_it_is_de": "Citronensäure ist ein B2B-Chemierohstoff für lebensmittelrohstoffe, reinigungs- und haushaltschemie, industriechemikalien. Die endgültige Eignung hängt von Qualität, Konzentration und Lieferanten-SDS/TDS ab. Formel: C₆H₈O₇.",
+    "what_it_is_de": "Citronensäure ist ein B2B-Chemierohstoff für lebensmittelrohstoffe, reinigungs- und haushaltschemie, industriechemikalien. Die endgültige Eignung hängt von Qualität, Konzentration und Lieferanten-SDS/TDS ab. Formel (wasserfrei): C₆H₈O₇; Monohydrat: C₆H₈O₇·H₂O.",
     "applications_en": [
       "food and beverage acidulant (E330)",
       "descaling and cleaning",
@@ -2819,7 +2825,10 @@
       "concentration_value_verified": false,
       "concentration_semantics": "grade_or_form_descriptor_not_numeric",
       "cas_identifier_status": "multiple_candidates_unverified",
-      "cas_candidate_identifiers": ["77-92-9","5949-29-1"]
+      "cas_candidate_identifiers": [
+        "77-92-9",
+        "5949-29-1"
+      ]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -3987,7 +3996,10 @@
       "concentration_value_verified": false,
       "concentration_semantics": "grade_or_form_descriptor_not_numeric",
       "cas_identifier_status": "multiple_candidates_unverified",
-      "cas_candidate_identifiers": ["6381-92-6","64-02-8"]
+      "cas_candidate_identifiers": [
+        "6381-92-6",
+        "64-02-8"
+      ]
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -5649,7 +5661,10 @@
       "packaging_hu": "BigBag és zsákos; IBC és tartályautó (oldat)",
       "packaging_de": "BigBag und Sackware; IBC und Tankwagen (Lösung)",
       "cas_identifier_status": "multiple_candidates_unverified",
-      "cas_candidate_identifiers": ["10043-52-4","10035-04-8"]
+      "cas_candidate_identifiers": [
+        "10043-52-4",
+        "10035-04-8"
+      ]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -5768,7 +5783,10 @@
       "packaging_hu": "BigBag és zsákos; IBC és tartályautó (oldat)",
       "packaging_de": "BigBag und Sackware; IBC und Tankwagen (Lösung)",
       "cas_identifier_status": "multiple_candidates_unverified",
-      "cas_candidate_identifiers": ["10043-52-4","10035-04-8"]
+      "cas_candidate_identifiers": [
+        "10043-52-4",
+        "10035-04-8"
+      ]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -5895,7 +5913,10 @@
       "packaging_hu": "BigBag és zsákos; IBC és tartályautó (oldat)",
       "packaging_de": "BigBag und Sackware; IBC und Tankwagen (Lösung)",
       "cas_identifier_status": "multiple_candidates_unverified",
-      "cas_candidate_identifiers": ["10043-52-4","10035-04-8"]
+      "cas_candidate_identifiers": [
+        "10043-52-4",
+        "10035-04-8"
+      ]
     },
     "documentation": {
       "sds_status_en": "SDS available or confirmed on B2B request.",
@@ -8615,7 +8636,10 @@
       "concentration_value_verified": false,
       "concentration_semantics": "grade_or_form_descriptor_not_numeric",
       "cas_identifier_status": "multiple_candidates_unverified",
-      "cas_candidate_identifiers": ["7773-01-5","13446-34-9"]
+      "cas_candidate_identifiers": [
+        "7773-01-5",
+        "13446-34-9"
+      ]
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
@@ -8696,7 +8720,10 @@
     "technical_identity": {
       "cas": "7773-01-5 / 13446-34-9",
       "cas_identifier_status": "multiple_candidates_unverified",
-      "cas_candidate_identifiers": ["7773-01-5","13446-34-9"],
+      "cas_candidate_identifiers": [
+        "7773-01-5",
+        "13446-34-9"
+      ],
       "ec": "Confirmed upon supplier documentation",
       "formula": "Confirmed upon supplier documentation",
       "form_en": "Confirmed upon supplier documentation.",
@@ -10245,7 +10272,10 @@
       "concentration_value_verified": false,
       "concentration_semantics": "grade_or_form_descriptor_not_numeric",
       "cas_identifier_status": "multiple_candidates_unverified",
-      "cas_candidate_identifiers": ["127-09-3","6131-90-4"]
+      "cas_candidate_identifiers": [
+        "127-09-3",
+        "6131-90-4"
+      ]
     },
     "documentation": {
       "sds_status_en": "Documentation confirmed upon B2B inquiry.",
