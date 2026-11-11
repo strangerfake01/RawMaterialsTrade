@@ -67,6 +67,9 @@ identity_coverage = {
     "cas_single": sum(bool(re.fullmatch(r"\d{2,7}-\d{2}-\d",
                         str(p.get("technical_identity", {}).get("cas") or ""))) for p in products),
 }
+# The identity coverage report must not silently regress to zero on a regex typo.
+if identity_coverage["cas_single"] == 0 and cas_checked:
+    raise SystemExit("CAS single-identifier coverage regression: zero despite CAS candidates")
 print("Concrete identity-field coverage (not externally verified):", identity_coverage)
 print("Technical-field semantics: %d families; CAS checksums verified: %d" % (len(products), cas_checked))
 print("Concentration fields without quantitative concentration units (manual review):", len(review))
