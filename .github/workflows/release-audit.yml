@@ -20,6 +20,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Scan tracked public files for private correspondence and credentials
+        run: python3 tools/audit_public_privacy.py
       - name: Check shared JavaScript syntax
         run: |
           node --check assets/js/site.v20261108.js
@@ -30,3 +32,27 @@ jobs:
         run: python3 tools/audit_release_contract.py
       - name: Reject unverified chemical identity source claims
         run: python3 tools/audit_chemical_source_integrity.py
+      - name: Check all same-origin anchor targets and certificates
+        run: python3 tools/audit_internal_links.py
+      - name: Check transparent evidence-based product-depth inventory
+        run: python3 tools/audit_product_evidence_depth.py --check
+      - name: Check multilingual AI-facing claims against catalogue evidence
+        run: python3 tools/audit_ai_claim_contract.py
+      - name: Check three-language B2B procurement journey and quotation requirements
+        run: python3 tools/audit_procurement_journey.py
+      - name: Check buyer and supplier paths across 378 product pages
+        run: python3 tools/audit_product_procurement_paths.py
+      - name: Audit chemical search landing-page identities across 378 URLs
+        run: python3 tools/audit_chemical_search_landing.py
+      - name: Check multilingual product alternative links
+        run: python3 tools/audit_product_alternatives.py
+      - name: Audit Wikidata and multilingual Wikipedia candidate coverage
+        run: python3 tools/audit_wikidata_wikipedia_coverage.py
+      - name: Prevent unreviewed chemical identity claims in 378 product schemas
+        run: python3 tools/audit_public_chemical_identity.py
+      - name: Enforce batch-specific CoA caveats on 378 multilingual pages
+        run: python3 tools/audit_supplier_coa_status.py
+      - name: Inventory unsupported packaging, concentration and document promises
+        run: python3 tools/audit_public_product_claims.py
+      - name: Inventory ambiguous technical concentration and form fields
+        run: python3 tools/audit_technical_field_semantics.py

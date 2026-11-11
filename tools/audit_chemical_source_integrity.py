@@ -9,6 +9,23 @@ root = Path(__file__).resolve().parents[1]
 registry = json.loads((root / 'entity-registry.json').read_text(encoding='utf-8'))['entities']
 status = {e['id']: e.get('sameAs_status') for e in registry}
 errors = []
+products = json.loads((root / 'products-multilingual.json').read_text(encoding='utf-8'))
+expected_ids = {p['id'] for p in products}
+registry_ids = [e['id'] for e in registry]
+if len(registry_ids) != len(set(registry_ids)):
+    errors.append('Duplicate registry product IDs')
+if set(registry_ids) != expected_ids:
+    errors.append('Entity registry must cover every catalogue product exactly: missing=' + str(sorted(expected_ids - set(registry_ids))) + ' extras=' + str(sorted(set(registry_ids) - expected_ids)))
+for e in registry:
+    if e.get('sameAs_status') == 'verified':
+        errors.append('Heuristic registry identity still marked verified without independent provenance: ' + e['id'])
+    if not e.get('sameAs_status'):
+        errors.append('Registry identity missing explicit review status: ' + e['id'])
+    for field in ('cas','pubchem_cid'):
+        value = e.get(field)
+        if isinstance(value,str) and ('confirm' in value.lower() or 'specific' in value.lower()):
+            errors.append('Unverified narrative stored as '+field+' identifier: '+e['id'])
+
 for e in registry:
     if e.get('pubchem_status') == 'needs-independent-verification':
         if e.get('pubchem_cid') is not None or e.get('pubchem_formula') is not None:
@@ -31,7 +48,7 @@ for path in root.glob('*.html'):
     if re.search(r'PubChem (?:reports|formula check|:)', source):
         errors.append('Unverified PubChem comparison on page: ' + path.name)
     material_id = re.sub(r'^(en|hu|de-at)-', '', path.stem)
-    if status.get(material_id) != 'needs-confirmation':
+    if status.get(material_id) not in ('needs-confirmation', 'needs-independent-verification'):
         continue
     for script in re.findall(r'<script\b[^>]*type=["\x27]application/ld\+json["\x27][^>]*>(.*?)</script>', source, re.I | re.S):
         data = json.loads(script)

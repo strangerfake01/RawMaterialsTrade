@@ -251,6 +251,22 @@ function buildPrefillMessage(lang, product, docs){
   if(lang==='de-at') return `Anfrage zum Produkt: ${product}${hasDocs ? '\nBenötigte Dokumentation: '+docs : ''}`;
   return `Inquiry regarding product: ${product}${hasDocs ? '\nRequested documentation: '+docs : ''}`;
 }
+function initProductBuyerJourney(){
+  // Reuse the existing product-specific RFQ link: it already carries the
+  // verified product label and selected documentation intent in the URL.
+  // Do not synthesize identity, CAS or stock claims from the page heading.
+  const section=document.querySelector('.product-dual-path');
+  if(!section)return;
+  const buyer=section.querySelector('.dual-path-card a[href]');
+  const existing=[...document.querySelectorAll('a[href*="product="][href*="#contact"]')]
+    .find(link=>{try{return new URL(link.href,location.href).searchParams.has('product');}catch(_){return false;}});
+  if(!buyer||!existing)return;
+  const url=new URL(existing.href,location.href);
+  // Keep the buyer CTA as a quotation, not a document-only or availability request.
+  const lang=getLang();
+  url.searchParams.set('docs',lang==='hu'?'ajánlat':lang==='de-at'?'Angebot':'quotation');
+  buyer.href=url.pathname+url.search+url.hash;
+}
 function initProductPrefill(){document.querySelectorAll('.product-prefill').forEach(a=>a.addEventListener('click',()=>{const p=a.dataset.product||'';const d=a.dataset.docs||'';setTimeout(()=>{const product=document.getElementById('product');const docs=document.getElementById('docs');const msg=document.getElementById('message');const lang=getLang();if(product&&p)product.value=p;if(docs&&d)setDocsValue(docs,d);if(msg&&!msg.value&&p){msg.value=buildPrefillMessage(lang,p,d);}},60);}));}
 function initLanguagePreference(){
   document.querySelectorAll('.lang-switcher a[lang]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('rmtLangSelected',a.getAttribute('lang')||'en')}catch(_){}}));
@@ -397,7 +413,7 @@ function initCertificateModals(){
   const bodyEl=overlay.querySelector('.cert-modal-body');
   const closeBtn=overlay.querySelector('.cert-modal-close');
   const close=()=>{overlay.classList.remove('open');bodyEl.innerHTML='';};
-  const open=(src,title,alt)=>{titleEl.textContent=title||'';bodyEl.innerHTML='';const img=document.createElement('img');img.src=src;img.alt=alt||title||'Certificate';bodyEl.appendChild(img);overlay.classList.add('open');};
+  const open=(src,title,alt)=>{titleEl.textContent=title||'';bodyEl.innerHTML='';if(/\.pdf($|\?)/i.test(src)){const frame=document.createElement('iframe');frame.src=src;frame.title=alt||title||'Certificate';frame.style.width='100%';frame.style.minHeight='70vh';frame.style.border='0';bodyEl.appendChild(frame);}else{const img=document.createElement('img');img.src=src;img.alt=alt||title||'Certificate';bodyEl.appendChild(img);}overlay.classList.add('open');};
   triggers.forEach(btn=>btn.addEventListener('click',e=>{e.preventDefault();open(btn.getAttribute('data-cert-src')||'',btn.getAttribute('data-cert-title')||btn.textContent.trim(),btn.getAttribute('data-cert-alt')||btn.getAttribute('data-cert-title')||'Certificate');}));
   closeBtn.addEventListener('click',close);
   overlay.addEventListener('click',e=>{if(e.target===overlay)close();});
@@ -524,4 +540,4 @@ function initFloatingContact(){
 }
 
 function initSmoothScroll(){document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const id=a.getAttribute('href');if(id&&id.length>1){const el=document.querySelector(id);if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});}}}));}
-document.addEventListener('DOMContentLoaded',()=>{initLanguagePreference();initNav();initCookieBanner();initFAQ();initCatalogue();initProductPrefill();initQueryPrefill();initCertificateModals();initCategoryVisualState();initHeroHoverVideo();initHeroParallax();initForm();initSmoothScroll();initFloatingContact();});
+document.addEventListener('DOMContentLoaded',()=>{initLanguagePreference();initNav();initCookieBanner();initFAQ();initCatalogue();initProductBuyerJourney();initProductPrefill();initQueryPrefill();initCertificateModals();initCategoryVisualState();initHeroHoverVideo();initHeroParallax();initForm();initSmoothScroll();initFloatingContact();});

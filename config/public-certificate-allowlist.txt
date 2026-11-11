@@ -1,0 +1,2 @@
+# Exact company-owned certificate only; all other documents remain blocked.
+assets/documents/certificates/cert-gmp-plus-2020.pdf

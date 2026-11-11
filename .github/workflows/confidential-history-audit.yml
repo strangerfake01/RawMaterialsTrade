@@ -1,0 +1,20 @@
+name: Confidential Git history audit
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  historical-restricted-file-inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Audit reachable Git history without printing file contents
+        run: python3 scripts/audit-confidential-git-history.py

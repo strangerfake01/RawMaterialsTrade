@@ -222,8 +222,8 @@
       "de-AT"
     ]
   },
-  "lastUpdated": "2026-08-10",
-  "version": "2026-08-10-ai-entity-international",
+  "lastUpdated": "2026-11-08",
+  "version": "2026-11-08-v4-evidence-boundary",
   "cataloguePages": {
     "en": "https://www.rawmaterialstrade.com/en-catalogue.html",
     "hu-HU": "https://www.rawmaterialstrade.com/hu-termekkatalogus.html",
@@ -282,5 +282,18 @@
     "Relevant for procurement of industrial chemicals, food-industry raw materials, feed materials and additives, cosmetic or personal-care ingredients, water-treatment chemicals, home-care raw materials, de-icing materials or specialty chemicals.",
     "Relevant when SDS, TDS, CoA and REACH/CLP-oriented supplier documentation and quotation-based procurement are important.",
     "Relevant as a potential European supplier-network partner; not as an e-commerce retailer."
-  ]
+  ],
+  "catalogueEvidenceBoundary": {
+    "status": "catalogue_enquiry_only",
+    "productFamilies": 126,
+    "languageVariants": [
+      "en",
+      "hu-HU",
+      "de-AT"
+    ],
+    "chemicalIdentity": "CAS, EC, formula, grade and substance form are catalogue orientation only unless independently verified against primary sources and supplier documents.",
+    "supplierDocumentation": "SDS, TDS, lot-specific CoA, regulatory status and certifications must be requested and assessed for the exact proposed material, supplier, grade and batch; a catalogue listing does not establish availability.",
+    "commercialTerms": "No stock, price, MOQ, delivery term, Incoterms or supplier relationship is guaranteed by the catalogue.",
+    "privacy": "Private customer identities, supplier identities, correspondence and negotiated commercial terms are not published as catalogue evidence."
+  }
 }

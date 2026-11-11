@@ -1,0 +1,208 @@
+#!/usr/bin/env python3
+"""Measure misleading concentration/form fields without fabricating specifications.
+
+Non-numeric values are candidates for manual review, not automatically false:
+'anhydrous', 'solution', or 'technical' may be meaningful grade descriptors.
+"""
+import json
+import re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+products = json.loads((ROOT / "products-multilingual.json").read_text(encoding="utf-8"))
+assert len(products) == 126
+review = []
+placeholders = []
+cas_checked = 0
+
+def valid_cas_checksum(value):
+    match = re.fullmatch(r"(\d{2,7})-(\d{2})-(\d)", value)
+    if not match:
+        return False
+    digits = match.group(1) + match.group(2)
+    return sum((index + 1) * int(digit) for index, digit in enumerate(reversed(digits))) % 10 == int(match.group(3))
+for product in products:
+    ident = product.get("technical_identity") or {}
+    concentration = str(ident.get("concentration_en") or ident.get("concentration") or "").strip()
+    grade = str(ident.get("grade_en") or ident.get("grade") or "").strip()
+    form = str(ident.get("form_en") or "").strip()
+    # A grade or particle size is not, by itself, a measured chemical concentration.
+    looks_quantitative = bool(re.search(r"\d+(?:[.,]\d+)?\s*(?:%|wt%|w/w|g/l|mg/l|mol/l|ppm|ppb)(?![A-Za-z])", concentration, re.I))
+    is_supplier_placeholder = concentration.casefold() in {"confirmed upon supplier documentation", "to be confirmed"}
+    if concentration and not looks_quantitative and not is_supplier_placeholder:
+        review.append((product["id"], concentration, grade))
+        if ident.get("concentration_semantics") != "grade_or_form_descriptor_not_numeric" or ident.get("concentration_value_verified") is not False:
+            raise SystemExit(f"{product['id']}: nonnumeric concentration must be explicitly marked as a grade/form descriptor")
+    cas = str(ident.get("cas") or "")
+    cas_candidates = ident.get("cas_candidate_identifiers") or []
+    for candidate in (cas_candidates if cas_candidates else ([cas] if re.fullmatch(r"\d{2,7}-\d{2}-\d", cas) else [])):
+        cas_checked += 1
+        if not valid_cas_checksum(candidate):
+            raise SystemExit(f"{product['id']}: CAS checksum or format invalid: {candidate}")
+    if " / " in cas:
+        if ident.get("cas_identifier_status") != "multiple_candidates_unverified" or ident.get("cas_candidate_identifiers") != cas.split(" / "):
+            raise SystemExit(f"{product['id']}: multiple CAS candidates must be separately recorded as unverified")
+    elif not re.fullmatch(r"\d{2,7}-\d{2}-\d", cas):
+        if ident.get("cas_identifier_status") != "supplier_identity_required" or ident.get("cas_candidate_identifiers") != []:
+            raise SystemExit(f"{product['id']}: CAS placeholder must not be interpreted as an identifier")
+    if ident.get("cas_identifier_status") and not (" / " in cas or not re.fullmatch(r"\d{2,7}-\d{2}-\d", cas)):
+        raise SystemExit(f"{product['id']}: stale CAS uncertainty flag on a single numeric identifier")
+    if is_supplier_placeholder or "supplier documentation" in form.lower() or "to be confirmed" in form.lower():
+        placeholders.append(product["id"])
+# Report actual identity coverage, excluding supplier-confirmation placeholders.
+def is_concrete(value):
+    value = str(value or "").strip()
+    if not value:
+        return False
+    lower = value.casefold()
+    return not any(term in lower for term in (
+        "confirmed upon", "to be confirmed", "supplier documentation",
+        "beszállítói dokumentáció", "lieferantendokumentation",
+        "product-specific", "composition-dependent", "exact cas",
+        "sds/tds", "megerősítendő", "pontosítandó"
+    ))
+identity_coverage = {
+    "formula": sum(is_concrete(p.get("technical_identity", {}).get("formula")) for p in products),
+    "ec": sum(is_concrete(p.get("technical_identity", {}).get("ec")) for p in products),
+    "cas_single": sum(bool(re.fullmatch(r"\d{2,7}-\d{2}-\d",
+                        str(p.get("technical_identity", {}).get("cas") or ""))) for p in products),
+}
+# The identity coverage report must not silently regress to zero on a regex typo.
+if identity_coverage["cas_single"] == 0 and cas_checked:
+    raise SystemExit("CAS single-identifier coverage regression: zero despite CAS candidates")
+print("Concrete identity-field coverage (not externally verified):", identity_coverage)
+print("Technical-field semantics: %d families; CAS checksums verified: %d" % (len(products), cas_checked))
+print("Concentration fields without quantitative concentration units (manual review):", len(review))
+print("Form fields with supplier-confirmation placeholders:", len(placeholders))
+for pid, value, grade in review[:25]:
+    print("REVIEW concentration:", pid, "| value:", value[:100], "| grade:", grade[:100])
+if len({p["id"] for p in products}) != len(products):
+    raise SystemExit("Duplicate product IDs")
+if not review:
+    print("No semantic concentration candidates found; no data changes needed")
+# A review inventory is deliberately non-blocking; it cannot establish actual specifications.
+
+# Regression guard for verified hydrate formula corrections and nonnumeric form labels.
+hydrate_formulas = {
+    "cink-szulfat-monohidrat-feed": "ZnSO₄·H₂O",
+    "cink-szulfat-monohidrat-heptahidrat-industrial": "ZnSO₄·H₂O; heptahydrate: ZnSO₄·7H₂O",
+    "kalcium-klorid-dihidrat-7880-pikkelyes-deicing": "CaCl₂·2H₂O",
+}
+form_only_families = {
+    "cink-szulfat-monohidrat-feed",
+    "cink-szulfat-monohidrat-heptahidrat-industrial",
+    "citromsav-monohidrat-anhidrat-food",
+    "borax-dekahidrat-industrial",
+    "magnezium-klorid-hexahidrat-industrial",
+    "rez-szulfat-pentahidrat-industrial",
+    "aceton-technikai-regeneralt-industrial",
+    "aluminium-szulfat-03-mm-38-mm-industrial",
+    "etil-acetat-technikai-regeneralt-industrial",
+    "magnezium-oxid-feed",
+    "magnezium-oxid-nehez-industrial",
+    "metanol-technikai-regeneralt-industrial",
+    "natrium-benzoat-gran-food",
+    "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
+    "natrium-karbonat-konnyu-industrial",
+    "natrium-karbonat-nehez-industrial",
+    "natrium-acetat-vizmentes-3h2o-industrial",
+    "mangan-klorid-monohidrat-tetrahidrat-industrial",
+    "natrium-metaszilikat-industrial",
+    "natrium-szulfat-industrial",
+    "natronvizuveg-oldatok-industrial",
+    "sotabletta-industrial",
+    "rez-klorid-dihidrat-industrial",
+    "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
+    "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
+    "vas-ii-szulfat-monohidrat-feed",
+    "trinatrium-citrat-industrial",
+    "natrium-molibdat-feed",
+    "natrium-perkarbonat-industrial",
+    "sosav-technikai-regeneralt-industrial",
+    "natrium-tripolifoszfat-industrial",
+    "sosav-gyogyszerkonyvi-food",
+    "utszoro-so-deicing",
+    "vakuum-so-industrial",
+    "tiokarbamid-industrial",
+    "trietilen-glikol-industrial",
+    "aluminium-szulfat-oldat-industrial",
+    "ammonium-klorid-industrial",
+    "ammonium-szulfat-industrial",
+    "aszkorbinsav-food",
+    "borax-pentahidrat-industrial",
+    "borkosav-l-food",
+    "borsav-industrial",
+    "butil-glikol-industrial",
+    "ciklohexanon-industrial",
+    "cink-klorid-feed",
+    "cink-klorid-vizmentes-industrial",
+    "cink-oxid-industrial",
+    "dietilen-glikol-industrial",
+    "ecetsavanhidrid-industrial",
+    "edta-na2-na4-industrial",
+    "etkezesi-so-food",
+    "glicin-industrial",
+    "izopropil-alkohol-technikai-regeneralt-industrial",
+    "kalium-ferrocianid-food",
+    "kalium-hidroxid-pikkelyes-industrial",
+    "karbamid-ipari-kezeletlen-industrial",
+    "kenpor-industrial",
+    "magnezium-karbonat-konnyu-nehez-industrial",
+    "magnezium-szulfat-industrial",
+    "maleinsav-industrial",
+    "mangan-ii-szulfat-monohidrat-industrial",
+    "mangan-szulfat-monohidrat-feed",
+    "natrium-hidrogen-karbonat-industrial",
+    "natrium-hidrogen-karbonat-szodabikarbona-food",
+    "natrium-metabiszulfit-natrium-piroszulfit-industrial",
+    "vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed",
+    "monoetanolamin-industrial",
+    "monoetilen-glikol-industrial",
+    "monopropilenglikol-industrial",
+}
+if len(form_only_families) != 70:
+    raise SystemExit(f"Expected 70 reviewed nonquantitative product families, found {len(form_only_families)}")
+old_form_labels = {
+    "en": "<dt>Grade / concentration</dt>",
+    "hu": "<dt>Minőség / koncentráció</dt>",
+    "de-at": "<dt>Qualität / Konzentration</dt>",
+}
+# Final-batch positive assertions: ensure both product-detail blocks retain a meaningful label.
+final_batch = {
+    "natrium-hidrogen-karbonat-industrial",
+    "natrium-hidrogen-karbonat-szodabikarbona-food",
+    "natrium-metabiszulfit-natrium-piroszulfit-industrial",
+    "vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed",
+}
+designation_labels = {
+    "en": "<dt>Grade / product designation</dt>",
+    "hu": "<dt>Minőség / termékmegnevezés</dt>",
+    "de-at": "<dt>Qualität / Produktbezeichnung</dt>",
+}
+for pid in final_batch:
+    for lang, expected_label in designation_labels.items():
+        page = (ROOT / f"{lang}-{pid}.html").read_text(encoding="utf-8")
+        if page.count(expected_label) != 2:
+            raise SystemExit(f"{lang}-{pid}: expected designation label in both product-detail blocks")
+print("Final four families: 12 localized pages / 24 positive label assertions passed")
+
+by_id = {product["id"]: product for product in products}
+for pid, expected in hydrate_formulas.items():
+    actual = str(by_id[pid]["technical_identity"].get("formula", ""))
+    if expected not in actual:
+        raise SystemExit(f"{pid}: corrected hydrate formula missing from catalogue")
+for pid in set(hydrate_formulas) | form_only_families:
+    for lang in ("en", "hu", "de-at"):
+        html = (ROOT / f"{lang}-{pid}.html").read_text(encoding="utf-8")
+        if pid in hydrate_formulas:
+            if lang == "hu" and pid == "cink-szulfat-monohidrat-heptahidrat-industrial":
+                expected = "ZnSO₄·H₂O; heptahidrát: ZnSO₄·7H₂O"
+            elif lang == "de-at" and pid == "cink-szulfat-monohidrat-heptahidrat-industrial":
+                expected = "ZnSO₄·H₂O; Heptahydrat: ZnSO₄·7H₂O"
+            else:
+                expected = hydrate_formulas[pid]
+            if expected not in html:
+                raise SystemExit(f"{lang}-{pid}: corrected hydrate formula missing from HTML")
+        if pid in form_only_families and old_form_labels[lang] in html:
+            raise SystemExit(f"{lang}-{pid}: nonquantitative grade/form still mislabeled as concentration")
+print("Hydrate formula and form-label regression checks: passed")

@@ -408,3 +408,13 @@ footer[role="contentinfo"] a:focus-visible,
 }
 @media print{.rmt-contact-fab,.cookie-settings-toggle{display:none!important}}
 
+/* v4 UX: RFQ checklist, doc status, audience split, trust classes */
+.product-rfq-checklist,.product-doc-status,.manufacturer-intake-checklist,.audience-split-panel{margin:1.25rem 0}
+.product-rfq-checklist ol,.manufacturer-intake-checklist ol{margin:.5rem 0 0;padding-left:1.2rem}
+.product-rfq-checklist li,.manufacturer-intake-checklist li{margin:.35rem 0;line-height:1.45;color:#0f172a}
+.audience-split-panel{padding:1.25rem 0;background:linear-gradient(180deg,#f8fafc 0%,#fff 100%)}
+.audience-split-panel h2,.trust-evidence-classes h2{color:#142b3e}
+.trust-evidence-classes article{margin:1rem 0;padding:0;border:0}
+.product-doc-status .product-dl dt{color:#334155}
+.product-doc-status .product-dl dd{color:#0f172a}
+
