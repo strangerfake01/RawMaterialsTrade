@@ -36,9 +36,3 @@ Branch: integration/rmt-v4-20261108
 - Re-check EN/HU/DE homepages, cookie consent, certificate links and contact routes.
 - Keep the form E2E test as a separate follow-up task.
 
-## Human approvals still required
-
-- GDPR/privacy legal review.
-- Mobile device/responsive acceptance.
-- Product-specific SDS/TDS/CoA and regulatory evidence review.
-- Confirmation of GMP+ certificate publication authority.
