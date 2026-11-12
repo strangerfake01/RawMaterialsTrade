@@ -1,0 +1,55 @@
+/* Production contrast and spacing fixes for manufacturer / distributor pages. */
+.editorial-dark-page .strategic-section .section-label,
+.editorial-dark-page .strategic-section .section-header .section-label {
+  color: #67e8f9;
+}
+.editorial-dark-page .strategic-section h2,
+.editorial-dark-page .strategic-section .lead,
+.editorial-dark-page .strategic-section p,
+.editorial-dark-page .strategic-section .partnership-cards strong,
+.editorial-dark-page .strategic-section .partnership-cards span {
+  color: #f8fafc;
+}
+.editorial-dark-page .strategic-section .lead,
+.editorial-dark-page .strategic-section .partnership-cards span {
+  color: rgba(248,250,252,.86);
+}
+.editorial-dark-page .dach-section .section-label,
+.editorial-dark-page .dach-section .text-accent {
+  color: #67e8f9;
+}
+.editorial-dark-page .dach-section .lead,
+.editorial-dark-page .dach-section p {
+  color: rgba(248,250,252,.9);
+}
+.editorial-dark-page .dach-section .exporttag-card p {
+  color: rgba(248,250,252,.9);
+}
+.editorial-dark-page .strategic-grid,
+.editorial-dark-page .dach-inner {
+  align-items: start;
+}
+.editorial-dark-page .strategic-grid > div:first-child,
+.editorial-dark-page .dach-inner > div:first-child {
+  padding-top: .35rem;
+}
+@media (max-width: 767px) {
+  .editorial-dark-page .strategic-grid,
+  .editorial-dark-page .dach-inner {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2.75rem 0;
+  }
+  .editorial-dark-page .strategic-section,
+  .editorial-dark-page .dach-section {
+    padding: 0;
+  }
+  .editorial-dark-page .partnership-cards,
+  .editorial-dark-page .exporttag-card {
+    margin-top: .25rem;
+  }
+  .editorial-dark-page .partnership-cards div,
+  .editorial-dark-page .exporttag-card {
+    padding: 1.25rem;
+  }
+}
