@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-12",
+  "source": {
+    "type": "Blogger Atom feed",
+    "url": "https://blog.rawmaterialstrade.com/feeds/posts/default?alt=atom&max-results=500",
+    "canonicalHost": "https://blog.rawmaterialstrade.com"
+  },
+  "policy": "Index and link to original articles; do not republish or treat editorial content as product, SDS, CoA or regulatory evidence.",
+  "counts": {
+    "articles": 14,
+    "hungarian": 6,
+    "english": 6,
+    "german": 0
+  },
+  "articles": [
+    {
+      "title": "A Blue Crystal That Leads to Far Too Many Places",
+      "url": "https://blog.rawmaterialstrade.com/2026/09/a-blue-crystal-that-leads-to-far-too.html",
+      "published": "2026-09-17T13:12:42.449+02:00",
+      "updated": "2026-09-17T13:12:42.450+02:00",
+      "author": "Alexandra",
+      "labels": [],
+      "languages": []
+    },
+    {
+      "title": "Egy kék kristály, ami túl sok helyre vezet",
+      "url": "https://blog.rawmaterialstrade.com/2026/09/egy-kek-kristaly-ami-tul-sok-helyre.html",
+      "published": "2026-09-17T13:11:06.033+02:00",
+      "updated": "2026-09-17T13:11:06.033+02:00",
+      "author": "Alexandra",
+      "labels": [],
+      "languages": []
+    },
+    {
+      "title": "Has Chemistry Become the New Language of Geopolitics?",
+      "url": "https://blog.rawmaterialstrade.com/2026/08/has-chemistry-become-new-language-of.html",
+      "published": "2026-08-17T21:29:16.500+02:00",
+      "updated": "2026-08-18T09:27:41.542+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "english"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "title": "A kémia lett az új geopolitikai nyelv?",
+      "url": "https://blog.rawmaterialstrade.com/2026/08/a-kemia-lett-az-uj-geopolitikai-nyelv.html",
+      "published": "2026-08-17T21:24:54.389+02:00",
+      "updated": "2026-08-18T09:26:35.878+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "magyar"
+      ],
+      "languages": [
+        "hu-HU"
+      ]
+    },
+    {
+      "title": "Geopolitics as Part of the Offer",
+      "url": "https://blog.rawmaterialstrade.com/2026/08/geopolitics-as-part-of-offer.html",
+      "published": "2026-08-04T11:04:15.829+02:00",
+      "updated": "2026-08-05T08:41:43.009+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "english"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "title": "Geopolitika mint az ajánlat része",
+      "url": "https://blog.rawmaterialstrade.com/2026/08/geopolitika-mint-az-ajanlat-resze.html",
+      "published": "2026-08-04T11:03:24.217+02:00",
+      "updated": "2026-08-05T08:42:14.623+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "magyar"
+      ],
+      "languages": [
+        "hu-HU"
+      ]
+    },
+    {
+      "title": "The Same Chemical, Is Not the Same Chemical",
+      "url": "https://blog.rawmaterialstrade.com/2026/07/the-same-chemical-is-not-same-chemical.html",
+      "published": "2026-07-28T13:40:23.659+02:00",
+      "updated": "2026-08-05T08:42:24.105+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "english"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "title": "Ugyanaz a vegyi anyag, nem ugyanaz a vegyi anyag",
+      "url": "https://blog.rawmaterialstrade.com/2026/07/ugyanaz-vegyi-anyag-nem-ugyanaz-vegyi.html",
+      "published": "2026-07-28T13:40:02.413+02:00",
+      "updated": "2026-08-05T08:44:27.424+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "magyar"
+      ],
+      "languages": [
+        "hu-HU"
+      ]
+    },
+    {
+      "title": "Let’s Buy Everything from Wherever It’s Cheapest!",
+      "url": "https://blog.rawmaterialstrade.com/2026/07/lets-buy-everything-from-wherever-its.html",
+      "published": "2026-07-21T18:48:06.919+02:00",
+      "updated": "2026-08-05T08:42:56.722+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "english"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "title": "Vegyünk meg mindent onnan, ahonnan a legolcsóbb?",
+      "url": "https://blog.rawmaterialstrade.com/2026/07/vegyunk-meg-mindent-onnan-ahonnan.html",
+      "published": "2026-07-21T16:47:54.758+02:00",
+      "updated": "2026-08-05T08:43:07.488+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "magyar"
+      ],
+      "languages": [
+        "hu-HU"
+      ]
+    },
+    {
+      "title": "Why Aren't New Chemical Plants Being Built in Europe?",
+      "url": "https://blog.rawmaterialstrade.com/2026/07/why-arent-new-chemical-plants-being.html",
+      "published": "2026-07-13T16:23:00.265+02:00",
+      "updated": "2026-08-05T08:43:16.963+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "english"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "title": "Miért nem Európában épülnek az új vegyipari gyárak?",
+      "url": "https://blog.rawmaterialstrade.com/2026/07/miert-nem-europaban-epulnek-az-uj.html",
+      "published": "2026-07-13T16:22:49.129+02:00",
+      "updated": "2026-08-17T21:24:39.281+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "magyar"
+      ],
+      "languages": [
+        "hu-HU"
+      ]
+    },
+    {
+      "title": "Amikor Európa elvesztette a vegyipart ?– És szinte észre sem vettük.",
+      "url": "https://blog.rawmaterialstrade.com/2026/07/amikor-europa-elvesztette-vegyipart-es.html",
+      "published": "2026-07-08T23:10:26.143+02:00",
+      "updated": "2026-08-05T08:44:35.737+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "magyar"
+      ],
+      "languages": [
+        "hu-HU"
+      ]
+    },
+    {
+      "title": "When Europe Lost Its Chemical Industry – And We Hardly Noticed",
+      "url": "https://blog.rawmaterialstrade.com/2026/07/when-europe-lost-its-chemical-industry.html",
+      "published": "2026-07-08T23:06:45.877+02:00",
+      "updated": "2026-08-05T08:44:04.775+02:00",
+      "author": "Alexandra",
+      "labels": [
+        "english"
+      ],
+      "languages": [
+        "en"
+      ]
+    }
+  ]
+}

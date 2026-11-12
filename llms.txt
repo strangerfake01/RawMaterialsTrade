@@ -49,6 +49,11 @@ Sales representation / distribution partnership: https://www.rawmaterialstrade.c
 - [Nikoletta Kádár — Sales Manager](https://www.rawmaterialstrade.com/#nikoletta-kadar): End-to-end commercial coordination, international procurement and sales, logistics, documentation and customer support.
 - [Professional blog in Hungarian and English](https://blog.rawmaterialstrade.com/): Articles on raw material markets, procurement and long-term business partnerships.
 
+## Editorial knowledge source
+
+- [Blog knowledge index](https://www.rawmaterialstrade.com/data/blog-knowledge-index.json): Machine-readable index of the public Blogger articles, including original URL, title, language label, author and publication/update dates.
+- The blog is an editorial knowledge source. Its articles may provide context and procurement perspective, but they are not SDS, TDS, CoA, laboratory reports, regulatory approvals or supplier-specific commercial evidence. Product identity, grade, availability and compliance must still be checked against the current supplier documentation for the proposed offer.
+
 ## Product catalogue — English
 
 - [Full product catalogue, 126 product families](https://www.rawmaterialstrade.com/en-catalogue.html): Searchable index of the complete B2B raw material portfolio grouped by category.
