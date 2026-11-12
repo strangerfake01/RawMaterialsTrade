@@ -296,7 +296,7 @@
 <button aria-controls="inquiryFormPanel" aria-expanded="false" class="btn btn-primary inquiry-form-toggle" id="inquiryFormToggle" type="button">Anfrageformular öffnen</button>
 <div class="inquiry-form-panel" hidden="" id="inquiryFormPanel">
 <form action="https://muddy-voice-db90.6ymnrwgnv9.workers.dev/api/contact" class="inquiry-form" data-endpoint="cloudflare-worker" data-mailto-msg="Ihr E-Mail-Programm wurde mit einer vorausgefüllten Nachricht geöffnet." data-success-basic-msg="Vielen Dank — Ihre Anfrage wurde gesendet." data-success-msg="Vielen Dank — Ihre Anfrage wurde gesendet. Eine automatische Eingangsbestätigung wurde an die angegebene E-Mail-Adresse gesendet." id="inquiryForm" method="POST">
-<input aria-hidden="true" autocomplete="off" class="is-hidden" name="_honey" tabindex="-1" type="text"/>
+<input aria-hidden="true" autocomplete="off" class="is-hidden" name="_honey" tabindex="-1" type="text"/><input id="requestType" name="request_type" type="hidden" value="buyer"/>
 <div class="form-row">
 <div class="form-group"><label for="name">Name <span class="req">*</span></label><input autocomplete="name" class="form-control" id="name" name="name" required="" type="text"/></div>
 <div class="form-group"><label for="company">Unternehmen <span class="req">*</span></label><input autocomplete="organization" class="form-control" id="company" name="company" required="" type="text"/></div>
