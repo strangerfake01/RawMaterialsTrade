@@ -62,7 +62,7 @@ def section(lang: str) -> str:
             f'<ul>{lis}</ul><p class="microcopy">{t["cta"]}</p></section>')
 
 changed = []
-paths = sorted({p for pattern in PATTERNS for p in ROOT.glob(pattern)})
+paths = sorted(p for p in ROOT.glob('*.html') if 'product-page-rich' in p.read_text(encoding='utf-8'))
 for path in paths:
     html = path.read_text(encoding="utf-8")
     if "product-decision-guide" not in html or 'dateModified":"2026-11-12"' not in html:
