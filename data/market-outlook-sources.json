@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-12",
+  "policy": "Market context is a monitoring signal, not a demand forecast or product-specific availability claim.",
+  "sources": [
+    {
+      "publisher": "Reuters",
+      "title": "Europe's chemical makers catch a break as Iran war hits Asian rivals",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVhiVXEwaEFKdlMwaFdMdVNXSUhQNzVUMHJDY2JVdl9Ta2twSDdON29NYUV0ZjBkRkxweTZJSDY1LU5ra2VxSkF6RXloU2oxWUZuYUQzcFNBMEY1MEVwSXpMSUhFN2p",
+      "themes": [
+        "European chemical production",
+        "geopolitical supply risk"
+      ]
+    },
+    {
+      "publisher": "Chemistry World",
+      "title": "Gulf chemicals supply disruption will continue for months to years",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWnNNYjFDd3ZBMlJMUUJDUGp4aU5FTmdTTVdWdHlLVnpSaXM3a1FfcFhRcEl0WnNKbG9NbVZqY20xZDM3a2tvOW4xQW9mdlZHX0paREtUdUI1UUdFRXRIV1VlTlRGaHl",
+      "themes": [
+        "chemical supply chains",
+        "Gulf logistics"
+      ]
+    },
+    {
+      "publisher": "ICIS",
+      "title": "Five Forecasts for Global Chemical Markets in 2026",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmkzc3dIZm5VMmRRNkFPWVJJaTMzMmVaRzZxVmFXZ2tZbWI0eXVuRjZWYkFuWlFXSXlkUnRMbGtzUE9NSkVsOGdpZUhYQktJMmVZT0xwb3U0MUNyMU1rdEU0UkNwZ09",
+      "themes": [
+        "chemical market outlook"
+      ]
+    },
+    {
+      "publisher": "Bruegel",
+      "title": "Competing for inputs: how the European Union can improve critical raw materials supply security",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMGdPWVNpNDBQVHNlSi05WDlwUzJ3aUpBeVhKRlhPZnRydzZoTzZweTVmQ2JrZmFYazNlelVQaHdPX2ZjRjhqQ0FLRDlvNWNDOExBU3U5SjBQVXdkdjFodERxb0pUZmI",
+      "themes": [
+        "EU supply security",
+        "critical inputs"
+      ]
+    },
+    {
+      "publisher": "McKinsey & Company",
+      "title": "Chemicals 2025: A new reality for the global chemical industry",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTFGd1ZZemNHTG1LMktsUm5IU2dOM3JUYkw0clNSVjNSZlF2LXhwZ2RaRnpaLTNUdm5fVkJiQTRONXp1ejdETFhFRFRVci1Rel9iYVdGSTZBaEZGWDNuWkkxejNZbzQ",
+      "themes": [
+        "chemical industry outlook",
+        "regional competitiveness"
+      ]
+    }
+  ]
+}
