@@ -131,8 +131,6 @@ def faqs_for(lang: str, p: dict, flags: dict, pc: dict | None, wd: dict | None) 
             id_bits.append(f"EC {ec}")
         if formula and "confirm" not in str(formula).lower() and "beszállít" not in str(formula).lower():
             id_bits.append(f"formula {formula}")
-        if pc and pc.get("formula"):
-            id_bits.append(f"PubChem formula check {pc['formula']}")
         faqs.append((
             f"How is the chemical identity of {name} verified?",
             ("Identity is anchored on " + ", ".join(id_bits) + ". " if id_bits else "")
@@ -276,7 +274,7 @@ def checkpoints_html(lang: str, p: dict, flags: dict, pc: dict | None, wd: dict 
         if cas:
             items.append(f"<li><strong>Identity:</strong> confirm CAS {cas}" + (f" / EC {ec}" if re.match(r'\d{3}-\d{3}-\d', str(ec or '')) else "") + " on the selected supplier documents.</li>")
         if formula and "confirm" not in str(formula).lower() and "dokument" not in str(formula).lower():
-            items.append(f"<li><strong>Formula orientation:</strong> {formula}" + (f" (PubChem reports {pc['formula']})" if pc and pc.get('formula') else "") + ". Batch assay remains supplier-document based.</li>")
+            items.append(f"<li><strong>Formula orientation:</strong> {formula}. Batch assay remains supplier-document based.</li>")
         if flags["hydrate"] or flags["anhydrous"]:
             items.append("<li><strong>Form:</strong> hydrate vs anhydrous / solid vs solution must match the process recipe.</li>")
         if flags["multi_conc"]:
@@ -291,7 +289,7 @@ def checkpoints_html(lang: str, p: dict, flags: dict, pc: dict | None, wd: dict 
         if cas:
             items.append(f"<li><strong>Azonosság:</strong> a kiválasztott beszállítói dokumentumokon ellenőrizze a CAS {cas}" + (f" / EK {ec}" if re.match(r'\d{3}-\d{3}-\d', str(ec or '')) else "") + " adatot.</li>")
         if formula and "confirm" not in str(formula).lower() and "beszállít" not in str(formula).lower() and "dokument" not in str(formula).lower():
-            items.append(f"<li><strong>Képlet (orientáció):</strong> {formula}" + (f" (PubChem: {pc['formula']})" if pc and pc.get('formula') else "") + ". A tételes analízis beszállítói dokumentum alapján történik.</li>")
+            items.append(f"<li><strong>Képlet (orientáció):</strong> {formula}. A tételes analízis beszállítói dokumentum alapján történik.</li>")
         if flags["hydrate"] or flags["anhydrous"]:
             items.append("<li><strong>Forma:</strong> hidrát vs vízmentes / szilárd vs oldat egyezzen a receptúrával.</li>")
         if flags["multi_conc"]:
@@ -306,7 +304,7 @@ def checkpoints_html(lang: str, p: dict, flags: dict, pc: dict | None, wd: dict 
         if cas:
             items.append(f"<li><strong>Identität:</strong> CAS {cas}" + (f" / EG {ec}" if re.match(r'\d{3}-\d{3}-\d', str(ec or '')) else "") + " in den gewählten Lieferantendokumenten bestätigen.</li>")
         if formula and "confirm" not in str(formula).lower() and "Basis" not in str(formula) and "dokument" not in str(formula).lower():
-            items.append(f"<li><strong>Formel (Orientierung):</strong> {formula}" + (f" (PubChem: {pc['formula']})" if pc and pc.get('formula') else "") + ". Chargenanalyse bleibt dokumentenbasiert.</li>")
+            items.append(f"<li><strong>Formel (Orientierung):</strong> {formula}. Chargenanalyse bleibt dokumentenbasiert.</li>")
         if flags["hydrate"] or flags["anhydrous"]:
             items.append("<li><strong>Form:</strong> Hydrat vs. wasserfrei / fest vs. Lösung muss zur Rezeptur passen.</li>")
         if flags["multi_conc"]:
