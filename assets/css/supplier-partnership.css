@@ -1,0 +1,28 @@
+/* Supplier partnership landing pages — light editorial system */
+.editorial-dark-page{background:#f5f8fb;color:#10283a}
+.editorial-dark-page main{background:#f5f8fb}
+.editorial-dark-page .ai-profile-hero{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(135deg,#f7fbff 0%,#e9f4fb 52%,#d8edf5 100%);color:#10283a;padding:clamp(7rem,12vw,11rem) 0 5rem}
+.editorial-dark-page .ai-profile-hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 82% 18%,rgba(31,184,220,.22),transparent 36%),linear-gradient(115deg,rgba(255,255,255,.72),transparent 58%);z-index:-1}
+.editorial-dark-page .ai-profile-hero .hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:clamp(2rem,6vw,6rem);align-items:start}
+.editorial-dark-page .ai-profile-hero h1{max-width:760px;margin:0 0 1.4rem;color:#10283a;font-size:clamp(2.7rem,5vw,5.4rem);line-height:.98;letter-spacing:-.045em}
+.editorial-dark-page .ai-profile-hero h1 span{display:block;color:#008fb7}
+.editorial-dark-page .ai-profile-hero .lead{max-width:680px;color:#365365;font-size:clamp(1.05rem,1.4vw,1.28rem);line-height:1.7}
+.editorial-dark-page .ai-profile-hero .eyebrow,.editorial-dark-page .section-label{color:#007f9f;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.editorial-dark-page .ai-profile-hero .btn-row{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
+.editorial-dark-page .ai-profile-hero .btn-outline{border-color:#008fb7;color:#006b89;background:rgba(255,255,255,.72)}
+.editorial-dark-page .ai-profile-hero .btn-outline:hover{background:#008fb7;color:#fff}
+.editorial-dark-page .ai-profile-hero .panel{align-self:stretch;margin:0;padding:clamp(1.5rem,3vw,2.5rem);background:rgba(255,255,255,.9);border:1px solid rgba(0,127,159,.18);border-radius:1.25rem;box-shadow:0 18px 50px rgba(16,40,58,.12)}
+.editorial-dark-page .ai-profile-hero .panel h2{margin-top:0;color:#10283a;font-size:clamp(1.5rem,2.3vw,2.2rem);line-height:1.1}
+.editorial-dark-page .compliance-list{margin:1.5rem 0 0;padding:0;list-style:none}
+.editorial-dark-page .compliance-list li{padding:1rem 0;border-top:1px solid rgba(16,40,58,.12);color:#365365;line-height:1.5}
+.editorial-dark-page .compliance-list li:last-child{border-bottom:1px solid rgba(16,40,58,.12)}
+.editorial-dark-page .bg-light{background:#fff;color:#10283a}
+.editorial-dark-page .bg-light .lead,.editorial-dark-page .service-card p,.editorial-dark-page .strategic-section .lead{color:#496273}
+.editorial-dark-page .service-card,.editorial-dark-page .partnership-cards>div,.editorial-dark-page .exporttag-card{background:#fff;border:1px solid #dbe8ee;border-radius:1rem;box-shadow:0 10px 30px rgba(16,40,58,.06)}
+.editorial-dark-page .strategic-section{background:#eef6f9;color:#10283a}
+.editorial-dark-page .dach-section{background:#0e3043;color:#fff}
+.editorial-dark-page .dach-section .lead,.editorial-dark-page .dach-section p{color:#d6e6ec}
+.editorial-dark-page .exporttag-card{color:#10283a}
+.editorial-dark-page .exporttag-card p{color:#496273}
+@media (max-width:900px){.editorial-dark-page .ai-profile-hero{padding-top:6.5rem}.editorial-dark-page .ai-profile-hero .hero-grid{grid-template-columns:1fr}.editorial-dark-page .ai-profile-hero h1{font-size:clamp(2.5rem,10vw,4rem)}}
+@media (max-width:600px){.editorial-dark-page .ai-profile-hero{padding:6rem 0 3rem}.editorial-dark-page .ai-profile-hero .btn-row{display:grid}.editorial-dark-page .ai-profile-hero .btn{width:100%;text-align:center}.editorial-dark-page .ai-profile-hero .panel{padding:1.25rem}.editorial-dark-page .compliance-list li{padding:.85rem 0}}
