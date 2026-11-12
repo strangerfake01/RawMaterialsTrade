@@ -6,9 +6,9 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = {
-    "index.html": ("en", ["Define the material", "Set purchasing conditions", "Check sourcing and documentation", "Agree the quotation", "Confirm and fulfil"], ["CAS", "MOQ", "SDS", "TDS", "CoA", "FCA", "DAP", "DDP"]),
-    "hu.html": ("hu-HU", ["Az anyag meghatározása", "Beszerzési feltételek", "Beszállítói és dokumentációs ellenőrzés", "Írásos ajánlat", "Megrendelés és teljesítés"], ["CAS", "SDS", "TDS", "CoA", "FCA", "DAP", "DDP"]),
-    "de-at.html": ("de-AT", ["Material definieren", "Einkaufsbedingungen festlegen", "Lieferant und Unterlagen prüfen", "Schriftliches Angebot abstimmen", "Auftrag und Abwicklung"], ["CAS", "SDS", "TDS", "CoA", "FCA", "DAP", "DDP"]),
+    "index.html": ("en", ["Enquiry", "Offer", "Documentation", "Order", "Delivery"], ["CAS", "MOQ", "SDS", "TDS", "CoA", "FCA", "DAP", "DDP"]),
+    "hu.html": ("hu-HU", ["Érdeklődés", "Ajánlat", "Dokumentáció", "Megrendelés", "Szállítás"], ["CAS", "MOQ", "SDS", "TDS", "CoA", "FCA", "DAP", "DDP"]),
+    "de-at.html": ("de-AT", ["Anfrage", "Angebot", "Dokumentation", "Auftrag", "Lieferung"], ["CAS", "MOQ", "SDS", "TDS", "CoA", "FCA", "DAP", "DDP"]),
 }
 
 class JourneyParser(HTMLParser):
