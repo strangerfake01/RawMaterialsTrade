@@ -21,9 +21,11 @@ sitemap = ET.parse(ROOT / "sitemap.xml").getroot()
 entries = sitemap.findall("s:url", NS)
 locations = []
 alternates = {}
+lastmods = {}
 for entry in entries:
     loc = entry.findtext("s:loc", default="", namespaces=NS)
     locations.append(loc)
+    lastmods[loc] = entry.findtext("s:lastmod", default="", namespaces=NS)
     alts = {}
     for link in entry.findall("x:link", NS):
         lang = link.attrib.get("hreflang", "")
@@ -57,6 +59,7 @@ for loc in locations:
         errors.append(f"Missing local page: {loc} => {candidate.relative_to(ROOT)}")
         continue
     source = candidate.read_text(encoding="utf-8")
+    lastmod = lastmods.get(loc, "")
     canonical_tags = re.findall(r'<link\b[^>]*>', source, re.I)
     canonicals = []
     for tag in canonical_tags:
@@ -69,11 +72,32 @@ for loc in locations:
     if len(re.findall(r'<h1[ >]', source, re.I)) != 1:
         errors.append(f"H1 count mismatch: {loc}")
     scripts = re.findall(r'<script\b[^>]*type=["\x27]application/ld\+json["\x27][^>]*>(.*?)</script>', source, re.I | re.S)
+    page_dates = set()
     for i, payload in enumerate(scripts):
         try:
-            json.loads(payload)
+            data = json.loads(payload)
         except json.JSONDecodeError as exc:
             errors.append(f"Invalid JSON-LD: {loc} block {i}: {exc}")
+            continue
+
+        def collect_page_dates(value):
+            if isinstance(value, dict):
+                types = value.get("@type") or []
+                if isinstance(types, str):
+                    types = [types]
+                if set(types) & {"WebPage", "CollectionPage", "TechArticle"} and value.get("dateModified"):
+                    page_dates.add(value["dateModified"])
+                for child in value.values():
+                    collect_page_dates(child)
+            elif isinstance(value, list):
+                for child in value:
+                    collect_page_dates(child)
+
+        collect_page_dates(data)
+    if len(page_dates) != 1:
+        errors.append(f"Expected one primary-page dateModified value: {loc}: {sorted(page_dates)}")
+    elif lastmod != next(iter(page_dates)):
+        errors.append(f"Sitemap lastmod/page dateModified mismatch: {loc}: {lastmod} != {next(iter(page_dates))}")
     if not scripts:
         warnings.append(f"No JSON-LD: {loc}")
 # Static inquiry-form contract: no external requests or test submissions.
