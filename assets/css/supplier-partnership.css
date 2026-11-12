@@ -26,3 +26,11 @@
 .editorial-dark-page .exporttag-card p{color:#496273}
 @media (max-width:900px){.editorial-dark-page .ai-profile-hero{padding-top:6.5rem}.editorial-dark-page .ai-profile-hero .hero-grid{grid-template-columns:1fr}.editorial-dark-page .ai-profile-hero h1{font-size:clamp(2.5rem,10vw,4rem)}}
 @media (max-width:600px){.editorial-dark-page .ai-profile-hero{padding:6rem 0 3rem}.editorial-dark-page .ai-profile-hero .btn-row{display:grid}.editorial-dark-page .ai-profile-hero .btn{width:100%;text-align:center}.editorial-dark-page .ai-profile-hero .panel{padding:1.25rem}.editorial-dark-page .compliance-list li{padding:.85rem 0}}
+
+/* Intake checklist layout correction */
+.editorial-dark-page .manufacturer-intake-checklist{max-width:1200px;margin:0 auto;padding:clamp(3.5rem,7vw,6rem) clamp(1.25rem,4vw,2.5rem);background:#f5f8fb;color:#10283a}
+.editorial-dark-page .manufacturer-intake-checklist h2{max-width:900px;margin:0 0 1.5rem;color:#10283a;font-size:clamp(1.8rem,3.4vw,3rem);line-height:1.1;letter-spacing:-.025em}
+.editorial-dark-page .manufacturer-intake-checklist ol{max-width:1000px;margin:0;padding-left:1.5rem;color:#365365}
+.editorial-dark-page .manufacturer-intake-checklist li{padding:.45rem 0;line-height:1.55}
+.editorial-dark-page .manufacturer-intake-checklist .microcopy{max-width:900px;margin:1.5rem 0 0;color:#587080;font-size:.95rem;line-height:1.6}
+@media (max-width:600px){.editorial-dark-page .manufacturer-intake-checklist{padding:3rem 1.25rem}.editorial-dark-page .manufacturer-intake-checklist h2{font-size:clamp(1.7rem,8vw,2.3rem)}}
