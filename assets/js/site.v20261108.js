@@ -391,13 +391,16 @@ function initQueryPrefill(){
   const params=new URLSearchParams(window.location.search);
   const p=params.get('product')||'';
   const d=params.get('docs')||'';
-  if(!p&&!d)return;
+  const type=params.get('type')||'';
+  if(!p&&!d&&!type)return;
   const product=document.getElementById('product');
   const docs=document.getElementById('docs');
   const msg=document.getElementById('message');
   const lang=getLang();
   if(product&&p) product.value=p;
   if(docs&&d) setDocsValue(docs,d);
+  const requestType=document.getElementById('requestType');
+  if(requestType&&type==='supplier') requestType.value='supplier_partnership';
   if(msg&&p&&!msg.value) msg.value=buildPrefillMessage(lang,p,d);
 }
 
