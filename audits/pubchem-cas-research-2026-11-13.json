@@ -1,0 +1,906 @@
+[
+  {
+    "id": "aceton-technikai-regeneralt-industrial",
+    "cas": "67-64-1",
+    "formula": "C3H6O",
+    "molecular_weight": "58.08",
+    "cid": 180,
+    "status": "source-reported"
+  },
+  {
+    "id": "aluminium-szulfat-03-mm-38-mm-industrial",
+    "cas": "10043-01-3",
+    "formula": "Al2O12S3",
+    "molecular_weight": "342.2",
+    "cid": 24850,
+    "status": "source-reported"
+  },
+  {
+    "id": "aluminium-szulfat-oldat-industrial",
+    "cas": "10043-01-3",
+    "formula": "Al2O12S3",
+    "molecular_weight": "342.2",
+    "cid": 24850,
+    "status": "source-reported"
+  },
+  {
+    "id": "ammonia-oldat-24-industrial",
+    "cas": "1336-21-6",
+    "formula": "H5NO",
+    "molecular_weight": "35.046",
+    "cid": 14923,
+    "status": "source-reported"
+  },
+  {
+    "id": "ammonium-klorid-industrial",
+    "cas": "12125-02-9",
+    "formula": "ClH4N",
+    "molecular_weight": "53.49",
+    "cid": 25517,
+    "status": "source-reported"
+  },
+  {
+    "id": "ammonium-nitrat-industrial",
+    "cas": "6484-52-2",
+    "formula": "H4N2O3",
+    "molecular_weight": "80.044",
+    "cid": 22985,
+    "status": "source-reported"
+  },
+  {
+    "id": "ammonium-szulfat-industrial",
+    "cas": "7783-20-2",
+    "formula": "H8N2O4S",
+    "molecular_weight": "132.14",
+    "cid": 6097028,
+    "status": "source-reported"
+  },
+  {
+    "id": "aszkorbinsav-food",
+    "cas": "50-81-7",
+    "formula": "C6H8O6",
+    "molecular_weight": "176.12",
+    "cid": 54670067,
+    "status": "source-reported"
+  },
+  {
+    "id": "bentonit-industrial",
+    "cas": "1302-78-9",
+    "formula": null,
+    "molecular_weight": null,
+    "cid": null,
+    "status": "not_found"
+  },
+  {
+    "id": "borax-dekahidrat-industrial",
+    "cas": "1303-96-4",
+    "formula": "B4H20Na2O17",
+    "molecular_weight": "381.4",
+    "cid": 16211214,
+    "status": "source-reported"
+  },
+  {
+    "id": "borax-pentahidrat-industrial",
+    "cas": "12179-04-3",
+    "formula": "B4H10Na2O12",
+    "molecular_weight": "291.3",
+    "cid": 86341921,
+    "status": "source-reported"
+  },
+  {
+    "id": "borken-food",
+    "cas": "16731-55-8",
+    "formula": "K2O5S2",
+    "molecular_weight": "222.33",
+    "cid": 28019,
+    "status": "source-reported"
+  },
+  {
+    "id": "borkosav-l-food",
+    "cas": "87-69-4",
+    "formula": "C4H6O6",
+    "molecular_weight": "150.09",
+    "cid": 444305,
+    "status": "source-reported"
+  },
+  {
+    "id": "borsav-industrial",
+    "cas": "10043-35-3",
+    "formula": "BH3O3",
+    "molecular_weight": "61.84",
+    "cid": 7628,
+    "status": "source-reported"
+  },
+  {
+    "id": "butanol-industrial",
+    "cas": "71-36-3",
+    "formula": "C4H10O",
+    "molecular_weight": "74.12",
+    "cid": 263,
+    "status": "source-reported"
+  },
+  {
+    "id": "butil-diglikol-industrial",
+    "cas": "112-34-5",
+    "formula": "C8H18O3",
+    "molecular_weight": "162.23",
+    "cid": 8177,
+    "status": "source-reported"
+  },
+  {
+    "id": "butil-glikol-industrial",
+    "cas": "111-76-2",
+    "formula": "C6H14O2",
+    "molecular_weight": "118.17",
+    "cid": 8133,
+    "status": "source-reported"
+  },
+  {
+    "id": "ciklohexanon-industrial",
+    "cas": "108-94-1",
+    "formula": "C6H10O",
+    "molecular_weight": "98.14",
+    "cid": 7967,
+    "status": "source-reported"
+  },
+  {
+    "id": "cink-klorid-feed",
+    "cas": "7646-85-7",
+    "formula": "Cl2Zn",
+    "molecular_weight": "136.3",
+    "cid": 5727,
+    "status": "source-reported"
+  },
+  {
+    "id": "cink-klorid-vizmentes-industrial",
+    "cas": "7646-85-7",
+    "formula": "Cl2Zn",
+    "molecular_weight": "136.3",
+    "cid": 5727,
+    "status": "source-reported"
+  },
+  {
+    "id": "cink-oxid-industrial",
+    "cas": "1314-13-2",
+    "formula": "OZn",
+    "molecular_weight": "81.4",
+    "cid": 3007857,
+    "status": "source-reported"
+  },
+  {
+    "id": "diammonium-hidrogenfoszfat-industrial",
+    "cas": "7783-28-0",
+    "formula": "H9N2O4P",
+    "molecular_weight": "132.06",
+    "cid": 24540,
+    "status": "source-reported"
+  },
+  {
+    "id": "dietilen-glikol-industrial",
+    "cas": "111-46-6",
+    "formula": "C4H10O3",
+    "molecular_weight": "106.12",
+    "cid": 8117,
+    "status": "source-reported"
+  },
+  {
+    "id": "dikalium-hidrogen-foszfat-food",
+    "cas": "7758-11-4",
+    "formula": "HK2O4P",
+    "molecular_weight": "174.176",
+    "cid": 24450,
+    "status": "source-reported"
+  },
+  {
+    "id": "dinatrium-pirofoszfat-food",
+    "cas": "7758-16-9",
+    "formula": "H2Na2O7P2",
+    "molecular_weight": "221.94",
+    "cid": 24451,
+    "status": "source-reported"
+  },
+  {
+    "id": "dinatriumfoszfat-industrial",
+    "cas": "7558-79-4",
+    "formula": "HNa2O4P",
+    "molecular_weight": "141.959",
+    "cid": 24203,
+    "status": "source-reported"
+  },
+  {
+    "id": "dinatriumpirofoszfat-industrial",
+    "cas": "7758-16-9",
+    "formula": "H2Na2O7P2",
+    "molecular_weight": "221.94",
+    "cid": 24451,
+    "status": "source-reported"
+  },
+  {
+    "id": "ecetsav-20-50-60-70-80-99-8-industrial",
+    "cas": "64-19-7",
+    "formula": "C2H4O2",
+    "molecular_weight": "60.05",
+    "cid": 176,
+    "status": "source-reported"
+  },
+  {
+    "id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
+    "cas": "64-19-7",
+    "formula": "C2H4O2",
+    "molecular_weight": "60.05",
+    "cid": 176,
+    "status": "source-reported"
+  },
+  {
+    "id": "ecetsavanhidrid-industrial",
+    "cas": "108-24-7",
+    "formula": "C4H6O3",
+    "molecular_weight": "102.09",
+    "cid": 7918,
+    "status": "source-reported"
+  },
+  {
+    "id": "etil-acetat-technikai-regeneralt-industrial",
+    "cas": "141-78-6",
+    "formula": "C4H8O2",
+    "molecular_weight": "88.11",
+    "cid": 8857,
+    "status": "source-reported"
+  },
+  {
+    "id": "etkezesi-so-food",
+    "cas": "7647-14-5",
+    "formula": "ClNa",
+    "molecular_weight": "58.44",
+    "cid": 5234,
+    "status": "source-reported"
+  },
+  {
+    "id": "foszforsav-75-industrial",
+    "cas": "7664-38-2",
+    "formula": "H3O4P",
+    "molecular_weight": "97.995",
+    "cid": 1004,
+    "status": "source-reported"
+  },
+  {
+    "id": "foszforsav-75-85-food",
+    "cas": "7664-38-2",
+    "formula": "H3O4P",
+    "molecular_weight": "97.995",
+    "cid": 1004,
+    "status": "source-reported"
+  },
+  {
+    "id": "glicerin-industrial",
+    "cas": "56-81-5",
+    "formula": "C3H8O3",
+    "molecular_weight": "92.09",
+    "cid": 753,
+    "status": "source-reported"
+  },
+  {
+    "id": "glicerin-99-5-food",
+    "cas": "56-81-5",
+    "formula": "C3H8O3",
+    "molecular_weight": "92.09",
+    "cid": 753,
+    "status": "source-reported"
+  },
+  {
+    "id": "glicin-industrial",
+    "cas": "56-40-6",
+    "formula": "C2H5NO2",
+    "molecular_weight": "75.07",
+    "cid": 750,
+    "status": "source-reported"
+  },
+  {
+    "id": "hangyasav-85-industrial",
+    "cas": "64-18-6",
+    "formula": "CH2O2",
+    "molecular_weight": "46.025",
+    "cid": 284,
+    "status": "source-reported"
+  },
+  {
+    "id": "hidrogen-peroxid-35-50-60-industrial",
+    "cas": "7722-84-1",
+    "formula": "H2O2",
+    "molecular_weight": "34.015",
+    "cid": 784,
+    "status": "source-reported"
+  },
+  {
+    "id": "ioncserelt-viz-industrial",
+    "cas": "7732-18-5",
+    "formula": "H2O",
+    "molecular_weight": "18.015",
+    "cid": 962,
+    "status": "source-reported"
+  },
+  {
+    "id": "izopropil-alkohol-technikai-regeneralt-industrial",
+    "cas": "67-63-0",
+    "formula": "C3H8O",
+    "molecular_weight": "60.10",
+    "cid": 3776,
+    "status": "source-reported"
+  },
+  {
+    "id": "kalcium-jodat-feed",
+    "cas": "7789-80-2",
+    "formula": "CaI2O6",
+    "molecular_weight": "389.88",
+    "cid": 24619,
+    "status": "source-reported"
+  },
+  {
+    "id": "kalcium-karbonat-food",
+    "cas": "471-34-1",
+    "formula": "CCaO3",
+    "molecular_weight": "100.09",
+    "cid": 10112,
+    "status": "source-reported"
+  },
+  {
+    "id": "kalium-ferrocianid-food",
+    "cas": "13943-58-3",
+    "formula": "C6FeK4N6",
+    "molecular_weight": "368.34",
+    "cid": 9605257,
+    "status": "source-reported"
+  },
+  {
+    "id": "kalium-hidroxid-oldat-21-45-4850-industrial",
+    "cas": "1310-58-3",
+    "formula": "HKO",
+    "molecular_weight": "56.106",
+    "cid": 14797,
+    "status": "source-reported"
+  },
+  {
+    "id": "kalium-hidroxid-pikkelyes-industrial",
+    "cas": "1310-58-3",
+    "formula": "HKO",
+    "molecular_weight": "56.106",
+    "cid": 14797,
+    "status": "source-reported"
+  },
+  {
+    "id": "kalium-jodat-feed",
+    "cas": "7758-05-6",
+    "formula": "IKO3",
+    "molecular_weight": "214.001",
+    "cid": 23665710,
+    "status": "source-reported"
+  },
+  {
+    "id": "kalium-jodid-feed",
+    "cas": "7681-11-0",
+    "formula": "IK",
+    "molecular_weight": "166.0028",
+    "cid": 4875,
+    "status": "source-reported"
+  },
+  {
+    "id": "kalium-karbonat-industrial",
+    "cas": "584-08-7",
+    "formula": "CK2O3",
+    "molecular_weight": "138.205",
+    "cid": 11430,
+    "status": "source-reported"
+  },
+  {
+    "id": "karbamid-ipari-kezeletlen-industrial",
+    "cas": "57-13-6",
+    "formula": "CH4N2O",
+    "molecular_weight": "60.056",
+    "cid": 1176,
+    "status": "source-reported"
+  },
+  {
+    "id": "kenpor-industrial",
+    "cas": "7704-34-9",
+    "formula": "S",
+    "molecular_weight": "32.07",
+    "cid": 5362487,
+    "status": "source-reported"
+  },
+  {
+    "id": "kensav-32-37-50-9597-industrial",
+    "cas": "7664-93-9",
+    "formula": "H2O4S",
+    "molecular_weight": "98.08",
+    "cid": 1118,
+    "status": "source-reported"
+  },
+  {
+    "id": "klormesz-industrial",
+    "cas": "7778-54-3",
+    "formula": "CaCl2O2",
+    "molecular_weight": "142.98",
+    "cid": 24504,
+    "status": "source-reported"
+  },
+  {
+    "id": "kobalt-karbonat-feed",
+    "cas": "513-79-1",
+    "formula": "CCoO3",
+    "molecular_weight": "118.942",
+    "cid": 10565,
+    "status": "source-reported"
+  },
+  {
+    "id": "magnezium-karbonat-konnyu-nehez-industrial",
+    "cas": "546-93-0",
+    "formula": "CMgO3",
+    "molecular_weight": "84.31",
+    "cid": 11029,
+    "status": "source-reported"
+  },
+  {
+    "id": "magnezium-klorid-food",
+    "cas": "7791-18-6",
+    "formula": "Cl2H12MgO6",
+    "molecular_weight": "203.30",
+    "cid": 24644,
+    "status": "source-reported"
+  },
+  {
+    "id": "magnezium-klorid-hexahidrat-industrial",
+    "cas": "7791-18-6",
+    "formula": "Cl2H12MgO6",
+    "molecular_weight": "203.30",
+    "cid": 24644,
+    "status": "source-reported"
+  },
+  {
+    "id": "magnezium-nitrat-industrial",
+    "cas": "10377-60-3",
+    "formula": "MgN2O6",
+    "molecular_weight": "148.32",
+    "cid": 25212,
+    "status": "source-reported"
+  },
+  {
+    "id": "magnezium-oxid-feed",
+    "cas": "1309-48-4",
+    "formula": "MgO",
+    "molecular_weight": "40.305",
+    "cid": 14792,
+    "status": "source-reported"
+  },
+  {
+    "id": "magnezium-oxid-nehez-industrial",
+    "cas": "1309-48-4",
+    "formula": "MgO",
+    "molecular_weight": "40.305",
+    "cid": 14792,
+    "status": "source-reported"
+  },
+  {
+    "id": "magnezium-szulfat-industrial",
+    "cas": "7487-88-9",
+    "formula": "MgO4S",
+    "molecular_weight": "120.37",
+    "cid": 24083,
+    "status": "source-reported"
+  },
+  {
+    "id": "maleinsav-industrial",
+    "cas": "110-16-7",
+    "formula": "C4H4O4",
+    "molecular_weight": "116.07",
+    "cid": 444266,
+    "status": "source-reported"
+  },
+  {
+    "id": "mangan-ii-szulfat-monohidrat-industrial",
+    "cas": "10034-96-5",
+    "formula": "H2MnO5S",
+    "molecular_weight": "169.02",
+    "cid": 177577,
+    "status": "source-reported"
+  },
+  {
+    "id": "mangan-karbonat-industrial",
+    "cas": "598-62-9",
+    "formula": "CMnO3",
+    "molecular_weight": "114.947",
+    "cid": 11726,
+    "status": "source-reported"
+  },
+  {
+    "id": "mangan-oxid-feed",
+    "cas": "1344-43-0",
+    "formula": "MnO",
+    "molecular_weight": "70.937",
+    "cid": 14940,
+    "status": "source-reported"
+  },
+  {
+    "id": "mangan-szulfat-monohidrat-feed",
+    "cas": "10034-96-5",
+    "formula": "H2MnO5S",
+    "molecular_weight": "169.02",
+    "cid": 177577,
+    "status": "source-reported"
+  },
+  {
+    "id": "meszhidrat-industrial",
+    "cas": "1305-62-0",
+    "formula": "CaH2O2",
+    "molecular_weight": "74.09",
+    "cid": 6093208,
+    "status": "source-reported"
+  },
+  {
+    "id": "meszhidrat-15-industrial",
+    "cas": "1305-62-0",
+    "formula": "CaH2O2",
+    "molecular_weight": "74.09",
+    "cid": 6093208,
+    "status": "source-reported"
+  },
+  {
+    "id": "metanol-technikai-regeneralt-industrial",
+    "cas": "67-56-1",
+    "formula": "CH4O",
+    "molecular_weight": "32.042",
+    "cid": 887,
+    "status": "source-reported"
+  },
+  {
+    "id": "monoammonium-foszfat-industrial",
+    "cas": "7722-76-1",
+    "formula": "H6NO4P",
+    "molecular_weight": "115.03",
+    "cid": 24402,
+    "status": "source-reported"
+  },
+  {
+    "id": "monoetanolamin-industrial",
+    "cas": "141-43-5",
+    "formula": "C2H7NO",
+    "molecular_weight": "61.08",
+    "cid": 700,
+    "status": "source-reported"
+  },
+  {
+    "id": "monoetilen-glikol-industrial",
+    "cas": "107-21-1",
+    "formula": "C2H6O2",
+    "molecular_weight": "62.07",
+    "cid": 174,
+    "status": "source-reported"
+  },
+  {
+    "id": "monokalium-foszfat-industrial",
+    "cas": "7778-77-0",
+    "formula": "H2KO4P",
+    "molecular_weight": "136.086",
+    "cid": 516951,
+    "status": "source-reported"
+  },
+  {
+    "id": "mononatrium-foszfat-industrial",
+    "cas": "7558-80-7",
+    "formula": "H2NaO4P",
+    "molecular_weight": "119.977",
+    "cid": 23672064,
+    "status": "source-reported"
+  },
+  {
+    "id": "monopropilenglikol-industrial",
+    "cas": "57-55-6",
+    "formula": "C3H8O2",
+    "molecular_weight": "76.09",
+    "cid": 1030,
+    "status": "source-reported"
+  },
+  {
+    "id": "na-hexametafoszfat-industrial",
+    "cas": "10124-56-8",
+    "formula": "Na6O18P6",
+    "molecular_weight": "611.77",
+    "cid": 24968,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-benzoat-gran-food",
+    "cas": "532-32-1",
+    "formula": "C7H5NaO2",
+    "molecular_weight": "144.10",
+    "cid": 517055,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-hidrogen-karbonat-industrial",
+    "cas": "144-55-8",
+    "formula": "CHNaO3",
+    "molecular_weight": "84.007",
+    "cid": 516892,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-hidrogen-karbonat-szodabikarbona-food",
+    "cas": "144-55-8",
+    "formula": "CHNaO3",
+    "molecular_weight": "84.007",
+    "cid": 516892,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
+    "cas": "1310-73-2",
+    "formula": "HNaO",
+    "molecular_weight": "39.997",
+    "cid": 14798,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-hidroxid-oldat-4850-industrial",
+    "cas": "1310-73-2",
+    "formula": "HNaO",
+    "molecular_weight": "39.997",
+    "cid": 14798,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
+    "cas": "7681-52-9",
+    "formula": "ClNaO",
+    "molecular_weight": "74.44",
+    "cid": 23665760,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-karbonat-konnyu-industrial",
+    "cas": "497-19-8",
+    "formula": "CNa2O3",
+    "molecular_weight": "105.988",
+    "cid": 10340,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-karbonat-nehez-industrial",
+    "cas": "497-19-8",
+    "formula": "CNa2O3",
+    "molecular_weight": "105.988",
+    "cid": 10340,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
+    "cas": "7681-57-4",
+    "formula": "Na2O5S2",
+    "molecular_weight": "190.11",
+    "cid": 656671,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-metaszilikat-industrial",
+    "cas": "6834-92-0",
+    "formula": "Na2O3Si",
+    "molecular_weight": "122.063",
+    "cid": 23266,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-molibdat-feed",
+    "cas": "7631-95-0",
+    "formula": "MoNa2O4",
+    "molecular_weight": "205.93",
+    "cid": 61424,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-perkarbonat-industrial",
+    "cas": "15630-89-4",
+    "formula": "C2H6Na4O12",
+    "molecular_weight": "314.02",
+    "cid": 159762,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-permanganat-40-oldat-industrial",
+    "cas": "10101-50-5",
+    "formula": "MnNaO4",
+    "molecular_weight": "141.925",
+    "cid": 23673458,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-perszulfat-industrial",
+    "cas": "7775-27-1",
+    "formula": "Na2O8S2",
+    "molecular_weight": "238.11",
+    "cid": 62655,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-szelenit-feed",
+    "cas": "10102-18-8",
+    "formula": "Na2O3Se",
+    "molecular_weight": "172.95",
+    "cid": 24934,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-szulfat-industrial",
+    "cas": "7757-82-6",
+    "formula": "Na2O4S",
+    "molecular_weight": "142.04",
+    "cid": 24436,
+    "status": "source-reported"
+  },
+  {
+    "id": "natrium-tripolifoszfat-industrial",
+    "cas": "7758-29-4",
+    "formula": "Na5O10P3",
+    "molecular_weight": "367.86",
+    "cid": 24455,
+    "status": "source-reported"
+  },
+  {
+    "id": "natronvizuveg-oldatok-industrial",
+    "cas": "1344-09-8",
+    "formula": "Na2O3Si",
+    "molecular_weight": "122.063",
+    "cid": 23266,
+    "status": "source-reported"
+  },
+  {
+    "id": "propionsav-99-feed",
+    "cas": "79-09-4",
+    "formula": "C3H6O2",
+    "molecular_weight": "74.08",
+    "cid": 1032,
+    "status": "source-reported"
+  },
+  {
+    "id": "rez-klorid-dihidrat-industrial",
+    "cas": "10125-13-0",
+    "formula": "Cl2CuH2O",
+    "molecular_weight": "152.46",
+    "cid": 16219111,
+    "status": "source-reported"
+  },
+  {
+    "id": "rez-szulfat-feed",
+    "cas": "7758-99-8",
+    "formula": "CuH10O9S",
+    "molecular_weight": "249.69",
+    "cid": 24463,
+    "status": "source-reported"
+  },
+  {
+    "id": "rez-szulfat-pentahidrat-industrial",
+    "cas": "7758-99-8",
+    "formula": "CuH10O9S",
+    "molecular_weight": "249.69",
+    "cid": 24463,
+    "status": "source-reported"
+  },
+  {
+    "id": "saletromsav-20-50-53-60-industrial",
+    "cas": "7697-37-2",
+    "formula": "HNO3",
+    "molecular_weight": "63.013",
+    "cid": 944,
+    "status": "source-reported"
+  },
+  {
+    "id": "sosav-gyogyszerkonyvi-food",
+    "cas": "7647-01-0",
+    "formula": "ClH",
+    "molecular_weight": "36.46",
+    "cid": 313,
+    "status": "source-reported"
+  },
+  {
+    "id": "sosav-technikai-regeneralt-industrial",
+    "cas": "7647-01-0",
+    "formula": "ClH",
+    "molecular_weight": "36.46",
+    "cid": 313,
+    "status": "source-reported"
+  },
+  {
+    "id": "sotabletta-industrial",
+    "cas": "7647-14-5",
+    "formula": "ClNa",
+    "molecular_weight": "58.44",
+    "cid": 5234,
+    "status": "source-reported"
+  },
+  {
+    "id": "tiokarbamid-industrial",
+    "cas": "62-56-6",
+    "formula": "CH4N2S",
+    "molecular_weight": "76.12",
+    "cid": 2723790,
+    "status": "source-reported"
+  },
+  {
+    "id": "trietilen-glikol-industrial",
+    "cas": "112-27-6",
+    "formula": "C6H14O4",
+    "molecular_weight": "150.17",
+    "cid": 8172,
+    "status": "source-reported"
+  },
+  {
+    "id": "trinatrium-citrat-industrial",
+    "cas": "68-04-2",
+    "formula": "C6H5Na3O7",
+    "molecular_weight": "258.07",
+    "cid": 6224,
+    "status": "source-reported"
+  },
+  {
+    "id": "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
+    "cas": "7601-54-9",
+    "formula": "Na3O4P",
+    "molecular_weight": "163.941",
+    "cid": 24243,
+    "status": "source-reported"
+  },
+  {
+    "id": "utszoro-so-deicing",
+    "cas": "7647-14-5",
+    "formula": "ClNa",
+    "molecular_weight": "58.44",
+    "cid": 5234,
+    "status": "source-reported"
+  },
+  {
+    "id": "utszoro-zeolit-deicing",
+    "cas": "1318-02-1",
+    "formula": null,
+    "molecular_weight": null,
+    "cid": null,
+    "status": "not_found"
+  },
+  {
+    "id": "vakuum-so-industrial",
+    "cas": "7647-14-5",
+    "formula": "ClNa",
+    "molecular_weight": "58.44",
+    "cid": 5234,
+    "status": "source-reported"
+  },
+  {
+    "id": "vas-ii-szulfat-monohidrat-feed",
+    "cas": "7720-78-7",
+    "formula": "FeO4S",
+    "molecular_weight": "151.91",
+    "cid": 24393,
+    "status": "source-reported"
+  },
+  {
+    "id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
+    "cas": "7720-78-7",
+    "formula": "FeO4S",
+    "molecular_weight": "151.91",
+    "cid": 24393,
+    "status": "source-reported"
+  },
+  {
+    "id": "vas-iii-klorid-40-oldat-industrial",
+    "cas": "7705-08-0",
+    "formula": "Cl3Fe",
+    "molecular_weight": "162.20",
+    "cid": 24380,
+    "status": "source-reported"
+  },
+  {
+    "id": "vas-iii-szulfat-40-oldat-industrial",
+    "cas": "10028-22-5",
+    "formula": "Fe2O12S3",
+    "molecular_weight": "399.9",
+    "cid": 24826,
+    "status": "source-reported"
+  }
+]
