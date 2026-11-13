@@ -418,3 +418,8 @@ footer[role="contentinfo"] a:focus-visible,
 .product-doc-status .product-dl dt{color:#334155}
 .product-doc-status .product-dl dd{color:#0f172a}
 
+
+/* Global restrained heading scale — applies consistently across all page families. */
+body h1{font-size:clamp(2.2rem,4.4vw,4.4rem)!important;line-height:1.04}
+body h2{font-size:clamp(1.6rem,2.8vw,2.8rem)!important;line-height:1.12}
+@media(max-width:600px){body h1{font-size:clamp(1.9rem,8.5vw,3rem)!important}body h2{font-size:clamp(1.45rem,7vw,2.25rem)!important}}
