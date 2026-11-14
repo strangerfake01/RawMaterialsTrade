@@ -1,8 +1,8 @@
 {
   "repository": "strangerfake01/RawMaterialsTrade",
   "branch": "main",
-  "commit": "3a93330e02103cd8e2d8a570a43bb3d63c17427d",
-  "built_at": "2026-11-13T08:15:49Z",
+  "commit": "75519e86f1082a1bfb54c76539456f4bc6b74d61",
+  "built_at": "2026-11-13T20:43:35Z",
   "domain": "https://www.rawmaterialstrade.com/",
   "purpose": "Deterministic production release identification. This manifest records the approved main commit used as the deployment input."
 }
