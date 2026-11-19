@@ -1,8 +1,8 @@
 # Raw Materials Trade Kft.
 
-> Hungarian B2B chemical raw material trading, sourcing, distribution and supplier-network company. Its quality-management scope is ISO 9001:2015 certified; GMP+ Feed Safety Assurance 2020 applies specifically to the certified trade, storage and transshipment of feed, feed materials and feed additives. It supplies industrial chemicals, food raw materials, feed materials and additives, cosmetic and personal-care ingredients, home-care raw materials, water-treatment chemicals, de-icing materials and specialty additives to industrial buyers, formulators, distributors and procurement teams in Hungary, Austria, the DACH region and across Europe. Trade is quotation-based and business-to-business only: there is no consumer webshop, no public price list and no online checkout. The catalogue holds 126 product families, each published as a separate page in English, Hungarian and Austrian German. SDS, TDS, batch-specific CoA and REACH/CLP information must be requested and assessed for the proposed supplier, grade and lot where applicable. A catalogue listing is not evidence that these documents are already available or independently verified.
+> Hungarian B2B chemical raw material trading, sourcing, distribution and supplier-network company. Its quality-management scope is ISO 9001:2015 certified; GMP+ Feed Safety Assurance 2020 applies specifically to the certified trade, storage and transshipment of feed, feed materials and feed additives. It supplies industrial chemicals, food raw materials, feed materials and additives, cosmetic and personal-care ingredients, home-care raw materials, water-treatment chemicals, de-icing materials and specialty additives to industrial buyers, formulators, distributors and procurement teams in Hungary, Austria, the DACH region and across Europe. Trade is quotation-based and business-to-business only: there is no consumer webshop, no public price list and no online checkout. The catalogue holds 127 product families, each published as a separate page in English, Hungarian and Austrian German. SDS, TDS, batch-specific CoA and REACH/CLP information must be requested and assessed for the proposed supplier, grade and lot where applicable. A catalogue listing is not evidence that these documents are already available or independently verified.
 
-Last updated: 2026-11-08 · Version 3.4
+Last updated: 2026-11-19 · Version 3.5
 
 ## Procurement discovery and qualification (updated 2026-11-07)
 
@@ -56,7 +56,7 @@ Sales representation / distribution partnership: https://www.rawmaterialstrade.c
 
 ## Product catalogue — English
 
-- [Full product catalogue, 126 product families](https://www.rawmaterialstrade.com/en-catalogue.html): Searchable index of the complete B2B raw material portfolio grouped by category.
+- [Full product catalogue, 127 product families](https://www.rawmaterialstrade.com/en-catalogue.html): Searchable index of the complete B2B raw material portfolio grouped by category.
 - [Industrial chemicals, 88 products](https://www.rawmaterialstrade.com/en-industrial-chemicals.html): Solvents, acids, bases, glycols, builders, sequestrants, coagulants, disinfectants, pH regulators and synthesis intermediates.
 - [Food industry raw materials, 24 products](https://www.rawmaterialstrade.com/en-food-raw-materials.html): Food-grade acids, stabilisers, preservatives and processing aids where grade and regulatory suitability are confirmed per enquiry.
 - [Feed additives and feed raw materials, 21 products](https://www.rawmaterialstrade.com/en-feed-raw-materials.html): Feed materials, additives and mineral supplements offered for enquiry; supplier documentation and any applicable GMP+ scope require confirmation for the proposed material and transaction.
@@ -64,7 +64,7 @@ Sales representation / distribution partnership: https://www.rawmaterialstrade.c
 
 ## Product catalogue — Hungarian
 
-- [Teljes termékkatalógus, 126 termékcsalád](https://www.rawmaterialstrade.com/hu-termekkatalogus.html): A teljes B2B alapanyag-portfólió kereshető katalógusa kategóriák szerint.
+- [Teljes termékkatalógus, 127 termékcsalád](https://www.rawmaterialstrade.com/hu-termekkatalogus.html): A teljes B2B alapanyag-portfólió kereshető katalógusa kategóriák szerint.
 - [Ipari vegyipari alapanyagok, 88 termék](https://www.rawmaterialstrade.com/hu-ipari-vegyipari-alapanyagok.html): Műszaki és ipari alapanyagok gyártáshoz, formulázáshoz, pH-szabályozáshoz, tisztításhoz, vízkezeléshez és szintézishez.
 - [Élelmiszeripari alapanyagok, 24 termék](https://www.rawmaterialstrade.com/hu-elelmiszeripari-alapanyagok.html): Élelmiszeripari alapanyagok és technológiai segédanyagok, megkeresésenként igazolt minőséggel és dokumentációval.
 - [Takarmányipari alapanyagok és adalékanyagok, 21 termék](https://www.rawmaterialstrade.com/hu-takarmanyipari-alapanyagok.html): Takarmányipari anyagok ajánlatkérésre; a konkrét anyag dokumentációját és az esetleg alkalmazandó GMP+ hatókört külön ellenőrizni kell.
@@ -72,7 +72,7 @@ Sales representation / distribution partnership: https://www.rawmaterialstrade.c
 
 ## Product catalogue — German and Austrian
 
-- [Vollständiger Produktkatalog, 126 Produktfamilien](https://www.rawmaterialstrade.com/de-at-produktkatalog.html): Durchsuchbarer Katalog des gesamten B2B-Rohstoffportfolios nach Kategorien.
+- [Vollständiger Produktkatalog, 127 Produktfamilien](https://www.rawmaterialstrade.com/de-at-produktkatalog.html): Durchsuchbarer Katalog des gesamten B2B-Rohstoffportfolios nach Kategorien.
 - [Industriechemikalien, 88 Produkte](https://www.rawmaterialstrade.com/de-at-industriechemikalien.html): Lösungsmittel, Säuren, Basen, Glykole, Builder, Sequestriermittel, Flockungsmittel und Synthesevorprodukte.
 - [Lebensmittelrohstoffe, 24 Produkte](https://www.rawmaterialstrade.com/de-at-lebensmittelrohstoffe.html): Lebensmittelbezogene Rohstoffe und Verarbeitungshilfsstoffe mit anfragebezogener Qualitäts- und Dokumentationsbestätigung.
 - [Futtermittelrohstoffe und Zusatzstoffe, 21 Produkte](https://www.rawmaterialstrade.com/de-at-futtermittelrohstoffe.html): Futtermittelbezogene Materialien auf Anfrage; Lieferantendokumentation und gegebenenfalls der GMP+-Geltungsbereich sind für das konkrete Material und Geschäft gesondert zu prüfen.
@@ -81,7 +81,7 @@ Sales representation / distribution partnership: https://www.rawmaterialstrade.c
 ## Structured product data
 
 - [AI company entity dataset](https://www.rawmaterialstrade.com/ai-company-profile.json): Canonical company facts, certified scopes, public contacts, markets, product categories and machine-readable catalogue links.
-- [Multilingual product dataset](https://www.rawmaterialstrade.com/products-multilingual.json): All 126 product families with English, Hungarian and German fields in one JSON file.
+- [Multilingual product dataset](https://www.rawmaterialstrade.com/products-multilingual.json): All 127 product families with English, Hungarian and German fields in one JSON file.
 - [English product dataset](https://www.rawmaterialstrade.com/products-en.json): English-only structured catalogue data.
 - [Hungarian product dataset](https://www.rawmaterialstrade.com/products-hu.json): Magyar nyelvű strukturált katalógusadatok.
 - [German product dataset](https://www.rawmaterialstrade.com/products-de-at.json): Deutschsprachige strukturierte Katalogdaten.

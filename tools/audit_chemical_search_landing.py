@@ -14,6 +14,7 @@ LANGS = {"en": ("en-", "name_en"), "hu": ("hu-", "name_hu"), "de": ("de-at-", "n
 SCHEMA = re.compile(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', re.I | re.S)
 issues = []
 blocking = []
+ROUTE_OVERRIDES = {"copper-oxide-feed": {"en": "en-copper-oxide-feed.html", "hu": "hu-rez-oxid-feed.html", "de": "de-at-kupferoxid-futtermittel.html"}}
 stats = {"pages": 0, "cas_visible": 0, "ec_visible": 0, "formula_visible": 0, "cas_schema": 0, "ec_schema": 0, "formula_schema": 0}
 
 def nodes(value):
@@ -31,7 +32,7 @@ def norm(value):
 for product in PRODUCTS:
     ident = product.get("technical_identity") or {}
     for lang, (prefix, name_field) in LANGS.items():
-        filename = prefix + product["id"] + ".html"
+        filename = ROUTE_OVERRIDES.get(product["id"], {}).get(lang, prefix + product["id"] + ".html")
         path = ROOT / filename
         if not path.exists():
             blocking.append((filename, "missing_page"))

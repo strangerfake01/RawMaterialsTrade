@@ -12,6 +12,13 @@ from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGS = {"en": "en", "hu": "hu", "de-at": "de"}
+ROUTE_OVERRIDES = {
+    "copper-oxide-feed": {
+        "en": "en-copper-oxide-feed.html",
+        "hu": "hu-rez-oxid-feed.html",
+        "de-at": "de-at-kupferoxid-futtermittel.html",
+    }
+}
 
 
 class PageParser(HTMLParser):
@@ -60,7 +67,7 @@ def main():
             failures.append(f"catalogue: duplicate id {product_id}")
         seen_ids.add(product_id)
         for prefix in LANGS:
-            route = ROOT / f"{prefix}-{product_id}.html"
+            route = ROOT / ROUTE_OVERRIDES.get(product_id, {}).get(prefix, f"{prefix}-{product_id}.html")
             if not route.is_file():
                 failures.append(f"{route.name}: missing catalogue product route")
                 continue
@@ -72,7 +79,7 @@ def main():
             if not re.search(r'<link\b(?=[^>]*\brel=[\x22\x27]canonical[\x22\x27])(?=[^>]*\bhref=[\x22\x27]' + re.escape(expected_url) + r'[\x22\x27])[^>]*>', page, re.I):
                 failures.append(f"{route.name}: missing or wrong canonical")
             for sibling, hreflang in (("en", "en"), ("hu", "hu-HU"), ("de-at", "de-AT"), ("en", "x-default")):
-                sibling_url = f"https://www.rawmaterialstrade.com/{sibling}-{product_id}.html"
+                sibling_url = "https://www.rawmaterialstrade.com/" + ROUTE_OVERRIDES.get(product_id, {}).get(sibling, f"{sibling}-{product_id}.html")
                 if not re.search(r'<link\b(?=[^>]*\brel=[\x22\x27]alternate[\x22\x27])(?=[^>]*\bhreflang=[\x22\x27]' + re.escape(hreflang) + r'[\x22\x27])(?=[^>]*\bhref=[\x22\x27]' + re.escape(sibling_url) + r'[\x22\x27])[^>]*>', page, re.I):
                     failures.append(f"{route.name}: missing {hreflang} alternate")
     # Validate machine-readable product identity for every language route.
@@ -81,7 +88,7 @@ def main():
         if not isinstance(product_id, str) or not product_id:
             continue
         for prefix in LANGS:
-            route = ROOT / f"{prefix}-{product_id}.html"
+            route = ROOT / ROUTE_OVERRIDES.get(product_id, {}).get(prefix, f"{prefix}-{product_id}.html")
             if not route.is_file():
                 continue
             parser = PageParser()
@@ -109,7 +116,7 @@ def main():
         if not procurement.get("buyer_guidance_en"):
             continue
         for prefix, lang in LANGS.items():
-            path = ROOT / (prefix + "-" + product["id"] + ".html")
+            path = ROOT / ROUTE_OVERRIDES.get(product["id"], {}).get(prefix, prefix + "-" + product["id"] + ".html")
             if not path.is_file():
                 failures.append(f"{path.name}: missing HTML")
                 continue

@@ -6,7 +6,7 @@
     "businessModel": "Ajánlatkérés-alapú B2B vegyipari alapanyag-beszerzés és gyártói/disztribúciós partnerség"
   },
   "language": "hu-HU",
-  "productCount": 126,
+  "productCount": 127,
   "usageNotice": "Kizárólag kezdeti B2B beszerzési tájékozódásra. Vásárlás előtt meg kell erősíteni a minőséget, koncentrációt, elérhetőséget, szabályozási alkalmasságot és az aktuális SDS/TDS/CoA dokumentációt.",
   "products": [
     {
@@ -5368,6 +5368,7 @@
         "https://hu.wikipedia.org/wiki/Vitamin",
         "https://de.wikipedia.org/wiki/Vitamin"
       ]
-    }
+    },
+    {"id":"copper-oxide-feed","entityType":"DefinedTerm","name":"Réz(II)-oxid — takarmányipari orientáció","alternateNames":["Réz(II)-oxid","Réz-oxid"],"description":"A réz(II)-oxid B2B takarmányipari érdeklődési tétel. A végleges minőséget, alkalmasságot és dokumentációt egyedileg kell megerősíteni.","categories":["Takarmányipari segédanyagok"],"applications":["takarmányipari beszerzés, aktuális beszállítói dokumentáció alapján"],"identity":{"CAS":"1317-38-0","EC":"215-269-1","formula":"CuO"},"commercialContext":{"gradeOrConcentration":"Takarmányipari orientáció; egyedileg megerősítendő","packaging":"Minden B2B ajánlatkérésnél egyedileg egyeztetendő","deliveryRegion":"Magyarország, Ausztria, a DACH-régió és Európa","availabilityNote":"Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."},"documentation":{"SDS":"A dokumentáció B2B ajánlatkérés során kerül megerősítésre.","TDS":"TDS B2B ajánlatkérés során kerül megerősítésre.","CoA":"Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."},"pageUrl":"https://www.rawmaterialstrade.com/hu-rez-oxid-feed.html","sameAs":["https://en.wikipedia.org/wiki/Copper(II)_oxide","https://hu.wikipedia.org/wiki/R%C3%A9z(II)-oxid","https://de.wikipedia.org/wiki/Kupfer(II)-oxid"]}
   ]
 }

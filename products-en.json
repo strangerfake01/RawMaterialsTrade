@@ -6,7 +6,7 @@
     "businessModel": "Quotation-based B2B chemical raw material sourcing and manufacturer partnership"
   },
   "language": "en",
-  "productCount": 126,
+  "productCount": 127,
   "usageNotice": "For initial B2B procurement orientation only. Confirm grade, concentration, availability, regulatory suitability and current SDS/TDS/CoA before purchase.",
   "products": [
     {
@@ -5749,6 +5749,7 @@
         "https://hu.wikipedia.org/wiki/Vitamin",
         "https://de.wikipedia.org/wiki/Vitamin"
       ]
-    }
+    },
+    {"id":"copper-oxide-feed","entityType":"DefinedTerm","name":"Copper(II) oxide — feed additive orientation","alternateNames":["Copper(II) oxide","Cupric oxide"],"description":"Copper(II) oxide is a B2B feed-material inquiry item. Final grade, suitability and documentation are confirmed individually.","categories":["Feed Additives & Feed Raw Materials"],"applications":["feed-material sourcing subject to current supplier documentation"],"identity":{"CAS":"1317-38-0","EC":"215-269-1","formula":"CuO"},"commercialContext":{"gradeOrConcentration":"Feed-grade orientation; confirm individually","packaging":"Confirmed individually for each B2B inquiry","deliveryRegion":"Hungary, Austria, DACH and Europe","availabilityNote":"Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."},"documentation":{"SDS":"Documentation confirmed upon B2B inquiry.","TDS":"TDS confirmed upon B2B inquiry.","CoA":"Certificate of Analysis available when supplied by the producer."},"pageUrl":"https://www.rawmaterialstrade.com/en-copper-oxide-feed.html","sameAs":["https://en.wikipedia.org/wiki/Copper(II)_oxide","https://hu.wikipedia.org/wiki/R%C3%A9z(II)-oxid","https://de.wikipedia.org/wiki/Kupfer(II)-oxid"]}
   ]
 }

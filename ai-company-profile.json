@@ -215,7 +215,7 @@
     "english": "https://www.rawmaterialstrade.com/products-en.json",
     "hungarian": "https://www.rawmaterialstrade.com/products-hu.json",
     "germanAustria": "https://www.rawmaterialstrade.com/products-de-at.json",
-    "productCount": 126,
+    "productCount": 127,
     "languages": [
       "en",
       "hu-HU",
@@ -285,7 +285,7 @@
   ],
   "catalogueEvidenceBoundary": {
     "status": "catalogue_enquiry_only",
-    "productFamilies": 126,
+    "productFamilies": 127,
     "languageVariants": [
       "en",
       "hu-HU",

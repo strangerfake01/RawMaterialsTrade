@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 products = json.loads((ROOT / "products-multilingual.json").read_text(encoding="utf-8"))
-assert len(products) == 126
+assert len(products) == 127
 review = []
 placeholders = []
 cas_checked = 0

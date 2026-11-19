@@ -27,9 +27,10 @@ UNSUPPORTED = (
 )
 errors = []
 checked = 0
+ROUTE_OVERRIDES = {"copper-oxide-feed": {"en": "en-copper-oxide-feed.html", "hu": "hu-rez-oxid-feed.html", "de-at": "de-at-kupferoxid-futtermittel.html"}}
 for product in PRODUCTS:
     for lang, claims in LANGUAGE_CLAIMS.items():
-        page = ROOT / f"{lang}-{product['id']}.html"
+        page = ROOT / ROUTE_OVERRIDES.get(product['id'], {}).get(lang, f"{lang}-{product['id']}.html")
         if not page.is_file():
             errors.append(f"{page.name}: missing page")
             continue
@@ -45,8 +46,8 @@ for product in PRODUCTS:
             errors.append(f"{page.name}: superseded blanket CoA availability text")
         checked += 1
 
-if checked != 378:
-    errors.append(f"Expected 378 CoA status blocks; checked {checked}")
+if checked != 381:
+    errors.append(f"Expected 381 CoA status blocks; checked {checked}")
 print(f"Supplier CoA status parity: {checked} product pages; errors={len(errors)}")
 for error in errors[:50]:
     print("ERROR:", error)

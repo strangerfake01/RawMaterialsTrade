@@ -12,6 +12,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 products = json.loads((ROOT / "products-multilingual.json").read_text(encoding="utf-8"))
 LANGS = {"en": "en-", "hu": "hu-", "de": "de-at-"}
+ROUTE_OVERRIDES = {"copper-oxide-feed": {"en": "en-copper-oxide-feed.html", "hu": "hu-rez-oxid-feed.html", "de": "de-at-kupferoxid-futtermittel.html"}}
 REGULATED_APPLICATION = re.compile(r'(?i)(?:pharmaceutical|pharmacopoeial|pharmazeut|gyógyszer|takarmány|feed additive|food[- ]grade|lebensmittel|E\\s*\\d{3})')
 REGULATORY_CAVEAT = re.compile(r'(?i)(?:final suitability|regulatory suitability|supplier (?:SDS|TDS|CoA)|végleges (?:alkalmasság|felhasználás|megfelelőség)|beszállítói (?:dokumentáció|SDS|TDS|CoA)|endgültige (?:Eignung|Verwendung)|regulatorische Eignung|Lieferantendokumentation|Konkrete Qualität und Dokumentation)')
 CHECKS = {
@@ -28,7 +29,7 @@ regulated_examples = []
 missing = []
 for product in products:
     for lang, prefix in LANGS.items():
-        page = ROOT / (prefix + product["id"] + ".html")
+        page = ROOT / ROUTE_OVERRIDES.get(product["id"], {}).get(lang, prefix + product["id"] + ".html")
         if not page.exists():
             missing.append(page.name)
             continue
@@ -42,7 +43,7 @@ for product in products:
             regulated_without_caveat += 1
             if len(regulated_examples) < 10:
                 regulated_examples.append(page.name)
-print("Public product claim inventory:", len(products), "families;", sum(1 for p in products for lang in LANGS if (ROOT / (LANGS[lang] + p["id"] + ".html")).exists()), "language pages")
+print("Public product claim inventory:", len(products), "families;", sum(1 for p in products for lang in LANGS if (ROOT / ROUTE_OVERRIDES.get(p["id"], {}).get(lang, LANGS[lang] + p["id"] + ".html")).exists()), "language pages")
 for label, count in counts.items():
     print("REVIEW", label, count, "pages; examples:", ", ".join(examples[label]))
 print("REVIEW regulated_application_without_caveat", regulated_without_caveat, "pages; examples:", ", ".join(regulated_examples))

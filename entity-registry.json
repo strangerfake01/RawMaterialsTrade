@@ -1876,6 +1876,20 @@
       "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
     },
     {
+      "id": "copper-oxide-feed",
+      "cas": "1317-38-0",
+      "wikidata_qid": null,
+      "wikidata_label": null,
+      "sameAs_status": "needs-confirmation",
+      "pubchem_cid": null,
+      "pubchem_formula": null,
+      "sameAs_reason": "CAS and formula are catalogue orientation only; supplier documentation and independent primary-source confirmation are required before sameAs use.",
+      "pubchem_candidate_cid": 164827,
+      "pubchem_candidate_formula": "CuO",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+    },
+    {
       "id": "vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed",
       "cas": null,
       "sameAs_status": "needs-confirmation",

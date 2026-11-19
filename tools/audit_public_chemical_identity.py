@@ -15,6 +15,7 @@ LANGUAGES = ("en", "hu", "de-at")
 LD = re.compile(r'<script\b[^>]*type=["\x27]application/ld\+json["\x27][^>]*>(.*?)</script>', re.I | re.S)
 errors = []
 checked = 0
+ROUTE_OVERRIDES = {"copper-oxide-feed": {"en": "en-copper-oxide-feed.html", "hu": "hu-rez-oxid-feed.html", "de-at": "de-at-kupferoxid-futtermittel.html"}}
 
 def walk(node):
     if isinstance(node, dict):
@@ -42,7 +43,7 @@ for product in PRODUCTS:
         if evidence.get("primary_source_url") and not str(evidence["primary_source_url"]).startswith("https://"):
             errors.append(f"{pid}: primary source must be an HTTPS reference")
     for lang in LANGUAGES:
-        path = ROOT / f"{lang}-{pid}.html"
+        path = ROOT / ROUTE_OVERRIDES.get(pid, {}).get(lang, f"{lang}-{pid}.html")
         if not path.is_file():
             errors.append(f"{path.name}: missing catalogue page")
             continue
@@ -74,9 +75,9 @@ for product in PRODUCTS:
                     for ident in identifiers if isinstance(identifiers, list) else []:
                         if isinstance(ident, dict) and ident.get("verificationStatus") == "verified":
                             errors.append(f"{path.name}: unverified identifier marked verified")
-assert len(PRODUCTS) == 126, "Unexpected product catalogue size"
-if checked != 378:
-    errors.append(f"Expected 378 language pages, checked {checked}")
+assert len(PRODUCTS) == 127, "Unexpected product catalogue size"
+if checked != 381:
+    errors.append(f"Expected 381 language pages, checked {checked}")
 print(f"Product JSON-LD identity disclosure: {checked} pages, {len(errors)} errors")
 for error in errors[:60]:
     print("ERROR:", error)

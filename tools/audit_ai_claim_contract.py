@@ -20,11 +20,11 @@ for key in ("chemicalIdentity", "supplierDocumentation", "commercialTerms", "pri
     if not boundary.get(key):
         errors.append("Machine-readable evidence boundary missing: " + key)
 
-if len(products) != 126 or len(registry) != len(products):
+if len(products) != 127 or len(registry) != len(products):
     errors.append("Catalogue and registry family counts diverge")
 if {p["id"] for p in products} != {e["id"] for e in registry}:
     errors.append("Catalogue and registry family identities diverge")
-if "126 product families" not in llms or "126 termékcsalád" not in llms or "126 Produktfamilien" not in llms:
+if "127 product families" not in llms or "127 termékcsalád" not in llms or "127 Produktfamilien" not in llms:
     errors.append("AI catalogue family counts missing or inconsistent across languages")
 if "A catalogue listing is not evidence that these documents are already available or independently verified." not in llms:
     errors.append("AI-facing source disclosure absent")
