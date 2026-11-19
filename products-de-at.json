@@ -6,7 +6,7 @@
     "businessModel": "Angebotsbasierte B2B-Rohstoffbeschaffung sowie Hersteller- und Vertriebspartnerschaften"
   },
   "language": "de-AT",
-  "productCount": 126,
+  "productCount": 127,
   "usageNotice": "Nur zur ersten B2B-Beschaffungsorientierung. Qualität, Konzentration, Verfügbarkeit, regulatorische Eignung und aktuelle SDS/TDS/CoA sind vor dem Kauf zu bestätigen.",
   "products": [
     {
@@ -5748,6 +5748,7 @@
         "https://hu.wikipedia.org/wiki/Vitamin",
         "https://de.wikipedia.org/wiki/Vitamin"
       ]
-    }
+    },
+    {"id":"copper-oxide-feed","entityType":"DefinedTerm","name":"Kupfer(II)-oxid — Futtermittelorientierung","alternateNames":["Kupfer(II)-oxid","Kupferoxid"],"description":"Kupfer(II)-oxid ist ein B2B-Anfrageprodukt für Futtermittelkontexte. Qualität, Eignung und Dokumentation werden individuell bestätigt.","categories":["Futtermittelzusatzstoffe und Futtermittelrohstoffe"],"applications":["Futtermittelbeschaffung vorbehaltlich aktueller Lieferantendokumentation"],"identity":{"CAS":"1317-38-0","EC":"215-269-1","formula":"CuO"},"commercialContext":{"gradeOrConcentration":"Futtermittelorientierung; individuell zu bestätigen","packaging":"Für jede B2B-Anfrage individuell zu bestätigen","deliveryRegion":"Ungarn, Österreich, DACH und Europa","availabilityNote":"Verfügbarkeit, Verpackung, Lieferbedingungen und Lieferzeiten werden für jede B2B-Anfrage individuell bestätigt."},"documentation":{"SDS":"Die Dokumentation wird im Rahmen der B2B-Anfrage bestätigt.","TDS":"TDS wird im Rahmen der B2B-Anfrage bestätigt.","CoA":"Analysezertifikat nach Hersteller-/Lieferantenverfügbarkeit."},"pageUrl":"https://www.rawmaterialstrade.com/de-at-kupferoxid-futtermittel.html","sameAs":["https://en.wikipedia.org/wiki/Copper(II)_oxide","https://hu.wikipedia.org/wiki/R%C3%A9z(II)-oxid","https://de.wikipedia.org/wiki/Kupfer(II)-oxid"]}
   ]
 }
