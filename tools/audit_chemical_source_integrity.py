@@ -62,8 +62,8 @@ for path in root.glob('*.html'):
                 for item in o:
                     walk(item)
         walk(data)
-if pages != 378:
-    errors.append(f'Expected 378 product pages, found {pages}')
+if pages != 380:
+    errors.append(f'Expected 380 product pages, found {pages}')
 print(f'Chemical source integrity: {pages} pages, {len(registry)} entities, {len(rows)} evidence rows, errors={len(errors)}')
 for error in errors[:50]:
     print('ERROR:', error)
