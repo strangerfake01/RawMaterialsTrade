@@ -41,7 +41,7 @@ for row in rows:
 
 pages = 0
 for path in root.glob('*.html'):
-    if not re.match(r'^(en|hu|de-at)-.*-(industrial|food|feed|deicing)\.html$', path.name):
+    if not re.match(r'^(en|hu|de-at)-.*-(industrial|food|feed|deicing|futtermittel)\.html$', path.name):
         continue
     pages += 1
     source = path.read_text(encoding='utf-8')
@@ -62,8 +62,8 @@ for path in root.glob('*.html'):
                 for item in o:
                     walk(item)
         walk(data)
-if pages != 380:
-    errors.append(f'Expected 380 product pages, found {pages}')
+if pages != 381:
+    errors.append(f'Expected 381 product pages, found {pages}')
 print(f'Chemical source integrity: {pages} pages, {len(registry)} entities, {len(rows)} evidence rows, errors={len(errors)}')
 for error in errors[:50]:
     print('ERROR:', error)
