@@ -15,8 +15,8 @@ products = json.loads((ROOT / "products-multilingual.json").read_text(encoding="
 entities = json.loads((ROOT / "entity-registry.json").read_text(encoding="utf-8"))["entities"]
 ids = [p["id"] for p in products]
 registered = [e["id"] for e in entities]
-assert len(ids) == len(set(ids)) == 126, "Expected 126 unique products"
-assert len(registered) == len(set(registered)) == 126, "Expected 126 unique registry entries"
+assert len(ids) == len(set(ids)) == 127, "Expected 127 unique products"
+assert len(registered) == len(set(registered)) == 127, "Expected 127 unique registry entries"
 assert set(ids) == set(registered), "Product and entity registry IDs differ"
 qid_pattern = re.compile(r"Q[1-9][0-9]*\Z")
 language_domains = {"en": "en.wikipedia.org", "hu": "hu.wikipedia.org", "de": "de.wikipedia.org"}
