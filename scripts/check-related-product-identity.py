@@ -15,6 +15,13 @@ EXPECTED = {
     "hu": "Mangán(II)-oxid",
     "de-at": "Mangan(II)-oxid",
 }
+ROUTE_OVERRIDES = {
+    "copper-oxide-feed": {
+        "en": "en-copper-oxide-feed.html",
+        "hu": "hu-rez-oxid-feed.html",
+        "de-at": "de-at-kupferoxid-futtermittel.html",
+    }
+}
 
 class RelatedLinkParser(HTMLParser):
     def __init__(self):
@@ -74,7 +81,8 @@ def main():
             pages += 1
             lang_pages += 1
             page_id = page.name[len(lang) + 1:-5]
-            if page_id in product_ids:
+            mapped_id = next((pid for pid, routes in ROUTE_OVERRIDES.items() if routes.get(lang) == page.name), page_id)
+            if mapped_id in product_ids:
                 product_pages += 1
             else:
                 extra_pages.append(page.name)
