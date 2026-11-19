@@ -107,7 +107,7 @@ def build():
     w=csv.DictWriter(out,fieldnames=FIELDS,lineterminator="\n")
     w.writeheader()
     w.writerows(rows)
-    assert len(rows)==126, "Expected 126 family identities, found %d" % len(rows)
+    assert len(rows)==127, "Expected 127 family identities, found %d" % len(rows)
     return out.getvalue(),rows
 
 if __name__=="__main__":
