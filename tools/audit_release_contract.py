@@ -118,7 +118,7 @@ for required_fragment in (expected_endpoint, "/config", "turnstile.render", "tur
 if "footerVisible" in script:
     errors.append("Contact FAB still contains footerVisible hide logic")
 
-# v3 product intelligence + content-quality checks (all 378 language product pages)
+# v3 product intelligence + content-quality checks (all 381 language product pages)
 product_pages = missing_faq = generic_hit = missing_checkpoints = missing_dual = 0
 faq_schema_mismatch = 0
 faq_blocks = []
@@ -126,10 +126,12 @@ checkpoint_blocks = []
 families = set()
 for path in sorted(ROOT.glob("*.html")):
     name = path.name
-    if not (name.startswith(("en-", "hu-", "de-at-")) and name.endswith(("-industrial.html", "-food.html", "-feed.html", "-deicing.html"))):
+    if not (name.startswith(("en-", "hu-", "de-at-")) and name.endswith(("-industrial.html", "-food.html", "-feed.html", "-deicing.html", "-futtermittel.html"))):
         continue
     product_pages += 1
-    families.add(re.sub(r"^(en|hu|de-at)-", "", name).removesuffix(".html"))
+    family = re.sub(r"^(en|hu|de-at)-", "", name).removesuffix(".html")
+    family = {"copper-oxide-feed": "copper-oxide-feed", "rez-oxid-feed": "copper-oxide-feed", "kupferoxid-futtermittel": "copper-oxide-feed"}.get(family, family)
+    families.add(family)
     text = path.read_text(encoding="utf-8")
     if 'class="product-faq"' not in text:
         missing_faq += 1
@@ -179,10 +181,10 @@ for path in sorted(ROOT.glob("*.html")):
     if re.search(r'"@type"\s*:\s*"Offer"', text) or re.search(r'"@type"\s*:\s*"AggregateRating"', text):
         errors.append(f"Forbidden commercial schema on product page: {name}")
 
-if product_pages != 378:
-    errors.append(f"Expected 378 product language pages, found {product_pages}")
-if len(families) != 126:
-    errors.append(f"Expected 126 product families, found {len(families)}")
+if product_pages != 381:
+    errors.append(f"Expected 381 product language pages, found {product_pages}")
+if len(families) != 127:
+    errors.append(f"Expected 127 product families, found {len(families)}")
 if missing_faq:
     errors.append(f"Missing product-faq section on {missing_faq} pages")
 if missing_checkpoints:
