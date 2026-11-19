@@ -14,11 +14,12 @@ expected_partnership = {
     "de": "de-at-vertriebspartner-distribution-chemierohstoffe.html",
 }
 expected_home = {"en": "/#contact", "hu": "hu.html#contact", "de": "de-at.html#contact"}
+ROUTE_OVERRIDES = {"copper-oxide-feed": {"en": "en-copper-oxide-feed.html", "hu": "hu-rez-oxid-feed.html", "de": "de-at-kupferoxid-futtermittel.html"}}
 errors = []
 for product in products:
     slug = product["id"]
     for lang, prefix in prefixes.items():
-        path = root / (prefix + slug + ".html")
+        path = root / ROUTE_OVERRIDES.get(slug, {}).get(lang, prefix + slug + ".html")
         if not path.is_file():
             errors.append(f"{path.name}: missing")
             continue
