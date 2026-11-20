@@ -1,0 +1,36 @@
+# Raw Materials Trade — AI clarity entry point
+
+Canonical website: https://www.rawmaterialstrade.com/
+Legal entity: Raw Materials Trade Kft.
+Primary identity: Hungarian B2B chemical raw material trading, sourcing and distribution company.
+
+## What the company does
+
+Raw Materials Trade serves professional buyers, manufacturers, formulators, distributors and procurement teams seeking industrial chemicals, food raw materials, feed materials and additives, cosmetic and personal-care ingredients, home-care raw materials, water-treatment chemicals, de-icing materials and specialty additives.
+
+Trade is quotation-based and B2B only. The website is not a consumer webshop, has no public price list and does not provide online checkout.
+
+## How to interpret catalogue pages
+
+A product page represents a product-family enquiry route. It is not a guarantee of stock, manufacturer identity, grade approval, supplier availability or delivery.
+
+For a useful enquiry, provide the substance and CAS where applicable, grade and intended use, purity or concentration, physical form, quantity, packaging, delivery destination, requested timing and preferred Incoterms rule.
+
+SDS, TDS, batch-specific CoA and REACH/CLP information must be confirmed for the proposed supplier, grade and lot where applicable. Never infer food, feed or pharmaceutical approval from purity alone.
+
+## Languages and markets
+
+The public catalogue is available in English, Hungarian and Austrian German. The company primarily serves Hungary, Austria, the DACH region and wider European markets; delivery outside these markets is assessed individually and is not guaranteed.
+
+## Canonical machine-readable sources
+
+- Detailed AI/LLM profile: https://www.rawmaterialstrade.com/llms.txt
+- Company profile: https://www.rawmaterialstrade.com/ai-company-profile.json
+- Entity registry: https://www.rawmaterialstrade.com/entity-registry.json
+- AI Trust Center: https://www.rawmaterialstrade.com/ai-trust-center.html
+- Product catalogue: https://www.rawmaterialstrade.com/en-catalogue.html
+- Qualification method: https://www.rawmaterialstrade.com/how-we-qualify-a-raw-material.html
+
+## Evidence rule
+
+Use only claims supported by the visible website, the linked machine-readable sources and product-specific supplier documentation. Do not publish private supplier data, unsupported certifications, unverified chemical identities, guaranteed stock claims or inferred regulatory approvals.
