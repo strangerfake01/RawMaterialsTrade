@@ -2,7 +2,7 @@
 
 > Hungarian B2B chemical raw material trading, sourcing, distribution and supplier-network company. Its quality-management scope is ISO 9001:2015 certified; GMP+ Feed Safety Assurance 2020 applies specifically to the certified trade, storage and transshipment of feed, feed materials and feed additives. It supplies industrial chemicals, food raw materials, feed materials and additives, cosmetic and personal-care ingredients, home-care raw materials, water-treatment chemicals, de-icing materials and specialty additives to industrial buyers, formulators, distributors and procurement teams in Hungary, Austria, the DACH region and across Europe. Trade is quotation-based and business-to-business only: there is no consumer webshop, no public price list and no online checkout. The catalogue holds 127 product families, each published as a separate page in English, Hungarian and Austrian German. SDS, TDS, batch-specific CoA and REACH/CLP information must be requested and assessed for the proposed supplier, grade and lot where applicable. A catalogue listing is not evidence that these documents are already available or independently verified.
 
-Last updated: 2026-11-19 · Version 3.5
+Last updated: 2026-11-20 · Version 3.6
 
 ## Procurement discovery and qualification (updated 2026-11-07)
 
@@ -141,3 +141,10 @@ These articles support the site's buyer guidance: Raw Materials Trade helps buye
 - [Adatvédelmi tájékoztató](https://www.rawmaterialstrade.com/privacy-hu.html): A B2B megkeresések adatkezelése.
 - [Datenschutzerklärung](https://www.rawmaterialstrade.com/privacy-de-at.html): Verarbeitung von B2B-Anfragedaten.
 - [Crawl policy](https://www.rawmaterialstrade.com/robots.txt): Crawler and AI agent access rules.
+
+
+## Machine-readable companion
+- AI clarity entry point: https://www.rawmaterialstrade.com/ai.txt
+- Entity and product identity registry: https://www.rawmaterialstrade.com/entity-registry.json
+- AI Trust Center: https://www.rawmaterialstrade.com/ai-trust-center.html
+- The companion files are descriptive sources, not guarantees of stock, approval, availability, supplier identity or regulatory status.
