@@ -233,3 +233,10 @@ Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no war
 - Checks HTTP local route existence, single *visible* H1 and horizontal scroll overflow. Abort all external requests, do not exercise forms and do not send analytics. This supplements the existing 24-case cookie-consent browser workflow and 408-route sitemap/source audits; does **not** prove full accessibility, Core Web Vitals, or production behavior.
 - Workflow intentionally fails closed on objective geometry regressions rather than hiding failures. Pending browser execution / remediation of any confirmed issues.
 - No changes to product data, source contracts, Cloudflare Worker, CSP, Turnstile, or customer information. No merge, live deployment or GSC submission.
+
+### 2026-11-23 — Batch 14: explicit buyer vs manufacturer lead measurement
+
+- Found the shared successful `generate_lead` GA4 event labelled **every** form `b2b_inquiry`, even though the source forms already had a safe static `request_type` distinction: `buyer` (3 homepages) vs `supplier_partnership` (3 manufacturer landing pages).
+- At the existing **successful server response + explicit analytics consent** gate, derive an allowlisted two-value `lead_type` and use distinct `form_name`: `b2b_inquiry` or `manufacturer_partnership`. No new tracker, form fields, personal data, source product, commercial terms or page query parameters are sent.
+- Added `tools/audit_lead_audience.py` to static CI to assert all six localized forms and privacy-safe conversion routing. GA4 `lead_type` custom-dimension reporting must be configured and separately verified in GA4; this code change alone is NOT proof of measured conversions.
+- This is an analytics-quality improvement for the two primary B2B audiences, not a rewrite of the protected Cloudflare endpoint. Pending CI, independent local browser/production audit.

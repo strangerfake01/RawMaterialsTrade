@@ -378,7 +378,10 @@ function initForm(){
       const response=await fetch(endpoint,{method:'POST',body:data,headers:{Accept:'application/json'},credentials:'same-origin'});
       const payload=await response.json().catch(()=>null);
       if(!response.ok||!payload||payload.ok!==true)throw new Error(payload?.code||payload?.message||`HTTP ${response.status}`);
-      show('success',(payload.confirmationSent===true?form.dataset.successMsg:form.dataset.successBasicMsg)||t.sent);if(window.__rmtAnalyticsConsentGranted&&typeof window.gtag==='function'){window.gtag('event','generate_lead',{form_name:'b2b_inquiry',form_language:lang});}form.reset();newMathChallenge();turnstileReady=false;
+      show('success',(payload.confirmationSent===true?form.dataset.successMsg:form.dataset.successBasicMsg)||t.sent);if(window.__rmtAnalyticsConsentGranted&&typeof window.gtag==='function'){
+        const leadType=form.querySelector('input[name="request_type"]')?.value==='supplier_partnership'?'supplier_partnership':'buyer';
+        window.gtag('event','generate_lead',{form_name:leadType==='supplier_partnership'?'manufacturer_partnership':'b2b_inquiry',form_language:lang,lead_type:leadType});
+      }form.reset();newMathChallenge();turnstileReady=false;
       if(window.turnstile&&widgetId!==null)window.turnstile.reset(widgetId);
     }catch(err){
       console.error('RMT form submission failed',err);show('error',`${t.fail} office@rawmaterialstrade.com`);turnstileReady=false;
