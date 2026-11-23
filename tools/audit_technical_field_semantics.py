@@ -28,7 +28,15 @@ for product in products:
     form = str(ident.get("form_en") or "").strip()
     # A grade or particle size is not, by itself, a measured chemical concentration.
     looks_quantitative = bool(re.search(r"\d+(?:[.,]\d+)?\s*(?:%|wt%|w/w|g/l|mg/l|mol/l|ppm|ppb)(?![A-Za-z])", concentration, re.I))
-    is_supplier_placeholder = concentration.casefold() in {"confirmed upon supplier documentation", "to be confirmed"}
+    # An offered-grade field withheld pending selected-supplier evidence is
+    # not a numeric concentration. Only the exact approved text is recognized.
+    is_supplier_placeholder = concentration.casefold() in {
+        "confirmed upon supplier documentation",
+        "to be confirmed",
+        "offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+    }
+    if is_supplier_placeholder and ident.get("concentration_value_verified") is not False:
+        raise SystemExit(f"{product['id']}: withheld concentration must explicitly remain unverified")
     if concentration and not looks_quantitative and not is_supplier_placeholder:
         review.append((product["id"], concentration, grade))
         if ident.get("concentration_semantics") != "grade_or_form_descriptor_not_numeric" or ident.get("concentration_value_verified") is not False:
