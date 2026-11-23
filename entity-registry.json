@@ -39,7 +39,15 @@
       "pubchem_candidate_cid": 24850,
       "pubchem_candidate_formula": "Al2O12S3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/10043-01-3 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General anhydrous aluminum sulfate; grain-size specification unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10043-01-3",
+        "cas": "10043-01-3",
+        "pubchem_cid": 24850,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "aluminium-szulfat-oldat-industrial",
@@ -54,7 +62,15 @@
       "pubchem_candidate_cid": 24850,
       "pubchem_candidate_formula": "Al2O12S3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/10043-01-3 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General parent salt only; solution concentration/composition unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10043-01-3",
+        "cas": "10043-01-3",
+        "pubchem_cid": 24850,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "ammonia-oldat-24-industrial",
@@ -115,7 +131,15 @@
       "pubchem_candidate_cid": 22985,
       "pubchem_candidate_formula": "H4N2O3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/6484-52-2 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General substance only; hazardous/regulated offering and documentation NOT approved",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6484-52-2",
+        "cas": "6484-52-2",
+        "pubchem_cid": 22985,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "ammonium-szulfat-industrial",
@@ -234,7 +258,15 @@
       "pubchem_candidate_cid": 28019,
       "pubchem_candidate_formula": "K2O5S2",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/16731-55-8 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General substance only; food grade and preservative suitability unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16731-55-8",
+        "cas": "16731-55-8",
+        "pubchem_cid": 28019,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "borkosav-l-food",
@@ -287,7 +319,15 @@
       "pubchem_candidate_cid": 263,
       "pubchem_candidate_formula": "C4H10O",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/71-36-3 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General 1-butanol, distinct from isobutanol; supplier grade unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71-36-3",
+        "cas": "71-36-3",
+        "pubchem_cid": 263,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "butil-diglikol-industrial",
@@ -302,7 +342,15 @@
       "pubchem_candidate_cid": 8177,
       "pubchem_candidate_formula": "C8H18O3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/112-34-5 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General solvent concept only; commercial quality unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/112-34-5",
+        "cas": "112-34-5",
+        "pubchem_cid": 8177,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "butil-glikol-industrial",
@@ -504,7 +552,15 @@
       "pubchem_candidate_cid": 8117,
       "pubchem_candidate_formula": "C4H10O3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/111-46-6 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General substance; offered grade and batch unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/111-46-6",
+        "cas": "111-46-6",
+        "pubchem_cid": 8117,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "dikalium-hidrogen-foszfat-food",
@@ -647,7 +703,15 @@
       "pubchem_candidate_cid": 8857,
       "pubchem_candidate_formula": "C4H8O2",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/141-78-6 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General ethyl acetate; recovered-source grade and purity unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/141-78-6",
+        "cas": "141-78-6",
+        "pubchem_cid": 8857,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "etkezesi-so-food",
@@ -685,7 +749,15 @@
       "pubchem_candidate_cid": 1004,
       "pubchem_candidate_formula": "H3O4P",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/7664-38-2 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General orthophosphoric acid; 75/85 percent and food grade unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7664-38-2",
+        "cas": "7664-38-2",
+        "pubchem_cid": 1004,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "foszforsav-75-industrial",
@@ -700,7 +772,15 @@
       "pubchem_candidate_cid": 1004,
       "pubchem_candidate_formula": "H3O4P",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/7664-38-2 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General orthophosphoric acid; 75 percent aqueous solution unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7664-38-2",
+        "cas": "7664-38-2",
+        "pubchem_cid": 1004,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "glicerin-99-5-food",
@@ -875,7 +955,15 @@
       "pubchem_candidate_cid": 10112,
       "pubchem_candidate_formula": "CCaO3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/471-34-1 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General CaCO3; food-grade purity and supplier documentation unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/471-34-1",
+        "cas": "471-34-1",
+        "pubchem_cid": 10112,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "kalcium-klorid-2025-oldat-deicing",
@@ -1035,7 +1123,15 @@
       "pubchem_candidate_cid": 4875,
       "pubchem_candidate_formula": "IK",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/7681-11-0 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General KI; feed/additive authorization and supplier grade unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7681-11-0",
+        "cas": "7681-11-0",
+        "pubchem_cid": 4875,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "kalium-karbonat-industrial",
@@ -1050,7 +1146,15 @@
       "pubchem_candidate_cid": 11430,
       "pubchem_candidate_formula": "CK2O3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/584-08-7 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General K2CO3; offered industrial grade unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/584-08-7",
+        "cas": "584-08-7",
+        "pubchem_cid": 11430,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "kalium-tripolifoszfat-food",
@@ -1756,7 +1860,15 @@
       "pubchem_candidate_cid": 10340,
       "pubchem_candidate_formula": "CNa2O3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/497-19-8 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General salt; light soda ash bulk density specification unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/497-19-8",
+        "cas": "497-19-8",
+        "pubchem_cid": 10340,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "natrium-karbonat-nehez-industrial",
@@ -1771,7 +1883,15 @@
       "pubchem_candidate_cid": 10340,
       "pubchem_candidate_formula": "CNa2O3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/497-19-8 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General salt; heavy soda ash bulk density specification unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/497-19-8",
+        "cas": "497-19-8",
+        "pubchem_cid": 10340,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
@@ -1891,7 +2011,15 @@
       "pubchem_candidate_cid": 24436,
       "pubchem_candidate_formula": "Na2O4S",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/7757-82-6 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General sulfate salt; anhydrous/hydrate form and offered grade unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7757-82-6",
+        "cas": "7757-82-6",
+        "pubchem_cid": 24436,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "natrium-tripolifoszfat-industrial",
@@ -1936,7 +2064,15 @@
       "pubchem_candidate_cid": 1032,
       "pubchem_candidate_formula": "C3H6O2",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-23 NIH PubChem general substance identity https://pubchem.ncbi.nlm.nih.gov/compound/79-09-4 crosschecked for CAS, name and formula. Not a verified RMT supplier grade, batch, SDS/TDS/CoA, legal use or concentration. General propionic acid; 99 percent and feed-use suitability unverified",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/79-09-4",
+        "cas": "79-09-4",
+        "pubchem_cid": 1032,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "rez-klorid-dihidrat-industrial",
