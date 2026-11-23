@@ -33,6 +33,37 @@ EXPECTED = {
     "natrium-hidrogen-karbonat-szodabikarbona-food": (767, 516892, "144-55-8", "CHNaO3"),
     "magnezium-szulfat-industrial": (1639, 24083, "7487-88-9", "MgO4S"),
 }
+# Second independently cross-checked PubChem CAS/name/formula batch, no seller approval.
+EXPECTED.update({
+    "aceton-technikai-regeneralt-industrial": (180, 180, "67-64-1", "C3H6O"),
+    "etkezesi-so-food": (5234, 5234, "7647-14-5", "ClNa"),
+    "sotabletta-industrial": (5234, 5234, "7647-14-5", "ClNa"),
+    "utszoro-so-deicing": (5234, 5234, "7647-14-5", "ClNa"),
+    "vakuum-so-industrial": (5234, 5234, "7647-14-5", "ClNa"),
+    "metanol-technikai-regeneralt-industrial": (887, 887, "67-56-1", "CH4O"),
+    "monoetilen-glikol-industrial": (174, 174, "107-21-1", "C2H6O2"),
+    "monopropilenglikol-industrial": (1030, 1030, "57-55-6", "C3H8O2"),
+    "izopropil-alkohol-technikai-regeneralt-industrial": (3776, 3776, "67-63-0", "C3H8O"),
+    "hidrogen-peroxid-35-50-60-industrial": (784, 784, "7722-84-1", "H2O2"),
+    "kensav-32-37-50-9597-industrial": (1118, 1118, "7664-93-9", "H2O4S"),
+    "monoetanolamin-industrial": (700, 700, "141-43-5", "C2H7NO"),
+    "glicin-industrial": (750, 750, "56-40-6", "C2H5NO2"),
+    "butil-glikol-industrial": (8133, 8133, "111-76-2", "C6H14O2"),
+    "ecetsavanhidrid-industrial": (7918, 7918, "108-24-7", "C4H6O3"),
+    "ciklohexanon-industrial": (7966, 7967, "108-94-1", "C6H10O"),
+    "karbamid-ipari-kezeletlen-industrial": (1176, 1176, "57-13-6", "CH4N2O"),
+    "kalium-hidroxid-oldat-21-45-4850-industrial": (14797, 14797, "1310-58-3", "HKO"),
+    "kalium-hidroxid-pikkelyes-industrial": (14797, 14797, "1310-58-3", "HKO"),
+    "magnezium-oxid-feed": (14792, 14792, "1309-48-4", "MgO"),
+    "magnezium-oxid-nehez-industrial": (14792, 14792, "1309-48-4", "MgO"),
+    "cink-oxid-industrial": (14806, 14806, "1314-13-2", "OZn"),
+    "cink-klorid-feed": (5727, 5727, "7646-85-7", "Cl2Zn"),
+    "cink-klorid-vizmentes-industrial": (5727, 5727, "7646-85-7", "Cl2Zn"),
+    "borsav-industrial": (7628, 7628, "10043-35-3", "BH3O3"),
+    "ioncserelt-viz-industrial": (962, 962, "7732-18-5", "H2O"),
+    "maleinsav-industrial": (723, 444266, "110-16-7", "C4H4O4"),
+})
+
 errors: list[str] = []
 if len(CATALOGUE) != 127 or len(REGISTRY.get("entities", [])) != 127:
     errors.append("Unexpected catalogue/registry size")
@@ -42,7 +73,7 @@ if set(evidence) != set(EXPECTED):
     errors.append("General-source references have unreviewed or missing entries")
 if RESEARCH.get("commercial_grade_verified") != 0:
     errors.append("Supplier grade was incorrectly approved by general references")
-if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 114:
+if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 87:
     errors.append("Full catalogue research coverage misrepresented")
 for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     item = entries.get(pid, {})
@@ -96,6 +127,8 @@ for pid in ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"):
     e = entries.get(pid, {})
     if e.get("wikidata_qid") or e.get("wikidata_label"):
         errors.append(f"{pid}: unapproved or mismatched hydrate Wikidata sameAs")
+if len(EXPECTED) != 40 or len({x["cid"] for x in RESEARCH["entries"]}) != 32:
+    errors.append("General compound review must contain 40 families and 32 distinct CIDs")
 if len(ROWS) != 369:
     errors.append(f"Source register unexpected row count: {len(ROWS)}")
 print(f"Primary substance research: {len(EXPECTED)} general concepts crosschecked, "
