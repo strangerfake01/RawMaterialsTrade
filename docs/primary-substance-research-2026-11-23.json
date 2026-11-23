@@ -3,8 +3,8 @@
   "document_type": "independent_primary_source_research_register",
   "review_scope": "general_substance_identity_only",
   "total_catalogue_families": 127,
-  "general_substance_references_crosschecked": 101,
-  "other_catalogue_families_not_yet_independently_verified": 26,
+  "general_substance_references_crosschecked": 103,
+  "other_catalogue_families_not_yet_independently_verified": 24,
   "commercial_grade_verified": 0,
   "external_source_types": [
     "NIH_NLM_PubChem",
@@ -1190,6 +1190,30 @@
       "previous_candidate_cid": 24826,
       "scope": "general_substance_only_not_offered_grade",
       "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "mangan-ii-szulfat-monohidrat-industrial",
+      "name": "Manganese(II) sulfate monohydrate",
+      "cas": "10034-96-5",
+      "cid": 177577,
+      "formula": "H2MnO5S",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/177577",
+      "note": "CAS 10034-96-5 describes MnSO4·H2O, not anhydrous MnSO4; technical material and grade require independent supplier evidence.",
+      "previous_candidate_cid": 24580,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "mangan-szulfat-monohidrat-feed",
+      "name": "Manganese(II) sulfate monohydrate",
+      "cas": "10034-96-5",
+      "cid": 177577,
+      "formula": "H2MnO5S",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/177577",
+      "note": "CAS 10034-96-5 describes MnSO4·H2O, not anhydrous MnSO4; feed-grade authorization and lot documentation not verified.",
+      "previous_candidate_cid": 24580,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
     }
   ],
   "rejected_legacy_automatic_pubchem_match_count": 8,
@@ -1204,5 +1228,5 @@
     "rez-klorid-dihidrat-industrial"
   ],
   "quarantine_note": "The remaining 10 wrong ion/hydrate/molecule automatic PubChem candidates are NULL in entity-registry and must not be approved without form-specific independent source evidence. Four previously quarantined ion-only source mappings were separately reconciled on 2026-11-23 to official general molecule records, NOT supplier-grade certification.",
-  "unique_general_compound_cids_crosschecked": 84
+  "unique_general_compound_cids_crosschecked": 85
 }
