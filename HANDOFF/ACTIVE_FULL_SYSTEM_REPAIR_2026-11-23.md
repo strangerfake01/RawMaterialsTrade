@@ -149,3 +149,10 @@ Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no war
 - Inserted full reciprocal 4-language-alternate set into the three AI Trust pages. Added self `og:url` to all six affected pages.
 - Updated exactly six page `dateModified` fields and six sitemap `lastmod` fields to 2026-11-23, reflecting the changes.
 - No security, Worker, Turnstile, CSP, supplier names or product-master data modified. STATUS: FIXED ON BRANCH, CI pending; remaining browser/consent/production/GSC gates untouched.
+
+### 2026-11-23 — Batch 7: AI Trust snippet completeness
+
+- 408-route metadata CI became GREEN after Batch 6: static release run 45136632837; three other checks also green.
+- Spot-review of AI Trust page metadata found that the EN/HU/DE-AT meta descriptions were mechanically truncated mid-sentence or mid-word despite passing the structural presence check. Replaced all three with completed, truthful short descriptions in the corresponding language; unchanged page body and security.
+- Added precise Trust Center meta-description completion guard to the existing 408-route audit; no broad changes to rankings, content policies or consent.
+- Pending next CI. Privacy/consent E2E and exact-live remains unverified; do not submit GSC or delete journal yet.

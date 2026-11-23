@@ -78,6 +78,9 @@ def main():
             errors.append((rel, "missing or duplicated meta description"))
         else:
             descriptions[descs[0].strip().casefold()].append(rel)
+            if rel in {"ai-trust-center.html", "hu-ai-bizalmi-kozpont.html",
+                       "de-at-ai-vertrauenszentrum.html"} and not descs[0].rstrip().endswith("."):
+                errors.append((rel, "trust-center meta description appears truncated"))
             if len(descs[0].strip()) < 65:
                 notes.append((rel, "short meta description"))
         expected_lang = ("hu" if rel.startswith("hu-") or rel == "hu.html" else
