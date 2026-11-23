@@ -34,7 +34,7 @@ jobs:
         run: python3 tools/audit_homepage_catalogue_count.py
       - name: Verify three-language manufacturer partnership qualification intent
         run: python3 tools/audit_manufacturer_intent.py
-      - name: Audit 408-route SEO AEO metadata and HTML/sitemap hreflang parity
+      - name: Audit all indexed SEO AEO metadata and HTML/sitemap hreflang parity
         run: python3 tools/audit_search_surface.py
       - name: Guard 3L privacy consent withdrawal and preconsent analytics loading
         run: python3 tools/audit_consent_source.py
@@ -50,17 +50,17 @@ jobs:
         run: python3 tools/audit_ai_claim_contract.py
       - name: Check three-language B2B procurement journey and quotation requirements
         run: python3 tools/audit_procurement_journey.py
-      - name: Check buyer and supplier paths across 378 product pages
+      - name: Check buyer and supplier paths across all localized product pages
         run: python3 tools/audit_product_procurement_paths.py
-      - name: Audit chemical search landing-page identities across 378 URLs
+      - name: Audit all localized chemical search landing-page identities
         run: python3 tools/audit_chemical_search_landing.py
       - name: Check multilingual product alternative links
         run: python3 tools/audit_product_alternatives.py
       - name: Audit Wikidata and multilingual Wikipedia candidate coverage
         run: python3 tools/audit_wikidata_wikipedia_coverage.py
-      - name: Prevent unreviewed chemical identity claims in 378 product schemas
+      - name: Prevent unreviewed chemical identity claims in all product schemas
         run: python3 tools/audit_public_chemical_identity.py
-      - name: Enforce batch-specific CoA caveats on 378 multilingual pages
+      - name: Enforce batch-specific CoA caveats on all localized product pages
         run: python3 tools/audit_supplier_coa_status.py
       - name: Inventory unsupported packaging, concentration and document promises
         run: python3 tools/audit_public_product_claims.py
