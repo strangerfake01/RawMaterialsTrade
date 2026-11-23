@@ -14,6 +14,15 @@ async function main() {
     ['privacy-en.html', 'en'],
     ['privacy-hu.html', 'hu'],
     ['privacy-de-at.html', 'de-AT'],
+    ['index.html', 'en'],
+    ['hu.html', 'hu'],
+    ['de-at.html', 'de-AT'],
+    ['en-glicerin-99-5-food.html', 'en'],
+    ['hu-glicerin-99-5-food.html', 'hu'],
+    ['de-at-glicerin-99-5-food.html', 'de-AT'],
+    ['sales-representation-distribution-partner-central-europe.html', 'en'],
+    ['hu-ertekesitesi-kepviselet-disztribucios-partner.html', 'hu'],
+    ['de-at-vertriebspartner-distribution-chemierohstoffe.html', 'de-AT'],
   ];
   mkdirSync('consent-screenshots', {recursive: true});
   try {
