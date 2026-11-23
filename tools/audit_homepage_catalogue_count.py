@@ -29,6 +29,15 @@ def main() -> int:
         values = re.findall(pattern, html)
         if values != [str(expected)]:
             errors.append(f"{filename}: expected one {expected} count for {label}; got {values}")
+    localised_overview = {"index.html": f"The full {expected}-product portfolio",
+                          "hu.html": f"A {expected} termékből álló teljes portfólió",
+                          "de-at.html": f"Das vollständige Portfolio mit {expected} Produkten"}
+    for filename, phrase in localised_overview.items():
+        html = (ROOT / filename).read_text(encoding="utf-8")
+        if phrase not in html:
+            errors.append(f"{filename}: catalogue overview paragraph count does not match {expected}")
+        if re.search(r'(?<![0-9])126(?![0-9])', html):
+            errors.append(f"{filename}: a stale legacy product count remains")
     for filename in ("en-catalogue.html", "hu-termekkatalogus.html", "de-at-produktkatalog.html"):
         html = (ROOT / filename).read_text(encoding="utf-8")
         results = re.findall(r'<span id="resultCount">(\d+)</span>', html)
