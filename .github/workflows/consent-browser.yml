@@ -11,6 +11,11 @@ on:
       - "assets/css/a11y-fixes.v3.css"
       - "tools/audit_consent_source.py"
       - "tools/test_cookie_consent_browser.cjs"
+      - "tools/test_rfq_browser.cjs"
+      - "assets/js/site.v20261108.js"
+      - "sales-representation-distribution-partner-central-europe.html"
+      - "hu-ertekesitesi-kepviselet-disztribucios-partner.html"
+      - "de-at-vertriebspartner-distribution-chemierohstoffe.html"
       - ".github/workflows/consent-browser.yml"
   workflow_dispatch:
 
@@ -36,6 +41,8 @@ jobs:
           echo $! > /tmp/rmt-browser-http.pid
       - name: Test opt-in, opt-out, withdrawal and absence of premature GA traffic
         run: node tools/test_cookie_consent_browser.cjs
+      - name: Test six role-separated B2B enquiries with mocked Cloudflare / Worker
+        run: node tools/test_rfq_browser.cjs
       - name: Upload public-page UI evidence on failure
         if: failure()
         uses: actions/upload-artifact@v4
