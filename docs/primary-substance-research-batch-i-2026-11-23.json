@@ -1,0 +1,113 @@
+{
+  "review_date": "2026-11-23",
+  "batch": "I",
+  "review_scope": "General NIH PubChem CAS/compound/protonation only, NOT material for commercial offer",
+  "family_count": 8,
+  "supplier_lots_verified": 0,
+  "entries": [
+    {
+      "id": "dikalium-hidrogen-foszfat-food",
+      "name": "Dipotassium hydrogen phosphate",
+      "cas": "7758-11-4",
+      "cid": 24450,
+      "formula": "HK2O4P",
+      "old": 24450,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24450",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "General K2HPO4, does not establish food-grade or regulatory compliance."
+    },
+    {
+      "id": "dinatrium-pirofoszfat-food",
+      "name": "Disodium dihydrogen pyrophosphate",
+      "cas": "7758-16-9",
+      "cid": 24451,
+      "formula": "H2Na2O7P2",
+      "old": 24451,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24451",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "General Na2H2P2O7 (acid pyrophosphate), not approved food-additive grade."
+    },
+    {
+      "id": "dinatriumfoszfat-industrial",
+      "name": "Disodium hydrogen phosphate",
+      "cas": "7558-79-4",
+      "cid": 24203,
+      "formula": "HNa2O4P",
+      "old": 24203,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24203",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "General dibasic Na2HPO4 identity, hydrate and offer not verified."
+    },
+    {
+      "id": "dinatriumpirofoszfat-industrial",
+      "name": "Disodium dihydrogen pyrophosphate",
+      "cas": "7758-16-9",
+      "cid": 24451,
+      "formula": "H2Na2O7P2",
+      "old": 24451,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24451",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "General sodium acid pyrophosphate only, technical grade not verified."
+    },
+    {
+      "id": "monokalium-foszfat-industrial",
+      "name": "Monopotassium dihydrogen phosphate",
+      "cas": "7778-77-0",
+      "cid": 24506,
+      "formula": "H2KO4P",
+      "old": 24506,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24506",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "General monobasic KH2PO4, technical grade not verified."
+    },
+    {
+      "id": "mononatrium-foszfat-industrial",
+      "name": "Monosodium dihydrogen phosphate",
+      "cas": "7558-80-7",
+      "cid": 24204,
+      "formula": "H2NaO4P",
+      "old": 24204,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24204",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "General monobasic NaH2PO4, purity and hydrated form not verified."
+    },
+    {
+      "id": "mangan-karbonat-industrial",
+      "name": "Manganese(II) carbonate",
+      "cas": "598-62-9",
+      "cid": 11726,
+      "formula": "CMnO3",
+      "old": 11726,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11726",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "General MnCO3, no proof of commercial grade or heavy-metal limits."
+    },
+    {
+      "id": "vas-iii-klorid-40-oldat-industrial",
+      "name": "Iron(III) chloride",
+      "cas": "7705-08-0",
+      "cid": 24380,
+      "formula": "Cl3Fe",
+      "old": 24380,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24380",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "General FeCl3 identity, does not prove availability of a 40 percent solution."
+    }
+  ]
+}
