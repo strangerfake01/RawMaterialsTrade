@@ -57,6 +57,8 @@ for path in root.glob('*.html'):
             errors.append('Rejected exact identity appears on variable-family page: ' + path.name)
         if '<dl class="product-dl">' not in source:
             errors.append('Variable-family procurement detail missing on page: ' + path.name)
+    if material_id == 'rez-klorid-dihidrat-industrial' and re.search(r'Cl2CuH2O|152\.46|16219111', source):
+        errors.append('Rejected one-water copper chloride data on a dihydrate page: ' + path.name)
     if status.get(material_id) not in ('needs-confirmation', 'needs-independent-verification'):
         continue
     for script in re.findall(r'<script\b[^>]*type=["\x27]application/ld\+json["\x27][^>]*>(.*?)</script>', source, re.I | re.S):
