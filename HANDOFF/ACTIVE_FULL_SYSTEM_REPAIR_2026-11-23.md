@@ -136,3 +136,9 @@ Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no war
 - Added `tools/audit_manufacturer_intent.py` to static CI to detect duplication, missing buyer/supplier distinction, false promise boundaries and localized process labels.
 - Sensitive customer/supplier identities, internal contracts, prices, bank details and correspondence were **not** published. Cloudflare Worker/Turnstile/CSP and product-master fail-closed workflow remain unchanged.
 - Status: FIXED ON BRANCH; CI verification and visual/live audit pending. The existing PR stays draft and `main` unchanged.
+
+### 2026-11-23 — Batch 5: full sitemap SEO/AEO metadata audit
+
+- Added `tools/audit_search_surface.py` as a read-only full sitemap traversal: HTML language, title/description, mobile viewport, indexability, HTML-vs-XML hreflang and OG URL quality, duplicate title/description inventory. CI blocks on objective structural violations; advisory notes do not claim Google ranking outcomes.
+- Covers the *current* live-source sitemap set (408 URLs in this snapshot), never hardcodes outdated product totals.
+- No external form posts, no private commerce content, no security changes. Status: **PENDING CI**, then inspect results and correct root causes.
