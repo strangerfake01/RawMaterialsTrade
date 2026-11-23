@@ -126,6 +126,18 @@ EXPECTED.update({
     "meszhidrat-15-industrial": (14777, 14777, "1305-62-0", "CaH2O2"),
 })
 
+# Batch I primary PubChem salt/protonation evidence, never supplier approvals.
+EXPECTED.update({
+    "dikalium-hidrogen-foszfat-food": (24450, 24450, "7758-11-4", "HK2O4P"),
+    "dinatrium-pirofoszfat-food": (24451, 24451, "7758-16-9", "H2Na2O7P2"),
+    "dinatriumfoszfat-industrial": (24203, 24203, "7558-79-4", "HNa2O4P"),
+    "dinatriumpirofoszfat-industrial": (24451, 24451, "7758-16-9", "H2Na2O7P2"),
+    "monokalium-foszfat-industrial": (24506, 24506, "7778-77-0", "H2KO4P"),
+    "mononatrium-foszfat-industrial": (24204, 24204, "7558-80-7", "H2NaO4P"),
+    "mangan-karbonat-industrial": (11726, 11726, "598-62-9", "CMnO3"),
+    "vas-iii-klorid-40-oldat-industrial": (24380, 24380, "7705-08-0", "Cl3Fe"),
+})
+
 errors: list[str] = []
 if len(CATALOGUE) != 127 or len(REGISTRY.get("entities", [])) != 127:
     errors.append("Unexpected catalogue/registry size")
@@ -135,7 +147,7 @@ if set(evidence) != set(EXPECTED):
     errors.append("General-source references have unreviewed or missing entries")
 if RESEARCH.get("commercial_grade_verified") != 0:
     errors.append("Supplier grade was incorrectly approved by general references")
-if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 45:
+if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 37:
     errors.append("Full catalogue research coverage misrepresented")
 for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     item = entries.get(pid, {})
@@ -189,8 +201,8 @@ for pid in ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"):
     e = entries.get(pid, {})
     if e.get("wikidata_qid") or e.get("wikidata_label"):
         errors.append(f"{pid}: unapproved or mismatched hydrate Wikidata sameAs")
-if len(EXPECTED) != 82 or len({x["cid"] for x in RESEARCH["entries"]}) != 67:
-    errors.append("General compound review must contain 82 families and 67 distinct CIDs")
+if len(EXPECTED) != 90 or len({x["cid"] for x in RESEARCH["entries"]}) != 74:
+    errors.append("General compound review must contain 90 families and 74 distinct CIDs")
 # Multi-hydrate parent families deliberately remain outside approved single-CID
 # references. Two sourced variants are not proof of one offered commercial product.
 groups = VARIANT_SOURCES.get("groups") or {}
