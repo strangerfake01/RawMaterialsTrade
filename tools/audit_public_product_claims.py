@@ -51,4 +51,16 @@ if missing:
     print("ERROR missing product pages:", ", ".join(missing[:10]))
     sys.exit(1)
 print("NOTE: claim matches are review candidates, not independent evidence of falsehood or compliance.")
-# Report-only until each product's provenance is established; do not silently invent replacement values.
+# The user-approved evidence boundary makes these specific classes release blockers.
+# Grade/form semantic candidates remain inventory-only: a form label is not proof
+# of an unverified chemical specification or an invalid offered grade.
+blocked = (
+    "blanket_sds", "fixed_packaging_orientation",
+    "unqualified_document_promise", "supplier_documents_assumed",
+)
+violations = {name: counts[name] for name in blocked if counts[name]}
+if violations:
+    print("BLOCKING unsupported supplier promises:", violations)
+    sys.exit(1)
+# No automatic mutation of ambiguous chemical identities or specialist fields.
+
