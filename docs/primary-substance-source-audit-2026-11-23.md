@@ -5,7 +5,7 @@
 ## Scope, method and distinction
 
 - Reviewed the 127-family canonical catalogue, `entity-registry.json` and the public 369-entry `HANDOFF/SOURCE-REGISTER.csv`. Cross-checked selected identity claims directly against original NLM/PubChem substance pages, ECHA regulatory references and EUR-Lex legal text.
-- **61/127 catalogue family entries** now have an independently checked **general chemical-substance reference** (49 distinct general PubChem concepts). The other **66 are still pending source-by-source verification**. No product batch, supplier, offered grade, purity, storage, delivery, SDS/TDS/CoA document or food/feed use is confirmed by this audit.
+- **65/127 catalogue family entries** now have an independently checked **general chemical-substance reference** (52 distinct general PubChem concepts). The other **62 are still pending source-by-source verification**. No product batch, supplier, offered grade, purity, storage, delivery, SDS/TDS/CoA document or food/feed use is confirmed by this audit.
 - The old source register misleadingly showed **120 Wikidata source rows with `verified` status** without human independent evidence: 118 were downgraded, two borax hydrate candidate links were removed; the generic Borax Wikipedia links were also withheld because they do not identify the exact hydrate. **No `ChemicalSubstance.sameAs` approvals** were introduced.
 - The PubChem source may describe a molecule, parent salt, ion, hydrate, solution or standardization convention. CAS/EC/name/form/formula must agree *at the same specificity*. Automated `CAS → first CID` matching is unsafe; never promote it into a verified offered material or publish an approximate commercial specification.
 
@@ -96,7 +96,7 @@ The **source register and candidate mapping**, not the supplier's actual batch, 
 - Sodium bicarbonate was mapped to `767`, a parent carbonic acid concept, on two families.
 - Magnesium sulfate was mapped to `1639`, a different organic formula.
 
-The 61 reviewed registry entries now use independently checked **general reference candidates only**. Rejected CID mappings have not been retained as public truth. The current source-register state is intentionally not `verified` for a supplier's product.
+The 65 reviewed registry entries now use independently checked **general reference candidates only**. Rejected CID mappings have not been retained as public truth. The current source-register state is intentionally not `verified` for a supplier's product.
 
 ## Regulatory source and safety caveats
 
@@ -114,13 +114,13 @@ The source-formula versus automated candidate comparison raised other substantia
 4. **Nitric acid and hydrochloric acid**: historical candidates point to constituent anions (`943` nitrate, `312` chloride), not the full acids. See [nitric acid CID 944](https://pubchem.ncbi.nlm.nih.gov/compound/7697-37-2) and [hydrochloric acid CID 313](https://pubchem.ncbi.nlm.nih.gov/compound/7647-01-0). No promise of 20/50/60% mixtures, pharmacopoeial grades or batch composition follows from those records.
 5. **Mixed hydrate/solution forms** (citric acid, zinc sulfate, copper sulfate, magnesium chloride, EDTA Na2/Na4): multiple hydrated or ionic species may share a parent concept; review form-specific CAS and the supplier's SDS/TDS before publication of a `sameAs` or a purity/grade assertion.
 
-## Rejected candidate quarantine — 14 additional catalogue family records
+## Originally rejected source candidates — 10 still quarantined
 
-The further formula/species screen detected and **removed** 14 unsafe legacy PubChem candidate links from the public research register and from the unapproved `entity-registry.json` candidate fields. No replacement molecule or supplier material was asserted. The rejected groups were: calcium chloride (3), magnesium chloride (2), sodium benzoate (1), nitric acid (1), hydrochloric acid (2), zinc sulfate with hydrate variants (2), copper chloride dihydrate (1), potassium iodate (1), and elemental sulfur (1).
+The further formula/species screen originally **rejected 14 unsafe legacy PubChem candidate links** from the source register and the unapproved `entity-registry.json` candidate fields. After separate NIH PubChem CAS/formula checks, **four of these** (sodium benzoate, nitric acid, two HCl catalogue entries) were replaced with source-supported **general substance references only**. **Ten remain quarantined**, specifically calcium chloride (3), magnesium chloride (2), zinc sulfate hydrate variants (2), copper chloride dihydrate (1), potassium iodate (1), and elemental sulfur (1). No supplier material has been approved.
 
-For these records the old candidate IDs often represented free Ca²⁺/Mg²⁺/Cl⁻/NO₃⁻/benzoate ions, an anhydrous salt without hydration, or an unrelated organic molecule. The `pubchem_candidate_cid` and `pubchem_candidate_formula` fields are now `null`, and their old source-register rows have `RejectedCandidate`, no misleading URL and explicit non-approval status. This is **not** proof of the correct alternative or of offered material; each remains among the 66 pending family entries. Source examples: [CaCl2](https://pubchem.ncbi.nlm.nih.gov/compound/10043-52-4) versus [CaCl2·2H2O](https://pubchem.ncbi.nlm.nih.gov/compound/6093260); [MgCl2·6H2O](https://pubchem.ncbi.nlm.nih.gov/compound/24644); [sodium benzoate](https://pubchem.ncbi.nlm.nih.gov/compound/532-32-1); [nitric acid](https://pubchem.ncbi.nlm.nih.gov/compound/7697-37-2); [hydrochloric acid](https://pubchem.ncbi.nlm.nih.gov/compound/7647-01-0). No solution strength or grade has been approved.
+For the **ten still quarantined records**, the old candidates represented a free calcium/magnesium ion, an anhydrous salt instead of a hydrate, or an unrelated molecule. Their `pubchem_candidate_cid` and `pubchem_candidate_formula` remain `null`, and their source-register rows use `RejectedCandidate` with no misleading URL. The prior nitrate, chloride and benzoate-ion errors now have distinct general compound references backed by PubChem. This is **not** proof of the correct alternative or of offered material; each remains among the 62 pending family entries. Source examples: [CaCl2](https://pubchem.ncbi.nlm.nih.gov/compound/10043-52-4) versus [CaCl2·2H2O](https://pubchem.ncbi.nlm.nih.gov/compound/6093260); [MgCl2·6H2O](https://pubchem.ncbi.nlm.nih.gov/compound/24644); [sodium benzoate](https://pubchem.ncbi.nlm.nih.gov/compound/532-32-1); [nitric acid](https://pubchem.ncbi.nlm.nih.gov/compound/7697-37-2); [hydrochloric acid](https://pubchem.ncbi.nlm.nih.gov/compound/7647-01-0). No solution strength or grade has been approved.
 
-The permanent `tools/audit_primary_source_research.py` CI gate now checks the quarantined candidate entries, the absent wrong source URLs, the 61 independently source-reviewed general concepts and their retained `supplier_evidence_status=unverified`.
+The permanent `tools/audit_primary_source_research.py` CI gate now checks the quarantined candidate entries, the absent wrong source URLs, the 65 independently source-reviewed general concepts and their retained `supplier_evidence_status=unverified`.
 
 ## Important primary-source conflict: copper(II) chloride dihydrate
 
@@ -143,7 +143,7 @@ The 20%, 50%, 60%, 70%, 80%, 99.8%, 85% concentrations, commercial grades, inten
 
 ## Separate form-specific sources for eight unresolved catalogue families
 
-A supplementary `docs/variant-form-primary-sources-2026-11-23.json` documents **four chemical groups with eight PubChem form-level records**, affecting eight different catalogue family routes. These are *not* promoted to an approved single product CID. All eight remain in the **66 pending single-substance/product-family reconciliations**:
+A supplementary `docs/variant-form-primary-sources-2026-11-23.json` documents **four chemical groups with eight PubChem form-level records**, affecting eight different catalogue family routes. These are *not* promoted to an approved single product CID. All eight remain in the **62 pending single-substance/product-family reconciliations**:
 
 | Chemical family | Form | CAS | PubChem CID |
 |---|---|---|---:|
@@ -158,8 +158,19 @@ A supplementary `docs/variant-form-primary-sources-2026-11-23.json` documents **
 
 The previous legacy calcium-ion (CID 271), magnesium-ion (CID 888) and anhydrous zinc-sulfate (CID 24424) links are **not equivalent** to their commercial hydrate form. Even when the pure form can be identified from NLM PubChem, no record confirms that RMT can supply it, a given percentage solution is available, or food/feed/technical compliance has been met. A product family containing multiple CAS variants must never be collapsed to one molecule in Schema.org `sameAs`. This is now a specific CI regression invariant.
 
+## Fifth source-review batch — four formerly quarantined ion-only candidates resolved at general-substance level
+
+| Request family | Rejected source CID | NIH/NLM PubChem full compound | Source |
+|---|---:|---|---|
+| Sodium benzoate — granular request | 242 (benzoate ion) | **517055**, sodium benzoate (CAS 532-32-1) | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/532-32-1) |
+| Nitric acid — solution requests | 943 (nitrate ion) | **944**, nitric acid (CAS 7697-37-2) | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/7697-37-2) |
+| HCl — pharmacopoeial request | 312 (chloride ion) | **313**, hydrogen chloride/hydrochloric acid parent (CAS 7647-01-0) | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/7647-01-0) |
+| HCl — technical/regenerated request | 312 (chloride ion) | **313**, hydrogen chloride/hydrochloric acid parent (CAS 7647-01-0) | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/7647-01-0) |
+
+The CAS and molecular identities are independently source-supported. This **does not establish** the supplier's 20–60% nitric acid range, hydrochloric acid concentration, pharmacopeial specification, regenerated process, granular particle size, food additive legal eligibility, storage or transport compliance. `docs/primary-substance-research-batch-e-2026-11-23.json` retains the four source checks and former wrong candidates. Corresponding public source-register evidence status stays `needs-independent-verification`, not commercially verified.
+
 ## Publication boundary and acceptance
 
-Public source references can support **general chemical education and product-request identification** only. They cannot establish current RMT supplier details, grade, SDS/TDS/CoA availability, restricted-use compliance or shipment conditions. The default rule is **withhold until reliable proof**, confirm privately after contact and maintain the protected RFQ process. The remaining 66 catalogue families require independent concept-by-concept verification before any reference can be called independently cross-checked; **0/127 supplier offers have been authenticated** in this audit.
+Public source references can support **general chemical education and product-request identification** only. They cannot establish current RMT supplier details, grade, SDS/TDS/CoA availability, restricted-use compliance or shipment conditions. The default rule is **withhold until reliable proof**, confirm privately after contact and maintain the protected RFQ process. The remaining 62 catalogue families require independent concept-by-concept verification before any reference can be called independently cross-checked; **0/127 supplier offers have been authenticated** in this audit.
 
 The #52 PR remains DRAFT and NOT LIVE until independent real Worker/Turnstile/inbox E2E, legal and chemistry review where applicable, production exact SHA readback and post-release GSC acceptance are complete.
