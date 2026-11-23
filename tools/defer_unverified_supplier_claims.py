@@ -70,6 +70,11 @@ FORBIDDEN_PACKAGING = tuple(x["faq_marker"] for x in CFG.values())
 def replace_doc_dd(html: str, label: str, replacement: str, route: str) -> str:
     pattern = re.compile(r'(<dt>' + re.escape(label) + r'</dt><dd>)(.*?)(</dd>)', re.S)
     matches = list(pattern.finditer(html))
+    # Existing pages use either a generic "CoA status" field or the more
+    # specific, already verified request-only "CoA / batch evidence" block.
+    # Do not add or replace the latter; it is guarded by a separate CI test.
+    if len(matches) == 0 and label in ("CoA status", "CoA státusz", "CoA-Status"):
+        return html
     if len(matches) != 1:
         raise ValueError(f"{route}: expected one {label} in product detail, found {len(matches)}")
     return pattern.sub(lambda m: m.group(1) + replacement + m.group(3), html, count=1)
