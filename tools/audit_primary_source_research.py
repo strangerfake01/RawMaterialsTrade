@@ -27,6 +27,11 @@ EXPECTED = {
     "ammonia-oldat-24-industrial": (222, 14923, "1336-21-6", "H5NO"),
     "copper-oxide-feed": (164827, 164827, "1317-38-0", "CuO"),
     "glicerin-99-5-food": (753, 753, "56-81-5", "C3H8O3"),
+    "natrium-hidroxid-mikrogyongy-pikkelyes-industrial": (7303, 14798, "1310-73-2", "HNaO"),
+    "natrium-hidroxid-oldat-4850-industrial": (7303, 14798, "1310-73-2", "HNaO"),
+    "natrium-hidrogen-karbonat-industrial": (767, 516892, "144-55-8", "CHNaO3"),
+    "natrium-hidrogen-karbonat-szodabikarbona-food": (767, 516892, "144-55-8", "CHNaO3"),
+    "magnezium-szulfat-industrial": (1639, 24083, "7487-88-9", "MgO4S"),
 }
 errors: list[str] = []
 if len(CATALOGUE) != 127 or len(REGISTRY.get("entities", [])) != 127:
@@ -37,7 +42,7 @@ if set(evidence) != set(EXPECTED):
     errors.append("General-source references have unreviewed or missing entries")
 if RESEARCH.get("commercial_grade_verified") != 0:
     errors.append("Supplier grade was incorrectly approved by general references")
-if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 119:
+if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 114:
     errors.append("Full catalogue research coverage misrepresented")
 for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     item = entries.get(pid, {})
