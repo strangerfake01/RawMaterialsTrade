@@ -120,3 +120,10 @@ PR #52 branch head `04a4638b6314a4dc56be5826581482b7c63e397e` passed **all four*
 Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no warnings/errors, last fetched 2026-11-12. Editing Blogger is outside the canonical GitHub Pages repository. Do not treat it as repaired or resubmit without Blogger-side verification.
 
 **Resume next:** review any product/category/partner intent gaps from first-party non-confidential evidence and browser audits; make source-root-cause fixes in EN/HU/DE-AT; keep protected Worker/CSP/Turnstile and fail-closed Drive sync unchanged; rerun CI after every batch. `main` remains at bee7be9a27f26c4e18b847424613f0f7aba5b9a4 unless independently updated. Do NOT delete this journal until final production + GSC gates complete.
+
+### 2026-11-23 — Batch 3: complete homepage product count consistency
+
+- Found a remaining stale "126" narrative reference on each localized homepage despite an earlier correction to the visible stat counter. Fixed three texts: `index.html`, `hu.html`, `de-at.html` to 127, aligned with all four product JSON datasets.
+- Extended the existing `tools/audit_homepage_catalogue_count.py` guard to catch future stale prose references in EN/HU/DE-AT.
+- GitHub commits for the fixes: `192cb1a`, `713558d`, `e43afcf`, `6b9b05e`. Pending refreshed CI and production checks.
+- No supplier/customer names, private invoices, commercial terms or source chemical facts were added. No Worker, CSP or Turnstile changes.
