@@ -162,6 +162,13 @@ EXPECTED.update({
     "mangan-szulfat-monohidrat-feed": (24580, 177577, "10034-96-5", "H2MnO5S"),
 })
 
+
+# Batch L: two additional PubChem general references, not commercial identities.
+EXPECTED.update({
+    "magnezium-karbonat-konnyu-nehez-industrial": (11029, 11029, "546-93-0", "CMgO3"),
+    "na-hexametafoszfat-industrial": (24968, 24968, "10124-56-8", "Na6O18P6"),
+})
+
 errors: list[str] = []
 if len(CATALOGUE) != 127 or len(REGISTRY.get("entities", [])) != 127:
     errors.append("Unexpected catalogue/registry size")
@@ -171,7 +178,7 @@ if set(evidence) != set(EXPECTED):
     errors.append("General-source references have unreviewed or missing entries")
 if RESEARCH.get("commercial_grade_verified") != 0:
     errors.append("Supplier grade was incorrectly approved by general references")
-if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 24:
+if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 22:
     errors.append("Full catalogue research coverage misrepresented")
 for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     item = entries.get(pid, {})
@@ -225,14 +232,14 @@ for pid in ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"):
     e = entries.get(pid, {})
     if e.get("wikidata_qid") or e.get("wikidata_label"):
         errors.append(f"{pid}: unapproved or mismatched hydrate Wikidata sameAs")
-if len(EXPECTED) != 103 or len({x["cid"] for x in RESEARCH["entries"]}) != 85:
-    errors.append("General compound review must contain 103 families and 85 distinct CIDs")
+if len(EXPECTED) != 105 or len({x["cid"] for x in RESEARCH["entries"]}) != 87:
+    errors.append("General compound review must contain 105 families and 87 distinct CIDs")
 # Multi-hydrate parent families deliberately remain outside approved single-CID
 # references. Two sourced variants are not proof of one offered commercial product.
 groups = VARIANT_SOURCES.get("groups") or {}
 variant_ids = [pid for g in groups.values() for pid in g.get("family_ids", [])]
-if len(groups) != 4 or len(variant_ids) != 8 or len(set(variant_ids)) != 8:
-    errors.append("Expected 4 general chemical groups and 8 family routes with variant evidence")
+if len(groups) != 9 or len(variant_ids) != 15 or len(set(variant_ids)) != 15:
+    errors.append("Expected 9 general chemical groups and 15 family routes with variant evidence")
 if VARIANT_SOURCES.get("supplier_lots_verified") != 0 or VARIANT_SOURCES.get("commercial_sameas_approved") != 0:
     errors.append("Variant sources cannot assert commercial supplier or sameAs approval")
 for group in groups.values():
@@ -254,6 +261,109 @@ for pid in variant_ids:
         errors.append(f"{pid}: multiple possible CAS/grades must not become single-CID product equivalence")
 if set(variant_ids) & set(EXPECTED):
     errors.append("Multi-variant unresolved families must not be counted as approved single-substance identities")
+
+
+# Newly source-researched variants have an exact CAS, CID and formula for each
+# distinct form. A valid compound reference is not commercial product approval.
+ADDED_FORMS = {
+  "manganese_chloride": [
+    {
+      "form": "anhydrous",
+      "cas": "7773-01-5",
+      "cid": 10313134,
+      "formula": "Cl2Mn",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7773-01-5"
+    },
+    {
+      "form": "tetrahydrate",
+      "cas": "13446-34-9",
+      "cid": 643989,
+      "formula": "Cl2H8MnO4",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/643989"
+    }
+  ],
+  "iron_ii_sulfate": [
+    {
+      "form": "anhydrous",
+      "cas": "7720-78-7",
+      "cid": 24393,
+      "formula": "FeO4S",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7720-78-7"
+    },
+    {
+      "form": "monohydrate",
+      "cas": "17375-41-6",
+      "cid": 62712,
+      "formula": "FeH2O5S",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/17375-41-6"
+    },
+    {
+      "form": "heptahydrate",
+      "cas": "7782-63-0",
+      "cid": 62662,
+      "formula": "FeH14O11S",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/62662"
+    }
+  ],
+  "sodium_acetate": [
+    {
+      "form": "anhydrous",
+      "cas": "127-09-3",
+      "cid": 517045,
+      "formula": "C2H3NaO2",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/127-09-3"
+    },
+    {
+      "form": "trihydrate",
+      "cas": "6131-90-4",
+      "cid": 23665404,
+      "formula": "C2H9NaO5",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6131-90-4"
+    }
+  ],
+  "trisodium_phosphate": [
+    {
+      "form": "anhydrous",
+      "cas": "7601-54-9",
+      "cid": 24243,
+      "formula": "Na3O4P",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24243"
+    },
+    {
+      "form": "dodecahydrate",
+      "cas": "10101-89-0",
+      "cid": 61473,
+      "formula": "H24Na3O16P",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/61473"
+    }
+  ],
+  "edta_sodium_salts": [
+    {
+      "form": "disodium_salt_dihydrate",
+      "cas": "6381-92-6",
+      "cid": 44120005,
+      "formula": "C10H18N2Na2O10",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6381-92-6"
+    },
+    {
+      "form": "tetrasodium_salt_anhydrous",
+      "cas": "64-02-8",
+      "cid": 6144,
+      "formula": "C10H12N2Na4O8",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/64-02-8"
+    }
+  ]
+}
+for form_group, expected_variants in ADDED_FORMS.items():
+    if groups.get(form_group, {}).get("variants") != expected_variants:
+        errors.append(f"{form_group}: verified variant CAS/CID/formula/source regressed")
+if VARIANT_SOURCES.get("source_forms_or_alternative_cids") != 19 or VARIANT_SOURCES.get("family_count_with_variant_research") != 15:
+    errors.append("Variant source records or family totals regressed")
+for form_group in ADDED_FORMS:
+    for family_id in groups[form_group]["family_ids"]:
+        rows = [r for r in ROWS if r["product_id"] == family_id and r["source_type"] == "FormVariant"]
+        if len(rows) != 1 or rows[0]["source_url"] or rows[0]["evidence_status"] != "needs-independent-verification":
+            errors.append(f"{family_id}: invalid form-only source row or leaked single-product CID")
 
 if len(ROWS) != 369:
     errors.append(f"Source register unexpected row count: {len(ROWS)}")
