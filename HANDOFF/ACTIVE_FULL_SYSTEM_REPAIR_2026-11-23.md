@@ -165,3 +165,11 @@ Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no war
 - Added `tools/audit_consent_source.py` and wired it into the existing static release CI. This checks six routes for cookie choice controls, legal settings button, the consent-only controller contract, and the absence of direct remote GA scripts in HTML.
 - Commit trail: `b8d40d0`, `f2a9beb`, `80c54be`, `8e89e13`, `af18c0b`. No Cloudflare Worker, Turnstile, CSP or product-master changes.
 - Important: code-level gate is NOT browser evidence of network requests, stored cookies, focus handling, or true withdrawal. A fresh browser opt-in/reject/reopen/withdrawal test remains open before release. Status **FIXED ON BRANCH; CI pending**. Main untouched. Do NOT submit GSC or delete this journal yet.
+
+### 2026-11-23 — Verified checkpoint after batch 8
+
+- PR #52 code head `c3b17d381d17af9aacddad19fd270060c9efb60c` passed all four required GitHub checks: static release contract `45137165227`; product identity regression `45137165546`; product catalogue parity `45137165458`; confidential Git history `45137165457`.
+- New audits include all **408** indexed sitemap routes for technical metadata/hreflang and all six EN/HU/DE homepage/privacy consent-control routes; 381 product-detail pages remain covered by the existing product audits.
+- This proves **CI-VERIFIED on work branch**, not an effective GDPR withdrawal in actual browsers, not legal-compliance certification and not live production.
+- Outstanding: browser opt-in/reject/reopen/withdrawal with storage/network observations, visual/mobile QA, rest of business-intent audit, full release review, production deployment/SHA verification, post-deploy GSC submission, separate blog scope.
+- Preserve the master prompt and resume log; never delete or submit the sitemap while blockers remain. **Main is unchanged** at the checkpoint date.
