@@ -1570,10 +1570,10 @@
       "pubchem_cid": null,
       "pubchem_formula": null,
       "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
-      "pubchem_candidate_cid": 23266,
-      "pubchem_candidate_formula": "Na2O3Si",
+      "pubchem_candidate_cid": null,
+      "pubchem_candidate_formula": null,
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Generic salt record does not identify a variable commercial sodium silicate solution."
     },
     {
       "id": "propionsav-99-feed",
@@ -1600,10 +1600,10 @@
       "pubchem_cid": null,
       "pubchem_formula": null,
       "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
-      "pubchem_candidate_cid": 7360,
-      "pubchem_candidate_formula": "C5H10O2",
+      "pubchem_candidate_cid": null,
+      "pubchem_candidate_formula": null,
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Unrelated automatic candidate withdrawn; confirm the dihydrate grade and source documentation after enquiry."
     },
     {
       "id": "rez-szulfat-feed",
@@ -1788,17 +1788,17 @@
     {
       "id": "utszoro-zeolit-deicing",
       "cas": "1318-02-1",
-      "wikidata_qid": "Q191323",
-      "wikidata_label": "Zeolite A",
-      "wikipedia_en": "https://en.wikipedia.org/wiki/Zeolite",
+      "wikidata_qid": null,
+      "wikidata_label": null,
+      "wikipedia_en": null,
       "sameAs_status": "needs-confirmation",
       "pubchem_cid": null,
       "pubchem_formula": null,
       "sameAs_reason": "Needs human confirmation before sameAs use.",
-      "pubchem_candidate_cid": 9942228,
-      "pubchem_candidate_formula": "Al2O5Si",
+      "pubchem_candidate_cid": null,
+      "pubchem_candidate_formula": null,
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "A generic structure or named framework does not identify a variable zeolite material without supplier evidence."
     },
     {
       "id": "vakuum-so-industrial",

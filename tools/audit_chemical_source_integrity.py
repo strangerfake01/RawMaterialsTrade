@@ -17,6 +17,8 @@ if len(registry_ids) != len(set(registry_ids)):
 if set(registry_ids) != expected_ids:
     errors.append('Entity registry must cover every catalogue product exactly: missing=' + str(sorted(expected_ids - set(registry_ids))) + ' extras=' + str(sorted(set(registry_ids) - expected_ids)))
 for e in registry:
+    if e['id'] == 'utszoro-zeolit-deicing' and e.get('wikidata_qid') == 'Q191323':
+        errors.append('Unproven Zeolite A framework in entity registry')
     if e.get('sameAs_status') == 'verified':
         errors.append('Heuristic registry identity still marked verified without independent provenance: ' + e['id'])
     if not e.get('sameAs_status'):
@@ -48,12 +50,25 @@ for path in root.glob('*.html'):
     if re.search(r'PubChem (?:reports|formula check|:)', source):
         errors.append('Unverified PubChem comparison on page: ' + path.name)
     material_id = re.sub(r'^(en|hu|de-at)-', '', path.stem)
+
+    # Source quarantine must cover the actual rendered HTML and machine schema.
+    if material_id in ('natronvizuveg-oldatok-industrial', 'utszoro-zeolit-deicing'):
+        if re.search(r'external-identity-orientation|Na2O3Si|122\.063|23266|9942228|Q191323|Q72508125|Zeolite A', source, re.I):
+            errors.append('Rejected exact identity appears on variable-family page: ' + path.name)
+        if '<dl class="product-dl">' not in source:
+            errors.append('Variable-family procurement detail missing on page: ' + path.name)
+    if material_id == 'rez-klorid-dihidrat-industrial' and re.search(r'Cl2CuH2O|152\.46|16219111', source):
+        errors.append('Rejected one-water copper chloride data on a dihydrate page: ' + path.name)
     if status.get(material_id) not in ('needs-confirmation', 'needs-independent-verification'):
         continue
     for script in re.findall(r'<script\b[^>]*type=["\x27]application/ld\+json["\x27][^>]*>(.*?)</script>', source, re.I | re.S):
         data = json.loads(script)
         def walk(o):
             if isinstance(o, dict):
+                if (material_id in ('natronvizuveg-oldatok-industrial', 'utszoro-zeolit-deicing')
+                        and o.get('@type') == 'ChemicalSubstance'
+                        and any(k in o for k in ('identifier', 'chemicalComposition', 'molecularFormula', 'molecularWeight'))):
+                    errors.append('Exact identifier or formula on variable-family schema: ' + path.name)
                 if o.get('@type') == 'ChemicalSubstance' and o.get('sameAs'):
                     errors.append('Unapproved ChemicalSubstance sameAs: ' + path.name)
                 for v in o.values():
