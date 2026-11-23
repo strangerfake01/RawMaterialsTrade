@@ -94,3 +94,10 @@ A finding is complete only with: exact URL/file → source and rationale → dif
 - [ ] Close remaining public site findings; delete this temporary journal in final commit.
 
 **Last safe checkpoint:** `AUDITED / work branch created`; main left unchanged. **Next action:** focused first-batch fixes and CI, then continue through the unchecked gates. **Known blockers:** external Blogger editing not available in this repo; product-master automated write-back intentionally fails closed; some legal/business claims require human documentation; browser Turnstile E2E requires authorized test context. Never silently mark these complete.
+### 2026-11-23 — Batch 1 applied on repair branch (pending CI)
+
+- Three homepages: update public family count from 126 to source-verified 127.
+- DE-AT homepage: remove duplicated hero clause without changing commercial claims.
+- Sitemap: refresh `lastmod` ONLY for the three actually modified homepages.
+- Add `tools/audit_homepage_catalogue_count.py` to reject future count drift in EN/HU/DE-AT; wire into the existing static release workflow.
+- Status: `FIXED ON BRANCH; CI AND PRODUCTION NOT YET VERIFIED`. No GSC submission, no product-master write-back, no Cloudflare/Turnstile/CSP change.
