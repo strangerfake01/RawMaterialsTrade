@@ -69,6 +69,12 @@ For these records the old candidate IDs often represented free Ca²⁺/Mg²⁺/C
 
 The permanent `tools/audit_primary_source_research.py` CI gate now checks the quarantined candidate entries, the absent wrong source URLs, the 13 independently source-reviewed general concepts and their retained `supplier_evidence_status=unverified`.
 
+## Important primary-source conflict: copper(II) chloride dihydrate
+
+Even *two PubChem records associated with CAS 10125-13-0* are not interchangeable. [CID 16219111](https://pubchem.ncbi.nlm.nih.gov/compound/16219111) is labelled "Copper Chloride Dihydrate", but displays a single-water-unit computed formula `Cl2CuH2O` and molecular mass **152.46 g/mol**, inconsistent with **dihydrate**. Another [PubChem record, CID 61482](https://pubchem.ncbi.nlm.nih.gov/compound/61482), explicitly identifies `CuCl2·2H2O` as **170.48 g/mol**, and [ECHA CAS 10125-13-0](https://poisoncentres.echa.europa.eu/el/web/guest/substance-information/-/substanceinfo/100.129.663?_disssubsinfo_WAR_disssubsinfoportlet_substanceId=100.129.663) states "copper(2+) chloride hydrate (1:2:2)". This means the familiar CAS and compound-page title **alone** do not justify promoting one CID to a reviewed product `sameAs`.
+
+**Decision: keep `rez-klorid-dihidrat-industrial` quarantined, do not publish a PubChem CID as a product-equivalent identifier, and request exact hydrate/form plus supplier SDS/TDS/CoA when an enquiry arrives.** This is a concrete example why automated CAS lookups, PubChem synonyms and formula mismatches require source-level adjudication.
+
 ## Publication boundary and acceptance
 
 Public source references can support **general chemical education and product-request identification** only. They cannot establish current RMT supplier details, grade, SDS/TDS/CoA availability, restricted-use compliance or shipment conditions. The default rule is **withhold until reliable proof**, confirm privately after contact and maintain the protected RFQ process. The remaining 114 catalogue families require independent concept-by-concept verification before any reference can be called independently cross-checked; **0/127 supplier offers have been authenticated** in this audit.
