@@ -1,0 +1,108 @@
+{
+  "review_date": "2026-11-23",
+  "reference_type": "primary_source_variant_form_evidence_not_commercial_product_approval",
+  "family_count_with_variant_research": 8,
+  "distinct_chemical_groups": 4,
+  "source_forms_or_alternative_cids": 8,
+  "supplier_lots_verified": 0,
+  "commercial_sameas_approved": 0,
+  "scope_note": "This supplementary source register is NOT the canonical single-CID approved product ledger. Each form requires current supplier SDS/TDS/CoA and CAS/EC/form, concentration and regulated application review after customer contact. Do not auto-promote any variant to commercial ChemicalSubstance.sameAs.",
+  "groups": {
+    "zinc_sulfate": {
+      "name": "Zinc sulfate",
+      "variants": [
+        {
+          "form": "monohydrate",
+          "cas": "7446-19-7",
+          "cid": 62639,
+          "formula": "H2O5SZn",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7446-19-7"
+        },
+        {
+          "form": "heptahydrate",
+          "cas": "7446-20-0",
+          "cid": 62640,
+          "formula": "H14O11SZn",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7446-20-0"
+        }
+      ],
+      "family_ids": [
+        "cink-szulfat-monohidrat-feed",
+        "cink-szulfat-monohidrat-heptahidrat-industrial"
+      ],
+      "note": "The monohydrate and heptahydrate are different forms and must not inherit anhydrous CID 24424 as a general product-variant sameAs. Offered feed-grade and source remain unverified."
+    },
+    "citric_acid": {
+      "name": "Citric acid",
+      "variants": [
+        {
+          "form": "anhydrous",
+          "cas": "77-92-9",
+          "cid": 311,
+          "formula": "C6H8O7",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/77-92-9"
+        },
+        {
+          "form": "monohydrate",
+          "cas": "5949-29-1",
+          "cid": 22230,
+          "formula": "C6H10O8",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5949-29-1"
+        }
+      ],
+      "family_ids": [
+        "citromsav-monohidrat-anhidrat-food"
+      ],
+      "note": "CID 311 alone identifies only the anhydrous parent; do not treat the two hydrate states as a single supplied food-grade material."
+    },
+    "calcium_chloride": {
+      "name": "Calcium chloride",
+      "variants": [
+        {
+          "form": "anhydrous",
+          "cas": "10043-52-4",
+          "cid": 5284359,
+          "formula": "CaCl2",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10043-52-4"
+        },
+        {
+          "form": "dihydrate",
+          "cas": "10035-04-8",
+          "cid": 6093260,
+          "formula": "CaCl2H4O2",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10035-04-8"
+        }
+      ],
+      "family_ids": [
+        "kalcium-klorid-2025-oldat-deicing",
+        "kalcium-klorid-7780-food",
+        "kalcium-klorid-dihidrat-7880-pikkelyes-deicing"
+      ],
+      "note": "Two independent CAS/CID pairs support the general anhydrous and dihydrate identities, but NOT 20-25%, 77-80%, 78-80%, food compliance or ice-melt suitability of any offered lot."
+    },
+    "magnesium_chloride": {
+      "name": "Magnesium chloride hexahydrate",
+      "variants": [
+        {
+          "form": "hexahydrate",
+          "cas": "7791-18-6",
+          "cid": 24644,
+          "formula": "Cl2H12MgO6",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24644"
+        },
+        {
+          "form": "hexahydrate_alternative_PubChem_record",
+          "cas": "7791-18-6",
+          "cid": 643991,
+          "formula": "Cl2H12MgO6",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/643991"
+        }
+      ],
+      "family_ids": [
+        "magnezium-klorid-food",
+        "magnezium-klorid-hexahidrat-industrial"
+      ],
+      "note": "Two PubChem records contain equivalent hexahydrate formula, but a record choice is not proof of marketed food/technical grade or provenance. The previous magnesium ion CID 888 is rejected."
+    }
+  }
+}
