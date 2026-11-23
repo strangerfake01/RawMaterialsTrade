@@ -94,6 +94,13 @@ EXPECTED.update({
 })
 VARIANT_SOURCES = json.loads((ROOT / "docs/variant-form-primary-sources-2026-11-23.json").read_text(encoding="utf-8"))
 
+# Fifth source review: salt versus isolated anion and acid versus anion.
+EXPECTED.update({
+    "natrium-benzoat-gran-food": (242, 517055, "532-32-1", "C7H5NaO2"),
+    "saletromsav-20-50-53-60-industrial": (943, 944, "7697-37-2", "HNO3"),
+    "sosav-gyogyszerkonyvi-food": (312, 313, "7647-01-0", "ClH"),
+    "sosav-technikai-regeneralt-industrial": (312, 313, "7647-01-0", "ClH"),
+})
 errors: list[str] = []
 if len(CATALOGUE) != 127 or len(REGISTRY.get("entities", [])) != 127:
     errors.append("Unexpected catalogue/registry size")
@@ -103,7 +110,7 @@ if set(evidence) != set(EXPECTED):
     errors.append("General-source references have unreviewed or missing entries")
 if RESEARCH.get("commercial_grade_verified") != 0:
     errors.append("Supplier grade was incorrectly approved by general references")
-if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 66:
+if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 62:
     errors.append("Full catalogue research coverage misrepresented")
 for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     item = entries.get(pid, {})
@@ -137,7 +144,7 @@ for row in ROWS:
         errors.append(f"{row['product_id']}: unchecked Wikidata matches labelled verified")
 
 QUARANTINE = set(RESEARCH.get("rejected_legacy_automatic_pubchem_product_ids", []))
-if len(QUARANTINE) != 14 or RESEARCH.get("rejected_legacy_automatic_pubchem_match_count") != 14:
+if len(QUARANTINE) != 10 or RESEARCH.get("rejected_legacy_automatic_pubchem_match_count") != 10:
     errors.append("Unreviewed ion/hydrate/molecule quarantine is incomplete")
 if QUARANTINE & set(EXPECTED):
     errors.append("Source-reviewed and quarantined identities must not overlap")
@@ -157,8 +164,8 @@ for pid in ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"):
     e = entries.get(pid, {})
     if e.get("wikidata_qid") or e.get("wikidata_label"):
         errors.append(f"{pid}: unapproved or mismatched hydrate Wikidata sameAs")
-if len(EXPECTED) != 61 or len({x["cid"] for x in RESEARCH["entries"]}) != 49:
-    errors.append("General compound review must contain 61 families and 49 distinct CIDs")
+if len(EXPECTED) != 65 or len({x["cid"] for x in RESEARCH["entries"]}) != 52:
+    errors.append("General compound review must contain 65 families and 52 distinct CIDs")
 # Multi-hydrate parent families deliberately remain outside approved single-CID
 # references. Two sourced variants are not proof of one offered commercial product.
 groups = VARIANT_SOURCES.get("groups") or {}
