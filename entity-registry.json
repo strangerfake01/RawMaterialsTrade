@@ -486,6 +486,28 @@
         "reason": "candidate_formula_or_species_mismatch",
         "supplier_batch_approved": false,
         "permitted_as_sameAs": false
+      },
+      "form_specific_research_reference": {
+        "reviewed_on": "2026-11-23",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "source_register": "docs/variant-form-primary-sources-2026-11-23.json",
+        "group": "zinc_sulfate",
+        "forms": [
+          {
+            "form": "monohydrate",
+            "cas": "7446-19-7",
+            "pubchem_cid": 62639,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7446-19-7"
+          },
+          {
+            "form": "heptahydrate",
+            "cas": "7446-20-0",
+            "pubchem_cid": 62640,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7446-20-0"
+          }
+        ],
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
       }
     },
     {
@@ -507,6 +529,28 @@
         "reason": "candidate_formula_or_species_mismatch",
         "supplier_batch_approved": false,
         "permitted_as_sameAs": false
+      },
+      "form_specific_research_reference": {
+        "reviewed_on": "2026-11-23",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "source_register": "docs/variant-form-primary-sources-2026-11-23.json",
+        "group": "zinc_sulfate",
+        "forms": [
+          {
+            "form": "monohydrate",
+            "cas": "7446-19-7",
+            "pubchem_cid": 62639,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7446-19-7"
+          },
+          {
+            "form": "heptahydrate",
+            "cas": "7446-20-0",
+            "pubchem_cid": 62640,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7446-20-0"
+          }
+        ],
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
       }
     },
     {
@@ -522,7 +566,29 @@
       "pubchem_candidate_cid": 311,
       "pubchem_candidate_formula": "C6H8O7",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required.",
+      "form_specific_research_reference": {
+        "reviewed_on": "2026-11-23",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "source_register": "docs/variant-form-primary-sources-2026-11-23.json",
+        "group": "citric_acid",
+        "forms": [
+          {
+            "form": "anhydrous",
+            "cas": "77-92-9",
+            "pubchem_cid": 311,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/77-92-9"
+          },
+          {
+            "form": "monohydrate",
+            "cas": "5949-29-1",
+            "pubchem_cid": 22230,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5949-29-1"
+          }
+        ],
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
+      }
     },
     {
       "id": "diammonium-hidrogenfoszfat-industrial",
@@ -1008,6 +1074,28 @@
         "reason": "candidate_formula_or_species_mismatch",
         "supplier_batch_approved": false,
         "permitted_as_sameAs": false
+      },
+      "form_specific_research_reference": {
+        "reviewed_on": "2026-11-23",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "source_register": "docs/variant-form-primary-sources-2026-11-23.json",
+        "group": "calcium_chloride",
+        "forms": [
+          {
+            "form": "anhydrous",
+            "cas": "10043-52-4",
+            "pubchem_cid": 5284359,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10043-52-4"
+          },
+          {
+            "form": "dihydrate",
+            "cas": "10035-04-8",
+            "pubchem_cid": 6093260,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10035-04-8"
+          }
+        ],
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
       }
     },
     {
@@ -1029,6 +1117,28 @@
         "reason": "candidate_formula_or_species_mismatch",
         "supplier_batch_approved": false,
         "permitted_as_sameAs": false
+      },
+      "form_specific_research_reference": {
+        "reviewed_on": "2026-11-23",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "source_register": "docs/variant-form-primary-sources-2026-11-23.json",
+        "group": "calcium_chloride",
+        "forms": [
+          {
+            "form": "anhydrous",
+            "cas": "10043-52-4",
+            "pubchem_cid": 5284359,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10043-52-4"
+          },
+          {
+            "form": "dihydrate",
+            "cas": "10035-04-8",
+            "pubchem_cid": 6093260,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10035-04-8"
+          }
+        ],
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
       }
     },
     {
@@ -1050,6 +1160,28 @@
         "reason": "candidate_formula_or_species_mismatch",
         "supplier_batch_approved": false,
         "permitted_as_sameAs": false
+      },
+      "form_specific_research_reference": {
+        "reviewed_on": "2026-11-23",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "source_register": "docs/variant-form-primary-sources-2026-11-23.json",
+        "group": "calcium_chloride",
+        "forms": [
+          {
+            "form": "anhydrous",
+            "cas": "10043-52-4",
+            "pubchem_cid": 5284359,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10043-52-4"
+          },
+          {
+            "form": "dihydrate",
+            "cas": "10035-04-8",
+            "pubchem_cid": 6093260,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10035-04-8"
+          }
+        ],
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
       }
     },
     {
@@ -1334,6 +1466,28 @@
         "reason": "candidate_formula_or_species_mismatch",
         "supplier_batch_approved": false,
         "permitted_as_sameAs": false
+      },
+      "form_specific_research_reference": {
+        "reviewed_on": "2026-11-23",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "source_register": "docs/variant-form-primary-sources-2026-11-23.json",
+        "group": "magnesium_chloride",
+        "forms": [
+          {
+            "form": "hexahydrate",
+            "cas": "7791-18-6",
+            "pubchem_cid": 24644,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24644"
+          },
+          {
+            "form": "hexahydrate_alternative_PubChem_record",
+            "cas": "7791-18-6",
+            "pubchem_cid": 643991,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/643991"
+          }
+        ],
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
       }
     },
     {
@@ -1355,6 +1509,28 @@
         "reason": "candidate_formula_or_species_mismatch",
         "supplier_batch_approved": false,
         "permitted_as_sameAs": false
+      },
+      "form_specific_research_reference": {
+        "reviewed_on": "2026-11-23",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "source_register": "docs/variant-form-primary-sources-2026-11-23.json",
+        "group": "magnesium_chloride",
+        "forms": [
+          {
+            "form": "hexahydrate",
+            "cas": "7791-18-6",
+            "pubchem_cid": 24644,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24644"
+          },
+          {
+            "form": "hexahydrate_alternative_PubChem_record",
+            "cas": "7791-18-6",
+            "pubchem_cid": 643991,
+            "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/643991"
+          }
+        ],
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
       }
     },
     {
