@@ -138,6 +138,23 @@ EXPECTED.update({
     "vas-iii-klorid-40-oldat-industrial": (24380, 24380, "7705-08-0", "Cl3Fe"),
 })
 
+
+# Batch J: eleven CAS-grounded family records; copper sulfate pentahydrate
+# must not point to anhydrous copper sulfate CID 24462 (different CAS).
+EXPECTED.update({
+    "kalcium-jodat-feed": (24619, 24619, "7789-80-2", "CaI2O6"),
+    "klormesz-industrial": (24504, 24504, "7778-54-3", "CaCl2O2"),
+    "kobalt-karbonat-feed": (10565, 10565, "513-79-1", "CCoO3"),
+    "magnezium-nitrat-industrial": (25212, 25212, "10377-60-3", "MgN2O6"),
+    "monoammonium-foszfat-industrial": (24402, 24402, "7722-76-1", "H6NO4P"),
+    "natrium-perkarbonat-industrial": (159762, 159762, "15630-89-4", "C2H6Na4O12"),
+    "natrium-permanganat-40-oldat-industrial": (23673458, 23673458, "10101-50-5", "MnNaO4"),
+    "natrium-szelenit-feed": (24934, 24934, "10102-18-8", "Na2O3Se"),
+    "rez-szulfat-feed": (24462, 24463, "7758-99-8", "CuH10O9S"),
+    "rez-szulfat-pentahidrat-industrial": (24462, 24463, "7758-99-8", "CuH10O9S"),
+    "vas-iii-szulfat-40-oldat-industrial": (24826, 24826, "10028-22-5", "Fe2O12S3"),
+})
+
 errors: list[str] = []
 if len(CATALOGUE) != 127 or len(REGISTRY.get("entities", [])) != 127:
     errors.append("Unexpected catalogue/registry size")
@@ -147,7 +164,7 @@ if set(evidence) != set(EXPECTED):
     errors.append("General-source references have unreviewed or missing entries")
 if RESEARCH.get("commercial_grade_verified") != 0:
     errors.append("Supplier grade was incorrectly approved by general references")
-if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 37:
+if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 26:
     errors.append("Full catalogue research coverage misrepresented")
 for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     item = entries.get(pid, {})
@@ -201,8 +218,8 @@ for pid in ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"):
     e = entries.get(pid, {})
     if e.get("wikidata_qid") or e.get("wikidata_label"):
         errors.append(f"{pid}: unapproved or mismatched hydrate Wikidata sameAs")
-if len(EXPECTED) != 90 or len({x["cid"] for x in RESEARCH["entries"]}) != 74:
-    errors.append("General compound review must contain 90 families and 74 distinct CIDs")
+if len(EXPECTED) != 101 or len({x["cid"] for x in RESEARCH["entries"]}) != 84:
+    errors.append("General compound review must contain 101 families and 84 distinct CIDs")
 # Multi-hydrate parent families deliberately remain outside approved single-CID
 # references. Two sourced variants are not proof of one offered commercial product.
 groups = VARIANT_SOURCES.get("groups") or {}
