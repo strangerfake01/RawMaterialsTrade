@@ -1742,10 +1742,18 @@
       "pubchem_cid": null,
       "pubchem_formula": null,
       "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
-      "pubchem_candidate_cid": 24580,
-      "pubchem_candidate_formula": "MnO4S",
+      "pubchem_candidate_cid": 177577,
+      "pubchem_candidate_formula": "H2MnO5S",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem CAS/CID/formula research 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/177577 GENERAL substance only. CAS 10034-96-5 describes MnSO4·H2O, not anhydrous MnSO4; technical material and grade require independent supplier evidence. Supplier grade, lot, documentation, regulated use, actual offer and ChemicalSubstance sameAs are NOT verified.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/177577",
+        "cas": "10034-96-5",
+        "pubchem_cid": 177577,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "mangan-karbonat-industrial",
@@ -1833,10 +1841,18 @@
       "pubchem_cid": null,
       "pubchem_formula": null,
       "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
-      "pubchem_candidate_cid": 24580,
-      "pubchem_candidate_formula": "MnO4S",
+      "pubchem_candidate_cid": 177577,
+      "pubchem_candidate_formula": "H2MnO5S",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem CAS/CID/formula research 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/177577 GENERAL substance only. CAS 10034-96-5 describes MnSO4·H2O, not anhydrous MnSO4; feed-grade authorization and lot documentation not verified. Supplier grade, lot, documentation, regulated use, actual offer and ChemicalSubstance sameAs are NOT verified.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/177577",
+        "cas": "10034-96-5",
+        "pubchem_cid": 177577,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "meszhidrat-15-industrial",
