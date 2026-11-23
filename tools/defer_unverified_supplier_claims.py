@@ -159,11 +159,11 @@ def rewrite_html(html: str, lang: str, route: str) -> str:
     # Food/feed variants use additional caveats after "SDS always".
     # Convert any remaining blanket phrase to a non-promissory request.
     general = {
-        "en": (r'SDS always;[^<.]*\\.',
+        "en": (r'SDS always;[^<.]*\.',
                "Request the supplier SDS and verify TDS/CoA requirements after enquiry."),
-        "hu": (r'mindig SDS;[^<.]*\\.',
+        "hu": (r'mindig SDS;[^<.]*\.',
                "A beszállítói SDS-t kérjük; a TDS/CoA-igényt kapcsolatfelvétel után ellenőrizzük."),
-        "de-at": (r'stets SDS;[^<.]*\\.',
+        "de-at": (r'stets SDS;[^<.]*\.',
                   "Lieferanten-SDS anfragen; TDS/CoA-Anforderungen nach Kontaktaufnahme prüfen."),
     }
     pattern, replacement = general[lang]
