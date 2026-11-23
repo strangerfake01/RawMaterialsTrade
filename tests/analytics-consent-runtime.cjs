@@ -24,7 +24,14 @@ function load(initialChoice) {
   const consent = button();
   const reject = button();
   const settings = button();
-  const panel = { hidden: true, style: { display: "none" } };
+  const visibleClasses = new Set();
+  const panel = {
+    hidden: true, style: { display: "none" },
+    classList: {
+      toggle: (name, state) => state ? visibleClasses.add(name) : visibleClasses.delete(name),
+      contains: (name) => visibleClasses.has(name)
+    }
+  };
   const appended = [];
   const cookieMutations = [];
   const on = {};
@@ -65,15 +72,18 @@ function load(initialChoice) {
 
 const fresh = load(null);
 assert.equal(fresh.panel.hidden, false, "no decision must show consent");
+assert.equal(fresh.panel.classList.contains("visible"), true, "visible CSS state required");
 assert.equal(fresh.win.__rmtAnalyticsConsentGranted, false);
 assert.deepEqual(fresh.appended, [], "analytics may not load before opt-in");
 fresh.reject.click();
 assert.equal(fresh.storage.get("rmt.analytics.consent.v1"), "reject");
 assert.equal(fresh.win.__rmtAnalyticsConsentGranted, false);
 assert.equal(fresh.panel.hidden, true);
+assert.equal(fresh.panel.classList.contains("visible"), false, "reject should remove visible CSS state");
 assert.deepEqual(fresh.appended, [], "rejection must not load analytics");
 fresh.settings.click();
 assert.equal(fresh.panel.hidden, false, "settings must reopen after rejection");
+assert.equal(fresh.panel.classList.contains("visible"), true, "reopen should restore CSS visibility");
 fresh.consent.click();
 assert.equal(fresh.storage.get("rmt.analytics.consent.v1"), "accept");
 assert.equal(fresh.win.__rmtAnalyticsConsentGranted, true);
