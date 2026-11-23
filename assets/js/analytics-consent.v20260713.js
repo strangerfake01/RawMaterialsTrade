@@ -20,6 +20,11 @@
       var paths = ['/', location.pathname];
       var host = location.hostname;
       var domains = ['', host, '.' + host];
+      // gtag.js uses the registrable parent domain by default, including on www.
+      // Restrict extra deletion attempts to the site's known first-party GA domain.
+      if (host === 'rawmaterialstrade.com' || host.endsWith('.rawmaterialstrade.com')) {
+        domains.push('rawmaterialstrade.com', '.rawmaterialstrade.com');
+      }
       domains.forEach(function (domain) { paths.forEach(function (path) {
         document.cookie = name + '=; Max-Age=0; path=' + path + '; SameSite=Lax' + (domain ? '; domain=' + domain : '');
       }); });
