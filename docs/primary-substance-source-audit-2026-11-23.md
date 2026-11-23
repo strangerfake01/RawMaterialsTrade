@@ -276,6 +276,15 @@ The previous **single-CID PubChem source URLs for seven ambiguous multi-form pro
 
 **Cumulative scoped research:** **105/127** family entries individually researched for a single general parent compound concept, **87 distinct general CIDs**, **22 without a single independently approved general compound reference**; within those 22, **15** family requests have separate partial/multi-form primary research, **7** do not. **Zero** actual supplier grades, product lots, declarations, certificates, legal-use approvals or offers have been independently authenticated.
 
+
+## Seven remaining unresolved identities — evidence request queue (2026-11-24)
+
+The 127 catalogue family requests are now disjointly classified for primary-source *research maturity*: **105** have one individually reviewed general chemical concept, **15** are covered by separate form-specific research matrices but have no valid single reference, and **7** cannot yet be sourced to a uniquely defined reference. **0** have supplier product/lot approval. This partition is not an assertion of commercial readiness.
+
+The last seven are `bentonit-industrial`, `kalium-tripolifoszfat-food`, `natronvizuveg-oldatok-industrial`, `rez-klorid-dihidrat-industrial`, `trilon-industrial`, `utszoro-zeolit-deicing` and `vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed`. Each has an individual reason for withholding a confident single-CID claim and the minimum original supplier/qualified chemistry evidence needed in `docs/unresolved-chemical-families-2026-11-24.json`.
+
+No CAS/CID was invented, commercial mixture simplified, previously rejected wrong copper chloride CID reinstated, product grade asserted or regulated food/feed suitability assumed. The permanent fail-closed evidence partition is covered by `tools/audit_primary_source_research.py`.
+
 ## Publication boundary and acceptance
 
 Public source references can support **general chemical education and product-request identification** only. They cannot establish current RMT supplier details, grade, SDS/TDS/CoA availability, restricted-use compliance or shipment conditions. The default rule is **withhold until reliable proof**, confirm privately after contact and maintain the protected RFQ process. The remaining 22 catalogue families require independent concept-by-concept verification before any reference can be called independently cross-checked; **0/127 supplier offers have been authenticated** in this audit.
