@@ -226,3 +226,10 @@ Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no war
 - Updated workflow **display names only** to avoid stale "378 pages"/"408 routes" claims as the catalogue grows; no tests or thresholds removed and no deployment logic changed.
 - **Open release gates:** verify technical claims with authorized domain experts, full responsive/a11y and production network checks, authorized Turnstile/form E2E, legal/privacy review as appropriate, verify current Pages exact-live SHA, keep external Blogger property separate; only then merge / resubmit main sitemap to GSC and delete this temporary journal on the final reviewed release.
 - STATUS: CI-VERIFIED / LOCAL-BROWSER-VERIFIED for implemented changes; **NOT PRODUCTION-VERIFIED**; main unchanged at latest checked `bee7be9a27f26c4e18b847424613f0f7aba5b9a4`. Last safe rollback base is unchanged main.
+
+### 2026-11-23 — Batch 13: browser responsive route smoke (CI pending)
+
+- Added a **separate** Playwright/Chromium read-only visual-geometry and semantic smoke workflow. It renders the current 408 sitemap routes at 390 and 1440 px, plus 15 priority buyer/manufacturer/AI trust routes at 320/768/1024/1920/2560 px.
+- Checks HTTP local route existence, single *visible* H1 and horizontal scroll overflow. Abort all external requests, do not exercise forms and do not send analytics. This supplements the existing 24-case cookie-consent browser workflow and 408-route sitemap/source audits; does **not** prove full accessibility, Core Web Vitals, or production behavior.
+- Workflow intentionally fails closed on objective geometry regressions rather than hiding failures. Pending browser execution / remediation of any confirmed issues.
+- No changes to product data, source contracts, Cloudflare Worker, CSP, Turnstile, or customer information. No merge, live deployment or GSC submission.
