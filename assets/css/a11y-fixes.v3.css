@@ -365,6 +365,7 @@ footer[role="contentinfo"] a:focus-visible,
   --rmt-float-radius:999px;
   --rmt-float-min-h:44px;
   --rmt-float-z:1000;
+  --rmt-consent-z:1100;
   --rmt-float-shadow:0 8px 22px rgba(0,0,0,.18);
 }
 .cookie-settings-toggle,
@@ -380,6 +381,7 @@ footer[role="contentinfo"] a:focus-visible,
   box-shadow:var(--rmt-float-shadow);
 }
 .cookie-settings-toggle{position:fixed;left:max(1rem,env(safe-area-inset-left));bottom:max(1rem,env(safe-area-inset-bottom));background:#1f2937;color:#fff;z-index:var(--rmt-float-z);cursor:pointer}
+.cookie-banner.visible{z-index:var(--rmt-consent-z)}
 .rmt-contact-fab{position:fixed;right:max(1rem,env(safe-area-inset-right));bottom:max(1rem,env(safe-area-inset-bottom));z-index:var(--rmt-float-z);display:flex!important;flex-direction:column;align-items:flex-end;gap:8px;visibility:visible!important;opacity:1!important}
 .rmt-contact-options[hidden]{display:none!important}
 .rmt-contact-trigger{order:2;background:#142b3e;color:#fff;cursor:pointer}
