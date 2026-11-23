@@ -36,21 +36,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai, regenerált",
-        "packaging": "hordó (200 L), IBC, tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-aceton-technikai-regeneralt-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Acetone",
-        "https://hu.wikipedia.org/wiki/Aceton",
-        "https://de.wikipedia.org/wiki/Aceton"
-      ]
+      "sameAs": []
     },
     {
       "id": "aluminium-szulfat-03-mm-38-mm-industrial",
@@ -79,21 +75,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "0–3 mm, 3–8 mm",
-        "packaging": "BigBag és zsákos; IBC (oldat)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-aluminium-szulfat-03-mm-38-mm-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Aluminium_sulfate",
-        "https://hu.wikipedia.org/wiki/Alum%C3%ADnium-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Aluminiumsulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "aluminium-szulfat-oldat-industrial",
@@ -122,21 +114,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "oldat",
-        "packaging": "BigBag és zsákos; IBC (oldat)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-aluminium-szulfat-oldat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Aluminium_sulfate",
-        "https://hu.wikipedia.org/wiki/Alum%C3%ADnium-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Aluminiumsulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "ammonia-oldat-24-industrial",
@@ -165,21 +153,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "24%",
-        "packaging": "IBC, hordó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-ammonia-oldat-24-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ammonia_solution",
-        "https://hu.wikipedia.org/wiki/Ammónia",
-        "https://de.wikipedia.org/wiki/Ammoniak"
-      ]
+      "sameAs": []
     },
     {
       "id": "ammonium-klorid-industrial",
@@ -208,21 +192,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-ammonium-klorid-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ammonium_chloride",
-        "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-klorid",
-        "https://de.wikipedia.org/wiki/Ammoniumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "ammonium-nitrat-industrial",
@@ -249,21 +229,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-ammonium-nitrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ammonium_nitrate",
-        "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-nitr%C3%A1t",
-        "https://de.wikipedia.org/wiki/Ammoniumnitrat"
-      ]
+      "sameAs": []
     },
     {
       "id": "ammonium-szulfat-industrial",
@@ -292,21 +268,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-ammonium-szulfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ammonium_sulfate",
-        "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Ammoniumsulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "aszkorbinsav-food",
@@ -335,21 +307,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "élelmiszeripari minőség",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-aszkorbinsav-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Vitamin_C",
-        "https://hu.wikipedia.org/wiki/Aszkorbinsav",
-        "https://de.wikipedia.org/wiki/Ascorbins%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "bentonit-industrial",
@@ -375,21 +343,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-bentonit-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Bentonite",
-        "https://hu.wikipedia.org/wiki/Bentonit",
-        "https://de.wikipedia.org/wiki/Bentonit"
-      ]
+      "sameAs": []
     },
     {
       "id": "borax-dekahidrat-industrial",
@@ -416,21 +380,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "dekahidrát",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-borax-dekahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Borax",
-        "https://hu.wikipedia.org/wiki/B%C3%B3rax",
-        "https://de.wikipedia.org/wiki/Borax"
-      ]
+      "sameAs": []
     },
     {
       "id": "borax-pentahidrat-industrial",
@@ -457,21 +417,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "pentahidrát",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-borax-pentahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Borax",
-        "https://hu.wikipedia.org/wiki/B%C3%B3rax",
-        "https://de.wikipedia.org/wiki/Borax"
-      ]
+      "sameAs": []
     },
     {
       "id": "borken-food",
@@ -498,21 +454,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-borken-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_metabisulfite",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-metabiszulfit",
-        "https://de.wikipedia.org/wiki/Kaliummetabisulfit"
-      ]
+      "sameAs": []
     },
     {
       "id": "borkosav-l-food",
@@ -541,21 +493,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "(L+)",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-borkosav-l-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Tartaric_acid",
-        "https://hu.wikipedia.org/wiki/Bork%C5%91sav",
-        "https://de.wikipedia.org/wiki/Weins%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "borsav-industrial",
@@ -584,21 +532,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-borsav-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Boric_acid",
-        "https://hu.wikipedia.org/wiki/B%C3%B3rsav",
-        "https://de.wikipedia.org/wiki/Bors%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "butanol-industrial",
@@ -624,21 +568,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-butanol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/1-Butanol",
-        "https://hu.wikipedia.org/wiki/Butanol",
-        "https://de.wikipedia.org/wiki/1-Butanol"
-      ]
+      "sameAs": []
     },
     {
       "id": "butil-diglikol-industrial",
@@ -664,21 +604,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-butil-diglikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/2-%282-Butoxyethoxy%29ethanol",
-        "https://hu.wikipedia.org/wiki/2-(2-butoxietoxi)etanol",
-        "https://de.wikipedia.org/wiki/2-(2-Butoxyethoxy)ethanol"
-      ]
+      "sameAs": []
     },
     {
       "id": "butil-glikol-industrial",
@@ -707,21 +643,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "hordó (200 L), IBC",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-butil-glikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/2-Butoxyethanol",
-        "https://hu.wikipedia.org/wiki/2-butoxi-etanol",
-        "https://de.wikipedia.org/wiki/2-Butoxyethanol"
-      ]
+      "sameAs": []
     },
     {
       "id": "ciklohexanon-industrial",
@@ -750,21 +682,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "hordó (200 L), IBC",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-ciklohexanon-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Cyclohexanone",
-        "https://hu.wikipedia.org/wiki/Ciklohexanon",
-        "https://de.wikipedia.org/wiki/Cyclohexanon"
-      ]
+      "sameAs": []
     },
     {
       "id": "cink-klorid-feed",
@@ -793,21 +721,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "vízmentes",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-cink-klorid-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zinc_chloride",
-        "https://hu.wikipedia.org/wiki/Cink-klorid",
-        "https://de.wikipedia.org/wiki/Zinkchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "cink-klorid-vizmentes-industrial",
@@ -836,21 +760,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "vízmentes",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-cink-klorid-vizmentes-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zinc_chloride",
-        "https://hu.wikipedia.org/wiki/Cink-klorid",
-        "https://de.wikipedia.org/wiki/Zinkchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "cink-oxid-industrial",
@@ -881,21 +801,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai; takarmányipari; gyógyszeripari minőség",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-cink-oxid-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zinc_oxide",
-        "https://hu.wikipedia.org/wiki/Cink-oxid",
-        "https://de.wikipedia.org/wiki/Zinkoxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "cink-szulfat-monohidrat-feed",
@@ -925,21 +841,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-cink-szulfat-monohidrat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zinc_sulfate",
-        "https://hu.wikipedia.org/wiki/Cink-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Zinksulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "cink-szulfat-monohidrat-heptahidrat-industrial",
@@ -969,21 +881,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát, heptahidrát",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-cink-szulfat-monohidrat-heptahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zinc_sulfate",
-        "https://hu.wikipedia.org/wiki/Cink-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Zinksulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "citromsav-monohidrat-anhidrat-food",
@@ -1013,21 +921,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát, anhidrát",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-citromsav-monohidrat-anhidrat-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Citric_acid",
-        "https://hu.wikipedia.org/wiki/Citromsav",
-        "https://de.wikipedia.org/wiki/Citronens%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "diammonium-hidrogenfoszfat-industrial",
@@ -1054,21 +958,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-diammonium-hidrogenfoszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Diammonium_phosphate",
-        "https://hu.wikipedia.org/wiki/Diamm%C3%B3nium-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Diammoniumhydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "dietilen-glikol-industrial",
@@ -1097,21 +997,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "hordó (200 L), IBC, tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-dietilen-glikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Diethylene_glycol",
-        "https://hu.wikipedia.org/wiki/Dietil%C3%A9n-glikol",
-        "https://de.wikipedia.org/wiki/Diethylenglykol"
-      ]
+      "sameAs": []
     },
     {
       "id": "dikalium-hidrogen-foszfat-food",
@@ -1138,21 +1034,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-dikalium-hidrogen-foszfat-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Dipotassium_phosphate",
-        "https://hu.wikipedia.org/wiki/Dik%C3%A1lium-hidrog%C3%A9n-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Dikaliumhydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "dinatrium-pirofoszfat-food",
@@ -1181,21 +1073,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-dinatrium-pirofoszfat-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Disodium_pyrophosphate",
-        "https://hu.wikipedia.org/wiki/Din%C3%A1trium-pirofoszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Dinatriumdihydrogendiphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "dinatriumfoszfat-industrial",
@@ -1222,21 +1110,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-dinatriumfoszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Disodium_phosphate",
-        "https://hu.wikipedia.org/wiki/Din%C3%A1trium-hidrog%C3%A9n-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Dinatriumhydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "dinatriumpirofoszfat-industrial",
@@ -1265,21 +1149,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-dinatriumpirofoszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Disodium_pyrophosphate",
-        "https://hu.wikipedia.org/wiki/Din%C3%A1trium-pirofoszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Dinatriumdihydrogendiphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "ecetsav-20-50-60-70-80-99-8-industrial",
@@ -1309,21 +1189,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "20%, 50%, 60%, 70%, 80%, 99,8%",
-        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-ecetsav-20-50-60-70-80-99-8-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Acetic_acid",
-        "https://hu.wikipedia.org/wiki/Ecetsav",
-        "https://de.wikipedia.org/wiki/Essigs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
@@ -1352,21 +1228,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "20%, 50%, 60%, 70%, 80%, 99,8% (jégecet)",
-        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-ecetsav-20-50-60-70-80-99-8-jegecet-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Acetic_acid",
-        "https://hu.wikipedia.org/wiki/Ecetsav",
-        "https://de.wikipedia.org/wiki/Essigs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "ecetsavanhidrid-industrial",
@@ -1395,21 +1267,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "hordó (200 L), IBC",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-ecetsavanhidrid-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Acetic_anhydride",
-        "https://hu.wikipedia.org/wiki/Ecetsav-anhidrid",
-        "https://de.wikipedia.org/wiki/Essigs%C3%A4ureanhydrid"
-      ]
+      "sameAs": []
     },
     {
       "id": "edta-na2-na4-industrial",
@@ -1437,21 +1305,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "dinátrium (Na₂) / tetranátrium (Na₄)",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-edta-na2-na4-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ethylenediaminetetraacetic_acid",
-        "https://hu.wikipedia.org/wiki/Etil%C3%A9n-diamin-tetraecetsav",
-        "https://de.wikipedia.org/wiki/Ethylendiamintetraessigs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "etil-acetat-technikai-regeneralt-industrial",
@@ -1480,21 +1344,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai, regenerált",
-        "packaging": "hordó (200 L), IBC",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-etil-acetat-technikai-regeneralt-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ethyl_acetate",
-        "https://hu.wikipedia.org/wiki/Etil-acet%C3%A1t",
-        "https://de.wikipedia.org/wiki/Ethylacetat"
-      ]
+      "sameAs": []
     },
     {
       "id": "etkezesi-so-food",
@@ -1525,21 +1385,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "útszóró só; vákuumsó; sótabletta",
-        "packaging": "BigBag, ömlesztett és zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-etkezesi-so-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_chloride",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
-        "https://de.wikipedia.org/wiki/Natriumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "foszforsav-75-industrial",
@@ -1568,21 +1424,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "75%",
-        "packaging": "IBC (1000 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-foszforsav-75-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Phosphoric_acid",
-        "https://hu.wikipedia.org/wiki/Foszforsav",
-        "https://de.wikipedia.org/wiki/Phosphors%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "foszforsav-75-85-food",
@@ -1611,21 +1463,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "75%, 85%",
-        "packaging": "IBC (1000 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-foszforsav-75-85-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Phosphoric_acid",
-        "https://hu.wikipedia.org/wiki/Foszforsav",
-        "https://de.wikipedia.org/wiki/Phosphors%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "glicerin-industrial",
@@ -1655,21 +1503,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai; 99,5%-os élelmiszer-/gyógyszeripari; takarmányipari minőség",
-        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-glicerin-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Glycerol",
-        "https://hu.wikipedia.org/wiki/Glicerin",
-        "https://de.wikipedia.org/wiki/Glycerin"
-      ]
+      "sameAs": []
     },
     {
       "id": "glicerin-99-5-food",
@@ -1698,21 +1542,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "99,5%",
-        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-glicerin-99-5-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Glycerol",
-        "https://hu.wikipedia.org/wiki/Glicerin",
-        "https://de.wikipedia.org/wiki/Glycerin"
-      ]
+      "sameAs": []
     },
     {
       "id": "glicin-industrial",
@@ -1743,21 +1583,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "takarmányipari és élelmiszeripari minőség",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-glicin-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Glycine",
-        "https://hu.wikipedia.org/wiki/Glicin",
-        "https://de.wikipedia.org/wiki/Glycin"
-      ]
+      "sameAs": []
     },
     {
       "id": "hangyasav-85-industrial",
@@ -1786,21 +1622,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "85%",
-        "packaging": "IBC (1000 L), hordó (200 L)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-hangyasav-85-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Formic_acid",
-        "https://hu.wikipedia.org/wiki/Hangyasav",
-        "https://de.wikipedia.org/wiki/Ameisens%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "hidrogen-peroxid-35-50-60-industrial",
@@ -1829,21 +1661,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "35%, 50%, 60%",
-        "packaging": "IBC (1000 L), hordó (200 L)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-hidrogen-peroxid-35-50-60-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Hydrogen_peroxide",
-        "https://hu.wikipedia.org/wiki/Hidrog%C3%A9n-peroxid",
-        "https://de.wikipedia.org/wiki/Wasserstoffperoxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "ioncserelt-viz-industrial",
@@ -1872,21 +1700,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-ioncserelt-viz-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Purified_water",
-        "https://hu.wikipedia.org/wiki/Tiszt%C3%ADtott_v%C3%ADz",
-        "https://de.wikipedia.org/wiki/Gereinigtes_Wasser"
-      ]
+      "sameAs": []
     },
     {
       "id": "izopropil-alkohol-technikai-regeneralt-industrial",
@@ -1915,21 +1739,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai, regenerált",
-        "packaging": "IBC (1000 L), hordó (200 L)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-izopropil-alkohol-technikai-regeneralt-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Isopropyl_alcohol",
-        "https://hu.wikipedia.org/wiki/Izopropanol",
-        "https://de.wikipedia.org/wiki/Propan-2-ol"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalcium-jodat-feed",
@@ -1956,21 +1776,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalcium-jodat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_iodate",
-        "https://hu.wikipedia.org/wiki/Kalcium-jod%C3%A1t",
-        "https://de.wikipedia.org/wiki/Calciumiodat"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalcium-karbonat-food",
@@ -1997,21 +1813,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalcium-karbonat-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_carbonate",
-        "https://hu.wikipedia.org/wiki/Kalcium-karbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Calciumcarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalcium-klorid-2025-oldat-deicing",
@@ -2041,21 +1853,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "20–25% oldat",
-        "packaging": "BigBag és zsákos; IBC és tartályautó (oldat)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalcium-klorid-2025-oldat-deicing.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_chloride",
-        "https://hu.wikipedia.org/wiki/Kalcium-klorid",
-        "https://de.wikipedia.org/wiki/Calciumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalcium-klorid-7780-food",
@@ -2085,21 +1893,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "77–80%",
-        "packaging": "BigBag és zsákos; IBC és tartályautó (oldat)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalcium-klorid-7780-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_chloride",
-        "https://hu.wikipedia.org/wiki/Kalcium-klorid",
-        "https://de.wikipedia.org/wiki/Calciumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
@@ -2129,21 +1933,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "dihidrát 78–80% pikkelyes",
-        "packaging": "BigBag és zsákos; IBC és tartályautó (oldat)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalcium-klorid-dihidrat-7880-pikkelyes-deicing.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_chloride",
-        "https://hu.wikipedia.org/wiki/Kalcium-klorid",
-        "https://de.wikipedia.org/wiki/Calciumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-ferrocianid-food",
@@ -2172,21 +1972,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "élelmiszeripari minőség (E536)",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalium-ferrocianid-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_ferrocyanide",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-ferrocianid",
-        "https://de.wikipedia.org/wiki/Kaliumhexacyanoferrat(II)"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-hidroxid-oldat-21-45-4850-industrial",
@@ -2215,21 +2011,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "oldat 21%, 45%, 48–50%",
-        "packaging": "zsákos, BigBag; IBC (oldat)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalium-hidroxid-oldat-21-45-4850-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_hydroxide",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-hidroxid",
-        "https://de.wikipedia.org/wiki/Kaliumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-hidroxid-pikkelyes-industrial",
@@ -2258,21 +2050,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "pikkelyes",
-        "packaging": "zsákos, BigBag; IBC (oldat)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalium-hidroxid-pikkelyes-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_hydroxide",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-hidroxid",
-        "https://de.wikipedia.org/wiki/Kaliumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-jodat-feed",
@@ -2299,21 +2087,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalium-jodat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_iodate",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-jod%C3%A1t",
-        "https://de.wikipedia.org/wiki/Kaliumiodat"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-jodid-feed",
@@ -2340,21 +2124,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalium-jodid-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_iodide",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-jodid",
-        "https://de.wikipedia.org/wiki/Kaliumiodid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-karbonat-industrial",
@@ -2381,21 +2161,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalium-karbonat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_carbonate",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-karbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Kaliumcarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-tripolifoszfat-food",
@@ -2422,21 +2198,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kalium-tripolifoszfat-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Triphosphate",
-        "https://hu.wikipedia.org/wiki/Trifoszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Triphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "karbamid-ipari-kezeletlen-industrial",
@@ -2465,21 +2237,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "ipari, kezeletlen",
-        "packaging": "BigBag és zsákos; IBC (oldat)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-karbamid-ipari-kezeletlen-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Urea",
-        "https://hu.wikipedia.org/wiki/Karbamid",
-        "https://de.wikipedia.org/wiki/Harnstoff"
-      ]
+      "sameAs": []
     },
     {
       "id": "kenpor-industrial",
@@ -2506,21 +2274,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "por",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kenpor-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sulfur",
-        "https://hu.wikipedia.org/wiki/K%C3%A9n",
-        "https://de.wikipedia.org/wiki/Schwefel"
-      ]
+      "sameAs": []
     },
     {
       "id": "kensav-32-37-50-9597-industrial",
@@ -2549,21 +2313,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "32%, 37%, 50%, 95–97%",
-        "packaging": "IBC, tartályautó (ADR-szállítás)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kensav-32-37-50-9597-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sulfuric_acid",
-        "https://hu.wikipedia.org/wiki/K%C3%A9nsav",
-        "https://de.wikipedia.org/wiki/Schwefels%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "klormesz-industrial",
@@ -2590,21 +2350,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-klormesz-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_hypochlorite",
-        "https://hu.wikipedia.org/wiki/Kalcium-hipoklorit",
-        "https://de.wikipedia.org/wiki/Calciumhypochlorit"
-      ]
+      "sameAs": []
     },
     {
       "id": "kobalt-karbonat-feed",
@@ -2631,21 +2387,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-kobalt-karbonat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Cobalt%28II%29_carbonate",
-        "https://hu.wikipedia.org/wiki/Kobalt(II)-karbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Cobalt(II)-carbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-karbonat-konnyu-nehez-industrial",
@@ -2673,21 +2425,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "könnyű, nehéz",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-magnezium-karbonat-konnyu-nehez-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_carbonate",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-karbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Magnesiumcarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-klorid-food",
@@ -2718,21 +2466,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "pikkelyes (47–50% MgCl₂)",
-        "packaging": "BigBag és zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-magnezium-klorid-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_chloride",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-klorid",
-        "https://de.wikipedia.org/wiki/Magnesiumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-klorid-hexahidrat-industrial",
@@ -2763,21 +2507,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "hexahidrát",
-        "packaging": "BigBag és zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-magnezium-klorid-hexahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_chloride",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-klorid",
-        "https://de.wikipedia.org/wiki/Magnesiumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-nitrat-industrial",
@@ -2804,21 +2544,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-magnezium-nitrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_nitrate",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-nitr%C3%A1t",
-        "https://de.wikipedia.org/wiki/Magnesiumnitrat"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-oxid-feed",
@@ -2847,21 +2583,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "nehéz és takarmányipari minőség",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-magnezium-oxid-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_oxide",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-oxid",
-        "https://de.wikipedia.org/wiki/Magnesiumoxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-oxid-nehez-industrial",
@@ -2890,21 +2622,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "nehéz",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-magnezium-oxid-nehez-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_oxide",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-oxid",
-        "https://de.wikipedia.org/wiki/Magnesiumoxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-szulfat-industrial",
@@ -2935,21 +2663,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "vízmentes; heptahidrát (keserűsó); monohidrát",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-magnezium-szulfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_sulfate",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Magnesiumsulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "maleinsav-industrial",
@@ -2978,21 +2702,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-maleinsav-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Maleic_acid",
-        "https://hu.wikipedia.org/wiki/Maleins%C3%A1v",
-        "https://de.wikipedia.org/wiki/Maleins%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-ii-szulfat-monohidrat-industrial",
@@ -3021,21 +2741,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-mangan-ii-szulfat-monohidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Mangan(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-karbonat-industrial",
@@ -3062,21 +2778,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-mangan-karbonat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese%28II%29_carbonate",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-karbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Mangan(II)-carbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-klorid-monohidrat-tetrahidrat-industrial",
@@ -3106,21 +2818,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát, tetrahidrát",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-mangan-klorid-monohidrat-tetrahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese%28II%29_chloride",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-klorid",
-        "https://de.wikipedia.org/wiki/Mangan(II)-chlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-klorid-tetrahidrat-feed",
@@ -3148,21 +2856,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-mangan-klorid-tetrahidrat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese%28II%29_chloride",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-klorid",
-        "https://de.wikipedia.org/wiki/Mangan(II)-chlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-oxid-feed",
@@ -3189,21 +2893,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-mangan-oxid-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese_dioxide",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n-dioxid",
-        "https://de.wikipedia.org/wiki/Mangan(IV)-oxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-szulfat-monohidrat-feed",
@@ -3232,21 +2932,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-mangan-szulfat-monohidrat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Mangan(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "meszhidrat-industrial",
@@ -3273,21 +2969,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-meszhidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_hydroxide",
-        "https://hu.wikipedia.org/wiki/Kalcium-hidroxid",
-        "https://de.wikipedia.org/wiki/Calciumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "meszhidrat-15-industrial",
@@ -3314,21 +3006,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "15%",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-meszhidrat-15-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_hydroxide",
-        "https://hu.wikipedia.org/wiki/Kalcium-hidroxid",
-        "https://de.wikipedia.org/wiki/Calciumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "metanol-technikai-regeneralt-industrial",
@@ -3357,21 +3045,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai, regenerált",
-        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-metanol-technikai-regeneralt-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Methanol",
-        "https://hu.wikipedia.org/wiki/Metanol",
-        "https://de.wikipedia.org/wiki/Methanol"
-      ]
+      "sameAs": []
     },
     {
       "id": "monoammonium-foszfat-industrial",
@@ -3398,21 +3082,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-monoammonium-foszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ammonium_dihydrogen_phosphate",
-        "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-dihidrog%C3%A9n-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Ammoniumdihydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "monoetanolamin-industrial",
@@ -3441,21 +3121,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "IBC (1000 L), hordó (200 L)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-monoetanolamin-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ethanolamine",
-        "https://hu.wikipedia.org/wiki/Etanol-amin",
-        "https://de.wikipedia.org/wiki/Ethanolamin"
-      ]
+      "sameAs": []
     },
     {
       "id": "monoetilen-glikol-industrial",
@@ -3484,21 +3160,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-monoetilen-glikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ethylene_glycol",
-        "https://hu.wikipedia.org/wiki/Etil%C3%A9n-glikol",
-        "https://de.wikipedia.org/wiki/Ethan-1,2-diol"
-      ]
+      "sameAs": []
     },
     {
       "id": "monokalium-foszfat-industrial",
@@ -3525,21 +3197,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-monokalium-foszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Monopotassium_phosphate",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-dihidrog%C3%A9n-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Kaliumdihydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "mononatrium-foszfat-industrial",
@@ -3566,21 +3234,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-mononatrium-foszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Monosodium_phosphate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-dihidrog%C3%A9n-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumdihydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "monopropilenglikol-industrial",
@@ -3611,21 +3275,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "ipari; USP/élelmiszeripari; takarmányipari minőség",
-        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-monopropilenglikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Propylene_glycol",
-        "https://hu.wikipedia.org/wiki/Propil%C3%A9n-glikol",
-        "https://de.wikipedia.org/wiki/Propylenglykol"
-      ]
+      "sameAs": []
     },
     {
       "id": "na-hexametafoszfat-industrial",
@@ -3652,21 +3312,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-na-hexametafoszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_hexametaphosphate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hexametafoszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumhexametaphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-acetat-vizmentes-3h2o-industrial",
@@ -3694,21 +3350,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "vízmentes, 3H2O",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-acetat-vizmentes-3h2o-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_acetate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-acet%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumacetat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-benzoat-gran-food",
@@ -3737,21 +3389,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "granulált",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-benzoat-gran-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_benzoate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-benzoát",
-        "https://de.wikipedia.org/wiki/Natriumbenzoat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-hidrogen-karbonat-industrial",
@@ -3780,21 +3428,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "élelmiszeripari és technikai minőség",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-hidrogen-karbonat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_bicarbonate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidrogén-karbonát",
-        "https://de.wikipedia.org/wiki/Natriumhydrogencarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-hidrogen-karbonat-szodabikarbona-food",
@@ -3825,21 +3469,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "(szódabikarbóna)",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-hidrogen-karbonat-szodabikarbona-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_bicarbonate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidrogén-karbonát",
-        "https://de.wikipedia.org/wiki/Natriumhydrogencarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
@@ -3868,21 +3508,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "pikkelyes",
-        "packaging": "zsákos, BigBag; IBC, tartályautó (oldat)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-hidroxid-mikrogyongy-pikkelyes-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_hydroxide",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidroxid",
-        "https://de.wikipedia.org/wiki/Natriumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-hidroxid-oldat-4850-industrial",
@@ -3911,21 +3547,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "oldat 48–50%",
-        "packaging": "zsákos, BigBag; IBC, tartályautó (oldat)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-hidroxid-oldat-4850-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_hydroxide",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidroxid",
-        "https://de.wikipedia.org/wiki/Natriumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
@@ -3954,21 +3586,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "150 g/l, 90 g/l",
-        "packaging": "IBC (1000 L), hordó (200 L)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-hipoklorit-150-g-l-90-g-l-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_hypochlorite",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hipoklorit",
-        "https://de.wikipedia.org/wiki/Natriumhypochlorit"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-karbonat-konnyu-industrial",
@@ -3997,21 +3625,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "könnyű",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-karbonat-konnyu-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_carbonate",
-        "https://hu.wikipedia.org/wiki/Nátriumkarbonát",
-        "https://de.wikipedia.org/wiki/Natriumcarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-karbonat-nehez-industrial",
@@ -4040,21 +3664,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "nehéz",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-karbonat-nehez-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_carbonate",
-        "https://hu.wikipedia.org/wiki/Nátriumkarbonát",
-        "https://de.wikipedia.org/wiki/Natriumcarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
@@ -4085,21 +3705,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "(nátrium-piroszulfit)",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-metabiszulfit-natrium-piroszulfit-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_metabisulfite",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-metabiszulfit",
-        "https://de.wikipedia.org/wiki/Natriumdisulfit"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-metaszilikat-industrial",
@@ -4128,21 +3744,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "vízmentes; pentahidrát",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-metaszilikat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_metasilicate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-metaszilik%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriummetasilicat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-molibdat-feed",
@@ -4171,21 +3783,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai és takarmányipari minőség",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-molibdat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_molybdate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-molibd%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriummolybdat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-perkarbonat-industrial",
@@ -4214,21 +3822,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-perkarbonat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_percarbonate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-perkarbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumpercarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-permanganat-40-oldat-industrial",
@@ -4255,21 +3859,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "40% oldat",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-permanganat-40-oldat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_permanganate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-permangan%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumpermanganat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-perszulfat-industrial",
@@ -4296,21 +3896,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-perszulfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_persulfate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-perszulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumpersulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-szelenit-feed",
@@ -4337,21 +3933,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-szelenit-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_selenite",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-szelenit",
-        "https://de.wikipedia.org/wiki/Natriumselenit"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-szulfat-industrial",
@@ -4380,21 +3972,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "vízmentes (salt-cake / ipari minőség)",
-        "packaging": "BigBag és zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-szulfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_sulfate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumsulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-tripolifoszfat-industrial",
@@ -4424,21 +4012,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai és élelmiszeripari minőség",
-        "packaging": "zsákos, BigBag",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natrium-tripolifoszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_triphosphate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-tripolifoszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumtriphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natronvizuveg-oldatok-industrial",
@@ -4467,21 +4051,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "oldatok",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-natronvizuveg-oldatok-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_silicate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-szilik%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumsilicat"
-      ]
+      "sameAs": []
     },
     {
       "id": "propionsav-99-feed",
@@ -4510,21 +4090,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "99%",
-        "packaging": "IBC (1000 L), hordó (200 L)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-propionsav-99-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Propionic_acid",
-        "https://hu.wikipedia.org/wiki/Propions%C3%A1v",
-        "https://de.wikipedia.org/wiki/Propions%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "rez-klorid-dihidrat-industrial",
@@ -4551,21 +4127,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "dihidrát",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-rez-klorid-dihidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Copper%28II%29_chloride",
-        "https://hu.wikipedia.org/wiki/R%C3%A9z(II)-klorid",
-        "https://de.wikipedia.org/wiki/Kupfer(II)-chlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "rez-szulfat-feed",
@@ -4592,21 +4164,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-rez-szulfat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Copper%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/R%C3%A9z(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Kupfer(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "rez-szulfat-pentahidrat-industrial",
@@ -4633,21 +4201,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "pentahidrát",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-rez-szulfat-pentahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Copper%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/R%C3%A9z(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Kupfer(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "saletromsav-20-50-53-60-industrial",
@@ -4676,21 +4240,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "20%, 50%, 53%, 60%",
-        "packaging": "IBC, hordó (ADR)",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-saletromsav-20-50-53-60-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Nitric_acid",
-        "https://hu.wikipedia.org/wiki/Sal%C3%A9tromsav",
-        "https://de.wikipedia.org/wiki/Salpeter%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "sosav-gyogyszerkonyvi-food",
@@ -4719,21 +4279,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "gyógyszerkönyvi",
-        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-sosav-gyogyszerkonyvi-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Hydrochloric_acid",
-        "https://hu.wikipedia.org/wiki/S%C3%B3sav",
-        "https://de.wikipedia.org/wiki/Salzs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "sosav-technikai-regeneralt-industrial",
@@ -4762,21 +4318,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai, regenerált",
-        "packaging": "IBC (1000 L), hordó (200 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-sosav-technikai-regeneralt-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Hydrochloric_acid",
-        "https://hu.wikipedia.org/wiki/S%C3%B3sav",
-        "https://de.wikipedia.org/wiki/Salzs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "sotabletta-industrial",
@@ -4807,21 +4359,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "útszóró só; vákuumsó; sótabletta",
-        "packaging": "BigBag, ömlesztett és zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-sotabletta-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_chloride",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
-        "https://de.wikipedia.org/wiki/Natriumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "tiokarbamid-industrial",
@@ -4850,21 +4398,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-tiokarbamid-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Thiourea",
-        "https://hu.wikipedia.org/wiki/Tiokarbamid",
-        "https://de.wikipedia.org/wiki/Thioharnstoff"
-      ]
+      "sameAs": []
     },
     {
       "id": "trietilen-glikol-industrial",
@@ -4893,21 +4437,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "technikai minőség",
-        "packaging": "hordó (200 L), IBC",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-trietilen-glikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Triethylene_glycol",
-        "https://hu.wikipedia.org/wiki/Trietil%C3%A9n-glikol",
-        "https://de.wikipedia.org/wiki/Triethylenglykol"
-      ]
+      "sameAs": []
     },
     {
       "id": "trilon-industrial",
@@ -4933,21 +4473,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-trilon-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ethylenediaminetetraacetic_acid",
-        "https://hu.wikipedia.org/wiki/Etil%C3%A9n-diamin-tetraecetsav",
-        "https://de.wikipedia.org/wiki/Ethylendiamintetraessigs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "trinatrium-citrat-industrial",
@@ -4976,21 +4512,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "élelmiszeripari dihidrát minőség",
-        "packaging": "zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-trinatrium-citrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Trisodium_citrate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-citr%C3%A1t",
-        "https://de.wikipedia.org/wiki/Trinatriumcitrat"
-      ]
+      "sameAs": []
     },
     {
       "id": "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
@@ -5019,21 +4551,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "dodekahidrát, vízmentes",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-trinatrium-foszfat-dodekahidrat-vizmentes-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Trisodium_phosphate",
-        "https://hu.wikipedia.org/wiki/Trin%C3%A1trium-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Trinatriumphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "utszoro-so-deicing",
@@ -5063,21 +4591,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "útszóró só; vákuumsó; sótabletta",
-        "packaging": "BigBag, ömlesztett és zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-utszoro-so-deicing.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_chloride",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
-        "https://de.wikipedia.org/wiki/Natriumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "utszoro-zeolit-deicing",
@@ -5104,21 +4628,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": null,
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-utszoro-zeolit-deicing.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zeolite",
-        "https://hu.wikipedia.org/wiki/Zeolit",
-        "https://de.wikipedia.org/wiki/Zeolith"
-      ]
+      "sameAs": []
     },
     {
       "id": "vakuum-so-industrial",
@@ -5149,21 +4669,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "útszóró só; vákuumsó; sótabletta",
-        "packaging": "BigBag, ömlesztett és zsákos",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-vakuum-so-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_chloride",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
-        "https://de.wikipedia.org/wiki/Natriumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "vas-ii-szulfat-monohidrat-feed",
@@ -5190,21 +4706,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-vas-ii-szulfat-monohidrat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Iron%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/Vas(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Eisen(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
@@ -5231,21 +4743,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "monohidrát, heptahidrát",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-vas-ii-szulfat-monohidrat-heptahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Iron%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/Vas(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Eisen(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "vas-iii-klorid-40-oldat-industrial",
@@ -5274,21 +4782,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "40% oldat",
-        "packaging": "IBC (1000 L), tartályautó",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "SDS B2B ajánlatkérés során elérhető.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-vas-iii-klorid-40-oldat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Iron%28III%29_chloride",
-        "https://hu.wikipedia.org/wiki/Vas(III)-klorid",
-        "https://de.wikipedia.org/wiki/Eisen(III)-chlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "vas-iii-szulfat-40-oldat-industrial",
@@ -5315,21 +4819,17 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "40% oldat",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-vas-iii-szulfat-40-oldat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Iron%28III%29_sulfate",
-        "https://hu.wikipedia.org/wiki/Vas(III)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Eisen(III)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed",
@@ -5353,22 +4853,51 @@
       },
       "commercialContext": {
         "gradeOrConcentration": "A, B1, B12, B5, B6, C, D3, E, H, K3",
-        "packaging": "Minden B2B ajánlatkérésnél egyedileg egyeztetendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
         "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
         "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
       },
       "documentation": {
-        "SDS": "A dokumentáció B2B ajánlatkérés során kerül megerősítésre.",
-        "TDS": "TDS B2B ajánlatkérés során kerül megerősítésre.",
-        "CoA": "Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/hu-vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Vitamin",
-        "https://hu.wikipedia.org/wiki/Vitamin",
-        "https://de.wikipedia.org/wiki/Vitamin"
-      ]
+      "sameAs": []
     },
-    {"id":"copper-oxide-feed","entityType":"DefinedTerm","name":"Réz(II)-oxid — takarmányipari orientáció","alternateNames":["Réz(II)-oxid","Réz-oxid"],"description":"A réz(II)-oxid B2B takarmányipari érdeklődési tétel. A végleges minőséget, alkalmasságot és dokumentációt egyedileg kell megerősíteni.","categories":["Takarmányipari segédanyagok"],"applications":["takarmányipari beszerzés, aktuális beszállítói dokumentáció alapján"],"identity":{"CAS":"1317-38-0","EC":"215-269-1","formula":"CuO"},"commercialContext":{"gradeOrConcentration":"Takarmányipari orientáció; egyedileg megerősítendő","packaging":"Minden B2B ajánlatkérésnél egyedileg egyeztetendő","deliveryRegion":"Magyarország, Ausztria, a DACH-régió és Európa","availabilityNote":"Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."},"documentation":{"SDS":"A dokumentáció B2B ajánlatkérés során kerül megerősítésre.","TDS":"TDS B2B ajánlatkérés során kerül megerősítésre.","CoA":"Analízis-tanúsítvány gyártói/beszállítói rendelkezésre állás szerint."},"pageUrl":"https://www.rawmaterialstrade.com/hu-rez-oxid-feed.html","sameAs":["https://en.wikipedia.org/wiki/Copper(II)_oxide","https://hu.wikipedia.org/wiki/R%C3%A9z(II)-oxid","https://de.wikipedia.org/wiki/Kupfer(II)-oxid"]}
+    {
+      "id": "copper-oxide-feed",
+      "entityType": "DefinedTerm",
+      "name": "Réz(II)-oxid — takarmányipari orientáció",
+      "alternateNames": [
+        "Réz(II)-oxid",
+        "Réz-oxid"
+      ],
+      "description": "A réz(II)-oxid B2B takarmányipari érdeklődési tétel. A végleges minőséget, alkalmasságot és dokumentációt egyedileg kell megerősíteni.",
+      "categories": [
+        "Takarmányipari segédanyagok"
+      ],
+      "applications": [
+        "takarmányipari beszerzés, aktuális beszállítói dokumentáció alapján"
+      ],
+      "identity": {
+        "CAS": "1317-38-0",
+        "EC": "215-269-1",
+        "formula": "CuO"
+      },
+      "commercialContext": {
+        "gradeOrConcentration": "Takarmányipari orientáció; egyedileg megerősítendő",
+        "packaging": "A kiszerelést kapcsolatfelvétel után, a kiválasztott beszállítóval egyeztetjük.",
+        "deliveryRegion": "Magyarország, Ausztria, a DACH-régió és Európa",
+        "availabilityNote": "Az elérhetőség, kiszerelés, szállítási feltételek és határidők minden B2B ajánlatkérésnél egyedileg kerülnek megerősítésre."
+      },
+      "documentation": {
+        "SDS": "Az SDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "TDS": "A TDS elérhetőségét kapcsolatfelvétel után ellenőrizzük.",
+        "CoA": "A tételszintű CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."
+      },
+      "pageUrl": "https://www.rawmaterialstrade.com/hu-rez-oxid-feed.html",
+      "sameAs": []
+    }
   ]
 }
