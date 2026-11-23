@@ -52,7 +52,7 @@ def inspect() -> tuple[list[tuple[Path, str]], list[str]]:
                 errors.append(f"{name}: missing product page")
                 continue
             source = path.read_text(encoding="utf-8")
-            if not re.search(r'<html\\s+lang=["\']' + re.escape(language) + r'["\']', source, re.I):
+            if not re.search(r'<html\s+lang=["\']' + re.escape(language) + r'["\']', source, re.I):
                 errors.append(f"{name}: unexpected HTML language")
                 continue
             if source.count(FOOTER) != 1:
