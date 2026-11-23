@@ -1,0 +1,60 @@
+name: One-shot offered-grade evidence deferral (review branch only)
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - tools/defer_unverified_offered_grades.py
+      - .github/workflows/one-shot-offered-grade-deferral.yml
+
+permissions:
+  contents: write
+
+jobs:
+  deferral:
+    if: github.repository == 'strangerfake01/RawMaterialsTrade' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'audit/buyer-supplier-seo-geo-trust-20261123'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout exact review branch
+        uses: actions/checkout@v4
+        with:
+          ref: audit/buyer-supplier-seo-geo-trust-20261123
+          persist-credentials: true
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Strip unsupported offered-grade purity concentration and form assertions
+        run: python3 tools/defer_unverified_offered_grades.py --apply
+      - name: Verify all 385 public files, no mutation
+        run: python3 tools/defer_unverified_offered_grades.py
+      - name: Verify release sitemap and JSON-LD
+        run: python3 tools/audit_release_contract.py
+      - name: Verify multilingual parity
+        run: python3 scripts/check_product_parity.py
+      - name: Validate only canonical public HTML and JSON files were modified
+        run: |
+          git diff --check
+          python3 - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          products = json.loads(Path('products-multilingual.json').read_text(encoding='utf-8'))
+          overrides = {'copper-oxide-feed': {'en': 'en-copper-oxide-feed.html', 'hu': 'hu-rez-oxid-feed.html', 'de-at': 'de-at-kupferoxid-futtermittel.html'}}
+          allowed = {overrides.get(p['id'], {}).get(lang, f"{lang}-{p['id']}.html") for p in products for lang in ('en','hu','de-at')}
+          allowed.update({'products-multilingual.json','products-en.json','products-hu.json','products-de-at.json'})
+          changed = set(subprocess.check_output(['git','diff','--name-only'], text=True).splitlines())
+          assert len(allowed) == 385
+          assert changed.issubset(allowed), f"Unexpected files: {sorted(changed-allowed)}"
+          assert len(changed) > 0, "No changes; check whether this migration has already applied"
+          print(f"Grade deferral: {len(changed)} public HTML/JSON only")
+          PY
+      - name: Push back onto review branch only
+        run: |
+          test "$(git branch --show-current)" = "audit/buyer-supplier-seo-geo-trust-20261123"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.html' 'products-*.json'
+          if ! git diff --cached --quiet; then
+            git commit -m "fix(trust): remove unverified offered grades and purity across 3L catalogue"
+            git push origin "HEAD:audit/buyer-supplier-seo-geo-trust-20261123"
+          fi
