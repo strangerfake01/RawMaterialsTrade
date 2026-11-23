@@ -258,8 +258,26 @@ Both are general chemical reference corrections only. No regulated feed claim, b
 
 **Cumulative general source scope: 103/127 reviewed family references, 85 distinct CIDs, 24 pending; 0 supplier lot/grades independently authenticated.**
 
+
+## Batch L — two general parent-chemistry identities and five new multi-form groups (2026-11-24)
+
+Two additional family requests now have independent original PubChem general-substance references, **not verified offered commercial products**:
+
+| Family | CAS | CID | Formula | Primary evidence |
+|---|---|---:|---|---|
+| `magnezium-karbonat-konnyu-nehez-industrial` | 546-93-0 | 11029 | CMgO3 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/11029) |
+| `na-hexametafoszfat-industrial` | 10124-56-8 | 24968 | Na6O18P6 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/24968) |
+
+The light/heavy magnesium carbonate product can have physically and chemically distinct grades; the MgCO3 source does not identify actual bulk/light/basic carbonate properties. PubChem's sodium hexametaphosphate CID covers one cyclic molecular reference; it does not guarantee a particular commercial distribution of polyphosphate chain lengths.
+
+A **separate** multi-form research matrix now has 9 chemical groups, 15 family request routes and 19 form-specific PubChem references. Newly documented groups: manganese chloride (anhydrous vs tetrahydrate; named monohydrate remains without its own independently checked form reference), iron(II) sulfate (anhydrous/mono-/heptahydrate), sodium acetate (anhydrous/trihydrate), trisodium phosphate (anhydrous/dodecahydrate), and EDTA disodium dihydrate vs tetrasodium. Their different CAS, CID and molecular formula are recorded in `docs/variant-form-primary-sources-2026-11-23.json` with direct NIH/NLM PubChem links.
+
+The previous **single-CID PubChem source URLs for seven ambiguous multi-form product request families** have been withheld from `HANDOFF/SOURCE-REGISTER.csv` and replaced with empty-URL `FormVariant` pointers to the independently sourced variant matrix. No ambiguous product family has been falsely upgraded to a single commercial identity. This includes recognized parent-CAS problems in manganese chloride and ferrous sulfate hydrated forms.
+
+**Cumulative scoped research:** **105/127** family entries individually researched for a single general parent compound concept, **87 distinct general CIDs**, **22 without a single independently approved general compound reference**; within those 22, **15** family requests have separate partial/multi-form primary research, **7** do not. **Zero** actual supplier grades, product lots, declarations, certificates, legal-use approvals or offers have been independently authenticated.
+
 ## Publication boundary and acceptance
 
-Public source references can support **general chemical education and product-request identification** only. They cannot establish current RMT supplier details, grade, SDS/TDS/CoA availability, restricted-use compliance or shipment conditions. The default rule is **withhold until reliable proof**, confirm privately after contact and maintain the protected RFQ process. The remaining 24 catalogue families require independent concept-by-concept verification before any reference can be called independently cross-checked; **0/127 supplier offers have been authenticated** in this audit.
+Public source references can support **general chemical education and product-request identification** only. They cannot establish current RMT supplier details, grade, SDS/TDS/CoA availability, restricted-use compliance or shipment conditions. The default rule is **withhold until reliable proof**, confirm privately after contact and maintain the protected RFQ process. The remaining 22 catalogue families require independent concept-by-concept verification before any reference can be called independently cross-checked; **0/127 supplier offers have been authenticated** in this audit.
 
 The #52 PR remains DRAFT and NOT LIVE until independent real Worker/Turnstile/inbox E2E, legal and chemistry review where applicable, production exact SHA readback and post-release GSC acceptance are complete.
