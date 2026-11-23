@@ -42,6 +42,8 @@ jobs:
         run: node tests/analytics-consent-runtime.cjs
       - name: Verify separate buyer and manufacturer lead intent analytics boundaries
         run: python3 tools/audit_lead_audience.py
+      - name: Compile exact-live verifier without fetching production
+        run: python3 -m py_compile tools/verify_live_release.py
       - name: Reject unverified chemical identity source claims
         run: python3 tools/audit_chemical_source_integrity.py
       - name: Check all same-origin anchor targets and certificates

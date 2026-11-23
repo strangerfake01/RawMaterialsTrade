@@ -1,0 +1,21 @@
+name: Exact-live production release verification
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-live:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Wait for Pages deployment and verify exact main revision
+        run: python3 tools/verify_live_release.py --expected-sha "$GITHUB_SHA" --attempts 20 --delay 25
