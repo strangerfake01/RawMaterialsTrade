@@ -3,8 +3,8 @@
   "document_type": "independent_primary_source_research_register",
   "review_scope": "general_substance_identity_only",
   "total_catalogue_families": 127,
-  "general_substance_references_crosschecked": 65,
-  "other_catalogue_families_not_yet_independently_verified": 62,
+  "general_substance_references_crosschecked": 76,
+  "other_catalogue_families_not_yet_independently_verified": 51,
   "commercial_grade_verified": 0,
   "external_source_types": [
     "NIH_NLM_PubChem",
@@ -758,9 +758,141 @@
       "previous_candidate_cid": 312,
       "scope": "general_substance_only_not_offered_grade",
       "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "glicerin-industrial",
+      "name": "Glycerol",
+      "cas": "56-81-5",
+      "cid": 753,
+      "formula": "C3H8O3",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/753",
+      "note": "Chemical identity only; industrial grade and supplier batch unverified.",
+      "previous_candidate_cid": 753,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "borkosav-l-food",
+      "name": "L(+)-Tartaric acid",
+      "cas": "87-69-4",
+      "cid": 444305,
+      "formula": "C4H6O6",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/444305",
+      "note": "L enantiomer CAS 87-69-4 differs from earlier achiral/wrong-stereochemistry CID 875; food-grade status unverified.",
+      "previous_candidate_cid": 875,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "trietilen-glikol-industrial",
+      "name": "Triethylene glycol",
+      "cas": "112-27-6",
+      "cid": 8172,
+      "formula": "C6H14O4",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/8172",
+      "note": "General triethylene glycol, not offered product grade.",
+      "previous_candidate_cid": 8172,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "tiokarbamid-industrial",
+      "name": "Thiourea",
+      "cas": "62-56-6",
+      "cid": 2723790,
+      "formula": "CH4N2S",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/2723790",
+      "note": "General thiourea identity, not supplier SDS or classification approval.",
+      "previous_candidate_cid": 2723790,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "natrium-tripolifoszfat-industrial",
+      "name": "Sodium tripolyphosphate",
+      "cas": "7758-29-4",
+      "cid": 24455,
+      "formula": "Na5O10P3",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/24455",
+      "note": "General anhydrous STPP identity; grade/form not assured.",
+      "previous_candidate_cid": 24455,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
+      "name": "Sodium hypochlorite",
+      "cas": "7681-52-9",
+      "cid": 23665760,
+      "formula": "ClNaO",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/23665760",
+      "note": "Parent hypochlorite only, 90 g/l and 150 g/l solutions, free chlorine levels, stabilization and SDS unverified.",
+      "previous_candidate_cid": 23665760,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "trinatrium-citrat-industrial",
+      "name": "Trisodium citrate",
+      "cas": "68-04-2",
+      "cid": 6224,
+      "formula": "C6H5Na3O7",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/6224",
+      "note": "General anhydrous trisodium citrate, not commercial hydrate grade or batch.",
+      "previous_candidate_cid": 6224,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "natrium-molibdat-feed",
+      "name": "Sodium molybdate",
+      "cas": "7631-95-0",
+      "cid": 61424,
+      "formula": "MoNa2O4",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/61424",
+      "note": "Anhydrous chemical concept; feed/additive use and supplier traceability unverified.",
+      "previous_candidate_cid": 61424,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "natrium-metaszilikat-industrial",
+      "name": "Sodium metasilicate",
+      "cas": "6834-92-0",
+      "cid": 23266,
+      "formula": "Na2O3Si",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/23266",
+      "note": "Sodium metasilicate parent chemical; solution, anhydrous, hydration and offered grade not verified.",
+      "previous_candidate_cid": 23266,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "kenpor-industrial",
+      "name": "Sulfur",
+      "cas": "7704-34-9",
+      "cid": 5362487,
+      "formula": "S",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/5362487",
+      "note": "Previous CID 402 was hydrogen sulfide (H2S), not elemental sulfur; this does not verify sulfur powder grade or safe handling.",
+      "previous_candidate_cid": 402,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
+      "name": "Sodium metabisulfite / sodium pyrosulfite",
+      "cas": "7681-57-4",
+      "cid": 656671,
+      "formula": "Na2O5S2",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/656671",
+      "note": "Previous CID 24346 is a distinct PubChem record associated with CAS 7757-74-6. CID 656671 supports CAS 7681-57-4; grade and compliance unverified.",
+      "previous_candidate_cid": 24346,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
     }
   ],
-  "rejected_legacy_automatic_pubchem_match_count": 10,
+  "rejected_legacy_automatic_pubchem_match_count": 9,
   "rejected_legacy_automatic_pubchem_product_ids": [
     "kalcium-klorid-2025-oldat-deicing",
     "kalcium-klorid-7780-food",
@@ -770,9 +902,8 @@
     "cink-szulfat-monohidrat-feed",
     "cink-szulfat-monohidrat-heptahidrat-industrial",
     "rez-klorid-dihidrat-industrial",
-    "kalium-jodat-feed",
-    "kenpor-industrial"
+    "kalium-jodat-feed"
   ],
   "quarantine_note": "The remaining 10 wrong ion/hydrate/molecule automatic PubChem candidates are NULL in entity-registry and must not be approved without form-specific independent source evidence. Four previously quarantined ion-only source mappings were separately reconciled on 2026-11-23 to official general molecule records, NOT supplier-grade certification.",
-  "unique_general_compound_cids_crosschecked": 52
+  "unique_general_compound_cids_crosschecked": 62
 }
