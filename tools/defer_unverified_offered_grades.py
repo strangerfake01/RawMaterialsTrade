@@ -103,7 +103,7 @@ def build() -> dict[Path, str]:
                 raise ValueError(f"Missing product HTML: {route}")
             html = path.read_text(encoding="utf-8")
             expected_lang = {"en": "en", "hu": "hu-HU", "de-at": "de-AT"}[lang]
-            if not re.search(r'<html\\s+lang="' + re.escape(expected_lang) + '"', html, re.I):
+            if not re.search(r'<html\s+lang="' + re.escape(expected_lang) + '"', html, re.I):
                 raise ValueError(f"{route}: incorrect language")
             replacement[path] = check_and_rewrite_html(html, lang, route)
             suffix = SOURCE_LANG[lang]
