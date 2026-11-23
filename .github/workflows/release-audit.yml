@@ -74,6 +74,8 @@ jobs:
         run: python3 tools/audit_public_chemical_identity.py
       - name: Enforce batch-specific CoA caveats on all localized product pages
         run: python3 tools/audit_supplier_coa_status.py
+      - name: Block unverified supplier packaging, SDS TDS CoA claims in all 381 product pages and public JSON feeds
+        run: python3 tools/defer_unverified_supplier_claims.py
       - name: Inventory unsupported packaging, concentration and document promises
         run: python3 tools/audit_public_product_claims.py
       - name: Inventory ambiguous technical concentration and form fields
