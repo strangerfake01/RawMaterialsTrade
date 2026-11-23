@@ -365,6 +365,27 @@ for form_group in ADDED_FORMS:
         if len(rows) != 1 or rows[0]["source_url"] or rows[0]["evidence_status"] != "needs-independent-verification":
             errors.append(f"{family_id}: invalid form-only source row or leaked single-product CID")
 
+
+# A complete partition of the 127 family routes prevents a mixture or trade name
+# from being silently counted as a verified single molecule or product.
+UNRESOLVED = json.loads((ROOT / "docs/unresolved-chemical-families-2026-11-24.json").read_text(encoding="utf-8"))
+research_ids = set(evidence)
+variant_ids_set = set(variant_ids)
+unresolved_ids = {x["id"] for x in UNRESOLVED["entries"]}
+canonical_ids = {x["id"] for x in CATALOGUE}
+if (len(research_ids), len(variant_ids_set), len(unresolved_ids)) != (105, 15, 7):
+    errors.append("Unexpected 105/15/7 coverage partition")
+if research_ids & variant_ids_set or research_ids & unresolved_ids or variant_ids_set & unresolved_ids:
+    errors.append("A catalogue family belongs to more than one evidence classification")
+if canonical_ids != research_ids | variant_ids_set | unresolved_ids:
+    errors.append("Missing/extra source-evidence catalogue family")
+if UNRESOLVED.get("commercial_supplier_lots_verified") != 0 or UNRESOLVED.get("commercial_sameas_promotion_allowed") is not False:
+    errors.append("Unverified source gap promoted to commercial acceptance")
+for unresolved_id in unresolved_ids:
+    item = entries.get(unresolved_id, {})
+    if item.get("pubchem_cid") is not None or item.get("sameAs_status") == "verified" or item.get("independent_general_substance_reference") or item.get("form_specific_research_reference"):
+        errors.append(f"{unresolved_id}: unresolved chemistry incorrectly promoted")
+
 if len(ROWS) != 369:
     errors.append(f"Source register unexpected row count: {len(ROWS)}")
 print(f"Primary substance research: {len(EXPECTED)} general concepts crosschecked, "
