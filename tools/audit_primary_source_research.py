@@ -85,6 +85,15 @@ EXPECTED.update({
     "butanol-industrial": (263, 263, "71-36-3", "C4H10O"),
 })
 
+# Fourth source review: acid/anion and potassium-stoichiometry errors.
+EXPECTED.update({
+    "ecetsav-20-50-60-70-80-99-8-industrial": (175, 176, "64-19-7", "C2H4O2"),
+    "ecetsav-20-50-60-70-80-99-8-jegecet-food": (175, 176, "64-19-7", "C2H4O2"),
+    "hangyasav-85-industrial": (283, 284, "64-18-6", "CH2O2"),
+    "kalium-ferrocianid-food": (26250, 9605257, "13943-58-3", "C6FeK4N6"),
+})
+VARIANT_SOURCES = json.loads((ROOT / "docs/variant-form-primary-sources-2026-11-23.json").read_text(encoding="utf-8"))
+
 errors: list[str] = []
 if len(CATALOGUE) != 127 or len(REGISTRY.get("entities", [])) != 127:
     errors.append("Unexpected catalogue/registry size")
@@ -94,7 +103,7 @@ if set(evidence) != set(EXPECTED):
     errors.append("General-source references have unreviewed or missing entries")
 if RESEARCH.get("commercial_grade_verified") != 0:
     errors.append("Supplier grade was incorrectly approved by general references")
-if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 70:
+if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 66:
     errors.append("Full catalogue research coverage misrepresented")
 for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     item = entries.get(pid, {})
@@ -102,7 +111,7 @@ for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     if (item.get("cas"), item.get("pubchem_candidate_cid"),
             item.get("pubchem_candidate_formula")) != (cas, cid, formula):
         errors.append(f"{pid}: wrong candidate CAS/CID/formula association")
-    if cited.get("pubchem") != f"https://pubchem.ncbi.nlm.nih.gov/compound/{cas}":
+    if cited.get("pubchem") not in (f"https://pubchem.ncbi.nlm.nih.gov/compound/{cas}", f"https://pubchem.ncbi.nlm.nih.gov/compound/{cid}"):
         errors.append(f"{pid}: missing independently checked PubChem CAS URL")
     if (cited.get("cid"), cited.get("cas"), cited.get("formula")) != (cid, cas, formula):
         errors.append(f"{pid}: research evidence inconsistent with source record")
@@ -148,8 +157,36 @@ for pid in ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"):
     e = entries.get(pid, {})
     if e.get("wikidata_qid") or e.get("wikidata_label"):
         errors.append(f"{pid}: unapproved or mismatched hydrate Wikidata sameAs")
-if len(EXPECTED) != 57 or len({x["cid"] for x in RESEARCH["entries"]}) != 46:
-    errors.append("General compound review must contain 57 families and 46 distinct CIDs")
+if len(EXPECTED) != 61 or len({x["cid"] for x in RESEARCH["entries"]}) != 49:
+    errors.append("General compound review must contain 61 families and 49 distinct CIDs")
+# Multi-hydrate parent families deliberately remain outside approved single-CID
+# references. Two sourced variants are not proof of one offered commercial product.
+groups = VARIANT_SOURCES.get("groups") or {}
+variant_ids = [pid for g in groups.values() for pid in g.get("family_ids", [])]
+if len(groups) != 4 or len(variant_ids) != 8 or len(set(variant_ids)) != 8:
+    errors.append("Expected 4 general chemical groups and 8 family routes with variant evidence")
+if VARIANT_SOURCES.get("supplier_lots_verified") != 0 or VARIANT_SOURCES.get("commercial_sameas_approved") != 0:
+    errors.append("Variant sources cannot assert commercial supplier or sameAs approval")
+for group in groups.values():
+    for form in group.get("variants", []):
+        cas = form.get("cas")
+        cid = form.get("cid")
+        if not cas or not isinstance(cid, int) or form.get("source_url") not in (
+                f"https://pubchem.ncbi.nlm.nih.gov/compound/{cas}",
+                f"https://pubchem.ncbi.nlm.nih.gov/compound/{cid}"):
+            errors.append("Variant form source URL is invalid")
+for pid in variant_ids:
+    e = entries.get(pid, {})
+    scope = e.get("form_specific_research_reference") or {}
+    if scope.get("scope") != "form_specific_general_substances_not_offered_product" or scope.get("supplier_evidence_status") != "unverified":
+        errors.append(f"{pid}: variant source evidence scope missing or inflated")
+    if scope.get("commercial_product_identity_approved") is not False:
+        errors.append(f"{pid}: commercial product identity was improperly approved")
+    if e.get("independent_general_substance_reference") or e.get("pubchem_cid") is not None or e.get("sameAs_status") == "verified":
+        errors.append(f"{pid}: multiple possible CAS/grades must not become single-CID product equivalence")
+if set(variant_ids) & set(EXPECTED):
+    errors.append("Multi-variant unresolved families must not be counted as approved single-substance identities")
+
 if len(ROWS) != 369:
     errors.append(f"Source register unexpected row count: {len(ROWS)}")
 print(f"Primary substance research: {len(EXPECTED)} general concepts crosschecked, "
