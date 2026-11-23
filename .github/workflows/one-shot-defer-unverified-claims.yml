@@ -1,0 +1,60 @@
+name: One-shot supplier-claim deferral (review branch only)
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - tools/defer_unverified_supplier_claims.py
+      - .github/workflows/one-shot-defer-unverified-claims.yml
+
+permissions:
+  contents: write
+
+jobs:
+  deferral:
+    if: github.repository == 'strangerfake01/RawMaterialsTrade' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'audit/buyer-supplier-seo-geo-trust-20261123'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout exact, isolated review branch
+        uses: actions/checkout@v4
+        with:
+          ref: audit/buyer-supplier-seo-geo-trust-20261123
+          persist-credentials: true
+      - name: Configure Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Remove only unverified supplier-specific assertions
+        run: python3 tools/defer_unverified_supplier_claims.py --apply
+      - name: Fail if any of the 381 product pages or four public JSON files diverge
+        run: python3 tools/defer_unverified_supplier_claims.py
+      - name: Validate 408-route HTML and schema contract after deferral
+        run: python3 tools/audit_release_contract.py
+      - name: Validate seller-grade/product page and catalogue identity parity
+        run: python3 scripts/check_product_parity.py
+      - name: Verify protected files unchanged and patch whitespace
+        run: |
+          git diff --check
+          python3 - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          changed = set(subprocess.check_output(['git','diff','--name-only'], text=True).splitlines())
+          products = json.loads(Path('products-multilingual.json').read_text(encoding='utf-8'))
+          overrides = {'copper-oxide-feed': {'en': 'en-copper-oxide-feed.html', 'hu': 'hu-rez-oxid-feed.html', 'de-at': 'de-at-kupferoxid-futtermittel.html'}}
+          expected = {overrides.get(p['id'], {}).get(lang, f"{lang}-{p['id']}.html") for p in products for lang in ('en','hu','de-at')}
+          expected.update({'products-multilingual.json','products-en.json','products-hu.json','products-de-at.json'})
+          assert len(expected) == 385, f"Wrong planned scope {len(expected)}"
+          assert changed.issubset(expected), f"Unexpected file mutations: {sorted(changed-expected)}"
+          assert all(Path(p).is_file() for p in changed)
+          print(f"Safe scope: {len(changed)} public HTML/JSON files; no Worker, form, secrets, CSP, or generated trust source changed")
+          PY
+      - name: Commit to the same review branch (never main)
+        run: |
+          test "$(git branch --show-current)" = "audit/buyer-supplier-seo-geo-trust-20261123"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.html' 'products-*.json'
+          if ! git diff --cached --quiet; then
+            git commit -m "fix(trust): remove unverified supplier packaging and document guarantees in 3 languages"
+            git push origin "HEAD:audit/buyer-supplier-seo-geo-trust-20261123"
+          fi
