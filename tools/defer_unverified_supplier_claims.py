@@ -130,7 +130,7 @@ def rewrite_html(html: str, lang: str, route: str) -> str:
     # second template path; remove only the bracketed suggested inventory.
     if lang == "en":
         html = re.sub(
-            r'packaging preference \\(catalogue orientation: [^<]*\\), delivery country/site and timing\\.',
+            r'packaging preference \(catalogue orientation: [^<]*\), delivery country/site and timing\.',
             'packaging preference, delivery country/site and timing.', html)
     # Availability of SDS is not guaranteed by saying "always"; buyers must
     # request current grade-specific documentation after contact.
@@ -152,7 +152,7 @@ def rewrite_html(html: str, lang: str, route: str) -> str:
     }
     for old, new in replacements[lang]:
         html = html.replace(old, new)
-    if re.search(r'SDS always|mindig SDS|stets SDS|packaging preference \\(catalogue orientation:', html, re.I):
+    if re.search(r'SDS always|mindig SDS|stets SDS|packaging preference \(catalogue orientation:', html, re.I):
         raise ValueError(f"{route}: unsupported documentation or packaging assertion remains")
     # No catalogue packaging example may masquerade as a currently offered
     # form within a generic procurement introduction.
