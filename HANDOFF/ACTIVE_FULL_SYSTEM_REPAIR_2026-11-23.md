@@ -206,3 +206,12 @@ Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no war
 - Extended the existing read-only consent audit to inventory **all public HTML routes**, record dynamic-banner coverage and block unconditional external Google Analytics scripts anywhere (commit `155f4ed`).
 - This batch is **FIXED ON BRANCH / CI AND BROWSER PENDING**. Previous smaller 3-language browser suite passed on commit `745c22a`, but that does not prove the expanded 24-scenario suite. No production deployment or GSC submission. Leave journal intact.
 - Worker, Turnstile, CSP, form endpoint, private customer/supplier records, product master and source-specific chemical facts are unchanged.
+
+### 2026-11-23 — Batch 11 CI + 24-case browser acceptance
+
+- Verified changes at branch commit `1b04fa23ee8776419e8d68be35362e7770444c8c` (source and documentation only; no main write).
+- GitHub Actions: confidential-history audit run `45138708609` PASS; product identity regression `45138708495` PASS; catalogue parity `45138708761` PASS; static release contract `45138708551` PASS.
+- Static release logs: **408** sitemap routes checked, **0** SEO/AEO structural errors or review candidates in the tested metadata; **410** HTML files load the consent controller, including **389** that require the shared dynamically generated consent panel; **0** lack shared overlay CSS. Consent source / local Node runtime audit: PASS.
+- Independent Chromium workflow `45138708507`: **24/24 PASS** across HU/EN/DE-AT privacy, home, glycerine product and manufacturer partnership routes at 390 and 1440 px. Verified initial visible consent, no Google analytics request before opt-in, refusal storage, settings reopen, consent request mocked, persisted withdrawal on reload. All GA endpoints locally intercepted; no live contact form submission.
+- **Status: CI-VERIFIED and LOCAL-BROWSER-VERIFIED, not production-verified.** Do not merge, deploy, submit sitemap or delete journal solely on this basis.
+- Still outstanding: broader qualitative content review of all 127 product families × 3 languages, real-device accessibility/UX, authorized Worker/Turnstile E2E, qualified legal/compliance/supplier-document review, live exact-commit verification, independent blog/Blogger maintenance, final Search Console submission and 7/28/56-day measurement. Product-master sync stays fail-closed.
