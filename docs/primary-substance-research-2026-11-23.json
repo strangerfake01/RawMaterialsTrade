@@ -3,8 +3,8 @@
   "document_type": "independent_primary_source_research_register",
   "review_scope": "general_substance_identity_only",
   "total_catalogue_families": 127,
-  "general_substance_references_crosschecked": 82,
-  "other_catalogue_families_not_yet_independently_verified": 45,
+  "general_substance_references_crosschecked": 90,
+  "other_catalogue_families_not_yet_independently_verified": 37,
   "commercial_grade_verified": 0,
   "external_source_types": [
     "NIH_NLM_PubChem",
@@ -962,6 +962,102 @@
       "previous_candidate_cid": 14777,
       "scope": "general_substance_only_not_offered_grade",
       "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "dikalium-hidrogen-foszfat-food",
+      "name": "Dipotassium hydrogen phosphate",
+      "cas": "7758-11-4",
+      "cid": 24450,
+      "formula": "HK2O4P",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/24450",
+      "note": "General K2HPO4, does not establish food-grade or regulatory compliance.",
+      "previous_candidate_cid": 24450,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "dinatrium-pirofoszfat-food",
+      "name": "Disodium dihydrogen pyrophosphate",
+      "cas": "7758-16-9",
+      "cid": 24451,
+      "formula": "H2Na2O7P2",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/24451",
+      "note": "General Na2H2P2O7 (acid pyrophosphate), not approved food-additive grade.",
+      "previous_candidate_cid": 24451,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "dinatriumfoszfat-industrial",
+      "name": "Disodium hydrogen phosphate",
+      "cas": "7558-79-4",
+      "cid": 24203,
+      "formula": "HNa2O4P",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/24203",
+      "note": "General dibasic Na2HPO4 identity, hydrate and offer not verified.",
+      "previous_candidate_cid": 24203,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "dinatriumpirofoszfat-industrial",
+      "name": "Disodium dihydrogen pyrophosphate",
+      "cas": "7758-16-9",
+      "cid": 24451,
+      "formula": "H2Na2O7P2",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/24451",
+      "note": "General sodium acid pyrophosphate only, technical grade not verified.",
+      "previous_candidate_cid": 24451,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "monokalium-foszfat-industrial",
+      "name": "Monopotassium dihydrogen phosphate",
+      "cas": "7778-77-0",
+      "cid": 24506,
+      "formula": "H2KO4P",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/24506",
+      "note": "General monobasic KH2PO4, technical grade not verified.",
+      "previous_candidate_cid": 24506,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "mononatrium-foszfat-industrial",
+      "name": "Monosodium dihydrogen phosphate",
+      "cas": "7558-80-7",
+      "cid": 24204,
+      "formula": "H2NaO4P",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/24204",
+      "note": "General monobasic NaH2PO4, purity and hydrated form not verified.",
+      "previous_candidate_cid": 24204,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "mangan-karbonat-industrial",
+      "name": "Manganese(II) carbonate",
+      "cas": "598-62-9",
+      "cid": 11726,
+      "formula": "CMnO3",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/11726",
+      "note": "General MnCO3, no proof of commercial grade or heavy-metal limits.",
+      "previous_candidate_cid": 11726,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "vas-iii-klorid-40-oldat-industrial",
+      "name": "Iron(III) chloride",
+      "cas": "7705-08-0",
+      "cid": 24380,
+      "formula": "Cl3Fe",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/24380",
+      "note": "General FeCl3 identity, does not prove availability of a 40 percent solution.",
+      "previous_candidate_cid": 24380,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
     }
   ],
   "rejected_legacy_automatic_pubchem_match_count": 8,
@@ -976,5 +1072,5 @@
     "rez-klorid-dihidrat-industrial"
   ],
   "quarantine_note": "The remaining 10 wrong ion/hydrate/molecule automatic PubChem candidates are NULL in entity-registry and must not be approved without form-specific independent source evidence. Four previously quarantined ion-only source mappings were separately reconciled on 2026-11-23 to official general molecule records, NOT supplier-grade certification.",
-  "unique_general_compound_cids_crosschecked": 67
+  "unique_general_compound_cids_crosschecked": 74
 }
