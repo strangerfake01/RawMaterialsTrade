@@ -42,6 +42,8 @@ jobs:
         run: node tests/analytics-consent-runtime.cjs
       - name: Verify separate buyer and manufacturer lead intent analytics boundaries
         run: python3 tools/audit_lead_audience.py
+      - name: Require no-JavaScript three-language privacy links on all 381 product routes
+        run: python3 tools/ensure_product_privacy_links.py
       - name: Compile exact-live verifier without fetching production
         run: python3 -m py_compile tools/verify_live_release.py
       - name: Run offline fail-closed exact-live release verifier regression
