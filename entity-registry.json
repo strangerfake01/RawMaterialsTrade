@@ -818,7 +818,14 @@
       "pubchem_candidate_cid": 6049,
       "pubchem_candidate_formula": "C10H16N2O8",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-24 primary PubChem variant-form distinction: Catalogue old CAS 6381-92-6 and candidate 6049 (free EDTA acid) cannot represent both disodium dihydrate and tetrasodium EDTA. No particular offered grade/form or regulatory approval is established. Exact official CAS/CID/formula by form recorded in docs/variant-form-primary-sources-2026-11-23.json. Old single legacy candidate cannot establish a particular offered supplier form. Supplier SDS/TDS/CoA, available grade, concentration and legal usage remain unverified.",
+      "form_specific_research_reference": {
+        "research_group": "edta_sodium_salts",
+        "reviewed_on": "2026-11-24",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
+      }
     },
     {
       "id": "etil-acetat-technikai-regeneralt-industrial",
@@ -1529,7 +1536,15 @@
       "pubchem_candidate_cid": 11029,
       "pubchem_candidate_formula": "CMgO3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-24 PubChem CAS/compound/formula primary review: https://pubchem.ncbi.nlm.nih.gov/compound/11029. Parent MgCO3 chemical reference only; marketed light/heavy magnesium carbonate may differ in apparent density, basic carbonate composition and hydration. No offered material is identified. NOT commercial product sameAs; actual supplier, quality, grade, batch and documents unknown.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11029",
+        "cas": "546-93-0",
+        "pubchem_cid": 11029,
+        "reviewed_on": "2026-11-24",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "magnezium-klorid-food",
@@ -1791,7 +1806,14 @@
       "pubchem_candidate_cid": 24480,
       "pubchem_candidate_formula": "Cl2Mn",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-24 primary PubChem variant-form distinction: Public CAS 7773-01-5 is anhydrous parent, while tetrahydrate is separately CAS 13446-34-9. The catalogue's monohydrate name also needs a separate qualified source; do not invent a monohydrate CAS/CID. No feed-grade material approved. Exact official CAS/CID/formula by form recorded in docs/variant-form-primary-sources-2026-11-23.json. Old single legacy candidate cannot establish a particular offered supplier form. Supplier SDS/TDS/CoA, available grade, concentration and legal usage remain unverified.",
+      "form_specific_research_reference": {
+        "research_group": "manganese_chloride",
+        "reviewed_on": "2026-11-24",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
+      }
     },
     {
       "id": "mangan-klorid-tetrahidrat-feed",
@@ -1806,7 +1828,14 @@
       "pubchem_candidate_cid": 24480,
       "pubchem_candidate_formula": "Cl2Mn",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-24 primary PubChem variant-form distinction: Public CAS 7773-01-5 is anhydrous parent, while tetrahydrate is separately CAS 13446-34-9. The catalogue's monohydrate name also needs a separate qualified source; do not invent a monohydrate CAS/CID. No feed-grade material approved. Exact official CAS/CID/formula by form recorded in docs/variant-form-primary-sources-2026-11-23.json. Old single legacy candidate cannot establish a particular offered supplier form. Supplier SDS/TDS/CoA, available grade, concentration and legal usage remain unverified.",
+      "form_specific_research_reference": {
+        "research_group": "manganese_chloride",
+        "reviewed_on": "2026-11-24",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
+      }
     },
     {
       "id": "mangan-oxid-feed",
@@ -2074,7 +2103,15 @@
       "pubchem_candidate_cid": 24968,
       "pubchem_candidate_formula": "Na6O18P6",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-24 PubChem CAS/compound/formula primary review: https://pubchem.ncbi.nlm.nih.gov/compound/24968. Primary PubChem cyclic Na6O18P6 structure only; a commercial sodium polyphosphate/hexametaphosphate blend can have different chain-length distribution and specification. NOT commercial product sameAs; actual supplier, quality, grade, batch and documents unknown.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24968",
+        "cas": "10124-56-8",
+        "pubchem_cid": 24968,
+        "reviewed_on": "2026-11-24",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "natrium-acetat-vizmentes-3h2o-industrial",
@@ -2089,7 +2126,14 @@
       "pubchem_candidate_cid": 517045,
       "pubchem_candidate_formula": "C2H3NaO2",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-24 primary PubChem variant-form distinction: Anhydrous sodium acetate and sodium acetate trihydrate are distinct CAS/CIDs; the historic single anhydrous candidate must not describe both form options. Exact official CAS/CID/formula by form recorded in docs/variant-form-primary-sources-2026-11-23.json. Old single legacy candidate cannot establish a particular offered supplier form. Supplier SDS/TDS/CoA, available grade, concentration and legal usage remain unverified.",
+      "form_specific_research_reference": {
+        "research_group": "sodium_acetate",
+        "reviewed_on": "2026-11-24",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
+      }
     },
     {
       "id": "natrium-benzoat-gran-food",
@@ -2776,7 +2820,14 @@
       "pubchem_candidate_cid": 24243,
       "pubchem_candidate_formula": "Na3O4P",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-24 primary PubChem variant-form distinction: One parent anhydrous CAS/CID does not establish the separately listed dodecahydrate identity or commercial supply. Exact official CAS/CID/formula by form recorded in docs/variant-form-primary-sources-2026-11-23.json. Old single legacy candidate cannot establish a particular offered supplier form. Supplier SDS/TDS/CoA, available grade, concentration and legal usage remain unverified.",
+      "form_specific_research_reference": {
+        "research_group": "trisodium_phosphate",
+        "reviewed_on": "2026-11-24",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
+      }
     },
     {
       "id": "utszoro-so-deicing",
@@ -2852,7 +2903,14 @@
       "pubchem_candidate_cid": 24393,
       "pubchem_candidate_formula": "FeO4S",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-24 primary PubChem variant-form distinction: Previous single parent CAS 7720-78-7/CID 24393 is anhydrous; the explicitly named monohydrate and heptahydrate have their own CAS and CIDs. No offered feed or industrial grade authorized by these general source records. Exact official CAS/CID/formula by form recorded in docs/variant-form-primary-sources-2026-11-23.json. Old single legacy candidate cannot establish a particular offered supplier form. Supplier SDS/TDS/CoA, available grade, concentration and legal usage remain unverified.",
+      "form_specific_research_reference": {
+        "research_group": "iron_ii_sulfate",
+        "reviewed_on": "2026-11-24",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
+      }
     },
     {
       "id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
@@ -2867,7 +2925,14 @@
       "pubchem_candidate_cid": 24393,
       "pubchem_candidate_formula": "FeO4S",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "2026-11-24 primary PubChem variant-form distinction: Previous single parent CAS 7720-78-7/CID 24393 is anhydrous; the explicitly named monohydrate and heptahydrate have their own CAS and CIDs. No offered feed or industrial grade authorized by these general source records. Exact official CAS/CID/formula by form recorded in docs/variant-form-primary-sources-2026-11-23.json. Old single legacy candidate cannot establish a particular offered supplier form. Supplier SDS/TDS/CoA, available grade, concentration and legal usage remain unverified.",
+      "form_specific_research_reference": {
+        "research_group": "iron_ii_sulfate",
+        "reviewed_on": "2026-11-24",
+        "scope": "form_specific_general_substances_not_offered_product",
+        "supplier_evidence_status": "unverified",
+        "commercial_product_identity_approved": false
+      }
     },
     {
       "id": "vas-iii-klorid-40-oldat-industrial",
