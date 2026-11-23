@@ -126,6 +126,34 @@ def rewrite_html(html: str, lang: str, route: str) -> str:
         html = replace_doc_dd(html, label, cfg[key], route)
     html = html.replace(cfg["badge_old"], cfg["badge_new"])
     html = clean_packaging_faq(html, cfg, route)
+    # Older RFQ checklists still included unverified named packaging in a
+    # second template path; remove only the bracketed suggested inventory.
+    if lang == "en":
+        html = re.sub(
+            r'packaging preference \\(catalogue orientation: [^<]*\\), delivery country/site and timing\\.',
+            'packaging preference, delivery country/site and timing.', html)
+    # Availability of SDS is not guaranteed by saying "always"; buyers must
+    # request current grade-specific documentation after contact.
+    replacements = {
+        "en": (
+            ("SDS always; TDS/CoA where the application requires them.",
+             "Request the current supplier SDS; TDS/CoA availability is checked for the selected grade after enquiry."),
+            ("Required documents: SDS always; TDS/CoA/spec where the application needs them.",
+             "Required documents: request supplier SDS and check TDS/CoA/specification availability after enquiry."),
+        ),
+        "hu": (
+            ("mindig SDS; TDS/CoA ahol az alkalmazás megkívánja.",
+             "A kiválasztott beszállító aktuális SDS-ét kérjük; a TDS/CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."),
+        ),
+        "de-at": (
+            ("stets SDS; TDS/CoA sofern die Anwendung es erfordert.",
+             "Aktuelles Lieferanten-SDS anfordern; TDS/CoA-Verfügbarkeit für die angebotene Qualität nach Kontaktaufnahme prüfen."),
+        ),
+    }
+    for old, new in replacements[lang]:
+        html = html.replace(old, new)
+    if re.search(r'SDS always|mindig SDS|stets SDS|packaging preference \\(catalogue orientation:', html, re.I):
+        raise ValueError(f"{route}: unsupported documentation or packaging assertion remains")
     # No catalogue packaging example may masquerade as a currently offered
     # form within a generic procurement introduction.
     if lang == "en":
