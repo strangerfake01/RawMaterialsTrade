@@ -51,6 +51,34 @@ if not float_layer or not consent_layer or int(consent_layer.group(1)) <= int(fl
 if ".cookie-banner.visible{z-index:var(--rmt-consent-z)}" not in css:
     errors.append("consent panel overlay class must use the consent layer token")
 
+# Every tracked route must get the shared opt-in UI even when its static HTML
+# has no copied banner. Reject unconditional Google analytics scripts sitewide.
+sitewide_tracked_routes = 0
+fallback_banner_routes = 0
+unstyled_routes = []
+for site_page in sorted(ROOT.glob("*.html")):
+    text = site_page.read_text(encoding="utf-8")
+    parsed = ScriptSources()
+    parsed.feed(text)
+    for src in parsed.srcs:
+        if src.startswith(("https://www.googletagmanager.com/", "https://www.google-analytics.com/")):
+            errors.append(f"{site_page.name}: unconditional remote GA script: {src}")
+    if "/assets/js/analytics-consent.v20260713.js" in text:
+        sitewide_tracked_routes += 1
+        if 'id="cookieBanner"' not in text:
+            fallback_banner_routes += 1
+        if "a11y-fixes.v3.css" not in text:
+            unstyled_routes.append(site_page.name)
+for marker in ("function ensureConsentControls()", "banner = ensureConsentControls();",
+               "document.body.appendChild(panel)", "cookie-settings-toggle"):
+    if marker not in js:
+        errors.append("sitewide consent UI fallback unavailable: " + marker)
+print(f"Tracked route coverage: {sitewide_tracked_routes} HTML pages; "
+      f"{fallback_banner_routes} require the shared dynamic banner; "
+      f"{len(unstyled_routes)} lack the shared consent overlay styles")
+for page in unstyled_routes[:20]:
+    print("REVIEW consent styles:", page)
+
 print(f"GDPR static consent regression: {len(PAGES)} pages, {len(errors)} errors")
 for error in errors:
     print("ERROR:", error)
