@@ -1,0 +1,36 @@
+{
+  "review_date": "2026-11-23",
+  "batch": "K",
+  "review_scope": "General manganese(II) sulfate monohydrate CAS/formula on NLM PubChem only; not commercially available or approved supplier material",
+  "family_count": 2,
+  "unique_cids_added": 1,
+  "supplier_lots_verified": 0,
+  "entries": [
+    {
+      "id": "mangan-ii-szulfat-monohidrat-industrial",
+      "name": "Manganese(II) sulfate monohydrate",
+      "cas": "10034-96-5",
+      "cid": 177577,
+      "formula": "H2MnO5S",
+      "previous_candidate_cid": 24580,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/177577",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "CAS 10034-96-5 describes MnSO4·H2O, not anhydrous MnSO4; technical material and grade require independent supplier evidence."
+    },
+    {
+      "id": "mangan-szulfat-monohidrat-feed",
+      "name": "Manganese(II) sulfate monohydrate",
+      "cas": "10034-96-5",
+      "cid": 177577,
+      "formula": "H2MnO5S",
+      "previous_candidate_cid": 24580,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/177577",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "CAS 10034-96-5 describes MnSO4·H2O, not anhydrous MnSO4; feed-grade authorization and lot documentation not verified."
+    }
+  ]
+}
