@@ -3,8 +3,8 @@
   "document_type": "independent_primary_source_research_register",
   "review_scope": "general_substance_identity_only",
   "total_catalogue_families": 127,
-  "general_substance_references_crosschecked": 61,
-  "other_catalogue_families_not_yet_independently_verified": 66,
+  "general_substance_references_crosschecked": 65,
+  "other_catalogue_families_not_yet_independently_verified": 62,
   "commercial_grade_verified": 0,
   "external_source_types": [
     "NIH_NLM_PubChem",
@@ -710,25 +710,69 @@
       "previous_candidate_cid": 26250,
       "scope": "general_substance_only_not_offered_grade",
       "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "natrium-benzoat-gran-food",
+      "name": "Sodium benzoate",
+      "cas": "532-32-1",
+      "cid": 517055,
+      "formula": "C7H5NaO2",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/532-32-1",
+      "note": "General sodium benzoate molecule/salt only; no supplier granular size or food E211 compliance confirmed.",
+      "previous_candidate_cid": 242,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "saletromsav-20-50-53-60-industrial",
+      "name": "Nitric acid",
+      "cas": "7697-37-2",
+      "cid": 944,
+      "formula": "HNO3",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7697-37-2",
+      "note": "Nitric acid parent only; offered aqueous strengths or shipment classification not established.",
+      "previous_candidate_cid": 943,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "sosav-gyogyszerkonyvi-food",
+      "name": "Hydrochloric acid",
+      "cas": "7647-01-0",
+      "cid": 313,
+      "formula": "ClH",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7647-01-0",
+      "note": "Hydrogen chloride/hydrochloric acid parent record only; no pharmacopoeial grade, food use or aqueous assay established.",
+      "previous_candidate_cid": 312,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "sosav-technikai-regeneralt-industrial",
+      "name": "Hydrochloric acid",
+      "cas": "7647-01-0",
+      "cid": 313,
+      "formula": "ClH",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7647-01-0",
+      "note": "HCl parent only; no regenerated/technical grade or aqueous purity corroborated.",
+      "previous_candidate_cid": 312,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
     }
   ],
-  "rejected_legacy_automatic_pubchem_match_count": 14,
+  "rejected_legacy_automatic_pubchem_match_count": 10,
   "rejected_legacy_automatic_pubchem_product_ids": [
     "kalcium-klorid-2025-oldat-deicing",
     "kalcium-klorid-7780-food",
     "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
     "magnezium-klorid-food",
     "magnezium-klorid-hexahidrat-industrial",
-    "natrium-benzoat-gran-food",
-    "saletromsav-20-50-53-60-industrial",
-    "sosav-gyogyszerkonyvi-food",
-    "sosav-technikai-regeneralt-industrial",
     "cink-szulfat-monohidrat-feed",
     "cink-szulfat-monohidrat-heptahidrat-industrial",
     "rez-klorid-dihidrat-industrial",
     "kalium-jodat-feed",
     "kenpor-industrial"
   ],
-  "quarantine_note": "These 14 legacy candidate CIDs pointed to ions, other molecules or the wrong hydrate/form; candidate ID and formula have been removed from entity-registry and are not PubChem verified. They are part of the 114 remaining not independently source-verified. They are NOT 14 verified correct alternative mappings.",
-  "unique_general_compound_cids_crosschecked": 49
+  "quarantine_note": "The remaining 10 wrong ion/hydrate/molecule automatic PubChem candidates are NULL in entity-registry and must not be approved without form-specific independent source evidence. Four previously quarantined ion-only source mappings were separately reconciled on 2026-11-23 to official general molecule records, NOT supplier-grade certification.",
+  "unique_general_compound_cids_crosschecked": 52
 }
