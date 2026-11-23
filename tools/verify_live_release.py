@@ -94,8 +94,9 @@ def verify_once(sha: str) -> dict:
     actual_sitemap = parse_sitemap(request("/sitemap.xml", sha))
     if actual_sitemap != expected_sitemap:
         raise RuntimeError(f"Sitemap differs: source {len(expected_sitemap)} vs live {len(actual_sitemap)} URLs")
-    if len(actual_sitemap) != len(set(actual_sitemap)):
-        raise RuntimeError("Live sitemap contains duplicate loc/lastmod tuples")
+    locations = [loc for loc, _lastmod in actual_sitemap]
+    if len(locations) != len(set(locations)):
+        raise RuntimeError("Live sitemap contains duplicate loc URLs, including conflicting lastmod values")
     expected_count = len(json.loads((ROOT / "products-multilingual.json").read_text(encoding="utf-8")))
     page_checks = 0
     for path, lang in CRITICAL_PAGES.items():
