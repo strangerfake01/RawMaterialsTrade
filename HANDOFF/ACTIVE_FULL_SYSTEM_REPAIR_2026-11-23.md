@@ -179,3 +179,10 @@ Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no war
 - Added `tests/analytics-consent-runtime.cjs`: dependency-free, read-only Node `vm` tests for first visit, refusal, settings reopen, acceptance, withdrawal and persisted decisions. Explicitly asserts no GA script is injected without consent, and cookie invalidation is attempted on withdrawal.
 - Wired deterministic runtime assertions into the existing static release workflow, **in addition** to existing HTML source checks. This is not a substitute for real-browser network/storage/keyboard/assistive-technology E2E testing.
 - No production controller, tracking ID, Cloudflare Worker, Turnstile, CSP or commercial records altered. Still draft PR, main unchanged. Preserve the journal until production + Search Console closure.
+
+### 2026-11-23 — Batch 9: actual headless browser consent test (pending execution)
+
+- Added an isolated GitHub Actions browser QA workflow (no production writes, no user forms submitted) with pinned Playwright/Chromium and static local site server.
+- Test traverses EN/HU/DE-AT privacy pages at 390px mobile and 1440px desktop, verifying: no Analytics network request before opt-in; reject persists; settings reopens consent; accept starts mocked Analytics; withdrawal persists and suppresses analytics after reload.
+- Google script/collection requests are intercepted and fulfilled locally, so the QA sends **no actual analytics to Google**. Screenshots are public-page evidence only on failure.
+- Remains complementary to the existing static contract. Status PENDING browser workflow; do not call GDPR proven or release-ready until it succeeds and real-production consent/Turnstile checks are complete.
