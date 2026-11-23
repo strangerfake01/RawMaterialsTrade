@@ -219,8 +219,31 @@ A direct NIH/NLM PubChem CAS, ionic/protonation form, and formula cross-check su
 
 The dihydrogen phosphate, hydrogen phosphate and dihydrogen diphosphate/pyrophosphate forms are **not synonyms of one interchangeable product**. Legal food-grade acceptability, particle size, crystal hydration, manufacturer/lot identity and offered solution strengths must be verified after customer contact. The source record names are general identities only.
 
+
+## Ninth source-review batch — eleven original PubChem identity crosschecks (101/127)
+
+The 11 family records below are independently crosschecked as *general chemical/CAS/formula references*, covering 10 distinct additional PubChem concepts. **No supplier grade, offered solution, specific feed/food permission, SDS/TDS/CoA, stock or shipment is verified.**
+
+| Catalogue request family | General CAS | PubChem CID | PubChem molecular formula | Primary source |
+|---|---|---:|---|---|
+| `kalcium-jodat-feed` | 7789-80-2 | 24619 | CaI2O6 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/24619) |
+| `klormesz-industrial` | 7778-54-3 | 24504 | CaCl2O2 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/24504) |
+| `kobalt-karbonat-feed` | 513-79-1 | 10565 | CCoO3 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/10565) |
+| `magnezium-nitrat-industrial` | 10377-60-3 | 25212 | MgN2O6 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/25212) |
+| `monoammonium-foszfat-industrial` | 7722-76-1 | 24402 | H6NO4P | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/24402) |
+| `natrium-perkarbonat-industrial` | 15630-89-4 | 159762 | C2H6Na4O12 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/159762) |
+| `natrium-permanganat-40-oldat-industrial` | 10101-50-5 | 23673458 | MnNaO4 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/23673458) |
+| `natrium-szelenit-feed` | 10102-18-8 | 24934 | Na2O3Se | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/24934) |
+| `rez-szulfat-feed` | 7758-99-8 | 24463 | CuH10O9S | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/24463) |
+| `rez-szulfat-pentahidrat-industrial` | 7758-99-8 | 24463 | CuH10O9S | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/24463) |
+| `vas-iii-szulfat-40-oldat-industrial` | 10028-22-5 | 24826 | Fe2O12S3 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/24826) |
+
+**Corrected provenance error:** both copper sulfate catalogue families use CAS 7758-99-8 (copper sulfate **pentahydrate**), for which PubChem confirms CID **24463** with molecular formula CuH10O9S. Their former candidate CID **24462** and CuO4S belong to **anhydrous** CuSO4, CAS **7758-98-7**, not the listed CAS. The feed request's hydrated commercial form still requires supplier documentary confirmation, and the distinction is not a commercial identity approval.
+
+**Scope constraints:** the calcium-hypochlorite family is aligned solely with pure calcium hypochlorite CAS 7778-54-3, not an unspecified chlorinated-lime blend. The sodium-permanganate and ferric-sulfate 40%-solution families receive only parent-chemical references, not verified 40% offered solutions. Cobalt carbonate, calcium iodate, sodium selenite and the feed copper-sulfate request are not confirmed for feed or other regulated uses. No public sameAs or source-certified product is asserted. The work-branch register now contains **101 of 127** individually reviewed general substance references (**84 distinct general CIDs**); **26 remain unreviewed at this level** and **0 specific supplier materials** are authenticated.
+
 ## Publication boundary and acceptance
 
-Public source references can support **general chemical education and product-request identification** only. They cannot establish current RMT supplier details, grade, SDS/TDS/CoA availability, restricted-use compliance or shipment conditions. The default rule is **withhold until reliable proof**, confirm privately after contact and maintain the protected RFQ process. The remaining 37 catalogue families require independent concept-by-concept verification before any reference can be called independently cross-checked; **0/127 supplier offers have been authenticated** in this audit.
+Public source references can support **general chemical education and product-request identification** only. They cannot establish current RMT supplier details, grade, SDS/TDS/CoA availability, restricted-use compliance or shipment conditions. The default rule is **withhold until reliable proof**, confirm privately after contact and maintain the protected RFQ process. The remaining 26 catalogue families require independent concept-by-concept verification before any reference can be called independently cross-checked; **0/127 supplier offers have been authenticated** in this audit.
 
 The #52 PR remains DRAFT and NOT LIVE until independent real Worker/Turnstile/inbox E2E, legal and chemistry review where applicable, production exact SHA readback and post-release GSC acceptance are complete.
