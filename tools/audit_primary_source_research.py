@@ -74,6 +74,24 @@ for pid, (rejected, cid, cas, formula) in EXPECTED.items():
 for row in ROWS:
     if row["source_type"] == "Wikidata" and row["evidence_status"] == "verified":
         errors.append(f"{row['product_id']}: unchecked Wikidata matches labelled verified")
+
+QUARANTINE = set(RESEARCH.get("rejected_legacy_automatic_pubchem_product_ids", []))
+if len(QUARANTINE) != 14 or RESEARCH.get("rejected_legacy_automatic_pubchem_match_count") != 14:
+    errors.append("Unreviewed ion/hydrate/molecule quarantine is incomplete")
+if QUARANTINE & set(EXPECTED):
+    errors.append("Source-reviewed and quarantined identities must not overlap")
+for pid in sorted(QUARANTINE):
+    entry = entries.get(pid, {})
+    if entry.get("pubchem_candidate_cid") is not None or entry.get("pubchem_candidate_formula") is not None:
+        errors.append(f"{pid}: known wrong source candidate was reintroduced")
+    if entry.get("pubchem_status") != "rejected-incorrect-substance-or-form":
+        errors.append(f"{pid}: rejected source not marked as rejected")
+    if entry.get("pubchem_cid") is not None or entry.get("sameAs_status") == "verified":
+        errors.append(f"{pid}: rejected PubChem candidate promoted to public identity")
+    source_rows = [r for r in ROWS if r["product_id"] == pid and
+                   r["source_type"] == "RejectedCandidate"]
+    if len(source_rows) != 1 or source_rows[0].get("source_url"):
+        errors.append(f"{pid}: rejected source URL must be absent from source register")
 for pid in ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"):
     e = entries.get(pid, {})
     if e.get("wikidata_qid") or e.get("wikidata_label"):
