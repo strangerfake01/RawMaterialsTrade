@@ -156,3 +156,12 @@ Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no war
 - Spot-review of AI Trust page metadata found that the EN/HU/DE-AT meta descriptions were mechanically truncated mid-sentence or mid-word despite passing the structural presence check. Replaced all three with completed, truthful short descriptions in the corresponding language; unchanged page body and security.
 - Added precise Trust Center meta-description completion guard to the existing 408-route audit; no broad changes to rankings, content policies or consent.
 - Pending next CI. Privacy/consent E2E and exact-live remains unverified; do not submit GSC or delete journal yet.
+
+### 2026-11-23 — Batch 8: GDPR consent settings functional repair (CI pending)
+
+- Verified a real consent-control defect on all three public privacy-policy pages: each had a visible `data-cookie-settings` button, while `#cookieBanner` and the `data-analytics-accept` / `data-analytics-reject` controls were entirely absent. Therefore the shared controller's `showBanner(true)` could not reopen the preferences for consent withdrawal on those legal pages.
+- Copied the corresponding working, language-specific cookie banner HTML from `index.html`, `hu.html` and `de-at.html` into `privacy-en.html`, `privacy-hu.html` and `privacy-de-at.html`. No altered cookie wording, GA IDs or security endpoints.
+- Three legal page JSON-LD `dateModified` values updated to 2026-11-23. These three URLs are not currently listed in `sitemap.xml`; no artificial sitemap dates added.
+- Added `tools/audit_consent_source.py` and wired it into the existing static release CI. This checks six routes for cookie choice controls, legal settings button, the consent-only controller contract, and the absence of direct remote GA scripts in HTML.
+- Commit trail: `b8d40d0`, `f2a9beb`, `80c54be`, `8e89e13`, `af18c0b`. No Cloudflare Worker, Turnstile, CSP or product-master changes.
+- Important: code-level gate is NOT browser evidence of network requests, stored cookies, focus handling, or true withdrawal. A fresh browser opt-in/reject/reopen/withdrawal test remains open before release. Status **FIXED ON BRANCH; CI pending**. Main untouched. Do NOT submit GSC or delete this journal yet.
