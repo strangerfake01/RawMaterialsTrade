@@ -32,4 +32,4 @@ jobs:
           python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/rmt-layout-http.log 2>&1 &
           echo $! > /tmp/rmt-layout-http.pid
       - name: Render all sitemap URLs at mobile and desktop widths and priority routes at additional widths
-        run: RMT_LAYOUT_DEBUG=1 node tools/test_responsive_route_browser.cjs
+        run: node tools/test_responsive_route_browser.cjs
