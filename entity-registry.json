@@ -197,7 +197,7 @@
       "sameAs_reason": "Mineral clay product family; CAS/Wikidata/Wikipedia are orientation only — not commercial grade sameAs.",
       "pubchem_cid": null,
       "pubchem_formula": null,
-      "pubchem_note": "PubChem CAS xref returned an unrelated organic structure for mineral CAS 1302-78-9; PubChem identity withheld."
+      "pubchem_note": "2026-11-24 original-source review: PubChem CID 71586775 and FDA GSRS SID 383470503 associate general bentonite with CAS 1302-78-9, but bentonite is composition-variable mineral clay; their simplified compound record cannot verify a particular product, mineral phase, moisture, activation or SDS/TDS. Supplier identity/grade remains unverified, no PubChem product CID approved."
     },
     {
       "id": "borax-dekahidrat-industrial",
@@ -2544,10 +2544,20 @@
       "pubchem_cid": null,
       "pubchem_formula": null,
       "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
-      "pubchem_candidate_cid": 23266,
-      "pubchem_candidate_formula": "Na2O3Si",
-      "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_candidate_cid": null,
+      "pubchem_candidate_formula": null,
+      "pubchem_status": "rejected-nonunique-solution-composition",
+      "pubchem_note": "2026-11-24 original-source research: PubChem CID 23266 describes sodium metasilicate Na2SiO3 as a general salt; commercial aqueous sodium silicate solutions may vary in SiO2:Na2O molar ratio and concentration, and cannot inherit one exact formula/CID. Contextual source https://pubchem.ncbi.nlm.nih.gov/compound/23266. Previous generic candidate CID 23266 quarantined as a PRODUCT identity, not declared scientifically nonexistent. Selected supplier SDS/TDS/CoA is needed before any exact material formula, form or regulated application claim.",
+      "quarantined_general_context_candidate": {
+        "reviewed_on": "2026-11-24",
+        "cid": 23266,
+        "formula": "Na2O3Si",
+        "scope": "not_a_unique_supplier_product_identity",
+        "reason": "PubChem CID 23266 describes sodium metasilicate Na2SiO3 as a general salt; commercial aqueous sodium silicate solutions may vary in SiO2:Na2O molar ratio and concentration, and cannot inherit one exact formula/CID.",
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/23266",
+        "secondary_source": null,
+        "permitted_as_product_sameAs": false
+      }
     },
     {
       "id": "propionsav-99-feed",
@@ -2885,10 +2895,20 @@
       "pubchem_cid": null,
       "pubchem_formula": null,
       "sameAs_reason": "Needs human confirmation before sameAs use.",
-      "pubchem_candidate_cid": 9942228,
-      "pubchem_candidate_formula": "Al2O5Si",
-      "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_candidate_cid": null,
+      "pubchem_candidate_formula": null,
+      "pubchem_status": "rejected-nonunique-mineral-framework",
+      "pubchem_note": "2026-11-24 original-source research: PubChem CID 9942228 is a simplified aluminosilicate entity, while ECHA/EPA define zeolites as multiple crystalline aluminosilicate frameworks, cationic compositions and oxide ratios with no single molecular formula; it cannot identify a specific de-icing grade. Contextual source https://echa.europa.eu/legislation-obligation/-/obligations/100.013.895. Previous generic candidate CID 9942228 quarantined as a PRODUCT identity, not declared scientifically nonexistent. Selected supplier SDS/TDS/CoA is needed before any exact material formula, form or regulated application claim.",
+      "quarantined_general_context_candidate": {
+        "reviewed_on": "2026-11-24",
+        "cid": 9942228,
+        "formula": "Al2O5Si",
+        "scope": "not_a_unique_supplier_product_identity",
+        "reason": "PubChem CID 9942228 is a simplified aluminosilicate entity, while ECHA/EPA define zeolites as multiple crystalline aluminosilicate frameworks, cationic compositions and oxide ratios with no single molecular formula; it cannot identify a specific de-icing grade.",
+        "source": "https://echa.europa.eu/legislation-obligation/-/obligations/100.013.895",
+        "secondary_source": "https://pubchem.ncbi.nlm.nih.gov/compound/9942228",
+        "permitted_as_product_sameAs": false
+      }
     },
     {
       "id": "vakuum-so-industrial",

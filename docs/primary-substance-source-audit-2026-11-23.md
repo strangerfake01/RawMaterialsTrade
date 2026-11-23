@@ -292,6 +292,17 @@ Independent general PubChem identities: **potassium tripolyphosphate** (pentapot
 
 Current disjoint research classification: **107 general substance family references, 89 distinct CIDs; 15 form-dependent family requests; 5 still without a unique evidenced general chemical designation**. All actual supplier lots and permitted commercial offered uses remain unverified (0 certified).
 
+
+## Batch N — prevent false one-to-one chemical products from general mineral/solution records (2026-11-24)
+
+**Sodium silicate solutions** (`natronvizuveg-oldatok-industrial`): [PubChem CID 23266](https://pubchem.ncbi.nlm.nih.gov/compound/23266) describes general Na2SiO3, but variable silicate solution modulus, concentration, viscosity and composition cannot be inferred from that one formula. The formerly automatic CID **23266** is therefore quarantined as a single offered-product identity and its product source-register URL removed.
+
+**De-icing zeolite** (`utszoro-zeolit-deicing`): [PubChem CID 9942228](https://pubchem.ncbi.nlm.nih.gov/compound/9942228) describes a simplified Al2O5Si aluminosilicate; the official [ECHA zeolite description](https://echa.europa.eu/legislation-obligation/-/obligations/100.013.895) and [EPA registry](https://cdxapps.epa.gov/oms-substance-registry-services/substance-details/1714547) instead explicitly cover multiple aluminosilicate crystal frameworks, metallic oxides and cations under broad CAS 1318-02-1. **CID 9942228 is not a unique commercial zeolite identity**. Its misleading single-CID source-register URL was withheld pending actual supplier framework and SDS/TDS.
+
+**Bentonite:** NLM [PubChem CID 71586775](https://pubchem.ncbi.nlm.nih.gov/compound/71586775) and FDA GSRS [PubChem SID 383470503](https://pubchem.ncbi.nlm.nih.gov/substance/383470503) confirm the generic bentonite CAS relationship, but not a unique natural mineral clay composition or offered supplier product. This remains a **source gap**, not an independently verified one-molecule mapping.
+
+No source row was removed: the 370-row register retains two neutral empty-link `RejectedCandidate` placeholders with explanatory primary-source provenance in the unresolved queue. The 127-way family partition remains **107 general/15 variant/5 unresolved**, with **0 supplier grades authenticated**.
+
 ## Publication boundary and acceptance
 
 Public source references can support **general chemical education and product-request identification** only. They cannot establish current RMT supplier details, grade, SDS/TDS/CoA availability, restricted-use compliance or shipment conditions. The default rule is **withhold until reliable proof**, confirm privately after contact and maintain the protected RFQ process. The remaining 20 catalogue families require independent concept-by-concept verification before any reference can be called independently cross-checked; **0/127 supplier offers have been authenticated** in this audit.

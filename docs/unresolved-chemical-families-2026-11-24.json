@@ -18,16 +18,25 @@
       "evidence_needed": "Exact mineral composition, grade, moisture, relevant specification and supplier SDS/TDS/CoA.",
       "source_status": "insufficient_for_chemical_identity_promotion",
       "supplier_evidence_status": "unverified",
-      "publication_rule": "Only neutral inquiry status; no inferred single chemical identity, supply, grade or regulatory approval"
+      "publication_rule": "Only neutral inquiry status; no inferred single chemical identity, supply, grade or regulatory approval",
+      "contextual_primary_sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/71586775",
+        "https://pubchem.ncbi.nlm.nih.gov/substance/383470503"
+      ],
+      "source_research_note": "NLM PubChem generic bentonite model CID 71586775 and FDA GSRS source SID 383470503 both use CAS 1302-78-9, but the model is not a unique natural clay/mineralogy or commercial composition. Do not promote this to one supplied molecular formula or a grade."
     },
     {
       "id": "natronvizuveg-oldatok-industrial",
       "classification": "variable_sodium_silicate_solution",
-      "blocker": "Sodium silicate solutions vary in SiO2:Na2O modulus and concentration; a single PubChem CID cannot authenticate the requested solution.",
-      "evidence_needed": "Supplier composition, molar modulus, solution concentration and lot safety/quality documentation.",
+      "blocker": "Sodium silicate solutions vary in SiO2:Na2O modulus and concentration; a single PubChem CID cannot authenticate the requested solution. PubChem general candidate CID 23266 (Na2O3Si) is not a specific offered material identity.",
+      "evidence_needed": "Supplier composition, molar modulus, solution concentration and lot safety/quality documentation. Confirm exact composition, chemical ratio or zeolite framework before associating a single structural chemical identifier.",
       "source_status": "insufficient_for_chemical_identity_promotion",
       "supplier_evidence_status": "unverified",
-      "publication_rule": "Only neutral inquiry status; no inferred single chemical identity, supply, grade or regulatory approval"
+      "publication_rule": "Only neutral inquiry status; no inferred single chemical identity, supply, grade or regulatory approval",
+      "contextual_primary_sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/23266"
+      ],
+      "disallowed_automatic_product_cid": 23266
     },
     {
       "id": "trilon-industrial",
@@ -41,11 +50,16 @@
     {
       "id": "utszoro-zeolit-deicing",
       "classification": "variable_zeolite_framework_and_grade",
-      "blocker": "Zeolite can denote multiple aluminosilicate frameworks and cationic compositions; this de-icing request is not uniquely mapped to a supplier product.",
-      "evidence_needed": "Zeolite type/framework, exchange cation, particle grade and substantiated use/specification.",
+      "blocker": "Zeolite can denote multiple aluminosilicate frameworks and cationic compositions; this de-icing request is not uniquely mapped to a supplier product. PubChem general candidate CID 9942228 (Al2O5Si) is not a specific offered material identity.",
+      "evidence_needed": "Zeolite type/framework, exchange cation, particle grade and substantiated use/specification. Confirm exact composition, chemical ratio or zeolite framework before associating a single structural chemical identifier.",
       "source_status": "insufficient_for_chemical_identity_promotion",
       "supplier_evidence_status": "unverified",
-      "publication_rule": "Only neutral inquiry status; no inferred single chemical identity, supply, grade or regulatory approval"
+      "publication_rule": "Only neutral inquiry status; no inferred single chemical identity, supply, grade or regulatory approval",
+      "contextual_primary_sources": [
+        "https://echa.europa.eu/legislation-obligation/-/obligations/100.013.895",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/9942228"
+      ],
+      "disallowed_automatic_product_cid": 9942228
     },
     {
       "id": "vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed",
@@ -56,5 +70,6 @@
       "supplier_evidence_status": "unverified",
       "publication_rule": "Only neutral inquiry status; no inferred single chemical identity, supply, grade or regulatory approval"
     }
-  ]
+  ],
+  "scope_follow_up": "Remaining 5 family routes retained as unresolved. Broad deposited-substance references only explain why no one-to-one commercial compound identity can safely be inferred; two misleading parent/mineral candidate links quarantined."
 }

@@ -404,6 +404,21 @@ if copper.get("primary_source_disambiguation", {}).get("rejected_conflicting_Pub
     errors.append("Wrong one-water-unit copper source not quarantined")
 if entries["kalium-tripolifoszfat-food"].get("cas") is not None:
     errors.append("General potassium identity cannot assert offered supplier CAS")
+
+# Batch N: reject generic monomer/mineral-oxide structures as the identity of
+# supplier-specific sodium waterglass solutions or zeolite framework products.
+for product_id, old_cid in (("natronvizuveg-oldatok-industrial", 23266), ("utszoro-zeolit-deicing", 9942228)):
+    item = entries[product_id]
+    if item.get("pubchem_candidate_cid") is not None or item.get("pubchem_candidate_formula") is not None:
+        errors.append(f"{product_id}: non-unique generic CID {old_cid} reintroduced")
+    if item.get("quarantined_general_context_candidate", {}).get("cid") != old_cid:
+        errors.append(f"{product_id}: rejected generic source provenance lost")
+    if item.get("pubchem_cid") is not None or item.get("sameAs_status") == "verified":
+        errors.append(f"{product_id}: variable mixture falsely promoted as chemical product")
+    bad_rows = [x for x in ROWS if x["product_id"] == product_id and x["source_type"] == "RejectedCandidate"]
+    if len(bad_rows) != 1 or bad_rows[0].get("source_url") or bad_rows[0].get("evidence_status") != "rejected-nonunique-product-equivalence":
+        errors.append(f"{product_id}: non-unique candidate should be an empty-link quarantine")
+
 if len(ROWS) != 370:
     errors.append(f"Source register unexpected row count: {len(ROWS)}")
 print(f"Primary substance research: {len(EXPECTED)} general concepts crosschecked, "
