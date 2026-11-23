@@ -142,3 +142,10 @@ Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no war
 - Added `tools/audit_search_surface.py` as a read-only full sitemap traversal: HTML language, title/description, mobile viewport, indexability, HTML-vs-XML hreflang and OG URL quality, duplicate title/description inventory. CI blocks on objective structural violations; advisory notes do not claim Google ranking outcomes.
 - Covers the *current* live-source sitemap set (408 URLs in this snapshot), never hardcodes outdated product totals.
 - No external form posts, no private commerce content, no security changes. Status: **PENDING CI**, then inspect results and correct root causes.
+
+### 2026-11-23 — Batch 6: full search-surface metadata fixes
+
+- Strict metadata audit scanned **408 sitemap URLs**: 3 blocking HTML/sitemap hreflang gaps on AI Trust EN/HU/DE-AT routes and 6 missing `og:url` candidates on qualification and AI Trust pages (CI run 45136360470). No test thresholds weakened.
+- Inserted full reciprocal 4-language-alternate set into the three AI Trust pages. Added self `og:url` to all six affected pages.
+- Updated exactly six page `dateModified` fields and six sitemap `lastmod` fields to 2026-11-23, reflecting the changes.
+- No security, Worker, Turnstile, CSP, supplier names or product-master data modified. STATUS: FIXED ON BRANCH, CI pending; remaining browser/consent/production/GSC gates untouched.
