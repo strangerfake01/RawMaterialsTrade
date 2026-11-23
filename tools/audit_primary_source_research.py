@@ -155,6 +155,13 @@ EXPECTED.update({
     "vas-iii-szulfat-40-oldat-industrial": (24826, 24826, "10028-22-5", "Fe2O12S3"),
 })
 
+
+# Batch K: manganese sulfate monohydrate, not anhydrous MnSO4.
+EXPECTED.update({
+    "mangan-ii-szulfat-monohidrat-industrial": (24580, 177577, "10034-96-5", "H2MnO5S"),
+    "mangan-szulfat-monohidrat-feed": (24580, 177577, "10034-96-5", "H2MnO5S"),
+})
+
 errors: list[str] = []
 if len(CATALOGUE) != 127 or len(REGISTRY.get("entities", [])) != 127:
     errors.append("Unexpected catalogue/registry size")
@@ -164,7 +171,7 @@ if set(evidence) != set(EXPECTED):
     errors.append("General-source references have unreviewed or missing entries")
 if RESEARCH.get("commercial_grade_verified") != 0:
     errors.append("Supplier grade was incorrectly approved by general references")
-if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 26:
+if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 24:
     errors.append("Full catalogue research coverage misrepresented")
 for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     item = entries.get(pid, {})
@@ -218,8 +225,8 @@ for pid in ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"):
     e = entries.get(pid, {})
     if e.get("wikidata_qid") or e.get("wikidata_label"):
         errors.append(f"{pid}: unapproved or mismatched hydrate Wikidata sameAs")
-if len(EXPECTED) != 101 or len({x["cid"] for x in RESEARCH["entries"]}) != 84:
-    errors.append("General compound review must contain 101 families and 84 distinct CIDs")
+if len(EXPECTED) != 103 or len({x["cid"] for x in RESEARCH["entries"]}) != 85:
+    errors.append("General compound review must contain 103 families and 85 distinct CIDs")
 # Multi-hydrate parent families deliberately remain outside approved single-CID
 # references. Two sourced variants are not proof of one offered commercial product.
 groups = VARIANT_SOURCES.get("groups") or {}
