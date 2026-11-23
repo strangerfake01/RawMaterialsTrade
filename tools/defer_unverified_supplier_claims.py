@@ -156,6 +156,18 @@ def rewrite_html(html: str, lang: str, route: str) -> str:
     }
     for old, new in replacements[lang]:
         html = html.replace(old, new)
+    # Food/feed variants use additional caveats after "SDS always".
+    # Convert any remaining blanket phrase to a non-promissory request.
+    general = {
+        "en": (r'SDS always;[^<.]*\\.',
+               "Request the supplier SDS and verify TDS/CoA requirements after enquiry."),
+        "hu": (r'mindig SDS;[^<.]*\\.',
+               "A beszállítói SDS-t kérjük; a TDS/CoA-igényt kapcsolatfelvétel után ellenőrizzük."),
+        "de-at": (r'stets SDS;[^<.]*\\.',
+                  "Lieferanten-SDS anfragen; TDS/CoA-Anforderungen nach Kontaktaufnahme prüfen."),
+    }
+    pattern, replacement = general[lang]
+    html = re.sub(pattern, replacement, html)
     if re.search(r'SDS always|mindig SDS|stets SDS|packaging preference \(catalogue orientation:', html, re.I):
         raise ValueError(f"{route}: unsupported documentation or packaging assertion remains")
     # No catalogue packaging example may masquerade as a currently offered
