@@ -3,8 +3,8 @@
   "document_type": "independent_primary_source_research_register",
   "review_scope": "general_substance_identity_only",
   "total_catalogue_families": 127,
-  "general_substance_references_crosschecked": 8,
-  "other_catalogue_families_not_yet_independently_verified": 119,
+  "general_substance_references_crosschecked": 13,
+  "other_catalogue_families_not_yet_independently_verified": 114,
   "commercial_grade_verified": 0,
   "external_source_types": [
     "NIH_NLM_PubChem",
@@ -89,6 +89,51 @@
       "formula": "C3H8O3",
       "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/56-81-5",
       "note": "General glycerol molecular identity only; no evidence of 99.5% food/PhEur/USP specification or RMT supplier."
+    },
+    {
+      "id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
+      "name": "Sodium hydroxide",
+      "cas": "1310-73-2",
+      "cid": 14798,
+      "formula": "HNaO",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1310-73-2",
+      "note": "General NaOH only; no verification of offered flake/micropearl specification."
+    },
+    {
+      "id": "natrium-hidroxid-oldat-4850-industrial",
+      "name": "Sodium hydroxide",
+      "cas": "1310-73-2",
+      "cid": 14798,
+      "formula": "HNaO",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1310-73-2",
+      "note": "General NaOH only; the 48–50% solution concentration is NOT verified as a supplier offer."
+    },
+    {
+      "id": "natrium-hidrogen-karbonat-industrial",
+      "name": "Sodium bicarbonate",
+      "cas": "144-55-8",
+      "cid": 516892,
+      "formula": "CHNaO3",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/144-55-8",
+      "note": "General NaHCO3 only; prior CID 767 denotes parent carbonic acid."
+    },
+    {
+      "id": "natrium-hidrogen-karbonat-szodabikarbona-food",
+      "name": "Sodium bicarbonate",
+      "cas": "144-55-8",
+      "cid": 516892,
+      "formula": "CHNaO3",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/144-55-8",
+      "note": "General NaHCO3 only; not a food-grade or E500 supplier certification."
+    },
+    {
+      "id": "magnezium-szulfat-industrial",
+      "name": "Magnesium sulfate",
+      "cas": "7487-88-9",
+      "cid": 24083,
+      "formula": "MgO4S",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7487-88-9",
+      "note": "General anhydrous magnesium sulfate only; exact supplier hydrate and product grade unverified."
     }
   ]
 }
