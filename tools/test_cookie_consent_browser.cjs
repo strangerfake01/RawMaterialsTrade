@@ -54,10 +54,14 @@ async function main() {
 
         await page.locator('[data-cookie-settings]').click();
         assert.equal(await banner.isVisible(), true, route + ': settings cannot reopen consent panel');
+        assert.equal(await page.locator('[data-analytics-reject]').evaluate(el => document.activeElement === el), true,
+                     route + ': keyboard focus did not enter reopened consent choices');
         await page.screenshot({path: path.join('consent-screenshots', language + '-' + width + '.png')});
         await page.locator('[data-analytics-accept]').click();
         assert.equal(await page.evaluate(() => localStorage.getItem('rmt.analytics.consent.v1')), 'accept');
         assert.equal(await page.evaluate(() => window.__rmtAnalyticsConsentGranted), true);
+        assert.equal(await page.locator('[data-cookie-settings]').evaluate(el => document.activeElement === el), true,
+                     route + ': keyboard focus was not restored to settings trigger');
         await page.waitForTimeout(150);
         assert.ok(gaRequests > 0, route + ': analytics did not start after explicit consent');
 
