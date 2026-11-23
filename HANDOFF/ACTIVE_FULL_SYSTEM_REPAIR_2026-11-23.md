@@ -1,0 +1,96 @@
+# RAW MATERIALS TRADE — ACTIVE, RESUMABLE FULL-SYSTEM REPAIR
+
+Date: 2026-11-23 (Europe/Vienna). Status: **IN PROGRESS — DO NOT DELETE**.
+Repository: `strangerfake01/RawMaterialsTrade` · work branch: `audit/buyer-supplier-seo-geo-trust-20261123` · base `main` at `bee7be9a27f26c4e18b847424613f0f7aba5b9a4`.
+
+## Resume protocol / change log
+
+1. Read this **entire file before making changes**. Discover the repository's latest `main` SHA, the current PR and branch head. Never overwrite concurrent changes.
+2. Reconcile each item against the latest canonical source. Treat unchecked items as pending, checked items only as documented within a commit, and CI-VERIFIED / PRODUCTION-VERIFIED only with recorded evidence.
+3. Update this file after each verified batch with date, branch/commit, exact file paths, commands and results, blockers, next step and rollback SHA. Commit the update to the *working branch*; do not expose internal email evidence.
+4. If interrupted, continue from the first unchecked gate; don't assume the prior run was fully delivered. Leave `main` unchanged until the protected PR and CI gates are satisfied.
+5. Delete **this temporary file in the final reviewed PR commit only after all applicable work is production-verified, search-submitted and recorded in PR/release history**. Do NOT delete it simply because the prompt was written, a PR opened, or CI was green.
+
+### Starting evidence and constraints
+
+- Source-of-truth: public GitHub Pages static site from `main`. Cloudflare Worker, Turnstile, existing form endpoint and CSP are protected / not to be altered without a separate, approved security change.
+- Current catalogue: `products-multilingual.json` **127 product families**, `products-{en,hu,de-at}.json` **127 each**, **381 product detail pages**, sitemap **408 URLs**. Legacy handoff references to 126/378/405 are historical, not today's expected values.
+- Three homepages still display `126` even though the source catalogue has 127; German main hero contains a duplicated clause. These are safe first fixes.
+- Latest known GSC submission: `https://www.rawmaterialstrade.com/sitemap.xml`, submitted on 2026-11-20, 408 web URLs, warnings 0, errors 0. Do **not** resubmit until a verified new release is live. Google indexing is not guaranteed by submission.
+- Existing machine layer: `ai.txt`, `llms.txt`, `ai-company-profile.json`, `entity-registry.json`, AI Trust pages, source-verified product schemas. Reuse rather than duplicate.
+- Existing workflow `.github/workflows/product-master-sync.yml` is **fail-closed**: the Drive product master has no approved deterministic field-to-publication mapping. Recent scheduled failures cannot be "fixed" by bypassing this safety gate.
+- Public repository publication policy is default-deny for emails, named suppliers/manufacturers, nonpublic documents, customer data, procurement prices, margins, contracts and personal data. See `docs/confidential-data-publication-policy.md` and `docs/supplier-confidentiality-publication-boundary.md`.
+- Blog is hosted separately at `blog.rawmaterialstrade.com`. Repository changes do not edit the Blogger backoffice.
+
+## MASTER EXECUTION PROMPT — SEO / AEO / GEO / SCHEMA / E-E-A-T / GDPR / AI TRUST
+
+**Role and goal.** Act as a production-grade B2B chemical raw-material systems, procurement-intent, technical SEO, structured-data, privacy and release engineer. Audit and correct the **whole Raw Materials Trade public site**, in all three published languages (EN / HU / DE-AT), using the real buyer and manufacturer/distributor use cases. Prioritize business-qualified quotations, verified factual completeness, reliable procurement UX and profitable, non-misleading representation over vanity keyword rankings. Run work to completion through branch → PR → security/chemistry/SEO regression checks → GitHub Pages deployment → production reverse audit → GSC sitemap submission. Never claim a step complete without evidence. Always maintain this checkpoint file.
+
+### A. Scope: all published routes and surfaces
+
+Enumerate the actual current `sitemap.xml`, all HTML files, the product JSON/identity registry and GitHub Pages source. Inventory every canonical/indexable route, redirects, fragments, hreflang cluster and language variant. Audit three homepages; three product catalogues; all product detail pages; food/feed/industrial/de-icing categories; three manufacturer representation and distribution pages; three raw-material qualification articles; legal/privacy/imprint, AI Trust and profile pages; contact/RFQ routes; images, downloadable files, `robots.txt`, sitemap, JSON-LD, AI files, shared JS/CSS, and link relations to the separate blog. Exclude private URLs, test submissions and non-indexable generated resources from sitemap. Do not assume the historical 126/378 figures.
+
+### B. Two buyer journeys, no invented demographics
+
+**BUYER ICP:** production and industrial procurement roles, plant managers, technical/quality/HSE staff, and financial approvers who need specification-matched industrial, feed, food, water-treatment or specialty raw materials. Main initially validated organic market is Hungary; additional market decisions require evidence. Jobs: secure correct grade/form/concentration/CAS and documents; evaluate price *including landed cost* and availability; obtain realistic lead times and trustworthy human resolution for shortages, returns, claims and alternates. Paths must answer What is it? Is this grade relevant? Which evidence is confirmed vs requested? What do I need to specify? How can I request a written quotation?
+
+**SUPPLIER ICP:** verified manufacturers or qualified wholesale distributors, especially export/regional sales and business development teams looking for realistic Hungary/CEE market access and accountable local representation. Jobs: understand fit, target industries, possible representation/distribution models, documentation package, operational responsibility, realistic forecast without guaranteed volume, and how to initiate a confidential discussion. Never expose partner identities, margins, exclusivity or negotiated terms. Distinguish buying an RMT product from proposing a manufacturing/distribution partnership; separate paths, cross-link only when contextually warranted. Priorities are grounded in role and intent, **not inferred gender or age**.
+
+### C. Search intent and SEO
+
+Use GSC first-party queries, page and country breakdowns to cluster: (1) branded/navigation; (2) exact chemical identity/CAS; (3) grade, concentration, packaging, food/feed/industrial use; (4) supplier, wholesale, distributor, kaufen/großhandel/lieferrant; (5) documentary intent (SDS/TDS/CoA); (6) manufacturer seeking sales representation; (7) misleading or unrelated long-tail. Separate query visibility from real leads, and branded from nonbranded traffic. Prioritize product-specific business intent. Audit unique title, description, H1, H2, canonical, index/noindex, hreflang reciprocity EN/HU/DE-AT/x-default, OG/Twitter, breadcrumbs, duplicate routes, pagination if relevant, orphan pages, internal product/category link paths, image alt, 404/redirects, Core Web Vitals and sitemap `lastmod` tied to real edits. Avoid stuffing, near-duplicate city pages and unsubstantiated location-specific promises. For declining or underperforming high-intent pages, update useful buyer answers and internal linking before adding new URLs.
+
+### D. Product-level decision-support contract (127 families x 3)
+
+Each indexed product page must convey a unique, correct and consistent identity; product name and local synonyms; CAS/EC/formula ONLY WHEN VERIFIED; actual substance/mixture/hydrate/form distinction; grade and concentration qualifications; suitable application context; restrictions; relevant packaging inquiry; buyer RFQ checklist; optional alternative sourcing clearly described as subject to technical review; lead time, stock, price, MOQ and Incoterms only confirmed in actual offers; and accessible privacy/quality/trust links. Describe whether SDS/TDS are generally requested and whether a batch-specific CoA is dependent on the actual lot/supplier. Do not claim regulatory clearance, GMP+ scope for every material, food/feed suitability from mere purity, or a fixed manufacturer. Never auto-propagate unverified product specifics to all 381 pages. EN/HU/DE-AT content should be natural local language, with equivalent business and regulatory meaning. For hazardous/regulated chemicals, keep safety caveats accurate and avoid unsafe handling instructions.
+
+### E. AEO / GEO / entity clarity / machine surfaces
+
+Structure human-readable content as short, useful answer blocks to genuine questions (who, what, for whom, application, evidence, process, location, next action). Do NOT create hundreds of synthetic FAQs or claim a special AI ranking advantage. Reconcile every page's visible text with `ai.txt`, `llms.txt`, `ai-company-profile.json`, `entity-registry.json` and JSON-LD. Keep one stable `Organization @id` and canonical `WebSite`, per-page `WebPage`/`CollectionPage`/`Service`/`Article`/`BreadcrumbList` where factually appropriate. Use `Product` for orientation only where semantics are accurate; do not add fake `Offer`, `AggregateRating`, `Review`, `price`, `availability`, `MerchantReturnPolicy`, manufacturer identity or guarantee. `FAQPage` only when legitimate visible FAQs exist; rich-result eligibility must not be promised. Keep `sameAs` withheld for chemically ambiguous forms absent human specialist verification and primary source evidence. AI crawlers and SEO text should represent **the same public truth** as people see. `llms.txt` is optional machine guidance, never a substitute for semantic HTML.
+
+### F. Trust, E-E-A-T, GDPR / ePrivacy / AI Trust
+
+Audit verified legal-entity details, real people and roles, external evidence links, certificates with documented scope and expiry review, contact clarity, trust documentation and human responsibility. Clearly distinguish actual company certification from supplier/product/batch certification. For all forms inspect mandatory/optional fields, purpose limitation, processing legal basis, processor information, consent storage, data-subject rights, retention and transfer transparency. Analytics and advertising must not initialize before a valid applicable opt-in; consent refusal must work and re-opening settings must allow withdrawal. Test both browser storage and outgoing network requests in fresh mobile and desktop contexts. Turnstile must stay secure; E2E form submission is policy-gated and may require separate authorized staging tests. AI disclosure must describe actual human-reviewed operations without publicizing private mail contents or promising automated decisions. Flag unresolved legal questions for qualified review. Never claim absolute GDPR compliance or misuse Article 6(1)(b) for all B2B employee contacts without checking legal basis.
+
+### G. Security and write-back (MANDATORY HARD GATE)
+
+Never change Cloudflare Worker, Turnstile site/secret keys, worker endpoint, CSP, form action, secrets, security headers or Cloudflare runtime merely to improve Lighthouse or pass tests. Never add external trackers or bypass cookie controls. Never export connected Gmail, Drive customer records, supplier records, purchase invoices, negotiated prices or business-specific correspondence into public GitHub, build logs, reports, JSON-LD or website. Use only generalized, non-identifying insights from private source analysis.
+
+Drive product-master WRITE-BACK RULE: no direct sheet-to-public overwrite; no live mutations of the workbook except a separately authorized workflow; require explicit field mapping and source classification, per-field provenance, hash/redacted manifest, reviewer signoff, deterministic regeneration, 3-language parity, rollback and CI. High-risk CAS/EC/formula, hydrate/form, grade, purity, substitutions, `sameAs`, certifications, regulatory claims, price, stock, MOQ, Incoterms, supplier identity are HUMAN-APPROVED ONLY. Current `apply_approved_product_master_changes.py` must remain fail-closed until mapping and authorization are valid. Do not replace it with a permissive automation.
+
+### H. QA gates across every page
+
+First check root causes in shared templates, data sources, schema emitters, links and CSS. Compare 320 / 390 / 768 / 1024 / 1440 / 1920 / 2560 px responsive behaviour (4K where sensible). Run current CI audits unchanged: public privacy; confidential history; supplier disclosure; product parity and procurement paths; chemical identity and source quality; sameAs; public claim status; AI claims; static assets; internal links; sitemap, canonical, hreflang and JSON-LD; accessibility, JS syntax, consent and browser security. Add targeted regression checks only if a real uncovered defect is found; do not weaken existing tests or exclusions. Review important landing pages visually, including the priority glycerine, industrial acid, sodium carbonate, calcium sulfate and manufacturer-distribution use cases. Keep natural German DE-AT language, not copied Hungarian sentence order.
+
+### I. Git release / production reverse audit
+
+Identify `main` SHA and production revision before edits. Work in an isolated branch and small auditable commits, then PR; obtain all required CI checks, inspect diff for confidential leaks, merge only when gates succeed. Confirm Pages deployment against resulting main SHA and if possible verify `release-manifest.json` exact live build SHA. Independently fetch HTTPS homepages, representative EN/HU/DE-AT product pages, supplier paths, legal/trust pages, `robots.txt`, sitemap and assets; inspect live rendered schema and consent behaviour. Do not conflate a merged PR with an actual live release. If production cannot be verified, leave journal `BLOCKED` and stop before GSC.
+
+### J. Search Console submission and follow-up
+
+**Only after final production verification:** ensure `https://www.rawmaterialstrade.com/sitemap.xml` returns 200, accurately lists canonical changed pages, current `lastmod` values and no confidential or broken URLs. Re-submit that existing sitemap via the connected full-access GSC property `https://www.rawmaterialstrade.com/`, then `list_sitemaps` to confirm accepted/pending status. The separate `https://blog.rawmaterialstrade.com/` is an independent property and requires its own Blogger/site changes and verification; do not submit the blog sitemap just because the main repository changed. Record exact GSC response and no promise of instant indexing. Define 7-/28-/56-day follow-ups by country, buyer/supplier intent, branded/nonbranded, priority pages, RFQs, orders and margin; keep sensitive metrics in private systems, not this public file.
+
+### K. Completion semantics
+
+A finding is complete only with: exact URL/file → source and rationale → diff/commit → CI result → deployment SHA → live readback → GSC state if applicable. Classify partial work `AUDITED`, `FIXED`, `CI-VERIFIED`, `PRODUCTION-VERIFIED`, `SUBMITTED`, `BLOCKED`. Delete this temporary journal **only after everything is complete and the PR/release summary retains a non-confidential evidence index**. Otherwise preserve it for resumption.
+
+## Journal — actual execution
+
+### 2026-11-23 Initial
+
+- [x] Identified repository, canonical `main` SHA, deployment and existing search architecture.
+- [x] Read restricted-publication policy, supplier boundary and Drive fail-closed product-master write-back policy.
+- [x] Verified source product counts: 127 families, 381 language detail pages, 408 sitemap URLs.
+- [x] Verified GSC: 2026-11-20 sitemap submission, 408 submitted, 0 errors/warnings; no new release yet to submit.
+- [x] Identified two low-risk site defects: 3 homepage counts showing 126, DE-AT duplicated hero clause.
+- [ ] Apply and validate homepage count / German copy fixes on isolated branch.
+- [ ] Add focused regression guard for canonical catalogue count to CI (not a replacement of current release contract).
+- [ ] Full static/structured-data/intent review of 408 URLs; log safe findings only.
+- [ ] Implement root-cause SEO / B2B buyer and supplier improvements across 3 languages without repeating existing functionality.
+- [ ] Complete privacy/security/consent/browser audits and authorized form testing.
+- [ ] Full CI and confidentiality scan green; inspect PR diff.
+- [ ] Merge and verify exact production revision and full reverse audit.
+- [ ] Resubmit live sitemap to main GSC property and record accepted status.
+- [ ] Close remaining public site findings; delete this temporary journal in final commit.
+
+**Last safe checkpoint:** `AUDITED / work branch created`; main left unchanged. **Next action:** focused first-batch fixes and CI, then continue through the unchecked gates. **Known blockers:** external Blogger editing not available in this repo; product-master automated write-back intentionally fails closed; some legal/business claims require human documentation; browser Turnstile E2E requires authorized test context. Never silently mark these complete.
