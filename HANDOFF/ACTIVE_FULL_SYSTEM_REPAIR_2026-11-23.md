@@ -101,3 +101,7 @@ A finding is complete only with: exact URL/file → source and rationale → dif
 - Sitemap: refresh `lastmod` ONLY for the three actually modified homepages.
 - Add `tools/audit_homepage_catalogue_count.py` to reject future count drift in EN/HU/DE-AT; wire into the existing static release workflow.
 - Status: `FIXED ON BRANCH; CI AND PRODUCTION NOT YET VERIFIED`. No GSC submission, no product-master write-back, no Cloudflare/Turnstile/CSP change.
+
+### 2026-11-23 — CI feedback / corrective action
+
+First PR check: catalogue parity PASS; chemical identity regression PASS; confidential Git-history PASS; static-release contract FAIL at three homepage `sitemap lastmod` vs JSON-LD `dateModified` mismatches (the previously edited pages retained 2026-10-22). Corrected each homepage `WebPage.dateModified` to 2026-11-23 on the repair branch. No CI threshold changed. Re-run pending. Source of evidence: PR #52 static-release workflow first attempt (run 45135020886).
