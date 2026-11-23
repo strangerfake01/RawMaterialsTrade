@@ -34,6 +34,10 @@ async function main() {
         assert.equal(response.status(), 200, route + ': HTML not served');
         const banner = page.locator('#cookieBanner');
         assert.equal(await banner.isVisible(), true, route + ': initial consent panel not visible');
+        await page.waitForTimeout(400);
+        const rect = await banner.boundingBox();
+        assert.ok(rect && rect.y < 900 && rect.y + rect.height > 0,
+                  route + ': consent panel is rendered outside viewport');
         assert.equal(gaRequests, 0, route + ': GA request before opt-in');
         await page.locator('[data-analytics-reject]').click();
         assert.equal(await page.evaluate(() => localStorage.getItem('rmt.analytics.consent.v1')), 'reject');
