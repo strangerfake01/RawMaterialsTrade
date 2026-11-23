@@ -127,3 +127,12 @@ Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no war
 - Extended the existing `tools/audit_homepage_catalogue_count.py` guard to catch future stale prose references in EN/HU/DE-AT.
 - GitHub commits for the fixes: `192cb1a`, `713558d`, `e43afcf`, `6b9b05e`. Pending refreshed CI and production checks.
 - No supplier/customer names, private invoices, commercial terms or source chemical facts were added. No Worker, CSP or Turnstile changes.
+
+### 2026-11-23 — Batch 4: manufacturer-partnership intent and AEO/GEO fixes
+
+- Audited three public manufacturer/distribution landing pages in EN, HU and DE-AT. Found the *same buyer-introduction paragraph twice* on each page (in `strategic-section` and `dach-section`), weakening manufacturer role clarity.
+- Replaced duplicated texts with distinct, evidence-limited qualification steps: product/grade/document fit, market fit, relevant buyer specifications, no promised volume/exclusivity. Corrected HU/DE process label translations.
+- Updated page JSON-LD `dateModified` and corresponding sitemap `lastmod` for **only the three changed URLs**.
+- Added `tools/audit_manufacturer_intent.py` to static CI to detect duplication, missing buyer/supplier distinction, false promise boundaries and localized process labels.
+- Sensitive customer/supplier identities, internal contracts, prices, bank details and correspondence were **not** published. Cloudflare Worker/Turnstile/CSP and product-master fail-closed workflow remain unchanged.
+- Status: FIXED ON BRANCH; CI verification and visual/live audit pending. The existing PR stays draft and `main` unchanged.
