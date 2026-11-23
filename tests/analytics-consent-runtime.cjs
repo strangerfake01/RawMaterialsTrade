@@ -9,7 +9,10 @@ const controller = fs.readFileSync(path.join(__dirname, "..", "assets", "js", "a
 
 function button() {
   const handlers = {};
+  let focused = false;
   return {
+    get focused() { return focused; },
+    focus: () => { focused = true; },
     addEventListener: (name, callback) => { handlers[name] = callback; },
     click: () => {
       assert.equal(typeof handlers.click, "function", "missing consent click handler");
@@ -27,6 +30,7 @@ function load(initialChoice) {
   const visibleClasses = new Set();
   const panel = {
     hidden: true, style: { display: "none" },
+    querySelector: (selector) => selector === "[data-analytics-reject]" ? reject : null,
     classList: {
       toggle: (name, state) => state ? visibleClasses.add(name) : visibleClasses.delete(name),
       contains: (name) => visibleClasses.has(name)
@@ -86,9 +90,11 @@ assert.deepEqual(fresh.appended, [], "rejection must not load analytics");
 fresh.settings.click();
 assert.equal(fresh.panel.hidden, false, "settings must reopen after rejection");
 assert.equal(fresh.panel.classList.contains("visible"), true, "reopen should restore CSS visibility");
+assert.equal(fresh.reject.focused, true, "reopened consent choices must receive keyboard focus");
 fresh.consent.click();
 assert.equal(fresh.storage.get("rmt.analytics.consent.v1"), "accept");
 assert.equal(fresh.win.__rmtAnalyticsConsentGranted, true);
+assert.equal(fresh.settings.focused, true, "completed settings choice should return focus to opener");
 assert.equal(fresh.appended.length, 1, "acceptance should load exactly one analytics script");
 assert.match(fresh.appended[0], /^https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-/);
 fresh.settings.click();
