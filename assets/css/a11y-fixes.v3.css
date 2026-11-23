@@ -425,3 +425,17 @@ footer[role="contentinfo"] a:focus-visible,
 body h1{font-size:clamp(2.2rem,4.4vw,4.4rem)!important;line-height:1.04}
 body h2{font-size:clamp(1.6rem,2.8vw,2.8rem)!important;line-height:1.12}
 @media(max-width:600px){body h1{font-size:clamp(1.9rem,8.5vw,3rem)!important}body h2{font-size:clamp(1.45rem,7vw,2.25rem)!important}}
+
+/* Narrow mobile: keep contact entries and hero grid within the 320px viewport. */
+@media (max-width:360px) {
+  /* A long business e-mail must not set the grid item's min-content width. */
+  .cp-list,
+  .cp-entry {min-width:0;grid-template-columns:minmax(0,1fr)}
+  .cp-name,
+  .cp-meta {min-width:0}
+  .cp-meta a {overflow-wrap:anywhere;word-break:normal}
+  /* DE copy + certificate card must not force the hero's implicit grid track. */
+  .hero.has-hover-media .hero-inner {grid-template-columns:minmax(0,1fr)!important}
+  .hero.has-hover-media .hero-content,
+  .hero.has-hover-media .hero-visual {min-width:0}
+}
