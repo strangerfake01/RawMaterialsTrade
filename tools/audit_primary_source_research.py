@@ -64,6 +64,27 @@ EXPECTED.update({
     "maleinsav-industrial": (723, 444266, "110-16-7", "C4H4O4"),
 })
 
+# Third independently cross-checked general CAS/name/formula batch; no seller approval.
+EXPECTED.update({
+    "aluminium-szulfat-03-mm-38-mm-industrial": (24850, 24850, "10043-01-3", "Al2O12S3"),
+    "aluminium-szulfat-oldat-industrial": (24850, 24850, "10043-01-3", "Al2O12S3"),
+    "ammonium-nitrat-industrial": (22985, 22985, "6484-52-2", "H4N2O3"),
+    "borken-food": (28019, 28019, "16731-55-8", "K2O5S2"),
+    "butil-diglikol-industrial": (8177, 8177, "112-34-5", "C8H18O3"),
+    "dietilen-glikol-industrial": (8117, 8117, "111-46-6", "C4H10O3"),
+    "natrium-karbonat-konnyu-industrial": (10340, 10340, "497-19-8", "CNa2O3"),
+    "natrium-karbonat-nehez-industrial": (10340, 10340, "497-19-8", "CNa2O3"),
+    "foszforsav-75-85-food": (1004, 1004, "7664-38-2", "H3O4P"),
+    "foszforsav-75-industrial": (1004, 1004, "7664-38-2", "H3O4P"),
+    "kalcium-karbonat-food": (10112, 10112, "471-34-1", "CCaO3"),
+    "kalium-karbonat-industrial": (11430, 11430, "584-08-7", "CK2O3"),
+    "etil-acetat-technikai-regeneralt-industrial": (8857, 8857, "141-78-6", "C4H8O2"),
+    "natrium-szulfat-industrial": (24436, 24436, "7757-82-6", "Na2O4S"),
+    "kalium-jodid-feed": (4875, 4875, "7681-11-0", "IK"),
+    "propionsav-99-feed": (1032, 1032, "79-09-4", "C3H6O2"),
+    "butanol-industrial": (263, 263, "71-36-3", "C4H10O"),
+})
+
 errors: list[str] = []
 if len(CATALOGUE) != 127 or len(REGISTRY.get("entities", [])) != 127:
     errors.append("Unexpected catalogue/registry size")
@@ -73,7 +94,7 @@ if set(evidence) != set(EXPECTED):
     errors.append("General-source references have unreviewed or missing entries")
 if RESEARCH.get("commercial_grade_verified") != 0:
     errors.append("Supplier grade was incorrectly approved by general references")
-if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 87:
+if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 70:
     errors.append("Full catalogue research coverage misrepresented")
 for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     item = entries.get(pid, {})
@@ -127,8 +148,8 @@ for pid in ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"):
     e = entries.get(pid, {})
     if e.get("wikidata_qid") or e.get("wikidata_label"):
         errors.append(f"{pid}: unapproved or mismatched hydrate Wikidata sameAs")
-if len(EXPECTED) != 40 or len({x["cid"] for x in RESEARCH["entries"]}) != 32:
-    errors.append("General compound review must contain 40 families and 32 distinct CIDs")
+if len(EXPECTED) != 57 or len({x["cid"] for x in RESEARCH["entries"]}) != 46:
+    errors.append("General compound review must contain 57 families and 46 distinct CIDs")
 if len(ROWS) != 369:
     errors.append(f"Source register unexpected row count: {len(ROWS)}")
 print(f"Primary substance research: {len(EXPECTED)} general concepts crosschecked, "
