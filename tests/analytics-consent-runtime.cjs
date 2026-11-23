@@ -36,6 +36,8 @@ function load(initialChoice) {
   const cookieMutations = [];
   const on = {};
   const doc = {
+    documentElement: { lang: "en" },
+    querySelector: (selector) => selector === "[data-cookie-settings]" ? settings : null,
     readyState: "loading",
     getElementById: (id) => id === "cookieBanner" ? panel : null,
     querySelectorAll: (selector) => ({
