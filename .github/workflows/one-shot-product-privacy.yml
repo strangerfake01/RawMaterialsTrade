@@ -1,0 +1,50 @@
+name: One-shot product privacy footer repair (PR branch only)
+
+on:
+  push:
+    branches: [audit/buyer-supplier-seo-geo-trust-20261123]
+    paths:
+      - tools/ensure_product_privacy_links.py
+      - .github/workflows/one-shot-product-privacy.yml
+
+permissions:
+  contents: write
+
+jobs:
+  repair-product-footers:
+    if: github.repository == 'strangerfake01/RawMaterialsTrade'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - name: Checkout the exact PR branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply verified, static, three-language privacy links
+        run: python3 tools/ensure_product_privacy_links.py --apply
+      - name: Confirm all 381 product routes have direct privacy links
+        run: python3 tools/ensure_product_privacy_links.py
+      - name: Validate existing sitemap, canonical and chemical publication contract
+        run: python3 tools/audit_release_contract.py
+      - name: Verify patch whitespace and restrict changed files
+        run: |
+          git diff --check
+          python3 - <<'PY'
+          import subprocess
+          changed = subprocess.check_output(['git','diff','--name-only'], text=True).splitlines()
+          assert len(changed) == 381, f"Expected 381 product pages to change, got {len(changed)}"
+          assert all(name.startswith(('en-','hu-','de-at-')) and name.endswith(('-industrial.html','-food.html','-feed.html','-deicing.html')) for name in changed), "Unexpected file path changed"
+          print("381 product pages only; no worker, CSP, master or secrets altered")
+          PY
+      - name: Commit onto the existing review branch, never main
+        run: |
+          test "$GITHUB_REF_NAME" = "audit/buyer-supplier-seo-geo-trust-20261123"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.html'
+          git commit -m "fix(privacy): static privacy links on all 381 localized product pages"
+          git push origin "HEAD:$GITHUB_REF_NAME"
