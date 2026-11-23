@@ -161,8 +161,8 @@ def build() -> dict[Path, str]:
             routes.add(path.name)
             original = path.read_text(encoding="utf-8")
             updated = rewrite_html(original, lang, path.name)
-            if updated != original:
-                replacements[path] = updated
+            # Include unchanged pages too, so --check audits all 381 routes.
+            replacements[path] = updated
         # A publicly downloadable master must not contradict HTML.
         ident = product.setdefault("technical_identity", {})
         procurement = product.setdefault("procurement", {})
