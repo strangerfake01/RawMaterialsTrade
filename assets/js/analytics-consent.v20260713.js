@@ -6,6 +6,7 @@
   var enabled = false;
   var loaded = false;
   var banner;
+  var settingsOpener = null;
   function readChoice() {
     try { var value = localStorage.getItem(STORAGE_KEY); return value === 'accept' || value === 'reject' ? value : null; }
     catch (_) { return null; }
@@ -66,13 +67,23 @@
     }
     wipeCookies();
   }
-  function showBanner(show) {
-    if (banner) { banner.hidden = !show; banner.classList.toggle('visible', !!show); banner.style.display = show ? '' : 'none'; }
+  function showBanner(show, focusChoice) {
+    if (banner) {
+      banner.hidden = !show;
+      banner.classList.toggle('visible', !!show);
+      banner.style.display = show ? '' : 'none';
+      if (show && focusChoice) {
+        var choice = banner.querySelector('[data-analytics-reject]');
+        if (choice) choice.focus();
+      }
+    }
   }
   function applyChoice(choice) {
     saveChoice(choice);
     if (choice === 'accept') enable(); else disable();
     showBanner(false);
+    // Restore keyboard focus to the control that opened the preferences.
+    if (settingsOpener) { settingsOpener.focus(); settingsOpener = null; }
   }
   // One shared consent control for every tracked entry route, including product pages.
   // The copy below is fixed internal text; no user input or form content is interpolated.
@@ -133,7 +144,7 @@
       b.addEventListener('click', function () { applyChoice('reject'); });
     });
     document.querySelectorAll('[data-cookie-settings]').forEach(function (b) {
-      b.addEventListener('click', function () { showBanner(true); });
+      b.addEventListener('click', function () { settingsOpener = b; showBanner(true, true); });
     });
     var existing = readChoice();
     if (existing === 'accept') enable(); else disable();
