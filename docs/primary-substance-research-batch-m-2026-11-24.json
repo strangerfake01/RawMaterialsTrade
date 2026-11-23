@@ -1,0 +1,41 @@
+{
+  "review_date": "2026-11-24",
+  "batch": "M",
+  "family_count": 2,
+  "review_scope": "Original NIH/NLM PubChem independent chemical identities only; no offered material sameAs or supplier grade",
+  "general_families_total": 107,
+  "distinct_cids_total": 89,
+  "commercial_supplier_lots_verified": 0,
+  "entries": [
+    {
+      "id": "rez-klorid-dihidrat-industrial",
+      "name": "Copper(II) chloride dihydrate",
+      "cas": "10125-13-0",
+      "cid": 61482,
+      "formula": "Cl2CuH4O2",
+      "previous_candidate_cid": 7360,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/61482",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "Manual PubChem structural disambiguation: CID 61482 has CuCl2·2H2O; same-CAS name-only CID 16219111 gives one water Cl2CuH2O. Historic CID 7360 is unrelated. Supplier identity/grade remains unverified."
+    },
+    {
+      "id": "kalium-tripolifoszfat-food",
+      "name": "Pentapotassium triphosphate",
+      "cas": "13845-36-8",
+      "cid": 61695,
+      "formula": "K5O10P3",
+      "previous_candidate_cid": null,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/61695",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "General CAS/name/formula verified by PubChem CID 61695. Catalogue offered-product CAS deliberately stays unspecified pending supplier SDS and food/regulated-use evidence."
+    }
+  ],
+  "copper_source_conflict": {
+    "correct_dihydrate": 61482,
+    "name_only_wrong_formula": 16219111,
+    "historical_bad_auto_cid": 7360
+  },
+  "potassium_offered_product_cas": "withheld_pending_selected_supplier_documents"
+}

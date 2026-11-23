@@ -169,6 +169,13 @@ EXPECTED.update({
     "na-hexametafoszfat-industrial": (24968, 24968, "10124-56-8", "Na6O18P6"),
 })
 
+
+# Batch M: general PubChem only, not approved supplier products.
+EXPECTED.update({
+    "rez-klorid-dihidrat-industrial": (7360, 61482, "10125-13-0", "Cl2CuH4O2"),
+    "kalium-tripolifoszfat-food": (None, 61695, "13845-36-8", "K5O10P3"),
+})
+
 errors: list[str] = []
 if len(CATALOGUE) != 127 or len(REGISTRY.get("entities", [])) != 127:
     errors.append("Unexpected catalogue/registry size")
@@ -178,12 +185,15 @@ if set(evidence) != set(EXPECTED):
     errors.append("General-source references have unreviewed or missing entries")
 if RESEARCH.get("commercial_grade_verified") != 0:
     errors.append("Supplier grade was incorrectly approved by general references")
-if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 22:
+if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 20:
     errors.append("Full catalogue research coverage misrepresented")
 for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     item = entries.get(pid, {})
     cited = evidence.get(pid, {})
-    if (item.get("cas"), item.get("pubchem_candidate_cid"),
+    # An independently sourced general CAS is not an RMT offered-product CAS.
+    effective_cas = ((item.get("independent_general_substance_reference") or {}).get("cas")
+                     if pid == "kalium-tripolifoszfat-food" else item.get("cas"))
+    if (effective_cas, item.get("pubchem_candidate_cid"),
             item.get("pubchem_candidate_formula")) != (cas, cid, formula):
         errors.append(f"{pid}: wrong candidate CAS/CID/formula association")
     if cited.get("pubchem") not in (f"https://pubchem.ncbi.nlm.nih.gov/compound/{cas}", f"https://pubchem.ncbi.nlm.nih.gov/compound/{cid}"):
@@ -212,7 +222,7 @@ for row in ROWS:
         errors.append(f"{row['product_id']}: unchecked Wikidata matches labelled verified")
 
 QUARANTINE = set(RESEARCH.get("rejected_legacy_automatic_pubchem_product_ids", []))
-if len(QUARANTINE) != 8 or RESEARCH.get("rejected_legacy_automatic_pubchem_match_count") != 8:
+if len(QUARANTINE) != 7 or RESEARCH.get("rejected_legacy_automatic_pubchem_match_count") != 7:
     errors.append("Unreviewed ion/hydrate/molecule quarantine is incomplete")
 if QUARANTINE & set(EXPECTED):
     errors.append("Source-reviewed and quarantined identities must not overlap")
@@ -232,8 +242,8 @@ for pid in ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"):
     e = entries.get(pid, {})
     if e.get("wikidata_qid") or e.get("wikidata_label"):
         errors.append(f"{pid}: unapproved or mismatched hydrate Wikidata sameAs")
-if len(EXPECTED) != 105 or len({x["cid"] for x in RESEARCH["entries"]}) != 87:
-    errors.append("General compound review must contain 105 families and 87 distinct CIDs")
+if len(EXPECTED) != 107 or len({x["cid"] for x in RESEARCH["entries"]}) != 89:
+    errors.append("General compound review must contain 107 families and 89 distinct CIDs")
 # Multi-hydrate parent families deliberately remain outside approved single-CID
 # references. Two sourced variants are not proof of one offered commercial product.
 groups = VARIANT_SOURCES.get("groups") or {}
@@ -373,8 +383,8 @@ research_ids = set(evidence)
 variant_ids_set = set(variant_ids)
 unresolved_ids = {x["id"] for x in UNRESOLVED["entries"]}
 canonical_ids = {x["id"] for x in CATALOGUE}
-if (len(research_ids), len(variant_ids_set), len(unresolved_ids)) != (105, 15, 7):
-    errors.append("Unexpected 105/15/7 coverage partition")
+if (len(research_ids), len(variant_ids_set), len(unresolved_ids)) != (107, 15, 5):
+    errors.append("Unexpected 107/15/5 coverage partition")
 if research_ids & variant_ids_set or research_ids & unresolved_ids or variant_ids_set & unresolved_ids:
     errors.append("A catalogue family belongs to more than one evidence classification")
 if canonical_ids != research_ids | variant_ids_set | unresolved_ids:
@@ -386,7 +396,15 @@ for unresolved_id in unresolved_ids:
     if item.get("pubchem_cid") is not None or item.get("sameAs_status") == "verified" or item.get("independent_general_substance_reference") or item.get("form_specific_research_reference"):
         errors.append(f"{unresolved_id}: unresolved chemistry incorrectly promoted")
 
-if len(ROWS) != 369:
+# Block chemically wrong old/source-name-only IDs and premature commercial CAS.
+copper = entries["rez-klorid-dihidrat-industrial"]
+if copper.get("primary_source_disambiguation", {}).get("selected_general_dihydrate_cid") != 61482:
+    errors.append("Copper dihydrate identity did not retain qualified CID 61482")
+if copper.get("primary_source_disambiguation", {}).get("rejected_conflicting_PubChem_cas_landing_cid") != 16219111:
+    errors.append("Wrong one-water-unit copper source not quarantined")
+if entries["kalium-tripolifoszfat-food"].get("cas") is not None:
+    errors.append("General potassium identity cannot assert offered supplier CAS")
+if len(ROWS) != 370:
     errors.append(f"Source register unexpected row count: {len(ROWS)}")
 print(f"Primary substance research: {len(EXPECTED)} general concepts crosschecked, "
       f"{len(CATALOGUE)-len(EXPECTED)} unreviewed; "

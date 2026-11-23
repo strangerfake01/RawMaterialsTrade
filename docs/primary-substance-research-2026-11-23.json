@@ -1,10 +1,10 @@
 {
-  "review_date": "2026-11-23",
+  "review_date": "2026-11-24",
   "document_type": "independent_primary_source_research_register",
   "review_scope": "general_substance_identity_only",
   "total_catalogue_families": 127,
-  "general_substance_references_crosschecked": 105,
-  "other_catalogue_families_not_yet_independently_verified": 22,
+  "general_substance_references_crosschecked": 107,
+  "other_catalogue_families_not_yet_independently_verified": 20,
   "commercial_grade_verified": 0,
   "external_source_types": [
     "NIH_NLM_PubChem",
@@ -1238,9 +1238,33 @@
       "previous_candidate_cid": 24968,
       "scope": "general_substance_only_not_offered_grade",
       "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "rez-klorid-dihidrat-industrial",
+      "name": "Copper(II) chloride dihydrate",
+      "cas": "10125-13-0",
+      "cid": 61482,
+      "formula": "Cl2CuH4O2",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/61482",
+      "note": "Manual PubChem structural disambiguation: CID 61482 has CuCl2·2H2O; same-CAS name-only CID 16219111 gives one water Cl2CuH2O. Historic CID 7360 is unrelated. Supplier identity/grade remains unverified.",
+      "previous_candidate_cid": 7360,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "kalium-tripolifoszfat-food",
+      "name": "Pentapotassium triphosphate",
+      "cas": "13845-36-8",
+      "cid": 61695,
+      "formula": "K5O10P3",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/61695",
+      "note": "General CAS/name/formula verified by PubChem CID 61695. Catalogue offered-product CAS deliberately stays unspecified pending supplier SDS and food/regulated-use evidence.",
+      "previous_candidate_cid": null,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
     }
   ],
-  "rejected_legacy_automatic_pubchem_match_count": 8,
+  "rejected_legacy_automatic_pubchem_match_count": 7,
   "rejected_legacy_automatic_pubchem_product_ids": [
     "kalcium-klorid-2025-oldat-deicing",
     "kalcium-klorid-7780-food",
@@ -1248,9 +1272,8 @@
     "magnezium-klorid-food",
     "magnezium-klorid-hexahidrat-industrial",
     "cink-szulfat-monohidrat-feed",
-    "cink-szulfat-monohidrat-heptahidrat-industrial",
-    "rez-klorid-dihidrat-industrial"
+    "cink-szulfat-monohidrat-heptahidrat-industrial"
   ],
   "quarantine_note": "The remaining 10 wrong ion/hydrate/molecule automatic PubChem candidates are NULL in entity-registry and must not be approved without form-specific independent source evidence. Four previously quarantined ion-only source mappings were separately reconciled on 2026-11-23 to official general molecule records, NOT supplier-grade certification.",
-  "unique_general_compound_cids_crosschecked": 87
+  "unique_general_compound_cids_crosschecked": 89
 }

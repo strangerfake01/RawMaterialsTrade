@@ -1400,13 +1400,21 @@
       "sameAs_reason": "Not independently reviewed; no external entity relationship has been approved.",
       "pubchem_cid": null,
       "pubchem_formula": null,
-      "pubchem_candidate_cid": null,
-      "pubchem_candidate_formula": null,
+      "pubchem_candidate_cid": 61695,
+      "pubchem_candidate_formula": "K5O10P3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Catalogue identity and material form require independent primary-source and supplier-document review.",
+      "pubchem_note": "Original NLM PubChem general chemical identity reviewed 2026-11-24: https://pubchem.ncbi.nlm.nih.gov/compound/61695. General CAS/name/formula verified by PubChem CID 61695. Catalogue offered-product CAS deliberately stays unspecified pending supplier SDS and food/regulated-use evidence. This is NOT a verified commercial product, grade, supplier lot, specific food/feed suitability, certificate, SDS/TDS/CoA or product sameAs.",
       "catalogue_identity_note": "Product/mixture identity is described textually in the catalogue. Confirm CAS, EC and composition from supplier documentation; no verified numeric identifier is available in this registry.",
       "catalogue_raw_identity_label": "Product-specific — confirm exact CAS/component identity from SDS/TDS",
-      "catalogue_raw_ec_label": "Confirmed upon supplier documentation"
+      "catalogue_raw_ec_label": "Confirmed upon supplier documentation",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/61695",
+        "cas": "13845-36-8",
+        "pubchem_cid": 61695,
+        "reviewed_on": "2026-11-24",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "karbamid-ipari-kezeletlen-industrial",
@@ -2574,15 +2582,30 @@
       "pubchem_cid": null,
       "pubchem_formula": null,
       "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
-      "pubchem_candidate_cid": null,
-      "pubchem_candidate_formula": null,
-      "pubchem_status": "rejected-incorrect-substance-or-form",
-      "pubchem_note": "2026-11-23 screening rejected earlier automated candidate CID 7360. C5H10O2 is organic molecule, not CuCl2 dihydrate. Not a valid source match for the offered material. No replacement CID is approved before form-specific independent source and supplier review.",
+      "pubchem_candidate_cid": 61482,
+      "pubchem_candidate_formula": "Cl2CuH4O2",
+      "pubchem_status": "needs-independent-verification",
+      "pubchem_note": "Original NLM PubChem general chemical identity reviewed 2026-11-24: https://pubchem.ncbi.nlm.nih.gov/compound/61482. Manual PubChem structural disambiguation: CID 61482 has CuCl2·2H2O; same-CAS name-only CID 16219111 gives one water Cl2CuH2O. Historic CID 7360 is unrelated. Supplier identity/grade remains unverified. This is NOT a verified commercial product, grade, supplier lot, specific food/feed suitability, certificate, SDS/TDS/CoA or product sameAs.",
       "quarantined_external_identity": {
         "reviewed_on": "2026-11-23",
         "reason": "candidate_formula_or_species_mismatch",
         "supplier_batch_approved": false,
         "permitted_as_sameAs": false
+      },
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/61482",
+        "cas": "10125-13-0",
+        "pubchem_cid": 61482,
+        "reviewed_on": "2026-11-24",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      },
+      "primary_source_disambiguation": {
+        "selected_general_dihydrate_cid": 61482,
+        "rejected_conflicting_PubChem_cas_landing_cid": 16219111,
+        "rejected_legacy_cid": 7360,
+        "reason": "Incorrect one-water formula on separate PubChem name/CAS association; CID 61482 has dihydrate formula",
+        "scope": "general_chemical_reference_only"
       }
     },
     {
