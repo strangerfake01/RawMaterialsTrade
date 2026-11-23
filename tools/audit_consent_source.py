@@ -37,7 +37,8 @@ js = (ROOT / "assets/js/analytics-consent.v20260713.js").read_text(encoding="utf
 for marker in ("if (existing === 'accept') enable(); else disable();",
                "if (choice === 'accept') enable(); else disable();",
                "document.querySelectorAll('[data-cookie-settings]')",
-               "function disable()", "wipeCookies();"):
+               "function disable()", "wipeCookies();",
+               "banner.classList.toggle('visible', !!show);"):
     if marker not in js:
         errors.append("consent controller missing safety contract: " + marker)
 
