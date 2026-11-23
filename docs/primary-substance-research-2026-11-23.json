@@ -1,0 +1,94 @@
+{
+  "review_date": "2026-11-23",
+  "document_type": "independent_primary_source_research_register",
+  "review_scope": "general_substance_identity_only",
+  "total_catalogue_families": 127,
+  "general_substance_references_crosschecked": 8,
+  "other_catalogue_families_not_yet_independently_verified": 119,
+  "commercial_grade_verified": 0,
+  "external_source_types": [
+    "NIH_NLM_PubChem",
+    "ECHA",
+    "EU_EUR_Lex"
+  ],
+  "release_boundary": "GENERAL material concepts only; NO supplier, batch, offered grade, concentration, SDS/TDS/CoA availability or legal suitability is approved by these links.",
+  "source_link_not_sameAs": true,
+  "entries": [
+    {
+      "id": "aszkorbinsav-food",
+      "name": "L-Ascorbic acid",
+      "cas": "50-81-7",
+      "cid": 54670067,
+      "formula": "C6H8O6",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/50-81-7",
+      "note": "General L-ascorbic acid CAS/structure, not food-grade offering proof."
+    },
+    {
+      "id": "ammonium-szulfat-industrial",
+      "name": "Ammonium sulfate",
+      "cas": "7783-20-2",
+      "cid": 6097028,
+      "formula": "H8N2O4S",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7783-20-2",
+      "note": "General ammonium sulfate CAS/structure, not a supplier lot."
+    },
+    {
+      "id": "ammonium-klorid-industrial",
+      "name": "Ammonium chloride",
+      "cas": "12125-02-9",
+      "cid": 25517,
+      "formula": "ClH4N",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/12125-02-9",
+      "note": "General ammonium chloride CAS/structure, not a offered purity."
+    },
+    {
+      "id": "borax-dekahidrat-industrial",
+      "name": "Disodium tetraborate decahydrate",
+      "cas": "1303-96-4",
+      "cid": 16211214,
+      "formula": "B4H20Na2O17",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1303-96-4",
+      "regulatory": "https://echa.europa.eu/substance-information/-/substanceinfo/100.129.152",
+      "note": "General hydrate identity only; ECHA identifies decahydrate separately from pentahydrate and includes CMR-related obligations. Current product/batch classification not established."
+    },
+    {
+      "id": "borax-pentahidrat-industrial",
+      "name": "Disodium tetraborate pentahydrate",
+      "cas": "12179-04-3",
+      "cid": 86341921,
+      "formula": "B4H10Na2O12",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/12179-04-3",
+      "regulatory": "https://chem.echa.europa.eu/api-obligation-list/v1/candidateList/documents?name=db0ecbd7123c0151e83a694bb86e6a9b_svhc_supdoc_disodium_tetraborate_anhydrous_publication_en.pdf",
+      "note": "General pentahydrate identity; ECHA document identifies the separate hydrate and CMR concerns, not current supplier classification."
+    },
+    {
+      "id": "ammonia-oldat-24-industrial",
+      "name": "Ammonia aqueous solution / ammonium hydroxide record",
+      "cas": "1336-21-6",
+      "cid": 14923,
+      "formula": "H5NO",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1336-21-6",
+      "regulatory": "https://echa.europa.eu/substance-information/-/substanceinfo/100.014.225",
+      "note": "General aqueous ammonia identity is independently supported by ECHA; PubChem NH4OH formula is a modelling convention. Neither source proves 24% supplier assay."
+    },
+    {
+      "id": "copper-oxide-feed",
+      "name": "Copper(II) oxide",
+      "cas": "1317-38-0",
+      "cid": 164827,
+      "formula": "CuO",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1317-38-0",
+      "regulatory": "https://eur-lex.europa.eu/eli/reg_impl/2018/1039/oj/eng",
+      "note": "EU 2018/1039 includes 3b404 copper(II) oxide under conditional feed additive authorisation. Does NOT mean selected RMT product/grade is suitable or authorized; verify latest EU register and supplier docs."
+    },
+    {
+      "id": "glicerin-99-5-food",
+      "name": "Glycerol",
+      "cas": "56-81-5",
+      "cid": 753,
+      "formula": "C3H8O3",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/56-81-5",
+      "note": "General glycerol molecular identity only; no evidence of 99.5% food/PhEur/USP specification or RMT supplier."
+    }
+  ]
+}
