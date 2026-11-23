@@ -1,0 +1,88 @@
+{
+  "review_date": "2026-11-23",
+  "batch": "H",
+  "family_count": 6,
+  "scope": "General PubChem molecule/salt identity only; no certified marketed specification, supplier, batch or food/feed authorization",
+  "commercial_grade_verified": 0,
+  "entries": [
+    {
+      "id": "kalium-jodat-feed",
+      "name": "Potassium iodate",
+      "cas": "7758-05-6",
+      "old": 81757,
+      "cid": 23665710,
+      "formula": "IKO3",
+      "note": "Earlier source was an unrelated organic compound; CAS and formula confirm generic KI O3. Feed use and manufacturer qualification are unverified.",
+      "quarantined": true,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23665710",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "mangan-oxid-feed",
+      "name": "Manganese(II) oxide",
+      "cas": "1344-43-0",
+      "old": 14940,
+      "cid": 14940,
+      "formula": "MnO",
+      "note": "General manganous oxide only, no feed/additive compliance or supplier evidence.",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14940",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "natrium-perszulfat-industrial",
+      "name": "Sodium persulfate",
+      "cas": "7775-27-1",
+      "old": 62655,
+      "cid": 62655,
+      "formula": "Na2O8S2",
+      "note": "Sodium peroxodisulfate identity only; hazardous chemical-specific safety and sales requirements not substantiated.",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/62655",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "diammonium-hidrogenfoszfat-industrial",
+      "name": "Diammonium hydrogen phosphate",
+      "cas": "7783-28-0",
+      "old": 24540,
+      "cid": 24540,
+      "formula": "H9N2O4P",
+      "note": "General DAP identity, not proof of fertilizer grade, 18-46-0 analysis or actual supply.",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24540",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "meszhidrat-industrial",
+      "name": "Calcium hydroxide",
+      "cas": "1305-62-0",
+      "old": 14777,
+      "cid": 14777,
+      "formula": "CaH2O2",
+      "note": "Generic calcium dihydroxide only; no commercial purity or form assertion.",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14777",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "meszhidrat-15-industrial",
+      "name": "Calcium hydroxide",
+      "cas": "1305-62-0",
+      "old": 14777,
+      "cid": 14777,
+      "formula": "CaH2O2",
+      "note": "Generic calcium hydroxide, not evidence that any 15% suspension can be supplied.",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14777",
+      "reviewed_on": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    }
+  ]
+}
