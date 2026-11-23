@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REGISTERED = "Törökszentmiklós"
 OPERATIONAL = "Ócsa"
 PAGES = {
-    "index.html": ("Registered office", "Operational &amp; ISO-certified site"),
+    "index.html": ("Registered office", "Operational & ISO-certified site"),
     "hu.html": ("Székhely", "Telephely és ISO-tanúsított helyszín"),
     "de-at.html": ("Firmensitz", "Betriebsstätte und ISO-9001-zertifizierter Standort"),
 }
