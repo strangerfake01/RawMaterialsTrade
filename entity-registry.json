@@ -2888,9 +2888,9 @@
     {
       "id": "utszoro-zeolit-deicing",
       "cas": "1318-02-1",
-      "wikidata_qid": "Q191323",
-      "wikidata_label": "Zeolite A",
-      "wikipedia_en": "https://en.wikipedia.org/wiki/Zeolite",
+      "wikidata_qid": null,
+      "wikidata_label": null,
+      "wikipedia_en": null,
       "sameAs_status": "needs-confirmation",
       "pubchem_cid": null,
       "pubchem_formula": null,
