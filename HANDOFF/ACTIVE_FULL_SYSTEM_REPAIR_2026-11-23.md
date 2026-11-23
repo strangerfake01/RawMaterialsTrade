@@ -83,8 +83,8 @@ A finding is complete only with: exact URL/file → source and rationale → dif
 - [x] Verified source product counts: 127 families, 381 language detail pages, 408 sitemap URLs.
 - [x] Verified GSC: 2026-11-20 sitemap submission, 408 submitted, 0 errors/warnings; no new release yet to submit.
 - [x] Identified two low-risk site defects: 3 homepage counts showing 126, DE-AT duplicated hero clause.
-- [ ] Apply and validate homepage count / German copy fixes on isolated branch.
-- [ ] Add focused regression guard for canonical catalogue count to CI (not a replacement of current release contract).
+- [x] Apply and validate homepage count / German copy fixes on isolated branch (branch commits; CI verified).
+- [x] Add focused regression guard for canonical catalogue count to CI (not a replacement of current release contract); extended to all 3 catalogue pages.
 - [ ] Full static/structured-data/intent review of 408 URLs; log safe findings only.
 - [ ] Implement root-cause SEO / B2B buyer and supplier improvements across 3 languages without repeating existing functionality.
 - [ ] Complete privacy/security/consent/browser audits and authorized form testing.
@@ -93,7 +93,7 @@ A finding is complete only with: exact URL/file → source and rationale → dif
 - [ ] Resubmit live sitemap to main GSC property and record accepted status.
 - [ ] Close remaining public site findings; delete this temporary journal in final commit.
 
-**Last safe checkpoint:** `AUDITED / work branch created`; main left unchanged. **Next action:** focused first-batch fixes and CI, then continue through the unchecked gates. **Known blockers:** external Blogger editing not available in this repo; product-master automated write-back intentionally fails closed; some legal/business claims require human documentation; browser Turnstile E2E requires authorized test context. Never silently mark these complete.
+**Last safe checkpoint:** `CI-VERIFIED` for first two localized count/text batches; full-system repair and production validation still pending, `main` unchanged. **Next action:** 408-URL intent/GEO/privacy reverse audit and remaining evidence-backed remediation. **Known blockers:** external Blogger editing not available in this repo; product-master automated write-back intentionally fails closed; some legal/business claims require human documentation; browser Turnstile E2E requires authorized test context. Never silently mark these complete.
 ### 2026-11-23 — Batch 1 applied on repair branch (pending CI)
 
 - Three homepages: update public family count from 126 to source-verified 127.
@@ -112,3 +112,11 @@ First PR check: catalogue parity PASS; chemical identity regression PASS; confid
 - Synchronized the corresponding `WebPage.dateModified` and the three sitemap `lastmod` values to the actual edit date.
 - Extended the same regression audit to reject stale catalogue counters without changing Product JSON-LD or supplier claims. No inventory, pricing or supplier info disclosed.
 - Status: `FIXED ON BRANCH; CI AND PRODUCTION NOT YET VERIFIED`.
+
+### 2026-11-23 — CI success / resume pointer
+
+PR #52 branch head `04a4638b6314a4dc56be5826581482b7c63e397e` passed **all four** GitHub checks: static release contract (run 45135378123), confidential Git history audit (45135378156), product catalogue parity (45135378125), product identity regression (45135378239). Static contract covers 408 sitemap URLs and 381 localized product pages. This means **these changes are CI-VERIFIED only**, not merged, deployed, UX/browser-verified or submitted to GSC.
+
+Separate `blog.rawmaterialstrade.com` GSC sitemap: 14 submitted web URLs, no warnings/errors, last fetched 2026-11-12. Editing Blogger is outside the canonical GitHub Pages repository. Do not treat it as repaired or resubmit without Blogger-side verification.
+
+**Resume next:** review any product/category/partner intent gaps from first-party non-confidential evidence and browser audits; make source-root-cause fixes in EN/HU/DE-AT; keep protected Worker/CSP/Turnstile and fail-closed Drive sync unchanged; rerun CI after every batch. `main` remains at bee7be9a27f26c4e18b847424613f0f7aba5b9a4 unless independently updated. Do NOT delete this journal until final production + GSC gates complete.
