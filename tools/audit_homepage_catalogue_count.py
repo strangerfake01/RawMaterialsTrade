@@ -29,6 +29,14 @@ def main() -> int:
         values = re.findall(pattern, html)
         if values != [str(expected)]:
             errors.append(f"{filename}: expected one {expected} count for {label}; got {values}")
+    for filename in ("en-catalogue.html", "hu-termekkatalogus.html", "de-at-produktkatalog.html"):
+        html = (ROOT / filename).read_text(encoding="utf-8")
+        results = re.findall(r'<span id="resultCount">(\d+)</span>', html)
+        if results != [str(expected)]:
+            errors.append(f"{filename}: visible catalogue count mismatch: {results}; expected {expected}")
+        narrative = re.sub(r'"position":126', '', html)
+        if re.search(r'\b126\b', narrative):
+            errors.append(f"{filename}: stale legacy family count remains outside item list position")
     de_html = (ROOT / "de-at.html").read_text(encoding="utf-8")
     if "prüfen wir Wir koordinieren" in de_html:
         errors.append("de-at.html: duplicated German buyer hero clause")

@@ -105,3 +105,10 @@ A finding is complete only with: exact URL/file → source and rationale → dif
 ### 2026-11-23 — CI feedback / corrective action
 
 First PR check: catalogue parity PASS; chemical identity regression PASS; confidential Git-history PASS; static-release contract FAIL at three homepage `sitemap lastmod` vs JSON-LD `dateModified` mismatches (the previously edited pages retained 2026-10-22). Corrected each homepage `WebPage.dateModified` to 2026-11-23 on the repair branch. No CI threshold changed. Re-run pending. Source of evidence: PR #52 static-release workflow first attempt (run 45135020886).
+
+### 2026-11-23 — Batch 2 catalogue semantic parity (pending CI)
+
+- The three localized catalogue pages already render 127 product cards but legacy descriptive and visible counters stated 126. Replaced stale text in title/meta/OG/social/JSON-LD description/body/resultCount while preserving the `ItemList.position=126` numeric ordinal.
+- Synchronized the corresponding `WebPage.dateModified` and the three sitemap `lastmod` values to the actual edit date.
+- Extended the same regression audit to reject stale catalogue counters without changing Product JSON-LD or supplier claims. No inventory, pricing or supplier info disclosed.
+- Status: `FIXED ON BRANCH; CI AND PRODUCTION NOT YET VERIFIED`.
