@@ -8,6 +8,8 @@ on:
       - "de-at.html"
       - "privacy-*.html"
       - "assets/js/analytics-consent.v20260713.js"
+      - "assets/css/a11y-fixes.v3.css"
+      - "tools/audit_consent_source.py"
       - "tools/test_cookie_consent_browser.cjs"
       - ".github/workflows/consent-browser.yml"
   workflow_dispatch:
