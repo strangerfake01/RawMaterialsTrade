@@ -40,11 +40,20 @@ jobs:
         run: |
           git diff --check
           python3 - <<'PY'
+          import json
           import subprocess
+          from pathlib import Path
           changed = subprocess.check_output(['git','diff','--name-only'], text=True).splitlines()
-          assert len(changed) <= 381, f"More than 381 product pages changed: {len(changed)}"
-          assert all(name.startswith(('en-','hu-','de-at-')) and name.endswith(('-industrial.html','-food.html','-feed.html','-deicing.html')) for name in changed), "Unexpected file path changed"
-          print("381 product pages only; no worker, CSP, master or secrets altered")
+          products = json.loads(Path('products-multilingual.json').read_text(encoding='utf-8'))
+          overrides = {'copper-oxide-feed': {
+              'en': 'en-copper-oxide-feed.html',
+              'hu': 'hu-rez-oxid-feed.html',
+              'de-at': 'de-at-kupferoxid-futtermittel.html'}}
+          expected = {overrides.get(p['id'], {}).get(lang, f"{lang}-{p['id']}.html")
+                      for p in products for lang in ('en', 'hu', 'de-at')}
+          assert len(expected) == 381, f"Unexpected canonical product routes: {len(expected)}"
+          assert set(changed).issubset(expected), "Unexpected non-product file path changed"
+          print(f"Only {len(changed)} canonical product HTML pages changed; no protected file touched")
           PY
       - name: Commit onto the existing review branch, never main
         run: |
