@@ -3,8 +3,8 @@
   "document_type": "independent_primary_source_research_register",
   "review_scope": "general_substance_identity_only",
   "total_catalogue_families": 127,
-  "general_substance_references_crosschecked": 103,
-  "other_catalogue_families_not_yet_independently_verified": 24,
+  "general_substance_references_crosschecked": 105,
+  "other_catalogue_families_not_yet_independently_verified": 22,
   "commercial_grade_verified": 0,
   "external_source_types": [
     "NIH_NLM_PubChem",
@@ -1214,6 +1214,30 @@
       "previous_candidate_cid": 24580,
       "scope": "general_substance_only_not_offered_grade",
       "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "magnezium-karbonat-konnyu-nehez-industrial",
+      "name": "Magnesium carbonate (general CAS substance only)",
+      "cas": "546-93-0",
+      "cid": 11029,
+      "formula": "CMgO3",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/11029",
+      "note": "Parent MgCO3 chemical reference only; marketed light/heavy magnesium carbonate may differ in apparent density, basic carbonate composition and hydration. No offered material is identified.",
+      "previous_candidate_cid": 11029,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "na-hexametafoszfat-industrial",
+      "name": "Hexasodium hexametaphosphate (discrete ring reference only)",
+      "cas": "10124-56-8",
+      "cid": 24968,
+      "formula": "Na6O18P6",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/24968",
+      "note": "Primary PubChem cyclic Na6O18P6 structure only; a commercial sodium polyphosphate/hexametaphosphate blend can have different chain-length distribution and specification.",
+      "previous_candidate_cid": 24968,
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
     }
   ],
   "rejected_legacy_automatic_pubchem_match_count": 8,
@@ -1228,5 +1252,5 @@
     "rez-klorid-dihidrat-industrial"
   ],
   "quarantine_note": "The remaining 10 wrong ion/hydrate/molecule automatic PubChem candidates are NULL in entity-registry and must not be approved without form-specific independent source evidence. Four previously quarantined ion-only source mappings were separately reconciled on 2026-11-23 to official general molecule records, NOT supplier-grade certification.",
-  "unique_general_compound_cids_crosschecked": 85
+  "unique_general_compound_cids_crosschecked": 87
 }
