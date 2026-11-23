@@ -62,7 +62,7 @@
     wipeCookies();
   }
   function showBanner(show) {
-    if (banner) { banner.hidden = !show; banner.style.display = show ? '' : 'none'; }
+    if (banner) { banner.hidden = !show; banner.classList.toggle('visible', !!show); banner.style.display = show ? '' : 'none'; }
   }
   function applyChoice(choice) {
     saveChoice(choice);
