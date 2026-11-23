@@ -135,5 +135,23 @@
       "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7487-88-9",
       "note": "General anhydrous magnesium sulfate only; exact supplier hydrate and product grade unverified."
     }
-  ]
+  ],
+  "rejected_legacy_automatic_pubchem_match_count": 14,
+  "rejected_legacy_automatic_pubchem_product_ids": [
+    "kalcium-klorid-2025-oldat-deicing",
+    "kalcium-klorid-7780-food",
+    "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
+    "magnezium-klorid-food",
+    "magnezium-klorid-hexahidrat-industrial",
+    "natrium-benzoat-gran-food",
+    "saletromsav-20-50-53-60-industrial",
+    "sosav-gyogyszerkonyvi-food",
+    "sosav-technikai-regeneralt-industrial",
+    "cink-szulfat-monohidrat-feed",
+    "cink-szulfat-monohidrat-heptahidrat-industrial",
+    "rez-klorid-dihidrat-industrial",
+    "kalium-jodat-feed",
+    "kenpor-industrial"
+  ],
+  "quarantine_note": "These 14 legacy candidate CIDs pointed to ions, other molecules or the wrong hydrate/form; candidate ID and formula have been removed from entity-registry and are not PubChem verified. They are part of the 114 remaining not independently source-verified. They are NOT 14 verified correct alternative mappings."
 }
