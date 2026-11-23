@@ -242,8 +242,24 @@ The 11 family records below are independently crosschecked as *general chemical/
 
 **Scope constraints:** the calcium-hypochlorite family is aligned solely with pure calcium hypochlorite CAS 7778-54-3, not an unspecified chlorinated-lime blend. The sodium-permanganate and ferric-sulfate 40%-solution families receive only parent-chemical references, not verified 40% offered solutions. Cobalt carbonate, calcium iodate, sodium selenite and the feed copper-sulfate request are not confirmed for feed or other regulated uses. No public sameAs or source-certified product is asserted. The work-branch register now contains **101 of 127** individually reviewed general substance references (**84 distinct general CIDs**); **26 remain unreviewed at this level** and **0 specific supplier materials** are authenticated.
 
+
+## Tenth source-review batch — manganese sulfate monohydrate correction (103/127)
+
+Original NIH/NLM PubChem chemical reference [CID 177577](https://pubchem.ncbi.nlm.nih.gov/compound/177577) corresponds to **manganese(II) sulfate monohydrate CAS 10034-96-5, H2MnO5S (MnSO4·H2O)**. The previous generated **CID 24580** is anhydrous manganese sulfate (CAS 7785-87-7), not the monohydrate. Two family records were corrected:
+
+| Family | CAS | Correct general CID | Formula | Primary source |
+|---|---|---:|---|---|
+| `mangan-ii-szulfat-monohidrat-industrial` | 10034-96-5 | 177577 | H2MnO5S | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/177577) |
+| `mangan-szulfat-monohidrat-feed` | 10034-96-5 | 177577 | H2MnO5S | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/177577) |
+
+Both are general chemical reference corrections only. No regulated feed claim, batch, grade, supply, identity of a commercial product or material-specific conformity was approved.
+
+**Unresolved primary-source inconsistency — copper(II) chloride dihydrate:** the [PubChem record for CAS 10125-13-0](https://pubchem.ncbi.nlm.nih.gov/compound/10125-13-0) calls the compound dihydrate but currently displays formula Cl2CuH2O, which does not encode two waters (CuCl2·2H2O would contain H4O2). Do not promote a CID/formula association for this family without qualified cross-verification of the chemical form and authoritative source record. Its old unrelated organic candidate remains quarantined.
+
+**Cumulative general source scope: 103/127 reviewed family references, 85 distinct CIDs, 24 pending; 0 supplier lot/grades independently authenticated.**
+
 ## Publication boundary and acceptance
 
-Public source references can support **general chemical education and product-request identification** only. They cannot establish current RMT supplier details, grade, SDS/TDS/CoA availability, restricted-use compliance or shipment conditions. The default rule is **withhold until reliable proof**, confirm privately after contact and maintain the protected RFQ process. The remaining 26 catalogue families require independent concept-by-concept verification before any reference can be called independently cross-checked; **0/127 supplier offers have been authenticated** in this audit.
+Public source references can support **general chemical education and product-request identification** only. They cannot establish current RMT supplier details, grade, SDS/TDS/CoA availability, restricted-use compliance or shipment conditions. The default rule is **withhold until reliable proof**, confirm privately after contact and maintain the protected RFQ process. The remaining 24 catalogue families require independent concept-by-concept verification before any reference can be called independently cross-checked; **0/127 supplier offers have been authenticated** in this audit.
 
 The #52 PR remains DRAFT and NOT LIVE until independent real Worker/Turnstile/inbox E2E, legal and chemistry review where applicable, production exact SHA readback and post-release GSC acceptance are complete.
