@@ -96,6 +96,13 @@ fresh.reject.click();
 assert.equal(fresh.win.__rmtAnalyticsConsentGranted, false, "withdrawal must disable tracking");
 assert.equal(fresh.storage.get("rmt.analytics.consent.v1"), "reject");
 assert.equal(fresh.cookieMutations.some(x => x.startsWith("_ga=")), true, "GA cookies must be invalidated");
+for (const cookieName of ["_ga=", "_ga_TEST="]) {
+  assert.ok(fresh.cookieMutations.some(x => x.startsWith(cookieName) && x.includes("domain=rawmaterialstrade.com") && x.includes("path=/")),
+            cookieName + " must be cleared on the registrable parent domain");
+  assert.ok(fresh.cookieMutations.some(x => x.startsWith(cookieName) && x.includes("domain=.rawmaterialstrade.com") && x.includes("Max-Age=0")),
+            cookieName + " root-domain deletion must also cover the dotted form");
+}
+assert.equal(fresh.cookieMutations.some(x => x.startsWith("necessary=")), false, "essential cookies must remain untouched");
 assert.equal(fresh.appended.length, 1, "withdrawal must not inject additional analytics scripts");
 
 const priorReject = load("reject");
