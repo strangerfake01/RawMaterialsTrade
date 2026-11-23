@@ -144,10 +144,14 @@ def rewrite_html(html: str, lang: str, route: str) -> str:
         "hu": (
             ("mindig SDS; TDS/CoA ahol az alkalmazás megkívánja.",
              "A kiválasztott beszállító aktuális SDS-ét kérjük; a TDS/CoA elérhetőségét kapcsolatfelvétel után ellenőrizzük."),
+            ("Szükséges dokumentumok: mindig SDS; TDS/CoA/specifikáció ahol az alkalmazás megkívánja.",
+             "Szükséges dokumentumok: kérjük az aktuális beszállítói SDS-t; a TDS/CoA/specifikáció elérhetőségét kapcsolatfelvétel után ellenőrizzük."),
         ),
         "de-at": (
             ("stets SDS; TDS/CoA sofern die Anwendung es erfordert.",
              "Aktuelles Lieferanten-SDS anfordern; TDS/CoA-Verfügbarkeit für die angebotene Qualität nach Kontaktaufnahme prüfen."),
+            ("Benötigte Dokumente: stets SDS; TDS/CoA/Spezifikation sofern erforderlich.",
+             "Benötigte Dokumente: aktuelles Lieferanten-SDS anfragen; TDS/CoA/Spezifikation nach Kontaktaufnahme klären."),
         ),
     }
     for old, new in replacements[lang]:
