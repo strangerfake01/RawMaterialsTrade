@@ -1086,7 +1086,15 @@
       "pubchem_candidate_cid": 24619,
       "pubchem_candidate_formula": "CaI2O6",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem general substance CAS/CID/formula crosscheck 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24619. Feed use, purity and supplier lots are not established. This is not a verified commercial substance, specification, offer, batch, SDS/TDS/CoA or legally approved use.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24619",
+        "cas": "7789-80-2",
+        "pubchem_cid": 24619,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "kalcium-karbonat-food",
@@ -1475,7 +1483,15 @@
       "pubchem_candidate_cid": 24504,
       "pubchem_candidate_formula": "CaCl2O2",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem general substance CAS/CID/formula crosscheck 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24504. General calcium hypochlorite; available chlorine, formulation and commercial bleaching-powder blend are not established. This is not a verified commercial substance, specification, offer, batch, SDS/TDS/CoA or legally approved use.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24504",
+        "cas": "7778-54-3",
+        "pubchem_cid": 24504,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "kobalt-karbonat-feed",
@@ -1490,7 +1506,15 @@
       "pubchem_candidate_cid": 10565,
       "pubchem_candidate_formula": "CCoO3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem general substance CAS/CID/formula crosscheck 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/10565. General cobalt carbonate; feed authorization and supplier certification are not established. This is not a verified commercial substance, specification, offer, batch, SDS/TDS/CoA or legally approved use.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10565",
+        "cas": "513-79-1",
+        "pubchem_cid": 10565,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "magnezium-karbonat-konnyu-nehez-industrial",
@@ -1606,7 +1630,15 @@
       "pubchem_candidate_cid": 25212,
       "pubchem_candidate_formula": "MgN2O6",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem general substance CAS/CID/formula crosscheck 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/25212. General anhydrous salt; hydrate, grade and supply are not established. This is not a verified commercial substance, specification, offer, batch, SDS/TDS/CoA or legally approved use.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/25212",
+        "cas": "10377-60-3",
+        "pubchem_cid": 25212,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "magnezium-oxid-feed",
@@ -1888,7 +1920,15 @@
       "pubchem_candidate_cid": 24402,
       "pubchem_candidate_formula": "H6NO4P",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem general substance CAS/CID/formula crosscheck 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24402. General monoammonium phosphate; actual grade and lot are not established. This is not a verified commercial substance, specification, offer, batch, SDS/TDS/CoA or legally approved use.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24402",
+        "cas": "7722-76-1",
+        "pubchem_cid": 24402,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "monoetanolamin-industrial",
@@ -2301,7 +2341,15 @@
       "pubchem_candidate_cid": 159762,
       "pubchem_candidate_formula": "C2H6Na4O12",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem general substance CAS/CID/formula crosscheck 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/159762. General 2Na2CO3·3H2O2 substance concept; active oxygen, coating and supplier specification are not established. This is not a verified commercial substance, specification, offer, batch, SDS/TDS/CoA or legally approved use.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/159762",
+        "cas": "15630-89-4",
+        "pubchem_cid": 159762,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "natrium-permanganat-40-oldat-industrial",
@@ -2316,7 +2364,15 @@
       "pubchem_candidate_cid": 23673458,
       "pubchem_candidate_formula": "MnNaO4",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem general substance CAS/CID/formula crosscheck 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/23673458. General sodium permanganate; 40% solution and its actual characteristics are not established. This is not a verified commercial substance, specification, offer, batch, SDS/TDS/CoA or legally approved use.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/23673458",
+        "cas": "10101-50-5",
+        "pubchem_cid": 23673458,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "natrium-perszulfat-industrial",
@@ -2354,7 +2410,15 @@
       "pubchem_candidate_cid": 24934,
       "pubchem_candidate_formula": "Na2O3Se",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem general substance CAS/CID/formula crosscheck 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24934. General disodium selenite; feed-application approval and supplier documents are not established. This is not a verified commercial substance, specification, offer, batch, SDS/TDS/CoA or legally approved use.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24934",
+        "cas": "10102-18-8",
+        "pubchem_cid": 24934,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "natrium-szulfat-industrial",
@@ -2471,10 +2535,18 @@
       "pubchem_cid": null,
       "pubchem_formula": null,
       "sameAs_reason": "Previous registry verified label was generated by heuristic CAS/name alignment only. Candidate external identities are retained internally but must not be published as sameAs until independent substance/form review.",
-      "pubchem_candidate_cid": 24462,
-      "pubchem_candidate_formula": "CuO4S",
+      "pubchem_candidate_cid": 24463,
+      "pubchem_candidate_formula": "CuH10O9S",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem general substance CAS/CID/formula crosscheck 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24463. The catalogue CAS specifies pentahydrate (not anhydrous CuSO4); actual feed product form and authorization remain unverified. This is not a verified commercial substance, specification, offer, batch, SDS/TDS/CoA or legally approved use.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24463",
+        "cas": "7758-99-8",
+        "pubchem_cid": 24463,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "rez-szulfat-pentahidrat-industrial",
@@ -2486,10 +2558,18 @@
       "pubchem_cid": null,
       "pubchem_formula": null,
       "sameAs_reason": "CAS match exists but product form/grade may differ from the Wikipedia/Wikidata entity; sameAs withheld.",
-      "pubchem_candidate_cid": 24462,
-      "pubchem_candidate_formula": "CuO4S",
+      "pubchem_candidate_cid": 24463,
+      "pubchem_candidate_formula": "CuH10O9S",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem general substance CAS/CID/formula crosscheck 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24463. Corrects incorrect anhydrous CID 24462 (CAS 7758-98-7); actual industrial product form, grade and lot unverified. This is not a verified commercial substance, specification, offer, batch, SDS/TDS/CoA or legally approved use.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24463",
+        "cas": "7758-99-8",
+        "pubchem_cid": 24463,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "saletromsav-20-50-53-60-industrial",
@@ -2809,7 +2889,15 @@
       "pubchem_candidate_cid": 24826,
       "pubchem_candidate_formula": "Fe2O12S3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "Primary NIH/NLM PubChem general substance CAS/CID/formula crosscheck 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24826. General ferric sulfate; 40% solution and supplier quality are not established. This is not a verified commercial substance, specification, offer, batch, SDS/TDS/CoA or legally approved use.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24826",
+        "cas": "10028-22-5",
+        "pubchem_cid": 24826,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "copper-oxide-feed",
