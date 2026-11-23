@@ -657,7 +657,15 @@
       "pubchem_candidate_cid": 24450,
       "pubchem_candidate_formula": "HK2O4P",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "General PubChem CAS/compound/protonation reviewed 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24450. General K2HPO4, does not establish food-grade or regulatory compliance. Does NOT establish the specific supplier product, legal food/feed application, concentration, SDS, TDS or CoA.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24450",
+        "cas": "7758-11-4",
+        "pubchem_cid": 24450,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "dinatrium-pirofoszfat-food",
@@ -672,7 +680,15 @@
       "pubchem_candidate_cid": 24451,
       "pubchem_candidate_formula": "H2Na2O7P2",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "General PubChem CAS/compound/protonation reviewed 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24451. General Na2H2P2O7 (acid pyrophosphate), not approved food-additive grade. Does NOT establish the specific supplier product, legal food/feed application, concentration, SDS, TDS or CoA.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24451",
+        "cas": "7758-16-9",
+        "pubchem_cid": 24451,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "dinatriumfoszfat-industrial",
@@ -687,7 +703,15 @@
       "pubchem_candidate_cid": 24203,
       "pubchem_candidate_formula": "HNa2O4P",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "General PubChem CAS/compound/protonation reviewed 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24203. General dibasic Na2HPO4 identity, hydrate and offer not verified. Does NOT establish the specific supplier product, legal food/feed application, concentration, SDS, TDS or CoA.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24203",
+        "cas": "7558-79-4",
+        "pubchem_cid": 24203,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "dinatriumpirofoszfat-industrial",
@@ -702,7 +726,15 @@
       "pubchem_candidate_cid": 24451,
       "pubchem_candidate_formula": "H2Na2O7P2",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "General PubChem CAS/compound/protonation reviewed 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24451. General sodium acid pyrophosphate only, technical grade not verified. Does NOT establish the specific supplier product, legal food/feed application, concentration, SDS, TDS or CoA.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24451",
+        "cas": "7758-16-9",
+        "pubchem_cid": 24451,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "ecetsav-20-50-60-70-80-99-8-industrial",
@@ -1696,7 +1728,15 @@
       "pubchem_candidate_cid": 11726,
       "pubchem_candidate_formula": "CMnO3",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "General PubChem CAS/compound/protonation reviewed 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/11726. General MnCO3, no proof of commercial grade or heavy-metal limits. Does NOT establish the specific supplier product, legal food/feed application, concentration, SDS, TDS or CoA.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11726",
+        "cas": "598-62-9",
+        "pubchem_cid": 11726,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "mangan-klorid-monohidrat-tetrahidrat-industrial",
@@ -1909,7 +1949,15 @@
       "pubchem_candidate_cid": 24506,
       "pubchem_candidate_formula": "H2KO4P",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "General PubChem CAS/compound/protonation reviewed 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24506. General monobasic KH2PO4, technical grade not verified. Does NOT establish the specific supplier product, legal food/feed application, concentration, SDS, TDS or CoA.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24506",
+        "cas": "7778-77-0",
+        "pubchem_cid": 24506,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "mononatrium-foszfat-industrial",
@@ -1924,7 +1972,15 @@
       "pubchem_candidate_cid": 24204,
       "pubchem_candidate_formula": "H2NaO4P",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "General PubChem CAS/compound/protonation reviewed 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24204. General monobasic NaH2PO4, purity and hydrated form not verified. Does NOT establish the specific supplier product, legal food/feed application, concentration, SDS, TDS or CoA.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24204",
+        "cas": "7558-80-7",
+        "pubchem_cid": 24204,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "monopropilenglikol-industrial",
@@ -2730,7 +2786,15 @@
       "pubchem_candidate_cid": 24380,
       "pubchem_candidate_formula": "Cl3Fe",
       "pubchem_status": "needs-independent-verification",
-      "pubchem_note": "Automated identity/formula matching is unverified; supplier SDS and an independent primary-source CAS/CID check required."
+      "pubchem_note": "General PubChem CAS/compound/protonation reviewed 2026-11-23: https://pubchem.ncbi.nlm.nih.gov/compound/24380. General FeCl3 identity, does not prove availability of a 40 percent solution. Does NOT establish the specific supplier product, legal food/feed application, concentration, SDS, TDS or CoA.",
+      "independent_general_substance_reference": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24380",
+        "cas": "7705-08-0",
+        "pubchem_cid": 24380,
+        "reviewed_on": "2026-11-23",
+        "scope": "general_substance_only_not_offered_grade",
+        "supplier_evidence_status": "unverified"
+      }
     },
     {
       "id": "vas-iii-szulfat-40-oldat-industrial",
