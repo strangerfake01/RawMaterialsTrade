@@ -116,6 +116,16 @@ EXPECTED.update({
     "natrium-metabiszulfit-natrium-piroszulfit-industrial": (24346, 656671, "7681-57-4", "Na2O5S2"),
 })
 
+# Batch H primary NIH/NLM sources; general chemicals only, not offered materials.
+EXPECTED.update({
+    "kalium-jodat-feed": (81757, 23665710, "7758-05-6", "IKO3"),
+    "mangan-oxid-feed": (14940, 14940, "1344-43-0", "MnO"),
+    "natrium-perszulfat-industrial": (62655, 62655, "7775-27-1", "Na2O8S2"),
+    "diammonium-hidrogenfoszfat-industrial": (24540, 24540, "7783-28-0", "H9N2O4P"),
+    "meszhidrat-industrial": (14777, 14777, "1305-62-0", "CaH2O2"),
+    "meszhidrat-15-industrial": (14777, 14777, "1305-62-0", "CaH2O2"),
+})
+
 errors: list[str] = []
 if len(CATALOGUE) != 127 or len(REGISTRY.get("entities", [])) != 127:
     errors.append("Unexpected catalogue/registry size")
@@ -125,7 +135,7 @@ if set(evidence) != set(EXPECTED):
     errors.append("General-source references have unreviewed or missing entries")
 if RESEARCH.get("commercial_grade_verified") != 0:
     errors.append("Supplier grade was incorrectly approved by general references")
-if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 51:
+if RESEARCH.get("other_catalogue_families_not_yet_independently_verified") != 45:
     errors.append("Full catalogue research coverage misrepresented")
 for pid, (rejected, cid, cas, formula) in EXPECTED.items():
     item = entries.get(pid, {})
@@ -159,7 +169,7 @@ for row in ROWS:
         errors.append(f"{row['product_id']}: unchecked Wikidata matches labelled verified")
 
 QUARANTINE = set(RESEARCH.get("rejected_legacy_automatic_pubchem_product_ids", []))
-if len(QUARANTINE) != 9 or RESEARCH.get("rejected_legacy_automatic_pubchem_match_count") != 9:
+if len(QUARANTINE) != 8 or RESEARCH.get("rejected_legacy_automatic_pubchem_match_count") != 8:
     errors.append("Unreviewed ion/hydrate/molecule quarantine is incomplete")
 if QUARANTINE & set(EXPECTED):
     errors.append("Source-reviewed and quarantined identities must not overlap")
@@ -179,8 +189,8 @@ for pid in ("borax-dekahidrat-industrial", "borax-pentahidrat-industrial"):
     e = entries.get(pid, {})
     if e.get("wikidata_qid") or e.get("wikidata_label"):
         errors.append(f"{pid}: unapproved or mismatched hydrate Wikidata sameAs")
-if len(EXPECTED) != 76 or len({x["cid"] for x in RESEARCH["entries"]}) != 62:
-    errors.append("General compound review must contain 76 families and 62 distinct CIDs")
+if len(EXPECTED) != 82 or len({x["cid"] for x in RESEARCH["entries"]}) != 67:
+    errors.append("General compound review must contain 82 families and 67 distinct CIDs")
 # Multi-hydrate parent families deliberately remain outside approved single-CID
 # references. Two sourced variants are not proof of one offered commercial product.
 groups = VARIANT_SOURCES.get("groups") or {}
