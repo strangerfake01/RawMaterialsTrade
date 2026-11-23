@@ -36,8 +36,16 @@ for required in (
 ):
     if required not in js:
         errors.append("Public analytics lacks consent/lead split guard: "+required)
-if re.search(r'window.gtag\(.{0,130}(?:email|phone|name|supplier_name|product_name)',js,re.I):
-    errors.append("Personal/product data may be included in GA event")
+# Parse the exact static generate_lead payload rather than matching "name"
+# inside the safe analytics key "form_name".
+lead_event=re.search(r"window\.gtag\('event','generate_lead',\{([^}]+)\}\)",js,re.S)
+if not lead_event:
+    errors.append("Missing explicit successful generate_lead event")
+else:
+    keys=re.findall(r"(?:^|,)\s*([A-Za-z_][A-Za-z0-9_]*)\s*:",lead_event.group(1))
+    allowed={"form_name","form_language","lead_type"}
+    if set(keys)!=allowed or len(keys)!=len(allowed):
+        errors.append(f"GA lead payload must have only {sorted(allowed)}; got {keys}")
 print("Buyer/manufacturer RFQ distinction:",len(FORM_ROUTES),"localized forms; errors=",len(errors))
 for e in errors:print("ERROR:",e)
 raise SystemExit(bool(errors))
