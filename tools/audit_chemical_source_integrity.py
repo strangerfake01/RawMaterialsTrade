@@ -50,6 +50,11 @@ for path in root.glob('*.html'):
     if re.search(r'PubChem (?:reports|formula check|:)', source):
         errors.append('Unverified PubChem comparison on page: ' + path.name)
     material_id = re.sub(r'^(en|hu|de-at)-', '', path.stem)
+    if path.name in ('en-copper-oxide-feed.html', 'hu-rez-oxid-feed.html', 'de-at-kupferoxid-futtermittel.html'):
+        if re.search(r'Zinc(?:%20|_|\s+)Chloride|Zinkchlorid|Cink-klorid|Q204714|Zinc salt used as flux|Erősen higroszkópos cinksó|Flussmittel beim Verzinken und Löten|Zn(?:-Gehalt|-tartalmat| assay)|battery electrolyte|Batterieelektrolyt|Zinkergänzung|feed zinc supplement|Forrasztási fluxok', source, re.I):
+            errors.append('Unrelated zinc-chloride source copied into copper-oxide page: ' + path.name)
+        if path.name.startswith('en-') and source.count('?product=Copper%28II%29%20oxide%20/%20') != 6:
+            errors.append('Copper-oxide EN enquiry prefill not preserved on all six enquiry buttons')
 
     # Source quarantine must cover the actual rendered HTML and machine schema.
     if material_id in ('natronvizuveg-oldatok-industrial', 'utszoro-zeolit-deicing'):
