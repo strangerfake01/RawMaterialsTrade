@@ -4,7 +4,6 @@
 Read-only public HTML/JS audit; does not submit forms or send analytics.
 """
 from pathlib import Path
-from html.parser import HTMLParser
 import re
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -26,21 +25,30 @@ for filename,role in FORM_ROUTES.items():
         errors.append(f"{filename}: missing unique RFQ form")
     if not text.count('name="cf-turnstile-response"') and not text.count('id="turnstileContainer"'):
         errors.append(f"{filename}: no Turnstile control")
+    if role=="supplier_partnership":
+        form=re.search(r'<form\b(?=[^>]*\bid="inquiryForm")[^>]*>',text)
+        base=re.search(r'\bdata-success-basic-msg="([^"]+)"',form.group(0)) if form else None
+        confirmed=re.search(r'\bdata-success-msg="([^"]+)"',form.group(0)) if form else None
+        if not base or not confirmed or confirmed[1]==base[1] or not confirmed[1].startswith(base[1]+" "):
+            errors.append(f"{filename}: success and acknowledgement feedback must be distinct")
 js=(ROOT/"assets/js/site.v20261108.js").read_text(encoding="utf-8")
 for required in (
    "window.__rmtAnalyticsConsentGranted&&typeof window.gtag==='function'",
-   "form.querySelector('input[name=\"request_type\"]')?.value==='supplier_partnership'",
+   "const leadType=requestType==='supplier_partnership'?'supplier_partnership':'buyer'",
+   "const dimensions=()=>rfqAnalyticsDimensions(form.querySelector('input[name=\"request_type\"]')?.value,getLang())",
    "form_name:leadType==='supplier_partnership'?'manufacturer_partnership':'b2b_inquiry'",
    "lead_type:leadType",
-   "window.gtag('event','generate_lead'",
+   "window.gtag('event','generate_lead',rfqAnalyticsDimensions(data.get('request_type'),lang))",
+   "if(!started)started=send('form_start',dimensions())",
+   "send('form_submit_attempt',dimensions())",
 ):
     if required not in js:
         errors.append("Public analytics lacks consent/lead split guard: "+required)
-# Parse the exact static generate_lead payload rather than matching "name"
-# inside the safe analytics key "form_name".
-lead_event=re.search(r"window\.gtag\('event','generate_lead',\{([^}]+)\}\)",js,re.S)
+# All three form events share bounded role dimensions. Verify the source-level
+# allowlist rather than matching "name" inside the safe key "form_name".
+lead_event=re.search(r"function rfqAnalyticsDimensions\(requestType,lang\)\{\s*const leadType=[^\n]+\s*return \{([^}]+)\}",js,re.S)
 if not lead_event:
-    errors.append("Missing explicit successful generate_lead event")
+    errors.append("Missing shared, bounded RFQ analytics dimensions")
 else:
     keys=re.findall(r"(?:^|,)\s*([A-Za-z_][A-Za-z0-9_]*)\s*:",lead_event.group(1))
     allowed={"form_name","form_language","lead_type"}
