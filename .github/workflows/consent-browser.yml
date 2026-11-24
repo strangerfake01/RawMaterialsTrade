@@ -41,7 +41,7 @@ jobs:
           echo $! > /tmp/rmt-browser-http.pid
       - name: Test opt-in, opt-out, withdrawal and absence of premature GA traffic
         run: node tools/test_cookie_consent_browser.cjs
-      - name: Test six role-separated B2B enquiries with mocked Cloudflare / Worker
+      - name: Test role-separated B2B enquiries and consent-gated leads with mocked services
         run: node tools/test_rfq_browser.cjs
       - name: Upload public-page UI evidence on failure
         if: failure()
