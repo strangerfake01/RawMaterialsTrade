@@ -32,6 +32,28 @@ jobs:
         run: python3 tools/audit_release_contract.py
       - name: Ensure EN HU DE homepage product count matches the canonical product catalogue
         run: python3 tools/audit_homepage_catalogue_count.py
+      - name: Enforce registered office and operational-site parity across EN HU DE
+        run: python3 tools/audit_registered_office_parity.py
+      - name: Verify three-language manufacturer partnership qualification intent
+        run: python3 tools/audit_manufacturer_intent.py
+      - name: Audit all indexed SEO AEO metadata and HTML/sitemap hreflang parity
+        run: python3 tools/audit_search_surface.py
+      - name: Guard 3L privacy consent withdrawal and preconsent analytics loading
+        run: python3 tools/audit_consent_source.py
+      - name: Exercise consent opt-in reject reopen and withdrawal state transitions
+        run: node tests/analytics-consent-runtime.cjs
+      - name: Verify separate buyer and manufacturer lead intent analytics boundaries
+        run: python3 tools/audit_lead_audience.py
+      - name: Require no-JavaScript three-language privacy links on all 381 product routes
+        run: python3 tools/ensure_product_privacy_links.py
+      - name: Compile exact-live verifier without fetching production
+        run: python3 -m py_compile tools/verify_live_release.py
+      - name: Run offline fail-closed exact-live release verifier regression
+        run: python3 tools/test_verify_live_release.py
+      - name: Prevent copper oxide and zinc chloride chemical content cross-contamination
+        run: python3 tools/audit_copper_oxide_evidence_boundary.py
+      - name: Enforce independently sourced chemistry references and quarantine legacy wrong CIDs
+        run: python3 tools/audit_primary_source_research.py
       - name: Reject unverified chemical identity source claims
         run: python3 tools/audit_chemical_source_integrity.py
       - name: Check all same-origin anchor targets and certificates
@@ -42,18 +64,22 @@ jobs:
         run: python3 tools/audit_ai_claim_contract.py
       - name: Check three-language B2B procurement journey and quotation requirements
         run: python3 tools/audit_procurement_journey.py
-      - name: Check buyer and supplier paths across 378 product pages
+      - name: Check buyer and supplier paths across all localized product pages
         run: python3 tools/audit_product_procurement_paths.py
-      - name: Audit chemical search landing-page identities across 378 URLs
+      - name: Audit all localized chemical search landing-page identities
         run: python3 tools/audit_chemical_search_landing.py
       - name: Check multilingual product alternative links
         run: python3 tools/audit_product_alternatives.py
       - name: Audit Wikidata and multilingual Wikipedia candidate coverage
         run: python3 tools/audit_wikidata_wikipedia_coverage.py
-      - name: Prevent unreviewed chemical identity claims in 378 product schemas
+      - name: Prevent unreviewed chemical identity claims in all product schemas
         run: python3 tools/audit_public_chemical_identity.py
-      - name: Enforce batch-specific CoA caveats on 378 multilingual pages
+      - name: Enforce batch-specific CoA caveats on all localized product pages
         run: python3 tools/audit_supplier_coa_status.py
+      - name: Block unverified supplier packaging, SDS TDS CoA claims in all 381 product pages and public JSON feeds
+        run: python3 tools/defer_unverified_supplier_claims.py
+      - name: Block unverified offered grade, purity and concentration across all public products
+        run: python3 tools/defer_unverified_offered_grades.py
       - name: Inventory unsupported packaging, concentration and document promises
         run: python3 tools/audit_public_product_claims.py
       - name: Inventory ambiguous technical concentration and form fields

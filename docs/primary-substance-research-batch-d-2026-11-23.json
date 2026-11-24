@@ -1,0 +1,65 @@
+{
+  "review_date": "2026-11-23",
+  "review_scope": "general chemical identity, NOT specific solutions grades or supplier certificates",
+  "verified_general_substance_records": 4,
+  "previous_wrong_cid_count": 4,
+  "all_supplier_product_evidence_status": "unverified",
+  "entries": [
+    {
+      "id": "ecetsav-20-50-60-70-80-99-8-industrial",
+      "name": "Acetic acid",
+      "cas": "64-19-7",
+      "cid": 176,
+      "formula": "C2H4O2",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/176",
+      "pubchem_cas_url": "https://pubchem.ncbi.nlm.nih.gov/compound/64-19-7",
+      "previous_candidate_cid": 175,
+      "review_date": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "Former candidate CID 175 describes acetate anion; CID 176 describes neutral acetic acid. Offered solution concentrations remain unverified."
+    },
+    {
+      "id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
+      "name": "Acetic acid",
+      "cas": "64-19-7",
+      "cid": 176,
+      "formula": "C2H4O2",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/176",
+      "pubchem_cas_url": "https://pubchem.ncbi.nlm.nih.gov/compound/64-19-7",
+      "previous_candidate_cid": 175,
+      "review_date": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "Former candidate CID 175 was acetate anion; general acid identity CID 176 is not evidence of food-grade or glacial-acid supply."
+    },
+    {
+      "id": "hangyasav-85-industrial",
+      "name": "Formic acid",
+      "cas": "64-18-6",
+      "cid": 284,
+      "formula": "CH2O2",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/284",
+      "pubchem_cas_url": "https://pubchem.ncbi.nlm.nih.gov/compound/64-18-6",
+      "previous_candidate_cid": 283,
+      "review_date": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "Former candidate CID 283 is formate anion, not molecular formic acid. 85% offered solution is not verified."
+    },
+    {
+      "id": "kalium-ferrocianid-food",
+      "name": "Potassium ferrocyanide",
+      "cas": "13943-58-3",
+      "cid": 9605257,
+      "formula": "C6FeK4N6",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9605257",
+      "pubchem_cas_url": "https://pubchem.ncbi.nlm.nih.gov/compound/13943-58-3",
+      "previous_candidate_cid": 26250,
+      "review_date": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified",
+      "note": "Former candidate formula C6FeK3N6 had three K despite product K4 and PubChem's 4 potassium ions. Food additive E536 grade and supplier documentation not verified."
+    }
+  ]
+}

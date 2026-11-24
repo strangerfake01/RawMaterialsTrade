@@ -1,0 +1,52 @@
+name: GDPR consent browser regression
+
+on:
+  pull_request:
+    paths:
+      - "index.html"
+      - "hu.html"
+      - "de-at.html"
+      - "privacy-*.html"
+      - "assets/js/analytics-consent.v20260713.js"
+      - "assets/css/a11y-fixes.v3.css"
+      - "tools/audit_consent_source.py"
+      - "tools/test_cookie_consent_browser.cjs"
+      - "tools/test_rfq_browser.cjs"
+      - "assets/js/site.v20261108.js"
+      - "sales-representation-distribution-partner-central-europe.html"
+      - "hu-ertekesitesi-kepviselet-disztribucios-partner.html"
+      - "de-at-vertriebspartner-distribution-chemierohstoffe.html"
+      - ".github/workflows/consent-browser.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  consent-browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install pinned Playwright browser dependency
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install chromium
+      - name: Start a local static test server
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/rmt-browser-http.log 2>&1 &
+          echo $! > /tmp/rmt-browser-http.pid
+      - name: Test opt-in, opt-out, withdrawal and absence of premature GA traffic
+        run: node tools/test_cookie_consent_browser.cjs
+      - name: Test role-separated B2B enquiries and consent-gated leads with mocked services
+        run: node tools/test_rfq_browser.cjs
+      - name: Upload public-page UI evidence on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: consent-browser-screenshots
+          path: consent-screenshots/
+          if-no-files-found: ignore

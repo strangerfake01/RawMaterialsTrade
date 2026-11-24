@@ -37,8 +37,11 @@ def main():
                     "candidate_product_id": b["id"],
                     "source_name_en": a.get("name_en", ""),
                     "candidate_name_en": b.get("name_en", ""),
-                    "source_grade": (a.get("technical_identity") or {}).get("grade", ""),
-                    "candidate_grade": (b.get("technical_identity") or {}).get("grade", ""),
+                    # No offered grade has been substantiated by a selected
+                    # supplier: do not export target/catalogue grade strings
+                    # as if they described an available commercial product.
+                    "source_grade": "",
+                    "candidate_grade": "",
                     "review_status": "not_assessed",
                     "application_to_verify": "",
                     "supplier_tds": "required",

@@ -1,0 +1,232 @@
+{
+  "review_date": "2026-11-24",
+  "reference_type": "primary_source_variant_form_evidence_not_commercial_product_approval",
+  "family_count_with_variant_research": 15,
+  "distinct_chemical_groups": 9,
+  "source_forms_or_alternative_cids": 19,
+  "supplier_lots_verified": 0,
+  "commercial_sameas_approved": 0,
+  "scope_note": "This supplementary source register is NOT the canonical single-CID approved product ledger. Each form requires current supplier SDS/TDS/CoA and CAS/EC/form, concentration and regulated application review after customer contact. Do not auto-promote any variant to commercial ChemicalSubstance.sameAs.",
+  "groups": {
+    "zinc_sulfate": {
+      "name": "Zinc sulfate",
+      "variants": [
+        {
+          "form": "monohydrate",
+          "cas": "7446-19-7",
+          "cid": 62639,
+          "formula": "H2O5SZn",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7446-19-7"
+        },
+        {
+          "form": "heptahydrate",
+          "cas": "7446-20-0",
+          "cid": 62640,
+          "formula": "H14O11SZn",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7446-20-0"
+        }
+      ],
+      "family_ids": [
+        "cink-szulfat-monohidrat-feed",
+        "cink-szulfat-monohidrat-heptahidrat-industrial"
+      ],
+      "note": "The monohydrate and heptahydrate are different forms and must not inherit anhydrous CID 24424 as a general product-variant sameAs. Offered feed-grade and source remain unverified."
+    },
+    "citric_acid": {
+      "name": "Citric acid",
+      "variants": [
+        {
+          "form": "anhydrous",
+          "cas": "77-92-9",
+          "cid": 311,
+          "formula": "C6H8O7",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/77-92-9"
+        },
+        {
+          "form": "monohydrate",
+          "cas": "5949-29-1",
+          "cid": 22230,
+          "formula": "C6H10O8",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5949-29-1"
+        }
+      ],
+      "family_ids": [
+        "citromsav-monohidrat-anhidrat-food"
+      ],
+      "note": "CID 311 alone identifies only the anhydrous parent; do not treat the two hydrate states as a single supplied food-grade material."
+    },
+    "calcium_chloride": {
+      "name": "Calcium chloride",
+      "variants": [
+        {
+          "form": "anhydrous",
+          "cas": "10043-52-4",
+          "cid": 5284359,
+          "formula": "CaCl2",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10043-52-4"
+        },
+        {
+          "form": "dihydrate",
+          "cas": "10035-04-8",
+          "cid": 6093260,
+          "formula": "CaCl2H4O2",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10035-04-8"
+        }
+      ],
+      "family_ids": [
+        "kalcium-klorid-2025-oldat-deicing",
+        "kalcium-klorid-7780-food",
+        "kalcium-klorid-dihidrat-7880-pikkelyes-deicing"
+      ],
+      "note": "Two independent CAS/CID pairs support the general anhydrous and dihydrate identities, but NOT 20-25%, 77-80%, 78-80%, food compliance or ice-melt suitability of any offered lot."
+    },
+    "magnesium_chloride": {
+      "name": "Magnesium chloride hexahydrate",
+      "variants": [
+        {
+          "form": "hexahydrate",
+          "cas": "7791-18-6",
+          "cid": 24644,
+          "formula": "Cl2H12MgO6",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24644"
+        },
+        {
+          "form": "hexahydrate_alternative_PubChem_record",
+          "cas": "7791-18-6",
+          "cid": 643991,
+          "formula": "Cl2H12MgO6",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/643991"
+        }
+      ],
+      "family_ids": [
+        "magnezium-klorid-food",
+        "magnezium-klorid-hexahidrat-industrial"
+      ],
+      "note": "Two PubChem records contain equivalent hexahydrate formula, but a record choice is not proof of marketed food/technical grade or provenance. The previous magnesium ion CID 888 is rejected."
+    },
+    "manganese_chloride": {
+      "name": "Manganese(II) chloride",
+      "variants": [
+        {
+          "form": "anhydrous",
+          "cas": "7773-01-5",
+          "cid": 10313134,
+          "formula": "Cl2Mn",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7773-01-5"
+        },
+        {
+          "form": "tetrahydrate",
+          "cas": "13446-34-9",
+          "cid": 643989,
+          "formula": "Cl2H8MnO4",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/643989"
+        }
+      ],
+      "family_ids": [
+        "mangan-klorid-monohidrat-tetrahidrat-industrial",
+        "mangan-klorid-tetrahidrat-feed"
+      ],
+      "note": "Public CAS 7773-01-5 is anhydrous parent, while tetrahydrate is separately CAS 13446-34-9. The catalogue's monohydrate name also needs a separate qualified source; do not invent a monohydrate CAS/CID. No feed-grade material approved."
+    },
+    "iron_ii_sulfate": {
+      "name": "Iron(II) sulfate",
+      "variants": [
+        {
+          "form": "anhydrous",
+          "cas": "7720-78-7",
+          "cid": 24393,
+          "formula": "FeO4S",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7720-78-7"
+        },
+        {
+          "form": "monohydrate",
+          "cas": "17375-41-6",
+          "cid": 62712,
+          "formula": "FeH2O5S",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/17375-41-6"
+        },
+        {
+          "form": "heptahydrate",
+          "cas": "7782-63-0",
+          "cid": 62662,
+          "formula": "FeH14O11S",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/62662"
+        }
+      ],
+      "family_ids": [
+        "vas-ii-szulfat-monohidrat-feed",
+        "vas-ii-szulfat-monohidrat-heptahidrat-industrial"
+      ],
+      "note": "Previous single parent CAS 7720-78-7/CID 24393 is anhydrous; the explicitly named monohydrate and heptahydrate have their own CAS and CIDs. No offered feed or industrial grade authorized by these general source records."
+    },
+    "sodium_acetate": {
+      "name": "Sodium acetate",
+      "variants": [
+        {
+          "form": "anhydrous",
+          "cas": "127-09-3",
+          "cid": 517045,
+          "formula": "C2H3NaO2",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/127-09-3"
+        },
+        {
+          "form": "trihydrate",
+          "cas": "6131-90-4",
+          "cid": 23665404,
+          "formula": "C2H9NaO5",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6131-90-4"
+        }
+      ],
+      "family_ids": [
+        "natrium-acetat-vizmentes-3h2o-industrial"
+      ],
+      "note": "Anhydrous sodium acetate and sodium acetate trihydrate are distinct CAS/CIDs; the historic single anhydrous candidate must not describe both form options."
+    },
+    "trisodium_phosphate": {
+      "name": "Trisodium phosphate",
+      "variants": [
+        {
+          "form": "anhydrous",
+          "cas": "7601-54-9",
+          "cid": 24243,
+          "formula": "Na3O4P",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24243"
+        },
+        {
+          "form": "dodecahydrate",
+          "cas": "10101-89-0",
+          "cid": 61473,
+          "formula": "H24Na3O16P",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/61473"
+        }
+      ],
+      "family_ids": [
+        "trinatrium-foszfat-dodekahidrat-vizmentes-industrial"
+      ],
+      "note": "One parent anhydrous CAS/CID does not establish the separately listed dodecahydrate identity or commercial supply."
+    },
+    "edta_sodium_salts": {
+      "name": "EDTA sodium salts",
+      "variants": [
+        {
+          "form": "disodium_salt_dihydrate",
+          "cas": "6381-92-6",
+          "cid": 44120005,
+          "formula": "C10H18N2Na2O10",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6381-92-6"
+        },
+        {
+          "form": "tetrasodium_salt_anhydrous",
+          "cas": "64-02-8",
+          "cid": 6144,
+          "formula": "C10H12N2Na4O8",
+          "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/64-02-8"
+        }
+      ],
+      "family_ids": [
+        "edta-na2-na4-industrial"
+      ],
+      "note": "Catalogue old CAS 6381-92-6 and candidate 6049 (free EDTA acid) cannot represent both disodium dihydrate and tetrasodium EDTA. No particular offered grade/form or regulatory approval is established."
+    }
+  }
+}

@@ -6,6 +6,7 @@
   var enabled = false;
   var loaded = false;
   var banner;
+  var settingsOpener = null;
   function readChoice() {
     try { var value = localStorage.getItem(STORAGE_KEY); return value === 'accept' || value === 'reject' ? value : null; }
     catch (_) { return null; }
@@ -20,6 +21,11 @@
       var paths = ['/', location.pathname];
       var host = location.hostname;
       var domains = ['', host, '.' + host];
+      // gtag.js uses the registrable parent domain by default, including on www.
+      // Restrict extra deletion attempts to the site's known first-party GA domain.
+      if (host === 'rawmaterialstrade.com' || host.endsWith('.rawmaterialstrade.com')) {
+        domains.push('rawmaterialstrade.com', '.rawmaterialstrade.com');
+      }
       domains.forEach(function (domain) { paths.forEach(function (path) {
         document.cookie = name + '=; Max-Age=0; path=' + path + '; SameSite=Lax' + (domain ? '; domain=' + domain : '');
       }); });
@@ -61,16 +67,76 @@
     }
     wipeCookies();
   }
-  function showBanner(show) {
-    if (banner) { banner.hidden = !show; banner.style.display = show ? '' : 'none'; }
+  function showBanner(show, focusChoice) {
+    if (banner) {
+      banner.hidden = !show;
+      banner.classList.toggle('visible', !!show);
+      banner.style.display = show ? '' : 'none';
+      if (show && focusChoice) {
+        var choice = banner.querySelector('[data-analytics-reject]');
+        if (choice) choice.focus();
+      }
+    }
   }
   function applyChoice(choice) {
     saveChoice(choice);
     if (choice === 'accept') enable(); else disable();
     showBanner(false);
+    // Restore keyboard focus to the control that opened the preferences.
+    if (settingsOpener) { settingsOpener.focus(); settingsOpener = null; }
+  }
+  // One shared consent control for every tracked entry route, including product pages.
+  // The copy below is fixed internal text; no user input or form content is interpolated.
+  function consentCopy() {
+    var lang = (document.documentElement.lang || 'en').toLowerCase();
+    if (lang.indexOf('hu') === 0) return {
+      label: 'Süti- és analitikai beállítások',
+      message: 'Az oldal működéséhez szükséges helyi tárolást használunk. A Google Analytics csak az Ön engedélye után indul el.',
+      privacy: 'Adatvédelmi tájékoztató', privacyHref: '/privacy-hu.html',
+      reject: 'Csak szükséges', accept: 'Analitika engedélyezése', settings: 'Süti beállítások'
+    };
+    if (lang.indexOf('de') === 0) return {
+      label: 'Cookie- und Analyse-Einstellungen',
+      message: 'Wir verwenden technisch notwendigen lokalen Speicher. Google Analytics startet erst nach Ihrer Zustimmung.',
+      privacy: 'Datenschutzerklärung', privacyHref: '/privacy-de-at.html',
+      reject: 'Nur erforderlich', accept: 'Analyse zulassen', settings: 'Cookie-Einstellungen'
+    };
+    return {
+      label: 'Cookie and analytics settings',
+      message: 'We use essential local storage. Google Analytics starts only after you give consent.',
+      privacy: 'Privacy Policy', privacyHref: '/privacy-en.html',
+      reject: 'Essential only', accept: 'Allow analytics', settings: 'Cookie settings'
+    };
+  }
+  function ensureConsentControls() {
+    var copy = consentCopy();
+    var panel = document.getElementById('cookieBanner');
+    if (!panel) {
+      panel = document.createElement('div');
+      panel.id = 'cookieBanner';
+      panel.className = 'cookie-banner';
+      panel.setAttribute('role', 'dialog');
+      panel.setAttribute('aria-label', copy.label);
+      panel.innerHTML = '<div class="container"><div class="cookie-inner"><p>' +
+        copy.message + ' <a href="' + copy.privacyHref + '">' + copy.privacy + '</a></p>' +
+        '<div class="cookie-actions"><button type="button" class="btn-ck btn-ck-no" data-analytics-reject>' +
+        copy.reject + '</button><button type="button" class="btn-ck btn-ck-ok" data-analytics-accept>' +
+        copy.accept + '</button></div></div></div>';
+      document.body.appendChild(panel);
+    }
+    if (!document.querySelector('[data-cookie-settings]')) {
+      var settings = document.createElement('button');
+      settings.type = 'button';
+      settings.className = 'cookie-settings-toggle';
+      settings.setAttribute('data-cookie-settings', '');
+      settings.setAttribute('aria-label', copy.settings);
+      settings.textContent = copy.settings;
+      document.body.appendChild(settings);
+    }
+    return panel;
   }
   function init() {
-    banner = document.getElementById('cookieBanner');
+    banner = ensureConsentControls();
     document.querySelectorAll('[data-analytics-accept]').forEach(function (b) {
       b.addEventListener('click', function () { applyChoice('accept'); });
     });
@@ -78,7 +144,7 @@
       b.addEventListener('click', function () { applyChoice('reject'); });
     });
     document.querySelectorAll('[data-cookie-settings]').forEach(function (b) {
-      b.addEventListener('click', function () { showBanner(true); });
+      b.addEventListener('click', function () { settingsOpener = b; showBanner(true, true); });
     });
     var existing = readChoice();
     if (existing === 'accept') enable(); else disable();

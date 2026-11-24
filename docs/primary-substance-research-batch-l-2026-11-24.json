@@ -1,0 +1,46 @@
+{
+  "review_date": "2026-11-24",
+  "batch": "L",
+  "family_count": 2,
+  "prior_crosschecked_general": 103,
+  "new_crosschecked_general": 105,
+  "unique_general_cids": 87,
+  "commercial_supplier_grade_verified": 0,
+  "scope": "NIH/NLM original PubChem CAS/name/formula identity only, no commercial equivalent or offered product",
+  "entries": [
+    {
+      "id": "magnezium-karbonat-konnyu-nehez-industrial",
+      "name": "Magnesium carbonate (general CAS substance only)",
+      "cas": "546-93-0",
+      "cid": 11029,
+      "formula": "CMgO3",
+      "old": 11029,
+      "note": "Parent MgCO3 chemical reference only; marketed light/heavy magnesium carbonate may differ in apparent density, basic carbonate composition and hydration. No offered material is identified.",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/11029",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "na-hexametafoszfat-industrial",
+      "name": "Hexasodium hexametaphosphate (discrete ring reference only)",
+      "cas": "10124-56-8",
+      "cid": 24968,
+      "formula": "Na6O18P6",
+      "old": 24968,
+      "note": "Primary PubChem cyclic Na6O18P6 structure only; a commercial sodium polyphosphate/hexametaphosphate blend can have different chain-length distribution and specification.",
+      "pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/24968",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    }
+  ],
+  "additional_variant_groups": [
+    "manganese_chloride",
+    "iron_ii_sulfate",
+    "sodium_acetate",
+    "trisodium_phosphate",
+    "edta_sodium_salts"
+  ],
+  "new_variant_family_routes": 7,
+  "variant_source_file": "docs/variant-form-primary-sources-2026-11-23.json",
+  "variant_evidence_not_commercial_sameAs": true
+}

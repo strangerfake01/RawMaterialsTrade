@@ -1,0 +1,61 @@
+{
+  "review_date": "2026-11-23",
+  "description": "Four former wrong ion-only source mappings replaced with direct NLM PubChem full compound entries. No supplier grade, permit, SDS, TDS, CoA or commercial sameAs.",
+  "catalogue_families": 4,
+  "distinct_general_cids": 3,
+  "offered_material_verified": 0,
+  "entries": [
+    {
+      "id": "natrium-benzoat-gran-food",
+      "name": "Sodium benzoate",
+      "cas": "532-32-1",
+      "cid": 517055,
+      "formula": "C7H5NaO2",
+      "previous_rejected_cid": 242,
+      "note": "General sodium benzoate molecule/salt only; no supplier granular size or food E211 compliance confirmed.",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/532-32-1",
+      "review_date": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "saletromsav-20-50-53-60-industrial",
+      "name": "Nitric acid",
+      "cas": "7697-37-2",
+      "cid": 944,
+      "formula": "HNO3",
+      "previous_rejected_cid": 943,
+      "note": "Nitric acid parent only; offered aqueous strengths or shipment classification not established.",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7697-37-2",
+      "review_date": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "sosav-gyogyszerkonyvi-food",
+      "name": "Hydrochloric acid",
+      "cas": "7647-01-0",
+      "cid": 313,
+      "formula": "ClH",
+      "previous_rejected_cid": 312,
+      "note": "Hydrogen chloride/hydrochloric acid parent record only; no pharmacopoeial grade, food use or aqueous assay established.",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7647-01-0",
+      "review_date": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    },
+    {
+      "id": "sosav-technikai-regeneralt-industrial",
+      "name": "Hydrochloric acid",
+      "cas": "7647-01-0",
+      "cid": 313,
+      "formula": "ClH",
+      "previous_rejected_cid": 312,
+      "note": "HCl parent only; no regenerated/technical grade or aqueous purity corroborated.",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7647-01-0",
+      "review_date": "2026-11-23",
+      "scope": "general_substance_only_not_offered_grade",
+      "supplier_evidence_status": "unverified"
+    }
+  ]
+}

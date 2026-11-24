@@ -40,22 +40,18 @@
         "formula": "(CH₃)₂CO"
       },
       "commercialContext": {
-        "gradeOrConcentration": "technical, regenerated",
-        "packaging": "Drums (200 L), IBC, tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-aceton-technikai-regeneralt-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Acetone",
-        "https://hu.wikipedia.org/wiki/Aceton",
-        "https://de.wikipedia.org/wiki/Aceton"
-      ]
+      "sameAs": []
     },
     {
       "id": "aluminium-szulfat-03-mm-38-mm-industrial",
@@ -86,22 +82,18 @@
         "formula": "Al₂(SO₄)₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "0–3 mm, 3–8 mm",
-        "packaging": "Big bagged, bagged, IBC (solution)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-aluminium-szulfat-03-mm-38-mm-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Aluminium_sulfate",
-        "https://hu.wikipedia.org/wiki/Alum%C3%ADnium-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Aluminiumsulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "aluminium-szulfat-oldat-industrial",
@@ -133,22 +125,18 @@
         "formula": "Al₂(SO₄)₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "solution",
-        "packaging": "Big bagged, bagged, IBC (solution)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-aluminium-szulfat-oldat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Aluminium_sulfate",
-        "https://hu.wikipedia.org/wiki/Alum%C3%ADnium-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Aluminiumsulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "ammonia-oldat-24-industrial",
@@ -180,22 +168,18 @@
         "formula": "NH₃ (aq)"
       },
       "commercialContext": {
-        "gradeOrConcentration": "24%",
-        "packaging": "IBC, drums",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-ammonia-oldat-24-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ammonia_solution",
-        "https://hu.wikipedia.org/wiki/Ammónia",
-        "https://de.wikipedia.org/wiki/Ammoniak"
-      ]
+      "sameAs": []
     },
     {
       "id": "ammonium-klorid-industrial",
@@ -226,22 +210,18 @@
         "formula": "NH₄Cl"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-ammonium-klorid-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ammonium_chloride",
-        "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-klorid",
-        "https://de.wikipedia.org/wiki/Ammoniumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "ammonium-nitrat-industrial",
@@ -269,22 +249,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-ammonium-nitrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ammonium_nitrate",
-        "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-nitr%C3%A1t",
-        "https://de.wikipedia.org/wiki/Ammoniumnitrat"
-      ]
+      "sameAs": []
     },
     {
       "id": "ammonium-szulfat-industrial",
@@ -315,22 +291,18 @@
         "formula": "(NH₄)₂SO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-ammonium-szulfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ammonium_sulfate",
-        "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Ammoniumsulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "aszkorbinsav-food",
@@ -361,22 +333,18 @@
         "formula": "C₆H₈O₆"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Food grade",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-aszkorbinsav-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Vitamin_C",
-        "https://hu.wikipedia.org/wiki/Aszkorbinsav",
-        "https://de.wikipedia.org/wiki/Ascorbins%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "bentonit-industrial",
@@ -403,22 +371,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-bentonit-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Bentonite",
-        "https://hu.wikipedia.org/wiki/Bentonit",
-        "https://de.wikipedia.org/wiki/Bentonit"
-      ]
+      "sameAs": []
     },
     {
       "id": "borax-dekahidrat-industrial",
@@ -447,22 +411,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "decahydrate",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-borax-dekahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Borax",
-        "https://hu.wikipedia.org/wiki/B%C3%B3rax",
-        "https://de.wikipedia.org/wiki/Borax"
-      ]
+      "sameAs": []
     },
     {
       "id": "borax-pentahidrat-industrial",
@@ -491,22 +451,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "pentahydrate",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-borax-pentahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Borax",
-        "https://hu.wikipedia.org/wiki/B%C3%B3rax",
-        "https://de.wikipedia.org/wiki/Borax"
-      ]
+      "sameAs": []
     },
     {
       "id": "borken-food",
@@ -533,22 +489,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-borken-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_metabisulfite",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-metabiszulfit",
-        "https://de.wikipedia.org/wiki/Kaliummetabisulfit"
-      ]
+      "sameAs": []
     },
     {
       "id": "borkosav-l-food",
@@ -579,22 +531,18 @@
         "formula": "C₄H₆O₆"
       },
       "commercialContext": {
-        "gradeOrConcentration": "(L+)",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-borkosav-l-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Tartaric_acid",
-        "https://hu.wikipedia.org/wiki/Bork%C5%91sav",
-        "https://de.wikipedia.org/wiki/Weins%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "borsav-industrial",
@@ -625,22 +573,18 @@
         "formula": "H₃BO₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-borsav-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Boric_acid",
-        "https://hu.wikipedia.org/wiki/B%C3%B3rsav",
-        "https://de.wikipedia.org/wiki/Bors%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "butanol-industrial",
@@ -667,22 +611,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-butanol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/1-Butanol",
-        "https://hu.wikipedia.org/wiki/Butanol",
-        "https://de.wikipedia.org/wiki/1-Butanol"
-      ]
+      "sameAs": []
     },
     {
       "id": "butil-diglikol-industrial",
@@ -709,22 +649,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-butil-diglikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/2-%282-Butoxyethoxy%29ethanol",
-        "https://hu.wikipedia.org/wiki/2-(2-butoxietoxi)etanol",
-        "https://de.wikipedia.org/wiki/2-(2-Butoxyethoxy)ethanol"
-      ]
+      "sameAs": []
     },
     {
       "id": "butil-glikol-industrial",
@@ -755,22 +691,18 @@
         "formula": "C₄H₉OCH₂CH₂OH"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "Drums (200 L), IBC",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-butil-glikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/2-Butoxyethanol",
-        "https://hu.wikipedia.org/wiki/2-butoxi-etanol",
-        "https://de.wikipedia.org/wiki/2-Butoxyethanol"
-      ]
+      "sameAs": []
     },
     {
       "id": "ciklohexanon-industrial",
@@ -800,22 +732,18 @@
         "formula": "C₆H₁₀O"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "Drums (200 L), IBC",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-ciklohexanon-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Cyclohexanone",
-        "https://hu.wikipedia.org/wiki/Ciklohexanon",
-        "https://de.wikipedia.org/wiki/Cyclohexanon"
-      ]
+      "sameAs": []
     },
     {
       "id": "cink-klorid-feed",
@@ -846,22 +774,18 @@
         "formula": "ZnCl₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Anhydrous",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-cink-klorid-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zinc_chloride",
-        "https://hu.wikipedia.org/wiki/Cink-klorid",
-        "https://de.wikipedia.org/wiki/Zinkchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "cink-klorid-vizmentes-industrial",
@@ -893,22 +817,18 @@
         "formula": "ZnCl₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "anhydrous",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-cink-klorid-vizmentes-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zinc_chloride",
-        "https://hu.wikipedia.org/wiki/Cink-klorid",
-        "https://de.wikipedia.org/wiki/Zinkchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "cink-oxid-industrial",
@@ -942,22 +862,18 @@
         "formula": "ZnO"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical; feed grade; pharmaceutical grade",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-cink-oxid-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zinc_oxide",
-        "https://hu.wikipedia.org/wiki/Cink-oxid",
-        "https://de.wikipedia.org/wiki/Zinkoxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "cink-szulfat-monohidrat-feed",
@@ -990,22 +906,18 @@
         "formula": "ZnSO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "monohydrate",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-cink-szulfat-monohidrat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zinc_sulfate",
-        "https://hu.wikipedia.org/wiki/Cink-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Zinksulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "cink-szulfat-monohidrat-heptahidrat-industrial",
@@ -1038,22 +950,18 @@
         "formula": "ZnSO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "monohydrate, heptahydrate",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-cink-szulfat-monohidrat-heptahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zinc_sulfate",
-        "https://hu.wikipedia.org/wiki/Cink-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Zinksulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "citromsav-monohidrat-anhidrat-food",
@@ -1086,22 +994,18 @@
         "formula": "C₆H₈O₇"
       },
       "commercialContext": {
-        "gradeOrConcentration": "monohydrate, anhydrous",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-citromsav-monohidrat-anhidrat-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Citric_acid",
-        "https://hu.wikipedia.org/wiki/Citromsav",
-        "https://de.wikipedia.org/wiki/Citronens%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "diammonium-hidrogenfoszfat-industrial",
@@ -1129,22 +1033,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-diammonium-hidrogenfoszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Diammonium_phosphate",
-        "https://hu.wikipedia.org/wiki/Diamm%C3%B3nium-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Diammoniumhydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "dietilen-glikol-industrial",
@@ -1175,22 +1075,18 @@
         "formula": "C₄H₁₀O₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "Drums (200 L), IBC, tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-dietilen-glikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Diethylene_glycol",
-        "https://hu.wikipedia.org/wiki/Dietil%C3%A9n-glikol",
-        "https://de.wikipedia.org/wiki/Diethylenglykol"
-      ]
+      "sameAs": []
     },
     {
       "id": "dikalium-hidrogen-foszfat-food",
@@ -1217,22 +1113,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-dikalium-hidrogen-foszfat-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Dipotassium_phosphate",
-        "https://hu.wikipedia.org/wiki/Dik%C3%A1lium-hidrog%C3%A9n-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Dikaliumhydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "dinatrium-pirofoszfat-food",
@@ -1261,22 +1153,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-dinatrium-pirofoszfat-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Disodium_pyrophosphate",
-        "https://hu.wikipedia.org/wiki/Din%C3%A1trium-pirofoszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Dinatriumdihydrogendiphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "dinatriumfoszfat-industrial",
@@ -1304,22 +1192,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-dinatriumfoszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Disodium_phosphate",
-        "https://hu.wikipedia.org/wiki/Din%C3%A1trium-hidrog%C3%A9n-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Dinatriumhydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "dinatriumpirofoszfat-industrial",
@@ -1349,22 +1233,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-dinatriumpirofoszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Disodium_pyrophosphate",
-        "https://hu.wikipedia.org/wiki/Din%C3%A1trium-pirofoszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Dinatriumdihydrogendiphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "ecetsav-20-50-60-70-80-99-8-industrial",
@@ -1399,22 +1279,18 @@
         "formula": "CH₃COOH"
       },
       "commercialContext": {
-        "gradeOrConcentration": "20%, 50%, 60%, 70%, 80%, 99.8%",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-ecetsav-20-50-60-70-80-99-8-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Acetic_acid",
-        "https://hu.wikipedia.org/wiki/Ecetsav",
-        "https://de.wikipedia.org/wiki/Essigs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "ecetsav-20-50-60-70-80-99-8-jegecet-food",
@@ -1449,22 +1325,18 @@
         "formula": "CH₃COOH"
       },
       "commercialContext": {
-        "gradeOrConcentration": "20%, 50%, 60%, 70%, 80%, 99.8% (glacial acetic acid)",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-ecetsav-20-50-60-70-80-99-8-jegecet-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Acetic_acid",
-        "https://hu.wikipedia.org/wiki/Ecetsav",
-        "https://de.wikipedia.org/wiki/Essigs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "ecetsavanhidrid-industrial",
@@ -1494,22 +1366,18 @@
         "formula": "(CH₃CO)₂O"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "Drums (200 L), IBC",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-ecetsavanhidrid-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Acetic_anhydride",
-        "https://hu.wikipedia.org/wiki/Ecetsav-anhidrid",
-        "https://de.wikipedia.org/wiki/Essigs%C3%A4ureanhydrid"
-      ]
+      "sameAs": []
     },
     {
       "id": "edta-na2-na4-industrial",
@@ -1538,22 +1406,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "disodium (Na₂) / tetrasodium (Na₄)",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-edta-na2-na4-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ethylenediaminetetraacetic_acid",
-        "https://hu.wikipedia.org/wiki/Etil%C3%A9n-diamin-tetraecetsav",
-        "https://de.wikipedia.org/wiki/Ethylendiamintetraessigs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "etil-acetat-technikai-regeneralt-industrial",
@@ -1586,22 +1450,18 @@
         "formula": "CH₃COOC₂H₅"
       },
       "commercialContext": {
-        "gradeOrConcentration": "technical, regenerated",
-        "packaging": "Drums (200 L), IBC",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-etil-acetat-technikai-regeneralt-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ethyl_acetate",
-        "https://hu.wikipedia.org/wiki/Etil-acet%C3%A1t",
-        "https://de.wikipedia.org/wiki/Ethylacetat"
-      ]
+      "sameAs": []
     },
     {
       "id": "etkezesi-so-food",
@@ -1634,22 +1494,18 @@
         "formula": "NaCl"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Road salt; vacuum salt; tablet salt",
-        "packaging": "Big bagged, bulk, bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-etkezesi-so-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_chloride",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
-        "https://de.wikipedia.org/wiki/Natriumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "foszforsav-75-industrial",
@@ -1681,22 +1537,18 @@
         "formula": "H₃PO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "75%",
-        "packaging": "IBC (1000 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-foszforsav-75-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Phosphoric_acid",
-        "https://hu.wikipedia.org/wiki/Foszforsav",
-        "https://de.wikipedia.org/wiki/Phosphors%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "foszforsav-75-85-food",
@@ -1728,22 +1580,18 @@
         "formula": "H₃PO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "75%, 85%",
-        "packaging": "IBC (1000 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-foszforsav-75-85-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Phosphoric_acid",
-        "https://hu.wikipedia.org/wiki/Foszforsav",
-        "https://de.wikipedia.org/wiki/Phosphors%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "glicerin-industrial",
@@ -1776,22 +1624,18 @@
         "formula": "C₃H₈O₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical; 99.5% food/pharma grade; feed grade",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-glicerin-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Glycerol",
-        "https://hu.wikipedia.org/wiki/Glicerin",
-        "https://de.wikipedia.org/wiki/Glycerin"
-      ]
+      "sameAs": []
     },
     {
       "id": "glicerin-99-5-food",
@@ -1823,22 +1667,18 @@
         "formula": "C₃H₈O₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "99.5%",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-glicerin-99-5-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Glycerol",
-        "https://hu.wikipedia.org/wiki/Glicerin",
-        "https://de.wikipedia.org/wiki/Glycerin"
-      ]
+      "sameAs": []
     },
     {
       "id": "glicin-industrial",
@@ -1871,22 +1711,18 @@
         "formula": "C₂H₅NO₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Feed grade; food grade",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-glicin-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Glycine",
-        "https://hu.wikipedia.org/wiki/Glicin",
-        "https://de.wikipedia.org/wiki/Glycin"
-      ]
+      "sameAs": []
     },
     {
       "id": "hangyasav-85-industrial",
@@ -1918,22 +1754,18 @@
         "formula": "HCOOH"
       },
       "commercialContext": {
-        "gradeOrConcentration": "85%",
-        "packaging": "IBC (1000 L), drums (200 L)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-hangyasav-85-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Formic_acid",
-        "https://hu.wikipedia.org/wiki/Hangyasav",
-        "https://de.wikipedia.org/wiki/Ameisens%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "hidrogen-peroxid-35-50-60-industrial",
@@ -1964,22 +1796,18 @@
         "formula": "H₂O₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "35%, 50%, 60%",
-        "packaging": "IBC (1000 L), drums (200 L)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-hidrogen-peroxid-35-50-60-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Hydrogen_peroxide",
-        "https://hu.wikipedia.org/wiki/Hidrog%C3%A9n-peroxid",
-        "https://de.wikipedia.org/wiki/Wasserstoffperoxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "ioncserelt-viz-industrial",
@@ -2009,22 +1837,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-ioncserelt-viz-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Purified_water",
-        "https://hu.wikipedia.org/wiki/Tiszt%C3%ADtott_v%C3%ADz",
-        "https://de.wikipedia.org/wiki/Gereinigtes_Wasser"
-      ]
+      "sameAs": []
     },
     {
       "id": "izopropil-alkohol-technikai-regeneralt-industrial",
@@ -2057,22 +1881,18 @@
         "formula": "C₃H₇OH"
       },
       "commercialContext": {
-        "gradeOrConcentration": "technical, regenerated",
-        "packaging": "IBC (1000 L), drums (200 L)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-izopropil-alkohol-technikai-regeneralt-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Isopropyl_alcohol",
-        "https://hu.wikipedia.org/wiki/Izopropanol",
-        "https://de.wikipedia.org/wiki/Propan-2-ol"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalcium-jodat-feed",
@@ -2099,22 +1919,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalcium-jodat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_iodate",
-        "https://hu.wikipedia.org/wiki/Kalcium-jod%C3%A1t",
-        "https://de.wikipedia.org/wiki/Calciumiodat"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalcium-karbonat-food",
@@ -2141,22 +1957,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalcium-karbonat-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_carbonate",
-        "https://hu.wikipedia.org/wiki/Kalcium-karbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Calciumcarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalcium-klorid-2025-oldat-deicing",
@@ -2190,22 +2002,18 @@
         "formula": "CaCl₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "20–25% solution",
-        "packaging": "Big bagged, bagged, IBC (solution), tanker (solution)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalcium-klorid-2025-oldat-deicing.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_chloride",
-        "https://hu.wikipedia.org/wiki/Kalcium-klorid",
-        "https://de.wikipedia.org/wiki/Calciumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalcium-klorid-7780-food",
@@ -2238,22 +2046,18 @@
         "formula": "CaCl₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "77–80%",
-        "packaging": "Big bagged, bagged, IBC (solution), tanker (solution)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalcium-klorid-7780-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_chloride",
-        "https://hu.wikipedia.org/wiki/Kalcium-klorid",
-        "https://de.wikipedia.org/wiki/Calciumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalcium-klorid-dihidrat-7880-pikkelyes-deicing",
@@ -2287,22 +2091,18 @@
         "formula": "CaCl₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "dihydrate 78–80% flakes",
-        "packaging": "Big bagged, bagged, IBC (solution), tanker (solution)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalcium-klorid-dihidrat-7880-pikkelyes-deicing.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_chloride",
-        "https://hu.wikipedia.org/wiki/Kalcium-klorid",
-        "https://de.wikipedia.org/wiki/Calciumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-ferrocianid-food",
@@ -2333,22 +2133,18 @@
         "formula": "K₄[Fe(CN)₆]"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Food grade (E536)",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalium-ferrocianid-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_ferrocyanide",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-ferrocianid",
-        "https://de.wikipedia.org/wiki/Kaliumhexacyanoferrat(II)"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-hidroxid-oldat-21-45-4850-industrial",
@@ -2381,22 +2177,18 @@
         "formula": "KOH"
       },
       "commercialContext": {
-        "gradeOrConcentration": "solution 21%, 45%, 48–50%",
-        "packaging": "bagged, BigBag; IBC (solution)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalium-hidroxid-oldat-21-45-4850-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_hydroxide",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-hidroxid",
-        "https://de.wikipedia.org/wiki/Kaliumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-hidroxid-pikkelyes-industrial",
@@ -2429,22 +2221,18 @@
         "formula": "KOH"
       },
       "commercialContext": {
-        "gradeOrConcentration": "flakes",
-        "packaging": "bagged, BigBag; IBC (solution)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalium-hidroxid-pikkelyes-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_hydroxide",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-hidroxid",
-        "https://de.wikipedia.org/wiki/Kaliumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-jodat-feed",
@@ -2471,22 +2259,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalium-jodat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_iodate",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-jod%C3%A1t",
-        "https://de.wikipedia.org/wiki/Kaliumiodat"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-jodid-feed",
@@ -2513,22 +2297,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalium-jodid-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_iodide",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-jodid",
-        "https://de.wikipedia.org/wiki/Kaliumiodid"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-karbonat-industrial",
@@ -2556,22 +2336,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalium-karbonat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Potassium_carbonate",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-karbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Kaliumcarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "kalium-tripolifoszfat-food",
@@ -2598,22 +2374,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kalium-tripolifoszfat-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Triphosphate",
-        "https://hu.wikipedia.org/wiki/Trifoszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Triphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "karbamid-ipari-kezeletlen-industrial",
@@ -2646,22 +2418,18 @@
         "formula": "CO(NH₂)₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "industrial, untreated",
-        "packaging": "Big bagged, bagged; IBC (solution)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-karbamid-ipari-kezeletlen-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Urea",
-        "https://hu.wikipedia.org/wiki/Karbamid",
-        "https://de.wikipedia.org/wiki/Harnstoff"
-      ]
+      "sameAs": []
     },
     {
       "id": "kenpor-industrial",
@@ -2689,22 +2457,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "powder",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kenpor-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sulfur",
-        "https://hu.wikipedia.org/wiki/K%C3%A9n",
-        "https://de.wikipedia.org/wiki/Schwefel"
-      ]
+      "sameAs": []
     },
     {
       "id": "kensav-32-37-50-9597-industrial",
@@ -2736,22 +2500,18 @@
         "formula": "H₂SO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "32%, 37%, 50%, 95–97%",
-        "packaging": "IBC, tanker (ADR transport)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kensav-32-37-50-9597-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sulfuric_acid",
-        "https://hu.wikipedia.org/wiki/K%C3%A9nsav",
-        "https://de.wikipedia.org/wiki/Schwefels%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "klormesz-industrial",
@@ -2779,22 +2539,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-klormesz-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_hypochlorite",
-        "https://hu.wikipedia.org/wiki/Kalcium-hipoklorit",
-        "https://de.wikipedia.org/wiki/Calciumhypochlorit"
-      ]
+      "sameAs": []
     },
     {
       "id": "kobalt-karbonat-feed",
@@ -2821,22 +2577,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-kobalt-karbonat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Cobalt%28II%29_carbonate",
-        "https://hu.wikipedia.org/wiki/Kobalt(II)-karbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Cobalt(II)-carbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-karbonat-konnyu-nehez-industrial",
@@ -2868,22 +2620,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "light, dense",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-magnezium-karbonat-konnyu-nehez-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_carbonate",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-karbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Magnesiumcarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-klorid-food",
@@ -2917,22 +2665,18 @@
         "formula": "MgCl₂·6H₂O"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Flakes (47–50% MgCl₂)",
-        "packaging": "Big bagged, bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-magnezium-klorid-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_chloride",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-klorid",
-        "https://de.wikipedia.org/wiki/Magnesiumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-klorid-hexahidrat-industrial",
@@ -2966,22 +2710,18 @@
         "formula": "MgCl₂·6H₂O"
       },
       "commercialContext": {
-        "gradeOrConcentration": "hexahydrate",
-        "packaging": "Big bagged, bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-magnezium-klorid-hexahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_chloride",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-klorid",
-        "https://de.wikipedia.org/wiki/Magnesiumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-nitrat-industrial",
@@ -3009,22 +2749,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-magnezium-nitrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_nitrate",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-nitr%C3%A1t",
-        "https://de.wikipedia.org/wiki/Magnesiumnitrat"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-oxid-feed",
@@ -3055,22 +2791,18 @@
         "formula": "MgO"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Heavy grade; feed grade",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-magnezium-oxid-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_oxide",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-oxid",
-        "https://de.wikipedia.org/wiki/Magnesiumoxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-oxid-nehez-industrial",
@@ -3102,22 +2834,18 @@
         "formula": "MgO"
       },
       "commercialContext": {
-        "gradeOrConcentration": "dense",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-magnezium-oxid-nehez-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_oxide",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-oxid",
-        "https://de.wikipedia.org/wiki/Magnesiumoxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "magnezium-szulfat-industrial",
@@ -3151,22 +2879,18 @@
         "formula": "MgSO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Anhydrous; heptahydrate (Epsom salt); monohydrate",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-magnezium-szulfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Magnesium_sulfate",
-        "https://hu.wikipedia.org/wiki/Magn%C3%A9zium-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Magnesiumsulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "maleinsav-industrial",
@@ -3197,22 +2921,18 @@
         "formula": "C₄H₄O₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-maleinsav-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Maleic_acid",
-        "https://hu.wikipedia.org/wiki/Maleins%C3%A1v",
-        "https://de.wikipedia.org/wiki/Maleins%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-ii-szulfat-monohidrat-industrial",
@@ -3243,22 +2963,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "monohydrate",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-mangan-ii-szulfat-monohidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Mangan(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-karbonat-industrial",
@@ -3286,22 +3002,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-mangan-karbonat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese%28II%29_carbonate",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-karbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Mangan(II)-carbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-klorid-monohidrat-tetrahidrat-industrial",
@@ -3332,22 +3044,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "monohydrate, tetrahydrate",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-mangan-klorid-monohidrat-tetrahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese%28II%29_chloride",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-klorid",
-        "https://de.wikipedia.org/wiki/Mangan(II)-chlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-klorid-tetrahidrat-feed",
@@ -3376,22 +3084,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-mangan-klorid-tetrahidrat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese%28II%29_chloride",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-klorid",
-        "https://de.wikipedia.org/wiki/Mangan(II)-chlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-oxid-feed",
@@ -3418,22 +3122,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-mangan-oxid-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese_dioxide",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n-dioxid",
-        "https://de.wikipedia.org/wiki/Mangan(IV)-oxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "mangan-szulfat-monohidrat-feed",
@@ -3463,22 +3163,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "monohydrate",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-mangan-szulfat-monohidrat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Manganese%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/Mang%C3%A1n(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Mangan(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "meszhidrat-industrial",
@@ -3506,22 +3202,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-meszhidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_hydroxide",
-        "https://hu.wikipedia.org/wiki/Kalcium-hidroxid",
-        "https://de.wikipedia.org/wiki/Calciumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "meszhidrat-15-industrial",
@@ -3549,22 +3241,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "15%",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-meszhidrat-15-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Calcium_hydroxide",
-        "https://hu.wikipedia.org/wiki/Kalcium-hidroxid",
-        "https://de.wikipedia.org/wiki/Calciumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "metanol-technikai-regeneralt-industrial",
@@ -3597,22 +3285,18 @@
         "formula": "CH₃OH"
       },
       "commercialContext": {
-        "gradeOrConcentration": "technical, regenerated",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-metanol-technikai-regeneralt-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Methanol",
-        "https://hu.wikipedia.org/wiki/Metanol",
-        "https://de.wikipedia.org/wiki/Methanol"
-      ]
+      "sameAs": []
     },
     {
       "id": "monoammonium-foszfat-industrial",
@@ -3640,22 +3324,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-monoammonium-foszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ammonium_dihydrogen_phosphate",
-        "https://hu.wikipedia.org/wiki/Amm%C3%B3nium-dihidrog%C3%A9n-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Ammoniumdihydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "monoetanolamin-industrial",
@@ -3686,22 +3366,18 @@
         "formula": "HOCH₂CH₂NH₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "IBC (1000 L), drums (200 L)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-monoetanolamin-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ethanolamine",
-        "https://hu.wikipedia.org/wiki/Etanol-amin",
-        "https://de.wikipedia.org/wiki/Ethanolamin"
-      ]
+      "sameAs": []
     },
     {
       "id": "monoetilen-glikol-industrial",
@@ -3732,22 +3408,18 @@
         "formula": "C₂H₆O₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-monoetilen-glikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ethylene_glycol",
-        "https://hu.wikipedia.org/wiki/Etil%C3%A9n-glikol",
-        "https://de.wikipedia.org/wiki/Ethan-1,2-diol"
-      ]
+      "sameAs": []
     },
     {
       "id": "monokalium-foszfat-industrial",
@@ -3775,22 +3447,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-monokalium-foszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Monopotassium_phosphate",
-        "https://hu.wikipedia.org/wiki/K%C3%A1lium-dihidrog%C3%A9n-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Kaliumdihydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "mononatrium-foszfat-industrial",
@@ -3818,22 +3486,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-mononatrium-foszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Monosodium_phosphate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-dihidrog%C3%A9n-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumdihydrogenphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "monopropilenglikol-industrial",
@@ -3867,22 +3531,18 @@
         "formula": "C₃H₈O₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Industrial; USP/food grade; feed grade",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-monopropilenglikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Propylene_glycol",
-        "https://hu.wikipedia.org/wiki/Propil%C3%A9n-glikol",
-        "https://de.wikipedia.org/wiki/Propylenglykol"
-      ]
+      "sameAs": []
     },
     {
       "id": "na-hexametafoszfat-industrial",
@@ -3910,22 +3570,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-na-hexametafoszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_hexametaphosphate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hexametafoszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumhexametaphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-acetat-vizmentes-3h2o-industrial",
@@ -3955,22 +3611,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "anhydrous, 3H₂O",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-acetat-vizmentes-3h2o-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_acetate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-acet%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumacetat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-benzoat-gran-food",
@@ -4000,22 +3652,18 @@
         "formula": "C₇H₅NaO₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "granular",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-benzoat-gran-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_benzoate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-benzoát",
-        "https://de.wikipedia.org/wiki/Natriumbenzoat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-hidrogen-karbonat-industrial",
@@ -4047,22 +3695,18 @@
         "formula": "NaHCO₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Food grade; technical",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-hidrogen-karbonat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_bicarbonate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidrogén-karbonát",
-        "https://de.wikipedia.org/wiki/Natriumhydrogencarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-hidrogen-karbonat-szodabikarbona-food",
@@ -4096,22 +3740,18 @@
         "formula": "NaHCO₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "(baking soda)",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-hidrogen-karbonat-szodabikarbona-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_bicarbonate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidrogén-karbonát",
-        "https://de.wikipedia.org/wiki/Natriumhydrogencarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-hidroxid-mikrogyongy-pikkelyes-industrial",
@@ -4144,22 +3784,18 @@
         "formula": "NaOH"
       },
       "commercialContext": {
-        "gradeOrConcentration": "flakes",
-        "packaging": "bagged, BigBag; IBC, tanker (solution)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-hidroxid-mikrogyongy-pikkelyes-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_hydroxide",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidroxid",
-        "https://de.wikipedia.org/wiki/Natriumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-hidroxid-oldat-4850-industrial",
@@ -4192,22 +3828,18 @@
         "formula": "NaOH"
       },
       "commercialContext": {
-        "gradeOrConcentration": "solution 48–50%",
-        "packaging": "bagged, BigBag; IBC, tanker (solution)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-hidroxid-oldat-4850-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_hydroxide",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hidroxid",
-        "https://de.wikipedia.org/wiki/Natriumhydroxid"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-hipoklorit-150-g-l-90-g-l-industrial",
@@ -4238,22 +3870,18 @@
         "formula": "NaOCl"
       },
       "commercialContext": {
-        "gradeOrConcentration": "150 g/l, 90 g/l",
-        "packaging": "IBC (1000 L), drums (200 L)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-hipoklorit-150-g-l-90-g-l-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_hypochlorite",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-hipoklorit",
-        "https://de.wikipedia.org/wiki/Natriumhypochlorit"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-karbonat-konnyu-industrial",
@@ -4286,22 +3914,18 @@
         "formula": "Na₂CO₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "light",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-karbonat-konnyu-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_carbonate",
-        "https://hu.wikipedia.org/wiki/Nátriumkarbonát",
-        "https://de.wikipedia.org/wiki/Natriumcarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-karbonat-nehez-industrial",
@@ -4334,22 +3958,18 @@
         "formula": "Na₂CO₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "dense",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-karbonat-nehez-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_carbonate",
-        "https://hu.wikipedia.org/wiki/Nátriumkarbonát",
-        "https://de.wikipedia.org/wiki/Natriumcarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-metabiszulfit-natrium-piroszulfit-industrial",
@@ -4383,22 +4003,18 @@
         "formula": "Na₂S₂O₅"
       },
       "commercialContext": {
-        "gradeOrConcentration": "(sodium pyrosulfite)",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-metabiszulfit-natrium-piroszulfit-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_metabisulfite",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-metabiszulfit",
-        "https://de.wikipedia.org/wiki/Natriumdisulfit"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-metaszilikat-industrial",
@@ -4429,22 +4045,18 @@
         "formula": "Na₂SiO₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Anhydrous; pentahydrate",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-metaszilikat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_metasilicate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-metaszilik%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriummetasilicat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-molibdat-feed",
@@ -4476,22 +4088,18 @@
         "formula": "Na₂MoO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical; feed grade",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-molibdat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_molybdate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-molibd%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriummolybdat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-perkarbonat-industrial",
@@ -4522,22 +4130,18 @@
         "formula": "2Na₂CO₃·3H₂O₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-perkarbonat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_percarbonate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-perkarbon%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumpercarbonat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-permanganat-40-oldat-industrial",
@@ -4566,22 +4170,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "40% solution",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-permanganat-40-oldat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_permanganate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-permangan%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumpermanganat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-perszulfat-industrial",
@@ -4609,22 +4209,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-perszulfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_persulfate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-perszulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumpersulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-szelenit-feed",
@@ -4651,22 +4247,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-szelenit-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_selenite",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-szelenit",
-        "https://de.wikipedia.org/wiki/Natriumselenit"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-szulfat-industrial",
@@ -4697,22 +4289,18 @@
         "formula": "Na₂SO₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "anhydrous (salt-cake / industrial grade)",
-        "packaging": "Big bagged, bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-szulfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_sulfate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumsulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natrium-tripolifoszfat-industrial",
@@ -4744,22 +4332,18 @@
         "formula": "Na₅P₃O₁₀"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical; food grade",
-        "packaging": "bagged, BigBag",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natrium-tripolifoszfat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_triphosphate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-tripolifoszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumtriphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "natronvizuveg-oldatok-industrial",
@@ -4789,22 +4373,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "solutions",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-natronvizuveg-oldatok-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_silicate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-szilik%C3%A1t",
-        "https://de.wikipedia.org/wiki/Natriumsilicat"
-      ]
+      "sameAs": []
     },
     {
       "id": "propionsav-99-feed",
@@ -4835,22 +4415,18 @@
         "formula": "C₃H₆O₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "99%",
-        "packaging": "IBC (1000 L), drums (200 L)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-propionsav-99-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Propionic_acid",
-        "https://hu.wikipedia.org/wiki/Propions%C3%A1v",
-        "https://de.wikipedia.org/wiki/Propions%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "rez-klorid-dihidrat-industrial",
@@ -4879,22 +4455,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "dihydrate",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-rez-klorid-dihidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Copper%28II%29_chloride",
-        "https://hu.wikipedia.org/wiki/R%C3%A9z(II)-klorid",
-        "https://de.wikipedia.org/wiki/Kupfer(II)-chlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "rez-szulfat-feed",
@@ -4921,22 +4493,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-rez-szulfat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Copper%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/R%C3%A9z(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Kupfer(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "rez-szulfat-pentahidrat-industrial",
@@ -4965,22 +4533,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "pentahydrate",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-rez-szulfat-pentahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Copper%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/R%C3%A9z(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Kupfer(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "saletromsav-20-50-53-60-industrial",
@@ -5011,22 +4575,18 @@
         "formula": "HNO₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "20%, 50%, 53%, 60%",
-        "packaging": "IBC, drums (ADR)",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-saletromsav-20-50-53-60-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Nitric_acid",
-        "https://hu.wikipedia.org/wiki/Sal%C3%A9tromsav",
-        "https://de.wikipedia.org/wiki/Salpeter%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "sosav-gyogyszerkonyvi-food",
@@ -5058,22 +4618,18 @@
         "formula": "HCl (aq)"
       },
       "commercialContext": {
-        "gradeOrConcentration": "pharmacopoeial grade",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-sosav-gyogyszerkonyvi-food.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Hydrochloric_acid",
-        "https://hu.wikipedia.org/wiki/S%C3%B3sav",
-        "https://de.wikipedia.org/wiki/Salzs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "sosav-technikai-regeneralt-industrial",
@@ -5106,22 +4662,18 @@
         "formula": "HCl (aq)"
       },
       "commercialContext": {
-        "gradeOrConcentration": "technical, regenerated",
-        "packaging": "IBC (1000 L), drums (200 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-sosav-technikai-regeneralt-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Hydrochloric_acid",
-        "https://hu.wikipedia.org/wiki/S%C3%B3sav",
-        "https://de.wikipedia.org/wiki/Salzs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "sotabletta-industrial",
@@ -5154,22 +4706,18 @@
         "formula": "NaCl"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Road salt; vacuum salt; tablet salt",
-        "packaging": "Big bagged, bulk, bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-sotabletta-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_chloride",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
-        "https://de.wikipedia.org/wiki/Natriumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "tiokarbamid-industrial",
@@ -5200,22 +4748,18 @@
         "formula": "SC(NH₂)₂"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-tiokarbamid-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Thiourea",
-        "https://hu.wikipedia.org/wiki/Tiokarbamid",
-        "https://de.wikipedia.org/wiki/Thioharnstoff"
-      ]
+      "sameAs": []
     },
     {
       "id": "trietilen-glikol-industrial",
@@ -5246,22 +4790,18 @@
         "formula": "C₆H₁₄O₄"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Technical",
-        "packaging": "Drums (200 L), IBC",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-trietilen-glikol-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Triethylene_glycol",
-        "https://hu.wikipedia.org/wiki/Trietil%C3%A9n-glikol",
-        "https://de.wikipedia.org/wiki/Triethylenglykol"
-      ]
+      "sameAs": []
     },
     {
       "id": "trilon-industrial",
@@ -5288,22 +4828,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-trilon-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Ethylenediaminetetraacetic_acid",
-        "https://hu.wikipedia.org/wiki/Etil%C3%A9n-diamin-tetraecetsav",
-        "https://de.wikipedia.org/wiki/Ethylendiamintetraessigs%C3%A4ure"
-      ]
+      "sameAs": []
     },
     {
       "id": "trinatrium-citrat-industrial",
@@ -5333,22 +4869,18 @@
         "formula": "Na₃C₆H₅O₇"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Food grade dihydrate",
-        "packaging": "bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-trinatrium-citrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Trisodium_citrate",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-citr%C3%A1t",
-        "https://de.wikipedia.org/wiki/Trinatriumcitrat"
-      ]
+      "sameAs": []
     },
     {
       "id": "trinatrium-foszfat-dodekahidrat-vizmentes-industrial",
@@ -5379,22 +4911,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "dodecahydrate, anhydrous",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-trinatrium-foszfat-dodekahidrat-vizmentes-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Trisodium_phosphate",
-        "https://hu.wikipedia.org/wiki/Trin%C3%A1trium-foszf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Trinatriumphosphat"
-      ]
+      "sameAs": []
     },
     {
       "id": "utszoro-so-deicing",
@@ -5426,22 +4954,18 @@
         "formula": "NaCl"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Road salt; vacuum salt; tablet salt",
-        "packaging": "Big bagged, bulk, bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-utszoro-so-deicing.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_chloride",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
-        "https://de.wikipedia.org/wiki/Natriumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "utszoro-zeolit-deicing",
@@ -5468,22 +4992,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": null,
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-utszoro-zeolit-deicing.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Zeolite",
-        "https://hu.wikipedia.org/wiki/Zeolit",
-        "https://de.wikipedia.org/wiki/Zeolith"
-      ]
+      "sameAs": []
     },
     {
       "id": "vakuum-so-industrial",
@@ -5516,22 +5036,18 @@
         "formula": "NaCl"
       },
       "commercialContext": {
-        "gradeOrConcentration": "Road salt; vacuum salt; tablet salt",
-        "packaging": "Big bagged, bulk, bagged",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-vakuum-so-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Sodium_chloride",
-        "https://hu.wikipedia.org/wiki/N%C3%A1trium-klorid",
-        "https://de.wikipedia.org/wiki/Natriumchlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "vas-ii-szulfat-monohidrat-feed",
@@ -5559,22 +5075,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "monohydrate",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-vas-ii-szulfat-monohidrat-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Iron%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/Vas(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Eisen(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "vas-ii-szulfat-monohidrat-heptahidrat-industrial",
@@ -5603,22 +5115,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "monohydrate, heptahydrate",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-vas-ii-szulfat-monohidrat-heptahidrat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Iron%28II%29_sulfate",
-        "https://hu.wikipedia.org/wiki/Vas(II)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Eisen(II)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "vas-iii-klorid-40-oldat-industrial",
@@ -5650,22 +5158,18 @@
         "formula": "FeCl₃"
       },
       "commercialContext": {
-        "gradeOrConcentration": "40% solution",
-        "packaging": "IBC (1000 L), tanker",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "SDS available or confirmed on B2B request.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-vas-iii-klorid-40-oldat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Iron%28III%29_chloride",
-        "https://hu.wikipedia.org/wiki/Vas(III)-klorid",
-        "https://de.wikipedia.org/wiki/Eisen(III)-chlorid"
-      ]
+      "sameAs": []
     },
     {
       "id": "vas-iii-szulfat-40-oldat-industrial",
@@ -5694,22 +5198,18 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "40% solution",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-vas-iii-szulfat-40-oldat-industrial.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Iron%28III%29_sulfate",
-        "https://hu.wikipedia.org/wiki/Vas(III)-szulf%C3%A1t",
-        "https://de.wikipedia.org/wiki/Eisen(III)-sulfat"
-      ]
+      "sameAs": []
     },
     {
       "id": "vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed",
@@ -5733,23 +5233,52 @@
         "formula": null
       },
       "commercialContext": {
-        "gradeOrConcentration": "A, B1, B12, B5, B6, C, D3, E, H, K3",
-        "packaging": "Confirmed individually for each B2B inquiry",
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
         "deliveryRegion": "Hungary, Austria, DACH and Europe",
         "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
       },
       "documentation": {
-        "SDS": "Documentation confirmed upon B2B inquiry.",
-        "TDS": "TDS confirmed upon B2B inquiry.",
-        "CoA": "Certificate of Analysis available when supplied by the producer."
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
       },
       "pageUrl": "https://www.rawmaterialstrade.com/en-vitamin-a-b1-b12-b5-b6-c-d3-e-h-k3-feed.html",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Vitamin",
-        "https://hu.wikipedia.org/wiki/Vitamin",
-        "https://de.wikipedia.org/wiki/Vitamin"
-      ]
+      "sameAs": []
     },
-    {"id":"copper-oxide-feed","entityType":"DefinedTerm","name":"Copper(II) oxide — feed additive orientation","alternateNames":["Copper(II) oxide","Cupric oxide"],"description":"Copper(II) oxide is a B2B feed-material inquiry item. Final grade, suitability and documentation are confirmed individually.","categories":["Feed Additives & Feed Raw Materials"],"applications":["feed-material sourcing subject to current supplier documentation"],"identity":{"CAS":"1317-38-0","EC":"215-269-1","formula":"CuO"},"commercialContext":{"gradeOrConcentration":"Feed-grade orientation; confirm individually","packaging":"Confirmed individually for each B2B inquiry","deliveryRegion":"Hungary, Austria, DACH and Europe","availabilityNote":"Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."},"documentation":{"SDS":"Documentation confirmed upon B2B inquiry.","TDS":"TDS confirmed upon B2B inquiry.","CoA":"Certificate of Analysis available when supplied by the producer."},"pageUrl":"https://www.rawmaterialstrade.com/en-copper-oxide-feed.html","sameAs":["https://en.wikipedia.org/wiki/Copper(II)_oxide","https://hu.wikipedia.org/wiki/R%C3%A9z(II)-oxid","https://de.wikipedia.org/wiki/Kupfer(II)-oxid"]}
+    {
+      "id": "copper-oxide-feed",
+      "entityType": "DefinedTerm",
+      "name": "Copper(II) oxide — feed additive orientation",
+      "alternateNames": [
+        "Copper(II) oxide",
+        "Cupric oxide"
+      ],
+      "description": "Copper(II) oxide is a B2B feed-material inquiry item. Final grade, suitability and documentation are confirmed individually.",
+      "categories": [
+        "Feed Additives & Feed Raw Materials"
+      ],
+      "applications": [
+        "feed-material sourcing subject to current supplier documentation"
+      ],
+      "identity": {
+        "CAS": "1317-38-0",
+        "EC": "215-269-1",
+        "formula": "CuO"
+      },
+      "commercialContext": {
+        "gradeOrConcentration": "Offered grade, purity, concentration and form are confirmed after contact from the selected supplier's current documents.",
+        "packaging": "Packaging is confirmed with the selected supplier after enquiry.",
+        "deliveryRegion": "Hungary, Austria, DACH and Europe",
+        "availabilityNote": "Availability, packaging, delivery terms and lead time are confirmed individually for each B2B inquiry."
+      },
+      "documentation": {
+        "SDS": "Availability of the supplier SDS is checked after enquiry.",
+        "TDS": "Availability of the supplier TDS is checked after enquiry.",
+        "CoA": "Lot-specific CoA availability is checked after enquiry."
+      },
+      "pageUrl": "https://www.rawmaterialstrade.com/en-copper-oxide-feed.html",
+      "sameAs": []
+    }
   ]
 }
